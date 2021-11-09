@@ -1,0 +1,17 @@
+.navStyle {
+	font-family: "Messina";
+	text-transform: "uppercase";
+	font-size: 1.8em;
+	background: transparent;
+	z-index: 10;
+	transition: background-color 0.15s linear, transform 0.2s ease-in-out,
+		-webkit-transform 0.2s ease-in-out;
+}
+
+.linkText {
+	color: #ffffff;
+}
+
+.navbarNav {
+	align-items: center;
+}

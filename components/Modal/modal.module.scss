@@ -1,0 +1,43 @@
+.modalArtistDescription {
+	white-space: pre-line;
+}
+
+.modalLinks {
+	text-align: center;
+	margin-top: 2%;
+}
+
+.overlayer {
+	position: absolute;
+	z-index: 12;
+	top: 50%;
+	margin-top: -10vh;
+	left: 50%;
+	margin-left: -25%;
+	margin-right: 25%;
+}
+
+.modalFlexBox {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.btn-spotify {
+	background-color: #1db954;
+	color: #fff;
+}
+
+.btn-insta {
+	background-color: #fb3958;
+	color: #fff;
+}
+
+.btn-eggboy {
+	background-color: #26326d;
+	color: #fff;
+}
+
+.btn-post {
+	background-color: #d9689e;
+	color: #fff;
+}

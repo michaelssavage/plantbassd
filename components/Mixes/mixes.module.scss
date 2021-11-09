@@ -1,0 +1,48 @@
+.mixSection {
+	background: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 1) 75%,
+		#9ccea3 100%
+	);
+	padding: 4vmax 0;
+}
+
+.mixHeader {
+	text-align: center;
+	padding: 0 0 4vmax 0;
+	font-size: 4rem;
+	color: rgba(30, 30, 30, 0.85);
+}
+
+.radioImage {
+	max-width: 60%;
+	transition: transform 500ms ease-out, -webkit-transform 500ms ease-out;
+	transform-origin: center center;
+}
+
+.radioImage:hover {
+	transform: scale(1.04);
+}
+
+.phoneMargin {
+	margin-top: 3rem;
+	margin-bottom: 0rem;
+}
+
+@media (max-width: 1200px) {
+	.phoneMargin {
+		margin-top: 1.2rem;
+		margin-bottom: 2rem;
+	}
+}
+
+@media (max-width: 767px) {
+	.phoneMargin {
+		margin-top: 0rem;
+		margin-bottom: 0rem;
+	}
+}
+
+.bottomBtn {
+	margin-top: 5rem;
+}
