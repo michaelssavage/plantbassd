@@ -43,7 +43,12 @@ export default function PostPage({
 							}}
 						></div>
 						<div className="d-flex justify-content-center">
-							<Image src={tracklist} width={600} height={600} />
+							<Image
+								src={tracklist}
+								width={600}
+								height={600}
+								alt="artist tracklist"
+							/>
 						</div>
 					</div>
 				</Row>

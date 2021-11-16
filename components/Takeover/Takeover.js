@@ -12,7 +12,7 @@ export default function Takeover({ takeovers }) {
 				<Row xs={1} md={1}>
 					{takeovers.map((artist, index) => (
 						<Col key={index} lg={true} className="py-2">
-							<Link href={`takeovers/${artist.slug}`}>
+							<Link href={`takeovers/${artist.slug}`} passHref>
 								<Card className={styles.cardStyle}>
 									<Card.Img
 										variant="top"

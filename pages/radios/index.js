@@ -39,7 +39,10 @@ export default function RadioPage({ radios }) {
 					<Row className={`${styles.radioGrid} g-3`}>
 						{artists.map((artist, index) => (
 							<Col key={index} xl={6} lg={6} md={6} xs={12}>
-								<Link href={`takeovers/${artist.slug}`}>
+								<Link
+									href={`takeovers/${artist.slug}`}
+									passHref
+								>
 									<Card className={styles.cardStyle}>
 										<Card.Img
 											variant="top"

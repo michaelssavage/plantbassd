@@ -13,7 +13,7 @@ export default function Radio({ radios }) {
 					<Row xs={1} md={1}>
 						{radios.map((artist, index) => (
 							<Col key={index} lg={true} className="py-2">
-								<Link href={`radios/${artist.slug}`}>
+								<Link href={`radios/${artist.slug}`} passHref>
 									<Card className={styles.cardStyle}>
 										<Card.Img
 											variant="top"

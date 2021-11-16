@@ -38,7 +38,10 @@ export default function TakeoverPage({ takeovers }) {
 					<Row className={`g-5 ${styles.toGrid}`}>
 						{artists.map((artist, index) => (
 							<Col key={index} xl={4} lg={6} md={6} xs={12}>
-								<Link href={`takeovers/${artist.slug}`}>
+								<Link
+									href={`takeovers/${artist.slug}`}
+									passHref
+								>
 									<Card className={styles.cardStyle}>
 										<Card.Img
 											variant="top"
