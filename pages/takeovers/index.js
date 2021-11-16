@@ -11,7 +11,6 @@ import matter from "gray-matter";
 import { sortByDate } from "../../utils";
 
 export default function TakeoverPage({ takeovers }) {
-	const artists = takeovers.reverse();
 	return (
 		<>
 			<Head>
@@ -36,7 +35,7 @@ export default function TakeoverPage({ takeovers }) {
 					</p>
 
 					<Row className={`g-5 ${styles.toGrid}`}>
-						{artists.map((artist, index) => (
+						{takeovers.map((artist, index) => (
 							<Col key={index} xl={4} lg={6} md={6} xs={12}>
 								<Link
 									href={`takeovers/${artist.slug}`}
@@ -82,7 +81,7 @@ export async function getStaticProps() {
 
 	return {
 		props: {
-			takeovers: takeovers.sort(sortByDate),
+			takeovers: takeovers.sort(sortByDate).reverse(),
 		},
 	};
 }

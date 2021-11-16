@@ -11,9 +11,6 @@ import matter from "gray-matter";
 import { sortByDate } from "../utils";
 
 export default function Home({ takeovers, radios }) {
-	const numTakeovers = takeovers.length;
-	const artists = takeovers.slice(numTakeovers - 3, numTakeovers).reverse();
-
 	return (
 		<>
 			<Head>
@@ -42,7 +39,7 @@ export default function Home({ takeovers, radios }) {
 
 			<Mixes />
 
-			<Takeover takeovers={artists} />
+			<Takeover takeovers={takeovers} />
 
 			<Radio radios={radios} />
 		</>
@@ -51,13 +48,18 @@ export default function Home({ takeovers, radios }) {
 
 export async function getStaticProps() {
 	// get files from the takeover directory
-	const takeovers = getPosts("posts/takeovers");
-	const radios = getPosts("posts/radios");
+	let takeovers = getPosts("posts/takeovers");
+	takeovers = takeovers.sort(sortByDate);
+	const numTakeovers = takeovers.length;
+	takeovers = takeovers.slice(numTakeovers - 3, numTakeovers).reverse();
+
+	let radios = getPosts("posts/radios");
+	radios = radios.sort(sortByDate);
 
 	return {
 		props: {
-			takeovers: takeovers.sort(sortByDate),
-			radios: radios.sort(sortByDate),
+			takeovers,
+			radios,
 		},
 	};
 }
