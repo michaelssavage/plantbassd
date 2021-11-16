@@ -1,0 +1,38 @@
+.card {
+	padding: 2rem;
+	// border-radius: 10px;
+	// box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.postTitle {
+	margin: 10px 0;
+}
+
+.postDate {
+	background: #f4f4f4;
+	margin-bottom: 20px;
+	padding: 3px 10px;
+}
+
+.postBody pre {
+	background: #f4f4f4;
+	padding: 20px;
+	margin: 20px 0;
+	line-height: 2.3;
+}
+
+.imageHolder {
+	padding: 0 4em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (max-width: 500px) {
+	.posts {
+		grid-template-columns: 1fr;
+	}
+}
+
+.bottomBtn {
+	margin-top: 5rem;
+}

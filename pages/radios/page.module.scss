@@ -1,0 +1,45 @@
+.radioColor {
+	background-color: #9bd3a4;
+	min-height: 100vh;
+}
+
+.radioHeader {
+	padding-top: 30vh;
+	text-align: center;
+	font-size: 4rem;
+	color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.radioText {
+	font-size: 1.4em;
+	text-align: center;
+	margin-bottom: 1.5em;
+	color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.cardStyle {
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cardStyle:hover {
+	opacity: 0.8;
+	filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+}
+
+.radioGrid {
+	padding: 0 20% 2% 20%;
+}
+
+@media (max-width: 992px) {
+	.radioGrid {
+		padding: 0 0% 2% 0%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.radioGrid {
+		padding: 0 10% 2% 10%;
+	}
+}

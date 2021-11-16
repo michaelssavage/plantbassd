@@ -1,6 +1,7 @@
 import { Navbar, Nav } from "react-bootstrap";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
+import Router from "next/router";
 import styles from "./navbar.module.scss";
 
 export default function NavbarComponent({ dark }) {
@@ -28,7 +29,10 @@ export default function NavbarComponent({ dark }) {
 				className={`${styles.navStyle} p-4 `}
 				fixed="top"
 			>
-				<Navbar.Brand href="/">
+				<Navbar.Brand
+					className={styles.linkText}
+					onClick={() => Router.push("/")}
+				>
 					<Image
 						alt="plant bassd logo"
 						src="/images/logo_circle.png"
@@ -48,16 +52,28 @@ export default function NavbarComponent({ dark }) {
 				>
 					{show ? (
 						<Nav>
-							<Nav.Link className="px-4" href="/">
+							<Nav.Link
+								className="px-4"
+								onClick={() => Router.push("/")}
+							>
 								<h4 className={styles.linkText}>Home</h4>
 							</Nav.Link>
-							<Nav.Link className="px-4" href="/radio">
+							<Nav.Link
+								className="px-4"
+								onClick={() => Router.push("/radios")}
+							>
 								<h4 className={styles.linkText}>Radio</h4>
 							</Nav.Link>
-							<Nav.Link className="px-4" href="/takeovers">
+							<Nav.Link
+								className="px-4"
+								onClick={() => Router.push("/takeovers")}
+							>
 								<h4 className={styles.linkText}>Takeovers</h4>
 							</Nav.Link>
-							<Nav.Link className="px-4" href="/contact-us">
+							<Nav.Link
+								className="px-4"
+								onClick={() => Router.push("/contact-us")}
+							>
 								<h4 className={styles.linkText}>Contact Us</h4>
 							</Nav.Link>
 						</Nav>

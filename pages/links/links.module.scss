@@ -1,0 +1,55 @@
+.logo {
+	margin: 2rem 0;
+}
+
+.linkPage {
+	min-height: 100vh;
+	background: linear-gradient(180deg, #f9ba63 0%, #d9689e 50%, #26326d 100%);
+}
+
+.socialIcon {
+	height: 3rem;
+	width: 3rem;
+}
+
+.buttonStyle {
+	padding: 1rem 0;
+}
+
+.pushSides {
+	padding: 2rem 25rem 4rem 25rem;
+}
+
+@media (max-width: 1400px) {
+	.pushSides {
+		padding: 2rem 20rem 4rem 20rem;
+	}
+}
+
+@media (max-width: 1200px) {
+	.pushSides {
+		padding: 2rem 15rem 4rem 15rem;
+	}
+}
+
+@media (max-width: 992px) {
+	.pushSides {
+		padding: 2rem 10rem 4rem 10rem;
+	}
+}
+
+@media (max-width: 768px) {
+	.pushSides {
+		padding: 2rem 5rem 4rem 5rem;
+	}
+}
+
+@media (max-width: 576px) {
+	.pushSides {
+		padding: 2rem 2rem 4rem 2rem;
+	}
+}
+
+.btn-text {
+	color: #ffffff;
+}

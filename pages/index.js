@@ -3,13 +3,17 @@ import Navbar from "../components/Navbar/Navbar.js";
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 import Mixes from "../components/Mixes/Mixes.js";
 import Takeover from "../components/Takeover/Takeover.js";
+import Radio from "../components/Radio/Radio.js";
 
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import Post from "../components/Post.js";
+import { sortByDate } from "../utils";
 
-export default function Home({ posts }) {
+export default function Home({ takeovers, radios }) {
+	const numTakeovers = takeovers.length;
+	const artists = takeovers.slice(numTakeovers - 3, numTakeovers).reverse();
+
 	return (
 		<>
 			<Head>
@@ -38,28 +42,36 @@ export default function Home({ posts }) {
 
 			<Mixes />
 
-			<Takeover posts={posts} />
+			<Takeover takeovers={artists} />
 
-			{/* <div>
-				{posts.map((post, index) => (
-					<Post key={index} post={post} />
-				))}
-			</div> */}
+			<Radio radios={radios} />
 		</>
 	);
 }
 
 export async function getStaticProps() {
 	// get files from the takeover directory
-	const files = fs.readdirSync(path.join("posts"));
+	const takeovers = getPosts("posts/takeovers");
+	const radios = getPosts("posts/radios");
 
-	//get Slug and frontmatter from posts
-	const posts = files.map((filename) => {
+	return {
+		props: {
+			takeovers: takeovers.sort(sortByDate),
+			radios: radios.sort(sortByDate),
+		},
+	};
+}
+
+function getPosts(directory) {
+	const files = fs.readdirSync(path.join(directory));
+
+	//return Slug and frontmatter from takeover posts
+	return files.map((filename) => {
 		const slug = filename.replace(".md", "");
 
 		// get frontmatter
 		const markdownWithMeta = fs.readFileSync(
-			path.join("posts", filename),
+			path.join(directory, filename),
 			"utf-8"
 		);
 
@@ -69,10 +81,4 @@ export async function getStaticProps() {
 			frontmatter,
 		};
 	});
-
-	return {
-		props: {
-			posts,
-		},
-	};
 }
