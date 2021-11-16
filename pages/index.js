@@ -4,7 +4,12 @@ import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 import Mixes from "../components/Mixes/Mixes.js";
 import Takeover from "../components/Takeover/Takeover.js";
 
-export default function Home() {
+import fs from "fs";
+import path from "path";
+import matter from "gray-matter";
+import Post from "../components/Post.js";
+
+export default function Home({ posts }) {
 	return (
 		<>
 			<Head>
@@ -33,7 +38,41 @@ export default function Home() {
 
 			<Mixes />
 
-			<Takeover />
+			<Takeover posts={posts} />
+
+			{/* <div>
+				{posts.map((post, index) => (
+					<Post key={index} post={post} />
+				))}
+			</div> */}
 		</>
 	);
+}
+
+export async function getStaticProps() {
+	// get files from the takeover directory
+	const files = fs.readdirSync(path.join("posts"));
+
+	//get Slug and frontmatter from posts
+	const posts = files.map((filename) => {
+		const slug = filename.replace(".md", "");
+
+		// get frontmatter
+		const markdownWithMeta = fs.readFileSync(
+			path.join("posts", filename),
+			"utf-8"
+		);
+
+		const { data: frontmatter } = matter(markdownWithMeta);
+		return {
+			slug,
+			frontmatter,
+		};
+	});
+
+	return {
+		props: {
+			posts,
+		},
+	};
 }

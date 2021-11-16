@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import styles from "./navbar.module.scss";
 
-export default function NavbarComponent() {
+export default function NavbarComponent({ dark }) {
 	const [show, setShow] = useState(true);
 	const controlNavbar = () => {
 		if (window.scrollY > 300) {
