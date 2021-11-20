@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Navbar from "../components/Navbar/Navbar.js";
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 import Mixes from "../components/Mixes/Mixes.js";
@@ -14,27 +13,17 @@ import { sortByDate } from "../utils";
 export default function Home({ takeovers, radios, icons }) {
 	return (
 		<>
-			<Head>
-				<title>Plant Bass'd</title>
-				<meta name="Plant Bass'd DJs blog" content="Plant Bass'd" />
-				<link rel="icon" href="/pb_favicon.ico" />
-				<meta
-					name="viewport"
-					content="width=device-width, initial-scale=1"
-				/>
-			</Head>
-
 			<Navbar />
 
 			<ParallaxProvider>
 				<ParallaxBanner
 					layers={[
 						{
-							image: "/images/hoodie.jpg",
+							image: "/images/bluetrio.jpg",
 							amount: 0.4,
 						},
 					]}
-					style={{ height: "100vh" }}
+					className="parallaxHeightChange"
 				></ParallaxBanner>
 			</ParallaxProvider>
 

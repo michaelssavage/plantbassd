@@ -38,14 +38,13 @@ export default function NavbarComponent() {
 						src="/images/logo_circle.png"
 						width="100"
 						height="100"
-						className="d-inline-block align-top"
 					/>{" "}
 				</Navbar.Brand>
 
 				{/* When aria-controls clicked it hits the Collapse id. */}
 				<Navbar.Toggle
 					aria-controls="responsive-navbar-nav"
-					className="navbar-dark"
+					className={`${styles.toggler} navbar-dark`}
 				/>
 				<Navbar.Collapse
 					id="responsive-navbar-nav"

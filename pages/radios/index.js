@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 import Navbar from "../../components/Navbar/Navbar.js";
 import Footer from "../../components/Footer/Footer.js";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
@@ -16,16 +15,6 @@ export default function RadioPage({ radios, icons }) {
 	const artists = radios.reverse();
 	return (
 		<>
-			<Head>
-				<title>Plant Bass'd</title>
-				<meta name="Plant Bass'd DJs blog" content="Plant Bass'd" />
-				<link rel="icon" href="/pb_favicon.ico" />
-				<meta
-					name="viewport"
-					content="width=device-width, initial-scale=1"
-				/>
-			</Head>
-
 			<Navbar />
 			<div className={styles.radioDiver}>
 				<Container>

@@ -8,7 +8,7 @@ body {
 
 h1 {
 	font-family: "Messina";
-	text-transform: "uppercase";
+	text-transform: uppercase;
 }
 
 h2 {
@@ -51,9 +51,16 @@ Link {
 	padding: 0 1vmax 4vmax 1vmax;
 	font-size: 4em;
 }
+.parallaxHeightChange {
+	height: 100vh !important;
+}
 
 @media (max-width: 768px) {
 	.globalHeader {
 		font-size: 2em;
+	}
+
+	.parallaxHeightChange {
+		height: 30vh !important;
 	}
 }

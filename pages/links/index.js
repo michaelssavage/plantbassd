@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 import styles from "./links.module.scss";
 import Image from "next/image";
 import { Button, Col, Container, Row } from "react-bootstrap";
@@ -11,16 +10,6 @@ import matter from "gray-matter";
 export default function Links({ links, icons }) {
 	return (
 		<>
-			<Head>
-				<title>Plant Bass'd</title>
-				<meta name="Plant Bass'd DJs blog" content="Plant Bass'd" />
-				<link rel="icon" href="/pb_favicon.ico" />
-				<meta
-					name="viewport"
-					content="width=device-width, initial-scale=1"
-				/>
-			</Head>
-
 			<div className={styles.linkPage}>
 				<Container className={styles.pushSides}>
 					<Row className={`${styles.logo} justify-content-center`}>
