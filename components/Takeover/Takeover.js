@@ -7,13 +7,17 @@ import Router from "next/router";
 export default function Takeover({ takeovers }) {
 	return (
 		<div className={styles.bgGreen}>
-			<h1 className={styles.toHeader}>Plant Bass'd Takeovers</h1>
+			<h1 className={`globalHeader ${styles.header}`}>Takeovers</h1>
 			<Container>
-				<Row xs={1} md={1}>
-					{takeovers.map((artist, index) => (
-						<Col key={index} lg={true} className="py-2">
+				<Row>
+					{takeovers.map((artist) => (
+						<Col
+							key={artist.frontmatter.name}
+							xs={6}
+							className="py-2"
+						>
 							<Link href={`takeovers/${artist.slug}`} passHref>
-								<Card className={styles.cardStyle}>
+								<Card className="globalCardStyle">
 									<Card.Img
 										variant="top"
 										src={artist.frontmatter.pic}
@@ -25,20 +29,14 @@ export default function Takeover({ takeovers }) {
 					))}
 				</Row>
 
-				<Row>
-					<Col>
-						<div
-							className={`${styles.bottomBtn} d-flex flex-column align-items-center`}
-						>
-							<Button
-								size="lg"
-								variant="outline-light"
-								onClick={() => Router.push("/takeovers")}
-							>
-								Read More 🛸
-							</Button>
-						</div>
-					</Col>
+				<Row className="globalBottomBtn">
+					<Button
+						size="lg"
+						variant="outline-light"
+						onClick={() => Router.push("/takeovers")}
+					>
+						Read More 🛸
+					</Button>
 				</Row>
 			</Container>
 		</div>

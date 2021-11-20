@@ -1,16 +1,18 @@
 import React from "react";
 import Head from "next/head";
 import Navbar from "../../components/Navbar/Navbar.js";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import Footer from "../../components/Footer/Footer.js";
+import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import Link from "next/link";
-import styles from "./page.module.scss";
+import Router from "next/router";
+import styles from "../page.module.scss";
 
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { sortByDate } from "../../utils";
 
-export default function TakeoverPage({ takeovers }) {
+export default function TakeoverPage({ takeovers, icons }) {
 	return (
 		<>
 			<Head>
@@ -24,24 +26,26 @@ export default function TakeoverPage({ takeovers }) {
 			</Head>
 
 			<Navbar />
-			<div className={styles.toDiv}>
+			<div className={styles.takeoverDiver}>
 				<Container>
-					<h1 className={styles.toHeader}>Plant Bass'd Takeovers</h1>
+					<h1 className={`globalHeader ${styles.header}`}>
+						Plant Bass'd Takeovers
+					</h1>
 
-					<p className={styles.toText}>
+					<p className={styles.texter}>
 						In 2020, we invited upcoming artists, friends, and
 						exciting talents to share their top 10 tunes that they
 						wanted to play once they returned to the clubs.
 					</p>
 
-					<Row className={`g-5 ${styles.toGrid}`}>
-						{takeovers.map((artist, index) => (
-							<Col key={index} xl={4} lg={6} md={6} xs={12}>
+					<Row className="g-5">
+						{takeovers.map((artist) => (
+							<Col key={artist.frontmatter.name} lg={3} xs={6}>
 								<Link
 									href={`takeovers/${artist.slug}`}
 									passHref
 								>
-									<Card className={styles.cardStyle}>
+									<Card className="globalCardStyle">
 										<Card.Img
 											variant="top"
 											src={artist.frontmatter.pic}
@@ -52,8 +56,20 @@ export default function TakeoverPage({ takeovers }) {
 							</Col>
 						))}
 					</Row>
+
+					<Row className={styles.buttonStyler}>
+						<Button
+							size="lg"
+							variant="outline-light"
+							onClick={() => Router.back()}
+						>
+							Go Back
+						</Button>
+					</Row>
 				</Container>
 			</div>
+
+			<Footer icons={icons} />
 		</>
 	);
 }
@@ -79,9 +95,17 @@ export async function getStaticProps() {
 		};
 	});
 
+	// icons svg src and the link associated with it.
+	const iconsList = fs.readFileSync(
+		path.join("posts/links/icons.md"),
+		"utf-8"
+	);
+	const { data: iconMatter } = matter(iconsList);
+
 	return {
 		props: {
 			takeovers: takeovers.sort(sortByDate).reverse(),
+			icons: iconMatter.icons,
 		},
 	};
 }

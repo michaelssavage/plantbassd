@@ -7,10 +7,7 @@
 	padding: 4vmax 0;
 }
 
-.mixHeader {
-	text-align: center;
-	padding: 0 0 4vmax 0;
-	font-size: 4rem;
+.header {
 	color: rgba(30, 30, 30, 0.85);
 }
 
@@ -24,25 +21,75 @@
 	transform: scale(1.04);
 }
 
-.phoneMargin {
-	margin-top: 3rem;
-	margin-bottom: 0rem;
+.bottomBtn {
+	margin-top: 2em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hoverBtn:hover {
+	color: #fff !important;
+}
+
+// First row - Club Ready
+
+.imageFlex {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.clubDescriptor {
+	display: flex;
+	flex-direction: column;
+}
+
+.clubButton {
+	padding: 1rem 0rem 0rem 0rem;
+	display: flex;
+	justify-content: flex-start;
+}
+
+// Second Row - Chill Out
+
+.imageFlex2 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.chillDescriptor {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	text-align: end;
+}
+
+.chillButton {
+	padding: 3rem 0rem 0rem 0rem;
+	display: flex;
+	justify-content: flex-end;
 }
 
 @media (max-width: 1200px) {
-	.phoneMargin {
-		margin-top: 1.2rem;
-		margin-bottom: 2rem;
+	.imageFlex {
+		justify-content: center;
 	}
-}
-
-@media (max-width: 767px) {
-	.phoneMargin {
-		margin-top: 0rem;
-		margin-bottom: 0rem;
+	.imageFlex2 {
+		justify-content: center;
 	}
-}
-
-.bottomBtn {
-	margin-top: 5rem;
+	.clubButton {
+		justify-content: flex-start;
+		padding: 0.6rem 0rem;
+	}
+	.chillButton {
+		padding: 0.6rem 0rem;
+	}
+	.clubDescriptor {
+		padding-top: 1rem;
+	}
+	.chillDescriptor {
+		padding-top: 1rem;
+		align-items: flex-start;
+		text-align: start;
+	}
 }

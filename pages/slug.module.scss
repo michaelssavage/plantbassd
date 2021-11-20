@@ -5,20 +5,21 @@
 }
 
 .postTitle {
-	margin: 10px 0;
+	margin: 0.5em 0;
 }
 
 .postDate {
 	background: #f4f4f4;
-	margin-bottom: 20px;
-	padding: 3px 10px;
+	margin-bottom: 1em;
+	padding: 0.5em 1em;
+	border-radius: 1em;
 }
 
-.postBody pre {
+.postBody {
 	background: #f4f4f4;
-	padding: 20px;
-	margin: 20px 0;
-	line-height: 2.3;
+	padding: 1em;
+	margin: 1em 0;
+	border-radius: 1em;
 }
 
 .imageHolder {
@@ -27,12 +28,6 @@
 	margin-right: auto;
 }
 
-@media (max-width: 500px) {
-	.posts {
-		grid-template-columns: 1fr;
-	}
-}
-
-.bottomBtn {
-	margin-top: 5rem;
+.hoverLink:hover {
+	color: #ffffff !important;
 }

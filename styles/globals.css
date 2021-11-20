@@ -11,20 +11,49 @@ h1 {
 	text-transform: "uppercase";
 }
 
-h3 {
-	font-size: 1.6em;
+h2 {
+	font-size: 1.6rem;
 }
 
 p {
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 }
 
 a,
 Link {
-	color: inherit;
-	text-decoration: none;
+	color: inherit !important;
+	text-decoration: none !important;
 }
 
 * {
 	box-sizing: border-box;
+}
+
+.globalCardStyle {
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.globalCardStyle:hover {
+	opacity: 0.8;
+	filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+}
+
+.globalBottomBtn {
+	margin-top: 2em !important;
+	padding: 0 2em;
+	align-items: center;
+}
+
+.globalHeader {
+	text-align: center;
+	padding: 0 1vmax 4vmax 1vmax;
+	font-size: 4em;
+}
+
+@media (max-width: 768px) {
+	.globalHeader {
+		font-size: 2em;
+	}
 }

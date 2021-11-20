@@ -4,10 +4,10 @@ import Image from "next/image";
 import Router from "next/router";
 import styles from "./navbar.module.scss";
 
-export default function NavbarComponent({ dark }) {
-	const [show, setShow] = useState(true);
+export default function NavbarComponent() {
+	const [showNavbarLinks, setShow] = useState(true);
 	const controlNavbar = () => {
-		if (window.scrollY > 300) {
+		if (window.scrollY > 300 && window.innerWidth > 992) {
 			setShow(false);
 		} else {
 			setShow(true);
@@ -26,11 +26,11 @@ export default function NavbarComponent({ dark }) {
 			<Navbar
 				collapseOnSelect
 				expand="lg"
-				className={`${styles.navStyle} p-4 `}
+				className={styles.navStyle}
 				fixed="top"
 			>
 				<Navbar.Brand
-					className={styles.linkText}
+					className={styles.logoLink}
 					onClick={() => Router.push("/")}
 				>
 					<Image
@@ -42,15 +42,16 @@ export default function NavbarComponent({ dark }) {
 					/>{" "}
 				</Navbar.Brand>
 
+				{/* When aria-controls clicked it hits the Collapse id. */}
 				<Navbar.Toggle
 					aria-controls="responsive-navbar-nav"
 					className="navbar-dark"
 				/>
 				<Navbar.Collapse
 					id="responsive-navbar-nav"
-					className="justify-content-end"
+					className={styles.collapser}
 				>
-					{show ? (
+					{showNavbarLinks ? (
 						<Nav>
 							<Nav.Link
 								className="px-4"

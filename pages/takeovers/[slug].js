@@ -17,7 +17,7 @@ export default function PostPage({
 }) {
 	return (
 		<>
-			<Navbar dark={true} />
+			<Navbar />
 
 			<ParallaxProvider>
 				<ParallaxBanner
@@ -58,10 +58,10 @@ export default function PostPage({
 							></path>
 						</svg>
 						<Button
-							href="/"
 							size="lg"
 							variant="outline-dark"
-							onClick={() => Router.push("/")}
+							onClick={() => Router.back()}
+							className={styles.hoverLink}
 						>
 							Go Back
 						</Button>
@@ -71,6 +71,7 @@ export default function PostPage({
 							size="lg"
 							variant="outline-dark"
 							href={artistPage}
+							className={styles.hoverLink}
 						>
 							Artist's Page
 						</Button>
@@ -80,6 +81,7 @@ export default function PostPage({
 							size="lg"
 							variant="outline-dark"
 							href={postLink}
+							className={styles.hoverLink}
 						>
 							Post Link
 						</Button>

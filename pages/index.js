@@ -4,13 +4,14 @@ import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 import Mixes from "../components/Mixes/Mixes.js";
 import Takeover from "../components/Takeover/Takeover.js";
 import Radio from "../components/Radio/Radio.js";
+import Footer from "../components/Footer/Footer.js";
 
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { sortByDate } from "../utils";
 
-export default function Home({ takeovers, radios }) {
+export default function Home({ takeovers, radios, icons }) {
 	return (
 		<>
 			<Head>
@@ -42,6 +43,8 @@ export default function Home({ takeovers, radios }) {
 			<Takeover takeovers={takeovers} />
 
 			<Radio radios={radios} />
+
+			<Footer icons={icons} />
 		</>
 	);
 }
@@ -51,15 +54,25 @@ export async function getStaticProps() {
 	let takeovers = getPosts("posts/takeovers");
 	takeovers = takeovers.sort(sortByDate);
 	const numTakeovers = takeovers.length;
-	takeovers = takeovers.slice(numTakeovers - 3, numTakeovers).reverse();
+	takeovers = takeovers.slice(numTakeovers - 4, numTakeovers).reverse();
 
 	let radios = getPosts("posts/radios");
 	radios = radios.sort(sortByDate);
+	const numRadios = radios.length;
+	radios = radios.slice(numRadios - 4, numRadios).reverse();
+
+	// icons svg src and the link associated with it.
+	const iconsList = fs.readFileSync(
+		path.join("posts/links/icons.md"),
+		"utf-8"
+	);
+	const { data: iconMatter } = matter(iconsList);
 
 	return {
 		props: {
 			takeovers,
 			radios,
+			icons: iconMatter.icons,
 		},
 	};
 }

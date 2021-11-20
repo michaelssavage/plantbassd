@@ -71,10 +71,9 @@ export default function PostPage({
 							></path>
 						</svg>
 						<Button
-							href="/"
 							size="lg"
 							variant="outline-dark"
-							onClick={() => Router.push("/")}
+							onClick={() => Router.back()}
 						>
 							Go Back
 						</Button>

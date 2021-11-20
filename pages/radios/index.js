@@ -1,16 +1,18 @@
 import React from "react";
 import Head from "next/head";
 import Navbar from "../../components/Navbar/Navbar.js";
-import { Card, Col, Container, Row } from "react-bootstrap";
+import Footer from "../../components/Footer/Footer.js";
+import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import Link from "next/link";
-import styles from "./page.module.scss";
+import Router from "next/router";
+import styles from "../page.module.scss";
 
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { sortByDate } from "../../utils";
 
-export default function RadioPage({ radios }) {
+export default function RadioPage({ radios, icons }) {
 	const artists = radios.reverse();
 	return (
 		<>
@@ -25,25 +27,27 @@ export default function RadioPage({ radios }) {
 			</Head>
 
 			<Navbar />
-			<div className={styles.radioColor}>
+			<div className={styles.radioDiver}>
 				<Container>
-					<h1 className={styles.radioHeader}>Plant Bass'd Radio</h1>
+					<h1 className={`globalHeader ${styles.header}`}>
+						Plant Bass'd Radio
+					</h1>
 
 					{/* <div className="radioText radioGrid"> */}
 
-					<p className={`${styles.radioText} ${styles.radioGrid}`}>
+					<p className={styles.texter}>
 						Check out some guest mixes selected for the Plant Bass'd
 						Radio.
 					</p>
 
-					<Row className={`${styles.radioGrid} g-3`}>
-						{artists.map((artist, index) => (
-							<Col key={index} xl={6} lg={6} md={6} xs={12}>
+					<Row className="g-3">
+						{artists.map((artist) => (
+							<Col key={artist.frontmatter.name} lg={3} xs={6}>
 								<Link
 									href={`takeovers/${artist.slug}`}
 									passHref
 								>
-									<Card className={styles.cardStyle}>
+									<Card className="globalCardStyle">
 										<Card.Img
 											variant="top"
 											src={artist.frontmatter.pic}
@@ -54,8 +58,20 @@ export default function RadioPage({ radios }) {
 							</Col>
 						))}
 					</Row>
+
+					<Row className={styles.buttonStyler}>
+						<Button
+							size="lg"
+							variant="outline-light"
+							onClick={() => Router.back()}
+						>
+							Go Back
+						</Button>
+					</Row>
 				</Container>
 			</div>
+
+			<Footer icons={icons} />
 		</>
 	);
 }
@@ -81,9 +97,17 @@ export async function getStaticProps() {
 		};
 	});
 
+	// icons svg src and the link associated with it.
+	const iconsList = fs.readFileSync(
+		path.join("posts/links/icons.md"),
+		"utf-8"
+	);
+	const { data: iconMatter } = matter(iconsList);
+
 	return {
 		props: {
 			radios: radios.sort(sortByDate),
+			icons: iconMatter.icons,
 		},
 	};
 }

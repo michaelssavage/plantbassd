@@ -8,13 +8,17 @@ export default function Radio({ radios }) {
 	return (
 		<>
 			<div className={styles.bgBlue}>
-				<h1 className={styles.mixHeader}>Guest Radio Mixes</h1>
+				<h1 className={`globalHeader ${styles.header}`}>Guest Mixes</h1>
 				<Container>
-					<Row xs={1} md={1}>
-						{radios.map((artist, index) => (
-							<Col key={index} lg={true} className="py-2">
+					<Row>
+						{radios.map((artist) => (
+							<Col
+								key={artist.frontmatter.name}
+								xs={6}
+								className="py-2"
+							>
 								<Link href={`radios/${artist.slug}`} passHref>
-									<Card className={styles.cardStyle}>
+									<Card className="globalCardStyle">
 										<Card.Img
 											variant="top"
 											src={artist.frontmatter.pic}
@@ -26,20 +30,14 @@ export default function Radio({ radios }) {
 						))}
 					</Row>
 
-					<Row>
-						<Col>
-							<div
-								className={`${styles.bottomBtn} d-flex flex-column align-items-center`}
-							>
-								<Button
-									size="lg"
-									variant="outline-light"
-									onClick={() => Router.push("/radios")}
-								>
-									Read More 🛸
-								</Button>
-							</div>
-						</Col>
+					<Row className="globalBottomBtn">
+						<Button
+							size="lg"
+							variant="outline-light"
+							onClick={() => Router.push("/radios")}
+						>
+							Read More 🛸
+						</Button>
 					</Row>
 				</Container>
 			</div>

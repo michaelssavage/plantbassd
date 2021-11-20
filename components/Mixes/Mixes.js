@@ -5,19 +5,35 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import Image from "next/image";
 import styles from "./mixes.module.scss";
 
+function ArrowSVG({ path }) {
+	return (
+		<svg
+			aria-hidden="true"
+			width="60"
+			height="50"
+			fill="none"
+			stroke="currentColor"
+			viewBox="0 0 24 24"
+			xmlns="http://www.w3.org/2000/svg"
+		>
+			<path
+				strokeLinecap="round"
+				strokeLinejoin="round"
+				strokeWidth="2"
+				d={path}
+			></path>
+		</svg>
+	);
+}
+
 export default function ArtistCard() {
 	return (
 		<div className={styles.mixSection}>
-			<h1 className={styles.mixHeader}>Plant Bass'd Mixes</h1>
+			<h1 className={`globalHeader ${styles.header}`}>Mixes</h1>
 
 			<Container>
 				<Row className="align-items-center">
-					<Col
-						sm={12}
-						md={6}
-						lg={6}
-						className="d-flex justify-content-start"
-					>
+					<Col lg={12} xl={6} className={styles.imageFlex}>
 						<a
 							href="https://www.instagram.com/itsnotradio/"
 							className={styles.radioImage}
@@ -31,97 +47,71 @@ export default function ArtistCard() {
 						</a>
 					</Col>
 
-					<Col sm={12} md={6} lg={6}>
-						<div className="d-flex flex-column align-items-start">
-							<h1>Club-Ready</h1>
-							<h3>Heavy mixes for the club.</h3>
-							<p>
-								We've broadcasted Techno, Electro, Jungle on
-								ITSNOTRADIO, Aurora, and Common Grounds.
-							</p>
-						</div>
-
-						<div
-							className={`${styles.phoneMargin} d-flex justify-content-start`}
-						>
-							<svg
-								width="60"
-								height="40"
-								fill="none"
-								stroke="currentColor"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									strokeLinecap="round"
-									strokeLinejoin="round"
-									strokeWidth="2"
-									d="M17 8l4 4m0 0l-4 4m4-4H3"
-								></path>
-							</svg>
-
+					<Col lg={12} xl={6} className={styles.clubDescriptor}>
+						<h1>Club-Ready</h1>
+						<h2>Heavy mixes for the club.</h2>
+						<p>
+							We've broadcasted Techno, Electro, Jungle on
+							ITSNOTRADIO, Aurora, and Common Grounds.
+						</p>
+						<div className={styles.clubButton}>
+							<ArrowSVG
+								className={styles.arrowSVG}
+								path="M17 8l4 4m0 0l-4 4m4-4H3"
+							/>
 							<Button
 								href="https://soundcloud.com/plantbassddjs/sets/club-mixes"
 								variant="outline-dark"
+								size="lg"
+								className={styles.hoverBtn}
 							>
-								<em className="fab fa-soundcloud"></em>Listen
-								Now
+								Listen Now
 							</Button>
 						</div>
 					</Col>
 				</Row>
 
+				{/* Row 2 for chill section */}
 				<Row className="align-items-center">
 					<Col
 						xs={{ span: 12, order: 2 }}
 						sm={{ span: 12, order: 2 }}
-						md={{ span: 6, order: 1 }}
-						lg={{ span: 6, order: 1 }}
+						md={{ span: 12, order: 2 }}
+						lg={{ span: 12, order: 2 }}
+						xl={{ span: 6, order: 1 }}
 					>
-						<div className="d-flex flex-column align-items-end text-end">
+						<div className={styles.chillDescriptor}>
 							<h1>Chill-out</h1>
-							<h3>Easy listening selections.</h3>
+							<h2>Easy listening selections.</h2>
 							<p>
 								We've broadcasted Disco, Dance, Electronic music
 								for late risers on SET Radio.
 							</p>
 						</div>
 
-						<div
-							className={`${styles.phoneMargin} d-flex justify-content-end`}
-						>
+						<div className={styles.chillButton}>
 							<Button
 								href="https://soundcloud.com/plantbassddjs/sets/dance-mixes"
 								variant="outline-dark"
+								size="lg"
+								className={styles.hoverBtn}
 							>
-								<em className="fab fa-soundcloud"></em> Listen
-								Now
+								Listen Now
 							</Button>
-
-							<svg
-								width="60"
-								height="40"
-								fill="none"
-								stroke="currentColor"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									strokeLinecap="round"
-									strokeLinejoin="round"
-									strokeWidth="2"
-									d="M7 16l-4-4m0 0l4-4m-4 4h18"
-								></path>
-							</svg>
+							<ArrowSVG
+								className={styles.arrowSVG}
+								path="M7 16l-4-4m0 0l4-4m-4 4h18"
+							/>
 						</div>
 					</Col>
 
 					<Col
 						xs={{ span: 12, order: 1 }}
 						sm={{ span: 12, order: 1 }}
-						md={{ span: 6, order: 2 }}
-						lg={{ span: 6, order: 2 }}
-						className="d-flex justify-content-end"
+						md={{ span: 12, order: 1 }}
+						lg={{ span: 12, order: 1 }}
+						xl={{ span: 6, order: 2 }}
+						className={styles.imageFlex2}
 					>
 						<a
 							href="https://www.instagram.com/setsetsetsetsetset/"
@@ -139,16 +129,14 @@ export default function ArtistCard() {
 
 				<Row>
 					<Col>
-						<div className="d-flex flex-column align-items-center bottomBtn-2">
-							<h4>Check out our Soundcloud for more. 🛸</h4>
-
+						<div className={styles.bottomBtn}>
 							<Button
 								size="lg"
 								href="https://soundcloud.com/plantbassddjs"
 								variant="outline-dark"
+								className={styles.hoverBtn}
 							>
-								<em className="fab fa-soundcloud"></em> Listen
-								Now
+								Check out our Soundcloud for more. 🛸
 							</Button>
 						</div>
 					</Col>
