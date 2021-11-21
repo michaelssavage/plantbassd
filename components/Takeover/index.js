@@ -11,11 +11,7 @@ export default function Takeover({ takeovers }) {
 			<Container>
 				<Row>
 					{takeovers.map((artist) => (
-						<Col
-							key={artist.frontmatter.name}
-							xs={6}
-							className="py-2"
-						>
+						<Col key={artist.slug} xs={6} className="py-2">
 							<Link href={`takeovers/${artist.slug}`} passHref>
 								<Card className="globalCardStyle">
 									<Card.Img

@@ -78,18 +78,22 @@
 		justify-content: center;
 	}
 	.clubButton {
-		justify-content: flex-start;
-		padding: 0.6rem 0rem;
+		justify-content: center;
+		padding: 0;
 	}
 	.chillButton {
-		padding: 0.6rem 0rem;
+		justify-content: center;
+		padding: 0;
 	}
 	.clubDescriptor {
-		padding-top: 1rem;
+		padding: 1rem 1rem 1.5rem 1rem;
 	}
 	.chillDescriptor {
 		padding-top: 1rem;
 		align-items: flex-start;
 		text-align: start;
+	}
+	.arrowSVG {
+		display: none;
 	}
 }

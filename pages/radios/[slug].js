@@ -9,7 +9,7 @@ import Router from "next/router";
 import Image from "next/image";
 
 import styles from "../slug.module.scss";
-import Navbar from "../../components/Navbar/Navbar.js";
+import Navbar from "../../components/Navbar";
 
 export default function PostPage({
 	frontmatter: { title, date, pic, tracklist, artistPage, postLink },

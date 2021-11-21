@@ -12,7 +12,7 @@ export default function FooterComponent({ icons }) {
 				<Row className="gy-4 gx-5">
 					<Col md={4} sm={12}>
 						<h1 className="text-black">Plant Bass'd.</h1>
-						<p className="small text-muted">
+						<p className={`${styles.footerColor} small`}>
 							Party Throwers and electronic music blog based in
 							Edinburgh and Dublin. Enquiries:
 							plantbassddjs@gmail.com
@@ -29,14 +29,14 @@ export default function FooterComponent({ icons }) {
 							</a>
 						))} */}
 
-						<p className="small text-muted mb-0">
+						<p className={`${styles.footerColor} small mb-0`}>
 							{"© "} {new Date().getFullYear()}{" "}
 							{" Plant Bass'd DJs. All rights reserved."}
 						</p>
 					</Col>
 					<Col>
 						<h5 className="text-black mb-3">Quick links</h5>
-						<ul className="list-unstyled text-muted">
+						<ul className={`${styles.footerColor} list-unstyled`}>
 							<li>
 								<Link href="/">
 									<a className={styles.hoverLink}>Home</a>
@@ -63,9 +63,9 @@ export default function FooterComponent({ icons }) {
 					</Col>
 					<Col>
 						<h5 className="text-black mb-3">Quick links</h5>
-						<ul className="list-unstyled text-muted">
+						<ul className={`${styles.footerColor} list-unstyled`}>
 							<li>
-								<Link href="/mixes">
+								<Link href="#mixes">
 									<a className={styles.hoverLink}>Mixes</a>
 								</Link>
 							</li>
