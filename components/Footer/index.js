@@ -43,7 +43,7 @@ export default function FooterComponent({ icons }) {
 								</Link>
 							</li>
 							<li>
-								<Link href="/about">
+								<Link href="/contact-us">
 									<a className={styles.hoverLink}>About</a>
 								</Link>
 							</li>
@@ -65,7 +65,7 @@ export default function FooterComponent({ icons }) {
 						<h5 className="text-black mb-3">Quick links</h5>
 						<ul className={`${styles.footerColor} list-unstyled`}>
 							<li>
-								<Link href="#mixes">
+								<Link href="/#mixes">
 									<a className={styles.hoverLink}>Mixes</a>
 								</Link>
 							</li>

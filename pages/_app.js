@@ -1,6 +1,7 @@
+import React from "react";
+import Head from "next/head";
 import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.css";
-import Head from "next/head";
 
 export default function MyApp({ Component, pageProps }) {
 	return (

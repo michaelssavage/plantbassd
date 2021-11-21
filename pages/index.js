@@ -1,3 +1,4 @@
+import React from "react";
 import Navbar from "../components/Navbar";
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 import News from "../components/News";
@@ -28,7 +29,7 @@ export default function Home({ takeovers, radios, icons }) {
 				></ParallaxBanner>
 			</ParallaxProvider>
 
-			<News />
+			{/* <News /> */}
 
 			<Mixes />
 

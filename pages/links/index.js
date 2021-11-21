@@ -37,6 +37,7 @@ export default function Links({ links, icons }) {
 								<a href={icon.link}>
 									<Image
 										src={icon.src}
+										alt={icon.link}
 										height={50}
 										width={50}
 										className={styles.socialIcon}
