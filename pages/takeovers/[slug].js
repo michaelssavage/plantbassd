@@ -7,7 +7,7 @@ import Router from "next/router";
 
 import styles from "../slug.module.scss";
 
-import Navbar from "../../components/Navbar/Navbar.js";
+import Navbar from "../../components/Navbar";
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 
 export default function PostPage({
@@ -24,7 +24,7 @@ export default function PostPage({
 					layers={[
 						{
 							image: pic,
-							amount: 0.5,
+							amount: -0.1,
 						},
 					]}
 					className="parallaxHeightChange"

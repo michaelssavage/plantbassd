@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../../components/Navbar/Navbar.js";
-import Footer from "../../components/Footer/Footer.js";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 import styles from "../construction.module.scss";
 
 export default function NewsPage() {

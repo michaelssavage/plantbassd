@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../../components/Navbar/Navbar.js";
-import Footer from "../../components/Footer/Footer.js";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import Link from "next/link";
 import Router from "next/router";
@@ -9,7 +9,7 @@ import styles from "../page.module.scss";
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { sortByDate } from "../../utils";
+import { sortByDate } from "../../utils/sorter";
 
 export default function TakeoverPage({ takeovers, icons }) {
 	return (
@@ -29,7 +29,7 @@ export default function TakeoverPage({ takeovers, icons }) {
 
 					<Row className="g-5">
 						{takeovers.map((artist) => (
-							<Col key={artist.frontmatter.name} lg={3} xs={6}>
+							<Col key={artist.slug} lg={3} xs={6}>
 								<Link
 									href={`takeovers/${artist.slug}`}
 									passHref

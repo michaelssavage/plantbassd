@@ -1,14 +1,15 @@
-import Navbar from "../components/Navbar/Navbar.js";
+import Navbar from "../components/Navbar";
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
-import Mixes from "../components/Mixes/Mixes.js";
-import Takeover from "../components/Takeover/Takeover.js";
-import Radio from "../components/Radio/Radio.js";
-import Footer from "../components/Footer/Footer.js";
+import News from "../components/News";
+import Mixes from "../components/Mixes";
+import Takeover from "../components/Takeover";
+import Radio from "../components/Radio";
+import Footer from "../components/Footer";
 
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { sortByDate } from "../utils";
+import { sortByDate } from "../utils/sorter";
 
 export default function Home({ takeovers, radios, icons }) {
 	return (
@@ -26,6 +27,8 @@ export default function Home({ takeovers, radios, icons }) {
 					className="parallaxHeightChange"
 				></ParallaxBanner>
 			</ParallaxProvider>
+
+			<News />
 
 			<Mixes />
 

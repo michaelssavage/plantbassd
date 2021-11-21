@@ -8,6 +8,7 @@ import styles from "./mixes.module.scss";
 function ArrowSVG({ path }) {
 	return (
 		<svg
+			className={styles.arrowSVG}
 			aria-hidden="true"
 			width="60"
 			height="50"
@@ -29,7 +30,9 @@ function ArrowSVG({ path }) {
 export default function ArtistCard() {
 	return (
 		<div className={styles.mixSection}>
-			<h1 className={`globalHeader ${styles.header}`}>Mixes</h1>
+			<h1 name="mixes" className={`globalHeader ${styles.header}`}>
+				Mixes
+			</h1>
 
 			<Container>
 				<Row className="align-items-center">
@@ -55,10 +58,7 @@ export default function ArtistCard() {
 							ITSNOTRADIO, Aurora, and Common Grounds.
 						</p>
 						<div className={styles.clubButton}>
-							<ArrowSVG
-								className={styles.arrowSVG}
-								path="M17 8l4 4m0 0l-4 4m4-4H3"
-							/>
+							<ArrowSVG path="M17 8l4 4m0 0l-4 4m4-4H3" />
 							<Button
 								href="https://soundcloud.com/plantbassddjs/sets/club-mixes"
 								variant="outline-dark"
