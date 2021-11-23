@@ -12,7 +12,7 @@ import path from "path";
 import matter from "gray-matter";
 import { sortByDate } from "../utils/sorter";
 
-export default function Home({ takeovers, radios, icons }) {
+export default function Home({ news, takeovers, radios, icons }) {
 	return (
 		<>
 			<Navbar />
@@ -29,7 +29,7 @@ export default function Home({ takeovers, radios, icons }) {
 				></ParallaxBanner>
 			</ParallaxProvider>
 
-			{/* <News /> */}
+			<News news={news} />
 
 			<Mixes />
 
@@ -43,6 +43,9 @@ export default function Home({ takeovers, radios, icons }) {
 }
 
 export async function getStaticProps() {
+	let news = getPosts("posts/news");
+	news = news.sort(sortByDate).reverse()[0];
+
 	// get files from the takeover directory
 	let takeovers = getPosts("posts/takeovers");
 	takeovers = takeovers.sort(sortByDate);
@@ -63,6 +66,7 @@ export async function getStaticProps() {
 
 	return {
 		props: {
+			news,
 			takeovers,
 			radios,
 			icons: iconMatter.icons,

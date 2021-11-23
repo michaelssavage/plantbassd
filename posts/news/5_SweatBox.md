@@ -1,10 +1,10 @@
 ---
 title: "SweatBox party"
-date: "September 13, 2021"
+date: "November 10, 2021"
 pic: "/images/news/5_SweatBox.jpg"
 buyLink: "https://ra.co/events/1480079"
 postLink: "https://www.instagram.com/p/CWGqB_RlnNu/"
-bio: "We are back with another SweatBox party! This time across the road to @bongoclub.edinburgh..."
+bio: "We are back with another SweatBox party!..."
 ---
 
 We are back with another SweatBox party! This time across the road to @bongoclub.edinburgh.

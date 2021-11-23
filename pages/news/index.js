@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
+import { CardWithText } from "../../components/Card";
 import Footer from "../../components/Footer";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
-import Link from "next/link";
+import { Button, Container, Row } from "react-bootstrap";
 import Router from "next/router";
 import styles from "../page.module.scss";
 
@@ -23,32 +23,17 @@ export default function NewsPage({ news, icons }) {
 						Plant Bass'd News
 					</h1>
 
-					{/* <div className="radioText radioGrid"> */}
-
 					<p className={styles.texter}>
 						News about Fresh Juice, Gigs, and all things plant
 						bass'd.
 					</p>
 
-					<Row className="g-3">
+					<Row className="g-5">
 						{articles.map((article) => (
-							<Col key={article.slug} lg={3} xs={6}>
-								<Link
-									href={`takeovers/${article.slug}`}
-									passHref
-								>
-									<Card className="globalCardStyle">
-										<Card.Img
-											variant="top"
-											src={article.frontmatter.pic}
-											alt={article.frontmatter.title}
-										/>
-										<Card.Text>
-											{article.frontmatter.bio}
-										</Card.Text>
-									</Card>
-								</Link>
-							</Col>
+							<CardWithText
+								post={article}
+								link={`news/${article.slug}`}
+							/>
 						))}
 					</Row>
 

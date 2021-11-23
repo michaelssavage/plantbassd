@@ -4,7 +4,7 @@ date: "November 1, 2021"
 pic: "/images/news/4_Carlos-Danger.jpg"
 buyLink: "https://rory2.bandcamp.com/album/carlos-dangers-summer-sound"
 postLink: "https://www.instagram.com/p/CVv58lwszNl/"
-bio: "Rory Sweeney recently dropped his new body of work under the Carlos Danger alias..."
+bio: "Rory Sweeney recently dropped his new body of work..."
 ---
 
 FRESH JUICE:

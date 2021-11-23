@@ -1,7 +1,7 @@
 import React from "react";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
+import { Button, Container, Row } from "react-bootstrap";
+import { CardNoText } from "../Card";
 import styles from "./radio.module.scss";
-import Link from "next/link";
 import Router from "next/router";
 
 export default function Radio({ radios }) {
@@ -12,17 +12,10 @@ export default function Radio({ radios }) {
 				<Container>
 					<Row>
 						{radios.map((artist) => (
-							<Col key={artist.slug} xs={6} className="py-2">
-								<Link href={`radios/${artist.slug}`} passHref>
-									<Card className="globalCardStyle">
-										<Card.Img
-											variant="top"
-											src={artist.frontmatter.pic}
-											alt={artist.frontmatter.name}
-										/>
-									</Card>
-								</Link>
-							</Col>
+							<CardNoText
+								post={artist}
+								link={`radios/${artist.slug}`}
+							/>
 						))}
 					</Row>
 

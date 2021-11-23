@@ -4,7 +4,7 @@ date: "September 13, 2021"
 pic: "/images/news/2_Release-Yo-Freak.jpg"
 buyLink: "https://ra.co/events/1463880"
 postLink: "https://www.instagram.com/p/CTw1M-EjFKj/"
-bio: "Plant Bass’d present their first party offering to Edinburgh and Scotland itself..."
+bio: "Plant Bass’d present their first party offering..."
 ---
 
 Plant Bass’d present their first party offering to Edinburgh and Scotland itself at the otherworldly @sneakypetesclub with ‘SweatBox - Release Yo Freak’.

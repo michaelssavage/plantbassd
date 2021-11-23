@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
-import Link from "next/link";
+import { Button, Container, Row } from "react-bootstrap";
+import { CardNoText } from "../../components/Card";
 import Router from "next/router";
 import styles from "../page.module.scss";
 
@@ -31,20 +31,10 @@ export default function RadioPage({ radios, icons }) {
 
 					<Row className="g-3">
 						{artists.map((artist) => (
-							<Col key={artist.slug} lg={3} xs={6}>
-								<Link
-									href={`takeovers/${artist.slug}`}
-									passHref
-								>
-									<Card className="globalCardStyle">
-										<Card.Img
-											variant="top"
-											src={artist.frontmatter.pic}
-											alt={artist.frontmatter.name}
-										/>
-									</Card>
-								</Link>
-							</Col>
+							<CardNoText
+								post={artist}
+								link={`radios/${artist.slug}`}
+							/>
 						))}
 					</Row>
 

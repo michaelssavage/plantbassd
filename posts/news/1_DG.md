@@ -4,7 +4,7 @@ date: "July 13, 2021"
 pic: "/images/news/1_DG.jpg"
 buyLink: "https://wriggledublin.bandcamp.com/album/the-comeback"
 postLink: "https://www.instagram.com/p/CRR7IbBj1HT/"
-bio: "We kickstart our new series FRESH JUICE, highlighting some of our favorite new releases from artists and labels that we have come to admire..."
+bio: "We kickstart our new series FRESH JUICE, highlighting..."
 ---
 
 FRESH JUICE:
