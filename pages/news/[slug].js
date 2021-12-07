@@ -10,7 +10,7 @@ import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 import styles from "../../styles/slug.module.scss";
 
 export default function PostPage({
-	frontmatter: { title, date, pic, artistPage, postLink },
+	frontmatter: { title, date, pic, buyLink, postLink },
 	slug,
 	content,
 }) {
@@ -21,7 +21,7 @@ export default function PostPage({
 					layers={[
 						{
 							image: pic,
-							amount: -0.1,
+							amount: 0.1,
 						},
 					]}
 					className="parallaxHeightChange"
@@ -29,13 +29,17 @@ export default function PostPage({
 			</ParallaxProvider>
 
 			<Container className={styles.card}>
-				<h1 className={styles.postTitle}>{title}</h1>
-				<div className={styles.postDate}>Posted on {date}</div>
-				<div className={styles.postBody}>
-					<div
-						dangerouslySetInnerHTML={{ __html: marked(content) }}
-					></div>
-				</div>
+				<Row>
+					<h1 className={styles.postTitle}>{title}</h1>
+					<div className={styles.postDate}>Posted on {date}</div>
+					<div className={styles.postBody}>
+						<div
+							dangerouslySetInnerHTML={{
+								__html: marked(content),
+							}}
+						></div>
+					</div>
+				</Row>
 
 				<Row className="pt-5">
 					<Col className="text-center">
@@ -43,19 +47,13 @@ export default function PostPage({
 							size="lg"
 							variant="outline-dark"
 							onClick={() => Router.back()}
-							className={styles.hoverLink}
 						>
 							Go Back
 						</Button>
 					</Col>
 					<Col className="text-center">
-						<Button
-							size="lg"
-							variant="outline-dark"
-							href={artistPage}
-							className={styles.hoverLink}
-						>
-							Artist's Page
+						<Button size="lg" variant="outline-dark" href={buyLink}>
+							Buy Link
 						</Button>
 					</Col>
 					<Col className="text-center">
@@ -63,7 +61,6 @@ export default function PostPage({
 							size="lg"
 							variant="outline-dark"
 							href={postLink}
-							className={styles.hoverLink}
 						>
 							Post Link
 						</Button>
@@ -75,7 +72,7 @@ export default function PostPage({
 }
 
 export async function getStaticPaths() {
-	const files = fs.readdirSync(path.join("posts/takeovers"));
+	const files = fs.readdirSync(path.join("posts/news"));
 
 	const paths = files.map((filename) => ({
 		params: {
@@ -91,7 +88,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }) {
 	const markdownWithMeta = fs.readFileSync(
-		path.join("posts/takeovers", slug + ".md"),
+		path.join("posts/news", slug + ".md"),
 		"utf-8"
 	);
 

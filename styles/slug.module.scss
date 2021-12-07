@@ -1,7 +1,23 @@
 .card {
-	padding: 2rem;
-	// border-radius: 10px;
-	// box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 2rem 20rem;
+}
+
+@media (max-width: 1500px) {
+	.card {
+		padding: 2rem 15rem;
+	}
+}
+
+@media (max-width: 1200px) {
+	.card {
+		padding: 2rem 10rem;
+	}
+}
+
+@media (max-width: 996px) {
+	.card {
+		padding: 2rem;
+	}
 }
 
 .postTitle {
@@ -10,7 +26,6 @@
 
 .postDate {
 	background: #f4f4f4;
-	margin-bottom: 1em;
 	padding: 0.5em 1em;
 	border-radius: 1em;
 }

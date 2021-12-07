@@ -1,0 +1,83 @@
+.navbar {
+	background-color: #060b26;
+	width: 9rem;
+	height: 5rem;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	z-index: 5;
+	padding: 0 1rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	transition: 0.5s;
+	border-radius: 25%;
+}
+
+.extendedNavbar {
+	width: 16rem;
+}
+
+.menuBars {
+	color: #f5f5f5;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+.navMenu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	padding: 0.5rem;
+	background-color: #060b26;
+	z-index: 10;
+	transition: all 0.5s;
+}
+
+.activeMenu {
+	padding-right: 1rem;
+}
+
+.navList {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.navLink {
+	text-decoration: none;
+	color: #f5f5f5;
+	fill: #f5f5f5;
+	font-size: 1.2em;
+	display: flex;
+	align-items: center;
+	margin: 1rem;
+	cursor: pointer;
+}
+
+.navLink:hover {
+	transform: scale(1.1);
+	color: #f5f5f58f;
+}
+
+.activeLink {
+	border-bottom: 0.2rem solid #f5f5f5;
+	transition: 0.3s;
+}
+
+.navIcon {
+	font-size: 2rem;
+}
+
+.navName {
+	margin-left: 1rem;
+}
+
+.hideName {
+	display: none;
+}

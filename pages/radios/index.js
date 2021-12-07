@@ -1,44 +1,49 @@
-import React from "react";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import { Button, Container, Row } from "react-bootstrap";
-import { CardNoText } from "../../components/Card";
-import Router from "next/router";
-import styles from "../page.module.scss";
-
 import fs from "fs";
-import path from "path";
 import matter from "gray-matter";
-import { sortByDate } from "../../utils/sorter";
+import Router from "next/router";
+import path from "path";
+import React from "react";
+import { Button, Container, Row } from "react-bootstrap";
 
-export default function RadioPage({ radios, icons }) {
+import { CardNoText } from "../../components/Card";
+import Footer from "../../components/Footer";
+import { sortByDate } from "../../utils/Sorter";
+import styles from "../../styles/page.module.scss";
+
+export default function RadioPage({ radios }) {
 	const artists = radios.reverse();
 	return (
 		<>
-			<Navbar />
 			<div className={styles.radioDiver}>
 				<Container>
 					<h1 className={`globalHeader ${styles.header}`}>
 						Plant Bass'd Radio
 					</h1>
 
-					{/* <div className="radioText radioGrid"> */}
-
 					<p className={styles.texter}>
-						Check out some guest mixes selected for the Plant Bass'd
-						Radio.
+						Nunc auctor urna tellus, a vulputate urna bibendum sed.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Maecenas dictum rhoncus lectus eget gravida.
+					</p>
+					<p className={styles.texter}>
+						Nulla vel tortor vitae tortor aliquet ornare rhoncus sit
+						amet felis. Etiam dui dui, mattis placerat nulla at,
+						facilisis feugiat leo. Sed accumsan mattis diam in
+						malesuada. Duis ex lacus, euismod a varius quis,
+						faucibus a massa.
 					</p>
 
-					<Row className="g-3">
+					<Row className="g-5">
 						{artists.map((artist) => (
 							<CardNoText
+								key={artist.frontmatter.title}
 								post={artist}
 								link={`radios/${artist.slug}`}
 							/>
 						))}
 					</Row>
 
-					<Row className={styles.buttonStyler}>
+					<div className="globalBottomBtn">
 						<Button
 							size="lg"
 							variant="outline-light"
@@ -46,11 +51,11 @@ export default function RadioPage({ radios, icons }) {
 						>
 							Go Back
 						</Button>
-					</Row>
+					</div>
 				</Container>
 			</div>
 
-			<Footer icons={icons} />
+			<Footer />
 		</>
 	);
 }
@@ -76,17 +81,9 @@ export async function getStaticProps() {
 		};
 	});
 
-	// icons svg src and the link associated with it.
-	const iconsList = fs.readFileSync(
-		path.join("posts/links/icons.md"),
-		"utf-8"
-	);
-	const { data: iconMatter } = matter(iconsList);
-
 	return {
 		props: {
 			radios: radios.sort(sortByDate),
-			icons: iconMatter.icons,
 		},
 	};
 }

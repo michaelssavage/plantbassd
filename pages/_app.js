@@ -1,9 +1,12 @@
-import React from "react";
-import Head from "next/head";
 import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.css";
 
-export default function MyApp({ Component, pageProps }) {
+import Head from "next/head";
+import React from "react";
+
+import Sidebar from "../components/Sidebar";
+
+export default function MyApp({ sidebarList, Component, pageProps }) {
 	return (
 		<>
 			<Head>
@@ -15,7 +18,16 @@ export default function MyApp({ Component, pageProps }) {
 					content="width=device-width, initial-scale=1"
 				/>
 			</Head>
+			<Sidebar sidebarList={sidebarList} />
 			<Component {...pageProps} />
 		</>
 	);
+}
+
+export async function getStaticProps() {
+	return {
+		props: {
+			sidebarList: JSON.parse(JSON.stringify(sidebarData)),
+		},
+	};
 }

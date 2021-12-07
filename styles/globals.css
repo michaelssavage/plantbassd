@@ -2,6 +2,7 @@ html,
 body {
 	padding: 0;
 	margin: 0;
+	margin-left: 5rem;
 	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
 		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -31,17 +32,32 @@ Link {
 
 .globalBottomBtn {
 	margin-top: 2em !important;
-	padding: 0 2em;
-	align-items: center;
+	text-align: center;
+}
+
+.globalSection {
+	text-align: center;
+	max-width: 670px;
+	margin: -6px auto 60px;
 }
 
 .globalHeader {
 	text-align: center;
-	padding: 0 1vmax 4vmax 1vmax;
-	font-size: 4em;
+	padding: 2rem 1rem;
+	font-size: 3em;
 }
+
+.header {
+	color: rgba(30, 30, 30, 0.85) !important;
+	font-size: 3em;
+}
+
 .parallaxHeightChange {
 	height: 100vh !important;
+}
+
+.globalSpace {
+	margin-left: 20rem;
 }
 
 @media (max-width: 768px) {
@@ -52,4 +68,12 @@ Link {
 	.parallaxHeightChange {
 		height: 30vh !important;
 	}
+
+	.header {
+		font-size: 2em;
+	}
+}
+
+.discoveryCards {
+	background: linear-gradient(180deg, #a2dba9 20%, #13547a 100%);
 }

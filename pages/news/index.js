@@ -1,61 +1,57 @@
+import fs from "fs";
+import matter from "gray-matter";
+import Router from "next/router";
+import path from "path";
 import React from "react";
-import Navbar from "../../components/Navbar";
+import { Button, Container, Row } from "react-bootstrap";
+
 import { CardWithText } from "../../components/Card";
 import Footer from "../../components/Footer";
-import { Button, Container, Row } from "react-bootstrap";
-import Router from "next/router";
-import styles from "../page.module.scss";
+import { sortByDate } from "../../utils/Sorter";
+import styles from "../../styles/page.module.scss";
 
-import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
-import { marked } from "marked";
-import { sortByDate } from "../../utils/sorter";
-
-export default function NewsPage({ news, icons }) {
+export default function NewsPage({ news }) {
 	const articles = news.reverse();
 	return (
 		<>
-			<Navbar />
 			<div className={styles.newsDiver}>
 				<Container>
-					<h1 className={`globalHeader ${styles.header}`}>
-						Plant Bass'd News
-					</h1>
+					<h1 className={styles.bHeader}>Plant Bass'd News</h1>
 
-					<p className={styles.texter}>
+					<p className={styles.bTexter}>
 						News about Fresh Juice, Gigs, and all things plant
 						bass'd.
 					</p>
 
-					<Row className="g-5">
+					<Row className="g-3">
 						{articles.map((article) => (
 							<CardWithText
+								key={article.frontmatter.title}
 								post={article}
 								link={`news/${article.slug}`}
 							/>
 						))}
 					</Row>
 
-					<Row className={styles.buttonStyler}>
+					<div className="globalBottomBtn">
 						<Button
 							size="lg"
-							variant="outline-light"
+							variant="outline-dark"
 							onClick={() => Router.back()}
 						>
 							Go Back
 						</Button>
-					</Row>
+					</div>
 				</Container>
 			</div>
 
-			<Footer icons={icons} />
+			<Footer />
 		</>
 	);
 }
 
 export async function getStaticProps() {
-	// get files from the takeover directory
+	// get files from the news directory
 	const files = fs.readdirSync(path.join("posts/news"));
 
 	//get Slug and frontmatter from posts
@@ -76,17 +72,9 @@ export async function getStaticProps() {
 		};
 	});
 
-	// icons svg src and the link associated with it.
-	const iconsList = fs.readFileSync(
-		path.join("posts/links/icons.md"),
-		"utf-8"
-	);
-	const { data: iconMatter } = matter(iconsList);
-
 	return {
 		props: {
 			news: news.sort(sortByDate),
-			icons: iconMatter.icons,
 		},
 	};
 }

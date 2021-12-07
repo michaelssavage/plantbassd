@@ -11,13 +11,26 @@
 }
 
 .newsDiver {
-	background-color: #c34f96;
+	background-color: #cecbdb;
 	min-height: 100vh;
+	padding: 0 20%;
 	padding-bottom: 2em;
 }
 
+@media (max-width: 1200) {
+	.newsDiver {
+		padding: 0 15%;
+	}
+}
+
+@media (max-width: 992px) {
+	.newsDiver {
+		padding: 0 10%;
+	}
+}
+
 .header {
-	padding-top: 25vh;
+	padding-top: 15vh;
 	color: rgba(255, 255, 255, 0.75) !important;
 }
 
@@ -27,6 +40,19 @@
 	padding: 0 1em;
 	margin-bottom: 1.5em;
 	color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.bHeader {
+	text-align: center;
+	padding: 15vh 1rem 1rem 1rem;
+	font-size: 3em;
+}
+
+.bTexter {
+	font-size: 1.2em;
+	text-align: center;
+	padding: 0 1em;
+	margin-bottom: 1.5em;
 }
 
 .buttonStyler {

@@ -1,20 +1,18 @@
-import React from "react";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import { Button, Container, Row } from "react-bootstrap";
-import { CardNoText } from "../../components/Card";
-import Router from "next/router";
-import styles from "../page.module.scss";
-
 import fs from "fs";
-import path from "path";
 import matter from "gray-matter";
-import { sortByDate } from "../../utils/sorter";
+import Router from "next/router";
+import path from "path";
+import React from "react";
+import { Button, Container, Row } from "react-bootstrap";
 
-export default function TakeoverPage({ takeovers, icons }) {
+import { CardNoText } from "../../components/Card";
+import Footer from "../../components/Footer";
+import { sortByDate } from "../../utils/Sorter";
+import styles from "../../styles/page.module.scss";
+
+export default function TakeoverPage({ takeovers }) {
 	return (
 		<>
-			<Navbar />
 			<div className={styles.takeoverDiver}>
 				<Container>
 					<h1 className={`globalHeader ${styles.header}`}>
@@ -22,21 +20,29 @@ export default function TakeoverPage({ takeovers, icons }) {
 					</h1>
 
 					<p className={styles.texter}>
-						In 2020, we invited upcoming artists, friends, and
-						exciting talents to share their top 10 tunes that they
-						wanted to play once they returned to the clubs.
+						Nunc auctor urna tellus, a vulputate urna bibendum sed.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						Maecenas dictum rhoncus lectus eget gravida.
+					</p>
+					<p className={styles.texter}>
+						Nulla vel tortor vitae tortor aliquet ornare rhoncus sit
+						amet felis. Etiam dui dui, mattis placerat nulla at,
+						facilisis feugiat leo. Sed accumsan mattis diam in
+						malesuada. Duis ex lacus, euismod a varius quis,
+						faucibus a massa.
 					</p>
 
 					<Row className="g-5">
 						{takeovers.map((artist) => (
 							<CardNoText
+								key={artist.frontmatter.title}
 								post={artist}
 								link={`takeovers/${artist.slug}`}
 							/>
 						))}
 					</Row>
 
-					<Row className={styles.buttonStyler}>
+					<div className="globalBottomBtn">
 						<Button
 							size="lg"
 							variant="outline-light"
@@ -44,11 +50,11 @@ export default function TakeoverPage({ takeovers, icons }) {
 						>
 							Go Back
 						</Button>
-					</Row>
+					</div>
 				</Container>
 			</div>
 
-			<Footer icons={icons} />
+			<Footer />
 		</>
 	);
 }
@@ -74,17 +80,9 @@ export async function getStaticProps() {
 		};
 	});
 
-	// icons svg src and the link associated with it.
-	const iconsList = fs.readFileSync(
-		path.join("posts/links/icons.md"),
-		"utf-8"
-	);
-	const { data: iconMatter } = matter(iconsList);
-
 	return {
 		props: {
 			takeovers: takeovers.sort(sortByDate).reverse(),
-			icons: iconMatter.icons,
 		},
 	};
 }

@@ -16,6 +16,11 @@
 	color: #1e1e1e;
 }
 
+.footerParagraph {
+	color: #1e1e1e;
+	margin-right: 20%;
+}
+
 .descriptor {
 	text-align: left !important;
 	padding-top: 1.5rem !important;
@@ -27,7 +32,12 @@
 	}
 }
 
+.addressCopy {
+	cursor: pointer !important;
+}
+
 .hoverLink:hover {
 	color: #000000 !important;
 	filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+	cursor: pointer !important;
 }

@@ -1,41 +1,32 @@
-import React from "react";
-
-import { Container, Col, Row } from "react-bootstrap";
 import Link from "next/link";
-import Image from "next/image";
+import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
+
 import styles from "./footer.module.scss";
 
-export default function FooterComponent({ icons }) {
+export default function FooterComponent() {
 	return (
 		<footer className="w-100 flex-shrink-0">
 			<Container className={styles.descriptor}>
 				<Row className="gy-4 gx-5">
-					<Col md={4} sm={12}>
-						<h1 className="text-black">Plant Bass'd.</h1>
-						<p className={`${styles.footerColor} small`}>
-							Party Throwers and electronic music blog based in
-							Edinburgh and Dublin. Enquiries:
-							plantbassddjs@gmail.com
-						</p>
+					<Col md={6} sm={12}>
+						<div className={styles.footerParagraph}>
+							<h1 className="text-black">Plant Bass'd.</h1>
+							<p className="small">
+								Party Throwers and electronic music blog based
+								in Edinburgh and Dublin. Enquiries:
+								plantbassddjs@gmail.com
+							</p>
 
-						{/* {icons.map((icon) => (
-							<a key={icon.id} href={icon.link}>
-								<Image
-									src={icon.src}
-									height={40}
-									width={40}
-									className={styles.socialIcon}
-								/>
-							</a>
-						))} */}
-
-						<p className={`${styles.footerColor} small mb-0`}>
-							{"© "} {new Date().getFullYear()}{" "}
-							{" Plant Bass'd DJs. All rights reserved."}
-						</p>
+							<p className="small mb-0">
+								{"© "} {new Date().getFullYear()}{" "}
+								{" Plant Bass'd DJs. All rights reserved."}
+							</p>
+						</div>
 					</Col>
+
 					<Col>
-						<h5 className="text-black mb-3">Quick links</h5>
+						<h5 className="text-black mb-3">Main Content</h5>
 						<ul className={`${styles.footerColor} list-unstyled`}>
 							<li>
 								<Link href="/">
@@ -61,8 +52,9 @@ export default function FooterComponent({ icons }) {
 							</li>
 						</ul>
 					</Col>
+
 					<Col>
-						<h5 className="text-black mb-3">Quick links</h5>
+						<h5 className="text-black mb-3">Quick Links</h5>
 						<ul className={`${styles.footerColor} list-unstyled`}>
 							<li>
 								<Link href="/#mixes">

@@ -1,11 +1,11 @@
-import React from "react";
-import styles from "./links.module.scss";
+import fs from "fs";
+import matter from "gray-matter";
 import Image from "next/image";
+import path from "path";
+import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 
-import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
+import styles from "../../styles/links.module.scss";
 
 export default function Links({ links, icons }) {
 	return (

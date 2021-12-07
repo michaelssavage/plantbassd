@@ -1,14 +1,13 @@
 import React from "react";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import styles from "../construction.module.scss";
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
+
+import Footer from "../../components/Footer";
+import styles from "../../styles/construction.module.scss";
+// import styles from "../contact.module.scss";
 
 export default function ContactPage() {
 	return (
 		<>
-			<Navbar />
-
 			<ParallaxProvider>
 				<ParallaxBanner
 					layers={[

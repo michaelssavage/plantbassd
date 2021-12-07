@@ -1,16 +1,14 @@
-import React from "react";
 import fs from "fs";
-import path from "path";
 import matter from "gray-matter";
 import { marked } from "marked";
+import Image from "next/image";
+import Router from "next/router";
+import path from "path";
+import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 
-import Router from "next/router";
-import Image from "next/image";
-
-import styles from "../slug.module.scss";
-import Navbar from "../../components/Navbar";
+import styles from "../../styles/slug.module.scss";
 
 export default function PostPage({
 	frontmatter: { title, date, pic, tracklist, artistPage, postLink },
@@ -19,8 +17,6 @@ export default function PostPage({
 }) {
 	return (
 		<>
-			<Navbar dark={true} />
-
 			<ParallaxProvider>
 				<ParallaxBanner
 					layers={[

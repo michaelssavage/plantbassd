@@ -1,12 +1,13 @@
-import React from "react";
-import { Col } from "react-bootstrap";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
+import { Col, Row } from "react-bootstrap";
+
 import styles from "./card.module.scss";
 
 export const CardWithText = ({ post, link }) => {
 	return (
-		<Col key={post.slug} lg={3} md={6} xs={12}>
+		<Col key={post.slug} lg={3} md={6} xs={6}>
 			<Link href={link} passHref>
 				<div className={`card ${styles.cardStyle}`}>
 					<Image
@@ -28,7 +29,7 @@ export const CardWithText = ({ post, link }) => {
 
 export const CardNoText = ({ post, link }) => {
 	return (
-		<Col key={post.slug} lg={3} xs={6}>
+		<Col key={post.slug} lg={3} md={6} xs={6}>
 			<Link href={link} passHref>
 				<div className={`card ${styles.cardStyle}`}>
 					<Image
