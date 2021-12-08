@@ -10,137 +10,113 @@ import { RiSoundcloudLine } from "react-icons/ri";
 
 import styles from "./sidebar.module.scss";
 
-function Listing({ link, icon, show, title, navLink }) {
+function Listing({ link, icon, title }) {
 	return (
 		<Link href={link} passHref>
-			<li className={navLink}>
+			<div
+				className={
+					useRouter().pathname == link
+						? `${styles.navLink} ${styles.activeLink}`
+						: styles.navLink
+				}
+			>
 				{icon}
-				<span
-					className={
-						show
-							? styles.navName
-							: `${styles.navName} ${styles.hideName}`
-					}
-				>
-					{title}
-				</span>
-			</li>
+				<span className={styles.navName}>{title}</span>
+			</div>
 		</Link>
 	);
 }
 
-export default function Sidebar({ sidebarList }) {
+export default function Sidebar() {
 	const [sidebar, setSidebar] = useState(false);
 	const showSidebar = () => {
 		setSidebar(!sidebar);
 	};
-
-	const router = useRouter();
 
 	return (
 		<>
 			<header
 				className={
 					sidebar
-						? `${styles.navbar} ${styles.extendedNavbar}`
-						: styles.navbar
+						? `${styles.header} ${styles.extendHeader}`
+						: styles.header
 				}
 			>
 				<div>
 					{sidebar ? (
 						<AiOutlineClose
-							className={styles.menuBars}
+							className={styles.headerToggle}
 							onClick={showSidebar}
 						/>
 					) : (
 						<FaBars
-							className={styles.menuBars}
+							className={styles.headerToggle}
 							onClick={showSidebar}
 						/>
 					)}
 				</div>
 			</header>
-			<nav
+			<div
 				className={
 					sidebar
-						? `${styles.navMenu} ${styles.activeMenu}`
-						: styles.navMenu
+						? `${styles.navContainer} ${styles.extendNav}`
+						: styles.navContainer
 				}
 			>
-				<ul className={styles.navList}>
-					<Listing
-						link="/"
-						navLink={
-							router.pathname == "/"
-								? `${styles.navLink} ${styles.activeLink}`
-								: styles.navLink
-						}
-						icon={<AiFillHome className={styles.navIcon} />}
-						show={sidebar}
-						title="Home"
-					/>
+				<nav
+					className={
+						sidebar
+							? `${styles.navMenu} ${styles.activeMenu}`
+							: styles.navMenu
+					}
+				>
+					<div className={styles.navList}>
+						<Listing
+							link="/"
+							icon={<AiFillHome className={styles.navIcon} />}
+							show={sidebar}
+							title="Home"
+						/>
 
-					<Listing
-						link="/news"
-						navLink={
-							router.pathname == "/news"
-								? `${styles.navLink} ${styles.activeLink}`
-								: styles.navLink
-						}
-						icon={<ImNewspaper className={styles.navIcon} />}
-						show={sidebar}
-						title="News"
-					/>
+						<Listing
+							link="/news"
+							icon={<ImNewspaper className={styles.navIcon} />}
+							show={sidebar}
+							title="News"
+						/>
 
-					<Listing
-						link="/#mixes"
-						navLink={
-							router.pathname == "/mixes"
-								? `${styles.navLink} ${styles.activeLink}`
-								: styles.navLink
-						}
-						icon={<RiSoundcloudLine className={styles.navIcon} />}
-						show={sidebar}
-						title="Mixes"
-					/>
+						<Listing
+							link="/#mixes"
+							icon={
+								<RiSoundcloudLine className={styles.navIcon} />
+							}
+							show={sidebar}
+							title="Mixes"
+						/>
 
-					<Listing
-						link="/radios"
-						navLink={
-							router.pathname == "/radios"
-								? `${styles.navLink} ${styles.activeLink}`
-								: styles.navLink
-						}
-						icon={<BiRadio className={styles.navIcon} />}
-						show={sidebar}
-						title="Radio"
-					/>
+						<Listing
+							link="/radios"
+							icon={<BiRadio className={styles.navIcon} />}
+							show={sidebar}
+							title="Radio"
+						/>
 
-					<Listing
-						link="/takeovers"
-						navLink={
-							router.pathname == "/takeovers"
-								? `${styles.navLink} ${styles.activeLink}`
-								: styles.navLink
-						}
-						icon={<FaSpotify className={styles.navIcon} />}
-						show={sidebar}
-						title="Takeovers"
-					/>
+						<Listing
+							link="/takeovers"
+							icon={<FaSpotify className={styles.navIcon} />}
+							show={sidebar}
+							title="Takeovers"
+						/>
 
-					<Listing
-						link="/contact-us"
-						navLink={
-							router.pathname == "/contact-us"
-								? `${styles.navLink} ${styles.activeLink}`
-								: styles.navLink
-						}
-						icon={<MdContacts className={styles.navIcon} />}
-						show={sidebar}
-						title="Contact Us"
-					/>
-				</ul>
-			</nav>
+						<Listing
+							link="/contact-us"
+							icon={<MdContacts className={styles.navIcon} />}
+							show={sidebar}
+							title="Contact Us"
+						/>
+					</div>
+				</nav>
+			</div>
 		</>
 	);
 }

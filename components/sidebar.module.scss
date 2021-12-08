@@ -1,83 +1,110 @@
-.navbar {
-	background-color: #060b26;
-	width: 9rem;
+.header {
 	height: 5rem;
+	width: 10rem;
 	position: fixed;
-	left: 0;
 	top: 0;
-	right: 0;
-	z-index: 5;
-	padding: 0 1rem;
+	left: 0;
 	display: flex;
-	justify-content: flex-end;
 	align-items: center;
+	justify-content: flex-end;
+	padding: 0 1rem;
+	background-color: #060b26;
+	z-index: 5;
 	transition: 0.5s;
-	border-radius: 25%;
+	border-top-right-radius: 25%;
+	border-bottom-right-radius: 25%;
 }
 
-.extendedNavbar {
-	width: 16rem;
+.extendHeader {
+	width: 17.5rem;
 }
 
-.menuBars {
+.headerToggle {
 	color: #f5f5f5;
 	font-size: 2rem;
 	cursor: pointer;
 }
 
-.navMenu {
+.navContainer {
 	position: fixed;
 	top: 0;
 	left: 0;
+	width: 6rem;
 	height: 100vh;
-	padding: 0.5rem;
 	background-color: #060b26;
+	padding: 0.5rem;
+	transition: 0.5s;
 	z-index: 10;
-	transition: all 0.5s;
 }
 
-.activeMenu {
-	padding-right: 1rem;
+.extendNav {
+	width: 14rem;
 }
 
-.navList {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+.mobileView {
+	left: -30%;
+}
+
+.navMenu {
+	height: 100%;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-top: 0.5rem;
 }
 
 .navLink {
-	text-decoration: none;
-	color: #f5f5f5;
-	fill: #f5f5f5;
-	font-size: 1.2em;
 	display: flex;
 	align-items: center;
-	margin: 1rem;
+	padding: 0.5rem 0 0.5rem 1.5rem;
+	background-color: #060b26;
+	position: relative;
+	margin-bottom: 1.5rem;
+	transition: 0.3s;
+	color: #f5f5f58f;
 	cursor: pointer;
 }
 
 .navLink:hover {
-	transform: scale(1.1);
-	color: #f5f5f58f;
-}
-
-.activeLink {
-	border-bottom: 0.2rem solid #f5f5f5;
-	transition: 0.3s;
+	color: #f5f5f5;
 }
 
 .navIcon {
 	font-size: 2rem;
 }
-
 .navName {
-	margin-left: 1rem;
+	font-size: 1.4rem;
+	margin-left: 1.5rem;
+	margin-right: 0.5rem;
 }
 
-.hideName {
-	display: none;
+.activeLink {
+	color: #f5f5f5;
+}
+
+.activeLink::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 2px;
+	height: 32px;
+	background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		width: 4rem;
+	}
+	.navContainer {
+		width: 0;
+		padding: 0;
+	}
+
+	.extendHeader {
+		width: 90%;
+	}
+	.extendNav {
+		width: 75%;
+		padding: 0.5rem;
+	}
 }
