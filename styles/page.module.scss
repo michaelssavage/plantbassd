@@ -63,6 +63,9 @@
 		padding-left: 10%;
 		padding-right: 10%;
 	}
+	.cardSpacing {
+		padding-bottom: 1rem;
+	}
 }
 
 @media (max-width: 576px) {
@@ -81,7 +84,6 @@
 		text-align: left;
 	}
 }
-
 .cardStyle {
 	cursor: pointer;
 	margin-left: auto;

@@ -10,10 +10,11 @@ import { RiSoundcloudLine } from "react-icons/ri";
 
 import styles from "./sidebar.module.scss";
 
-function Listing({ link, icon, title }) {
+function Listing({ link, icon, title, onClick }) {
 	return (
 		<Link href={link} passHref>
 			<div
+				onClick={onClick}
 				className={
 					useRouter().pathname == link
 						? `${styles.navLink} ${styles.activeLink}`
@@ -31,6 +32,10 @@ export default function Sidebar() {
 	const [sidebar, setSidebar] = useState(false);
 	const showSidebar = () => {
 		setSidebar(!sidebar);
+	};
+
+	const closeSidebar = () => {
+		setSidebar(false);
 	};
 
 	return (
@@ -76,6 +81,7 @@ export default function Sidebar() {
 							icon={<AiFillHome className={styles.navIcon} />}
 							show={sidebar}
 							title="Home"
+							onClick={closeSidebar}
 						/>
 
 						<Listing
@@ -83,6 +89,7 @@ export default function Sidebar() {
 							icon={<ImNewspaper className={styles.navIcon} />}
 							show={sidebar}
 							title="News"
+							onClick={closeSidebar}
 						/>
 
 						<Listing
@@ -92,6 +99,7 @@ export default function Sidebar() {
 							}
 							show={sidebar}
 							title="Mixes"
+							onClick={closeSidebar}
 						/>
 
 						<Listing
@@ -99,6 +107,7 @@ export default function Sidebar() {
 							icon={<BiRadio className={styles.navIcon} />}
 							show={sidebar}
 							title="Radio"
+							onClick={closeSidebar}
 						/>
 
 						<Listing
@@ -106,6 +115,7 @@ export default function Sidebar() {
 							icon={<FaSpotify className={styles.navIcon} />}
 							show={sidebar}
 							title="Takeovers"
+							onClick={closeSidebar}
 						/>
 
 						<Listing
@@ -113,6 +123,7 @@ export default function Sidebar() {
 							icon={<MdContacts className={styles.navIcon} />}
 							show={sidebar}
 							title="Contact Us"
+							onClick={closeSidebar}
 						/>
 
 						<Listing
@@ -120,6 +131,7 @@ export default function Sidebar() {
 							icon={<AiOutlineLink className={styles.navIcon} />}
 							show={sidebar}
 							title="Links"
+							onClick={closeSidebar}
 						/>
 					</div>
 				</nav>

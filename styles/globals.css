@@ -54,6 +54,16 @@ Link {
 	height: 100vh !important;
 }
 
+.videoContainer {
+	height: 100vh !important;
+}
+
+.videoPlayer {
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
 @media (max-width: 768px) {
 	body {
 		margin-left: -5rem !important;

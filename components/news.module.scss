@@ -4,12 +4,17 @@
 }
 
 .content {
-	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 @media (max-width: 992px) {
 	.mobileHead {
 		margin-top: 2rem;
+	}
+
+	.content {
+		padding-right: 0;
+		padding-bottom: 2rem;
 	}
 }
 

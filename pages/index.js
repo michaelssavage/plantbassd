@@ -26,6 +26,13 @@ export default function Home({ news, takeovers, radios }) {
 				></ParallaxBanner>
 			</ParallaxProvider>
 
+			{/* TODO: Add autoplay video here
+			<div className="videoContainer">
+				<video autoPlay loop muted className="videoPlayer">
+					<source src="/pbdjs.mp4" type="video/mp4" />
+				</video>
+			</div> */}
+
 			<News news={news} />
 
 			<Mixes />
