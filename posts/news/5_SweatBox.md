@@ -7,7 +7,7 @@ postLink: "https://www.instagram.com/p/CWGqB_RlnNu/"
 bio: "We are back with another SweatBox party!..."
 ---
 
-We are back with another SweatBox party! This time across the road to @bongoclub.edinburgh.
+### We are back with another SweatBox party! This time across the road to @bongoclub.edinburgh.
 
 Another Irish infiltration is in store as Dublin fast house don and @peardublin affiliate Fio Fa headlines the main room with support from Feena (@missworldedinburgh) and OISÍN (@plantbassddjs).
 

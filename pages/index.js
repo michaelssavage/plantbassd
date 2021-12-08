@@ -9,7 +9,6 @@ import Mixes from "../components/Mixes";
 import News from "../components/News";
 import Radio from "../components/Radio";
 import Takeover from "../components/Takeover";
-import { sidebarData } from "../utils/SidebarData";
 import { sortByDate } from "../utils/Sorter";
 
 export default function Home({ news, takeovers, radios }) {

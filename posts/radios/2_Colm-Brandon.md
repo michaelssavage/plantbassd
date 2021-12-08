@@ -1,15 +1,13 @@
 ---
-title: "Colm Brandon"
+title: "Plant Bass’d Radio: Colm Brandon (@cabal.ie)"
 date: "June 30, 2021"
 pic: "/images/radios/2_colm-brandon.png"
 tracklist: "/images/radios/2_tracklist.png"
 artistPage: "https://www.instagram.com/cabal.ie"
-postLink: "https://www.instagram.com/p/CVQXD5cD1ad"
+mixLink: "https://soundcloud.com/plantbassddjs/plant-bassd-radio-colm-brandon-vinyl-mix?in=plantbassddjs/sets/plant-bassd-radio"
 ---
 
-Plant Bass’d Radio: Colm Brandon (@cabal.ie)
-
-Our mix series returns with a special all-vinyl mix from Cabal co-founder and director, Colm Brandon!
+### Our mix series returns with a special all-vinyl mix from Cabal co-founder and director, Colm Brandon!
 
 Since it’s formation in Limerick in 2017, @cabal.ie has established itself as one of the leading party series in Ireland and it is ready to set its eyes on a new scene post lockdown.
 

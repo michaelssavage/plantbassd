@@ -1,14 +1,12 @@
 ---
-title: "Roo Honeychild"
+title: "Plant Bass’d Takeover 005: @roohoneychild"
 date: "February 22, 2021"
 pic: "/images/takeovers/5_Roo-Honeychild.jpg"
 artistPage: "https://www.instagram.com/roohoneychild/"
 postLink: "https://www.instagram.com/p/CLnAmJvncHQ/"
 ---
 
-Plant Bass’d Takeover 005: @roohoneychild
-
-Roo Honeychild is a DJ, producer and party thrower based between Dublin and Glasgow and she is a founding member of arts and party collective @clubcomfort\_\_\_.
+### Roo Honeychild is a DJ, producer and party thrower based between Dublin and Glasgow and she is a founding member of arts and party collective @clubcomfort\_\_\_.
 
 2019 was a busy year for Roo with performances across Ireland, the UK and Europe, at festivals like @alltogethernow.ie and @openearfest, as well as regular stops at @thesoundhousedublin.
 
@@ -18,6 +16,6 @@ Despite the pandemic, Roo has kept busy improving her production skills, and has
 
 Expect juke and footwork from these 10 picks. We can’t wait to see Roo back in action!
 
-Preview of tracks in our stories and link to playlist in bio 🌿
+Preview of tracks in our stories and link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
 
 @eggboy_design Comin at ya once again.

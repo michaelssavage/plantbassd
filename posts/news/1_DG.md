@@ -1,5 +1,5 @@
 ---
-title: "DG"
+title: "FRESH JUICE: DG - ‘The Comeback’ (@wriggledublin)"
 date: "July 13, 2021"
 pic: "/images/news/1_DG.jpg"
 buyLink: "https://wriggledublin.bandcamp.com/album/the-comeback"
@@ -7,10 +7,7 @@ postLink: "https://www.instagram.com/p/CRR7IbBj1HT/"
 bio: "We kickstart our new series FRESH JUICE, highlighting..."
 ---
 
-FRESH JUICE:
-DG - ‘The Comeback’ (@wriggledublin)
-
-We kickstart our new series FRESH JUICE, highlighting some of our favorite new releases from artists and labels that we have come to admire.
+### We kickstart our new series FRESH JUICE, highlighting some of our favorite new releases from artists and labels that we have come to admire.
 
 Our first edition features the recent drop from @flatwhite_papi (DG) on Dublin bass label Wriggle.
 

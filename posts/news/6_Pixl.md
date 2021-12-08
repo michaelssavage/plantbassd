@@ -1,5 +1,5 @@
 ---
-title: "Pixl"
+title: "FRESH JUICE: Pixl - Outer Reaches"
 date: "November 11, 2021"
 pic: "/images/news/6_Pixl.jpg"
 buyLink: "https://pixljs.bandcamp.com/album/outer-reaches"
@@ -7,10 +7,7 @@ postLink: "https://www.instagram.com/p/CWJg8s_sKwn/"
 bio: "We recently spoke to Leeds based jungle producer @pixljs..."
 ---
 
-FRESH JUICE:
-Pixl - Outer Reaches
-
-We recently spoke to Leeds based jungle producer @pixljs about his new EP released on @loveloverecords.
+### We recently spoke to Leeds based jungle producer @pixljs about his new EP released on @loveloverecords.
 
 A cosmic journey through the darker realm of jungle, Pixl (Laurie Smart) nods to his love of science fiction and the impulse of outer space imagery that he became familiar with during the pandemic, linking it to being cut off from his everyday normal world.
 

@@ -1,5 +1,5 @@
 ---
-title: "Pixl"
+title: "FRESH JUICE: darkmavis & sweet philly - ‘Euphore’"
 date: "November 29, 2021"
 pic: "/images/news/7_darkmavis-sweetphilly.jpg"
 buyLink: "https://euphore.bandcamp.com/releases"
@@ -7,9 +7,7 @@ postLink: "https://www.instagram.com/p/CW3cp-xNWGy/"
 bio: "A club EP full of pink and sparkly bangers..."
 ---
 
-FRESH JUICE: darkmavis & sweet philly - ‘Euphore’
-
-@darkpmavis & @phillyholmes\_ have just dropped a club EP full of pink and sparkly bangers for you all!
+### @darkpmavis & @phillyholmes\_ have just dropped a club EP full of pink and sparkly bangers for you all!
 
 Forging sounds of trance, house, avant-garde pop, and nods to old school jungle & hardcore breaks, the pair have come together and aligned their respective sounds creating catchy energetic club music.
 

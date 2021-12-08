@@ -1,5 +1,5 @@
 ---
-title: "Ruff 'N' Tuff"
+title: "Plant Bass'd Ruff 'N' Tuff"
 date: "November 30, 2021"
 pic: "/images/news/8_ruff-n-tuff.jpg"
 buyLink: "https://ra.co/events/1484531"
@@ -7,7 +7,7 @@ postLink: "https://www.instagram.com/p/CW6gObttV-k/"
 bio: "We bring our SweatBox series to glasgow for a string of Ruff ‘N’ Tuff Jungle & Hardcore shows!..."
 ---
 
-Save the date: 16/12/21
+### Save the date: Thursday 16th December 21!
 
 Next up! We bring our SweatBox series to @broadcastglasgow for a string of Ruff ‘N’ Tuff Jungle & Hardcore shows!
 

@@ -1,14 +1,12 @@
 ---
-title: "Cartin"
+title: "Plant Bass’d Takeover 017: @cartincaolan"
 date: "October 14, 2021"
 pic: "/images/takeovers/17_cartin.jpg"
 artistPage: "https://www.instagram.com/cartincaolan/"
 postLink: "https://www.instagram.com/p/CVBTzTNjZ5z/"
 ---
 
-Plant Bass’d Takeover 017: @cartincaolan
-
-We are back with our playlist takeover series with a feature from Derry multi instrumentalist maestro Cartin!
+### We are back with our playlist takeover series with a feature from Derry multi instrumentalist maestro Cartin!
 
 Fresh off his debut AVA Boiler Room show and a cracker of a release on the ever growingly coveted @nocturnelabel, Cartin has quickly become one of the most exciting talents to come out of Ireland.
 
@@ -20,6 +18,6 @@ Recent plaudits have seen his feature track from the Bunk EP, ‘Lost My Watch A
 
 We are excited to see what the future has in store for this man and are buzzed to share an insight into his creative mind with 10 tracks of recent influence to him!
 
-Link to playlist in our bio and track snippets in our stories.
+Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
 
 Artwork from the don @eggboy_design.

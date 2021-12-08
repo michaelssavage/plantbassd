@@ -1,14 +1,12 @@
 ---
-title: "Miss World Edinburgh"
+title: "Plant Bass’d Takeover 015: @missworldedinburgh"
 date: "June 9, 2021"
 pic: "/images/takeovers/15_Miss-World.jpg"
 artistPage: "https://www.instagram.com/missworldedinburgh/"
 postLink: "https://www.instagram.com/p/CP6XyrontQd/"
 ---
 
-Plant Bass’d Takeover 015: @missworldedinburgh
-
-Back with another takeover from the Scottish capital with 13 special selekts this week.
+### Back with another takeover from the Scottish capital with 13 special selekts this week.
 
 Miss World is an all-woman DJ collective based in Edinburgh, dedicated to uplifting women in electronic music, and making clubs more safe and welcoming spaces for all.
 
@@ -18,6 +16,6 @@ The group also holds down a residency on @ehfm_live community radio, and offer w
 
 Input from all 4 members with these picks that range from house to disco, to breaks and bass, as well as reggae and middle-eastern sounds!
 
-Look out for track snippets in our stories and link to the playlist is in the bio.
+Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
 
 Graphics: @eggboy_design

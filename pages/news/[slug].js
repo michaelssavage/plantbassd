@@ -2,10 +2,11 @@ import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
 import { useRouter } from "next/router";
+import Image from "next/image";
 import path from "path";
 import React from "react";
+import Footer from "../../components/Footer";
 import { Button, Col, Container, Row } from "react-bootstrap";
-import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 
 import styles from "../../styles/slug.module.scss";
 
@@ -18,57 +19,71 @@ export default function PostPage({
 
 	return (
 		<>
-			<ParallaxProvider>
-				<ParallaxBanner
-					layers={[
-						{
-							image: pic,
-							amount: 0.1,
-						},
-					]}
-					className="parallaxHeightChange"
-				></ParallaxBanner>
-			</ParallaxProvider>
-
-			<Container className={styles.card}>
-				<Row>
-					<h1 className={styles.postTitle}>{title}</h1>
-					<div className={styles.postDate}>Posted on {date}</div>
-					<div className={styles.postBody}>
-						<div
-							dangerouslySetInnerHTML={{
-								__html: marked(content),
-							}}
-						></div>
-					</div>
-				</Row>
-
-				<Row className="pt-5">
-					<Col className="text-center">
-						<Button
-							size="lg"
-							variant="outline-dark"
-							onClick={() => router.back()}
+			<div className={styles.newsSection}>
+				<Container>
+					<Row>
+						<Col
+							className={styles.postContent}
+							md={12}
+							lg={6}
+							xl={6}
 						>
-							Go Back
-						</Button>
-					</Col>
-					<Col className="text-center">
-						<Button size="lg" variant="outline-dark" href={buyLink}>
-							Buy Link
-						</Button>
-					</Col>
-					<Col className="text-center">
-						<Button
-							size="lg"
-							variant="outline-dark"
-							href={postLink}
-						>
-							Post Link
-						</Button>
-					</Col>
-				</Row>
-			</Container>
+							<p className={styles.postDate}>Posted on {date}</p>
+							<h1 className={styles.postTitle}>{title}</h1>
+							<div className={styles.postBody}>
+								<div
+									dangerouslySetInnerHTML={{
+										__html: marked(content),
+									}}
+								></div>
+							</div>
+
+							<Row>
+								<Col>
+									<Button
+										size="lg"
+										variant="outline-dark"
+										onClick={() => router.back()}
+									>
+										Go Back
+									</Button>
+								</Col>
+								<Col>
+									<Button
+										size="lg"
+										variant="outline-dark"
+										href={buyLink}
+									>
+										Buy Link
+									</Button>
+								</Col>
+								<Col>
+									<Button
+										size="lg"
+										variant="outline-dark"
+										href={postLink}
+									>
+										Post Link
+									</Button>
+								</Col>
+							</Row>
+						</Col>
+						<Col>
+							<div className={styles.newsImage}>
+								<Image
+									src={pic}
+									alt={title}
+									width={500}
+									height={500}
+									layout="responsive"
+								/>
+							</div>
+						</Col>
+					</Row>
+				</Container>
+			</div>
+
+			<Footer />
 		</>
 	);
 }

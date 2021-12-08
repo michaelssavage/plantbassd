@@ -1,5 +1,5 @@
 ---
-title: "Carlos Danger"
+title: "FRESH JUICE: Carlos Danger - Carlos Danger’s Summer Sound"
 date: "November 1, 2021"
 pic: "/images/news/4_Carlos-Danger.jpg"
 buyLink: "https://rory2.bandcamp.com/album/carlos-dangers-summer-sound"
@@ -7,10 +7,7 @@ postLink: "https://www.instagram.com/p/CVv58lwszNl/"
 bio: "Rory Sweeney recently dropped his new body of work..."
 ---
 
-FRESH JUICE:
-Carlos Danger - Carlos Danger’s Summer Sound (@rory_sweeney123)
-
-Rory Sweeney recently dropped his new body of work under the Carlos Danger alias, spanning 12 tracks of breaks/ garage/ jungle and hardcore.
+### Rory Sweeney recently dropped his new body of work under the Carlos Danger alias, spanning 12 tracks of breaks/ garage/ jungle and hardcore.
 
 An ode to the sounds of the 90s UK scene with trickles of Baltimore, breakcore and footwork, Sweeney effortlessly transcends through 132 to 195 bpm, telling the story of these definitive genres in dance music along the way.
 

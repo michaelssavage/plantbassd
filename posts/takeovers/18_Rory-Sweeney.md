@@ -1,15 +1,12 @@
 ---
-title: "Rory Sweeney"
+title: "Plant Bass’d Takeover 018: @rory_sweeney123"
 date: "November 17, 2021"
 pic: "/images/takeovers/18_Rory_Sweeney.jpg"
 artistPage: "https://www.instagram.com/rory_sweeney123/"
 postLink: "https://www.instagram.com/p/CWY7FF3sNxn/"
 ---
 
-Plant Bass’d Takeover 018:
-@rory_sweeney123
-
-Next up on our Playlist takeover is multi-genre wiz Rory Sweeney!
+### Next up on our Playlist takeover is multi-genre wiz Rory Sweeney!
 
 A seemingly constant releaser, Rory is known to dip between the realms of jungle, trap, hip-hop, Garage & more.
 
@@ -17,7 +14,6 @@ His latest work under the Carlos Danger alias featured on our Fresh Juice series
 
 One third of the @bittentwicecollective, Sweeney has made a name for himself within Dublin’s underground electronic sound, and the constant variation within his productions has made him into one of Ireland’s most exciting producers in a very short period of time.
 
-9 tasty seleçions in this edition. Expect trap, hip-hop, ghetto tech, footwork & more!
+9 tasty seleçions in this edition. Expect trap, hip-hop, ghetto tech, footwork & more: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
 
-Link in our bio & track snippets in our story.
 @eggboy_design on dem graphikz.

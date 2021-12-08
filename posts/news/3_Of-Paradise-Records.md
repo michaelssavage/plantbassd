@@ -1,5 +1,5 @@
 ---
-title: "Of Paradise Records"
+title: "FRESH JUICE: Of Paradise Records - ‘Of Paradise Vol. 4’."
 date: "October 18, 2021"
 pic: "/images/news/3_Of-Paradise-Records.jpg"
 buyLink: "https://ofparadise.bandcamp.com/album/of-paradise-vol-4"
@@ -7,9 +7,7 @@ postLink: "https://www.instagram.com/p/CVLBxqOjJih/"
 bio: "To celebrate 5 years of releases, Of Paradise return..."
 ---
 
-FRESH JUICE: Of Paradise Records - ‘Of Paradise Vol. 4’.
-
-To celebrate 5 years of releases, Of Paradise return with the 4th installment of their V/A series, featuring efforts from the likes of @oallhates, @iazarus, and @strattontrax.
+### To celebrate 5 years of releases, Of Paradise return with the 4th installment of their V/A series, featuring efforts from the likes of @oallhates, @iazarus, and @strattontrax.
 
 We spoke to label runners Paul Patterson and @fadeofparadise about the challenges involved in putting together a compilation, the outlook of the label, the idea of being aesthetically underground, and more.
 
