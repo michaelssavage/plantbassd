@@ -1,7 +1,11 @@
-import React from "react";
-import Head from "next/head";
 import "../styles/globals.css";
+import "../styles/colors.css";
 import "bootstrap/dist/css/bootstrap.css";
+
+import Head from "next/head";
+import React from "react";
+
+import Sidebar from "../components/Sidebar";
 
 export default function MyApp({ Component, pageProps }) {
 	return (
@@ -15,6 +19,7 @@ export default function MyApp({ Component, pageProps }) {
 					content="width=device-width, initial-scale=1"
 				/>
 			</Head>
+			<Sidebar />
 			<Component {...pageProps} />
 		</>
 	);

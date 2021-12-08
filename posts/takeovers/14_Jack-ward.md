@@ -1,14 +1,12 @@
 ---
-title: "Jack Ward"
+title: "Plant Bass’d Takeover 014: @jack________ward"
 date: "May 27, 2021"
-pic: "/images/takeovers/14_Jack-ward.jpg"
+pic: "/takeovers/14_Jack-ward.jpg"
 artistPage: "https://www.instagram.com/jack________ward/"
 postLink: "https://www.instagram.com/p/CPY5mZbnIMt/"
 ---
 
-Plant Bass’d Takeover 014: @jack\_\_\_\_\_\_\_\_ward
-
-Jack Ward shares a cheeky, eclectic selection of tunes that have influenced and inspired his lockdown and recent productions.
+### Jack Ward shares a cheeky, eclectic selection of tunes that have influenced and inspired his lockdown and recent productions.
 
 Having recently came across Jacks’s sound, it can be best described as a sound reminiscent of the upbeat house of @logic1000\_\_\_\_ and Lone.
 
@@ -18,7 +16,7 @@ Recent remix duty on @daisies0daisies0daisies single ‘Dido’ further implemen
 
 This week’s tunes are fun and not to be taken too seriously, giving a similar warmth to the sound that Jack has become known for himself.
 
-Playlist link in our bio and track previews can be found in our stories!
+Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
 
 Graphics again by @eggboy_design.
 Words from @inspectorcampbellbap.

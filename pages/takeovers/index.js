@@ -1,64 +1,41 @@
-import React from "react";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
-import Link from "next/link";
-import Router from "next/router";
-import styles from "../page.module.scss";
-
 import fs from "fs";
-import path from "path";
 import matter from "gray-matter";
-import { sortByDate } from "../../utils/sorter";
+import path from "path";
+import React from "react";
+import { Button, Container } from "react-bootstrap";
+import { FaSpotify } from "react-icons/fa";
 
-export default function TakeoverPage({ takeovers, icons }) {
+import Footer from "../../components/Footer";
+import { Content, GoBack, sortByDate } from "../../utils";
+import styles from "../../styles/page.module.scss";
+
+export default function TakeoverPage({ takeovers }) {
 	return (
 		<>
-			<Navbar />
-			<div className={styles.takeoverDiver}>
+			<div className={styles.takeoverBG}>
 				<Container>
-					<h1 className={`globalHeader ${styles.header}`}>
-						Plant Bass'd Takeovers
-					</h1>
+					<Content
+						title="Plant Bass'd Takeovers"
+						description="We ask artists to select and share their top tracks.
+						Check out the playlist here:"
+						button={
+							<Button
+								href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
+								variant="dark"
+								className={`text-nowrap ${styles.spotify}`}
+							>
+								<FaSpotify /> Plant Bass'd Picks
+							</Button>
+						}
+						cards={takeovers}
+						route="takeovers"
+					/>
 
-					<p className={styles.texter}>
-						In 2020, we invited upcoming artists, friends, and
-						exciting talents to share their top 10 tunes that they
-						wanted to play once they returned to the clubs.
-					</p>
-
-					<Row className="g-5">
-						{takeovers.map((artist) => (
-							<Col key={artist.slug} lg={3} xs={6}>
-								<Link
-									href={`takeovers/${artist.slug}`}
-									passHref
-								>
-									<Card className="globalCardStyle">
-										<Card.Img
-											variant="top"
-											src={artist.frontmatter.pic}
-											alt={artist.frontmatter.name}
-										/>
-									</Card>
-								</Link>
-							</Col>
-						))}
-					</Row>
-
-					<Row className={styles.buttonStyler}>
-						<Button
-							size="lg"
-							variant="outline-light"
-							onClick={() => Router.back()}
-						>
-							Go Back
-						</Button>
-					</Row>
+					<GoBack />
 				</Container>
 			</div>
 
-			<Footer icons={icons} />
+			<Footer />
 		</>
 	);
 }
@@ -84,17 +61,9 @@ export async function getStaticProps() {
 		};
 	});
 
-	// icons svg src and the link associated with it.
-	const iconsList = fs.readFileSync(
-		path.join("posts/links/icons.md"),
-		"utf-8"
-	);
-	const { data: iconMatter } = matter(iconsList);
-
 	return {
 		props: {
 			takeovers: takeovers.sort(sortByDate).reverse(),
-			icons: iconMatter.icons,
 		},
 	};
 }

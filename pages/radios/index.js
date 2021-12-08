@@ -1,66 +1,41 @@
-import React from "react";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import { Button, Card, Col, Container, Row } from "react-bootstrap";
-import Link from "next/link";
-import Router from "next/router";
-import styles from "../page.module.scss";
-
 import fs from "fs";
-import path from "path";
 import matter from "gray-matter";
-import { sortByDate } from "../../utils/sorter";
+import path from "path";
+import React from "react";
+import { Button, Container } from "react-bootstrap";
+import { FaSoundcloud } from "react-icons/fa";
 
-export default function RadioPage({ radios, icons }) {
-	const artists = radios.reverse();
+import Footer from "../../components/Footer";
+import { Content, GoBack, sortByDate } from "../../utils";
+import styles from "../../styles/page.module.scss";
+
+export default function RadioPage({ radios }) {
 	return (
 		<>
-			<Navbar />
-			<div className={styles.radioDiver}>
+			<div className={styles.radioBG}>
 				<Container>
-					<h1 className={`globalHeader ${styles.header}`}>
-						Plant Bass'd Radio
-					</h1>
+					<Content
+						title="Plant Bass'd Radio"
+						description="Guest mixes from homegrown and international artists.
+						Check out the Plant Bass'd radio shows here:"
+						button={
+							<Button
+								href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
+								variant="dark"
+								className={`text-nowrap ${styles.soundcloud}`}
+							>
+								<FaSoundcloud /> Plant Bass'd Radio
+							</Button>
+						}
+						cards={radios}
+						route="radios"
+					/>
 
-					{/* <div className="radioText radioGrid"> */}
-
-					<p className={styles.texter}>
-						Check out some guest mixes selected for the Plant Bass'd
-						Radio.
-					</p>
-
-					<Row className="g-3">
-						{artists.map((artist) => (
-							<Col key={artist.slug} lg={3} xs={6}>
-								<Link
-									href={`takeovers/${artist.slug}`}
-									passHref
-								>
-									<Card className="globalCardStyle">
-										<Card.Img
-											variant="top"
-											src={artist.frontmatter.pic}
-											alt={artist.frontmatter.name}
-										/>
-									</Card>
-								</Link>
-							</Col>
-						))}
-					</Row>
-
-					<Row className={styles.buttonStyler}>
-						<Button
-							size="lg"
-							variant="outline-light"
-							onClick={() => Router.back()}
-						>
-							Go Back
-						</Button>
-					</Row>
+					<GoBack />
 				</Container>
 			</div>
 
-			<Footer icons={icons} />
+			<Footer />
 		</>
 	);
 }
@@ -86,17 +61,9 @@ export async function getStaticProps() {
 		};
 	});
 
-	// icons svg src and the link associated with it.
-	const iconsList = fs.readFileSync(
-		path.join("posts/links/icons.md"),
-		"utf-8"
-	);
-	const { data: iconMatter } = matter(iconsList);
-
 	return {
 		props: {
-			radios: radios.sort(sortByDate),
-			icons: iconMatter.icons,
+			radios: radios.sort(sortByDate).reverse(),
 		},
 	};
 }

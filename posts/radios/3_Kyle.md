@@ -1,16 +1,13 @@
 ---
-title: "Kyle"
+title: "Plant Bass’d Radio: @kaaaaaaandries"
 date: "November 12, 2021"
-pic: "/images/radios/3_kyle.png"
-tracklist: "/images/radios/3_tracklist.png"
+pic: "/radios/3_kyle.png"
+tracklist: "/radios/3_tracklist.png"
 artistPage: "https://www.instagram.com/kaaaaaaandries/"
-postLink: "https://www.instagram.com/p/CWLaqwKscJM/"
+mixLink: "https://soundcloud.com/plantbassddjs/plant-bassd-radio-kyle"
 ---
 
-Plant Bass’d Radio:
-@kaaaaaaandries
-
-Next installment in our mix series is from Bournemouth’s @lokeycollective co-founder Kyle!
+### Next installment in our mix series is from Bournemouth’s @lokeycollective co-founder Kyle!
 
 Having crossed paths with Kyle at @warehouse_raves Festival during the summer, we very quickly bonded over a fondness of hard dubs as we took in sets from the likes Djrum and Tommy Holohan.
 
@@ -20,6 +17,6 @@ Being an avid party thrower in Bournemouth as well as having racked up shows on 
 
 For lovers of hard riddimz!
 
-Link to listen in our story and bio :)
+Link to listen: https://soundcloud.com/plantbassddjs/plant-bassd-radio-kyle
 
 @eggboy_design with the slick graphics!

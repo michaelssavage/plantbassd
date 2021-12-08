@@ -1,14 +1,12 @@
 ---
-title: "Carmen Electro"
+title: "Plant Bass’d Takeover 016: @carmenelectro"
 date: "July 30, 2021"
-pic: "/images/takeovers/16_Carmen-Electro.jpg"
+pic: "/takeovers/16_Carmen-Electro.jpg"
 artistPage: "https://www.instagram.com/carmenelectro/"
 postLink: "https://www.instagram.com/p/CR881PWDvBL/"
 ---
 
-Plant Bass’d Takeover 016: @carmenelectro
-
-With one of the coolest names in the game for sure, Carmen Electro takes over our playlist for its 16th edition!
+### With one of the coolest names in the game for sure, Carmen Electro takes over our playlist for its 16th edition!
 
 Carmen is a Finnish DJ and producer based in Berlin.
 
@@ -22,4 +20,4 @@ Keep a close eye on Carmen’s Feisty Recordings project run along with @deanker
 
 10 big techno, electro, trance and break hitters have been added to the playlist from Carmen as well as sharing with us an insight into the state of affairs with clubbing in Berlin right now and how it has began to open up (see graphic above).
 
-Link in our bio & story to follow the playlist, and track previews in our story also!
+Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")

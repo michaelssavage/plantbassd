@@ -1,0 +1,94 @@
+.divBackground {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 2em;
+}
+
+.radioBG {
+	background-color: var(--green);
+	@extend .divBackground;
+}
+
+.takeoverBG {
+	background-color: var(--pink);
+	min-height: 100vh;
+	@extend .divBackground;
+}
+
+.newsBG {
+	background-color: var(--lavender);
+	min-height: 100vh;
+	@extend .divBackground;
+}
+
+.bHeader {
+	text-align: center;
+	padding: 15vh 1rem 0 1rem;
+	font-size: 3em;
+}
+
+.bTexter {
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: 1rem;
+	margin-bottom: 0.5em;
+}
+
+.spotify {
+	color: var(--spotify) !important;
+	margin-bottom: 1rem;
+}
+
+.soundcloud {
+	color: var(--white) !important;
+	background-color: var(--soundcloud) !important;
+	margin-bottom: 1rem;
+}
+
+.spotify,
+.soundcloud:hover {
+	opacity: 0.8;
+	filter: drop-shadow(0px 6px 6px var(--dropShadow));
+}
+
+@media (max-width: 1200px) {
+	.divBackground {
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+}
+
+@media (max-width: 992px) {
+	.divBackground {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
+
+@media (max-width: 576px) {
+	.divBackground {
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+
+	.bHeader {
+		text-align: left;
+		padding: 10vh 0.5rem 0 0.5rem;
+		font-size: 2em;
+	}
+
+	.bTexter {
+		text-align: left;
+	}
+}
+
+.cardStyle {
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.cardStyle:hover {
+	opacity: 0.8;
+	filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+}

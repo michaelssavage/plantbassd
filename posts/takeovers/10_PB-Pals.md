@@ -1,16 +1,12 @@
 ---
-title: "Plant Bass'd Pals"
+title: "Plant Bass’d Takeover 010: @plantbassddjs & pals"
 date: "April 5, 2021"
-pic: "/images/takeovers/10_PB-Pals.jpg"
+pic: "/takeovers/10_PB-Pals.jpg"
 artistPage: "https://www.instagram.com/plantbassddjs/"
 postLink: "https://www.instagram.com/p/CNTI2uZHgWq/"
 ---
 
-Plant Bass’d Takeover 010:
-
-@plantbassddjs & pals
-
-It is a year yesterday since we were set to stage Organized Noise 001, out the back of Seamie’s in sweet sweet Monaghan.
+### It is a year yesterday since we were set to stage Organized Noise 001, out the back of Seamie’s in sweet sweet Monaghan.
 
 Unfortunately we are still awaiting to kickstart our party series in Monaghan and beyond but we are determined to bring these shows to you as soon as it is safe to do so.
 
@@ -23,6 +19,6 @@ Some selekts shared from the plant Bass’d crew along the way too.
 Rave ready sounds. We will be sharing selekts from the 3 guests as the week goes on.
 First up is Fonzo!
 
-Link in our bio and track snippets in our stories as always.
+Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
 
 Graphics by: @eggboy_design

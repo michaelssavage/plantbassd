@@ -1,0 +1,26 @@
+---
+title: "FRESH JUICE: DG - ‘The Comeback’ (@wriggledublin)"
+date: "July 13, 2021"
+pic: "/news/1_DG.jpg"
+bandcamp: "https://wriggledublin.bandcamp.com/album/the-comeback"
+postLink: "https://www.instagram.com/p/CRR7IbBj1HT/"
+bio: "We kickstart our new series FRESH JUICE, highlighting..."
+---
+
+### We kickstart our new series FRESH JUICE, highlighting some of our favorite new releases from artists and labels that we have come to admire.
+
+Our first edition features the recent drop from @flatwhite_papi (DG) on Dublin bass label Wriggle.
+
+DG shares his insight with us into the process of making this mixtape, the art of sampling, and his views on the current/ future state of Irish night life.
+
+‘The Comeback’ is a concept mixtape about an imaginary group of hungover musicians playing a set in a pub in the sticks after a night of heavy boozing and passing out in ditches!
+
+It is a move away from the usual dubstep and bass sounds that we have received from past DG and Wriggle releases.
+
+Smooth hip-hop and jazzy riddims on this one, doused in a Dilla-esque dressing of smart sampling and sharp percussion and instrumentals.
+
+Ideal listening for those lazy hot summer afternoons. This is music to lounge to.
+
+The mixtape is free to download and listen on bandcamp: https://wriggledublin.bandcamp.com/album/the-comeback
+
+@inspectorcampbellbap will also be previewing the EP in full on his @itsnotradio show this Friday night.

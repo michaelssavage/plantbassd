@@ -1,14 +1,12 @@
 ---
-title: "sohotsospicy"
+title: "Plant Bass’d Takeover 013: @sohotsospicy"
 date: "May 20, 2021"
-pic: "/images/takeovers/13_sohotsospicy.jpg"
+pic: "/takeovers/13_sohotsospicy.jpg"
 artistPage: "https://www.instagram.com/sohotsospicy/"
 postLink: "https://www.instagram.com/p/CPG47cNHeH3/"
 ---
 
-Plant Bass’d Takeover 013: @sohotsospicy
-
-@thrustcollective head girl Aoife Keane (sohotsospicy) is manning our playlist this week with four to the floor, big bass and electro!
+### @thrustcollective head girl Aoife Keane (sohotsospicy) is manning our playlist this week with four to the floor, big bass and electro!
 
 Hard bass and footwork. That is the sohotsospicy sound. A sound that lies somewhere between the remnants of the bad attitude of @lsdxoxo and the Jersey club pump of @uniiqu3music.
 
@@ -18,7 +16,7 @@ Keane has brought her club ready sound to the Dublin circuit in venues like @wig
 
 These 10 picks give a glimpse, alongside her residency shows on @dublindigitalradio, of what we could expect to hear in a sohotsospicy set.
 
-Track snippets in our stories and link to playlist in dat bio!
+Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
 
 Graphics: @eggboy_design
 Words: @inspectorcampbellbap

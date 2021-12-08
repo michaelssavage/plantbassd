@@ -1,0 +1,35 @@
+.newsSection {
+	margin: 10vh 0;
+}
+
+.postContent {
+	margin-right: 3rem;
+}
+
+.newsImage {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 4rem;
+}
+
+.buttons {
+	padding-top: 1rem;
+}
+
+@media (max-width: 768px) {
+	.newsSection {
+		margin-bottom: 2vh;
+	}
+
+	.newsImage {
+		padding-top: 2rem;
+	}
+}
+
+.imgWrapper {
+	padding: 0.5rem 0;
+}
+
+.hoverLink:hover {
+	color: var(--white) !important;
+}

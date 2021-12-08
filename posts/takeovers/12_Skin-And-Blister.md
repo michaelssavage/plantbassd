@@ -1,16 +1,12 @@
 ---
-title: "Skin and Blister"
+title: "Plant Bass’d Takeover 012: @skinandblister_club"
 date: "May 11, 2021"
-pic: "/images/takeovers/12_Skin-And-Blister.jpg"
+pic: "/takeovers/12_Skin-And-Blister.jpg"
 artistPage: "https://www.instagram.com/skinandblister_club/"
 postLink: "https://www.instagram.com/p/COvw5YjnSiZ/"
 ---
 
-Plant Bass’d Takeover 012:
-
-@skinandblister_club
-
-For takeover number 12 we have Dublin collective, Skin & Blister!
+### For takeover number 12 we have Dublin collective, Skin & Blister!
 
 With a focus on platforming Dublin’s female, trans and non-binary creatives within music & arts, the Skin & Blister team are breaking boundaries within the capital and creating more opportunities for all through discussion, workshops and events.
 
@@ -21,7 +17,7 @@ It is clear how valuable such a space will become once clubland returns to Dubli
 So far, we have seen the ‘Skin & Blister in Conversation’ series bring interesting discussions around creative identity and introductions to DJing with industry heads like @akhhd and @caitfa respectively. This year’s International Women’s Day seen the crew alongside @allcityrecordsandlabel host a special virtual all-vinyl stream with Dublin selectors @rdeaaane, @cheriereeta, @crispyletttuce, @laeti_dee, and @chloefarquhar.
 On top of this, we are treated each week to the S&B mix rotation, which highlights sets from members as well as other female, trans & non-binary DJs that have caught their recent attention.
 
-Check out the groups 10 bass heavy picks above in our stories and head to our bio for the playlist!
+Check out the groups 10 bass heavy picks: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
 
 Graphics: @eggboy_design
 Words: @inspectorcampbellbap

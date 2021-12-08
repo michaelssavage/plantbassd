@@ -1,14 +1,12 @@
 ---
-title: "Pagan"
+title: "Plant Bass’d Takeover 011: @pagan_909"
 date: "April 26, 2021"
-pic: "/images/takeovers/11_pagan.jpg"
+pic: "/takeovers/11_pagan.jpg"
 artistPage: "https://www.instagram.com/pagan_909/"
 postLink: "https://www.instagram.com/p/COJFiZpHiOb/"
 ---
 
-Plant Bass’d Takeover 011: @pagan_909
-
-We kick off our third batch of takeover guests with an ever promising act from home(Donegal/ Dublin), Pagan.
+### We kick off our third batch of takeover guests with an ever promising act from home(Donegal/ Dublin), Pagan.
 
 After bursting on to the Irish scene with club and dance tent anthems ‘Mirage’ and ‘Comet on Sundays’ in 2019, Pagan’s (Rossa Doherty) stock has not been suppressed by pandemic times as much as others.
 
@@ -22,7 +20,7 @@ With his sounds being complimented by the likes of @dj.boring, @justinjaymusic, 
 
 Here are 10 tunes that have influenced the Donegal native over the last 12 months, including his latest single ‘Wash Away Our Fears’.
 
-Link in bio to the playlist and track snippets in our stories.
+Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
 
 Graphics: @eggboy_design
 Words: @inspectorcampbellbap

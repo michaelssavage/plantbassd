@@ -1,14 +1,12 @@
 ---
-title: "Midnight Bass"
+title: "Plant Bass’d Takeover 009: @midnightbassclub"
 date: "March 30, 2021"
-pic: "/images/takeovers/9_Midnight-Bass.jpg"
+pic: "/takeovers/9_Midnight-Bass.jpg"
 artistPage: "https://www.instagram.com/midnightbass_edi/"
 postLink: "https://www.instagram.com/p/CNC9XRzn3w1/"
 ---
 
-Plant Bass’d Takeover 009: @midnightbassclub
-
-With only our second ever Edinburgh collaboration, we are very excited to bring you Midnight Bass as our takeover guest for week 9!
+### With only our second ever Edinburgh collaboration, we are very excited to bring you Midnight Bass as our takeover guest for week 9!
 
 Scotland’s biggest drum and bass night, Midnight Bass is a community-focused party, which runs weekly in independent venues @bongoclub.edinburgh and @the_berkeley_suite, Glasgow, respectively.
 
@@ -27,6 +25,6 @@ We hope to collaborate again real soon.
 
 Strictly Drum n Bass.
 
-Link in bio to the playlist and track snippets will be shared in our stories during the week.
+Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
 
 @eggboy_design with another whopper graphic!

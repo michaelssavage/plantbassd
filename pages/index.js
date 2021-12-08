@@ -1,48 +1,49 @@
-import React from "react";
-import Navbar from "../components/Navbar";
-import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
-import News from "../components/News";
-import Mixes from "../components/Mixes";
-import Takeover from "../components/Takeover";
-import Radio from "../components/Radio";
-import Footer from "../components/Footer";
-
 import fs from "fs";
-import path from "path";
 import matter from "gray-matter";
-import { sortByDate } from "../utils/sorter";
+import path from "path";
+import React from "react";
+import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 
-export default function Home({ takeovers, radios, icons }) {
+import Footer from "../components/Footer";
+import Mixes from "../components/Mixes";
+import News from "../components/News";
+import Radio from "../components/Radio";
+import Takeover from "../components/Takeover";
+import { sortByDate } from "../utils";
+
+export default function Home({ news, takeovers, radios }) {
 	return (
 		<>
-			<Navbar />
-
 			<ParallaxProvider>
 				<ParallaxBanner
 					layers={[
 						{
-							image: "/images/bluetrio.jpg",
-							amount: 0.4,
+							image: "/collage.jpg",
+							amount: 0.3,
 						},
 					]}
 					className="parallaxHeightChange"
 				></ParallaxBanner>
 			</ParallaxProvider>
 
-			{/* <News /> */}
+			<News news={news} />
 
 			<Mixes />
 
-			<Takeover takeovers={takeovers} />
+			<div className="discoveryCards">
+				<Takeover takeovers={takeovers} />
+				<Radio radios={radios} />
+			</div>
 
-			<Radio radios={radios} />
-
-			<Footer icons={icons} />
+			<Footer />
 		</>
 	);
 }
 
 export async function getStaticProps() {
+	let news = getPosts("posts/news");
+	news = news.sort(sortByDate).reverse().slice(0, 2);
+
 	// get files from the takeover directory
 	let takeovers = getPosts("posts/takeovers");
 	takeovers = takeovers.sort(sortByDate);
@@ -54,18 +55,11 @@ export async function getStaticProps() {
 	const numRadios = radios.length;
 	radios = radios.slice(numRadios - 4, numRadios).reverse();
 
-	// icons svg src and the link associated with it.
-	const iconsList = fs.readFileSync(
-		path.join("posts/links/icons.md"),
-		"utf-8"
-	);
-	const { data: iconMatter } = matter(iconsList);
-
 	return {
 		props: {
+			news,
 			takeovers,
 			radios,
-			icons: iconMatter.icons,
 		},
 	};
 }
