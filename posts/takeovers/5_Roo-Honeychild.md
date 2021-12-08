@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d Takeover 005: @roohoneychild"
 date: "February 22, 2021"
-pic: "/images/takeovers/5_Roo-Honeychild.jpg"
+pic: "/takeovers/5_Roo-Honeychild.jpg"
 artistPage: "https://www.instagram.com/roohoneychild/"
 postLink: "https://www.instagram.com/p/CLnAmJvncHQ/"
 ---

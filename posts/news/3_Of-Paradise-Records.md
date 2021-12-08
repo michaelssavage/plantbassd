@@ -1,8 +1,8 @@
 ---
 title: "FRESH JUICE: Of Paradise Records - ‘Of Paradise Vol. 4’."
 date: "October 18, 2021"
-pic: "/images/news/3_Of-Paradise-Records.jpg"
-buyLink: "https://ofparadise.bandcamp.com/album/of-paradise-vol-4"
+pic: "/news/3_Of-Paradise-Records.jpg"
+bandcamp: "https://ofparadise.bandcamp.com/album/of-paradise-vol-4"
 postLink: "https://www.instagram.com/p/CVLBxqOjJih/"
 bio: "To celebrate 5 years of releases, Of Paradise return..."
 ---

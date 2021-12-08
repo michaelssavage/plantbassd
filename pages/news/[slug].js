@@ -11,11 +11,28 @@ import { Button, Col, Container, Row } from "react-bootstrap";
 import styles from "../../styles/slug.module.scss";
 
 export default function PostPage({
-	frontmatter: { title, date, pic, buyLink, postLink },
-	slug,
+	frontmatter: { title, date, pic, bandcamp, tickets, postLink },
 	content,
 }) {
 	const router = useRouter();
+	let buyLink;
+	if (bandcamp) {
+		buyLink = (
+			<Col className="text-center">
+				<Button size="lg" variant="outline-dark" href={bandcamp}>
+					Bandcamp
+				</Button>
+			</Col>
+		);
+	} else if (tickets) {
+		buyLink = (
+			<Col className="text-center">
+				<Button size="lg" variant="outline-dark" href={tickets}>
+					RA tickets
+				</Button>
+			</Col>
+		);
+	}
 
 	return (
 		<>
@@ -37,36 +54,6 @@ export default function PostPage({
 									}}
 								></div>
 							</div>
-
-							<Row>
-								<Col>
-									<Button
-										size="lg"
-										variant="outline-dark"
-										onClick={() => router.back()}
-									>
-										Go Back
-									</Button>
-								</Col>
-								<Col>
-									<Button
-										size="lg"
-										variant="outline-dark"
-										href={buyLink}
-									>
-										Buy Link
-									</Button>
-								</Col>
-								<Col>
-									<Button
-										size="lg"
-										variant="outline-dark"
-										href={postLink}
-									>
-										Post Link
-									</Button>
-								</Col>
-							</Row>
 						</Col>
 						<Col>
 							<div className={styles.newsImage}>
@@ -77,6 +64,27 @@ export default function PostPage({
 									height={500}
 									layout="responsive"
 								/>
+								<Row className={styles.buttons}>
+									<Col className="text-center">
+										<Button
+											size="lg"
+											variant="outline-dark"
+											onClick={() => router.back()}
+										>
+											Go Back
+										</Button>
+									</Col>
+									{buyLink}
+									<Col className="text-center">
+										<Button
+											size="lg"
+											variant="outline-dark"
+											href={postLink}
+										>
+											Insta Post
+										</Button>
+									</Col>
+								</Row>
 							</div>
 						</Col>
 					</Row>

@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d Takeover 006: @trulymoore_"
 date: "March 8, 2021"
-pic: "/images/takeovers/6_Yours-Truly.jpg"
+pic: "/takeovers/6_Yours-Truly.jpg"
 artistPage: "https://www.instagram.com/trulymoore_/"
 postLink: "https://www.instagram.com/p/CMLFlO-nA9v/"
 ---

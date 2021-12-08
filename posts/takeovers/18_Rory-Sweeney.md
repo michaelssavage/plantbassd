@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d Takeover 018: @rory_sweeney123"
 date: "November 17, 2021"
-pic: "/images/takeovers/18_Rory_Sweeney.jpg"
+pic: "/takeovers/18_Rory_Sweeney.jpg"
 artistPage: "https://www.instagram.com/rory_sweeney123/"
 postLink: "https://www.instagram.com/p/CWY7FF3sNxn/"
 ---

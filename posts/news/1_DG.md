@@ -1,8 +1,8 @@
 ---
 title: "FRESH JUICE: DG - ‘The Comeback’ (@wriggledublin)"
 date: "July 13, 2021"
-pic: "/images/news/1_DG.jpg"
-buyLink: "https://wriggledublin.bandcamp.com/album/the-comeback"
+pic: "/news/1_DG.jpg"
+bandcamp: "https://wriggledublin.bandcamp.com/album/the-comeback"
 postLink: "https://www.instagram.com/p/CRR7IbBj1HT/"
 bio: "We kickstart our new series FRESH JUICE, highlighting..."
 ---

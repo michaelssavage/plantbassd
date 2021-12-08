@@ -1,17 +1,21 @@
 .descriptor {
 	text-align: left !important;
-	padding-top: 1.5rem !important;
+	margin-top: 1.5rem !important;
+}
+
+.footerParagraph {
+	color: var(--headerBlack);
+	margin-right: 20%;
 }
 
 @media (max-width: 768px) {
 	.descriptor {
 		text-align: center !important;
 	}
-}
 
-.footerParagraph {
-	color: var(--headerBlack);
-	margin-right: 20%;
+	.footerParagraph {
+		margin-right: 0;
+	}
 }
 
 .footerColor {

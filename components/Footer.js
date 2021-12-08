@@ -16,10 +16,14 @@ const FootLink = ({ link, title }) => {
 
 export default function FooterComponent() {
 	return (
-		<footer className="w-100 flex-shrink-0">
-			<Container className={styles.descriptor}>
-				<Row className="gy-4 gx-5">
-					<Col md={6} sm={12}>
+		<footer className={styles.descriptor}>
+			<Container>
+				<Row>
+					<Col
+						md={{ span: 6, order: 1 }}
+						sm={{ span: 12, order: 2 }}
+						xs={{ span: 12, order: 2 }}
+					>
 						<div className={styles.footerParagraph}>
 							<h1 className="text-black">Plant Bass'd.</h1>
 							<p className="small">
@@ -34,25 +38,50 @@ export default function FooterComponent() {
 							</p>
 						</div>
 					</Col>
+					<Col
+						md={{ span: 6, order: 2 }}
+						sm={{ span: 12, order: 1 }}
+						xs={{ span: 12, order: 1 }}
+					>
+						<Row>
+							<Col>
+								<h5 className="text-black mb-3">
+									Main Content
+								</h5>
+								<ul
+									className={`${styles.footerColor} list-unstyled`}
+								>
+									<FootLink link="/" title="Home" />
+									<FootLink link="/news" title="News" />
+									<FootLink
+										link="/contact-us"
+										title="About"
+									/>
+									<FootLink
+										link="/contact-us"
+										title="Contact Us"
+									/>
+								</ul>
+							</Col>
 
-					<Col>
-						<h5 className="text-black mb-3">Main Content</h5>
-						<ul className={`${styles.footerColor} list-unstyled`}>
-							<FootLink link="/" title="Home" />
-							<FootLink link="/news" title="News" />
-							<FootLink link="/contact-us" title="About" />
-							<FootLink link="/contact-us" title="Contact Us" />
-						</ul>
-					</Col>
-
-					<Col>
-						<h5 className="text-black mb-3">Quick Links</h5>
-						<ul className={`${styles.footerColor} list-unstyled`}>
-							<FootLink link="/#mixes" title="Mixes" />
-							<FootLink link="/radios" title="Radio" />
-							<FootLink link="/takeovers" title="Takeovers" />
-							<FootLink link="/news" title="Fresh Juice" />
-						</ul>
+							<Col>
+								<h5 className="text-black mb-3">Quick Links</h5>
+								<ul
+									className={`${styles.footerColor} list-unstyled`}
+								>
+									<FootLink link="/#mixes" title="Mixes" />
+									<FootLink link="/radios" title="Radio" />
+									<FootLink
+										link="/takeovers"
+										title="Takeovers"
+									/>
+									<FootLink
+										link="/news"
+										title="Fresh Juice"
+									/>
+								</ul>
+							</Col>
+						</Row>
 					</Col>
 				</Row>
 			</Container>

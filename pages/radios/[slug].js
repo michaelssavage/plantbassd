@@ -44,38 +44,6 @@ export default function PostPage({
 									alt="artist tracklist"
 								/>
 							</div>
-							<Row>
-								<Col>
-									<Button
-										size="lg"
-										className={styles.hoverLink}
-										variant="outline-dark"
-										onClick={() => router.back()}
-									>
-										Go Back
-									</Button>
-								</Col>
-								<Col>
-									<Button
-										size="lg"
-										className={styles.hoverLink}
-										variant="outline-dark"
-										href={artistPage}
-									>
-										Artist's Page
-									</Button>
-								</Col>
-								<Col>
-									<Button
-										size="lg"
-										className={styles.hoverLink}
-										variant="outline-dark"
-										href={mixLink}
-									>
-										Listen Now
-									</Button>
-								</Col>
-							</Row>
 						</Col>
 						<Col>
 							<div className={styles.newsImage}>
@@ -86,6 +54,38 @@ export default function PostPage({
 									height={500}
 									layout="responsive"
 								/>
+								<Row className={styles.buttons}>
+									<Col className="text-center">
+										<Button
+											size="lg"
+											className={styles.hoverLink}
+											variant="outline-dark"
+											onClick={() => router.back()}
+										>
+											Go Back
+										</Button>
+									</Col>
+									<Col className="text-center">
+										<Button
+											size="lg"
+											className={styles.hoverLink}
+											variant="outline-dark"
+											href={artistPage}
+										>
+											Artist's Insta
+										</Button>
+									</Col>
+									<Col className="text-center">
+										<Button
+											size="lg"
+											className={styles.hoverLink}
+											variant="outline-dark"
+											href={mixLink}
+										>
+											Listen Now
+										</Button>
+									</Col>
+								</Row>
 							</div>
 						</Col>
 					</Row>

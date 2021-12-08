@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d Takeover 014: @jack________ward"
 date: "May 27, 2021"
-pic: "/images/takeovers/14_Jack-ward.jpg"
+pic: "/takeovers/14_Jack-ward.jpg"
 artistPage: "https://www.instagram.com/jack________ward/"
 postLink: "https://www.instagram.com/p/CPY5mZbnIMt/"
 ---

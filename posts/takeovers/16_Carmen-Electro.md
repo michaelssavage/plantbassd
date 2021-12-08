@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d Takeover 016: @carmenelectro"
 date: "July 30, 2021"
-pic: "/images/takeovers/16_Carmen-Electro.jpg"
+pic: "/takeovers/16_Carmen-Electro.jpg"
 artistPage: "https://www.instagram.com/carmenelectro/"
 postLink: "https://www.instagram.com/p/CR881PWDvBL/"
 ---

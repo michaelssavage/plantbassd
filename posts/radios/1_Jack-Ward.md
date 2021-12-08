@@ -1,8 +1,8 @@
 ---
 title: "Plant Bass’d Radio: @jack________ward PRIDE mix!"
 date: "June 30, 2021"
-pic: "/images/radios/1_jack-ward.png"
-tracklist: "/images/radios/1_tracklist.jpg"
+pic: "/radios/1_jack-ward.png"
+tracklist: "/radios/1_tracklist.jpg"
 artistPage: "https://www.instagram.com/jack________ward/"
 mixLink: "https://soundcloud.com/plantbassddjs/plant-bassd-pride-mix?in=plantbassddjs/sets/plant-bassd-radio"
 ---

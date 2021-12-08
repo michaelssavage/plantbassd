@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d Takeover 017: @cartincaolan"
 date: "October 14, 2021"
-pic: "/images/takeovers/17_cartin.jpg"
+pic: "/takeovers/17_cartin.jpg"
 artistPage: "https://www.instagram.com/cartincaolan/"
 postLink: "https://www.instagram.com/p/CVBTzTNjZ5z/"
 ---

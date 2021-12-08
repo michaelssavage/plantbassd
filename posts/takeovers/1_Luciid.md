@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d Takeover 001: @luciidmusic"
 date: "January 25, 2021"
-pic: "/images/takeovers/1_Luciid.jpg"
+pic: "/takeovers/1_Luciid.jpg"
 artistPage: "https://www.instagram.com/luciidmusic/"
 postLink: "https://www.instagram.com/p/CKeA4l-HEnj/"
 ---

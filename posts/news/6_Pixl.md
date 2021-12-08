@@ -1,8 +1,8 @@
 ---
 title: "FRESH JUICE: Pixl - Outer Reaches"
 date: "November 11, 2021"
-pic: "/images/news/6_Pixl.jpg"
-buyLink: "https://pixljs.bandcamp.com/album/outer-reaches"
+pic: "/news/6_Pixl.jpg"
+bandcamp: "https://pixljs.bandcamp.com/album/outer-reaches"
 postLink: "https://www.instagram.com/p/CWJg8s_sKwn/"
 bio: "We recently spoke to Leeds based jungle producer @pixljs..."
 ---

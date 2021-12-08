@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d Takeover 002: @presswork"
 date: "February 1, 2021"
-pic: "/images/takeovers/2_Presswork.jpg"
+pic: "/takeovers/2_Presswork.jpg"
 artistPage: "https://www.instagram.com/presswork_/"
 postLink: "https://www.instagram.com/p/CKwxx1VnnBr/"
 ---

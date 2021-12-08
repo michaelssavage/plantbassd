@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d Takeover 013: @sohotsospicy"
 date: "May 20, 2021"
-pic: "/images/takeovers/13_sohotsospicy.jpg"
+pic: "/takeovers/13_sohotsospicy.jpg"
 artistPage: "https://www.instagram.com/sohotsospicy/"
 postLink: "https://www.instagram.com/p/CPG47cNHeH3/"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d Takeover 004: @tomas.irl"
 date: "February 15, 2021"
-pic: "/images/takeovers/4_Tomas.jpg"
+pic: "/takeovers/4_Tomas.jpg"
 artistPage: "https://www.instagram.com/tomas.irl/"
 postLink: "https://www.instagram.com/p/CLVCEaKH8iA/"
 ---

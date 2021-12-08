@@ -1,8 +1,8 @@
 ---
 title: "FRESH JUICE: darkmavis & sweet philly - ‘Euphore’"
 date: "November 29, 2021"
-pic: "/images/news/7_darkmavis-sweetphilly.jpg"
-buyLink: "https://euphore.bandcamp.com/releases"
+pic: "/news/7_darkmavis-sweetphilly.jpg"
+bandcamp: "https://euphore.bandcamp.com/releases"
 postLink: "https://www.instagram.com/p/CW3cp-xNWGy/"
 bio: "A club EP full of pink and sparkly bangers..."
 ---

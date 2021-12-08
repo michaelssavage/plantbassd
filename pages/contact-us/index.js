@@ -12,7 +12,7 @@ export default function ContactPage() {
 				<ParallaxBanner
 					layers={[
 						{
-							image: "/images/hoodie.jpg",
+							image: "/hoodie.jpg",
 							amount: 0.4,
 						},
 					]}

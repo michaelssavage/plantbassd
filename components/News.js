@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 
-import { CardWithText } from "./Card";
+import { CardWithText } from "../utils";
 import styles from "./news.module.scss";
 
 export default function News({ news }) {
@@ -38,7 +38,7 @@ export default function News({ news }) {
 								accumsan mattis diam in malesuada. Duis ex
 								lacus, euismod a varius quis, faucibus a massa.
 							</p>
-							<div className={styles.alignment}>
+							<div>
 								<Button
 									size="lg"
 									variant="outline-dark"

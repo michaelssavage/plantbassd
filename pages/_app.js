@@ -7,7 +7,7 @@ import React from "react";
 
 import Sidebar from "../components/Sidebar";
 
-export default function MyApp({ sidebarList, Component, pageProps }) {
+export default function MyApp({ Component, pageProps }) {
 	return (
 		<>
 			<Head>
@@ -19,16 +19,8 @@ export default function MyApp({ sidebarList, Component, pageProps }) {
 					content="width=device-width, initial-scale=1"
 				/>
 			</Head>
-			<Sidebar sidebarList={sidebarList} />
+			<Sidebar />
 			<Component {...pageProps} />
 		</>
 	);
-}
-
-export async function getStaticProps() {
-	return {
-		props: {
-			sidebarList: JSON.parse(JSON.stringify(sidebarData)),
-		},
-	};
 }

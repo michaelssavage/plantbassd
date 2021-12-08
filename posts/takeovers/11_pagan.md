@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d Takeover 011: @pagan_909"
 date: "April 26, 2021"
-pic: "/images/takeovers/11_pagan.jpg"
+pic: "/takeovers/11_pagan.jpg"
 artistPage: "https://www.instagram.com/pagan_909/"
 postLink: "https://www.instagram.com/p/COJFiZpHiOb/"
 ---

@@ -31,7 +31,7 @@ export default function Links({ links, icons }) {
 				<Container className={styles.pushSides}>
 					<Row className={styles.pbLogo}>
 						<Image
-							src="/images/logo_circle.png"
+							src="/logo_circle.png"
 							alt="plant bass'd logo"
 							height="80"
 							width="80"

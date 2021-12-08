@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d Takeover 012: @skinandblister_club"
 date: "May 11, 2021"
-pic: "/images/takeovers/12_Skin-And-Blister.jpg"
+pic: "/takeovers/12_Skin-And-Blister.jpg"
 artistPage: "https://www.instagram.com/skinandblister_club/"
 postLink: "https://www.instagram.com/p/COvw5YjnSiZ/"
 ---

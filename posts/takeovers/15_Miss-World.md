@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d Takeover 015: @missworldedinburgh"
 date: "June 9, 2021"
-pic: "/images/takeovers/15_Miss-World.jpg"
+pic: "/takeovers/15_Miss-World.jpg"
 artistPage: "https://www.instagram.com/missworldedinburgh/"
 postLink: "https://www.instagram.com/p/CP6XyrontQd/"
 ---

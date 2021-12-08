@@ -1,8 +1,8 @@
 ---
 title: "Plant Bass’d Radio: @kaaaaaaandries"
 date: "November 12, 2021"
-pic: "/images/radios/3_kyle.png"
-tracklist: "/images/radios/3_tracklist.png"
+pic: "/radios/3_kyle.png"
+tracklist: "/radios/3_tracklist.png"
 artistPage: "https://www.instagram.com/kaaaaaaandries/"
 mixLink: "https://soundcloud.com/plantbassddjs/plant-bassd-radio-kyle"
 ---

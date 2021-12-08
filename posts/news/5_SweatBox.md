@@ -1,8 +1,8 @@
 ---
 title: "SweatBox party"
 date: "November 10, 2021"
-pic: "/images/news/5_SweatBox.jpg"
-buyLink: "https://ra.co/events/1480079"
+pic: "/news/5_SweatBox.jpg"
+tickets: "https://ra.co/events/1480079"
 postLink: "https://www.instagram.com/p/CWGqB_RlnNu/"
 bio: "We are back with another SweatBox party!..."
 ---

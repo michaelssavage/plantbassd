@@ -9,7 +9,7 @@ import Mixes from "../components/Mixes";
 import News from "../components/News";
 import Radio from "../components/Radio";
 import Takeover from "../components/Takeover";
-import { sortByDate } from "../utils/Sorter";
+import { sortByDate } from "../utils";
 
 export default function Home({ news, takeovers, radios }) {
 	return (
@@ -18,7 +18,7 @@ export default function Home({ news, takeovers, radios }) {
 				<ParallaxBanner
 					layers={[
 						{
-							image: "/images/collage.jpg",
+							image: "/collage.jpg",
 							amount: 0.3,
 						},
 					]}
