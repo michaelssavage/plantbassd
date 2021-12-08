@@ -1,58 +1,38 @@
 import fs from "fs";
 import matter from "gray-matter";
-import { useRouter } from "next/router";
 import path from "path";
 import React from "react";
-import { Button, Container, Row } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
+import { FaSoundcloud } from "react-icons/fa";
 
-import { CardNoText } from "../../components/Card";
 import Footer from "../../components/Footer";
-import { sortByDate } from "../../utils/Sorter";
+import { Content, GoBack } from "../../components/PageContent";
 import styles from "../../styles/page.module.scss";
+import { sortByDate } from "../../utils/Sorter";
 
 export default function RadioPage({ radios }) {
-	const router = useRouter();
-
 	return (
 		<>
-			<div className={styles.radioDiver}>
+			<div className={styles.radioBG}>
 				<Container>
-					<h1 className={`globalHeader ${styles.header}`}>
-						Plant Bass'd Radio
-					</h1>
+					<Content
+						title="Plant Bass'd Radio"
+						description="Guest mixes from homegrown and international artists.
+						Check out the Plant Bass'd radio shows here:"
+						button={
+							<Button
+								href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
+								variant="dark"
+								className={`text-nowrap ${styles.soundcloud}`}
+							>
+								<FaSoundcloud /> Plant Bass'd Radio
+							</Button>
+						}
+						cards={radios}
+						route="radios"
+					/>
 
-					<p className={styles.texter}>
-						Nunc auctor urna tellus, a vulputate urna bibendum sed.
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Maecenas dictum rhoncus lectus eget gravida.
-					</p>
-					<p className={styles.texter}>
-						Nulla vel tortor vitae tortor aliquet ornare rhoncus sit
-						amet felis. Etiam dui dui, mattis placerat nulla at,
-						facilisis feugiat leo. Sed accumsan mattis diam in
-						malesuada. Duis ex lacus, euismod a varius quis,
-						faucibus a massa.
-					</p>
-
-					<Row className="g-5">
-						{radios.map((radio) => (
-							<CardNoText
-								key={radio.frontmatter.title}
-								post={radio}
-								link={`radios/${radio.slug}`}
-							/>
-						))}
-					</Row>
-
-					<div className="globalBottomBtn">
-						<Button
-							size="lg"
-							variant="outline-light"
-							onClick={() => router.back()}
-						>
-							Go Back
-						</Button>
-					</div>
+					<GoBack />
 				</Container>
 			</div>
 

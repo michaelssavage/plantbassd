@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
-import { AiFillHome, AiOutlineClose } from "react-icons/ai";
+import { AiOutlineClose, AiFillHome, AiOutlineLink } from "react-icons/ai";
 import { BiRadio } from "react-icons/bi";
 import { FaBars, FaSpotify } from "react-icons/fa";
 import { ImNewspaper } from "react-icons/im";
@@ -113,6 +113,13 @@ export default function Sidebar() {
 							icon={<MdContacts className={styles.navIcon} />}
 							show={sidebar}
 							title="Contact Us"
+						/>
+
+						<Listing
+							link="/links"
+							icon={<AiOutlineLink className={styles.navIcon} />}
+							show={sidebar}
+							title="Links"
 						/>
 					</div>
 				</nav>

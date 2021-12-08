@@ -1,45 +1,24 @@
-.radioDiver {
-	background-color: #9bd3a4;
-	min-height: 100vh;
+.divBackground {
+	padding-left: 20%;
+	padding-right: 20%;
 	padding-bottom: 2em;
 }
 
-.takeoverDiver {
-	background-color: #9b519c;
+.radioBG {
+	background-color: var(--green);
+	@extend .divBackground;
+}
+
+.takeoverBG {
+	background-color: var(--pink);
 	min-height: 100vh;
-	padding-bottom: 2em;
+	@extend .divBackground;
 }
 
-.newsDiver {
-	background-color: #cecbdb;
+.newsBG {
+	background-color: var(--lavender);
 	min-height: 100vh;
-	padding: 0 20%;
-	padding-bottom: 2em;
-}
-
-@media (max-width: 1200) {
-	.newsDiver {
-		padding: 0 15%;
-	}
-}
-
-@media (max-width: 992px) {
-	.newsDiver {
-		padding: 0 10%;
-	}
-}
-
-.header {
-	padding-top: 15vh;
-	color: rgba(255, 255, 255, 0.75) !important;
-}
-
-.texter {
-	font-size: 1.2em;
-	text-align: center;
-	padding: 0 1em;
-	margin-bottom: 1.5em;
-	color: rgba(255, 255, 255, 0.75) !important;
+	@extend .divBackground;
 }
 
 .bHeader {
@@ -49,29 +28,56 @@
 }
 
 .bTexter {
-	font-size: 1.2em;
 	text-align: center;
-	padding: 0 1em;
-	margin-bottom: 1.5em;
+	font-size: 1.2em;
+	margin-top: 1rem;
+	margin-bottom: 0.5em;
 }
 
-.buttonStyler {
-	padding: 1rem 1rem 0 1rem !important;
-	text-align: center !important;
+.spotify {
+	color: var(--spotify) !important;
+	margin-bottom: 1rem;
 }
 
-// news specific code
-
-.customCard {
-	flex-direction: row !important;
-	height: 20%;
+.soundcloud {
+	color: var(--white) !important;
+	background-color: var(--soundcloud) !important;
+	margin-bottom: 1rem;
 }
 
-.cardText {
-	padding: "3rem";
+.spotify,
+.soundcloud:hover {
+	opacity: 0.8;
+	filter: drop-shadow(0px 6px 6px var(--dropShadow));
 }
 
-.newsText {
-	padding: 1em 0.5em;
-	overflow: hidden;
+@media (max-width: 1200px) {
+	.divBackground {
+		padding-left: 15%;
+		padding-right: 15%;
+	}
+}
+
+@media (max-width: 992px) {
+	.divBackground {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
+
+@media (max-width: 576px) {
+	.divBackground {
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+
+	.bHeader {
+		text-align: left;
+		padding: 10vh 0.5rem 0 0.5rem;
+		font-size: 2em;
+	}
+
+	.bTexter {
+		text-align: left;
+	}
 }

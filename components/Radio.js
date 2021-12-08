@@ -1,5 +1,5 @@
-import React from "react";
 import { useRouter } from "next/router";
+import React from "react";
 import { Button, Container, Row } from "react-bootstrap";
 
 import { CardNoText } from "./Card";
@@ -15,7 +15,7 @@ export default function Radio({ radios }) {
 					<h1 name="radios" className="header">
 						Guest Radio
 					</h1>
-					<p>Plant Bass'd Radio Mixes</p>
+					<p>Plant Bass'd Radio Mixes.</p>
 				</div>
 				<Container>
 					<Row className="g-2">
@@ -31,7 +31,7 @@ export default function Radio({ radios }) {
 					<div className="globalBottomBtn">
 						<Button
 							size="lg"
-							variant="outline-light"
+							variant="outline-dark"
 							onClick={() => router.push("/radios")}
 						>
 							Discover More

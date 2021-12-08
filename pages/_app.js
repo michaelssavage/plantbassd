@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import "../styles/colors.css";
 import "bootstrap/dist/css/bootstrap.css";
 
 import Head from "next/head";

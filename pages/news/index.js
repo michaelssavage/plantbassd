@@ -7,15 +7,15 @@ import { Button, Container, Row } from "react-bootstrap";
 
 import { CardWithText } from "../../components/Card";
 import Footer from "../../components/Footer";
-import { sortByDate } from "../../utils/Sorter";
 import styles from "../../styles/page.module.scss";
+import { sortByDate } from "../../utils/Sorter";
 
 export default function NewsPage({ news }) {
 	const router = useRouter();
 
 	return (
 		<>
-			<div className={styles.newsDiver}>
+			<div className={styles.newsBG}>
 				<Container>
 					<h1 className={styles.bHeader}>Plant Bass'd News</h1>
 

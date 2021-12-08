@@ -1,50 +1,83 @@
 import fs from "fs";
 import matter from "gray-matter";
 import Image from "next/image";
+import Link from "next/link";
 import path from "path";
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
+import {
+	AiOutlineFacebook,
+	AiOutlineInstagram,
+	AiOutlineMail,
+} from "react-icons/ai";
+import { RiSoundcloudLine, RiSpotifyLine } from "react-icons/ri";
 
 import styles from "../../styles/links.module.scss";
+
+const SocialIcon = ({ link, icon }) => {
+	return (
+		<Col className={styles.iconContainer}>
+			<Link href={link}>
+				<a>{icon}</a>
+			</Link>
+		</Col>
+	);
+};
 
 export default function Links({ links, icons }) {
 	return (
 		<>
 			<div className={styles.linkPage}>
 				<Container className={styles.pushSides}>
-					<Row className={`${styles.logo} justify-content-center`}>
+					<Row className={styles.pbLogo}>
 						<Image
 							src="/images/logo_circle.png"
 							alt="plant bass'd logo"
-							height="200"
-							width="200"
+							height="80"
+							width="80"
 						/>
 					</Row>
 					<Row className="text-center">
-						<h1 className="btn-text">Plant Bass'd DJs</h1>
-						<p className="btn-text">
-							Party Throwers and electronic music blog based in
-							Edinburgh and Dublin.
-						</p>
+						<h1>Plant Bass'd</h1>
 					</Row>
 
 					<Row>
-						{icons.map((icon) => (
-							<Col
-								key={icon.id}
-								className="d-flex justify-content-center"
-							>
-								<a href={icon.link}>
-									<Image
-										src={icon.src}
-										alt={icon.link}
-										height={50}
-										width={50}
-										className={styles.socialIcon}
-									/>
-								</a>
-							</Col>
-						))}
+						<SocialIcon
+							link="https://www.facebook.com/plantbassddjs"
+							icon={
+								<AiOutlineFacebook
+									className={styles.socialIcon}
+								/>
+							}
+						/>
+						<SocialIcon
+							link="https://www.instagram.com/plantbassddjs/"
+							icon={
+								<AiOutlineInstagram
+									className={styles.socialIcon}
+								/>
+							}
+						/>
+						<SocialIcon
+							link="mailto: plantbassddjs@gmail.com"
+							icon={
+								<AiOutlineMail className={styles.socialIcon} />
+							}
+						/>
+						<SocialIcon
+							link="https://open.spotify.com/embed/playlist/5skAgzUfGmZLwrOPNLnGVf"
+							icon={
+								<RiSpotifyLine className={styles.socialIcon} />
+							}
+						/>
+						<SocialIcon
+							link="https://soundcloud.com/plantbassddjs"
+							icon={
+								<RiSoundcloudLine
+									className={styles.socialIcon}
+								/>
+							}
+						/>
 					</Row>
 
 					{links.map((item) => (
@@ -54,6 +87,7 @@ export default function Links({ links, icons }) {
 								size="lg"
 								variant="outline-light"
 							>
+								{item.icon}
 								{item.title}
 							</Button>
 						</Row>
@@ -72,17 +106,9 @@ export async function getStaticProps() {
 	);
 	const { data: frontmatter } = matter(markdownWithMeta);
 
-	// icons svg src and the link associated with it.
-	const iconsList = fs.readFileSync(
-		path.join("posts/links/icons.md"),
-		"utf-8"
-	);
-	const { data: iconMatter } = matter(iconsList);
-
 	return {
 		props: {
 			links: frontmatter.links,
-			icons: iconMatter.icons,
 		},
 	};
 }

@@ -1,58 +1,38 @@
 import fs from "fs";
 import matter from "gray-matter";
-import { useRouter } from "next/router";
 import path from "path";
 import React from "react";
-import { Button, Container, Row } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
+import { FaSpotify } from "react-icons/fa";
 
-import { CardNoText } from "../../components/Card";
 import Footer from "../../components/Footer";
-import { sortByDate } from "../../utils/Sorter";
+import { Content, GoBack } from "../../components/PageContent";
 import styles from "../../styles/page.module.scss";
+import { sortByDate } from "../../utils/Sorter";
 
 export default function TakeoverPage({ takeovers }) {
-	const router = useRouter();
-
 	return (
 		<>
-			<div className={styles.takeoverDiver}>
+			<div className={styles.takeoverBG}>
 				<Container>
-					<h1 className={`globalHeader ${styles.header}`}>
-						Plant Bass'd Takeovers
-					</h1>
+					<Content
+						title="Plant Bass'd Takeovers"
+						description="We ask artists to select and share their top tracks.
+						Check out the playlist here:"
+						button={
+							<Button
+								href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
+								variant="dark"
+								className={`text-nowrap ${styles.spotify}`}
+							>
+								<FaSpotify /> Plant Bass'd Picks
+							</Button>
+						}
+						cards={takeovers}
+						route="takeovers"
+					/>
 
-					<p className={styles.texter}>
-						Nunc auctor urna tellus, a vulputate urna bibendum sed.
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Maecenas dictum rhoncus lectus eget gravida.
-					</p>
-					<p className={styles.texter}>
-						Nulla vel tortor vitae tortor aliquet ornare rhoncus sit
-						amet felis. Etiam dui dui, mattis placerat nulla at,
-						facilisis feugiat leo. Sed accumsan mattis diam in
-						malesuada. Duis ex lacus, euismod a varius quis,
-						faucibus a massa.
-					</p>
-
-					<Row className="g-5">
-						{takeovers.map((artist) => (
-							<CardNoText
-								key={artist.frontmatter.title}
-								post={artist}
-								link={`takeovers/${artist.slug}`}
-							/>
-						))}
-					</Row>
-
-					<div className="globalBottomBtn">
-						<Button
-							size="lg"
-							variant="outline-light"
-							onClick={() => router.back()}
-						>
-							Go Back
-						</Button>
-					</div>
+					<GoBack />
 				</Container>
 			</div>
 

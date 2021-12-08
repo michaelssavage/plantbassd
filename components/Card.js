@@ -7,7 +7,7 @@ import styles from "./card.module.scss";
 
 export const CardWithText = ({ post, link }) => {
 	return (
-		<Col key={post.slug} lg={3} md={6} xs={6}>
+		<Col key={post.slug} lg={3} md={6} sm={6} xs={12}>
 			<Link href={link} passHref>
 				<div className={`card ${styles.cardStyle}`}>
 					<Image

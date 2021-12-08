@@ -1,30 +1,42 @@
-.logo {
-	margin: 2rem 0;
-}
-
 .linkPage {
 	min-height: 100vh;
-	background: linear-gradient(180deg, #f9ba63 0%, #d9689e 50%, #26326d 100%);
+	background: linear-gradient(
+		180deg,
+		var(--lavender) 0%,
+		var(--pink) 50%,
+		var(--navBlue) 100%
+	);
+}
+
+.pbLogo {
+	margin: 1rem 0;
+	justify-content: center;
+}
+
+.iconContainer {
+	display: flex;
+	justify-content: center;
 }
 
 .socialIcon {
 	height: 3rem;
 	width: 3rem;
-	fill: #fff;
+	margin: 1rem 0;
+	fill: var(--white);
 }
 
 .socialIcon:hover {
 	transform: scale(1.1);
-	filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+	filter: drop-shadow(0px 6px 6px var(--dropShadow));
 }
 
 .buttonStyle {
-	padding: 1rem 0;
-	color: #ffffff;
+	padding: 0.5rem 0;
+	color: var(--white);
 }
 
 .buttonStyle:hover {
-	color: #000000;
+	color: var(--black);
 }
 
 .pushSides {
@@ -58,5 +70,10 @@
 @media (max-width: 576px) {
 	.pushSides {
 		padding: 2rem 2rem 4rem 2rem;
+	}
+
+	.socialIcon {
+		width: 2.2rem;
+		height: 2.2rem;
 	}
 }

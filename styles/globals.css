@@ -47,7 +47,7 @@ Link {
 }
 
 .header {
-	color: rgba(30, 30, 30, 0.85) !important;
+	color: var(--headerBlack) !important;
 	font-size: 3em;
 }
 
@@ -74,5 +74,5 @@ Link {
 }
 
 .discoveryCards {
-	background: linear-gradient(180deg, #a2dba9 20%, #13547a 100%);
+	background: linear-gradient(130deg, var(--pink) 20%, var(--green) 80%);
 }

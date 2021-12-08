@@ -25,13 +25,13 @@
 }
 
 .postDate {
-	background: #f4f4f4;
+	background: var(--lavender);
 	padding: 0.5em 1em;
 	border-radius: 1em;
 }
 
 .postBody {
-	background: #f4f4f4;
+	background: var(--lavender);
 	padding: 1em;
 	margin: 1em 0;
 	border-radius: 1em;
@@ -44,7 +44,7 @@
 }
 
 .hoverLink:hover {
-	color: #ffffff !important;
+	color: var(--white) !important;
 }
 
 .imgWrapper {

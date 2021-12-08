@@ -4,6 +4,16 @@ import { Col, Container, Row } from "react-bootstrap";
 
 import styles from "./footer.module.scss";
 
+const FootLink = ({ link, title }) => {
+	return (
+		<li>
+			<Link href={link}>
+				<a className={styles.hoverLink}>{title}</a>
+			</Link>
+		</li>
+	);
+};
+
 export default function FooterComponent() {
 	return (
 		<footer className="w-100 flex-shrink-0">
@@ -28,58 +38,20 @@ export default function FooterComponent() {
 					<Col>
 						<h5 className="text-black mb-3">Main Content</h5>
 						<ul className={`${styles.footerColor} list-unstyled`}>
-							<li>
-								<Link href="/">
-									<a className={styles.hoverLink}>Home</a>
-								</Link>
-							</li>
-							<li>
-								<Link href="/contact-us">
-									<a className={styles.hoverLink}>About</a>
-								</Link>
-							</li>
-							<li>
-								<Link href="/news">
-									<a className={styles.hoverLink}>News</a>
-								</Link>
-							</li>
-							<li>
-								<Link href="/contact-us">
-									<a className={styles.hoverLink}>
-										Contact Us
-									</a>
-								</Link>
-							</li>
+							<FootLink link="/" title="Home" />
+							<FootLink link="/news" title="News" />
+							<FootLink link="/contact-us" title="About" />
+							<FootLink link="/contact-us" title="Contact Us" />
 						</ul>
 					</Col>
 
 					<Col>
 						<h5 className="text-black mb-3">Quick Links</h5>
 						<ul className={`${styles.footerColor} list-unstyled`}>
-							<li>
-								<Link href="/#mixes">
-									<a className={styles.hoverLink}>Mixes</a>
-								</Link>
-							</li>
-							<li>
-								<Link href="/radios">
-									<a className={styles.hoverLink}>Radio</a>
-								</Link>
-							</li>
-							<li>
-								<Link href="/takeovers">
-									<a className={styles.hoverLink}>
-										Takeovers
-									</a>
-								</Link>
-							</li>
-							<li>
-								<Link href="/news">
-									<a className={styles.hoverLink}>
-										Fresh Juice
-									</a>
-								</Link>
-							</li>
+							<FootLink link="/#mixes" title="Mixes" />
+							<FootLink link="/radios" title="Radio" />
+							<FootLink link="/takeovers" title="Takeovers" />
+							<FootLink link="/news" title="Fresh Juice" />
 						</ul>
 					</Col>
 				</Row>
