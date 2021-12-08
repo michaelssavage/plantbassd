@@ -1,6 +1,6 @@
 import fs from "fs";
 import matter from "gray-matter";
-import Router from "next/router";
+import { useRouter } from "next/router";
 import path from "path";
 import React from "react";
 import { Button, Container, Row } from "react-bootstrap";
@@ -11,6 +11,8 @@ import { sortByDate } from "../../utils/Sorter";
 import styles from "../../styles/page.module.scss";
 
 export default function TakeoverPage({ takeovers }) {
+	const router = useRouter();
+
 	return (
 		<>
 			<div className={styles.takeoverDiver}>
@@ -46,7 +48,7 @@ export default function TakeoverPage({ takeovers }) {
 						<Button
 							size="lg"
 							variant="outline-light"
-							onClick={() => Router.back()}
+							onClick={() => router.back()}
 						>
 							Go Back
 						</Button>

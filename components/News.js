@@ -1,16 +1,17 @@
-import Image from "next/image";
-import Link from "next/link";
-import Router from "next/router";
+import { useRouter } from "next/router";
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
 
+import { CardWithText } from "./Card";
 import styles from "./news.module.scss";
 
 export default function News({ news }) {
+	const router = useRouter();
+
 	return (
 		<section>
 			<Container>
-				<Row>
+				<Row className="p-5">
 					<Col
 						className={styles.headerContainer}
 						lg={6}
@@ -18,7 +19,10 @@ export default function News({ news }) {
 						xs={12}
 					>
 						<div className={styles.content}>
-							<h1 name="news" className="header">
+							<h1
+								name="news"
+								className={`header ${styles.mobileHead}`}
+							>
 								Latest News
 							</h1>
 							<p>
@@ -38,35 +42,20 @@ export default function News({ news }) {
 								<Button
 									size="lg"
 									variant="outline-dark"
-									onClick={() => Router.push("/news")}
+									onClick={() => router.push("/news")}
 								>
 									Discover More
 								</Button>
 							</div>
 						</div>
 					</Col>
-					<Col key={news.slug} lg={6} md={12} xs={12}>
-						<Link href={`news/${news.slug}`} passHref>
-							<div className={`card ${styles.cardStyle}`}>
-								<Image
-									className="card-img-top"
-									src={news.frontmatter.pic}
-									alt={news.frontmatter.title}
-									width={400}
-									height={400}
-									layout="responsive"
-								/>
-								<div className="card-body">
-									<p className="small">
-										{news.frontmatter.date}
-									</p>
-									<h5 className="card-title">
-										{news.frontmatter.bio}
-									</h5>
-								</div>
-							</div>
-						</Link>
-					</Col>
+					{news.map((story) => (
+						<CardWithText
+							key={story.frontmatter.title}
+							post={story}
+							link={`news/${story.slug}`}
+						/>
+					))}
 				</Row>
 			</Container>
 		</section>

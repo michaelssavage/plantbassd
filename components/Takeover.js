@@ -1,22 +1,20 @@
-import Router from "next/router";
 import React from "react";
+import { useRouter } from "next/router";
 import { Button, Container, Row } from "react-bootstrap";
 
 import { CardNoText } from "./Card";
 import styles from "./takeover.module.scss";
 
 export default function Takeover({ takeovers }) {
+	const router = useRouter();
+
 	return (
 		<div className={styles.bgGreen}>
 			<div className="globalSection">
 				<h1 name="takeovers" className="header">
 					Takeovers
 				</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-					do eiusmod tempor incididunt ut labore et dolore magna
-					aliqua.
-				</p>
+				<p>Top Spotify Selects.</p>
 			</div>
 			<Container>
 				<Row className="g-2">
@@ -33,7 +31,7 @@ export default function Takeover({ takeovers }) {
 					<Button
 						size="lg"
 						variant="outline-dark"
-						onClick={() => Router.push("/takeovers")}
+						onClick={() => router.push("/takeovers")}
 					>
 						Discover More
 					</Button>

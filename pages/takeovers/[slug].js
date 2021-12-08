@@ -1,7 +1,7 @@
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
-import Router from "next/router";
+import { useRouter } from "next/router";
 import path from "path";
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
@@ -14,6 +14,8 @@ export default function PostPage({
 	slug,
 	content,
 }) {
+	const router = useRouter();
+
 	return (
 		<>
 			<ParallaxProvider>
@@ -42,7 +44,7 @@ export default function PostPage({
 						<Button
 							size="lg"
 							variant="outline-dark"
-							onClick={() => Router.back()}
+							onClick={() => router.back()}
 							className={styles.hoverLink}
 						>
 							Go Back

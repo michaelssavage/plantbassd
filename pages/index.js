@@ -12,7 +12,7 @@ import Takeover from "../components/Takeover";
 import { sidebarData } from "../utils/SidebarData";
 import { sortByDate } from "../utils/Sorter";
 
-export default function Home({ news, takeovers, radios, sidebarList }) {
+export default function Home({ news, takeovers, radios }) {
 	return (
 		<>
 			<ParallaxProvider>
@@ -43,7 +43,7 @@ export default function Home({ news, takeovers, radios, sidebarList }) {
 
 export async function getStaticProps() {
 	let news = getPosts("posts/news");
-	news = news.sort(sortByDate).reverse()[0];
+	news = news.sort(sortByDate).reverse().slice(0, 2);
 
 	// get files from the takeover directory
 	let takeovers = getPosts("posts/takeovers");
@@ -61,7 +61,6 @@ export async function getStaticProps() {
 			news,
 			takeovers,
 			radios,
-			sidebarList: JSON.parse(JSON.stringify(sidebarData)),
 		},
 	};
 }

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { Button, Col, Container, Row } from "react-bootstrap";
+import { RiSoundcloudLine } from "react-icons/ri";
 
 import styles from "./mixes.module.scss";
 
@@ -34,14 +35,14 @@ export default function ArtistCard() {
 								Mixes
 							</h1>
 							<p>
-								Nunc auctor urna tellus, a vulputate urna
-								bibendum sed. Lorem ipsum dolor sit amet,
-								consectetur adipiscing elit. Maecenas dictum
-								rhoncus lectus eget gravida.
+								Club Tracks Jungle Techno Garage Rave, EHFM
+								ITSNOTRADIO bibendum sed. Lorem ipsum dolor sit
+								amet, consectetur adipiscing elit. Maecenas
+								dictum rhoncus lectus eget gravida.
 							</p>
 
 							<p>
-								Nunc auctor urna tellus, a vulputate urna
+								Chill Mixes House Disco Groovy, SET RADIO urna
 								bibendum sed. Lorem ipsum dolor sit amet,
 								consectetur adipiscing elit. Maecenas dictum
 								rhoncus lectus eget gravida.
@@ -53,7 +54,7 @@ export default function ArtistCard() {
 									variant="outline-dark"
 									className={styles.hoverBtn}
 								>
-									Listen Now
+									<RiSoundcloudLine /> Listen Now
 								</Button>
 							</div>
 						</div>

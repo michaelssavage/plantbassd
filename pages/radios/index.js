@@ -1,6 +1,6 @@
 import fs from "fs";
 import matter from "gray-matter";
-import Router from "next/router";
+import { useRouter } from "next/router";
 import path from "path";
 import React from "react";
 import { Button, Container, Row } from "react-bootstrap";
@@ -11,7 +11,8 @@ import { sortByDate } from "../../utils/Sorter";
 import styles from "../../styles/page.module.scss";
 
 export default function RadioPage({ radios }) {
-	const artists = radios.reverse();
+	const router = useRouter();
+
 	return (
 		<>
 			<div className={styles.radioDiver}>
@@ -34,11 +35,11 @@ export default function RadioPage({ radios }) {
 					</p>
 
 					<Row className="g-5">
-						{artists.map((artist) => (
+						{radios.map((radio) => (
 							<CardNoText
-								key={artist.frontmatter.title}
-								post={artist}
-								link={`radios/${artist.slug}`}
+								key={radio.frontmatter.title}
+								post={radio}
+								link={`radios/${radio.slug}`}
 							/>
 						))}
 					</Row>
@@ -47,7 +48,7 @@ export default function RadioPage({ radios }) {
 						<Button
 							size="lg"
 							variant="outline-light"
-							onClick={() => Router.back()}
+							onClick={() => router.back()}
 						>
 							Go Back
 						</Button>
@@ -83,7 +84,7 @@ export async function getStaticProps() {
 
 	return {
 		props: {
-			radios: radios.sort(sortByDate),
+			radios: radios.sort(sortByDate).reverse(),
 		},
 	};
 }

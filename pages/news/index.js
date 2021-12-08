@@ -1,6 +1,6 @@
 import fs from "fs";
 import matter from "gray-matter";
-import Router from "next/router";
+import { useRouter } from "next/router";
 import path from "path";
 import React from "react";
 import { Button, Container, Row } from "react-bootstrap";
@@ -11,7 +11,8 @@ import { sortByDate } from "../../utils/Sorter";
 import styles from "../../styles/page.module.scss";
 
 export default function NewsPage({ news }) {
-	const articles = news.reverse();
+	const router = useRouter();
+
 	return (
 		<>
 			<div className={styles.newsDiver}>
@@ -19,16 +20,16 @@ export default function NewsPage({ news }) {
 					<h1 className={styles.bHeader}>Plant Bass'd News</h1>
 
 					<p className={styles.bTexter}>
-						News about Fresh Juice, Gigs, and all things plant
-						bass'd.
+						News about Fresh Juice, Gigs, and all things Plant
+						Bass'd.
 					</p>
 
 					<Row className="g-3">
-						{articles.map((article) => (
+						{news.map((story) => (
 							<CardWithText
-								key={article.frontmatter.title}
-								post={article}
-								link={`news/${article.slug}`}
+								key={story.frontmatter.title}
+								post={story}
+								link={`news/${story.slug}`}
 							/>
 						))}
 					</Row>
@@ -37,7 +38,7 @@ export default function NewsPage({ news }) {
 						<Button
 							size="lg"
 							variant="outline-dark"
-							onClick={() => Router.back()}
+							onClick={() => router.back()}
 						>
 							Go Back
 						</Button>
@@ -74,7 +75,7 @@ export async function getStaticProps() {
 
 	return {
 		props: {
-			news: news.sort(sortByDate),
+			news: news.sort(sortByDate).reverse(),
 		},
 	};
 }

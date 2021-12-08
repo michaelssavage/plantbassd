@@ -1,11 +1,13 @@
-import Router from "next/router";
 import React from "react";
+import { useRouter } from "next/router";
 import { Button, Container, Row } from "react-bootstrap";
 
 import { CardNoText } from "./Card";
 import styles from "./radio.module.scss";
 
 export default function Radio({ radios }) {
+	const router = useRouter();
+
 	return (
 		<>
 			<div className={styles.bgBlue}>
@@ -13,11 +15,7 @@ export default function Radio({ radios }) {
 					<h1 name="radios" className="header">
 						Guest Radio
 					</h1>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore
-						magna aliqua.
-					</p>
+					<p>Plant Bass'd Radio Mixes</p>
 				</div>
 				<Container>
 					<Row className="g-2">
@@ -34,7 +32,7 @@ export default function Radio({ radios }) {
 						<Button
 							size="lg"
 							variant="outline-light"
-							onClick={() => Router.push("/radios")}
+							onClick={() => router.push("/radios")}
 						>
 							Discover More
 						</Button>
