@@ -1,13 +1,13 @@
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
-import { useRouter } from "next/router";
 import Image from "next/image";
+import { useRouter } from "next/router";
 import path from "path";
 import React from "react";
-import Footer from "../../components/Footer";
 import { Button, Col, Container, Row } from "react-bootstrap";
 
+import Footer from "../../components/Footer";
 import styles from "../../styles/slug.module.scss";
 
 export default function PostPage({
