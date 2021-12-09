@@ -17,7 +17,7 @@ import styles from "../../styles/links.module.scss";
 const SocialIcon = ({ link, icon }) => {
 	return (
 		<Col className={styles.iconContainer}>
-			<Link href={link}>
+			<Link href={link} rel="preload">
 				<a>{icon}</a>
 			</Link>
 		</Col>

@@ -7,7 +7,7 @@ import { FaSpotify } from "react-icons/fa";
 
 import Footer from "../../components/Footer";
 import styles from "../../styles/page.module.scss";
-import { Content, GoBack, sortByDate } from "../../utils";
+import { Content, GoBack, sortByDate } from "../../components/Utilities";
 
 export default function TakeoverPage({ takeovers }) {
 	return (

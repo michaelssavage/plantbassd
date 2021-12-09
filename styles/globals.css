@@ -1,14 +1,29 @@
+@font-face {
+	font-family: "Messina";
+	src: url("/fonts/Messina.ttf");
+}
+
+@font-face {
+	font-family: "Molengo";
+	src: url("/fonts/Molengo-Regular.ttf");
+}
+
+@font-face {
+	font-family: "AlteHaas";
+	src: url("/fonts/AlteHaasGroteskRegular.ttf");
+}
+
 html,
 body {
 	padding: 0;
 	margin: 0 0 0 5rem;
-	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-family: "AlteHaas", "Molengo", -apple-system, BlinkMacSystemFont,
+		Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+		Helvetica Neue, sans-serif;
 }
 
 h1 {
 	font-family: "Messina";
-	text-transform: uppercase;
 }
 
 h2 {
@@ -74,7 +89,7 @@ Link {
 	}
 
 	.parallaxHeightChange {
-		height: 30vh !important;
+		height: 40vh !important;
 	}
 
 	.header {

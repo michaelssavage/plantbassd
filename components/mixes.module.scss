@@ -15,19 +15,23 @@
 	border-radius: 0 10px 0 0;
 }
 
+.clubDescriptor {
+	padding-left: 2rem;
+}
+
 @media (max-width: 768px) {
 	.topImage {
 		display: none;
 	}
 
 	.mixImages {
-		padding-bottom: 1rem;
+		padding: 0 2.5rem 1rem 2.5rem;
 		text-align: center;
 	}
-}
 
-.clubDescriptor {
-	padding-left: 2rem;
+	.clubDescriptor {
+		padding-right: 2rem;
+	}
 }
 
 .clubButton {

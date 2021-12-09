@@ -12,7 +12,7 @@ export default function MyApp({ Component, pageProps }) {
 		<>
 			<Head>
 				<title>Plant Bass'd</title>
-				<meta name="Plant Bass'd DJs blog" content="Plant Bass'd" />
+				<meta name="Plant Bass'd blog" content="Plant Bass'd" />
 				<link rel="icon" href="/pb_favicon.ico" />
 				<meta
 					name="viewport"

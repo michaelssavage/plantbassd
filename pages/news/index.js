@@ -6,8 +6,8 @@ import React from "react";
 import { Button, Container, Row } from "react-bootstrap";
 
 import Footer from "../../components/Footer";
+import { CardWithText, sortByDate } from "../../components/Utilities";
 import styles from "../../styles/page.module.scss";
-import { CardWithText, sortByDate } from "../../utils";
 
 export default function NewsPage({ news }) {
 	const router = useRouter();

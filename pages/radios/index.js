@@ -7,7 +7,7 @@ import { FaSoundcloud } from "react-icons/fa";
 
 import Footer from "../../components/Footer";
 import styles from "../../styles/page.module.scss";
-import { Content, GoBack, sortByDate } from "../../utils";
+import { Content, GoBack, sortByDate } from "../../components/Utilities";
 
 export default function RadioPage({ radios }) {
 	return (
@@ -17,7 +17,7 @@ export default function RadioPage({ radios }) {
 					<Content
 						title="Plant Bass'd Radio"
 						description="Guest mixes from homegrown and international artists.
-						Check out the Plant Bass'd radio shows here:"
+						Check them out here:"
 						button={
 							<Button
 								href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"

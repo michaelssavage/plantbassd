@@ -23,11 +23,11 @@
 }
 
 .hoverLink {
-	color: inherit !important;
+	color: var(--black) !important;
 	text-decoration: none !important;
 }
 .hoverLink:hover {
-	color: var(--black) !important;
+	color: var(--headerBlack) !important;
 	filter: drop-shadow(0px 6px 6px var(--dropShadow));
 	cursor: pointer !important;
 }

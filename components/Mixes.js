@@ -35,17 +35,17 @@ export default function ArtistCard() {
 								Mixes
 							</h1>
 							<p>
-								Club Tracks Jungle Techno Garage Rave, EHFM
-								ITSNOTRADIO bibendum sed. Lorem ipsum dolor sit
-								amet, consectetur adipiscing elit. Maecenas
-								dictum rhoncus lectus eget gravida.
+								We don't stick to one genre. Hear the latest
+								club tracks when we play Jungle, Techno, Garage,
+								Rave selects, and more. Listen on EHFM,
+								ITSNOTRADIO, and Aurora, and our Soundcloud.
 							</p>
 
 							<p>
-								Chill Mixes House Disco Groovy, SET RADIO urna
-								bibendum sed. Lorem ipsum dolor sit amet,
-								consectetur adipiscing elit. Maecenas dictum
-								rhoncus lectus eget gravida.
+								Take it easy and listen to some of our chill
+								mixes that include House, Disco, and Groovy
+								numbers. Find these on SET RADIO and our
+								Soundcloud page.
 							</p>
 							<div className={styles.clubButton}>
 								<Button

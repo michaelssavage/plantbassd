@@ -2,8 +2,7 @@ import React from "react";
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 
 import Footer from "../../components/Footer";
-import styles from "../../styles/construction.module.scss";
-// import styles from "../contact.module.scss";
+import styles from "../../styles/contact.module.scss";
 
 export default function ContactPage() {
 	return (
@@ -12,7 +11,7 @@ export default function ContactPage() {
 				<ParallaxBanner
 					layers={[
 						{
-							image: "/hoodie.jpg",
+							image: "/collage.jpg",
 							amount: 0.4,
 						},
 					]}
@@ -22,6 +21,23 @@ export default function ContactPage() {
 
 			<div className={styles.container}>
 				<h1>Under Construction</h1>
+				<p>
+					<a
+						className={styles.anchor}
+						href="mailto:plantbassddjs@gmail.com"
+					>
+						Email: plantbassddjs@gmail.com
+					</a>
+				</p>
+				<p>
+					Instagram:{" "}
+					<a
+						className={styles.anchor}
+						href="https://www.instagram.com/https://www.instagram.com/plantbassddjs/"
+					>
+						@plantbassddjs
+					</a>
+				</p>
 			</div>
 
 			<Footer />

@@ -9,7 +9,7 @@ import Mixes from "../components/Mixes";
 import News from "../components/News";
 import Radio from "../components/Radio";
 import Takeover from "../components/Takeover";
-import { sortByDate } from "../utils";
+import { sortByDate } from "../components/Utilities";
 
 export default function Home({ news, takeovers, radios }) {
 	return (
@@ -18,20 +18,16 @@ export default function Home({ news, takeovers, radios }) {
 				<ParallaxBanner
 					layers={[
 						{
-							image: "/collage.jpg",
-							amount: 0.3,
+							// image: "/collage.jpg",
+							children: (
+								<video src="/pbdj.mp4" autoPlay muted loop />
+							),
+							amount: 0.4,
 						},
 					]}
 					className="parallaxHeightChange"
 				></ParallaxBanner>
 			</ParallaxProvider>
-
-			{/* TODO: Add autoplay video here
-			<div className="videoContainer">
-				<video autoPlay loop muted className="videoPlayer">
-					<source src="/pbdjs.mp4" type="video/mp4" />
-				</video>
-			</div> */}
 
 			<News news={news} />
 
