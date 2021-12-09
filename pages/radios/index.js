@@ -6,8 +6,8 @@ import { Button, Container } from "react-bootstrap";
 import { FaSoundcloud } from "react-icons/fa";
 
 import Footer from "../../components/Footer";
-import styles from "../../styles/page.module.scss";
 import { Content, GoBack, sortByDate } from "../../components/Utilities";
+import styles from "../../styles/page.module.scss";
 
 export default function RadioPage({ radios }) {
 	return (
