@@ -1,6 +1,6 @@
 ---
 title: "FRESH JUICE: DJ GODFATHER X DJ MELL G - COPS CAN’T DANCE"
-date: "December 10, 2020"
+date: "December 10, 2021"
 pic: "/news/9_mell-g.jpg"
 bandcamp: "https://euphore.bandcamp.com/releases"
 postLink: "https://www.instagram.com/p/CW3cp-xNWGy/"
@@ -32,7 +32,7 @@ Issues at pressing plants have added further frustration for many labels particu
 Amongst the difficulties, there are always guiding lights and having the right people and support is vital in this industry. Mell alludes to her team, Tansu and Claudio, who in particular are always there for her and have supported her push to create the label in her own vision.
 ‘A big advantage with Juicy Gang is that I can decide for myself and make it become what it is meant to be. I hope to encourage women to start labels and make music. That’s what the electronic music scene needs!’.
 
-(Link to ‘SPLINTER’ via Bandcamp once online)
+https://juicygangrecords.bandcamp.com/track/splinter
 SPLINTER channels Mell’s darker electro side, throwing us into an AI infested world of bleeps and bloops!
 
 Those who have become attached to the sound of Mell G in recent years will associate her music with ghetto tech, electro, juke, and footwork. Mell’s introduction to these sounds was, probably similarly to many, an unlikely one.
@@ -41,7 +41,7 @@ Those who have become attached to the sound of Mell G in recent years will assoc
 The recent return and transition back into gigging has allowed Mell to test these new sounds out.
 ‘At first I was afraid my sound would only work on the screen but not on the dance floor. But people are hungry and I feed them with Electro and they don’t get full. The feeling is insane
 
-(Link to ‘HIT THAT SHIT’ via Bandcamp once online)
+https://juicygangrecords.bandcamp.com/track/hit-that-shit
 To close out the EP, ‘HIT THAT SHIT’ delivers on a booty bass floor filler, leaving us eager to hear more from the imprint.
 
 <img src="/news/9_mell-g-presspic.jpg" alt="Mell G Press Pic" width="50%" />
