@@ -2,7 +2,7 @@
 title: "FRESH JUICE: DJ GODFATHER X DJ MELL G - COPS CAN’T DANCE"
 date: "December 10, 2021"
 pic: "/news/9_mell-g.jpg"
-bandcamp: "https://euphore.bandcamp.com/releases"
+bandcamp: "https://juicygangrecords.bandcamp.com/releases"
 postLink: "https://www.instagram.com/p/CW3cp-xNWGy/"
 bio: "DJ Mell G arrives in slickish style with the first release on her own new imprint, Juicy Gang Records..."
 ---

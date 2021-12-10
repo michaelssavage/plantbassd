@@ -16,22 +16,13 @@ export default function PostPage({
 }) {
 	const router = useRouter();
 	let buyLink;
+	let buyText;
 	if (bandcamp) {
-		buyLink = (
-			<Col className="text-center">
-				<Button size="lg" variant="outline-dark" href={bandcamp}>
-					Bandcamp
-				</Button>
-			</Col>
-		);
+		buyLink = bandcamp;
+		buyText = "Bandcamp";
 	} else if (tickets) {
-		buyLink = (
-			<Col className="text-center">
-				<Button size="lg" variant="outline-dark" href={tickets}>
-					RA tickets
-				</Button>
-			</Col>
-		);
+		buyLink = tickets;
+		buyText = "RA tickets";
 	}
 
 	return (
@@ -64,8 +55,8 @@ export default function PostPage({
 									height={500}
 									layout="responsive"
 								/>
-								<Row className={styles.buttons}>
-									<Col className="text-center">
+								<Row>
+									<Col className={styles.buttons}>
 										<Button
 											size="lg"
 											variant="outline-dark"
@@ -74,8 +65,16 @@ export default function PostPage({
 											Go Back
 										</Button>
 									</Col>
-									{buyLink}
-									<Col className="text-center">
+									<Col className={styles.buttons}>
+										<Button
+											size="lg"
+											variant="outline-dark"
+											href={buyLink}
+										>
+											{buyText}
+										</Button>
+									</Col>
+									<Col className={styles.buttons}>
 										<Button
 											size="lg"
 											variant="outline-dark"

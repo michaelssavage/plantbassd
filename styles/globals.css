@@ -34,6 +34,25 @@ p {
 	font-size: 1.2rem;
 }
 
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+
+	word-break: break-word;
+
+	/* Adds a hyphen where the word breaks, if supported (No Blink) */
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}
+
 Link {
 	color: inherit !important;
 	text-decoration: none !important;
@@ -51,7 +70,7 @@ Link {
 .globalSection {
 	text-align: center;
 	max-width: 670px;
-	margin: -6px auto 60px;
+	margin: 0 auto 2rem;
 }
 
 .globalHeader {
@@ -67,16 +86,6 @@ Link {
 
 .parallaxHeightChange {
 	height: 100vh !important;
-}
-
-.videoContainer {
-	height: 100vh !important;
-}
-
-.videoPlayer {
-	width: 100%;
-	left: 0;
-	top: 0;
 }
 
 @media (max-width: 768px) {
@@ -99,4 +108,10 @@ Link {
 
 .discoveryCards {
 	background: linear-gradient(130deg, var(--pink) 20%, var(--green) 80%);
+}
+
+@media (max-width: 576px) {
+	.parallax-inner {
+		inset: -85% -200% !important;
+	}
 }

@@ -20,7 +20,12 @@ export default function Home({ news, takeovers, radios }) {
 						{
 							// image: "/collage.jpg",
 							children: (
-								<video src="/pbdj.mp4" autoPlay muted loop />
+								<video autoPlay loop muted>
+									<source
+										src="pbdj.mp4"
+										type="video/mp4"
+									></source>
+								</video>
 							),
 							amount: 0.4,
 						},

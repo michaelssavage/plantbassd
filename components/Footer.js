@@ -28,7 +28,13 @@ export default function FooterComponent() {
 							<h1>Plant Bass'd</h1>
 							<p>
 								Party Throwers and electronic music blog based
-								in Edinburgh and Dublin.
+								in Edinburgh and Dublin. Site created by:{" "}
+								<a
+									className={styles.hoverLink}
+									href="http://github.com/michaelssavage"
+								>
+									Michael Savage
+								</a>
 							</p>
 
 							<p className="small mb-2">

@@ -33,9 +33,18 @@ export default function ContactPage() {
 					Instagram:{" "}
 					<a
 						className={styles.anchor}
-						href="https://www.instagram.com/https://www.instagram.com/plantbassddjs/"
+						href="https://www.instagram.com/plantbassddjs/"
 					>
 						@plantbassddjs
+					</a>
+				</p>
+				<p>
+					Site created by:{" "}
+					<a
+						className={styles.anchor}
+						href="https://www.github.com/michaelssavage"
+					>
+						Michael Savage
 					</a>
 				</p>
 			</div>
