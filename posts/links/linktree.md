@@ -4,6 +4,8 @@ links:
     link: "https://ra.co/events/1485121"
   - title: "SweatBox: Ruff ‘N’ Tuff -  Tickets"
     link: "https://ra.co/events/1484531"
+  - title: "FRESH JUICE: DJ GODFATHER X DJ MELL G - 'COPS CAN'T DANCE'"
+    link: https://www.plantbassd.com/news/9_mell-g
   - title: "FRESH JUICE: darkmavis & sweet philly - ‘Euphore’"
     link: "https://euphore.bandcamp.com/releases"
   - title: "Plant Bass'd Radio: Saz Powerhouse Mix"
