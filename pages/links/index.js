@@ -14,7 +14,7 @@ import { RiSoundcloudLine, RiSpotifyLine } from "react-icons/ri";
 
 import styles from "../../styles/links.module.scss";
 
-export default function Links({ links, icons }) {
+export default function Links({ links }) {
 	return (
 		<>
 			<div className={styles.linkPage}>
@@ -104,14 +104,9 @@ export async function getStaticProps() {
 	);
 	const { data: frontmatter } = matter(markdownWithMeta);
 
-	// linktree data and the links.
-	const icons = fs.readFileSync(path.join("posts/links/icons.md"), "utf-8");
-	const { data: iconmatter } = matter(icons);
-
 	return {
 		props: {
 			links: frontmatter.links,
-			icons: iconmatter.icons,
 		},
 	};
 }
