@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d Takeover 008: @efa_o_neill"
 date: "March 22, 2021"
-pic: "/takeovers/8_Efa-Oneill.jpg"
+pic: "/takeovers/08_Efa-Oneill.jpg"
 artistPage: "https://www.instagram.com/efa_o_neill/"
 postLink: "https://www.instagram.com/p/CMvGowInev9/"
 ---

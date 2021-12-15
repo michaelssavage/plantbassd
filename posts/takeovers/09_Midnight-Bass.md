@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d Takeover 009: @midnightbassclub"
 date: "March 30, 2021"
-pic: "/takeovers/9_Midnight-Bass.jpg"
+pic: "/takeovers/09_Midnight-Bass.jpg"
 artistPage: "https://www.instagram.com/midnightbass_edi/"
 postLink: "https://www.instagram.com/p/CNC9XRzn3w1/"
 ---

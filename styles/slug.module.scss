@@ -2,17 +2,14 @@
 	margin: 10vh 0;
 }
 
-.postContent {
-	margin-right: 3rem;
-}
-
 .newsImage {
 	position: -webkit-sticky;
 	position: sticky;
-	top: 4rem;
+	top: 2rem;
+	margin: 0 3rem;
 }
 
-.buttons {
+.button {
 	padding-top: 1rem;
 	text-align: center;
 }
@@ -23,7 +20,7 @@
 	}
 
 	.newsImage {
-		padding: 2rem 2rem 0 2rem;
+		margin: 2rem 2rem 0 2rem;
 	}
 
 	.postContent {

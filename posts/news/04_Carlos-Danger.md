@@ -1,7 +1,7 @@
 ---
 title: "FRESH JUICE: Carlos Danger - Carlos Danger’s Summer Sound"
 date: "November 1, 2021"
-pic: "/news/4_Carlos-Danger.jpg"
+pic: "/news/04_Carlos-Danger.jpg"
 bandcamp: "https://rory2.bandcamp.com/album/carlos-dangers-summer-sound"
 postLink: "https://www.instagram.com/p/CVv58lwszNl/"
 bio: "Rory Sweeney recently dropped his new body of work..."

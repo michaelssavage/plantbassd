@@ -7,7 +7,7 @@ import styles from "./footer.module.scss";
 const FootLink = ({ link, title }) => {
 	return (
 		<li>
-			<Link href={link} rel="preload">
+			<Link href={link}>
 				<a className={styles.hoverLink}>{title}</a>
 			</Link>
 		</li>
@@ -28,18 +28,18 @@ export default function FooterComponent() {
 							<h1>Plant Bass'd</h1>
 							<p>
 								Party Throwers and electronic music blog based
-								in Edinburgh and Dublin. Site created by:{" "}
+								in Edinburgh and Dublin. Site created by{" "}
 								<a
 									className={styles.hoverLink}
 									href="http://github.com/michaelssavage"
 								>
-									Michael Savage
+									Michael
 								</a>
 							</p>
 
 							<p className="small mb-2">
 								{"© "} {new Date().getFullYear()}{" "}
-								{" Plant Bass'd DJs. All rights reserved."}
+								{" Plant Bass'd. All rights reserved."}
 							</p>
 						</div>
 					</Col>

@@ -1,9 +1,9 @@
 import { useRouter } from "next/router";
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
 import styles from "./news.module.scss";
-import { CardWithText } from "./Utilities";
+import { CardWithText } from "./Card";
 
 export default function News({ news }) {
 	const router = useRouter();
@@ -42,13 +42,13 @@ export default function News({ news }) {
 									.
 								</p>
 								<div>
-									<Button
-										size="lg"
-										variant="outline-dark"
+									<button
+										type="button"
+										className="btn btn-outline-dark btn-lg"
 										onClick={() => router.push("/news")}
 									>
 										Discover More
-									</Button>
+									</button>
 								</div>
 							</div>
 						</Col>

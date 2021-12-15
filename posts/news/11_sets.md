@@ -1,0 +1,36 @@
+---
+title: "FRESH JUICE: SETS – DO U FEEL THIS"
+date: "December 16, 2021"
+pic: "/news/11_sets.jpg"
+bandcamp: "https://sets-derry.bandcamp.com/releases"
+postLink: "https://www.instagram.com/plantbassddjs/"
+bio: "Self-released EP, DO U FEEL THIS, is available now from the Derry duo, SETS..."
+---
+
+### Self-released EP, DO U FEEL THIS, is available now from the Derry duo, @sets\_\_\_, consisting of @eoin_simpson99 and @seanturner10.
+
+Consisting of four bangers primed for the rave, the lads have showed that they’re ready to break out in 2022. This EP shows range and never lets down with breaks, atmospheric synths, growling basses, and detuned arps hitting 140bpm throughout.
+
+Title track ‘Do U FEEL THIS’ and ‘AT LAST’ display plenty of emotion akin to productions from @pagan_909 and more of that euphoric club sound can be heard in ‘BREACH’. ‘EASIER’ hits hard from the start before making use of the bridge to build tension up using a vocal cut that gets resolved with a huge drop. Exceptional music design throughout, this EP is a catch!
+
+Available to stream on all platforms now & for purchase on Bandcamp: https://sets-derry.bandcamp.com/releases
+
+We got speaking to SETS at @celtronic Festival last weekend after they smashed their gig and had the crowd warmed up for @cartincaolan and @kink303. The four day festival was a stunning culmination of electronic noise and dance music that sees off 2021. Some of the world’s best music talent came to Derry including KiNK, Overmono, Batu_music, Gerd Janson, Giant Swan, Loraine James, Sunil Sharpe shared a stage with local and national artists and proved how important and rewarding the simple act of dancing and experiencing amazing music together in a dark room can be. We can't wait to be back there again.
+
+<img src="/news/11_setslads.jpg" alt="photo of sets lads" width="100%" />
+
+<Strong> <i>Do U Feel This</i> shines with its use of breaks and atmospheric synths. What influenced you in the creation of this song and the EP? </Strong>
+
+We take a lot of inspiration from numerous acts, the chopping of breaks takes a lot of influence from acts such as Special Request, Overmono & Ross from Friends to name a few. Although all the tracks for the EP vary & show off different aspects of our production styles, they all complement each other & have very similar processing techniques throughout in a bid to create a unique sound. This being our first EP we really wanted to just showcase the variety in our productions, style of music & let people know what we were all about.
+
+<Strong> <i>“The blend of hardware and software curates a unique sound that is futuristic”.</i> Can you talk through this point, and possibly your production techniques and how you choose your sounds?</Strong>
+
+For us being a duo the ability to jam on hardware has always been more inviting than trying to both navigate a computer screen. The sound created from hardware pieces of kit is unmatched but being able to further process them in Ableton is even better, our tracks all have a blend in some way of both hardware & software. We have been buying gear together for a couple years now & we are lucky to now have a decent studio set up that allows us to creatively work in a way that suits us. Most tracks are started with hours of endless jamming on hardware until something clicks, from there everything just falls into place. We can then record everything & process it all uniquely through Ableton which allows us to really get the sound we are after.
+
+<Strong> AVA Festival is becoming an established dance event with a lot of homegrown talent. what do you think of the music scene in Northern Ireland now and where do you think you’ll fit into it? </Strong>
+
+AVA’s energy, production & line ups are always amazing, being able to experience it on your own doorstep is something else. After such a long 18 months of no gigs, it’s great to see so many festivals & shows being announced across Northern Ireland, not only is there huge international DJ’s being brought over but also the channelling of young talent from across Ireland is insane. I feel like Ireland has a lot of talent to offer not only for the scene here but internationally as well & the energy within our scene locally is unmatched. It’s refreshing to see so many festivals on home turf really pushing to get homegrown talent involved, its platforms like Celtronic & AVA that put homegrown talent on the map & it’s vital for our scene.
+
+<Strong> Finally, what are your ambitions as SETS? Are you guys looking forward to anything in particular?</Strong>
+
+SETS was established during lockdown & we haven’t really been able to showcase what we are about yet. We just want to let people hear our music & hopefully people like our music as much as we enjoyed making it (because it was serious craic). We feel like we have a lot to offer the music scene within Northern Ireland, & we are just excited to see what the next couple months look like with our EP being released. We are both particularly excited about getting a chance to play our live set at Celtronic this Friday, being involved with some many talented individuals & acts is amazing.

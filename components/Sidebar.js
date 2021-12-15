@@ -12,7 +12,7 @@ import styles from "./sidebar.module.scss";
 
 function Listing({ link, icon, title, onClick }) {
 	return (
-		<Link href={link} passHref rel="preload">
+		<Link href={link} passHref>
 			<div
 				onClick={onClick}
 				className={

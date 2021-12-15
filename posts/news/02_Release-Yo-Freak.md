@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d present their first party offering to Edinburgh - Release Yo Freak"
 date: "September 13, 2021"
-pic: "/news/2_Release-Yo-Freak.jpg"
+pic: "/news/02_Release-Yo-Freak.jpg"
 tickets: "https://ra.co/events/1463880"
 postLink: "https://www.instagram.com/p/CTw1M-EjFKj/"
 bio: "Plant Bass’d present their first party offering..."

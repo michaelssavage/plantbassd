@@ -1,7 +1,7 @@
 ---
 title: "Plant Bass’d Takeover 007: @dardisku_records"
 date: "March 15, 2021"
-pic: "/takeovers/7_Dar-Disku.jpg"
+pic: "/takeovers/07_Dar-Disku.jpg"
 artistPage: "https://www.instagram.com/dardisku_records/"
 postLink: "https://www.instagram.com/p/CMdCZAJn20J/"
 ---

@@ -39,12 +39,12 @@ export default function ContactPage() {
 					</a>
 				</p>
 				<p>
-					Site created by:{" "}
+					Site created by{" "}
 					<a
 						className={styles.anchor}
 						href="https://www.github.com/michaelssavage"
 					>
-						Michael Savage
+						Michael
 					</a>
 				</p>
 			</div>

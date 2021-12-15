@@ -1,12 +1,11 @@
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
-import Image from "next/image";
-import { useRouter } from "next/router";
 import path from "path";
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
+import { CardWithButtons } from "../../components/Card";
 import Footer from "../../components/Footer";
 import styles from "../../styles/slug.module.scss";
 
@@ -14,7 +13,6 @@ export default function PostPage({
 	frontmatter: { title, date, pic, bandcamp, tickets, postLink },
 	content,
 }) {
-	const router = useRouter();
 	let buyLink;
 	let buyText;
 	if (bandcamp) {
@@ -46,46 +44,15 @@ export default function PostPage({
 								></div>
 							</div>
 						</Col>
-						<Col>
-							<div className={styles.newsImage}>
-								<Image
-									src={pic}
-									alt={title}
-									width={500}
-									height={500}
-									layout="responsive"
-								/>
-								<Row>
-									<Col className={styles.buttons}>
-										<Button
-											size="lg"
-											variant="outline-dark"
-											onClick={() => router.back()}
-										>
-											Go Back
-										</Button>
-									</Col>
-									<Col className={styles.buttons}>
-										<Button
-											size="lg"
-											variant="outline-dark"
-											href={buyLink}
-										>
-											{buyText}
-										</Button>
-									</Col>
-									<Col className={styles.buttons}>
-										<Button
-											size="lg"
-											variant="outline-dark"
-											href={postLink}
-										>
-											Insta Post
-										</Button>
-									</Col>
-								</Row>
-							</div>
-						</Col>
+
+						<CardWithButtons
+							pic={pic}
+							title={title}
+							page={buyLink}
+							artist={buyText}
+							link={postLink}
+							insta="Insta Post"
+						/>
 					</Row>
 				</Container>
 			</div>

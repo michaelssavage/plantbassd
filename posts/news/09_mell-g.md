@@ -1,7 +1,7 @@
 ---
 title: "FRESH JUICE: DJ GODFATHER X DJ MELL G - COPS CAN’T DANCE"
 date: "December 10, 2021"
-pic: "/news/9_mell-g.jpg"
+pic: "/news/09_mell-g.jpg"
 bandcamp: "https://juicygangrecords.bandcamp.com/releases"
 postLink: "https://www.instagram.com/p/CW3cp-xNWGy/"
 bio: "DJ Mell G arrives in slickish style with the first release on her own new imprint, Juicy Gang Records..."
@@ -19,9 +19,10 @@ Juicy Gang is to be that platform with the Hamburg based artist at the helm ,alo
 ‘I am my own boss. I can decide what kind of sound or vision I want to create. The fact that DJ Godfather is helping me build this vision, build this platform, build Juicy Gang, means a lot to me and I am grateful for that’.
 
 https://juicygangrecords.bandcamp.com/track/work-n-twerk-feat-parkhouse
+
 Track One, WORK N’ TWERK feat. Parkhouse delivers a pulsating synth driven electro bop. A very fun opening door into the Juicy Gang universe.
 
-<img src="/news/9_juicy-gang.jpg" alt="juicy gang logo" width="100%" />
+<img src="/news/09_juicy-gang.jpg" alt="juicy gang logo" width="100%" />
 
 Speaking about the challenges of establishing a label, the issues of finance and pressing delays ring loud, as well as trying to stand out in the ever inventful electronic music industry.
 ‘In any case, a big challenge is always the financial factor. You’re building something new from nothing (all whilst a global pandemic is taking place), and you are chasing a similar idea or dream of owning a label/ collective that thousands of others are also pursuing. I have never seen so many new platforms as I did during the lockdown where Instagram was and still is the only way to communicate’.
@@ -33,6 +34,7 @@ Amongst the difficulties, there are always guiding lights and having the right p
 ‘A big advantage with Juicy Gang is that I can decide for myself and make it become what it is meant to be. I hope to encourage women to start labels and make music. That’s what the electronic music scene needs!’.
 
 https://juicygangrecords.bandcamp.com/track/splinter
+
 SPLINTER channels Mell’s darker electro side, throwing us into an AI infested world of bleeps and bloops!
 
 Those who have become attached to the sound of Mell G in recent years will associate her music with ghetto tech, electro, juke, and footwork. Mell’s introduction to these sounds was, probably similarly to many, an unlikely one.
@@ -42,9 +44,10 @@ The recent return and transition back into gigging has allowed Mell to test thes
 ‘At first I was afraid my sound would only work on the screen but not on the dance floor. But people are hungry and I feed them with Electro and they don’t get full. The feeling is insane
 
 https://juicygangrecords.bandcamp.com/track/hit-that-shit
+
 To close out the EP, ‘HIT THAT SHIT’ delivers on a booty bass floor filler, leaving us eager to hear more from the imprint.
 
-<img src="/news/9_mell-g-presspic.jpg" alt="Mell G Press Pic" width="50%" />
+<img src="/news/09_mell-g-presspic.jpg" alt="Mell G Press Pic" width="50%" />
 
 In addition to readjusting back into the world of nightlife for herself, Mell has watched over the last number of months at how the industry in Germany as a whole has evolved since reopening.  
 ‘Line-ups are becoming more diverse, but I often have the feeling that they are only doing so because they 'have' to, and that feels disgusting. It is a step in the right direction, but we are still a long way from where I would like to be. You still hear about strict doors, no safe spaces, lack of awareness. All this despite the fact that we haven't had a club for almost 2 years.

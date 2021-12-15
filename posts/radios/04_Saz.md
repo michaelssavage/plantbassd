@@ -1,8 +1,8 @@
 ---
 title: "Plant Bass’d Radio: @saz_dj"
 date: "November 19, 2021"
-pic: "/radios/4_saz.png"
-tracklist: "/radios/4_tracklist.png"
+pic: "/radios/04_saz.png"
+tracklist: "/radios/04_tracklist.png"
 artistPage: "https://www.instagram.com/saz_dj"
 mixLink: "https://soundcloud.com/plantbassddjs/plant-bassd-radio-saz-mix"
 ---

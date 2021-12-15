@@ -2,11 +2,11 @@ import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
 import Image from "next/image";
-import { useRouter } from "next/router";
 import path from "path";
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
+import { CardWithButtons } from "../../components/Card";
 import Footer from "../../components/Footer";
 import styles from "../../styles/slug.module.scss";
 
@@ -14,8 +14,6 @@ export default function PostPage({
 	frontmatter: { title, date, pic, tracklist, artistPage, mixLink },
 	content,
 }) {
-	const router = useRouter();
-
 	return (
 		<>
 			<div className={styles.newsSection}>
@@ -45,7 +43,16 @@ export default function PostPage({
 								/>
 							</div>
 						</Col>
-						<Col>
+
+						<CardWithButtons
+							pic={pic}
+							title={title}
+							artist="Artist's Insta"
+							page={artistPage}
+							insta="Listen Now"
+							link={mixLink}
+						/>
+						{/* <Col>
 							<div className={styles.newsImage}>
 								<Image
 									src={pic}
@@ -56,38 +63,35 @@ export default function PostPage({
 								/>
 								<Row className={styles.buttons}>
 									<Col className="text-center">
-										<Button
-											size="lg"
-											className={styles.hoverLink}
-											variant="outline-dark"
+										<button
+											type="button"
+											className={`${styles.hoverLink} btn btn-outline-dark btn-lg`}
 											onClick={() => router.back()}
 										>
 											Go Back
-										</Button>
+										</button>
 									</Col>
 									<Col className="text-center">
-										<Button
-											size="lg"
-											className={styles.hoverLink}
-											variant="outline-dark"
+										<a
+											role="button"
+											className={`${styles.hoverLink} btn btn-outline-dark btn-lg`}
 											href={artistPage}
 										>
 											Artist's Insta
-										</Button>
+										</a>
 									</Col>
 									<Col className="text-center">
-										<Button
-											size="lg"
-											className={styles.hoverLink}
-											variant="outline-dark"
+										<a
+											role="button"
+											className={`${styles.hoverLink} btn btn-outline-dark btn-lg`}
 											href={mixLink}
 										>
 											Listen Now
-										</Button>
+										</a>
 									</Col>
 								</Row>
 							</div>
-						</Col>
+						</Col> */}
 					</Row>
 				</Container>
 			</div>
