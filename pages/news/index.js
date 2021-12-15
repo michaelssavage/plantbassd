@@ -5,8 +5,8 @@ import path from "path";
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 
-import Footer from "../../components/Footer";
 import { CardWithText } from "../../components/Card";
+import Footer from "../../components/Footer";
 import { sortByDate } from "../../components/Utilities";
 import styles from "../../styles/page.module.scss";
 

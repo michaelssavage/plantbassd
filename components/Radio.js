@@ -2,8 +2,8 @@ import { useRouter } from "next/router";
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 
-import styles from "./radio.module.scss";
 import { CardNoText } from "./Card";
+import styles from "./radio.module.scss";
 
 export default function Radio({ radios }) {
 	const router = useRouter();

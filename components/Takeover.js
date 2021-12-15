@@ -2,8 +2,8 @@ import { useRouter } from "next/router";
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 
-import styles from "./takeover.module.scss";
 import { CardNoText } from "./Card";
+import styles from "./takeover.module.scss";
 
 export default function Takeover({ takeovers }) {
 	const router = useRouter();

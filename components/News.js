@@ -2,8 +2,8 @@ import { useRouter } from "next/router";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-import styles from "./news.module.scss";
 import { CardWithText } from "./Card";
+import styles from "./news.module.scss";
 
 export default function News({ news }) {
 	const router = useRouter();

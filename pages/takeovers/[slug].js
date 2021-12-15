@@ -4,6 +4,7 @@ import { marked } from "marked";
 import path from "path";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+
 import { CardWithButtons } from "../../components/Card";
 import Footer from "../../components/Footer";
 import styles from "../../styles/slug.module.scss";
