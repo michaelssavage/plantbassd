@@ -17,6 +17,6 @@ Releases on the label have been played out by some very well-known heads in the 
 From Lisbon to Dublin, or Mumbai to Istanbul, the Dar Disku duo have played venues and festivals like @loveboxfestival across the globe. Their online- radio presence has seen them feature on @ccdisco ‘s @rinsestagram residency, @nabihahiqbal ‘s BBC Radio residency, @nts_radio, as well as becoming residents themselves on @worldwide.fm .
 Let this week’s 10 selekts from Dar Disku take you on a journey through hip hop, psychedelia, disco, new beat, and more.
 
-Link to playlist 🇧🇭 x 🇮🇪: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
+Link to playlist 🇧🇭 x 🇮🇪: <a role="button" class="btn btn-dark" href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf">Plant Bass'd Picks.</a>
 
 The ever talented @eggboy_design on graphics.

@@ -25,6 +25,6 @@ We hope to collaborate again real soon.
 
 Strictly Drum n Bass.
 
-Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
+Link to playlist: <a role="button" class="btn btn-dark" href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf">Plant Bass'd Picks.</a>
 
 @eggboy_design with another whopper graphic!

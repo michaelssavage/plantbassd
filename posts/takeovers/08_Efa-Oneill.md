@@ -18,7 +18,7 @@ Most recently we seen Aoife showcase her talent on the @avafestival x @boilerroo
 
 We are very happy to share 10 picks that Aoife is ready to play for her crowds when this is all over and we hope to be a part of her audience in the future!
 
-Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
+Link to playlist: <a role="button" class="btn btn-dark" href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf">Plant Bass'd Picks.</a>
 
 Watch Aoife’s Boiler Room feature here:
 [Efa O'Neill | Boiler Room x AVA: Dublin](https://www.youtube.com/watch?v=qtGDVV1AvLA)

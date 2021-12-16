@@ -16,6 +16,6 @@ Tom has donned the booth at the likes of @konspiracyclub, @wigwamdublin and @opi
 
 At just 20, there is an exciting path being forged by Presswork and the sound he is crafting is without question club and festival ready. Kick your February off right.
 
-Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
+Link to playlist: <a role="button" class="btn btn-dark" href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf">Plant Bass'd Picks.</a>
 
 Thanks again to @eggboy_design for the graphics. Check out his work.

@@ -20,7 +20,7 @@ export default function ContactPage() {
 			</ParallaxProvider>
 
 			<div className={styles.container}>
-				<h1>Under Construction</h1>
+				<h1 className={styles.header}>Under Construction</h1>
 				<p>
 					<a
 						className={styles.anchor}

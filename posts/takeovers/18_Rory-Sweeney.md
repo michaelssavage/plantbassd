@@ -14,6 +14,6 @@ His latest work under the Carlos Danger alias featured on our Fresh Juice series
 
 One third of the @bittentwicecollective, Sweeney has made a name for himself within Dublin’s underground electronic sound, and the constant variation within his productions has made him into one of Ireland’s most exciting producers in a very short period of time.
 
-9 tasty seleçions in this edition. Expect trap, hip-hop, ghetto tech, footwork & more: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
+9 tasty seleçions in this edition. Expect trap, hip-hop, ghetto tech, footwork & more: <a role="button" class="btn btn-dark" href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf">Plant Bass'd Picks.</a>
 
 @eggboy_design on dem graphikz.

@@ -19,6 +19,10 @@
 	padding-left: 2rem;
 }
 
+.clubButton {
+	text-align: left;
+}
+
 @media (max-width: 768px) {
 	.topImage {
 		display: none;
@@ -32,11 +36,10 @@
 	.clubDescriptor {
 		padding-right: 2rem;
 	}
-}
 
-.clubButton {
-	display: flex;
-	justify-content: flex-start;
+	.clubButton {
+		text-align: center;
+	}
 }
 
 .hoverBtn:hover {

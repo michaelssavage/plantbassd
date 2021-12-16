@@ -1,4 +1,4 @@
-import "../styles/globals.css";
+import "../styles/styles.global.scss";
 import "../styles/colors.css";
 import "bootstrap/dist/css/bootstrap.css";
 

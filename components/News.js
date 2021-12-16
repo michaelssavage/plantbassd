@@ -41,7 +41,7 @@ export default function News({ news }) {
 									</a>
 									.
 								</p>
-								<div>
+								<div className={styles.button}>
 									<button
 										type="button"
 										className="btn btn-outline-dark btn-lg"

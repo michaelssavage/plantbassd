@@ -19,6 +19,6 @@ Some selekts shared from the plant Bass’d crew along the way too.
 Rave ready sounds. We will be sharing selekts from the 3 guests as the week goes on.
 First up is Fonzo!
 
-Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
+Link to playlist: <a role="button" class="btn btn-dark" href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf">Plant Bass'd Picks.</a>
 
 Graphics by: @eggboy_design

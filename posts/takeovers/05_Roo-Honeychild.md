@@ -16,6 +16,6 @@ Despite the pandemic, Roo has kept busy improving her production skills, and has
 
 Expect juke and footwork from these 10 picks. We can’t wait to see Roo back in action!
 
-Preview of tracks in our stories and link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
+Preview of tracks in our stories and link to playlist: <a role="button" class="btn btn-dark" href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf">Plant Bass'd Picks.</a>
 
 @eggboy_design Comin at ya once again.

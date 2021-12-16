@@ -8,22 +8,39 @@
 	src: url("/fonts/Molengo-Regular.ttf");
 }
 
-@font-face {
-	font-family: "AlteHaas";
-	src: url("/fonts/AlteHaasGroteskRegular.ttf");
+* {
+	box-sizing: border-box;
+	font-family: "Molengo", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+		sans-serif;
 }
 
 html,
 body {
 	padding: 0;
 	margin: 0 0 0 5rem;
-	font-family: "AlteHaas", "Molengo", -apple-system, BlinkMacSystemFont,
-		Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-		Helvetica Neue, sans-serif;
+}
+
+a {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: break-word;
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
 }
 
 h1 {
 	font-family: "Messina";
+	color: var(--headerBlack);
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: break-word;
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
 }
 
 h2 {
@@ -40,24 +57,9 @@ img {
 	margin-right: auto;
 }
 
-a {
-	overflow-wrap: break-word;
-	word-wrap: break-word;
-	word-break: break-word;
-	/* Adds a hyphen where the word breaks, if supported (No Blink) */
-	-ms-hyphens: auto;
-	-moz-hyphens: auto;
-	-webkit-hyphens: auto;
-	hyphens: auto;
-}
-
 Link {
 	color: inherit !important;
 	text-decoration: none !important;
-}
-
-* {
-	box-sizing: border-box;
 }
 
 .globalBottomBtn {

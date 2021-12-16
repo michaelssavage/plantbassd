@@ -12,6 +12,6 @@ The club night that aims to showcase exclusively women, lgbtq+, and non-binary d
 
 As a monthly series of @hectors_edinburgh, the opening nights saw performances from @steviecox\_, @hollieprofitdj, @djmintox as well a supporting takeover slot at the @mashhouse for @elliotadamson last Valentines night. This is a very ambitious and exciting series with a very topical and important focus and we can’t wait to see the acts that will follow come club time.
 
-Here are the 10 tracks the @mindt_hegap crew are patiently waiting to hear play out in the @thecabaretvoltaire basement: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
+Here are the 10 tracks the @mindt_hegap crew are patiently waiting to hear play out in the @thecabaretvoltaire basement: <a role="button" class="btn btn-dark" href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf">Plant Bass'd Picks.</a>
 
 @eggboy_design up again with the graphics

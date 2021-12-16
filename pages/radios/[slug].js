@@ -52,46 +52,6 @@ export default function PostPage({
 							insta="Listen Now"
 							link={mixLink}
 						/>
-						{/* <Col>
-							<div className={styles.newsImage}>
-								<Image
-									src={pic}
-									alt={title}
-									width={500}
-									height={500}
-									layout="responsive"
-								/>
-								<Row className={styles.buttons}>
-									<Col className="text-center">
-										<button
-											type="button"
-											className={`${styles.hoverLink} btn btn-outline-dark btn-lg`}
-											onClick={() => router.back()}
-										>
-											Go Back
-										</button>
-									</Col>
-									<Col className="text-center">
-										<a
-											role="button"
-											className={`${styles.hoverLink} btn btn-outline-dark btn-lg`}
-											href={artistPage}
-										>
-											Artist's Insta
-										</a>
-									</Col>
-									<Col className="text-center">
-										<a
-											role="button"
-											className={`${styles.hoverLink} btn btn-outline-dark btn-lg`}
-											href={mixLink}
-										>
-											Listen Now
-										</a>
-									</Col>
-								</Row>
-							</div>
-						</Col> */}
 					</Row>
 				</Container>
 			</div>

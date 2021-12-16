@@ -83,7 +83,7 @@ export default function Links({ links }) {
 						<Row key={item.title} className={styles.buttonStyle}>
 							<a
 								role="button"
-								className="btn btn-outline-light btn-lg"
+								className="btn btn-outline-light"
 								href={item.link}
 							>
 								{item.title}

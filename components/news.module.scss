@@ -7,6 +7,10 @@
 	padding-right: 2rem;
 }
 
+.button {
+	text-align: left;
+}
+
 @media (max-width: 992px) {
 	.mobileHead {
 		margin-top: 2rem;
@@ -21,6 +25,10 @@
 @media (max-width: 768px) {
 	.mobileHead {
 		margin-top: 2rem;
+	}
+
+	.button {
+		text-align: center;
 	}
 }
 

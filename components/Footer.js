@@ -27,8 +27,9 @@ export default function FooterComponent() {
 						<div className={styles.footerParagraph}>
 							<h1>Plant Bass'd</h1>
 							<p>
-								Party Throwers and electronic music blog based
-								in Edinburgh and Dublin. Site created by{" "}
+								Profiling the experimental dance music world and
+								throwing parties in between. EDI/ DUB/ GLA. Site
+								created by{" "}
 								<a
 									className={styles.hoverLink}
 									href="http://github.com/michaelssavage"

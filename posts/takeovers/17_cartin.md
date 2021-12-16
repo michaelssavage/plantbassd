@@ -18,6 +18,6 @@ Recent plaudits have seen his feature track from the Bunk EP, ‘Lost My Watch A
 
 We are excited to see what the future has in store for this man and are buzzed to share an insight into his creative mind with 10 tracks of recent influence to him!
 
-Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
+Link to playlist: <a role="button" class="btn btn-dark" href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf">Plant Bass'd Picks.</a>
 
 Artwork from the don @eggboy_design.

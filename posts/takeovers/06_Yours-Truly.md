@@ -15,6 +15,6 @@ She has spread the sounds that have influenced her working with club events in @
 Expect to see her name crop up on the club and festival circuit even more once the normality resumes.
 Here are the 10 tunes Yours Truly is ready to play out once she’s back in the booth.
 
-Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
+Link to playlist: <a role="button" class="btn btn-dark" href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf">Plant Bass'd Picks.</a>
 
 @eggboy_design on the graphics 🥚.

@@ -20,7 +20,7 @@ With his sounds being complimented by the likes of @dj.boring, @justinjaymusic, 
 
 Here are 10 tunes that have influenced the Donegal native over the last 12 months, including his latest single ‘Wash Away Our Fears’.
 
-Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
+Link to playlist: <a role="button" class="btn btn-dark" href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf">Plant Bass'd Picks.</a>
 
 Graphics: @eggboy_design
 Words: @inspectorcampbellbap
