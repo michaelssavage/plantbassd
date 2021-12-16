@@ -1,8 +1,8 @@
 ---
 title: "Plant Bass’d Radio: Colm Brandon (@cabal.ie)"
 date: "June 30, 2021"
-pic: "/radios/02_colm-brandon.png"
-tracklist: "/radios/02_tracklist.png"
+pic: "/radios/02_colm-brandon.jpg"
+tracklist: "/radios/02_tracklist.jpg"
 artistPage: "https://www.instagram.com/cabal.ie"
 mixLink: "https://soundcloud.com/plantbassddjs/plant-bassd-radio-colm-brandon-vinyl-mix?in=plantbassddjs/sets/plant-bassd-radio"
 ---

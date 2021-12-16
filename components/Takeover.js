@@ -22,7 +22,7 @@ export default function Takeover({ takeovers }) {
 						<CardNoText
 							key={artist.frontmatter.title}
 							post={artist}
-							link={`takeovers/${artist.slug}`}
+							link={`/takeovers/${artist.slug}`}
 						/>
 					))}
 				</Row>

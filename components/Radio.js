@@ -23,7 +23,7 @@ export default function Radio({ radios }) {
 							<CardNoText
 								key={artist.frontmatter.title}
 								post={artist}
-								link={`radios/${artist.slug}`}
+								link={`/radios/${artist.slug}`}
 							/>
 						))}
 					</Row>
