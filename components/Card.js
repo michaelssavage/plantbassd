@@ -4,8 +4,8 @@ import { useRouter } from "next/router";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 
-import styles from "../styles/page.module.scss";
 import news from "../styles/slug.module.scss";
+import styles from "./styles/card.module.scss";
 
 export const CardNoText = ({ post, link }) => {
 	return (

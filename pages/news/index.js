@@ -1,18 +1,15 @@
 import fs from "fs";
 import matter from "gray-matter";
-import { useRouter } from "next/router";
 import path from "path";
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 
 import { CardWithText } from "../../components/Card";
 import Footer from "../../components/Footer";
-import { sortByDate } from "../../components/Utilities";
+import { GoBack, sortByDate } from "../../components/Utilities";
 import styles from "../../styles/page.module.scss";
 
 export default function NewsPage({ news }) {
-	const router = useRouter();
-
 	return (
 		<>
 			<div className={styles.newsBG}>
@@ -34,15 +31,7 @@ export default function NewsPage({ news }) {
 						))}
 					</Row>
 
-					<div className="globalBottomBtn">
-						<button
-							type="button"
-							className="btn btn-outline-dark btn-lg"
-							onClick={() => router.back()}
-						>
-							Go Back
-						</button>
-					</div>
+					<GoBack />
 				</Container>
 			</div>
 

@@ -3,7 +3,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
 import { CardWithText } from "./Card";
-import styles from "./news.module.scss";
+import styles from "./styles/news.module.scss";
 
 export default function News({ news }) {
 	const router = useRouter();

@@ -63,10 +63,9 @@
 	transition: 0.3s;
 	color: var(--navGrey);
 	cursor: pointer;
-}
-
-.navLink:hover {
-	color: var(--white);
+	&:hover {
+		color: var(--white);
+	}
 }
 
 .navIcon {

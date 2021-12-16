@@ -3,7 +3,7 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 
 import { CardNoText } from "./Card";
-import styles from "./radio.module.scss";
+import styles from "./styles/components.module.scss";
 
 export default function Radio({ radios }) {
 	const router = useRouter();

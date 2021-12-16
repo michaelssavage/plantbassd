@@ -1,26 +1,3 @@
-.divBackground {
-	padding-left: 20%;
-	padding-right: 20%;
-	padding-bottom: 2em;
-}
-
-.radioBG {
-	background-color: var(--green);
-	@extend .divBackground;
-}
-
-.takeoverBG {
-	background-color: var(--pink);
-	min-height: 100vh;
-	@extend .divBackground;
-}
-
-.newsBG {
-	background-color: var(--lavender);
-	min-height: 100vh;
-	@extend .divBackground;
-}
-
 .bHeader {
 	text-align: center;
 	padding: 15vh 1rem 0 1rem;
@@ -45,10 +22,33 @@
 	margin-bottom: 1rem;
 }
 
-.spotify,
+.spotify:hover,
 .soundcloud:hover {
 	opacity: 0.8;
 	filter: drop-shadow(0px 6px 6px var(--dropShadow));
+}
+
+.divBackground {
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-bottom: 2em;
+}
+
+.radioBG {
+	background-color: var(--green);
+	@extend .divBackground;
+}
+
+.takeoverBG {
+	background-color: var(--pink);
+	min-height: 100vh;
+	@extend .divBackground;
+}
+
+.newsBG {
+	background-color: var(--lavender);
+	min-height: 100vh;
+	@extend .divBackground;
 }
 
 @media (max-width: 1200px) {
@@ -63,34 +63,6 @@
 		padding-left: 10%;
 		padding-right: 10%;
 	}
-	.cardSpacing {
-		padding-bottom: 1rem;
-	}
-}
-
-.cardStyle {
-	cursor: pointer;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.cardStyle:hover {
-	opacity: 0.8;
-	filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
-}
-
-.cardBody {
-	max-height: 10rem;
-	text-overflow: ellipsis;
-	overflow: hidden;
-}
-
-.cardDate {
-	font-size: 0.85rem;
-}
-
-.cardTitle {
-	font-size: 1rem;
 }
 
 @media (max-width: 576px) {
@@ -107,8 +79,5 @@
 
 	.bTexter {
 		text-align: left;
-	}
-	.cardBody {
-		max-height: 8rem;
 	}
 }

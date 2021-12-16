@@ -3,7 +3,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { RiSoundcloudLine } from "react-icons/ri";
 
-import styles from "./mixes.module.scss";
+import styles from "./styles/mixes.module.scss";
 
 export default function ArtistCard() {
 	return (
@@ -13,14 +13,14 @@ export default function ArtistCard() {
 					<Col lg={6} md={12}>
 						<div className={styles.mixImages}>
 							<Image
-								src="/setradio.jpg"
+								src="/various/setradio.jpg"
 								alt="setradio logo"
 								height="400"
 								width="400"
 							/>
 							<div className={styles.topImage}>
 								<Image
-									src="/itsnotradio.jpg"
+									src="/various/itsnotradio.jpg"
 									alt="itsnotradio logo"
 									height="400"
 									width="400"
