@@ -2,7 +2,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 import React from "react";
-import { Button, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { FaSoundcloud } from "react-icons/fa";
 
 import Footer from "../../components/Footer";
@@ -19,13 +19,13 @@ export default function RadioPage({ radios }) {
 						description="Guest mixes from homegrown and international artists.
 						Check them out here:"
 						button={
-							<Button
+							<button
+								type="button"
 								href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
-								variant="dark"
-								className={`text-nowrap ${styles.soundcloud}`}
+								className={`${styles.soundcloud} text-nowrap btn btn-outline-dark btn-lg`}
 							>
 								<FaSoundcloud /> Plant Bass'd Radio
-							</Button>
+							</button>
 						}
 						cards={radios}
 						route="radios"

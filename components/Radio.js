@@ -1,9 +1,9 @@
 import { useRouter } from "next/router";
 import React from "react";
-import { Button, Container, Row } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 
-import styles from "./radio.module.scss";
-import { CardNoText } from "./Utilities";
+import { CardNoText } from "./Card";
+import styles from "./styles/components.module.scss";
 
 export default function Radio({ radios }) {
 	const router = useRouter();
@@ -29,13 +29,13 @@ export default function Radio({ radios }) {
 					</Row>
 
 					<div className="globalBottomBtn">
-						<Button
-							size="lg"
-							variant="outline-dark"
+						<button
+							type="button"
+							className="btn btn-outline-dark btn-lg"
 							onClick={() => router.push("/radios")}
 						>
 							Discover More
-						</Button>
+						</button>
 					</div>
 				</Container>
 			</div>

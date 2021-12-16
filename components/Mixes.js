@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import { RiSoundcloudLine } from "react-icons/ri";
 
-import styles from "./mixes.module.scss";
+import styles from "./styles/mixes.module.scss";
 
 export default function ArtistCard() {
 	return (
@@ -13,14 +13,14 @@ export default function ArtistCard() {
 					<Col lg={6} md={12}>
 						<div className={styles.mixImages}>
 							<Image
-								src="/setradio.jpg"
+								src="/various/setradio.jpg"
 								alt="setradio logo"
 								height="400"
 								width="400"
 							/>
 							<div className={styles.topImage}>
 								<Image
-									src="/itsnotradio.jpg"
+									src="/various/itsnotradio.jpg"
 									alt="itsnotradio logo"
 									height="400"
 									width="400"
@@ -48,14 +48,13 @@ export default function ArtistCard() {
 								Soundcloud page.
 							</p>
 							<div className={styles.clubButton}>
-								<Button
-									size="lg"
+								<button
+									type="button"
+									className={`${styles.hoverBtn} btn btn-outline-dark btn-lg`}
 									href="https://soundcloud.com/plantbassddjs"
-									variant="outline-dark"
-									className={styles.hoverBtn}
 								>
 									<RiSoundcloudLine /> Listen Now
-								</Button>
+								</button>
 							</div>
 						</div>
 					</Col>

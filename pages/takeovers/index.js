@@ -2,7 +2,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 import React from "react";
-import { Button, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { FaSpotify } from "react-icons/fa";
 
 import Footer from "../../components/Footer";
@@ -19,13 +19,13 @@ export default function TakeoverPage({ takeovers }) {
 						description="We ask artists to select and share their top tracks.
 						Check out the playlist here:"
 						button={
-							<Button
+							<button
+								type="button"
+								className={`${styles.spotify} text-nowrap btn btn-dark btn-lg`}
 								href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
-								variant="dark"
-								className={`text-nowrap ${styles.spotify}`}
 							>
 								<FaSpotify /> Plant Bass'd Picks
-							</Button>
+							</button>
 						}
 						cards={takeovers}
 						route="takeovers"

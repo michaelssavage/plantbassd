@@ -22,7 +22,7 @@ export default function Home({ news, takeovers, radios }) {
 							children: (
 								<video autoPlay loop muted>
 									<source
-										src="pbdj.mp4"
+										src="/various/pbdj.mp4"
 										type="video/mp4"
 									></source>
 								</video>

@@ -1,10 +1,9 @@
-import Image from "next/image";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
-import { Button, Col, Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 
 import styles from "../styles/page.module.scss";
+import { CardNoText } from "./Card";
 
 export const Content = ({ title, description, button, cards, route }) => {
 	return (
@@ -27,64 +26,17 @@ export const Content = ({ title, description, button, cards, route }) => {
 	);
 };
 
-export const CardNoText = ({ post, link }) => {
-	return (
-		<Col key={post.slug} xl={3} lg={4} md={6} xs={6}>
-			<Link href={link} passHref rel="preload">
-				<div className={`card ${styles.cardStyle}`}>
-					<Image
-						className="card-img-top"
-						src={post.frontmatter.pic}
-						alt={post.frontmatter.title}
-						width={500}
-						height={500}
-					/>
-				</div>
-			</Link>
-		</Col>
-	);
-};
-
-export const CardWithText = ({ post, link }) => {
-	return (
-		<Col
-			className={styles.cardSpacing}
-			key={post.slug}
-			lg={3}
-			md={6}
-			sm={6}
-			xs={6}
-		>
-			<Link href={link} passHref rel="preload">
-				<div className={`card ${styles.cardStyle}`}>
-					<Image
-						className="card-img-top"
-						src={post.frontmatter.pic}
-						alt={post.frontmatter.title}
-						width={500}
-						height={500}
-					/>
-					<div className="card-body">
-						<p className="small">{post.frontmatter.date}</p>
-						<p className="card-title">{post.frontmatter.bio}</p>
-					</div>
-				</div>
-			</Link>
-		</Col>
-	);
-};
-
 export const GoBack = () => {
 	const router = useRouter();
 	return (
 		<div className="globalBottomBtn">
-			<Button
-				size="lg"
-				variant="outline-dark"
+			<button
+				type="button"
+				className="btn btn-outline-dark btn-lg"
 				onClick={() => router.back()}
 			>
 				Go Back
-			</Button>
+			</button>
 		</div>
 	);
 };

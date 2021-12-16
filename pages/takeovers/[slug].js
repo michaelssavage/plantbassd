@@ -1,12 +1,11 @@
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
-import Image from "next/image";
-import { useRouter } from "next/router";
 import path from "path";
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
+import { CardWithButtons } from "../../components/Card";
 import Footer from "../../components/Footer";
 import styles from "../../styles/slug.module.scss";
 
@@ -15,8 +14,6 @@ export default function PostPage({
 	slug,
 	content,
 }) {
-	const router = useRouter();
-
 	return (
 		<>
 			<div className={styles.newsSection}>
@@ -38,108 +35,20 @@ export default function PostPage({
 								></div>
 							</div>
 						</Col>
-						<Col>
-							<div className={styles.newsImage}>
-								<Image
-									src={pic}
-									alt={title}
-									width={500}
-									height={500}
-									layout="responsive"
-								/>
-								<Row className={styles.buttons}>
-									<Col className="text-center">
-										<Button
-											size="lg"
-											className={styles.hoverLink}
-											variant="outline-dark"
-											onClick={() => router.back()}
-										>
-											Go Back
-										</Button>
-									</Col>
-									<Col className="text-center">
-										<Button
-											size="lg"
-											className={styles.hoverLink}
-											variant="outline-dark"
-											href={artistPage}
-										>
-											Artist's Insta
-										</Button>
-									</Col>
-									<Col className="text-center">
-										<Button
-											size="lg"
-											className={styles.hoverLink}
-											variant="outline-dark"
-											href={postLink}
-										>
-											Insta Post
-										</Button>
-									</Col>
-								</Row>
-							</div>
-						</Col>
+
+						<CardWithButtons
+							pic={pic}
+							title={title}
+							page={artistPage}
+							artist="Artist's Insta"
+							link={postLink}
+							insta="Insta Post"
+						/>
 					</Row>
 				</Container>
 			</div>
 
 			<Footer />
-			{/* <ParallaxProvider>
-				<ParallaxBanner
-					layers={[
-						{
-							image: pic,
-							amount: -0.1,
-						},
-					]}
-					className="parallaxHeightChange"
-				></ParallaxBanner>
-			</ParallaxProvider>
-
-			<Container className={styles.card}>
-				<h1 className={styles.postTitle}>{title}</h1>
-				<div className={styles.postDate}>Posted on {date}</div>
-				<div className={styles.postBody}>
-					<div
-						dangerouslySetInnerHTML={{ __html: marked(content) }}
-					></div>
-				</div>
-
-				<Row className="pt-5">
-					<Col className="text-center">
-						<Button
-							size="lg"
-							variant="outline-dark"
-							onClick={() => router.back()}
-							className={styles.hoverLink}
-						>
-							Go Back
-						</Button>
-					</Col>
-					<Col className="text-center">
-						<Button
-							size="lg"
-							variant="outline-dark"
-							href={artistPage}
-							className={styles.hoverLink}
-						>
-							Artist's Page
-						</Button>
-					</Col>
-					<Col className="text-center">
-						<Button
-							size="lg"
-							variant="outline-dark"
-							href={postLink}
-							className={styles.hoverLink}
-						>
-							Post Link
-						</Button>
-					</Col>
-				</Row>
-			</Container> */}
 		</>
 	);
 }

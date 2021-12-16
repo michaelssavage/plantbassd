@@ -1,0 +1,22 @@
+---
+title: "FRESH JUICE: Pixl - Outer Reaches"
+date: "November 11, 2021"
+pic: "/news/06_Pixl.jpg"
+bandcamp: "https://pixljs.bandcamp.com/album/outer-reaches"
+postLink: "https://www.instagram.com/p/CWJg8s_sKwn/"
+bio: "We recently spoke to Leeds based jungle producer @pixljs..."
+---
+
+### We recently spoke to Leeds based jungle producer @pixljs about his new EP released on @loveloverecords.
+
+A cosmic journey through the darker realm of jungle, Pixl (Laurie Smart) nods to his love of science fiction and the impulse of outer space imagery that he became familiar with during the pandemic, linking it to being cut off from his everyday normal world.
+
+Smart transcends through a euphoric then deeper sound on A1. Outer Reaches on to B1. Frosts Of Neptune.
+
+The sounds are propelled further with remixes from Scrase and jungle’s man of the moment Tim Reaper, with the latter sounding like a head to head of major breaks between Smart and Reaper.
+
+Pixl is reveling in the current jungle revival, declaring the rise as ‘something that can only be a good thing’.
+
+The full interview with Laurie will be available on our soon to be launched website.
+
+For now you can stream and purchase the EP on Bandcamp: https://pixljs.bandcamp.com/album/outer-reaches

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import path from "path";
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import {
 	AiOutlineFacebook,
 	AiOutlineInstagram,
@@ -14,24 +14,14 @@ import { RiSoundcloudLine, RiSpotifyLine } from "react-icons/ri";
 
 import styles from "../../styles/links.module.scss";
 
-const SocialIcon = ({ link, icon }) => {
-	return (
-		<Col className={styles.iconContainer}>
-			<Link href={link} rel="preload">
-				<a>{icon}</a>
-			</Link>
-		</Col>
-	);
-};
-
-export default function Links({ links, icons }) {
+export default function Links({ links }) {
 	return (
 		<>
 			<div className={styles.linkPage}>
 				<Container className={styles.pushSides}>
 					<Row className={styles.pbLogo}>
 						<Image
-							src="/logo_circle.png"
+							src="/various/logo_circle.png"
 							alt="plant bass'd logo"
 							height="80"
 							width="80"
@@ -42,54 +32,62 @@ export default function Links({ links, icons }) {
 					</Row>
 
 					<Row>
-						<SocialIcon
-							link="https://www.facebook.com/plantbassddjs"
-							icon={
-								<AiOutlineFacebook
-									className={styles.socialIcon}
-								/>
-							}
-						/>
-						<SocialIcon
-							link="https://www.instagram.com/plantbassddjs/"
-							icon={
-								<AiOutlineInstagram
-									className={styles.socialIcon}
-								/>
-							}
-						/>
-						<SocialIcon
-							link="mailto: plantbassddjs@gmail.com"
-							icon={
-								<AiOutlineMail className={styles.socialIcon} />
-							}
-						/>
-						<SocialIcon
-							link="https://open.spotify.com/embed/playlist/5skAgzUfGmZLwrOPNLnGVf"
-							icon={
-								<RiSpotifyLine className={styles.socialIcon} />
-							}
-						/>
-						<SocialIcon
-							link="https://soundcloud.com/plantbassddjs"
-							icon={
-								<RiSoundcloudLine
-									className={styles.socialIcon}
-								/>
-							}
-						/>
+						<Col className={styles.iconContainer}>
+							<Link href="https://www.facebook.com/plantbassddjs">
+								<a>
+									<AiOutlineFacebook
+										className={styles.socialIcon}
+									/>
+								</a>
+							</Link>
+						</Col>
+						<Col className={styles.iconContainer}>
+							<Link href="https://www.instagram.com/plantbassddjs/">
+								<a>
+									<AiOutlineInstagram
+										className={styles.socialIcon}
+									/>
+								</a>
+							</Link>
+						</Col>
+						<Col className={styles.iconContainer}>
+							<Link href="mailto: plantbassddjs@gmail.com">
+								<a>
+									<AiOutlineMail
+										className={styles.socialIcon}
+									/>
+								</a>
+							</Link>
+						</Col>
+						<Col className={styles.iconContainer}>
+							<Link href="https://open.spotify.com/embed/playlist/5skAgzUfGmZLwrOPNLnGVf">
+								<a>
+									<RiSpotifyLine
+										className={styles.socialIcon}
+									/>
+								</a>
+							</Link>
+						</Col>
+						<Col className={styles.iconContainer}>
+							<Link href="https://soundcloud.com/plantbassddjs">
+								<a>
+									<RiSoundcloudLine
+										className={styles.socialIcon}
+									/>
+								</a>
+							</Link>
+						</Col>
 					</Row>
 
 					{links.map((item) => (
 						<Row key={item.title} className={styles.buttonStyle}>
-							<Button
+							<a
+								role="button"
+								className="btn btn-outline-light"
 								href={item.link}
-								size="lg"
-								variant="outline-light"
 							>
-								{item.icon}
 								{item.title}
-							</Button>
+							</a>
 						</Row>
 					))}
 				</Container>

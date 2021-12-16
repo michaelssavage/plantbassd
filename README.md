@@ -1,7 +1,7 @@
 # Plant Bass'd
 
 <p align="center">
-<img width="50%" src="public/logo_circle.png" alt="plant bass'd logo.">
+<img width="50%" src="public/various/logo_circle.png" alt="plant bass'd logo.">
 </p>
 
 ## About

@@ -23,20 +23,18 @@
 	width: 3rem;
 	margin: 1rem 0;
 	fill: var(--white);
-}
-
-.socialIcon:hover {
-	transform: scale(1.1);
-	filter: drop-shadow(0px 6px 6px var(--dropShadow));
+	&:hover {
+		transform: scale(1.1);
+		filter: drop-shadow(0px 6px 6px var(--dropShadow));
+	}
 }
 
 .buttonStyle {
 	padding: 0.5rem 0;
 	color: var(--white);
-}
-
-.buttonStyle:hover {
-	color: var(--black);
+	&:hover {
+		color: var(--black);
+	}
 }
 
 .pushSides {

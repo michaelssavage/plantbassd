@@ -2,12 +2,12 @@ import Link from "next/link";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-import styles from "./footer.module.scss";
+import styles from "./styles/footer.module.scss";
 
 const FootLink = ({ link, title }) => {
 	return (
 		<li>
-			<Link href={link} rel="preload">
+			<Link href={link}>
 				<a className={styles.hoverLink}>{title}</a>
 			</Link>
 		</li>
@@ -27,19 +27,21 @@ export default function FooterComponent() {
 						<div className={styles.footerParagraph}>
 							<h1>Plant Bass'd</h1>
 							<p>
-								Party Throwers and electronic music blog based
-								in Edinburgh and Dublin. Site created by:{" "}
+								Profiling the experimental dance music world and
+								throwing parties in between. EDI/ DUB/ GLA. Site
+								by{" "}
 								<a
 									className={styles.hoverLink}
 									href="http://github.com/michaelssavage"
 								>
-									Michael Savage
+									Michael
 								</a>
+								.
 							</p>
 
 							<p className="small mb-2">
 								{"© "} {new Date().getFullYear()}{" "}
-								{" Plant Bass'd DJs. All rights reserved."}
+								{" Plant Bass'd. All rights reserved."}
 							</p>
 						</div>
 					</Col>
@@ -51,9 +53,7 @@ export default function FooterComponent() {
 						<Row>
 							<Col>
 								<h5 className="mb-3">Main Content</h5>
-								<ul
-									className={`${styles.footerColor} list-unstyled`}
-								>
+								<ul className={styles.footerColor}>
 									<FootLink link="/" title="Home" />
 									<FootLink link="/news" title="News" />
 									<FootLink link="/radios" title="Radio" />
@@ -66,9 +66,7 @@ export default function FooterComponent() {
 
 							<Col>
 								<h5 className="mb-3">Quick Links</h5>
-								<ul
-									className={`${styles.footerColor} list-unstyled`}
-								>
+								<ul className={styles.footerColor}>
 									<FootLink
 										link="/contact-us"
 										title="About"

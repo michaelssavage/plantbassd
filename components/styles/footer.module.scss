@@ -1,0 +1,34 @@
+.descriptor {
+	text-align: left !important;
+	margin-top: 1.5rem !important;
+}
+
+.footerParagraph {
+	margin-right: 20%;
+}
+
+@media (max-width: 768px) {
+	.descriptor {
+		text-align: center !important;
+	}
+
+	.footerParagraph {
+		margin-right: 0;
+	}
+}
+
+.footerColor {
+	color: var(--headerBlack);
+	padding-left: 0;
+	list-style: none;
+}
+
+.hoverLink {
+	color: var(--black) !important;
+	text-decoration: none !important;
+	&:hover {
+		color: var(--headerBlack) !important;
+		filter: drop-shadow(0px 6px 6px var(--dropShadow));
+		cursor: pointer !important;
+	}
+}

@@ -1,6 +1,10 @@
 {
-	"extends": ["next/core-web-vitals", "prettier"],
-	"plugins": ["simple-import-sort"],
+	"extends": [
+		"next/core-web-vitals",
+		"prettier",
+		"plugin:sonarjs/recommended"
+	],
+	"plugins": ["simple-import-sort", "sonarjs"],
 	"rules": {
 		"react/no-unescaped-entities": "off",
 		"simple-import-sort/exports": "error",

@@ -16,6 +16,6 @@ The group also holds down a residency on @ehfm_live community radio, and offer w
 
 Input from all 4 members with these picks that range from house to disco, to breaks and bass, as well as reggae and middle-eastern sounds!
 
-Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
+Link to playlist: <a role="button" class="btn btn-dark" href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf">Plant Bass'd Picks.</a>
 
 Graphics: @eggboy_design

@@ -16,7 +16,7 @@ Keane has brought her club ready sound to the Dublin circuit in venues like @wig
 
 These 10 picks give a glimpse, alongside her residency shows on @dublindigitalradio, of what we could expect to hear in a sohotsospicy set.
 
-Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
+Link to playlist: <a role="button" class="btn btn-dark" href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf">Plant Bass'd Picks.</a>
 
 Graphics: @eggboy_design
 Words: @inspectorcampbellbap

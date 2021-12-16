@@ -1,0 +1,109 @@
+.header {
+	height: 5rem;
+	width: 10rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 0 1rem;
+	background-color: var(--navBlue);
+	z-index: 5;
+	transition: 0.5s;
+	border-top-right-radius: 25%;
+	border-bottom-right-radius: 25%;
+}
+
+.extendHeader {
+	width: 17.5rem;
+}
+
+.headerToggle {
+	color: var(--white);
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+.navContainer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 6rem;
+	height: 100vh;
+	background-color: var(--navBlue);
+	padding: 0.5rem;
+	transition: 0.5s;
+	z-index: 10;
+}
+
+.extendNav {
+	width: 14rem;
+}
+
+.mobileView {
+	left: -30%;
+}
+
+.navMenu {
+	height: 100%;
+	display: flex;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-top: 0.5rem;
+}
+
+.navLink {
+	display: flex;
+	align-items: center;
+	padding: 0.5rem 0 0.5rem 1.5rem;
+	background-color: var(--navBlue);
+	position: relative;
+	margin-bottom: 1.5rem;
+	transition: 0.3s;
+	color: var(--navGrey);
+	cursor: pointer;
+	&:hover {
+		color: var(--white);
+	}
+}
+
+.navIcon {
+	font-size: 2rem;
+}
+.navName {
+	font-size: 1.4rem;
+	margin-left: 1.5rem;
+	margin-right: 0.5rem;
+}
+
+.activeLink {
+	color: var(--white);
+}
+
+.activeLink::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 2px;
+	height: 32px;
+	background-color: var(--white);
+}
+
+@media screen and (max-width: 768px) {
+	.header {
+		width: 4rem;
+	}
+	.navContainer {
+		width: 0;
+		padding: 0;
+	}
+
+	.extendHeader {
+		width: 90%;
+	}
+	.extendNav {
+		width: 75%;
+		padding: 0.5rem;
+	}
+}

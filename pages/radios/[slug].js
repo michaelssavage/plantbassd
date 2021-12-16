@@ -2,11 +2,11 @@ import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
 import Image from "next/image";
-import { useRouter } from "next/router";
 import path from "path";
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
+import { CardWithButtons } from "../../components/Card";
 import Footer from "../../components/Footer";
 import styles from "../../styles/slug.module.scss";
 
@@ -14,8 +14,6 @@ export default function PostPage({
 	frontmatter: { title, date, pic, tracklist, artistPage, mixLink },
 	content,
 }) {
-	const router = useRouter();
-
 	return (
 		<>
 			<div className={styles.newsSection}>
@@ -45,49 +43,15 @@ export default function PostPage({
 								/>
 							</div>
 						</Col>
-						<Col>
-							<div className={styles.newsImage}>
-								<Image
-									src={pic}
-									alt={title}
-									width={500}
-									height={500}
-									layout="responsive"
-								/>
-								<Row className={styles.buttons}>
-									<Col className="text-center">
-										<Button
-											size="lg"
-											className={styles.hoverLink}
-											variant="outline-dark"
-											onClick={() => router.back()}
-										>
-											Go Back
-										</Button>
-									</Col>
-									<Col className="text-center">
-										<Button
-											size="lg"
-											className={styles.hoverLink}
-											variant="outline-dark"
-											href={artistPage}
-										>
-											Artist's Insta
-										</Button>
-									</Col>
-									<Col className="text-center">
-										<Button
-											size="lg"
-											className={styles.hoverLink}
-											variant="outline-dark"
-											href={mixLink}
-										>
-											Listen Now
-										</Button>
-									</Col>
-								</Row>
-							</div>
-						</Col>
+
+						<CardWithButtons
+							pic={pic}
+							title={title}
+							artist="Artist's Insta"
+							page={artistPage}
+							insta="Listen Now"
+							link={mixLink}
+						/>
 					</Row>
 				</Container>
 			</div>

@@ -1,0 +1,111 @@
+@font-face {
+	font-family: "Messina";
+	src: url("/fonts/Messina.ttf");
+}
+
+@font-face {
+	font-family: "Molengo";
+	src: url("/fonts/Molengo-Regular.ttf");
+}
+
+* {
+	box-sizing: border-box;
+	font-family: "Molengo", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+		sans-serif;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 0 0 5rem;
+}
+
+a {
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: break-word;
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+}
+
+h1 {
+	font-family: "Messina";
+	color: var(--headerBlack);
+	@extend a;
+}
+
+h2 {
+	font-size: 1.6rem;
+}
+
+p {
+	font-size: 1.2rem;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+Link {
+	color: inherit !important;
+	text-decoration: none !important;
+}
+
+.globalBottomBtn {
+	margin-top: 2em !important;
+	text-align: center;
+}
+
+.globalSection {
+	text-align: center;
+	max-width: 670px;
+	margin: 0 auto 2rem;
+}
+
+.globalHeader {
+	text-align: center;
+	padding: 2rem 1rem;
+	font-size: 3em;
+}
+
+.header {
+	color: var(--headerBlack) !important;
+	font-size: 3em;
+}
+
+.parallaxHeightChange {
+	height: 100vh !important;
+}
+
+@media (max-width: 768px) {
+	body {
+		margin-left: -5rem !important;
+	}
+
+	.globalHeader {
+		font-size: 2em;
+	}
+
+	.parallaxHeightChange {
+		height: 40vh !important;
+	}
+
+	.header {
+		font-size: 2em;
+	}
+}
+
+.discoveryCards {
+	background: linear-gradient(130deg, var(--pink) 20%, var(--green) 80%);
+}
+
+@media (max-width: 576px) {
+	.parallax-inner {
+		inset: -85% -200% !important;
+	}
+}

@@ -16,7 +16,7 @@ Recent remix duty on @daisies0daisies0daisies single ‘Dido’ further implemen
 
 This week’s tunes are fun and not to be taken too seriously, giving a similar warmth to the sound that Jack has become known for himself.
 
-Link to playlist: [Plant Bass'd Picks.]("https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b744c3ef583c4c4e")
+Link to playlist: <a role="button" class="btn btn-dark" href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf">Plant Bass'd Picks.</a>
 
 Graphics again by @eggboy_design.
 Words from @inspectorcampbellbap.
