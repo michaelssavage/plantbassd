@@ -17,6 +17,7 @@
 
 .extendHeader {
 	width: 17.5rem;
+	@extend .header;
 }
 
 .headerToggle {
@@ -39,6 +40,7 @@
 
 .extendNav {
 	width: 14rem;
+	@extend .navContainer;
 }
 
 .mobileView {
@@ -68,17 +70,9 @@
 	}
 }
 
-.navIcon {
-	font-size: 2rem;
-}
-.navName {
-	font-size: 1.4rem;
-	margin-left: 1.5rem;
-	margin-right: 0.5rem;
-}
-
 .activeLink {
 	color: var(--white);
+	@extend .navLink;
 }
 
 .activeLink::before {
@@ -90,10 +84,21 @@
 	background-color: var(--white);
 }
 
+.navIcon {
+	font-size: 2rem;
+}
+
+.navName {
+	font-size: 1.4rem;
+	margin-left: 1.5rem;
+	margin-right: 0.5rem;
+}
+
 @media screen and (max-width: 768px) {
 	.header {
 		width: 4rem;
 	}
+
 	.navContainer {
 		width: 0;
 		padding: 0;
@@ -102,6 +107,7 @@
 	.extendHeader {
 		width: 90%;
 	}
+
 	.extendNav {
 		width: 75%;
 		padding: 0.5rem;

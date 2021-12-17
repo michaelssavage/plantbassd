@@ -11,14 +11,13 @@ import { RiSoundcloudLine } from "react-icons/ri";
 import styles from "./styles/sidebar.module.scss";
 
 function Listing({ link, icon, title, onClick }) {
+	const router = useRouter();
 	return (
 		<Link href={link} passHref>
 			<div
 				onClick={onClick}
 				className={
-					useRouter().pathname == link
-						? `${styles.navLink} ${styles.activeLink}`
-						: styles.navLink
+					router.pathname == link ? styles.activeLink : styles.navLink
 				}
 			>
 				{icon}
@@ -40,13 +39,7 @@ export default function Sidebar() {
 
 	return (
 		<>
-			<header
-				className={
-					sidebar
-						? `${styles.header} ${styles.extendHeader}`
-						: styles.header
-				}
-			>
+			<header className={sidebar ? styles.extendHeader : styles.header}>
 				<div>
 					{sidebar ? (
 						<AiOutlineClose
@@ -61,20 +54,8 @@ export default function Sidebar() {
 					)}
 				</div>
 			</header>
-			<div
-				className={
-					sidebar
-						? `${styles.navContainer} ${styles.extendNav}`
-						: styles.navContainer
-				}
-			>
-				<nav
-					className={
-						sidebar
-							? `${styles.navMenu} ${styles.activeMenu}`
-							: styles.navMenu
-					}
-				>
+			<div className={sidebar ? styles.extendNav : styles.navContainer}>
+				<nav className={styles.navMenu}>
 					<div className={styles.navList}>
 						<Listing
 							link="/"

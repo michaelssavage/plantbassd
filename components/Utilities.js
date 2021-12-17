@@ -18,7 +18,7 @@ export const Content = ({ title, description, button, cards, route }) => {
 					<CardNoText
 						key={card.frontmatter.title}
 						post={card}
-						link={`${route}/${card.slug}`}
+						link={`/${route}/${card.slug}`}
 					/>
 				))}
 			</Row>

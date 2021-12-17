@@ -1,15 +1,14 @@
 .container {
-	padding: 5rem 20% 0 20%;
+	padding: 4vmax 10vmax;
 	min-height: 100vh;
 	background-color: var(--lavender);
-	display: flex;
-	flex-direction: column;
 }
 
 .imgHolder {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 1rem 0;
 }
 
 .anchor {

@@ -56,7 +56,7 @@ export default function News({ news }) {
 							<CardWithText
 								key={story.frontmatter.title}
 								post={story}
-								link={`news/${story.slug}`}
+								link={`/news/${story.slug}`}
 							/>
 						))}
 					</Row>

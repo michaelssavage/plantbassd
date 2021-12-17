@@ -3,6 +3,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 
+import ContactForm from "../../components/ContactForm";
 import Footer from "../../components/Footer";
 import styles from "../../styles/contact.module.scss";
 
@@ -23,7 +24,7 @@ export default function ContactPage() {
 
 			<div className={styles.container}>
 				<Row>
-					<Col>
+					<Col lg={6} md={12}>
 						<h1 className={styles.header}>About Us</h1>
 						<p>
 							Plant Bass'd consists of Oisin Campbell, Michael
@@ -31,25 +32,6 @@ export default function ContactPage() {
 							Ireland the three lads have joined their different
 							music tastes together to form an interesting,
 							inclusive collective.
-						</p>
-						<h1 className={styles.header}>Contact Us</h1>
-						<p>
-							Email:{" "}
-							<a
-								className={styles.anchor}
-								href="mailto:plantbassddjs@gmail.com"
-							>
-								plantbassddjs@gmail.com
-							</a>
-						</p>
-						<p>
-							Instagram:{" "}
-							<a
-								className={styles.anchor}
-								href="https://www.instagram.com/plantbassddjs/"
-							>
-								@plantbassddjs
-							</a>
 						</p>
 						<p>
 							Site by:{" "}
@@ -61,15 +43,20 @@ export default function ContactPage() {
 							</a>
 						</p>
 					</Col>
+					<Col lg={6} md={12} className={styles.imgHolder}>
+						<Image
+							src="/various/hoodie.jpg"
+							alt="three lads"
+							width="500"
+							height="360"
+						/>
+					</Col>
+				</Row>
+				<Row>
 					<Col>
-						<div className={styles.imgHolder}>
-							<Image
-								src="/various/hoodie.jpg"
-								alt="three lads"
-								width="500"
-								height="360"
-							/>
-						</div>
+						<h1 className={styles.header}>Contact Us</h1>
+
+						<ContactForm />
 					</Col>
 				</Row>
 			</div>
