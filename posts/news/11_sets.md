@@ -7,15 +7,17 @@ postLink: "https://www.instagram.com/plantbassddjs/"
 bio: "Self-released EP, DO U FEEL THIS, is available now from the Derry duo, SETS..."
 ---
 
-### Self-released EP, DO U FEEL THIS, is available now from the Derry duo, @sets\_\_\_, consisting of @eoin_simpson99 and @seanturner10.
+### The self-released EP, DO U FEEL THIS, is available now from Derry duo @sets\_\_\_.
 
-Consisting of four bangers primed for the rave, the lads have showed that they’re ready to break out in 2022. This EP shows range and never lets down with breaks, atmospheric synths, growling basses, and detuned arps hitting 140bpm throughout.
+Consisting of @eoin_simpson99 and @seanturner10, they share a delivery of four trax primed for the rave, making a statement that they are ready to break out in 2022. The pair really express their range on this release and the sound never lets down with big breaks, atmospheric synths, growling basses, and detuned arps hitting the 140 mark throughout.
 
-Title track ‘Do U FEEL THIS’ and ‘AT LAST’ display plenty of emotion akin to productions from @pagan_909 and more of that euphoric club sound can be heard in ‘BREACH’. ‘EASIER’ hits hard from the start before making use of the bridge to build tension up using a vocal cut that gets resolved with a huge drop. Exceptional music design throughout, this EP is a catch!
+Title track ‘Do U FEEL THIS’ and ‘AT LAST’ display plenty of emotion akin to productions from @pagan_909 and more of that euphoric club sound can be heard in ‘BREACH’. ‘EASIER’ hits hard from the start before making use of the bridge to build tension up using a vocal cut that gets resolved with a huge drop. There is exceptional music design throughout.
 
 Available to stream on all platforms now & for purchase on Bandcamp: https://sets-derry.bandcamp.com/releases
 
-We got speaking to SETS at @celtronic Festival last weekend after they smashed their gig and had the crowd warmed up for @cartincaolan and @kink303. The four day festival was a stunning culmination of electronic noise and dance music that sees off 2021. Some of the world’s best music talent came to Derry including KiNK, Overmono, Batu_music, Gerd Janson, Giant Swan, Loraine James, and Sunil Sharpe. They shared stages with local and national artists and proved how important and rewarding the simple act of dancing and experiencing amazing music together in a dark room can be. We can't wait to be back there again to see Derry and to see SETS bigger and better.
+We got speaking to SETS at @celtronic last weekend after they smashed their gig and had the crowd warmed up for @cartincaolan and @kink303.
+
+The four day festival was a stunning culmination of electronic noise and dance music that sees off 2021. Some of the world’s best music talent came to Derry including KiNK, Overmono, Batu_music, Gerd Janson, Giant Swan, Loraine James, and Sunil Sharpe. They shared stages with local and national artists and proved how important and rewarding the simple act of dancing and experiencing amazing music together in a dark room can be. We can't wait to be back there again to see Derry and to see SETS bigger and better.
 
 <img src="/news/11_setslads.jpg" alt="photo of sets lads" width="100%" />
 
