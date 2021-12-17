@@ -3,7 +3,7 @@ title: "FRESH JUICE: SETS – DO U FEEL THIS"
 date: "December 16, 2021"
 pic: "/news/11_sets.jpg"
 bandcamp: "https://sets-derry.bandcamp.com/releases"
-postLink: "https://www.instagram.com/plantbassddjs/"
+postLink: "https://www.instagram.com/p/CXlxB7_NWBD/"
 bio: "Self-released EP, DO U FEEL THIS, is available now from the Derry duo, SETS..."
 ---
 
