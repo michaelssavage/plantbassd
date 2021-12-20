@@ -2,9 +2,10 @@ import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 import React from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 
+import { CardTopTen } from "../../components/Card";
 import Footer from "../../components/Footer";
 import { GoBack } from "../../components/Utilities";
 import styles from "../../styles/page.module.scss";
@@ -30,11 +31,19 @@ export default function TopTen({ topTenReleases }) {
 					</h1>
 
 					<p className={styles.bTexter}>
-						Oisin, Michael, and Peter choose their favourite Albums,
+						Michael, Oisin, and Peter choose their favourite Albums,
 						EPs, LPs, and tracks released in 2021.
 					</p>
 
-					<h1 className="p-5 text-center">Under Construction</h1>
+					<Row className="g-3">
+						{topTenReleases.map((card) => (
+							<CardTopTen
+								key={card.frontmatter.title}
+								post={card}
+								link={`/top-ten-2021/${card.slug}`}
+							/>
+						))}
+					</Row>
 
 					<GoBack />
 				</Container>

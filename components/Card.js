@@ -104,3 +104,27 @@ export const CardWithButtons = ({ pic, title, artist, page, insta, link }) => {
 		</Col>
 	);
 };
+
+export const CardTopTen = ({ post, link }) => {
+	const router = useRouter();
+	return (
+		<Col
+			onClick={() => router.push(link)}
+			key={post.slug}
+			xl={4}
+			lg={4}
+			md={12}
+			xs={12}
+		>
+			<div className={`card ${styles.cardStyle}`}>
+				<Image
+					className="card-img-top"
+					src={post.frontmatter.pic}
+					alt={post.frontmatter.title}
+					width={500}
+					height={500}
+				/>
+			</div>
+		</Col>
+	);
+};

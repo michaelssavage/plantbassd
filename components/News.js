@@ -74,7 +74,8 @@ export default function News({ news }) {
 									}
 									className={`list-group-item flex-fill ${styles.cardList}`}
 								>
-									{story.frontmatter.title}
+									{story.frontmatter.date}
+									<br /> {story.frontmatter.title}
 								</li>
 							))}
 						</ul>

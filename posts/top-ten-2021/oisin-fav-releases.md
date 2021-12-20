@@ -1,8 +1,7 @@
 ---
 title: "OISÍN’S Top 10 Dance Releases of 2021"
 date: "December 21, 2021"
-pic: "/top-ten-2021/oisin/amy_dabbs-allure.jpg"
-bandcamp: ""
+pic: "/top-ten-2021/oisin.jpg"
 postLink: ""
 ---
 

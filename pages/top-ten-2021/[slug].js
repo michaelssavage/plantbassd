@@ -15,7 +15,6 @@ export default function PostPage({ frontmatter: { title, date }, content }) {
 				<Container>
 					<Col className={styles.topTenContent}>
 						<h1 className={styles.postTitle}>{title}</h1>
-						<p className={styles.postDate}>Posted on {date}</p>
 						<div className={styles.postBody}>
 							<div
 								dangerouslySetInnerHTML={{
