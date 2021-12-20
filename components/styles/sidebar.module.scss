@@ -1,3 +1,5 @@
+@import "../../styles/breakpoints";
+
 .header {
 	height: 5rem;
 	width: 10rem;
@@ -94,6 +96,7 @@
 	margin-right: 0.5rem;
 }
 
+// @include breakpoint-below(sm) {
 @media screen and (max-width: 768px) {
 	.header {
 		width: 4rem;

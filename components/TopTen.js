@@ -11,7 +11,7 @@ export default function TopTen() {
 				Top 10 Dance Releases
 			</h1>
 			<p>
-				Oisin, Michael, and Peter choose their favourite Albums, EPs,
+				Michael, Oisin, and Peter choose their favourite Albums, EPs,
 				LPs, and tracks released in 2021.
 			</p>
 

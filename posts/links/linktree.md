@@ -1,6 +1,6 @@
 ---
 links:
-  - title: "SweatBox: Mistletoe & Grind - £5 Tickets"
+  - title: "SweatBox: Mistletoe & Grind - Tickets"
     link: "https://ra.co/events/1485121"
   - title: "SweatBox: Ruff ‘N’ Tuff -  Tickets"
     link: "https://ra.co/events/1484531"

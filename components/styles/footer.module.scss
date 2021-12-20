@@ -1,3 +1,5 @@
+@import "../../styles/breakpoints";
+
 .descriptor {
 	text-align: left !important;
 	margin-top: 1.5rem !important;
@@ -7,6 +9,7 @@
 	margin-right: 20%;
 }
 
+// @include breakpoint-below(sm) {
 @media (max-width: 768px) {
 	.descriptor {
 		text-align: center !important;

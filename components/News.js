@@ -62,23 +62,21 @@ export default function News({ news }) {
 							/>
 						))}
 					</Row>
-					<Row>
-						<ul
-							className={`mt-2 list-group ${styles.listHorizontal}`}
-						>
-							{otherNews.map((story) => (
-								<li
-									key={story.frontmatter.title}
-									onClick={() =>
-										router.push(`/news/${story.slug}`)
-									}
-									className={`list-group-item flex-fill ${styles.cardList}`}
-								>
-									{story.frontmatter.date}
-									<br /> {story.frontmatter.title}
-								</li>
-							))}
-						</ul>
+					<Row
+						className={`list-group list-group-flush ${styles.listHorizontal}`}
+					>
+						{otherNews.map((story) => (
+							<Col
+								key={story.frontmatter.title}
+								onClick={() =>
+									router.push(`/news/${story.slug}`)
+								}
+								className={`list-group-item flex-fill ${styles.cardList}`}
+							>
+								{story.frontmatter.date} -{" "}
+								{story.frontmatter.title}
+							</Col>
+						))}
 					</Row>
 				</div>
 			</Container>

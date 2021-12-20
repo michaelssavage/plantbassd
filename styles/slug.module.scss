@@ -16,6 +16,7 @@
 	text-align: center;
 }
 
+// @include breakpoint-below(sm) {
 @media (max-width: 768px) {
 	.newsSection {
 		margin-bottom: 2vh;

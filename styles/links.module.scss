@@ -1,3 +1,5 @@
+@import "breakpoints";
+
 .linkPage {
 	min-height: 100vh;
 	background: linear-gradient(
@@ -47,24 +49,28 @@
 	}
 }
 
+// @include breakpoint-below(lg) {
 @media (max-width: 1200px) {
 	.pushSides {
 		padding: 2rem 15rem 4rem 15rem;
 	}
 }
 
+// @include breakpoint-below(md) {
 @media (max-width: 992px) {
 	.pushSides {
 		padding: 2rem 10rem 4rem 10rem;
 	}
 }
 
+// @include breakpoint-below(sm) {
 @media (max-width: 768px) {
 	.pushSides {
 		padding: 2rem 5rem 4rem 5rem;
 	}
 }
 
+// @include breakpoint-below(xs) {
 @media (max-width: 576px) {
 	.pushSides {
 		padding: 2rem 2rem 4rem 2rem;
