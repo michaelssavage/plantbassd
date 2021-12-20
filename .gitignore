@@ -33,4 +33,4 @@ yarn-error.log*
 # vercel
 .vercel
 .prettierignore
-.env
+.env.local
