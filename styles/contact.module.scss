@@ -12,6 +12,7 @@
 }
 
 .anchor {
+	color: var(--black) !important;
 	text-decoration: none !important;
 	&:hover {
 		opacity: 0.8;

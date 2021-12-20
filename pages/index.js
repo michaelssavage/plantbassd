@@ -9,29 +9,24 @@ import Mixes from "../components/Mixes";
 import News from "../components/News";
 import Radio from "../components/Radio";
 import Takeover from "../components/Takeover";
+import TopTen from "../components/TopTen";
 import { sortByDate } from "../components/Utilities";
 
-export default function Home({ news, takeovers, radios }) {
+export default function Home({ topTenReleases, news, takeovers, radios }) {
 	return (
 		<>
 			<ParallaxProvider>
 				<ParallaxBanner
+					className="parallaxHeightChange"
 					layers={[
 						{
-							// image: "/collage.jpg",
-							children: (
-								<video autoPlay loop muted>
-									<source
-										src="/various/pbdj.mp4"
-										type="video/mp4"
-									></source>
-								</video>
-							),
+							image: "/top-ten-2021/bg.jpg",
 							amount: 0.4,
 						},
 					]}
-					className="parallaxHeightChange"
-				></ParallaxBanner>
+				>
+					<TopTen />
+				</ParallaxBanner>
 			</ParallaxProvider>
 
 			<News news={news} />
@@ -50,18 +45,14 @@ export default function Home({ news, takeovers, radios }) {
 
 export async function getStaticProps() {
 	let news = getPosts("posts/news");
-	news = news.sort(sortByDate).reverse().slice(0, 2);
+	news = news.sort(sortByDate).reverse().slice(0, 6);
 
 	// get files from the takeover directory
 	let takeovers = getPosts("posts/takeovers");
-	takeovers = takeovers.sort(sortByDate);
-	const numTakeovers = takeovers.length;
-	takeovers = takeovers.slice(numTakeovers - 4, numTakeovers).reverse();
+	takeovers = takeovers.sort(sortByDate).reverse().slice(0, 4);
 
 	let radios = getPosts("posts/radios");
-	radios = radios.sort(sortByDate);
-	const numRadios = radios.length;
-	radios = radios.slice(numRadios - 4, numRadios).reverse();
+	radios = radios.sort(sortByDate).reverse().slice(0, 4);
 
 	return {
 		props: {
@@ -72,7 +63,7 @@ export async function getStaticProps() {
 	};
 }
 
-function getPosts(directory) {
+const getPosts = (directory) => {
 	const files = fs.readdirSync(path.join(directory));
 
 	//return Slug and frontmatter from takeover posts
@@ -91,4 +82,4 @@ function getPosts(directory) {
 			frontmatter,
 		};
 	});
-}
+};
