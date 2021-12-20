@@ -1,3 +1,5 @@
+@import "../../styles/breakpoints";
+
 .headerContainer {
 	display: flex;
 	align-items: center;
@@ -11,6 +13,7 @@
 	text-align: left;
 }
 
+// @include breakpoint-below(md) {
 @media (max-width: 992px) {
 	.mobileHead {
 		margin-top: 2rem;
@@ -22,6 +25,7 @@
 	}
 }
 
+// @include breakpoint-below(sm) {
 @media (max-width: 768px) {
 	.mobileHead {
 		margin-top: 2rem;
@@ -52,8 +56,11 @@
 	-moz-box-orient: horizontal;
 	-moz-box-direction: normal;
 	flex-direction: row;
+	border-top: 5px solid var(--navBlue);
+	margin-top: 1rem;
 }
 
+// @include breakpoint-below(xs) {
 @media (max-width: 576px) {
 	.listHorizontal {
 		-moz-box-orient: vertical;

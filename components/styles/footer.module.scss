@@ -1,12 +1,16 @@
+@import "../../styles/breakpoints";
+
 .descriptor {
 	text-align: left !important;
 	margin-top: 1.5rem !important;
 }
 
 .footerParagraph {
-	margin-right: 20%;
+	margin-right: 18%;
+	padding-left: 0.5rem;
 }
 
+// @include breakpoint-below(sm) {
 @media (max-width: 768px) {
 	.descriptor {
 		text-align: center !important;

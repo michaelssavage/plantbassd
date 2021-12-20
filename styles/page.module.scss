@@ -1,3 +1,5 @@
+@import "breakpoints";
+
 .bHeader {
 	text-align: center;
 	padding: 15vh 1rem 0 1rem;
@@ -56,6 +58,7 @@
 	@extend .divBackground;
 }
 
+// @include breakpoint-below(md) {
 @media (max-width: 992px) {
 	.divBackground {
 		padding-left: 10%;
@@ -63,6 +66,7 @@
 	}
 }
 
+// @include breakpoint-below(xs) {
 @media (max-width: 576px) {
 	.divBackground {
 		padding-left: 4%;
