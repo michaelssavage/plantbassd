@@ -7,11 +7,13 @@ import styles from "./styles/news.module.scss";
 
 export default function News({ news }) {
 	const router = useRouter();
+	const mostRecent = news.slice(0, 2);
+	const otherNews = news.slice(2, 6);
 
 	return (
 		<section>
 			<Container>
-				<div className="m-4">
+				<div className="m-5">
 					<Row>
 						<Col
 							className={styles.headerContainer}
@@ -52,13 +54,30 @@ export default function News({ news }) {
 								</div>
 							</div>
 						</Col>
-						{news.map((story) => (
+						{mostRecent.map((story) => (
 							<CardWithText
 								key={story.frontmatter.title}
 								post={story}
 								link={`/news/${story.slug}`}
 							/>
 						))}
+					</Row>
+					<Row>
+						<ul
+							className={`mt-2 list-group ${styles.listHorizontal}`}
+						>
+							{otherNews.map((story) => (
+								<li
+									key={story.frontmatter.title}
+									onClick={() =>
+										router.push(`/news/${story.slug}`)
+									}
+									className={`list-group-item flex-fill ${styles.cardList}`}
+								>
+									{story.frontmatter.title}
+								</li>
+							))}
+						</ul>
 					</Row>
 				</div>
 			</Container>

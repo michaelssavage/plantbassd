@@ -30,16 +30,16 @@ export default function ContactPage() {
 							Plant Bass'd consists of Oisin Campbell, Michael
 							Savage, and Peter Toal. Originally from Monaghan,
 							Ireland the three lads have joined their different
-							music tastes together to form an interesting,
-							inclusive collective.
+							music tastes together to form an inclusive
+							collective.
 						</p>
 						<p>
-							Site by:{" "}
+							Site by{" "}
 							<a
 								className={styles.anchor}
 								href="https://www.github.com/michaelssavage"
 							>
-								Michael
+								Michael.
 							</a>
 						</p>
 					</Col>

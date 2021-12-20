@@ -1,3 +1,5 @@
+@import "breakpoints";
+
 .newsSection {
 	margin: 10vh 0;
 }
@@ -35,4 +37,14 @@
 
 .hoverLink:hover {
 	color: var(--white) !important;
+}
+
+.topTenContent {
+	padding: 0 3rem;
+}
+
+@include breakpoint-below(md) {
+	.topTenContent {
+		padding: 0 1rem;
+	}
 }

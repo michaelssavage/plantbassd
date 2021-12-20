@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
@@ -8,26 +7,34 @@ import news from "../styles/slug.module.scss";
 import styles from "./styles/card.module.scss";
 
 export const CardNoText = ({ post, link }) => {
+	const router = useRouter();
 	return (
-		<Col key={post.slug} xl={3} lg={4} md={6} xs={6}>
-			<Link href={link} passHref>
-				<div className={`card ${styles.cardStyle}`}>
-					<Image
-						className="card-img-top"
-						src={post.frontmatter.pic}
-						alt={post.frontmatter.title}
-						width={500}
-						height={500}
-					/>
-				</div>
-			</Link>
+		<Col
+			onClick={() => router.push(link)}
+			key={post.slug}
+			xl={3}
+			lg={4}
+			md={6}
+			xs={6}
+		>
+			<div className={`card ${styles.cardStyle}`}>
+				<Image
+					className="card-img-top"
+					src={post.frontmatter.pic}
+					alt={post.frontmatter.title}
+					width={500}
+					height={500}
+				/>
+			</div>
 		</Col>
 	);
 };
 
 export const CardWithText = ({ post, link }) => {
+	const router = useRouter();
 	return (
 		<Col
+			onClick={() => router.push(link)}
 			className={styles.cardSpacing}
 			key={post.slug}
 			lg={3}
@@ -35,25 +42,19 @@ export const CardWithText = ({ post, link }) => {
 			sm={6}
 			xs={6}
 		>
-			<Link href={link} passHref>
-				<div className={`card ${styles.cardStyle}`}>
-					<Image
-						className="card-img-top"
-						src={post.frontmatter.pic}
-						alt={post.frontmatter.title}
-						width={500}
-						height={500}
-					/>
-					<div className={`${styles.cardBody} card-body`}>
-						<p className={styles.cardDate}>
-							{post.frontmatter.date}
-						</p>
-						<p className={styles.cardTitle}>
-							{post.frontmatter.bio}
-						</p>
-					</div>
+			<div className={`card ${styles.cardStyle}`}>
+				<Image
+					className="card-img-top"
+					src={post.frontmatter.pic}
+					alt={post.frontmatter.title}
+					width={500}
+					height={500}
+				/>
+				<div className={`${styles.cardBody} card-body`}>
+					<p className={styles.cardDate}>{post.frontmatter.date}</p>
+					<p className={styles.cardTitle}>{post.frontmatter.bio}</p>
 				</div>
-			</Link>
+			</div>
 		</Col>
 	);
 };

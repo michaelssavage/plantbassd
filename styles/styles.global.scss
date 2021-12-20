@@ -1,3 +1,5 @@
+@import "breakpoints";
+
 @font-face {
 	font-family: "Messina";
 	src: url("/fonts/Messina.ttf");
@@ -78,11 +80,19 @@ Link {
 	font-size: 3em;
 }
 
-.parallaxHeightChange {
-	height: 100vh !important;
+.discoveryCards {
+	background: linear-gradient(130deg, var(--pink) 20%, var(--green) 80%);
 }
 
-@media (max-width: 768px) {
+.top-ten-2021 {
+	padding: 2rem 0;
+}
+
+.parallaxHeightChange {
+	height: 80vh !important;
+}
+
+@include breakpoint-below(sm) {
 	body {
 		margin-left: -5rem !important;
 	}
@@ -100,12 +110,18 @@ Link {
 	}
 }
 
-.discoveryCards {
-	background: linear-gradient(130deg, var(--pink) 20%, var(--green) 80%);
+@include breakpoint-above(md) {
+	.top-ten-2021 {
+		-moz-box-flex: 0 !important;
+		flex: 0 0 auto !important;
+		width: 50% !important;
+	}
 }
 
-@media (max-width: 576px) {
-	.parallax-inner {
-		inset: -85% -200% !important;
+@include breakpoint-below(md) {
+	.top-ten-2021 {
+		-moz-box-flex: 0 !important;
+		flex: 0 0 auto !important;
+		width: 100% !important;
 	}
 }
