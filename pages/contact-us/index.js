@@ -36,7 +36,7 @@ export default function ContactPage() {
 						<p>
 							Site by{" "}
 							<a
-								className={styles.anchor}
+								className="blackAnchor"
 								href="https://www.github.com/michaelssavage"
 							>
 								Michael.

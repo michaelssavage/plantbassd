@@ -2,80 +2,32 @@
 title: "Michael’S Top 10 Dance Releases of 2021"
 date: "December 21, 2021"
 pic: "/top-ten-2021/michael.jpg"
-postLink: ""
 ---
 
-Lots of euphoria and nostalgia in my top picks this year. Spent a lot of time with some feel-good house, breakbeats, club music with some room for heavies along the way.
+Lots of euphoric electronic sounds in my top picks this year. Spent a lot of time with some feel-good house, breakbeats, and club music with some room for heavies along the way.
 
-## 1. Blawan - Woke Up Right Handed EP
-
-<div class="row">
-<div class="col top-ten-2021">
-<img src="/top-ten-2021/michael/blawan-woke_up_right_handed.jpg" alt="Blawan EP cover art" width="60%" />
-</div>
-<div class="col top-ten-2021">
-
-A dark brewing EP of monstrous and evolving sounds. There’s an intense roaring low-end throughout that disregards club music conventions. Pioneering as ever, Blawan is leading his own path in terms of sound design.
-
-There’s something so mesmerizing about the textures and unique style that Blawan is recognizable for. Extra reading about his studio: [studiospc]("https://www.studiospc.de/project/blawan")
-
-Favourite track? [Under Belly](https://open.spotify.com/track/29EqYPuLdMrl6sQwq4nh2X?si=f5728423f4d34b6f)
-
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://blawan.bandcamp.com/album/woke-up-right-handed">Bandcamp</a>
-
-</div>
-</div>
-
-## 2. Lxury - Smart Digital Life EP
+## 1. Shire T - Tomorrow’s People (Dama Dama Music)
 
 <div class="row">
 <div class="col top-ten-2021">
-<img src="/top-ten-2021/michael/lxury-smart_digital_life.jpg" alt="Lxury EP cover art" width="60%" />
+<img src="/top-ten-2021/michael/shire_t-tomorrows_people.jpg" alt="Shire T album cover art" width="60%" />
 </div>
 <div class="col top-ten-2021">
 
-Lxury is one of my favourite artists. Each tune is a guaranteed joy to listen to. The London producer creates summery, easy-to-digest tracks that have some experimental features sprinkled here and there so I have high hopes for every new release. My expectations were matched and more for his latest EP as each track was oozing with euphoric bounciness.
+My album of the year, Tomorrow’s People is incredibly futuristic and nostalgic. Not a moment gone to waste in this bustling soundscape that glues together UK Garage, breakbeat, acid house and more! We’ve got some serious dancefloor fillers in the form of _Full Attention_, _Blue Kiss_, and _Burnin’ Jungle_.
 
-Favourite track? [Spin](https://open.spotify.com/track/1ACPMDQtaCcIGfJ6OxCCuM?si=9705c1092e7f4fc2)
+At the tail end of this album, we say farewell with _London. Paris. Berlin._ and _Serve No Tea_. Delightful piano melodies. This is a must-listen.
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://lxury.bandcamp.com/album/smart-digital-life-ep">Bandcamp</a>
+Read More on [Quipmag](https://www.quipmag.com/shire-t-arrives-in-style-with-debut-solo-album-tomorrows-people/).
 
-</div>
-</div>
+Favourite track? [Burnin’ Jungle](https://open.spotify.com/track/4mYXAyo9ja4AzTBv4NEWHE?si=d2a974f218524eea)
 
-## 3. Roman Flugel - Cluttered Homes (Track)
-
-<div class="row">
-<div class="col top-ten-2021">
-<img src="/top-ten-2021/michael/roman_flugel-cluttered_homes.jpg" alt="Roman Flugel track cover art" width="60%" />
-</div>
-<div class="col top-ten-2021">
-
-Jack of all trades, Roman Flugel, is a multi-genre producer. He first landed on my radar after hearing the massive Italo dance hit, Garden Party, last year. Cluttered Homes sits upfront and noticeable in an otherwise melancholy and ambient EP. The track is dark too but is driven with more urgency. Helped along by a hypnotic acid line that I just can’t get enough of.
-
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://romanfluegel.bandcamp.com/track/cluttered-homes">Bandcamp</a>
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://ninjatune.net/release/shire-t/tomorrow-s-people">Bandcamp</a>
 
 </div>
 </div>
 
-## 4. George Fitzgerald - Ultraviolet (Track)
-
-<div class="row">
-<div class="col top-ten-2021">
-<img src="/top-ten-2021/michael/george_fitzgerald-ultraviolet.png" alt="George Fitzgerald track cover art" width="60%" />
-</div>
-<div class="col top-ten-2021">
-
-I fell in love with this track because of the way I first consumed it. It’ll surprise me every time I hear it based on that initial experience I had. I was driving late across the country and stuck it on in the car and the gorgeous synths panned left and right across the speakers. I was stunned by how blissful it was.
-
-FitzGerald says: <i>“Ultraviolet came together over several long nights alone in the studio, dreaming about rushing to the furthest place I could imagine at the fastest speed possible. Firing through space at 1000s of miles an hour without moving.”</i>
-
-Read, Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://www.dominomusic.com/news/uk/george-fitzgerald-returns-with-effervescent-new-track-ultraviolet">Bandcamp</a>
-
-</div>
-</div>
-
-## 5. Eris Drew - Quivering In Time (Album)
+## 2. Eris Drew - Quivering In Time (T4T LUV NRG)
 
 <div class="row">
 <div class="col top-ten-2021">
@@ -94,7 +46,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://e
 </div>
 </div>
 
-## 6. Laurence Guy - Your Good Times Are Here (EP)
+## 3. Laurence Guy - Your Good Times Are Here (Shall Not Fade)
 
 <div class="row">
 <div class="col top-ten-2021">
@@ -115,28 +67,75 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://l
 </div>
 </div>
 
-## 7. Shire T - Tomorrow’s People (Album)
+## 4. Lxury - Smart Digital Life (Lost Palms)
 
 <div class="row">
 <div class="col top-ten-2021">
-<img src="/top-ten-2021/michael/shire_t-tomorrows_people.jpg" alt="Shire T album cover art" width="60%" />
+<img src="/top-ten-2021/michael/lxury-smart_digital_life.jpg" alt="Lxury EP cover art" width="60%" />
 </div>
 <div class="col top-ten-2021">
 
-My album of the year, Tomorrow’s People is incredibly futuristic and nostalgic. Not a moment gone to waste in this bustling soundscape that glues together UK Garage, breakbeat, acid house and more! We’ve got some serious dancefloor fillers in the form of Full Attention, Blue Kiss, and Burnin’ Jungle.
+Lxury is one of my favourite artists. Each tune is a guaranteed joy to listen to. The London producer creates summery, easy-to-digest tracks that have some experimental features sprinkled here and there so I have high hopes for every new release. My expectations were matched and more for his latest EP as each track was oozing with euphoric bounciness.
 
-At the tail end of this album, we say farewell with London. Paris. Berlin. and Serve No Tea. Delightful piano melodies. This is a must-listen.
+Favourite track? [Spin](https://open.spotify.com/track/1ACPMDQtaCcIGfJ6OxCCuM?si=9705c1092e7f4fc2)
 
-Read More on [Quipmag](https://www.quipmag.com/shire-t-arrives-in-style-with-debut-solo-album-tomorrows-people/).
-
-Favourite track? [Burnin’ Jungle](https://open.spotify.com/track/4mYXAyo9ja4AzTBv4NEWHE?si=d2a974f218524eea)
-
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://ninjatune.net/release/shire-t/tomorrow-s-people">Bandcamp</a>
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://lxury.bandcamp.com/album/smart-digital-life-ep">Bandcamp</a>
 
 </div>
 </div>
 
-## 8. Model Man (Self-titled LP)
+## 5. Blawan - Woke Up Right Handed (XL Recordings)
+
+<div class="row">
+<div class="col top-ten-2021">
+<img src="/top-ten-2021/michael/blawan-woke_up_right_handed.jpg" alt="Blawan EP cover art" width="60%" />
+</div>
+<div class="col top-ten-2021">
+
+A dark brewing EP of monstrous and evolving sounds. There’s an intense roaring low-end throughout that disregards club music conventions. Pioneering as ever, Blawan is leading his own path in terms of sound design.
+
+There’s something so mesmerizing about the textures and unique style that Blawan is recognizable for. Extra reading about his studio: [studiospc]("https://www.studiospc.de/project/blawan")
+
+Favourite track? [Under Belly](https://open.spotify.com/track/29EqYPuLdMrl6sQwq4nh2X?si=f5728423f4d34b6f)
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://blawan.bandcamp.com/album/woke-up-right-handed">Bandcamp</a>
+
+</div>
+</div>
+
+## 6. Roman Flugel - Cluttered Homes (Running Back)
+
+<div class="row">
+<div class="col top-ten-2021">
+<img src="/top-ten-2021/michael/roman_flugel-cluttered_homes.jpg" alt="Roman Flugel track cover art" width="60%" />
+</div>
+<div class="col top-ten-2021">
+
+Jack of all trades, Roman Flugel, is a multi-genre producer. He first landed on my radar after hearing the massive Italo dance hit, Garden Party, last year. Cluttered Homes sits upfront and noticeable in an otherwise melancholy and ambient EP. The track is dark too but is driven with more urgency. Helped along by a hypnotic acid line that I just can’t get enough of.
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://romanfluegel.bandcamp.com/track/cluttered-homes">Bandcamp</a>
+
+</div>
+</div>
+
+## 7. George Fitzgerald - Ultraviolet (Double Six Records)
+
+<div class="row">
+<div class="col top-ten-2021">
+<img src="/top-ten-2021/michael/george_fitzgerald-ultraviolet.png" alt="George Fitzgerald track cover art" width="60%" />
+</div>
+<div class="col top-ten-2021">
+
+I fell in love with this track because of the way I first consumed it. It’ll surprise me every time I hear it based on that initial experience I had. I was driving late across the country and stuck it on in the car and the gorgeous synths panned left and right across the speakers. I was stunned by how blissful it was.
+
+FitzGerald says: _“Ultraviolet came together over several long nights alone in the studio, dreaming about rushing to the furthest place I could imagine at the fastest speed possible. Firing through space at 1000s of miles an hour without moving.”_
+
+Read, Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://www.dominomusic.com/news/uk/george-fitzgerald-returns-with-effervescent-new-track-ultraviolet">Bandcamp</a>
+
+</div>
+</div>
+
+## 8. Model Man (Self-titled LP) - (Mahogany Records)
 
 <div class="row">
 <div class="col top-ten-2021">
@@ -144,7 +143,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://n
 </div>
 <div class="col top-ten-2021">
 
-<i>“Harmony is the musical element that comes the most naturally to me.”</i> Model Man’s first album release is full to the brim with beautiful melodies fused with visceral energy. Model Man came from a Mormon upbringing so a lot of that classical gospel-like sound can be heard seeping through each track.
+_“Harmony is the musical element that comes the most naturally to me.”_ Model Man’s first album release is full to the brim with beautiful melodies fused with visceral energy. Model Man came from a Mormon upbringing so a lot of that classical gospel-like sound can be heard seeping through each track.
 
 Religion and his moving on from that part of his life into rave culture play a huge part in the themes of this LP. Euphoric and nostalgic like Tomorrow’s People.
 
@@ -157,7 +156,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://m
 </div>
 </div>
 
-## 9. India Jordan - Watch Out!
+## 9. India Jordan - Watch Out! (Ninja Tune)
 
 <div class="row">
 <div class="col top-ten-2021">
@@ -174,7 +173,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://i
 </div>
 </div>
 
-## 10. Another Chemical Love Story (Self-titled Album)
+## 10. Another Chemical Love Story (Self-titled & Self-released Album)
 
 <div class="row">
 <div class="col top-ten-2021">

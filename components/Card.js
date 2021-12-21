@@ -6,17 +6,26 @@ import { Col, Row } from "react-bootstrap";
 import news from "../styles/slug.module.scss";
 import styles from "./styles/card.module.scss";
 
+export const CardExternal = ({ card }) => {
+	return (
+		<Col xl={3} lg={3} md={6} xs={12}>
+			<a href={card.link} rel="noopener noreferrer" target="_blank">
+				<Image
+					className="card-img-top"
+					src={card.pic}
+					alt={card.pic}
+					width={500}
+					height={500}
+				/>
+			</a>
+		</Col>
+	);
+};
+
 export const CardNoText = ({ post, link }) => {
 	const router = useRouter();
 	return (
-		<Col
-			onClick={() => router.push(link)}
-			key={post.slug}
-			xl={3}
-			lg={4}
-			md={6}
-			xs={6}
-		>
+		<Col onClick={() => router.push(link)} xl={3} lg={6} md={6} xs={6}>
 			<div className={`card ${styles.cardStyle}`}>
 				<Image
 					className="card-img-top"
@@ -36,7 +45,6 @@ export const CardWithText = ({ post, link }) => {
 		<Col
 			onClick={() => router.push(link)}
 			className={styles.cardSpacing}
-			key={post.slug}
 			lg={3}
 			md={6}
 			sm={6}
@@ -108,14 +116,7 @@ export const CardWithButtons = ({ pic, title, artist, page, insta, link }) => {
 export const CardTopTen = ({ post, link }) => {
 	const router = useRouter();
 	return (
-		<Col
-			onClick={() => router.push(link)}
-			key={post.slug}
-			xl={4}
-			lg={4}
-			md={12}
-			xs={12}
-		>
+		<Col onClick={() => router.push(link)} xl={4} lg={4} md={12} xs={12}>
 			<div className={`card ${styles.cardStyle}`}>
 				<Image
 					className="card-img-top"

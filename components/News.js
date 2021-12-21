@@ -36,22 +36,13 @@ export default function News({ news }) {
 								<p>
 									Keep up to date on our Instagram,{" "}
 									<a
-										className={styles.anchor}
+										className="blackAnchor"
 										href="http://instagra.com/plantbassddjs"
 									>
 										@plantbassddjs
 									</a>
 									.
 								</p>
-								<div className={styles.button}>
-									<button
-										type="button"
-										className="btn btn-outline-dark btn-lg"
-										onClick={() => router.push("/news")}
-									>
-										Discover More
-									</button>
-								</div>
 							</div>
 						</Col>
 						{mostRecent.map((story) => (
@@ -78,6 +69,15 @@ export default function News({ news }) {
 							</Col>
 						))}
 					</Row>
+					<div className={styles.button}>
+						<button
+							type="button"
+							className="btn btn-outline-dark btn-lg"
+							onClick={() => router.push("/news")}
+						>
+							Discover More
+						</button>
+					</div>
 				</div>
 			</Container>
 		</section>

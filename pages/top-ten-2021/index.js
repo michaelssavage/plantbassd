@@ -15,7 +15,7 @@ export default function TopTen({ topTenReleases }) {
 		<>
 			<ParallaxProvider>
 				<ParallaxBanner
-					className="parallaxHeightChange"
+					className={styles.parallax}
 					layers={[
 						{
 							image: "/top-ten-2021/collage.jpg",
