@@ -8,7 +8,7 @@ const FootLink = ({ link, title }) => {
 	return (
 		<li>
 			<Link href={link}>
-				<a className={styles.hoverLink}>{title}</a>
+				<a className="blackAnchor">{title}</a>
 			</Link>
 		</li>
 	);
@@ -31,7 +31,7 @@ export default function FooterComponent() {
 								throwing parties in between. EDI/ DUB/ GLA. Site
 								by{" "}
 								<a
-									className={styles.hoverLink}
+									className="blackAnchor"
 									href="http://github.com/michaelssavage"
 								>
 									Michael

@@ -4,7 +4,7 @@
 		"prettier",
 		"plugin:sonarjs/recommended"
 	],
-	"plugins": ["simple-import-sort", "sonarjs"],
+	"plugins": ["simple-import-sort", "sonarjs", "unused-imports"],
 	"rules": {
 		"react/no-unescaped-entities": "off",
 		"simple-import-sort/exports": "error",

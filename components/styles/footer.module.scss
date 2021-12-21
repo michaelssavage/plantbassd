@@ -26,13 +26,3 @@
 	padding-left: 0;
 	list-style: none;
 }
-
-.hoverLink {
-	color: var(--black) !important;
-	text-decoration: none !important;
-	&:hover {
-		color: var(--headerBlack) !important;
-		filter: drop-shadow(0px 6px 6px var(--dropShadow));
-		cursor: pointer !important;
-	}
-}

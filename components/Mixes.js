@@ -1,11 +1,13 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import { RiSoundcloudLine } from "react-icons/ri";
 
 import styles from "./styles/mixes.module.scss";
 
 export default function ArtistCard() {
+	const router = useRouter();
+
 	return (
 		<section className={styles.mixSection}>
 			<Container>
@@ -13,14 +15,14 @@ export default function ArtistCard() {
 					<Col lg={6} md={12}>
 						<div className={styles.mixImages}>
 							<Image
-								src="/various/setradio.jpg"
+								src="/mixes/3-set.jpg"
 								alt="setradio logo"
 								height="400"
 								width="400"
 							/>
 							<div className={styles.topImage}>
 								<Image
-									src="/various/itsnotradio.jpg"
+									src="/mixes/8-itsnotradio.jpg"
 									alt="itsnotradio logo"
 									height="400"
 									width="400"
@@ -35,25 +37,24 @@ export default function ArtistCard() {
 								Mixes
 							</h1>
 							<p>
-								We don't stick to one genre. Hear the latest
-								club tracks when we play Jungle, Techno, Garage,
-								Rave selects, and more. Listen on EHFM,
-								ITSNOTRADIO, and Aurora, and our Soundcloud.
+								Hear the latest club tracks when we play Jungle,
+								Techno, Garage, Rave selects, and more. Listen
+								on EHFM, ITSNOTRADIO, and Aurora, and our
+								Soundcloud.
 							</p>
 
 							<p>
-								Take it easy and listen to some of our chill
-								mixes that include House, Disco, and Groovy
-								numbers. Find these on SET RADIO and our
-								Soundcloud page.
+								Chill out and listen to some of our mixes that
+								include House, Disco, and Groovy numbers. Find
+								these on SET RADIO and our Soundcloud page.
 							</p>
 							<div className={styles.clubButton}>
 								<button
 									type="button"
 									className={`${styles.hoverBtn} btn btn-outline-dark btn-lg`}
-									href="https://soundcloud.com/plantbassddjs"
+									onClick={() => router.push("/mixes")}
 								>
-									<RiSoundcloudLine /> Listen Now
+									Discover More
 								</button>
 							</div>
 						</div>

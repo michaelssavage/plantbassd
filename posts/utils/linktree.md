@@ -1,7 +1,7 @@
 ---
 links:
-  - title: "SweatBox: Mistletoe & Grind - Tickets"
-    link: "https://ra.co/events/1485121"
+  - title: "Plant Bass'd: Top 10 Dance Releases of 2021"
+    link: "https://www.plantbassd.com/top-ten-2021"
   - title: "SweatBox: Ruff ‘N’ Tuff -  Tickets"
     link: "https://ra.co/events/1484531"
   - title: "FRESH JUICE: DJ GODFATHER X DJ MELL G - 'COPS CAN'T DANCE'"

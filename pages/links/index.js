@@ -83,7 +83,7 @@ export default function Links({ links }) {
 						<Row key={item.title} className={styles.buttonStyle}>
 							<a
 								role="button"
-								className="btn btn-outline-light"
+								className={`btn btn-outline-dark ${styles.btnText}`}
 								href={item.link}
 							>
 								{item.title}
@@ -99,7 +99,7 @@ export default function Links({ links }) {
 export async function getStaticProps() {
 	// linktree data and the links.
 	const markdownWithMeta = fs.readFileSync(
-		path.join("posts/links/linktree.md"),
+		path.join("posts/utils/linktree.md"),
 		"utf-8"
 	);
 	const { data: frontmatter } = matter(markdownWithMeta);

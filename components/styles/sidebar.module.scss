@@ -96,8 +96,7 @@
 	margin-right: 0.5rem;
 }
 
-// @include breakpoint-below(sm) {
-@media screen and (max-width: 768px) {
+@include breakpoint-below(sm) {
 	.header {
 		width: 4rem;
 	}
@@ -108,11 +107,22 @@
 	}
 
 	.extendHeader {
-		width: 90%;
+		width: 70%;
 	}
 
 	.extendNav {
-		width: 75%;
+		width: 55%;
+		padding: 0.5rem;
+	}
+}
+
+@include breakpoint-below(xs) {
+	.extendHeader {
+		width: 80%;
+	}
+
+	.extendNav {
+		width: 65%;
 		padding: 0.5rem;
 	}
 }

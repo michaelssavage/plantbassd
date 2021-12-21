@@ -2,7 +2,6 @@
 title: "OISÍN’S Top 10 Dance Releases of 2021"
 date: "December 21, 2021"
 pic: "/top-ten-2021/oisin.jpg"
-postLink: ""
 ---
 
 Another year has passed with a thriving selection of electronic music being delivered across the globe. Each year I find myself clutching to a different style of music and have been struck by bass-driven, glitchy, wonky club music this year as well as electro, ghetto tech, Baltimore, and Jersey club sounds. There is a never ending hole of creative dance music available to us and this year has been one of my favorites in recent memory. Somehow, I have whittled down a top 10 of favored releases, and it goes a little something like this…

@@ -14,15 +14,19 @@ function Listing({ link, icon, title, onClick }) {
 	const router = useRouter();
 	return (
 		<Link href={link} passHref>
-			<div
-				onClick={onClick}
-				className={
-					router.pathname == link ? styles.activeLink : styles.navLink
-				}
-			>
-				{icon}
-				<span className={styles.navName}>{title}</span>
-			</div>
+			<a className="anchor">
+				<div
+					onClick={onClick}
+					className={
+						router.pathname == link
+							? styles.activeLink
+							: styles.navLink
+					}
+				>
+					{icon}
+					<span className={styles.navName}>{title}</span>
+				</div>
+			</a>
 		</Link>
 	);
 }
@@ -74,7 +78,7 @@ export default function Sidebar() {
 						/>
 
 						<Listing
-							link="/#mixes"
+							link="/mixes"
 							icon={
 								<RiSoundcloudLine className={styles.navIcon} />
 							}

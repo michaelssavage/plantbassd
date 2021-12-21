@@ -6,11 +6,15 @@
 	font-size: 3em;
 }
 
-.bTexter {
-	text-align: center;
+.texter {
 	font-size: 1.2em;
 	margin-top: 1rem;
 	margin-bottom: 0.5em;
+}
+
+.bTexter {
+	text-align: center;
+	@extend .texter;
 }
 
 .spotify {
@@ -58,6 +62,10 @@
 	@extend .divBackground;
 }
 
+.parallax {
+	height: 60vh !important;
+}
+
 // @include breakpoint-below(md) {
 @media (max-width: 992px) {
 	.divBackground {
@@ -81,5 +89,8 @@
 
 	.bTexter {
 		text-align: left;
+	}
+	.parallax {
+		height: 50vh !important;
 	}
 }
