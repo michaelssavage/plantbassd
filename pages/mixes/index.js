@@ -41,7 +41,7 @@ export default function MixesPage({ mixes }) {
 
 					<Row className="g-3">
 						{clubMixes.map((card) => (
-							<CardExternal key={card.slug} card={card} />
+							<CardExternal key={card.key} card={card} />
 						))}
 					</Row>
 
@@ -53,7 +53,7 @@ export default function MixesPage({ mixes }) {
 
 					<Row className="g-3">
 						{downMixes.map((card) => (
-							<CardExternal key={card.slug} card={card} />
+							<CardExternal key={card.key} card={card} />
 						))}
 					</Row>
 

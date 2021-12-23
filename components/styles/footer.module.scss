@@ -10,8 +10,13 @@
 	padding-left: 0.5rem;
 }
 
-// @include breakpoint-below(sm) {
-@media (max-width: 768px) {
+@include breakpoint-below(md) {
+	.footerParagraph {
+		margin-right: 1rem;
+	}
+}
+
+@include breakpoint-below(sm) {
 	.descriptor {
 		text-align: center !important;
 	}
