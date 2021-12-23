@@ -23,7 +23,10 @@ export default async function handler(req, res) {
 		};
 
 		transporter.sendMail(mailData);
-		res.status(200).json({ message: "message sent" });
+		res.status(200).json({
+			message: "Successfully sent",
+			receiver: process.env.INBOX,
+		});
 	} catch (err) {
 		res.status(500).json({ error: err.message });
 	}

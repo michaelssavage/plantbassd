@@ -154,7 +154,7 @@ My standout from another stacked year of Lobster Theremin output. This jungle, d
 
 Favorite Track? [Allure](https://open.spotify.com/track/61L4IyDoSyd0vowzYXPyyR?si=cef41ccde33345ae) (that Yazzus edit is mean also).
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://lobstertheremin.com/album/allure-ep">Bandcamp</a>
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://lobstertheremin.com/album/allure-ep">Lobster Theremin</a>
 
 </div>
 </div>

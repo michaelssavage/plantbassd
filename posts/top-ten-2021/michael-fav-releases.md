@@ -22,7 +22,7 @@ Read More on [Quipmag](https://www.quipmag.com/shire-t-arrives-in-style-with-deb
 
 Favourite track? [Burnin’ Jungle](https://open.spotify.com/track/4mYXAyo9ja4AzTBv4NEWHE?si=d2a974f218524eea)
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://ninjatune.net/release/shire-t/tomorrow-s-people">Bandcamp</a>
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://ninjatune.net/release/shire-t/tomorrow-s-people">NinjaTune</a>
 
 </div>
 </div>
@@ -130,7 +130,7 @@ I fell in love with this track because of the way I first consumed it. It’ll s
 
 FitzGerald says: _“Ultraviolet came together over several long nights alone in the studio, dreaming about rushing to the furthest place I could imagine at the fastest speed possible. Firing through space at 1000s of miles an hour without moving.”_
 
-Read, Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://www.dominomusic.com/news/uk/george-fitzgerald-returns-with-effervescent-new-track-ultraviolet">Bandcamp</a>
+Read, Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://www.dominomusic.com/news/uk/george-fitzgerald-returns-with-effervescent-new-track-ultraviolet">DominoMusic</a>
 
 </div>
 </div>

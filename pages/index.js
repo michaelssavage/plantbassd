@@ -2,7 +2,6 @@ import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 import React from "react";
-import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 
 import Footer from "../components/Footer";
 import Mixes from "../components/Mixes";
@@ -12,22 +11,10 @@ import Takeover from "../components/Takeover";
 import TopTen from "../components/TopTen";
 import { sortByDate } from "../components/Utilities";
 
-export default function Home({ topTenReleases, news, takeovers, radios }) {
+export default function Home({ news, takeovers, radios }) {
 	return (
 		<>
-			<ParallaxProvider>
-				<ParallaxBanner
-					className="parallaxHeightChange"
-					layers={[
-						{
-							image: "/top-ten-2021/bg.jpg",
-							amount: 0.4,
-						},
-					]}
-				>
-					<TopTen />
-				</ParallaxBanner>
-			</ParallaxProvider>
+			<TopTen />
 
 			<News news={news} />
 
