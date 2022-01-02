@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { RiSoundcloudLine } from "react-icons/ri";
 
 import news from "../styles/slug.module.scss";
 import styles from "./styles/card.module.scss";
@@ -9,15 +10,22 @@ import styles from "./styles/card.module.scss";
 export const CardExternal = ({ card }) => {
 	return (
 		<Col xl={3} lg={3} md={6} xs={12}>
-			<a href={card.link} rel="noopener noreferrer" target="_blank">
-				<Image
-					className="card-img-top"
-					src={card.pic}
-					alt={card.pic}
-					width={500}
-					height={500}
-				/>
-			</a>
+			<div className={styles.imgContainer}>
+				<a href={card.link} rel="noopener noreferrer" target="_blank">
+					<Image
+						className="card-img-top"
+						src={card.pic}
+						alt={card.pic}
+						width={500}
+						height={500}
+					/>
+					<div className={styles.imgOverlay}>
+						<div className={styles.imgText}>
+							<RiSoundcloudLine /> Listen Now
+						</div>
+					</div>
+				</a>
+			</div>
 		</Col>
 	);
 };
@@ -67,6 +75,23 @@ export const CardWithText = ({ post, link }) => {
 	);
 };
 
+export const CardTopTen = ({ post, link }) => {
+	const router = useRouter();
+	return (
+		<Col onClick={() => router.push(link)} xl={4} lg={4} md={12} xs={12}>
+			<div className={`card ${styles.cardStyle}`}>
+				<Image
+					className="card-img-top"
+					src={post.frontmatter.pic}
+					alt={post.frontmatter.title}
+					width={500}
+					height={500}
+				/>
+			</div>
+		</Col>
+	);
+};
+
 export const CardWithButtons = ({ pic, title, artist, page, insta, link }) => {
 	const router = useRouter();
 	return (
@@ -108,23 +133,6 @@ export const CardWithButtons = ({ pic, title, artist, page, insta, link }) => {
 						</a>
 					</Col>
 				</Row>
-			</div>
-		</Col>
-	);
-};
-
-export const CardTopTen = ({ post, link }) => {
-	const router = useRouter();
-	return (
-		<Col onClick={() => router.push(link)} xl={4} lg={4} md={12} xs={12}>
-			<div className={`card ${styles.cardStyle}`}>
-				<Image
-					className="card-img-top"
-					src={post.frontmatter.pic}
-					alt={post.frontmatter.title}
-					width={500}
-					height={500}
-				/>
 			</div>
 		</Col>
 	);
