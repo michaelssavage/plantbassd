@@ -10,7 +10,7 @@ import styles from "./styles/card.module.scss";
 export const CardExternal = ({ card }) => {
 	return (
 		<Col xl={3} lg={3} md={6} xs={12}>
-			<div className={styles.imgContainer}>
+			<div className="imgContainer">
 				<a href={card.link} rel="noopener noreferrer" target="_blank">
 					<Image
 						className="card-img-top"
@@ -19,8 +19,8 @@ export const CardExternal = ({ card }) => {
 						width={500}
 						height={500}
 					/>
-					<div className={styles.imgOverlay}>
-						<div className={styles.imgText}>
+					<div className="soundcloudOverlay">
+						<div className="imgTextOverlay">
 							<RiSoundcloudLine /> Listen Now
 						</div>
 					</div>
