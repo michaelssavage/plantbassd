@@ -1,6 +1,6 @@
 ---
 title: "FRESH JUICE: HAZMAT Compilation (Hazardous Materials Vol. 001)"
-date: "January 10, 2022"
+date: "January 10, 1022"
 pic: "/news/12_third-degree.jpg"
 bandcamp: "https://thirddegreerecords.bandcamp.com/album/hazmat-compilation-hazardous-materials-vol-001"
 postLink: "https://www.instagram.com/plantbassddjs"
