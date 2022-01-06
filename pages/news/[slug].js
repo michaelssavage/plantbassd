@@ -10,7 +10,7 @@ import Footer from "../../components/Footer";
 import styles from "../../styles/slug.module.scss";
 
 export default function PostPage({
-	frontmatter: { title, date, pic, bandcamp, tickets, postLink },
+	frontmatter: { title, date, pic, bandcamp, tickets, seeMore, postLink },
 	content,
 }) {
 	let buyLink;
@@ -21,6 +21,9 @@ export default function PostPage({
 	} else if (tickets) {
 		buyLink = tickets;
 		buyText = "RA tickets";
+	} else {
+		buyLink = seeMore;
+		buyText = "See More";
 	}
 
 	return (

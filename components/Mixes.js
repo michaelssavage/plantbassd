@@ -15,14 +15,14 @@ export default function ArtistCard() {
 					<Col lg={6} md={12}>
 						<div className={styles.mixImages}>
 							<Image
-								src="/mixes/3-set.jpg"
+								src="/mixes/7-set.jpg"
 								alt="setradio logo"
 								height="400"
 								width="400"
 							/>
 							<div className={styles.topImage}>
 								<Image
-									src="/mixes/8-itsnotradio.jpg"
+									src="/mixes/1-itsnotradio.jpg"
 									alt="itsnotradio logo"
 									height="400"
 									width="400"

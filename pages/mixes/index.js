@@ -1,63 +1,74 @@
 import fs from "fs";
 import matter from "gray-matter";
+import Link from "next/link";
 import path from "path";
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-import { RiSoundcloudLine } from "react-icons/ri";
 
 import { CardExternal } from "../../components/Card";
 import Footer from "../../components/Footer";
 import { GoBack } from "../../components/Utilities";
 import styles from "../../styles/page.module.scss";
 
-const SoundcloudButton = ({ link }) => {
-	return (
-		<p className={styles.texter}>
-			<a
-				role="button"
-				className={`${styles.soundcloud} text-nowrap btn btn-dark btn-lg`}
-				href={link}
-				rel="noopener noreferrer"
-				target="_blank"
-			>
-				<RiSoundcloudLine /> Soundcloud
-			</a>
-		</p>
-	);
-};
-
 export default function MixesPage({ mixes }) {
 	const clubMixes = mixes.slice(0, 4);
 	const downMixes = mixes.slice(4, 8);
+	const otherMixes = mixes.slice(8, 12);
 	return (
 		<>
-			<div className={styles.divBackground}>
+			<div className={styles.mixBG}>
 				<Container>
 					<h1 className={styles.bHeader}>Plant Bass'd Mixes</h1>
 
-					<h3 name="news" className={`header ${styles.mobileHead}`}>
-						Downtempo Mixes
-					</h3>
+					<Link href="https://soundcloud.com/plantbassddjs/sets/club-mixes">
+						<a className="anchor">
+							<h3
+								name="news"
+								className={`header ${styles.mobileHead}`}
+							>
+								Club Ready Mixes
+							</h3>
+						</a>
+					</Link>
 
-					<Row className="g-3">
+					<Row className="g-3 pb-4">
 						{clubMixes.map((card) => (
 							<CardExternal key={card.key} card={card} />
 						))}
 					</Row>
+					<Link href="https://soundcloud.com/plantbassddjs/sets/dance-mixes">
+						<a className="anchor">
+							<h3
+								name="news"
+								className={`header ${styles.mobileHead}`}
+							>
+								Downtempo Mixes
+							</h3>
+						</a>
+					</Link>
 
-					<SoundcloudButton link="https://soundcloud.com/plantbassddjs/sets/dance-mixes" />
-
-					<h3 name="news" className={`header ${styles.mobileHead}`}>
-						Club Ready Mixes
-					</h3>
-
-					<Row className="g-3">
+					<Row className="g-3 pb-4">
 						{downMixes.map((card) => (
 							<CardExternal key={card.key} card={card} />
 						))}
 					</Row>
 
-					<SoundcloudButton link="https://soundcloud.com/plantbassddjs/sets/club-mixes" />
+					<Link href="https://soundcloud.com/plantbassddjs/tracks">
+						<a className="anchor">
+							<h3
+								name="news"
+								className={`header ${styles.mobileHead}`}
+							>
+								More Mixes
+							</h3>
+						</a>
+					</Link>
+
+					<Row className="g-3">
+						{otherMixes.map((card) => (
+							<CardExternal key={card.key} card={card} />
+						))}
+					</Row>
 
 					<GoBack />
 				</Container>

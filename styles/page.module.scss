@@ -45,6 +45,11 @@
 	@extend .divBackground;
 }
 
+.mixBG {
+	background-color: var(--lavender);
+	@extend .divBackground;
+}
+
 .takeoverBG {
 	background-color: var(--pink);
 	min-height: 100vh;

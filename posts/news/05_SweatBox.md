@@ -4,7 +4,7 @@ date: "November 10, 2021"
 pic: "/news/05_SweatBox.jpg"
 tickets: "https://ra.co/events/1480079"
 postLink: "https://www.instagram.com/p/CWGqB_RlnNu/"
-bio: "We are back with another SweatBox party!..."
+bio: "We are back with another SweatBox party! This time across the road to @bongoclub.edinburgh..."
 ---
 
 ### We are back with another SweatBox party! This time across the road to @bongoclub.edinburgh.

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { AiFillHome, AiOutlineClose, AiOutlineLink } from "react-icons/ai";
 import { BiRadio } from "react-icons/bi";
 import { FaBars, FaSpotify } from "react-icons/fa";
@@ -41,8 +41,22 @@ export default function Sidebar() {
 		setSidebar(false);
 	};
 
+	let navMenu = useRef();
+	useEffect(() => {
+		let handler = (event) => {
+			if (!navMenu.current.contains(event.target)) {
+				closeSidebar();
+			}
+		};
+		document.addEventListener("mousedown", handler);
+
+		return () => {
+			document.removeEventListener("mousedown", handler);
+		};
+	});
+
 	return (
-		<>
+		<div ref={navMenu}>
 			<header className={sidebar ? styles.extendHeader : styles.header}>
 				<div>
 					{sidebar ? (
@@ -121,6 +135,6 @@ export default function Sidebar() {
 					</div>
 				</nav>
 			</div>
-		</>
+		</div>
 	);
 }

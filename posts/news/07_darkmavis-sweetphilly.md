@@ -4,7 +4,7 @@ date: "November 29, 2021"
 pic: "/news/07_darkmavis-sweetphilly.jpg"
 bandcamp: "https://euphore.bandcamp.com/releases"
 postLink: "https://www.instagram.com/p/CW3cp-xNWGy/"
-bio: "A club EP full of pink and sparkly bangers..."
+bio: "A club EP full of pink and sparkly bangers has just dropped..."
 ---
 
 ### @darkpmavis & @phillyholmes\_ have just dropped a club EP full of pink and sparkly bangers for you all!
