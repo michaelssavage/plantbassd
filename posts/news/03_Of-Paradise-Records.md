@@ -4,7 +4,7 @@ date: "October 18, 2021"
 pic: "/news/03_Of-Paradise-Records.jpg"
 bandcamp: "https://ofparadise.bandcamp.com/album/of-paradise-vol-4"
 postLink: "https://www.instagram.com/p/CVLBxqOjJih/"
-bio: "To celebrate 5 years of releases, Of Paradise return..."
+bio: "To celebrate 5 years of releases, Of Paradise return with the 4th installment of their V/A series..."
 ---
 
 ### To celebrate 5 years of releases, Of Paradise return with the 4th installment of their V/A series, featuring efforts from the likes of @oallhates, @iazarus, and @strattontrax.

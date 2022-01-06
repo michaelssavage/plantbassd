@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
@@ -31,63 +32,69 @@ export const CardExternal = ({ card }) => {
 };
 
 export const CardNoText = ({ post, link }) => {
-	const router = useRouter();
 	return (
-		<Col onClick={() => router.push(link)} xl={3} lg={6} md={6} xs={6}>
-			<div className={`card ${styles.cardStyle}`}>
-				<Image
-					className="card-img-top"
-					src={post.frontmatter.pic}
-					alt={post.frontmatter.title}
-					width={500}
-					height={500}
-				/>
-			</div>
+		<Col xl={3} lg={6} md={6} xs={6}>
+			<Link href={link}>
+				<a className="anchorColor">
+					<div className={`card ${styles.cardStyle}`}>
+						<Image
+							className="card-img-top"
+							src={post.frontmatter.pic}
+							alt={post.frontmatter.title}
+							width={500}
+							height={500}
+						/>
+					</div>
+				</a>
+			</Link>
 		</Col>
 	);
 };
 
 export const CardWithText = ({ post, link }) => {
-	const router = useRouter();
 	return (
-		<Col
-			onClick={() => router.push(link)}
-			className={styles.cardSpacing}
-			lg={3}
-			md={6}
-			sm={6}
-			xs={6}
-		>
-			<div className={`card ${styles.cardStyle}`}>
-				<Image
-					className="card-img-top"
-					src={post.frontmatter.pic}
-					alt={post.frontmatter.title}
-					width={500}
-					height={500}
-				/>
-				<div className={`${styles.cardBody} card-body`}>
-					<p className={styles.cardDate}>{post.frontmatter.date}</p>
-					<p className={styles.cardTitle}>{post.frontmatter.bio}</p>
-				</div>
-			</div>
+		<Col className={styles.cardSpacing} lg={3} md={6} sm={6} xs={6}>
+			<Link href={link}>
+				<a className="anchorColor">
+					<div className={`card ${styles.cardStyle}`}>
+						<Image
+							className="card-img-top"
+							src={post.frontmatter.pic}
+							alt={post.frontmatter.title}
+							width={500}
+							height={500}
+						/>
+						<div className={`${styles.cardBody} card-body`}>
+							<p className={styles.cardDate}>
+								{post.frontmatter.date}
+							</p>
+							<p className={styles.cardTitle}>
+								{post.frontmatter.bio}
+							</p>
+						</div>
+					</div>
+				</a>
+			</Link>
 		</Col>
 	);
 };
 
 export const CardTopTen = ({ post, link }) => {
-	const router = useRouter();
 	return (
-		<Col onClick={() => router.push(link)} xl={4} lg={4} md={12} xs={12}>
-			<div className={`card ${styles.cardStyle}`}>
-				<Image
-					className="card-img-top"
-					src={post.frontmatter.pic}
-					alt={post.frontmatter.title}
-					width={500}
-					height={500}
-				/>
-			</div>
+		<Col xl={4} lg={4} md={12} xs={12}>
+			<Link href={link}>
+				<a className="anchorColor">
+					<div className={`card ${styles.cardStyle}`}>
+						<Image
+							className="card-img-top"
+							src={post.frontmatter.pic}
+							alt={post.frontmatter.title}
+							width={500}
+							height={500}
+						/>
+					</div>
+				</a>
+			</Link>
 		</Col>
 	);
 };
@@ -115,22 +122,25 @@ export const CardWithButtons = ({ pic, title, artist, page, insta, link }) => {
 						</button>
 					</Col>
 					<Col className={news.button}>
-						<a
-							role="button"
-							className={`${news.hoverLink} text-nowrap btn btn-outline-dark btn-lg`}
-							href={page}
-						>
-							{artist}
-						</a>
+						<Link href={page}>
+							<a
+								role="button"
+								className={`${news.hoverLink} text-nowrap btn btn-outline-dark btn-lg`}
+							>
+								{artist}
+							</a>
+						</Link>
 					</Col>
 					<Col className={news.button}>
-						<a
-							role="button"
-							className={`${news.hoverLink} text-nowrap btn btn-outline-dark btn-lg`}
-							href={link}
-						>
-							{insta}
-						</a>
+						<Link href={page}>
+							<a
+								role="button"
+								className={`${news.hoverLink} text-nowrap btn btn-outline-dark btn-lg`}
+								href={link}
+							>
+								{insta}
+							</a>
+						</Link>
 					</Col>
 				</Row>
 			</div>

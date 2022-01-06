@@ -4,7 +4,7 @@ date: "November 11, 2021"
 pic: "/news/06_Pixl.jpg"
 bandcamp: "https://pixljs.bandcamp.com/album/outer-reaches"
 postLink: "https://www.instagram.com/p/CWJg8s_sKwn/"
-bio: "We recently spoke to Leeds based jungle producer @pixljs..."
+bio: "We recently spoke to Leeds based jungle producer @pixljs about his new EP released on @loveloverecords..."
 ---
 
 ### We recently spoke to Leeds based jungle producer @pixljs about his new EP released on @loveloverecords.
