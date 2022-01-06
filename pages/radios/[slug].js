@@ -87,7 +87,6 @@ export async function getStaticProps({ params: { slug } }) {
 	return {
 		props: {
 			frontmatter,
-			slug,
 			content,
 		},
 	};

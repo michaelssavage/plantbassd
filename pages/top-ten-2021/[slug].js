@@ -9,7 +9,7 @@ import Footer from "../../components/Footer";
 import { GoBack } from "../../components/Utilities";
 import styles from "../../styles/slug.module.scss";
 
-export default function PostPage({ frontmatter: { title, date }, content }) {
+export default function PostPage({ frontmatter: { title }, content }) {
 	return (
 		<>
 			<div className={styles.newsSection}>
@@ -60,7 +60,6 @@ export async function getStaticProps({ params: { slug } }) {
 	return {
 		props: {
 			frontmatter,
-			slug,
 			content,
 		},
 	};

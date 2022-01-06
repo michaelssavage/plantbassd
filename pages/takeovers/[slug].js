@@ -11,7 +11,6 @@ import styles from "../../styles/slug.module.scss";
 
 export default function PostPage({
 	frontmatter: { title, date, pic, artistPage, postLink },
-	slug,
 	content,
 }) {
 	return (
@@ -79,7 +78,6 @@ export async function getStaticProps({ params: { slug } }) {
 	return {
 		props: {
 			frontmatter,
-			slug,
 			content,
 		},
 	};
