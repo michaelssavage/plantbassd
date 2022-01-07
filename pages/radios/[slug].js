@@ -1,3 +1,5 @@
+import { CardWithButtons } from "components/Card";
+import Footer from "components/Footer";
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
@@ -5,9 +7,6 @@ import Image from "next/image";
 import path from "path";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
-
-import { CardWithButtons } from "components/Card";
-import Footer from "components/Footer";
 import styles from "styles/slug.module.scss";
 
 export default function PostPage({

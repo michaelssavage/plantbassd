@@ -1,12 +1,11 @@
+import { CardNoText } from "components/Card";
+import Footer from "components/Footer";
+import { GoBack, sortByDate, SpotifyButton } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-
-import { CardNoText } from "components/Card";
-import Footer from "components/Footer";
-import { GoBack, sortByDate, SpotifyButton } from "components/Utilities";
 import styles from "styles/page.module.scss";
 
 export default function TakeoverPage({ takeovers }) {

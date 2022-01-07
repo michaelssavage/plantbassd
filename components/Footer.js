@@ -71,7 +71,7 @@ export default function FooterComponent() {
 										link="/contact-us"
 										title="About"
 									/>
-									<FootLink link="/#mixes" title="Mixes" />
+									<FootLink link="/mixes" title="Mixes" />
 									<FootLink
 										link="/news"
 										title="Fresh Juice"

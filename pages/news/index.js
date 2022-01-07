@@ -1,12 +1,11 @@
+import { CardWithText } from "components/Card";
+import Footer from "components/Footer";
+import { GoBack, InstagramButton,sortByDate } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-
-import { CardWithText } from "components/Card";
-import Footer from "components/Footer";
-import { GoBack, sortByDate, InstagramButton } from "components/Utilities";
 import styles from "styles/page.module.scss";
 
 export default function NewsPage({ news }) {

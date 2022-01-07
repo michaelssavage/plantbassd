@@ -4,8 +4,8 @@ import { useRouter } from "next/router";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { RiSoundcloudLine } from "react-icons/ri";
-
 import news from "styles/slug.module.scss";
+
 import styles from "@/styles/card.module.scss";
 
 export const CardExternal = ({ card }) => {

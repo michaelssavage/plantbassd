@@ -2,10 +2,9 @@ import "../styles/styles.global.scss";
 import "../styles/colors.css";
 import "bootstrap/dist/css/bootstrap.css";
 
+import Sidebar from "components/Sidebar";
 import Head from "next/head";
 import React from "react";
-
-import Sidebar from "components/Sidebar";
 
 export default function MyApp({ Component, pageProps }) {
 	return (

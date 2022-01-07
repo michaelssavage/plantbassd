@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 import React from "react";
-import { FaSoundcloud, FaSpotify, FaInstagram } from "react-icons/fa";
-
+import { FaInstagram,FaSoundcloud, FaSpotify } from "react-icons/fa";
 import styles from "styles/page.module.scss";
 
 export const GoBack = () => {

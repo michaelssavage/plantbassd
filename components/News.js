@@ -1,8 +1,8 @@
+import { CardWithText } from "components/Card";
 import { useRouter } from "next/router";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-import { CardWithText } from "components/Card";
 import styles from "@/styles/news.module.scss";
 
 export default function News({ news }) {
@@ -64,7 +64,7 @@ export default function News({ news }) {
 								}
 								className={`list-group-item flex-fill ${styles.cardList}`}
 							>
-								{story.frontmatter.date} //{" "}
+								{story.frontmatter.date} {"// "}
 								{story.frontmatter.title}
 							</Col>
 						))}

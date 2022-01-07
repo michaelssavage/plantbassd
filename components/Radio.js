@@ -1,8 +1,8 @@
+import { CardNoText } from "components/Card";
 import { useRouter } from "next/router";
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 
-import { CardNoText } from "components/Card";
 import styles from "@/styles/components.module.scss";
 
 export default function Radio({ radios }) {

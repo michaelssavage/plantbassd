@@ -1,12 +1,11 @@
+import Footer from "components/Footer";
+import { GoBack } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
 import path from "path";
 import React from "react";
 import { Col, Container } from "react-bootstrap";
-
-import Footer from "components/Footer";
-import { GoBack } from "components/Utilities";
 import styles from "styles/slug.module.scss";
 
 export default function PostPage({ frontmatter: { title }, content }) {
