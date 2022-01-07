@@ -11,8 +11,7 @@ import {
 	AiOutlineMail,
 } from "react-icons/ai";
 import { RiSoundcloudLine, RiSpotifyLine } from "react-icons/ri";
-
-import styles from "../../styles/links.module.scss";
+import styles from "styles/links.module.scss";
 
 export default function Links({ links }) {
 	return (

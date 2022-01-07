@@ -1,35 +1,41 @@
+import { CardNoText } from "components/Card";
+import Footer from "components/Footer";
+import { GoBack, sortByDate, SoundcloudButton } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 import React from "react";
-import { Container } from "react-bootstrap";
-import { FaSoundcloud } from "react-icons/fa";
-
-import Footer from "../../components/Footer";
-import { Content, GoBack, sortByDate } from "../../components/Utilities";
-import styles from "../../styles/page.module.scss";
+import { Container, Row } from "react-bootstrap";
+import styles from "styles/page.module.scss";
 
 export default function RadioPage({ radios }) {
 	return (
 		<>
 			<div className={styles.radioBG}>
 				<Container>
-					<Content
-						title="Plant Bass'd Radio"
-						description="Guest mixes from homegrown and international artists.
-						Check them out here:"
-						button={
-							<button
-								type="button"
-								href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
-								className={`${styles.soundcloud} text-nowrap btn btn-outline-dark btn-lg`}
-							>
-								<FaSoundcloud /> Plant Bass'd Radio
-							</button>
-						}
-						cards={radios}
-						route="radios"
-					/>
+					<h1 className={`globalHeader ${styles.bHeader}`}>
+						Plant Bass'd Radio
+					</h1>
+
+					<p className={styles.bTexter}>
+						Guest mixes from homegrown and international artists.
+						Check them out here:
+					</p>
+					<p className={styles.bTexter}>
+						<SoundcloudButton
+							link="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
+							title="Plant Bass'd Radio"
+						/>
+					</p>
+					<Row className="g-3">
+						{radios.map((radio) => (
+							<CardNoText
+								key={radio.frontmatter.title}
+								post={radio}
+								link={`/radios/${radio.slug}`}
+							/>
+						))}
+					</Row>
 
 					<GoBack />
 				</Container>

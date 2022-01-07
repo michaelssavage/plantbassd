@@ -1,9 +1,9 @@
+import { CardWithText } from "components/Card";
 import { useRouter } from "next/router";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-import { CardWithText } from "./Card";
-import styles from "./styles/news.module.scss";
+import styles from "@/styles/news.module.scss";
 
 export default function News({ news }) {
 	const router = useRouter();
@@ -64,12 +64,12 @@ export default function News({ news }) {
 								}
 								className={`list-group-item flex-fill ${styles.cardList}`}
 							>
-								{story.frontmatter.date} -{" "}
+								{story.frontmatter.date} {"// "}
 								{story.frontmatter.title}
 							</Col>
 						))}
 					</Row>
-					<div className={styles.button}>
+					<div className="globalBottomBtn">
 						<button
 							type="button"
 							className="btn btn-outline-dark btn-lg"

@@ -1,14 +1,12 @@
+import { CardExternal } from "components/Card";
+import Footer from "components/Footer";
+import { GoBack, SoundcloudButton } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
-import Link from "next/link";
 import path from "path";
 import React from "react";
 import { Container, Row } from "react-bootstrap";
-
-import { CardExternal } from "../../components/Card";
-import Footer from "../../components/Footer";
-import { GoBack } from "../../components/Utilities";
-import styles from "../../styles/page.module.scss";
+import styles from "styles/page.module.scss";
 
 export default function MixesPage({ mixes }) {
 	const clubMixes = mixes.slice(0, 4);
@@ -20,49 +18,41 @@ export default function MixesPage({ mixes }) {
 				<Container>
 					<h1 className={styles.bHeader}>Plant Bass'd Mixes</h1>
 
-					<Link href="https://soundcloud.com/plantbassddjs/sets/club-mixes">
-						<a className="anchor">
-							<h3
-								name="news"
-								className={`header ${styles.mobileHead}`}
-							>
-								Club Ready Mixes
-							</h3>
-						</a>
-					</Link>
+					<p className={styles.bTexter}>
+						Check out some mixes we've put together for ITSNOTRADIO,
+						Set Radio, and some guest mixes:
+					</p>
+
+					<p className={styles.bTexter}>
+						<SoundcloudButton
+							link="https://soundcloud.com/plantbassddjs/sets/club-mixes"
+							title="Club Ready Mixes"
+						/>
+					</p>
 
 					<Row className="g-3 pb-4">
 						{clubMixes.map((card) => (
 							<CardExternal key={card.key} card={card} />
 						))}
 					</Row>
-					<Link href="https://soundcloud.com/plantbassddjs/sets/dance-mixes">
-						<a className="anchor">
-							<h3
-								name="news"
-								className={`header ${styles.mobileHead}`}
-							>
-								Downtempo Mixes
-							</h3>
-						</a>
-					</Link>
+					<p className={styles.bTexter}>
+						<SoundcloudButton
+							link="https://soundcloud.com/plantbassddjs/sets/dance-mixes"
+							title="Downtempo Mixes"
+						/>
+					</p>
 
 					<Row className="g-3 pb-4">
 						{downMixes.map((card) => (
 							<CardExternal key={card.key} card={card} />
 						))}
 					</Row>
-
-					<Link href="https://soundcloud.com/plantbassddjs/tracks">
-						<a className="anchor">
-							<h3
-								name="news"
-								className={`header ${styles.mobileHead}`}
-							>
-								More Mixes
-							</h3>
-						</a>
-					</Link>
+					<p className={styles.bTexter}>
+						<SoundcloudButton
+							link="https://soundcloud.com/plantbassddjs/tracks"
+							title="More Mixes"
+						/>
+					</p>
 
 					<Row className="g-3">
 						{otherMixes.map((card) => (

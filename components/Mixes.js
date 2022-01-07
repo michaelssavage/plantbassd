@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-import styles from "./styles/mixes.module.scss";
+import styles from "@/styles/mixes.module.scss";
 
 export default function ArtistCard() {
 	const router = useRouter();
@@ -48,7 +48,7 @@ export default function ArtistCard() {
 								include House, Disco, and Groovy numbers. Find
 								these on SET RADIO and our Soundcloud page.
 							</p>
-							<div className={styles.clubButton}>
+							<div>
 								<button
 									type="button"
 									className={`${styles.hoverBtn} btn btn-outline-dark btn-lg`}

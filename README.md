@@ -15,6 +15,7 @@ Party Throwers and electronic music blog based in Edinburgh and Dublin. Sharing 
 -   Markdown posts controlled by matter.
 -   Packages managed with Yarn.
 -   Deployed to Vercel.
+-   Some graphics made in Adobe Photoshop and Adobe Illustrator. [Images here.](https://github.com/michaelssavage/plantbassd-graphics)
 
 ## Get In Contact
 

@@ -8,7 +8,7 @@ import { ImNewspaper } from "react-icons/im";
 import { MdContacts } from "react-icons/md";
 import { RiSoundcloudLine } from "react-icons/ri";
 
-import styles from "./styles/sidebar.module.scss";
+import styles from "@/styles/sidebar.module.scss";
 
 function Listing({ link, icon, title, onClick }) {
 	const router = useRouter();

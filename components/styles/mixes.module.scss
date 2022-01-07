@@ -1,4 +1,4 @@
-@import "../../styles/breakpoints";
+@import "styles/breakpoints";
 
 .mixSection {
 	background-color: var(--lavender);
@@ -19,10 +19,6 @@
 
 .clubDescriptor {
 	padding-left: 2rem;
-}
-
-.clubButton {
-	text-align: left;
 }
 
 // @include breakpoint-below(sm) {

@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-import styles from "./styles/footer.module.scss";
+import styles from "@/styles/footer.module.scss";
 
 const FootLink = ({ link, title }) => {
 	return (
@@ -71,7 +71,7 @@ export default function FooterComponent() {
 										link="/contact-us"
 										title="About"
 									/>
-									<FootLink link="/#mixes" title="Mixes" />
+									<FootLink link="/mixes" title="Mixes" />
 									<FootLink
 										link="/news"
 										title="Fresh Juice"
