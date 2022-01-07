@@ -5,10 +5,10 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 
-import { CardTopTen } from "../../components/Card";
-import Footer from "../../components/Footer";
-import { GoBack } from "../../components/Utilities";
-import styles from "../../styles/page.module.scss";
+import { CardTopTen } from "components/Card";
+import Footer from "components/Footer";
+import { GoBack } from "components/Utilities";
+import styles from "styles/page.module.scss";
 
 export default function TopTen({ topTenReleases }) {
 	return (

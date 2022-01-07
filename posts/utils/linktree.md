@@ -1,9 +1,9 @@
 ---
 links:
+  - title: "FRESH JUICE: Oldboy - GRIMEY ONES PART II"
+    link: "https://www.plantbassd.com/news/14_oldboy"
   - title: "Plant Bass'd: Top 10 Dance Releases of 2021"
     link: "https://www.plantbassd.com/top-ten-2021"
-  - title: "SweatBox: Mistletoe & Grind - Tickets"
-    link: "https://ra.co/events/1485121"
   - title: "FRESH JUICE: DJ GODFATHER X DJ MELL G - 'COPS CAN'T DANCE'"
     link: "https://www.plantbassd.com/news/9_mell-g"
   - title: "Plant Bass'd Radio: Saz Powerhouse Mix"

@@ -3,9 +3,9 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 
-import ContactForm from "../../components/ContactForm";
-import Footer from "../../components/Footer";
-import styles from "../../styles/contact.module.scss";
+import ContactForm from "components/ContactForm";
+import Footer from "components/Footer";
+import styles from "styles/contact.module.scss";
 
 export default function ContactPage() {
 	return (

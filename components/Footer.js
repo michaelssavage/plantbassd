@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-import styles from "./styles/footer.module.scss";
+import styles from "@/styles/footer.module.scss";
 
 const FootLink = ({ link, title }) => {
 	return (

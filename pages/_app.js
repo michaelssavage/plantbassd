@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import Head from "next/head";
 import React from "react";
 
-import Sidebar from "../components/Sidebar";
+import Sidebar from "components/Sidebar";
 
 export default function MyApp({ Component, pageProps }) {
 	return (

@@ -4,10 +4,10 @@ import path from "path";
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 
-import { CardWithText } from "../../components/Card";
-import Footer from "../../components/Footer";
-import { GoBack, sortByDate } from "../../components/Utilities";
-import styles from "../../styles/page.module.scss";
+import { CardWithText } from "components/Card";
+import Footer from "components/Footer";
+import { GoBack, sortByDate, InstagramButton } from "components/Utilities";
+import styles from "styles/page.module.scss";
 
 export default function NewsPage({ news }) {
 	return (
@@ -19,6 +19,12 @@ export default function NewsPage({ news }) {
 					<p className={styles.bTexter}>
 						News about Fresh Juice, Gigs, and all things Plant
 						Bass'd.
+					</p>
+					<p className={styles.bTexter}>
+						<InstagramButton
+							link="http://instagra.com/plantbassddjs"
+							title=" Plant Bass'd"
+						/>
 					</p>
 
 					<Row className="g-3">

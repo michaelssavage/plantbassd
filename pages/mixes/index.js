@@ -1,14 +1,13 @@
 import fs from "fs";
 import matter from "gray-matter";
-import Link from "next/link";
 import path from "path";
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 
-import { CardExternal } from "../../components/Card";
-import Footer from "../../components/Footer";
-import { GoBack, SoundcloudButton } from "../../components/Utilities";
-import styles from "../../styles/page.module.scss";
+import { CardExternal } from "components/Card";
+import Footer from "components/Footer";
+import { GoBack, SoundcloudButton } from "components/Utilities";
+import styles from "styles/page.module.scss";
 
 export default function MixesPage({ mixes }) {
 	const clubMixes = mixes.slice(0, 4);

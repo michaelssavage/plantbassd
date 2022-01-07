@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = {
 	reactStrictMode: true,
 	webpack(config) {
@@ -7,5 +9,8 @@ module.exports = {
 		});
 
 		return config;
+	},
+	sassOptions: {
+		includePaths: [path.join(__dirname, "styles")],
 	},
 };

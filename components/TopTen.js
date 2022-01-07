@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import React from "react";
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 
-import styles from "./styles/topTen.module.scss";
+import styles from "@/styles/topTen.module.scss";
 
 export default function TopTen() {
 	const router = useRouter();
