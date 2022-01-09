@@ -55,21 +55,17 @@ export default function NewsPage({ news }) {
 			removeTag(tag);
 		}
 		updateTagList(tag);
-
-		// console.log(tags);
-		// console.log(tagList);
 	};
 
 	useEffect(() => {
-		// console.log(tags);
 		if (tags.length === 0) {
 			setNewsStories(news);
 		} else {
-			const updated = news.filter((story) => story.tags == "reviews");
-			console.log(updated);
-			// setNewsStories(news.filter((story) => story.tags === "reviews"));
+			setNewsStories(
+				news.filter((story) => tags.includes(story.frontmatter.tags))
+			);
 		}
-	}, [tags]);
+	}, [tags]); // eslint-disable-line react-hooks/exhaustive-deps
 
 	return (
 		<>
