@@ -1,14 +1,76 @@
 import { CardWithText } from "components/Card";
 import Footer from "components/Footer";
-import { GoBack, InstagramButton,sortByDate } from "components/Utilities";
+import { GoBack, sortByDate } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Container, Row } from "react-bootstrap";
+import { AiOutlineCloseCircle } from "react-icons/ai";
 import styles from "styles/page.module.scss";
 
+const TagButton = ({ tag, handleTags }) => {
+	return (
+		<button
+			type="button"
+			className={`btn btn-outline-dark ${tag.value ? "active" : ""}`}
+			onClick={() => handleTags(tag)}
+		>
+			{tag.name} {tag.value ? <AiOutlineCloseCircle /> : null}
+		</button>
+	);
+};
+
 export default function NewsPage({ news }) {
+	const [tags, setTags] = useState([]);
+	const [newsStories, setNewsStories] = useState([]);
+
+	const [tagList, setTagList] = useState([
+		{ name: "gigs", value: false },
+		{ name: "fresh juice", value: false },
+		{ name: "reviews", value: false },
+	]);
+
+	const addTag = (tag) => {
+		setTags([...tags, tag.name]);
+	};
+
+	const removeTag = (tag) => {
+		const newTags = tags.filter((t) => t !== tag.name);
+		setTags(newTags);
+	};
+
+	const updateTagList = (tag) => {
+		const idx = tagList.findIndex((e) => e === tag);
+		let newTagList = [...tagList];
+		newTagList[idx].value = !tag.value;
+		setTagList(newTagList);
+	};
+
+	const handleTags = (tag) => {
+		// onClick, either add or remove tags to the array.
+		if (!tag.value) {
+			addTag(tag);
+		} else {
+			removeTag(tag);
+		}
+		updateTagList(tag);
+
+		// console.log(tags);
+		// console.log(tagList);
+	};
+
+	useEffect(() => {
+		// console.log(tags);
+		if (tags.length === 0) {
+			setNewsStories(news);
+		} else {
+			const updated = news.filter((story) => story.tags == "reviews");
+			console.log(updated);
+			// setNewsStories(news.filter((story) => story.tags === "reviews"));
+		}
+	}, [tags]);
+
 	return (
 		<>
 			<div className={styles.newsBG}>
@@ -17,17 +79,31 @@ export default function NewsPage({ news }) {
 
 					<p className={styles.bTexter}>
 						News about Fresh Juice, Gigs, and all things Plant
-						Bass'd.
-					</p>
-					<p className={styles.bTexter}>
-						<InstagramButton
-							link="http://instagra.com/plantbassddjs"
-							title=" Plant Bass'd"
-						/>
+						Bass'd. Keep up to date on our Instagram,{" "}
+						<a
+							className="blackAnchor"
+							href="http://instagra.com/plantbassddjs"
+						>
+							@plantbassddjs
+						</a>
+						.
 					</p>
 
+					<div className={styles.btnGroup} role="group">
+						<div>Tags:</div>
+
+						{tagList &&
+							tagList.map((tag, index) => (
+								<TagButton
+									key={`${index}_${tag.name}`}
+									tag={tag}
+									handleTags={handleTags}
+								/>
+							))}
+					</div>
+
 					<Row className="g-3">
-						{news.map((story) => (
+						{newsStories.map((story) => (
 							<CardWithText
 								key={story.frontmatter.title}
 								post={story}
