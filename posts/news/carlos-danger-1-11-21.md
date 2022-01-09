@@ -1,6 +1,7 @@
 ---
 title: "FRESH JUICE: Carlos Danger - Carlos Danger’s Summer Sound"
 date: "November 1, 2021"
+tags: "fresh juice"
 pic: "/news/04_Carlos-Danger.jpg"
 bandcamp: "https://rory2.bandcamp.com/album/carlos-dangers-summer-sound"
 postLink: "https://www.instagram.com/p/CVv58lwszNl/"

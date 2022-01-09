@@ -1,6 +1,7 @@
 ---
 title: "FRESH JUICE: GRIMEY ONES PART II by Oldboy"
 date: "January 7, 2022"
+tags: "fresh juice"
 pic: "/news/14_oldboy-grimey-ones.jpg"
 bandcamp: "https://oldboytrax.bandcamp.com/album/grimey-ones-part-ii"
 postLink: "https://www.instagram.com/plantbassddjs"

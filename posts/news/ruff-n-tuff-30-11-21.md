@@ -1,6 +1,7 @@
 ---
 title: "Plant Bass'd Ruff 'N' Tuff"
 date: "November 30, 2021"
+tags: "gigs"
 pic: "/news/08_ruff-n-tuff.jpg"
 tickets: "https://ra.co/events/1484531"
 postLink: "https://www.instagram.com/p/CW6gObttV-k/"
