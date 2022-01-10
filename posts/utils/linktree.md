@@ -1,5 +1,7 @@
 ---
 links:
+  - title: "FRESH JUICE: Third Degree - 'HAZMAT Compilation'"
+    link:  "https://www.plantbassd.com/news/third-degree-10-1-22"
   - title: "FRESH JUICE: Oldboy - GRIMEY ONES PART II"
     link: "https://www.plantbassd.com/news/14_oldboy"
   - title: "Plant Bass'd: Top 10 Dance Releases of 2021"
