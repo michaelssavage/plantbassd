@@ -4,7 +4,7 @@ date: "January 10, 2022"
 tags: "fresh juice"
 pic: "/news/12_third-degree.jpg"
 bandcamp: "https://thirddegreerecords.bandcamp.com/album/hazmat-compilation-hazardous-materials-vol-001"
-postLink: "https://www.instagram.com/plantbassddjs"
+postLink: "https://www.instagram.com/p/CYjXaznNwDz/"
 bio: "Next up under the Plant Bass’d microscope is a riveting compilation from Australian label, Third Degree Records...."
 ---
 
