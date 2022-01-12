@@ -25,6 +25,7 @@ export default function MixesPage({ mixes }) {
 
 					<p className={styles.bTexter}>
 						<SoundcloudButton
+							style={styles.soundcloud}
 							link="https://soundcloud.com/plantbassddjs/sets/club-mixes"
 							title="Club Ready Mixes"
 						/>
@@ -37,6 +38,7 @@ export default function MixesPage({ mixes }) {
 					</Row>
 					<p className={styles.bTexter}>
 						<SoundcloudButton
+							style={styles.soundcloud}
 							link="https://soundcloud.com/plantbassddjs/sets/dance-mixes"
 							title="Downtempo Mixes"
 						/>
@@ -49,6 +51,7 @@ export default function MixesPage({ mixes }) {
 					</Row>
 					<p className={styles.bTexter}>
 						<SoundcloudButton
+							style={styles.soundcloud}
 							link="https://soundcloud.com/plantbassddjs/tracks"
 							title="More Mixes"
 						/>

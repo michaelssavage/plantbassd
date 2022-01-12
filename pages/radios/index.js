@@ -23,6 +23,7 @@ export default function RadioPage({ radios }) {
 					</p>
 					<p className={styles.bTexter}>
 						<SoundcloudButton
+							style={styles.soundcloud}
 							link="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
 							title="Plant Bass'd Radio"
 						/>

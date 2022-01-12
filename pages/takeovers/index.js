@@ -23,6 +23,7 @@ export default function TakeoverPage({ takeovers }) {
 					</p>
 					<p className={styles.bTexter}>
 						<SpotifyButton
+							style={styles.spotify}
 							link="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
 							title="Plant Bass'd Picks"
 						/>

@@ -1,12 +1,16 @@
 import ContactForm from "components/ContactForm";
 import Footer from "components/Footer";
+import { SocialIcon } from "components/Utilities";
+import fs from "fs";
+import matter from "gray-matter";
 import Image from "next/image";
+import path from "path";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 import styles from "styles/contact.module.scss";
 
-export default function ContactPage() {
+export default function ContactPage({ icons }) {
 	return (
 		<>
 			<ParallaxProvider>
@@ -32,6 +36,7 @@ export default function ContactPage() {
 							music tastes together to form an inclusive
 							collective.
 						</p>
+
 						<p>
 							Site by{" "}
 							<a
@@ -41,6 +46,18 @@ export default function ContactPage() {
 								Michael.
 							</a>
 						</p>
+
+						<Row>
+							{icons.map((item) => (
+								<SocialIcon
+									key={item.link}
+									styleContainer={styles.iconContainer}
+									styleIcon={styles.socialIcon}
+									link={item.link}
+									icon={item.icon}
+								/>
+							))}
+						</Row>
 					</Col>
 					<Col lg={6} md={12} className={styles.imgHolder}>
 						<Image
@@ -63,4 +80,18 @@ export default function ContactPage() {
 			<Footer />
 		</>
 	);
+}
+
+export async function getStaticProps() {
+	const iconMarkdown = fs.readFileSync(
+		path.join("posts/utils/icons.md"),
+		"utf-8"
+	);
+	const { data: iconmatter } = matter(iconMarkdown);
+
+	return {
+		props: {
+			icons: iconmatter.icons,
+		},
+	};
 }

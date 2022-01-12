@@ -86,7 +86,7 @@ export default function NewsPage({ news }) {
 					</p>
 
 					<div className={styles.btnGroup} role="group">
-						<div>Tags:</div>
+						<div>Filters:</div>
 
 						{tagList &&
 							tagList.map((tag, index) => (
