@@ -1,7 +1,13 @@
+import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
-import { FaInstagram, FaSoundcloud, FaSpotify } from "react-icons/fa";
-import styles from "styles/page.module.scss";
+import { Col } from "react-bootstrap";
+import {
+	AiOutlineFacebook,
+	AiOutlineInstagram,
+	AiOutlineMail,
+} from "react-icons/ai";
+import { RiSoundcloudLine, RiSpotifyLine } from "react-icons/ri";
 
 export const GoBack = () => {
 	const router = useRouter();
@@ -22,26 +28,57 @@ export const sortByDate = (a, b) => {
 	return new Date(a.frontmatter.date) - new Date(b.frontmatter.date);
 };
 
-export const SoundcloudButton = ({ link, title }) => {
+export const SoundcloudButton = ({ style, link, title }) => {
 	return (
 		<a
 			role="button"
-			className={`${styles.soundcloud} text-nowrap btn btn-dark btn-lg`}
+			className={`${style} text-nowrap btn btn-dark btn-lg`}
 			href={link}
 		>
-			<FaSoundcloud /> {title}
+			<RiSoundcloudLine /> {title}
 		</a>
 	);
 };
 
-export const SpotifyButton = ({ link, title }) => {
+export const SpotifyButton = ({ style, link, title }) => {
 	return (
 		<a
 			role="button"
-			className={`${styles.spotify} text-nowrap btn btn-dark btn-lg`}
+			className={`${style} text-nowrap btn btn-dark btn-lg`}
 			href={link}
 		>
-			<FaSpotify /> {title}
+			<RiSpotifyLine /> {title}
 		</a>
+	);
+};
+
+export const SocialIcon = ({ styleContainer, styleIcon, link, icon }) => {
+	return (
+		<Col className={styleContainer}>
+			<Link href={link}>
+				<a>
+					{(() => {
+						switch (icon) {
+							case "facebook":
+								return (
+									<AiOutlineFacebook className={styleIcon} />
+								);
+							case "instagram":
+								return (
+									<AiOutlineInstagram className={styleIcon} />
+								);
+							case "email":
+								return <AiOutlineMail className={styleIcon} />;
+							case "spotify":
+								return <RiSpotifyLine className={styleIcon} />;
+							default:
+								return (
+									<RiSoundcloudLine className={styleIcon} />
+								);
+						}
+					})()}
+				</a>
+			</Link>
+		</Col>
 	);
 };

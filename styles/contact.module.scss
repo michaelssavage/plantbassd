@@ -10,3 +10,19 @@
 	align-items: center;
 	padding: 1rem 0;
 }
+
+.iconContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.socialIcon {
+	height: 3rem;
+	width: 3rem;
+	margin: 1rem 0;
+	fill: var(--headerBlack);
+	&:hover {
+		transform: scale(1.1);
+		filter: drop-shadow(0px 6px 6px var(--dropShadow));
+	}
+}

@@ -1,19 +1,13 @@
+import { SocialIcon } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
 import Image from "next/image";
-import Link from "next/link";
 import path from "path";
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import {
-	AiOutlineFacebook,
-	AiOutlineInstagram,
-	AiOutlineMail,
-} from "react-icons/ai";
-import { RiSoundcloudLine, RiSpotifyLine } from "react-icons/ri";
+import { Container, Row } from "react-bootstrap";
 import styles from "styles/links.module.scss";
 
-export default function Links({ links }) {
+export default function Links({ links, icons }) {
 	return (
 		<>
 			<div className={styles.linkPage}>
@@ -31,51 +25,15 @@ export default function Links({ links }) {
 					</Row>
 
 					<Row>
-						<Col className={styles.iconContainer}>
-							<Link href="https://www.facebook.com/plantbassddjs">
-								<a>
-									<AiOutlineFacebook
-										className={styles.socialIcon}
-									/>
-								</a>
-							</Link>
-						</Col>
-						<Col className={styles.iconContainer}>
-							<Link href="https://www.instagram.com/plantbassddjs/">
-								<a>
-									<AiOutlineInstagram
-										className={styles.socialIcon}
-									/>
-								</a>
-							</Link>
-						</Col>
-						<Col className={styles.iconContainer}>
-							<Link href="mailto: plantbassddjs@gmail.com">
-								<a>
-									<AiOutlineMail
-										className={styles.socialIcon}
-									/>
-								</a>
-							</Link>
-						</Col>
-						<Col className={styles.iconContainer}>
-							<Link href="https://open.spotify.com/embed/playlist/5skAgzUfGmZLwrOPNLnGVf">
-								<a>
-									<RiSpotifyLine
-										className={styles.socialIcon}
-									/>
-								</a>
-							</Link>
-						</Col>
-						<Col className={styles.iconContainer}>
-							<Link href="https://soundcloud.com/plantbassddjs">
-								<a>
-									<RiSoundcloudLine
-										className={styles.socialIcon}
-									/>
-								</a>
-							</Link>
-						</Col>
+						{icons.map((item) => (
+							<SocialIcon
+								key={item.link}
+								styleContainer={styles.iconContainer}
+								styleIcon={styles.socialIcon}
+								link={item.link}
+								icon={item.icon}
+							/>
+						))}
 					</Row>
 
 					{links.map((item) => (
@@ -103,9 +61,16 @@ export async function getStaticProps() {
 	);
 	const { data: frontmatter } = matter(markdownWithMeta);
 
+	const iconMarkdown = fs.readFileSync(
+		path.join("posts/utils/icons.md"),
+		"utf-8"
+	);
+	const { data: iconmatter } = matter(iconMarkdown);
+
 	return {
 		props: {
 			links: frontmatter.links,
+			icons: iconmatter.icons,
 		},
 	};
 }
