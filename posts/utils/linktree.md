@@ -1,5 +1,7 @@
 ---
 links:
+  - title: "Tickets for TAAHLIAH @ Sneaky Pete's 9/2/22"
+    link: "https://ra.co/events/1494126"
   - title: "FRESH JUICE: Third Degree - 'HAZMAT Compilation'"
     link:  "https://www.plantbassd.com/news/third-degree-10-1-22"
   - title: "FRESH JUICE: Oldboy - GRIMEY ONES PART II"
