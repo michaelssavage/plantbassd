@@ -13,9 +13,7 @@ export default function RadioPage({ radios }) {
 		<>
 			<div className={styles.radioBG}>
 				<Container>
-					<h1 className={`globalHeader ${styles.bHeader}`}>
-						Plant Bass'd Radio
-					</h1>
+					<h1 className={styles.bHeader}>Plant Bass'd Radio</h1>
 
 					<p className={styles.bTexter}>
 						Guest mixes from homegrown and international artists.

@@ -26,7 +26,7 @@ export default function ContactPage() {
 			<div className={styles.container}>
 				<Row>
 					<Col lg={6} md={12}>
-						<h1 className={styles.header}>About Us</h1>
+						<h1>About Us</h1>
 						<p>
 							Plant Bass'd consists of Oisin Campbell, Michael
 							Savage, and Peter Toal. Originally from Monaghan,

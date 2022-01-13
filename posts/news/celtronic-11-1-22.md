@@ -20,7 +20,7 @@ Lorraine James would have to be our pick of Thursday night. We hadn’t heard of
 
 <div class="imgContainer">
 <a href="https://www.youtube.com/watch?v=QnvxRT9nUbc" rel="noopener noreferrer" target="_blank">
-<img src="/news/13_loraine-james.jpg" alt="loraine james press photo" width="100%" />
+<img src="/news/13_loraine-james.jpg" alt="loraine james press photo" width="95%" />
 <div class="youtubeOverlay">
     <div class="imgTextOverlay">Listen On Youtube</div>
 </div>
@@ -41,7 +41,7 @@ KiNK! Ahhh KiNK, what a gig. We’ll remember that one for a long time. His abil
 
 <div class="imgContainer">
 <a href="https://www.youtube.com/watch?v=FUtaPNY98A0&t=1681s" rel="noopener noreferrer" target="_blank">
-<img src="/news/13_kink.jpg" alt="photo of KiNk" width="100%" />
+<img src="/news/13_kink.jpg" alt="photo of KiNk" width="95%" />
 <div class="youtubeOverlay">
     <div class="imgTextOverlay">Listen On Youtube</div>
 </div>
@@ -56,7 +56,7 @@ Stand out gig of the night was Giant Swan for their outrageous vocal-led perform
 
 <div class="imgContainer">
 <a href="https://www.youtube.com/watch?v=53SR5UNOpAI" rel="noopener noreferrer" target="_blank">
-<img src="/news/13_giant-swan.jpg" alt="photo of Giant Swan" width="100%" />
+<img src="/news/13_giant-swan.jpg" alt="photo of Giant Swan" width="95%" />
 <div class="youtubeOverlay">
     <div class="imgTextOverlay">Listen On Youtube</div>
 </div>

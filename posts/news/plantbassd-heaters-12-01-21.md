@@ -21,6 +21,6 @@ RA Tickets Available through the link in our bio.
 
 @_leanlow_ on grafix!
 
-<img src="/news/15_taahliah.jpg" alt="Taahliah press pic" width="100%" />
-<img src="/news/15_sweet-philly.jpg" alt="Sweet Philly press pic" width="100%" />
-<img src="/news/15_lucky-dip.jpg" alt="Lucky Dip press pic" width="100%" />
+<img src="/news/15_taahliah.jpg" alt="Taahliah press pic" width="95%" />
+<img src="/news/15_sweet-philly.jpg" alt="Sweet Philly press pic" width="95%" />
+<img src="/news/15_lucky-dip.jpg" alt="Lucky Dip press pic" width="95%" />

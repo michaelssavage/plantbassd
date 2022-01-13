@@ -17,6 +17,12 @@
 	text-align: center;
 }
 
+@include breakpoint-below(xm) {
+	.postContent {
+		padding: 0 2rem;
+	}
+}
+
 // @include breakpoint-below(sm) {
 @media (max-width: 768px) {
 	.newsSection {
@@ -35,6 +41,7 @@
 
 .imgWrapper {
 	padding: 0.5rem 0;
+	text-align: center;
 }
 
 .hoverLink:hover {

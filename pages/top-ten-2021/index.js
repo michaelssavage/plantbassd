@@ -25,9 +25,7 @@ export default function TopTen({ topTenReleases }) {
 			</ParallaxProvider>
 			<div className={styles.topTenBG}>
 				<Container>
-					<h1 className={`globalHeader ${styles.bHeader}`}>
-						Top 10 Dance Releases
-					</h1>
+					<h1 className={styles.bHeader}>Top 10 Dance Releases</h1>
 
 					<p className={styles.bTexter}>
 						Michael, Oisin, and Peter choose their favourite Albums,

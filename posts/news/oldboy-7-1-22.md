@@ -10,7 +10,7 @@ bio: "Sheffield’s Oldboy arrives with another quadruplet of grime laced breaks
 
 ### Sheffield’s Oldboy arrives with another quadruplet of grime laced breaks, dubstep, and garage instrumentals. The sequel that no one asked for says Oldboy, but one we most definitely think we deserved!
 
-<img src="/news/14_oldboy.jpg" alt="third degree hazmat album art" width="100%" />
+<img src="/news/14_oldboy.jpg" alt="third degree hazmat album art" width="95%" />
 
 The initial ‘Grimey Ones’ effort (listen: https://oldboytrax.bandcamp.com/album/grimey-ones) caught our attention last summer along with the ridiculous 128kpbs releases that the steel city based artist fronts with mates Phasmid, Xander, Papa Nugs, and Longeez, have firmly put Oldboy on our release radar.
 (Listen: https://128kbps.bandcamp.com/album/now-thats-what-i-call-c-pyright-infringement-128)

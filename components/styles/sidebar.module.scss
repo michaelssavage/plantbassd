@@ -18,7 +18,7 @@
 }
 
 .extendHeader {
-	width: 17.5rem;
+	width: 18rem;
 	@extend .header;
 }
 
@@ -107,22 +107,11 @@
 	}
 
 	.extendHeader {
-		width: 70%;
+		width: 18rem;
 	}
 
 	.extendNav {
-		width: 55%;
-		padding: 0.5rem;
-	}
-}
-
-@include breakpoint-below(xs) {
-	.extendHeader {
-		width: 80%;
-	}
-
-	.extendNav {
-		width: 65%;
+		width: 14rem;
 		padding: 0.5rem;
 	}
 }
