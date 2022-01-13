@@ -10,7 +10,7 @@ import styles from "@/styles/card.module.scss";
 
 export const CardExternal = ({ card }) => {
 	return (
-		<Col xl={3} lg={3} md={6} xs={12}>
+		<Col xl={3} lg={6} md={6} xs={6}>
 			<div className="imgContainer">
 				<a href={card.link} rel="noopener noreferrer" target="_blank">
 					<Image

@@ -1,13 +1,7 @@
-import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
-import { Col } from "react-bootstrap";
-import {
-	AiOutlineFacebook,
-	AiOutlineInstagram,
-	AiOutlineMail,
-} from "react-icons/ai";
-import { RiSoundcloudLine, RiSpotifyLine } from "react-icons/ri";
+import { FaSpotify } from "react-icons/fa";
+import { RiSoundcloudLine } from "react-icons/ri";
 
 export const GoBack = () => {
 	const router = useRouter();
@@ -47,38 +41,7 @@ export const SpotifyButton = ({ style, link, title }) => {
 			className={`${style} text-nowrap btn btn-dark btn-lg`}
 			href={link}
 		>
-			<RiSpotifyLine /> {title}
+			<FaSpotify /> {title}
 		</a>
-	);
-};
-
-export const SocialIcon = ({ styleContainer, styleIcon, link, icon }) => {
-	return (
-		<Col className={styleContainer}>
-			<Link href={link}>
-				<a>
-					{(() => {
-						switch (icon) {
-							case "facebook":
-								return (
-									<AiOutlineFacebook className={styleIcon} />
-								);
-							case "instagram":
-								return (
-									<AiOutlineInstagram className={styleIcon} />
-								);
-							case "email":
-								return <AiOutlineMail className={styleIcon} />;
-							case "spotify":
-								return <RiSpotifyLine className={styleIcon} />;
-							default:
-								return (
-									<RiSoundcloudLine className={styleIcon} />
-								);
-						}
-					})()}
-				</a>
-			</Link>
-		</Col>
 	);
 };

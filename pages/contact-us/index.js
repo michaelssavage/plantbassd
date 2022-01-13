@@ -1,16 +1,14 @@
 import ContactForm from "components/ContactForm";
 import Footer from "components/Footer";
-import { SocialIcon } from "components/Utilities";
-import fs from "fs";
-import matter from "gray-matter";
+import { SocialIcon, socialIconList } from "components/IconUtils";
 import Image from "next/image";
-import path from "path";
+import Link from "next/link";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 import styles from "styles/contact.module.scss";
 
-export default function ContactPage({ icons }) {
+export default function ContactPage() {
 	return (
 		<>
 			<ParallaxProvider>
@@ -48,14 +46,20 @@ export default function ContactPage({ icons }) {
 						</p>
 
 						<Row>
-							{icons.map((item) => (
-								<SocialIcon
+							{socialIconList.map((item) => (
+								<Col
 									key={item.link}
-									styleContainer={styles.iconContainer}
-									styleIcon={styles.socialIcon}
-									link={item.link}
-									icon={item.icon}
-								/>
+									className={styles.iconContainer}
+								>
+									<Link href={item.link}>
+										<a>
+											{SocialIcon(
+												item.icon,
+												styles.socialIcon
+											)}
+										</a>
+									</Link>
+								</Col>
 							))}
 						</Row>
 					</Col>
@@ -63,7 +67,7 @@ export default function ContactPage({ icons }) {
 						<Image
 							src="/various/hoodie.jpg"
 							alt="three lads"
-							width="500"
+							width="600"
 							height="360"
 						/>
 					</Col>
@@ -80,18 +84,4 @@ export default function ContactPage({ icons }) {
 			<Footer />
 		</>
 	);
-}
-
-export async function getStaticProps() {
-	const iconMarkdown = fs.readFileSync(
-		path.join("posts/utils/icons.md"),
-		"utf-8"
-	);
-	const { data: iconmatter } = matter(iconMarkdown);
-
-	return {
-		props: {
-			icons: iconmatter.icons,
-		},
-	};
 }
