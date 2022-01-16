@@ -1,13 +1,14 @@
-import { SocialIcon } from "components/Utilities";
+import { SocialIcon, socialIconList } from "components/IconUtils";
 import fs from "fs";
 import matter from "gray-matter";
 import Image from "next/image";
+import Link from "next/link";
 import path from "path";
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import styles from "styles/links.module.scss";
 
-export default function Links({ links, icons }) {
+export default function Links({ links }) {
 	return (
 		<>
 			<div className={styles.linkPage}>
@@ -25,14 +26,20 @@ export default function Links({ links, icons }) {
 					</Row>
 
 					<Row>
-						{icons.map((item) => (
-							<SocialIcon
+						{socialIconList.map((item) => (
+							<Col
 								key={item.link}
-								styleContainer={styles.iconContainer}
-								styleIcon={styles.socialIcon}
-								link={item.link}
-								icon={item.icon}
-							/>
+								className={styles.iconContainer}
+							>
+								<Link href={item.link}>
+									<a>
+										{SocialIcon(
+											item.icon,
+											styles.socialIcon
+										)}
+									</a>
+								</Link>
+							</Col>
 						))}
 					</Row>
 
@@ -61,16 +68,9 @@ export async function getStaticProps() {
 	);
 	const { data: frontmatter } = matter(markdownWithMeta);
 
-	const iconMarkdown = fs.readFileSync(
-		path.join("posts/utils/icons.md"),
-		"utf-8"
-	);
-	const { data: iconmatter } = matter(iconMarkdown);
-
 	return {
 		props: {
 			links: frontmatter.links,
-			icons: iconmatter.icons,
 		},
 	};
 }

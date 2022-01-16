@@ -1,27 +1,46 @@
 import { CardNoText } from "components/Card";
 import Footer from "components/Footer";
+import SearchBox from "components/SearchBox";
 import { GoBack, sortByDate, SpotifyButton } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import styles from "styles/page.module.scss";
 
 export default function TakeoverPage({ takeovers }) {
+	const [takeoverCards, setTakeoverCards] = useState([]);
+	const [filter, setFilter] = useState("");
+
+	useEffect(() => {
+		if (!filter) {
+			setTakeoverCards(takeovers);
+		} else {
+			setTakeoverCards(
+				takeovers.filter((takeover) =>
+					takeover.frontmatter.title.includes(filter)
+				)
+			);
+		}
+	}, [filter, takeovers]);
+
 	return (
 		<>
 			<div className={styles.takeoverBG}>
 				<Container>
-					<h1 className={`globalHeader ${styles.bHeader}`}>
-						Plant Bass'd Takeovers
-					</h1>
+					<h1 className={styles.bHeader}>Plant Bass'd Takeovers</h1>
 
 					<p className={styles.bTexter}>
 						We ask artists to select and share their top tracks.
 						Check out the playlist here:
 					</p>
-					<p className={styles.bTexter}>
+					<p className={styles.searchBox}>
+						<SearchBox
+							style={styles.searchFilter}
+							filter={filter}
+							setFilter={setFilter}
+						/>
 						<SpotifyButton
 							style={styles.spotify}
 							link="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
@@ -29,7 +48,7 @@ export default function TakeoverPage({ takeovers }) {
 						/>
 					</p>
 					<Row className="g-3">
-						{takeovers.map((takeover) => (
+						{takeoverCards.map((takeover) => (
 							<CardNoText
 								key={takeover.frontmatter.title}
 								post={takeover}

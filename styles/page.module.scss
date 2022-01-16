@@ -17,6 +17,19 @@
 	@extend .texter;
 }
 
+.searchBox {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.searchFilter {
+	margin: 0 1rem 1rem 0;
+	width: 40%;
+	order: 1;
+}
+
 .btnGroup {
 	margin: 2rem 1rem;
 	display: flex;
@@ -39,6 +52,7 @@
 .spotify {
 	color: var(--spotify) !important;
 	margin-bottom: 1rem;
+	order: 2;
 	&:hover {
 		color: var(--headerBlack) !important;
 		background-color: var(--spotify) !important;
@@ -107,15 +121,32 @@
 	}
 
 	.bHeader {
-		text-align: left;
 		padding: 10vh 0.5rem 0 0.5rem;
-		font-size: 2em;
+		font-size: 2.4em;
 	}
 
-	.bTexter {
-		text-align: left;
-	}
 	.parallax {
 		height: 50vh !important;
+	}
+
+	.searchBox {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.spotify {
+		order: 1;
+	}
+
+	.searchFilter {
+		margin: 1rem 0;
+		width: 100%;
+		order: 2;
+	}
+}
+
+@include breakpoint-below(xs) {
+	.bHeader {
+		font-size: 1.8em;
 	}
 }

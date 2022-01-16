@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { RiSoundcloudLine } from "react-icons/ri";
@@ -10,7 +9,7 @@ import styles from "@/styles/card.module.scss";
 
 export const CardExternal = ({ card }) => {
 	return (
-		<Col xl={3} lg={3} md={6} xs={12}>
+		<Col xl={3} lg={6} md={6} xs={6}>
 			<div className="imgContainer">
 				<a href={card.link} rel="noopener noreferrer" target="_blank">
 					<Image
@@ -100,7 +99,6 @@ export const CardTopTen = ({ post, link }) => {
 };
 
 export const CardWithButtons = ({ pic, title, artist, page, insta, link }) => {
-	const router = useRouter();
 	return (
 		<Col>
 			<div className={news.newsImage}>
@@ -112,15 +110,6 @@ export const CardWithButtons = ({ pic, title, artist, page, insta, link }) => {
 					layout="responsive"
 				/>
 				<Row className={news.buttons}>
-					<Col className={news.button}>
-						<button
-							type="button"
-							className={`${news.hoverLink} btn btn-outline-dark btn-lg`}
-							onClick={() => router.back()}
-						>
-							Go Back
-						</button>
-					</Col>
 					<Col className={news.button}>
 						<Link href={page}>
 							<a

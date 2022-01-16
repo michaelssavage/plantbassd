@@ -65,7 +65,7 @@ export default function NewsPage({ news }) {
 				news.filter((story) => tags.includes(story.frontmatter.tags))
 			);
 		}
-	}, [tags]); // eslint-disable-line react-hooks/exhaustive-deps
+	}, [tags, news]);
 
 	return (
 		<>
@@ -97,7 +97,6 @@ export default function NewsPage({ news }) {
 								/>
 							))}
 					</div>
-
 					<Row className="g-3">
 						{newsStories.map((story) => (
 							<CardWithText

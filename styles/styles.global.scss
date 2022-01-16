@@ -52,6 +52,7 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
 }
 
 Link {
@@ -87,12 +88,6 @@ Link {
 	margin: 0 auto 2rem;
 }
 
-.globalHeader {
-	text-align: center;
-	padding: 2rem 1rem;
-	font-size: 3em;
-}
-
 .header {
 	color: var(--headerBlack) !important;
 	font-size: 3em;
@@ -115,10 +110,6 @@ Link {
 		margin-left: -5rem !important;
 	}
 
-	.globalHeader {
-		font-size: 2em;
-	}
-
 	.parallaxHeightChange {
 		height: 50vh !important;
 	}
@@ -128,6 +119,7 @@ Link {
 	}
 }
 
+//above
 @include breakpoint-above(md) {
 	.top-ten-2021 {
 		-moz-box-flex: 0 !important;
@@ -136,6 +128,7 @@ Link {
 	}
 }
 
+//below
 @include breakpoint-below(md) {
 	.top-ten-2021 {
 		-moz-box-flex: 0 !important;
