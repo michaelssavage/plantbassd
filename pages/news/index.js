@@ -1,5 +1,3 @@
-import "react-placeholder/lib/reactPlaceholder.css";
-
 import { CardWithText } from "components/Card";
 import Footer from "components/Footer";
 import { GoBack, sortByDate } from "components/Utilities";
@@ -9,7 +7,6 @@ import path from "path";
 import React, { useEffect, useState } from "react";
 import { Container, Row } from "react-bootstrap";
 import { AiOutlineCloseCircle } from "react-icons/ai";
-import ReactPlaceholder from "react-placeholder";
 import styles from "styles/page.module.scss";
 
 const TagButton = ({ tag, handleTags }) => {
@@ -25,12 +22,6 @@ const TagButton = ({ tag, handleTags }) => {
 };
 
 export default function NewsPage({ news }) {
-	const [hasErrored, setHasErrored] = useState(false);
-	const [error, setError] = useState("");
-	const [isLoading, setIsLoading] = useState(true);
-
-	const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
 	const [tags, setTags] = useState([]);
 	const [newsStories, setNewsStories] = useState([]);
 
@@ -67,36 +58,14 @@ export default function NewsPage({ news }) {
 	};
 
 	useEffect(() => {
-		async function delayFunc() {
-			try {
-				if (tags.length === 0) {
-					await delay(1600);
-					setIsLoading(false);
-					setNewsStories(news);
-				} else {
-					setIsLoading(false);
-					setNewsStories(
-						news.filter((story) =>
-							tags.includes(story.frontmatter.tags)
-						)
-					);
-				}
-			} catch (e) {
-				setIsLoading(false);
-				setHasErrored(true);
-				setError(e);
-			}
+		if (tags.length === 0) {
+			setNewsStories(news);
+		} else {
+			setNewsStories(
+				news.filter((story) => tags.includes(story.frontmatter.tags))
+			);
 		}
-		delayFunc();
 	}, [tags, news]);
-
-	if (hasErrored === true) {
-		return (
-			<div className="text-danger">
-				Error: <b> loading Data failed {error}</b>
-			</div>
-		);
-	}
 
 	return (
 		<>
@@ -128,22 +97,15 @@ export default function NewsPage({ news }) {
 								/>
 							))}
 					</div>
-					<ReactPlaceholder
-						type="media"
-						rows={15}
-						ready={isLoading === false}
-						color="rgba(30, 30, 30, 0.85)"
-					>
-						<Row className="g-3">
-							{newsStories.map((story) => (
-								<CardWithText
-									key={story.frontmatter.title}
-									post={story}
-									link={`/news/${story.slug}`}
-								/>
-							))}
-						</Row>
-					</ReactPlaceholder>
+					<Row className="g-3">
+						{newsStories.map((story) => (
+							<CardWithText
+								key={story.frontmatter.title}
+								post={story}
+								link={`/news/${story.slug}`}
+							/>
+						))}
+					</Row>
 
 					<GoBack />
 				</Container>
