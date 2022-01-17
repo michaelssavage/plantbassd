@@ -25,6 +25,7 @@ const TagButton = ({ tag, handleTags }) => {
 };
 
 export default function NewsPage({ news }) {
+
 	const { hasErrored, error, newsStories, tagList, handleTags } =
 		useNewsFilter(news);
 

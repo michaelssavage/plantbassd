@@ -3,7 +3,7 @@ title: "FRESH JUICE: JCO1 by Jason Code"
 date: "January 17, 2022"
 tags: "fresh juice"
 pic: "/news/16_jason-code.jpg"
-bandcamp: "https://juicygangrecords.bandcamp.com/releases"
+bandcamp: "https://jasoncode.bandcamp.com/album/jc01-2"
 postLink: "https://www.instagram.com/p/CY1jNXaNqMS/"
 bio: "Jason Code returns with more kamikaze breaks and dubs on his self-released ‘JCO1’ effort..."
 ---
@@ -28,4 +28,4 @@ Closer ‘WACK!’ continues with the same thundering breaks heard on the openin
 
 This release really sounds like what we have come to expect from Jason Code, and then some. There is a real skill in his productions that leave you triggered with a feeling. Sometimes it may feel like you are being sucked into a vacuum, but in the best, most chaotic way possible. Other times it can feel like you have suddenly gained the ultimate level on Mortal Kombat. Either way it’s a lot of fun. Club music that will leave you struggling to keep up on the dance floor. Bliss!
 
-Buy & Listen now on Bandcamp: <!-- replace this with link -->
+Buy & Listen now on Bandcamp: https://jasoncode.bandcamp.com/album/jc01-2

@@ -1,6 +1,6 @@
 ---
 title: "Review: Celtronic Festival 2021"
-date: "January 10, 1022"
+date: "January 1, 2022"
 tags: "reviews"
 pic: "/news/13_celtronic.jpg"
 seeMore: "https://www.instagram.com/celtronic"

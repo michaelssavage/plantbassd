@@ -13,13 +13,13 @@ import { Container, Row } from "react-bootstrap";
 import styles from "styles/page.module.scss";
 
 export default function TakeoverPage({ takeovers }) {
+
 	const { hasErrored, error, takeoverCards, filter, setFilter } =
 		useFilter(takeovers);
 
 	if (hasErrored === true) {
 		return <Error error={error} />;
 	}
-
 	return (
 		<>
 			<div className={styles.takeoverBG}>
