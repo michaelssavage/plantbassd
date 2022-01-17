@@ -19,12 +19,12 @@ The event was very much real and we were blown away! What a massive selection of
 Lorraine James would have to be our pick of Thursday night. We hadn’t heard of her before and she amazed us with her live hyperdub beat constructing set. So many times during the set, we were just like “What the fuck is this?” (In the best way possible).
 
 <div class="imgContainer">
-<a href="https://www.youtube.com/watch?v=QnvxRT9nUbc" rel="noopener noreferrer" target="_blank">
-<img src="/news/13_loraine-james.jpg" alt="loraine james press photo" width="95%" />
-<div class="youtubeOverlay">
-    <div class="imgTextOverlay">Listen On Youtube</div>
-</div>
-</a>
+    <a href="https://www.youtube.com/watch?v=QnvxRT9nUbc" rel="noopener noreferrer" target="_blank">
+        <img src="/news/13_loraine-james.jpg" alt="loraine james press photo" width="95%" />
+        <div class="youtubeOverlay">
+            <div class="imgTextOverlay">Listen On Youtube</div>
+        </div>
+    </a>
 </div>
 
 ## The Nerve Centre
@@ -40,12 +40,12 @@ Friend of the page, Cartin, interweaved live guitar between spacey grooves to ke
 KiNK! Ahhh KiNK, what a gig. We’ll remember that one for a long time. His ability to work with the crowd live, fix any hiccups swiftly, and put on a show is like nothing we could compare to. His energy was through the roof!
 
 <div class="imgContainer">
-<a href="https://www.youtube.com/watch?v=FUtaPNY98A0&t=1681s" rel="noopener noreferrer" target="_blank">
-<img src="/news/13_kink.jpg" alt="photo of KiNk" width="95%" />
-<div class="youtubeOverlay">
-    <div class="imgTextOverlay">Listen On Youtube</div>
-</div>
-</a>
+    <a href="https://www.youtube.com/watch?v=FUtaPNY98A0&t=1681s" rel="noopener noreferrer" target="_blank">
+        <img src="/news/13_kink.jpg" alt="photo of KiNk" width="95%" />
+        <div class="youtubeOverlay">
+            <div class="imgTextOverlay">Listen On Youtube</div>
+        </div>
+    </a>
 </div>
 
 ## Round 2
@@ -55,12 +55,12 @@ On Saturday, we returned to the Nerve Centre for round two. This was the night f
 Stand out gig of the night was Giant Swan for their outrageous vocal-led performance. These guys are pushing boundaries and we couldn’t get enough of their experimental noise. Working favourites like 55 Year Old Daughter and Pandaemonium into their relentless, no breather set was surreal to see live. They then ended on what we could only sum up as a 20 minute wall of skull-rattling bass frequencies, continuously stacked and tucked underneath each other, creating a euphoric feeling in the body from being hit with so much force from the in-house system.
 
 <div class="imgContainer">
-<a href="https://www.youtube.com/watch?v=53SR5UNOpAI" rel="noopener noreferrer" target="_blank">
-<img src="/news/13_giant-swan.jpg" alt="photo of Giant Swan" width="95%" />
-<div class="youtubeOverlay">
-    <div class="imgTextOverlay">Listen On Youtube</div>
-</div>
-</a>
+    <a href="https://www.youtube.com/watch?v=53SR5UNOpAI" rel="noopener noreferrer" target="_blank">
+        <img src="/news/13_giant-swan.jpg" alt="photo of Giant Swan" width="95%" />
+        <div class="youtubeOverlay">
+            <div class="imgTextOverlay">Listen On Youtube</div>
+        </div>
+    </a>
 </div>
 
 Next up was Overmono. The brothers have had a mega year with some of the best tracks of 2021, on top of coming out with a flawless Fabric Presents mix. Their DJ set proved their heavyweight status, dishing out gigantic sounding tracks in a 400 cap room. We felt privileged as a crowd to catch them in such an intimate setting. Ending on their remix of For Those I Love's “I Have a Love” felt like an endearing message of thanks to this small, tight-knit Derry crowd for sharing this intimate space for the short time they had here.

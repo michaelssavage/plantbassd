@@ -1,5 +1,9 @@
 @import "styles/breakpoints";
 
+.bg {
+	background-color: var(--blank);
+}
+
 .headerContainer {
 	display: flex;
 	align-items: center;

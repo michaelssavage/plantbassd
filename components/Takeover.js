@@ -1,13 +1,12 @@
 import { CardNoText } from "components/Card";
-import { useRouter } from "next/router";
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 
 import styles from "@/styles/components.module.scss";
 
-export default function Takeover({ takeovers }) {
-	const router = useRouter();
+import { DiscoverMoreBtn } from "./Btns";
 
+export default function Takeover({ takeovers }) {
 	return (
 		<div className={styles.bgGreen}>
 			<div className="globalSection">
@@ -27,15 +26,7 @@ export default function Takeover({ takeovers }) {
 					))}
 				</Row>
 
-				<div className="globalBottomBtn">
-					<button
-						type="button"
-						className="btn btn-outline-dark btn-lg"
-						onClick={() => router.push("/takeovers")}
-					>
-						Discover More
-					</button>
-				</div>
+				<DiscoverMoreBtn link="/takeovers" />
 			</Container>
 		</div>
 	);

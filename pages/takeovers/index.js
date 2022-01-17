@@ -1,56 +1,23 @@
-import "react-placeholder/lib/reactPlaceholder.css";
-
+import { GoBack, SpotifyButton } from "components/Btns";
 import { CardNoText } from "components/Card";
+import Error from "components/Error";
 import Footer from "components/Footer";
 import SearchBox from "components/SearchBox";
-import { GoBack, sortByDate, SpotifyButton } from "components/Utilities";
+import { sortByDate } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
+import useFilter from "hooks/useFilter";
 import path from "path";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Container, Row } from "react-bootstrap";
-import ReactPlaceholder from "react-placeholder";
 import styles from "styles/page.module.scss";
 
 export default function TakeoverPage({ takeovers }) {
-	const [takeoverCards, setTakeoverCards] = useState([]);
-	const [filter, setFilter] = useState("");
-	const [hasErrored, setHasErrored] = useState(false);
-	const [error, setError] = useState("");
-	const [isLoading, setIsLoading] = useState(true);
-
-	const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
-	useEffect(() => {
-		async function delayFunc() {
-			try {
-				if (!filter) {
-					await delay(1600);
-					setIsLoading(false);
-					setTakeoverCards(takeovers);
-				} else {
-					setIsLoading(false);
-					setTakeoverCards(
-						takeovers.filter((takeover) =>
-							takeover.frontmatter.title.includes(filter)
-						)
-					);
-				}
-			} catch (e) {
-				setIsLoading(false);
-				setHasErrored(true);
-				setError(e);
-			}
-		}
-		delayFunc();
-	}, [filter, takeovers]);
+	const { hasErrored, error, takeoverCards, filter, setFilter } =
+		useFilter(takeovers);
 
 	if (hasErrored === true) {
-		return (
-			<div className="text-danger">
-				Error: <b> loading Data failed {error}</b>
-			</div>
-		);
+		return <Error error={error} />;
 	}
 
 	return (
@@ -75,21 +42,15 @@ export default function TakeoverPage({ takeovers }) {
 							title="Plant Bass'd Picks"
 						/>
 					</p>
-					<ReactPlaceholder
-						type="media"
-						rows={15}
-						ready={isLoading === false}
-					>
-						<Row className="g-3">
-							{takeoverCards.map((takeover) => (
-								<CardNoText
-									key={takeover.frontmatter.title}
-									post={takeover}
-									link={`/takeovers/${takeover.slug}`}
-								/>
-							))}
-						</Row>
-					</ReactPlaceholder>
+					<Row className="g-3">
+						{takeoverCards.map((takeover) => (
+							<CardNoText
+								key={takeover.frontmatter.title}
+								post={takeover}
+								link={`/takeovers/${takeover.slug}`}
+							/>
+						))}
+					</Row>
 
 					<GoBack />
 				</Container>

@@ -4,7 +4,7 @@ date: "January 17, 2022"
 tags: "fresh juice"
 pic: "/news/16_jason-code.jpg"
 bandcamp: "https://juicygangrecords.bandcamp.com/releases"
-postLink: "https://www.instagram.com/plantbassddjs"
+postLink: "https://www.instagram.com/p/CY1jNXaNqMS/"
 bio: "Jason Code returns with more kamikaze breaks and dubs on his self-released ‘JCO1’ effort..."
 ---
 
@@ -12,7 +12,7 @@ bio: "Jason Code returns with more kamikaze breaks and dubs on his self-released
 
 <img src="/news/16_JC01.jpg" alt="JC01 Album Art" width="95%" />
 
-Jason Code returns with more kamikaze breaks and dubs on his self-released ‘JCO1’ effort. Having just come off the back of his explosive Scuffed debut with ‘HOT!’ (Listen: https://jasoncode.bandcamp.com/album/hot-ep), the Seattle native is beginning to forge a signature sound that fuses bassy/dubstep sounds with shuffling juke and speed garage rhythms in devastating fashion.
+Having just come off the back of his explosive Scuffed debut with ‘HOT!’ (Listen: https://jasoncode.bandcamp.com/album/hot-ep), the Seattle native is beginning to forge a signature sound that fuses bassy/dubstep sounds with shuffling juke and speed garage rhythms in devastating fashion.
 
 Jason has been plying his trade in the ever blooming Nashville scene over the last number of years within the Terminal 8 crew, known party starters and collaborators with acts like Nikki Nair, Kush Jones and ELISE to name but a few, with ATL striker Zaida next up on their club roster.
 

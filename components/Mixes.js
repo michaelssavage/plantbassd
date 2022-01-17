@@ -1,13 +1,12 @@
 import Image from "next/image";
-import { useRouter } from "next/router";
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
 import styles from "@/styles/mixes.module.scss";
 
-export default function ArtistCard() {
-	const router = useRouter();
+import { DiscoverMoreBtn } from "./Btns";
 
+export default function ArtistCard() {
 	return (
 		<section className={styles.mixSection}>
 			<Container>
@@ -37,26 +36,17 @@ export default function ArtistCard() {
 								Mixes
 							</h1>
 							<p>
-								Hear the latest club tracks when we play Jungle,
-								Techno, Garage, Rave selects, and more. Listen
-								on EHFM, ITSNOTRADIO, and Aurora, and our
+								Jungle, Techno, Garage, Rave selects, and more.
+								Listen on EHFM, ITSNOTRADIO, and Aurora, and our
 								Soundcloud.
 							</p>
 
 							<p>
-								Chill out and listen to some of our mixes that
-								include House, Disco, and Groovy numbers. Find
-								these on SET RADIO and our Soundcloud page.
+								House, Disco, and Groovy numbers. Find these on
+								SET RADIO and our Soundcloud.
 							</p>
-							<div>
-								<button
-									type="button"
-									className={`${styles.hoverBtn} btn btn-outline-dark btn-lg`}
-									onClick={() => router.push("/mixes")}
-								>
-									Discover More
-								</button>
-							</div>
+
+							<DiscoverMoreBtn link="/mixes" />
 						</div>
 					</Col>
 				</Row>

@@ -1,10 +1,15 @@
 ---
 title: "Peter’s Top 10 Dance Releases of 2021"
-date: "December 21, 2021"
+date: "December 27, 2021"
+tags: "reviews"
 pic: "/top-ten-2021/peter.jpg"
+seeMore: "https://www.instagram.com/peter_toal/"
+postLink: "https://www.instagram.com/p/CX_N_xStcNu/"
+bio: "Peter goes through a massive year of heavy low-end energy on strong percussive releases..."
+altPath: true
 ---
 
-I've been listening to a massive year of bass-driven and strong percussive releases. Leftfield Bass and the whole Breakbeat sound is seeing huge movement and I was treated to some lethal tunes. Here's my top 10:
+I've been listening to a massive year of heavy low-end energy on strong percussive releases. Leftfield Bass and the whole Breakbeat sound is seeing huge movement and I was treated to some lethal tunes. Here's my top 10:
 
 ## 1. INGI - Wrestle (Fly By Night Recordings)
 

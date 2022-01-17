@@ -1,3 +1,4 @@
+import AboutUs from "components/AboutUs";
 import ContactForm from "components/ContactForm";
 import Footer from "components/Footer";
 import { SocialIcon, socialIconList } from "components/IconUtils";
@@ -5,34 +6,28 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { ParallaxBanner, ParallaxProvider } from "react-scroll-parallax";
 import styles from "styles/contact.module.scss";
 
 export default function ContactPage() {
 	return (
 		<>
-			<ParallaxProvider>
-				<ParallaxBanner
-					layers={[
-						{
-							image: "/various/collage.jpg",
-							amount: 0.4,
-						},
-					]}
-					className="parallaxHeightChange"
-				></ParallaxBanner>
-			</ParallaxProvider>
+			<AboutUs />
 
 			<div className={styles.container}>
 				<Row>
 					<Col lg={6} md={12}>
-						<h1>About Us</h1>
 						<p>
 							Plant Bass'd consists of Oisin Campbell, Michael
-							Savage, and Peter Toal. Originally from Monaghan,
-							Ireland the three lads have joined their different
-							music tastes together to form an inclusive
-							collective.
+							Savage, and Peter Toal. Originally from Co.
+							Monaghan, Ireland, the three lads created the
+							collective in early 2020 with the intention of
+							highlighting the differnt communities in the
+							electronic music scene.
+						</p>
+						<p>
+							With a shared interests and ambitions, the team
+							looks towards creating unforgettable Plant Bass'd
+							nights in Edinburgh, Dublin, and Monaghan.
 						</p>
 
 						<p>
@@ -67,8 +62,8 @@ export default function ContactPage() {
 						<Image
 							src="/various/hoodie.jpg"
 							alt="three lads"
-							width="600"
-							height="360"
+							width="1080"
+							height="719"
 						/>
 					</Col>
 				</Row>

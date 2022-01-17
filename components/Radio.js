@@ -1,13 +1,12 @@
 import { CardNoText } from "components/Card";
-import { useRouter } from "next/router";
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 
 import styles from "@/styles/components.module.scss";
 
-export default function Radio({ radios }) {
-	const router = useRouter();
+import { DiscoverMoreBtn } from "./Btns";
 
+export default function Radio({ radios }) {
 	return (
 		<>
 			<div className={styles.bgBlue}>
@@ -28,15 +27,7 @@ export default function Radio({ radios }) {
 						))}
 					</Row>
 
-					<div className="globalBottomBtn">
-						<button
-							type="button"
-							className="btn btn-outline-dark btn-lg"
-							onClick={() => router.push("/radios")}
-						>
-							Discover More
-						</button>
-					</div>
+					<DiscoverMoreBtn link="/radios" />
 				</Container>
 			</div>
 		</>

@@ -5,15 +5,17 @@ import { Col, Container, Row } from "react-bootstrap";
 
 import styles from "@/styles/news.module.scss";
 
+import { DiscoverMoreBtn } from "./Btns";
+
 export default function News({ news }) {
 	const router = useRouter();
 	const mostRecent = news.slice(0, 2);
 	const otherNews = news.slice(2, 6);
 
 	return (
-		<section>
+		<section className={styles.bg}>
 			<Container>
-				<div className="m-5">
+				<div className="p-5">
 					<Row>
 						<Col
 							className={styles.headerContainer}
@@ -69,15 +71,8 @@ export default function News({ news }) {
 							</Col>
 						))}
 					</Row>
-					<div className="globalBottomBtn">
-						<button
-							type="button"
-							className="btn btn-outline-dark btn-lg"
-							onClick={() => router.push("/news")}
-						>
-							Discover More
-						</button>
-					</div>
+
+					<DiscoverMoreBtn link="/news" />
 				</div>
 			</Container>
 		</section>
