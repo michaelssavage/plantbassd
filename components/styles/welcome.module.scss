@@ -1,0 +1,41 @@
+@import "styles/breakpoints";
+
+.bgWrap {
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	z-index: -1;
+}
+
+.frontText {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	overflow-y: hidden;
+}
+
+.welcomeText {
+	height: 90vh;
+	padding: 0 15%;
+	@extend .frontText;
+}
+
+.aboutText {
+	height: 60vh;
+	@extend .frontText;
+}
+
+.textShape {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.names {
+	display: flex;
+	flex-direction: row;
+}

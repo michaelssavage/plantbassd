@@ -54,21 +54,15 @@ export default function Sidebar() {
 
 	return (
 		<div ref={navMenu}>
-			<header className={sidebar ? styles.extendHeader : styles.header}>
-				<div>
-					{sidebar ? (
-						<AiOutlineClose
-							className={styles.headerToggle}
-							onClick={showSidebar}
-						/>
-					) : (
-						<FaBars
-							className={styles.headerToggle}
-							onClick={showSidebar}
-						/>
-					)}
+			<header
+				className={sidebar ? styles.extendHeader : styles.header}
+				onClick={showSidebar}
+			>
+				<div className={styles.headerToggle}>
+					{sidebar ? <AiOutlineClose /> : <FaBars />}
 				</div>
 			</header>
+
 			<div className={sidebar ? styles.extendNav : styles.navContainer}>
 				<nav className={styles.navMenu}>
 					<div className={styles.navList}>

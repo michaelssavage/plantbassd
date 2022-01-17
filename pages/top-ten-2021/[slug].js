@@ -1,5 +1,5 @@
+import { GoBack } from "components/Btns";
 import Footer from "components/Footer";
-import { GoBack } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
@@ -34,7 +34,7 @@ export default function PostPage({ frontmatter: { title }, content }) {
 }
 
 export async function getStaticPaths() {
-	const files = fs.readdirSync(path.join("posts/top-ten-2021"));
+	const files = fs.readdirSync(path.join("posts/news"));
 
 	const paths = files.map((filename) => ({
 		params: {
@@ -50,7 +50,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }) {
 	const markdownWithMeta = fs.readFileSync(
-		path.join("posts/top-ten-2021", slug + ".md"),
+		path.join("posts/news", slug + ".md"),
 		"utf-8"
 	);
 

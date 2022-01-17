@@ -1,7 +1,12 @@
 ---
-title: "Michael’S Top 10 Dance Releases of 2021"
-date: "December 21, 2021"
+title: "Michael’s Top 10 Dance Releases of 2021"
+date: "December 22, 2021"
+tags: "reviews"
 pic: "/top-ten-2021/michael.jpg"
+seeMore: "https://www.instagram.com/michaelsaverage/"
+postLink: "https://www.instagram.com/p/CXyxuQStNo4/"
+bio: "Michael picks some feel-good house, breakbeats, and club music with some room for heavies along the way..."
+altPath: true
 ---
 
 Lots of euphoric electronic sounds in my top picks this year. Spent a lot of time with some feel-good house, breakbeats, and club music with some room for heavies along the way.
