@@ -2,9 +2,9 @@ import Footer from "components/Footer";
 import Mixes from "components/Mixes";
 import News from "components/News";
 import Radio from "components/Radio";
+import RellaxImg from "components/RellaxImg";
 import Takeover from "components/Takeover";
 import { sortByDate } from "components/Utilities";
-import Welcome from "components/Welcome";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
@@ -13,7 +13,7 @@ import React from "react";
 export default function Home({ news, takeovers, radios }) {
 	return (
 		<>
-			<Welcome />
+			<RellaxImg main={true} img="/various/bg.jpg" />
 
 			<News news={news} />
 
