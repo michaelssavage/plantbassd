@@ -1,5 +1,7 @@
 ---
 links:
+  - title: "FRESH JUICE: Jason Code - 'JCO1'"
+    link: "https://www.plantbassd.com/news/jason-code-14-01-22"
   - title: "Tickets for TAAHLIAH @ Sneaky Pete's 9/2/22"
     link: "https://ra.co/events/1494126"
   - title: "FRESH JUICE: Third Degree - 'HAZMAT Compilation'"
