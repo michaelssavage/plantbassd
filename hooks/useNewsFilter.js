@@ -39,15 +39,13 @@ export default function useNewsFilter(news = []) {
 
 	useEffect(() => {
 		try {
-			if (tags.length === 0) {
-				setNewsStories(news);
-			} else {
-				setNewsStories(
-					news.filter((story) =>
-						tags.includes(story.frontmatter.tags)
-					)
-				);
-			}
+			const filtered =
+				tags.length === 0
+					? news
+					: news.filter((story) =>
+							tags.includes(story.frontmatter.tags)
+					  );
+			setNewsStories(filtered);
 		} catch (e) {
 			setHasErrored(true);
 			setError(e);

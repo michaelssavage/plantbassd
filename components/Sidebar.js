@@ -59,7 +59,11 @@ export default function Sidebar() {
 				onClick={showSidebar}
 			>
 				<div className={styles.headerToggle}>
-					{sidebar ? <AiOutlineClose /> : <FaBars />}
+					{sidebar ? (
+						<AiOutlineClose className={styles.cancelToggle} />
+					) : (
+						<FaBars />
+					)}
 				</div>
 			</header>
 
