@@ -13,8 +13,9 @@
 	background-color: var(--navBlue);
 	z-index: 5;
 	transition: 0.5s;
-	border-top-right-radius: 25%;
-	border-bottom-right-radius: 25%;
+	border-top-right-radius: 3rem;
+	border-bottom-right-radius: 3rem;
+	cursor: pointer;
 }
 
 .extendHeader {
@@ -25,7 +26,6 @@
 .headerToggle {
 	color: var(--white);
 	font-size: 2rem;
-	cursor: pointer;
 }
 
 .navContainer {
@@ -98,7 +98,9 @@
 
 @include breakpoint-below(sm) {
 	.header {
-		width: 4rem;
+		height: 9rem;
+		width: 3rem;
+		padding: 0 0.5rem;
 	}
 
 	.navContainer {

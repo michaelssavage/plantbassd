@@ -1,10 +1,13 @@
+import { GoBack } from "components/Btns";
 import { CardWithText } from "components/Card";
+import Error from "components/Error";
 import Footer from "components/Footer";
-import { GoBack, sortByDate } from "components/Utilities";
+import { sortByDate } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
+import useNewsFilter from "hooks/useNewsFilter";
 import path from "path";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Container, Row } from "react-bootstrap";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import styles from "styles/page.module.scss";
@@ -22,50 +25,13 @@ const TagButton = ({ tag, handleTags }) => {
 };
 
 export default function NewsPage({ news }) {
-	const [tags, setTags] = useState([]);
-	const [newsStories, setNewsStories] = useState([]);
 
-	const [tagList, setTagList] = useState([
-		{ name: "gigs", value: false },
-		{ name: "fresh juice", value: false },
-		{ name: "reviews", value: false },
-	]);
+	const { hasErrored, error, newsStories, tagList, handleTags } =
+		useNewsFilter(news);
 
-	const addTag = (tag) => {
-		setTags([...tags, tag.name]);
-	};
-
-	const removeTag = (tag) => {
-		const newTags = tags.filter((t) => t !== tag.name);
-		setTags(newTags);
-	};
-
-	const updateTagList = (tag) => {
-		const idx = tagList.findIndex((e) => e === tag);
-		let newTagList = [...tagList];
-		newTagList[idx].value = !tag.value;
-		setTagList(newTagList);
-	};
-
-	const handleTags = (tag) => {
-		// onClick, either add or remove tags to the array.
-		if (!tag.value) {
-			addTag(tag);
-		} else {
-			removeTag(tag);
-		}
-		updateTagList(tag);
-	};
-
-	useEffect(() => {
-		if (tags.length === 0) {
-			setNewsStories(news);
-		} else {
-			setNewsStories(
-				news.filter((story) => tags.includes(story.frontmatter.tags))
-			);
-		}
-	}, [tags, news]);
+	if (hasErrored === true) {
+		<Error error={error} />;
+	}
 
 	return (
 		<>
@@ -102,7 +68,11 @@ export default function NewsPage({ news }) {
 							<CardWithText
 								key={story.frontmatter.title}
 								post={story}
-								link={`/news/${story.slug}`}
+								link={
+									story.frontmatter.altPath
+										? `/top-ten-2021/${story.slug}`
+										: `/news/${story.slug}`
+								}
 							/>
 						))}
 					</Row>

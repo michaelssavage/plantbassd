@@ -1,7 +1,12 @@
 ---
-title: "OISÍN’S Top 10 Dance Releases of 2021"
+title: "OISÍN’s Top 10 Dance Releases of 2021"
 date: "December 21, 2021"
+tags: "reviews"
 pic: "/top-ten-2021/oisin.jpg"
+seeMore: "https://www.instagram.com/inspectorcampbellbap/"
+postLink: "https://www.instagram.com/p/CXwLGlqt6Jv/"
+bio: "OISÍN is struck by bass-driven, glitchy, wonky club music this year as well as electro, ghetto tech, Baltimore, and Jersey club sounds..."
+altPath: true
 ---
 
 Another year has passed with a thriving selection of electronic music being delivered across the globe. Each year I find myself clutching to a different style of music and have been struck by bass-driven, glitchy, wonky club music this year as well as electro, ghetto tech, Baltimore, and Jersey club sounds. There is a never ending hole of creative dance music available to us and this year has been one of my favorites in recent memory. Somehow, I have whittled down a top 10 of favored releases, and it goes a little something like this…

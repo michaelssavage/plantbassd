@@ -1,30 +1,25 @@
+import { GoBack, SpotifyButton } from "components/Btns";
 import { CardNoText } from "components/Card";
+import Error from "components/Error";
 import Footer from "components/Footer";
 import SearchBox from "components/SearchBox";
-import { GoBack, sortByDate, SpotifyButton } from "components/Utilities";
+import { sortByDate } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
+import useFilter from "hooks/useFilter";
 import path from "path";
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Container, Row } from "react-bootstrap";
 import styles from "styles/page.module.scss";
 
 export default function TakeoverPage({ takeovers }) {
-	const [takeoverCards, setTakeoverCards] = useState([]);
-	const [filter, setFilter] = useState("");
 
-	useEffect(() => {
-		if (!filter) {
-			setTakeoverCards(takeovers);
-		} else {
-			setTakeoverCards(
-				takeovers.filter((takeover) =>
-					takeover.frontmatter.title.includes(filter)
-				)
-			);
-		}
-	}, [filter, takeovers]);
+	const { hasErrored, error, takeoverCards, filter, setFilter } =
+		useFilter(takeovers);
 
+	if (hasErrored === true) {
+		return <Error error={error} />;
+	}
 	return (
 		<>
 			<div className={styles.takeoverBG}>
