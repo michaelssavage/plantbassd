@@ -1,0 +1,44 @@
+{
+	"extends": [
+		"eslint:all",
+		"next/core-web-vitals",
+		"plugin:react/all",
+		"plugin:import/errors",
+		"plugin:import/warnings",
+		"plugin:sonarjs/recommended",
+		"prettier"
+	],
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"node": true
+	},
+	"plugins": [
+		"simple-import-sort",
+		"sort-keys-fix",
+		"sonarjs",
+		"unused-imports"
+	],
+	"rules": {
+		"id-length": ["error", { "exceptionPatterns": ["a|b"] }],
+		"import/no-named-as-default": "off",
+		"import/no-unresolved": "off",
+		"func-style": [2, "declaration", { "allowArrowFunctions": true }],
+		"max-lines-per-function": ["error", 80],
+		"no-magic-numbers": "off",
+		"no-ternary": "off",
+		"react/jsx-max-depth": "off",
+		"react/jsx-no-literals": "off",
+		"react/jsx-no-bind": "off",
+		"react/jsx-props-no-spreading": "off",
+		"react/no-unescaped-entities": "off",
+		"react/no-multi-comp": "off",
+		"react/no-danger": "off",
+		"react/require-default-props": "off",
+		"simple-import-sort/exports": "error",
+		"simple-import-sort/imports": "error",
+		"sort-imports": "off",
+		"sort-keys-fix/sort-keys-fix": "warn"
+	},
+	"ignorePatterns": ["node_modules/", ".next/"]
+}
