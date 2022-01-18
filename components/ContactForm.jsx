@@ -17,12 +17,12 @@ export default function ContactForm() {
 
 		try {
 			const response = await fetch("/api/contact", {
-					body: JSON.stringify(formData),
+					method: "post",
 					headers: {
 						Accept: "application/json, text/plain, */*",
 						"Content-Type": "application/json",
 					},
-					method: "post",
+					body: JSON.stringify(formData),
 				}),
 				res = await response.json();
 
