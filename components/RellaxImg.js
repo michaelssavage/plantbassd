@@ -38,7 +38,7 @@ const Welcome = () => {
 	return (
 		<div className={styles.welcomeText}>
 			<div className={`animate ${styles.textShape}`}>
-				<h1 className="header">Plant Bass'd</h1>
+				<h1 className={styles.header}>Plant Bass'd</h1>
 				<p>
 					Profiling the experimental dance music world and throwing
 					parties in between.
@@ -52,8 +52,8 @@ const Welcome = () => {
 const About = () => {
 	return (
 		<div className={styles.aboutText}>
-			<div className={styles.textShape}>
-				<h1 className="header animate">About Us</h1>
+			<div className={`animate ${styles.textShape}`}>
+				<h1 className={styles.header}>About Us</h1>
 			</div>
 		</div>
 	);

@@ -8,15 +8,13 @@ export default function useFilter(takeovers = []) {
 
 	useEffect(() => {
 		try {
-			if (!filter) {
-				setTakeoverCards(takeovers);
-			} else {
-				setTakeoverCards(
-					takeovers.filter((takeover) =>
-						takeover.frontmatter.title.includes(filter)
-					)
-				);
-			}
+			const filtered =
+				filter === ""
+					? takeovers
+					: takeovers.filter((takeover) =>
+							takeover.frontmatter.title.includes(filter)
+					  );
+			setTakeoverCards(filtered);
 		} catch (e) {
 			setHasErrored(true);
 			setError(e);

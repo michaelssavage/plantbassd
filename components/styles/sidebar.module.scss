@@ -28,6 +28,10 @@
 	font-size: 2rem;
 }
 
+.cancelToggle {
+	font-size: 2.2rem;
+}
+
 .navContainer {
 	position: fixed;
 	top: 0;
@@ -99,8 +103,8 @@
 @include breakpoint-below(sm) {
 	.header {
 		height: 9rem;
-		width: 3rem;
-		padding: 0 0.5rem;
+		width: 2.2rem;
+		padding: 0 0.1rem;
 	}
 
 	.navContainer {
@@ -110,6 +114,7 @@
 
 	.extendHeader {
 		width: 18rem;
+		padding: 0 1rem !important;
 	}
 
 	.extendNav {

@@ -21,13 +21,13 @@ export default function ContactPage() {
 							Savage, and Peter Toal. Originally from Co.
 							Monaghan, Ireland, the three lads created the
 							collective in early 2020 with the intention of
-							highlighting the differnt communities in the
+							highlighting the different communities in the
 							electronic music scene.
 						</p>
 						<p>
-							With a shared interests and ambitions, the team
-							looks towards creating unforgettable Plant Bass'd
-							nights in Edinburgh, Dublin, and Monaghan.
+							With shared interests and ambitions, the team looks
+							towards creating unforgettable Plant Bass'd nights
+							in Edinburgh, Glasgow, Dublin, and Monaghan.
 						</p>
 
 						<p>
