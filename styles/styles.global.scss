@@ -1,4 +1,5 @@
 @import "breakpoints";
+@import "colors";
 
 @font-face {
 	font-family: "Messina";
@@ -35,7 +36,7 @@ a {
 
 h1 {
 	font-family: "Messina";
-	color: var(--headerBlack);
+	color: $headerBlack;
 	@extend a;
 }
 
@@ -67,7 +68,7 @@ Link {
 .anchorHover {
 	@extend .anchor;
 	&:hover {
-		color: var(--headerBlack);
+		color: $headerBlack;
 		filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
 	}
 }
@@ -78,7 +79,7 @@ Link {
 }
 
 .blackAnchor {
-	color: var(--black) !important;
+	color: $black !important;
 	@extend .anchorHover;
 }
 
@@ -93,12 +94,12 @@ Link {
 }
 
 .header {
-	color: var(--headerBlack) !important;
+	color: $headerBlack !important;
 	font-size: 3em;
 }
 
 .discoveryCards {
-	background: linear-gradient(130deg, var(--pink) 20%, var(--green) 80%);
+	background: linear-gradient(130deg, $pink 20%, $green 80%);
 }
 
 .top-ten-2021 {
@@ -158,12 +159,12 @@ Link {
 }
 
 .soundcloudOverlay {
-	background-color: var(--soundcloud);
+	background-color: $soundcloud;
 	@extend .imgOverlay;
 }
 
 .youtubeOverlay {
-	background-color: var(--youtube);
+	background-color: $youtube;
 	@extend .imgOverlay;
 }
 
@@ -172,7 +173,7 @@ Link {
 }
 
 .imgTextOverlay {
-	color: var(--white);
+	color: $white;
 	font-size: 20px;
 	position: absolute;
 	top: 50%;

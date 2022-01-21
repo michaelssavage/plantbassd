@@ -8,7 +8,7 @@ import styles from "@/styles/card.module.scss";
 export default function CardWithText({ post, link }) {
 	return (
 		<div
-			className={`${styles.cardSpacing}
+			className={`
 			col-6 
 			col-sm-6 
 			col-md-6 

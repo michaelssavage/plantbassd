@@ -7,7 +7,13 @@ import styles from "@/styles/card.module.scss";
 
 export default function CardNoText({ post, link }) {
 	return (
-		<div className="col-6 col-md-6 col-lg-6 col-xl-3">
+		<div
+			className={`
+			col-6 
+			col-md-6 
+			col-lg-6 
+			col-xl-3`}
+		>
 			<Link href={link}>
 				<a className="anchorColor">
 					<div className={`card ${styles.cardStyle}`}>

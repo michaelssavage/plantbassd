@@ -1,9 +1,10 @@
 @import "breakpoints";
+@import "colors";
 
 .container {
 	padding: 3rem 6rem;
 	min-height: 100vh;
-	background-color: var(--lavender);
+	background-color: $lavender;
 }
 
 .imgHolder {
@@ -21,10 +22,10 @@
 	height: 3rem;
 	width: 3rem;
 	margin: 1rem 0;
-	fill: var(--headerBlack);
+	fill: $headerBlack;
 	&:hover {
 		transform: scale(1.1);
-		filter: drop-shadow(0px 6px 6px var(--dropShadow));
+		filter: drop-shadow(0px 6px 6px $dropShadow);
 	}
 }
 

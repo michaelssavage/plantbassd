@@ -1,4 +1,5 @@
 @import "styles/breakpoints";
+@import "styles/colors";
 
 .cardStyle {
 	cursor: pointer;
@@ -24,13 +25,6 @@
 	font-size: 1rem;
 }
 
-// @include breakpoint-below(md) {
-@media (max-width: 992px) {
-	.cardSpacing {
-		padding-bottom: 1rem;
-	}
-}
-
 // @include breakpoint-below(xs) {
 @media (max-width: 576px) {
 	.cardBody {
@@ -52,7 +46,7 @@
 	width: 100%;
 	opacity: 0;
 	transition: 0.5s ease;
-	background-color: var(--soundcloud);
+	background-color: $soundcloud;
 }
 
 .imgContainer:hover .imgOverlay {
@@ -60,7 +54,7 @@
 }
 
 .imgText {
-	color: var(--white);
+	color: $white;
 	font-size: 20px;
 	position: absolute;
 	top: 50%;
