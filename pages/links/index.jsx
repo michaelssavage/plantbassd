@@ -16,13 +16,13 @@ export default function Links({ links }) {
 				<div className={`row ${styles.pbLogo}`}>
 					<Image
 						alt="plant bass'd logo"
-						height="80"
+						height="60"
 						src="/various/logo_circle.png"
-						width="80"
+						width="60"
 					/>
 				</div>
 				<div className="row text-center">
-					<h1>Plant Bass'd</h1>
+					<h1 className={styles.linkHeading}>PLANT BASS'D</h1>
 				</div>
 
 				<div className="row">

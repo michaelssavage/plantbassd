@@ -5,7 +5,7 @@ import Rellax from "rellax";
 
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 
-import styles from "./styles/welcome.module.scss";
+import styles from "./styles/rellax.module.scss";
 
 export default function RellaxImg({ main, img }) {
 	useEffect(() => {
@@ -31,33 +31,26 @@ export default function RellaxImg({ main, img }) {
 				/>
 			</div>
 
-			{main ? <Welcome /> : <About />}
+			<div className={styles.frontText}>
+				<div className={`animate ${styles.textShape}`}>
+					<h1 className={styles.header}>Plant Bass'd</h1>
+
+					{main ? <Welcome /> : null}
+				</div>
+			</div>
 		</section>
 	);
 }
 
 function Welcome() {
 	return (
-		<div className={styles.welcomeText}>
-			<div className={`animate ${styles.textShape}`}>
-				<h1 className={styles.header}>Plant Bass'd</h1>
-				<p>
-					Profiling the experimental dance music world and throwing
-					parties in between.
-				</p>
-				<DiscoverMoreBtn link="/contact-us" title="About Us" />
-			</div>
-		</div>
-	);
-}
-
-function About() {
-	return (
-		<div className={styles.aboutText}>
-			<div className={`animate ${styles.textShape}`}>
-				<h1 className={styles.header}>About Us</h1>
-			</div>
-		</div>
+		<>
+			<p>
+				Profiling the experimental dance music world and throwing
+				parties in between.
+			</p>
+			<DiscoverMoreBtn link="/contact-us" title="About Us" />
+		</>
 	);
 }
 
