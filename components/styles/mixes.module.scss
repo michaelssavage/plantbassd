@@ -1,7 +1,8 @@
 @import "styles/breakpoints";
+@import "styles/colors";
 
 .mixSection {
-	background-color: var(--lavender);
+	background-color: $lavender;
 	padding: 4vmax 0;
 }
 
@@ -42,5 +43,5 @@
 }
 
 .hoverBtn:hover {
-	color: var(--white) !important;
+	color: $white !important;
 }

@@ -1,9 +1,10 @@
 @import "styles/breakpoints";
+@import "styles/colors";
 
 .descriptor {
 	text-align: left !important;
 	padding-top: 1.5rem !important;
-	background-color: var(--white);
+	background-color: $white;
 }
 
 .footerParagraph {
@@ -28,7 +29,7 @@
 }
 
 .footerColor {
-	color: var(--headerBlack);
+	color: $headerBlack;
 	padding-left: 0;
 	list-style: none;
 }

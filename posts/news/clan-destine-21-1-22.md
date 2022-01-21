@@ -4,7 +4,7 @@ date: "January 21, 2022"
 tags: "fresh juice"
 pic: "/news/17-clan-destine.jpg"
 bandcamp: "https://clandestinerecords.bandcamp.com/album/thee-alpha-and-thee-omega-vol-ix"
-postLink: "https://www.instagram.com/plantbassddjs"
+postLink: "https://www.instagram.com/p/CY_pe9Itp1C/"
 bio: "We caught up with label honcho Carl who has been steering the ship behind one of Glasgow’s best kept secrets for the last 10+ years...."
 ---
 
@@ -15,8 +15,6 @@ bio: "We caught up with label honcho Carl who has been steering the ship behind 
 Glasgow’s Clan Destine Records arrive with the ninth installment in their ‘ALPHA AND OMEGA‘ compilation series with a disturbing concoction of booty shaking juke, footwork, jungle, breaks, grime, electro, ghetto tech, hip hop and phonk.
 
 A collection of trax from global producers, Clan Destine have made a knack of connecting with artists from far and wide on their now vast discography.
-
-We caught up with label honcho Carl who has been steering the ship behind one of Glasgow’s best kept secrets for the last 10+ years.
 
 Initially a platform for the post punk scene in Glasgow around the time of 2009, the range of sounds and styles that have come out of Clan Destine since its initialization have been immense. A platform for the experimental, for the dark and mysterious, the label has an output of well over 200 releases on Bandcamp, beit compilations, EPs, LPs, mixtapes or mixes with alumni from all over the world.
 

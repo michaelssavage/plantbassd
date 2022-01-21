@@ -17,7 +17,7 @@ function OtherNews({ otherNews }) {
 						href={`/news/${story.slug}`}
 						key={story.frontmatter.title}
 					>
-						<a className="blackAnchor">
+						<a className={`blackAnchor ${styles.anchorList}`}>
 							<div
 								className={`list-group-item flex-fill ${styles.cardList}`}
 								key={story.frontmatter.title}

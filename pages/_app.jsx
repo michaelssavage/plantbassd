@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css"; // eslint-disable-line
 import "../styles/styles.global.scss"; // eslint-disable-line
-import "../styles/colors.css"; // eslint-disable-line
 
 import Sidebar from "components/Sidebar";
 import Head from "next/head";
