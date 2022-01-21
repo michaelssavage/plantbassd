@@ -19,7 +19,7 @@ export default function useFilter(takeovers = []) {
 			setHasErrored(true);
 			setError(e);
 		}
-	}, [filter, takeovers]);
+	}, [filter, takeoverCards]);
 
 	return { hasErrored, error, takeoverCards, filter, setFilter };
 }
