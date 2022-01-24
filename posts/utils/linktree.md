@@ -1,5 +1,7 @@
 ---
 links:
+  - title: "EDINBURGH WEEKLY CLUB GUIDE: REOPENING WEEK"
+    link: "https://www.plantbassd.com/news/edi-weekly-club-guide-24-01-22"
   - title: "FRESH JUICE: CLAN DESTINE - 'THEE ALPHA AND THEE OMEGA VOL. IX'"
     link: "https://www.plantbassd.com/news/clan-destine-21-1-22"
   - title: "FRESH JUICE: Jason Code - 'JCO1'"
