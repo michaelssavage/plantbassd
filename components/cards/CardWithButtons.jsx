@@ -1,3 +1,4 @@
+import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
 import Link from "next/link";
 import PropTypes from "prop-types";
@@ -17,8 +18,12 @@ export default function CardWithButtons({
 			<div className={news.newsImage}>
 				<Image
 					alt={title}
+					blurDataURL={`data:image/svg+xml;base64,${toBase64(
+						shimmer(400, 400)
+					)}`}
 					height={500}
 					layout="responsive"
+					placeholder="blur"
 					src={pic}
 					width={500}
 				/>

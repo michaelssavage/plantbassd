@@ -1,3 +1,4 @@
+import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
 import PropTypes from "prop-types";
 import React, { useEffect } from "react";
@@ -25,8 +26,12 @@ export default function RellaxImg({ main, img }) {
 			<div className={styles.bgWrap}>
 				<Image
 					alt="background image"
+					blurDataURL={`data:image/svg+xml;base64,${toBase64(
+						shimmer(1080, 720)
+					)}`}
 					layout="fill"
 					objectFit="cover"
+					placeholder="blur"
 					src={img}
 				/>
 			</div>

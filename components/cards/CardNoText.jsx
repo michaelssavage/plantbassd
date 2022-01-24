@@ -1,3 +1,4 @@
+import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
 import Link from "next/link";
 import PropTypes from "prop-types";
@@ -19,9 +20,13 @@ export default function CardNoText({ post, link }) {
 					<div className={`card ${styles.cardStyle}`}>
 						<Image
 							alt={post.frontmatter.title}
+							blurDataURL={`data:image/svg+xml;base64,${toBase64(
+								shimmer(400, 400)
+							)}`}
 							// eslint-disable-next-line react/forbid-component-props
 							className="card-img-top"
 							height={500}
+							placeholder="blur"
 							src={post.frontmatter.pic}
 							width={500}
 						/>

@@ -1,4 +1,5 @@
 import { socialIconList } from "arrays/SidebarIcons";
+import { shimmer, toBase64 } from "components/BlurImg";
 import ContactForm from "components/ContactForm";
 import Footer from "components/Footer";
 import RellaxImg from "components/RellaxImg";
@@ -50,11 +51,15 @@ export default function ContactPage() {
 					<div className="col-lg-4 col-md-12">
 						<Image
 							alt="three lads"
+							blurDataURL={`data:image/svg+xml;base64,${toBase64(
+								shimmer(400, 400)
+							)}`}
 							// eslint-disable-next-line react/forbid-component-props
 							className={styles.img}
-							height="540"
+							height={540}
+							placeholder="blur"
 							src="/various/hoodie.jpg"
-							width="810"
+							width={810}
 						/>
 					</div>
 				</div>

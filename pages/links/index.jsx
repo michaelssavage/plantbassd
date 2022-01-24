@@ -1,4 +1,5 @@
 import { socialIconList } from "arrays/SidebarIcons";
+import { shimmer, toBase64 } from "components/BlurImg";
 import SocialIcon from "components/SocialIcon";
 import fs from "fs";
 import matter from "gray-matter";
@@ -16,9 +17,13 @@ export default function Links({ links }) {
 				<div className={`row ${styles.pbLogo}`}>
 					<Image
 						alt="plant bass'd logo"
-						height="60"
+						blurDataURL={`data:image/svg+xml;base64,${toBase64(
+							shimmer(400, 400)
+						)}`}
+						height={60}
+						placeholder="blur"
 						src="/various/logo_circle.png"
-						width="60"
+						width={60}
 					/>
 				</div>
 				<div className="row text-center">
