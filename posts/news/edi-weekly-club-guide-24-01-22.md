@@ -5,14 +5,16 @@ tags: "reviews"
 pic: "/news/18-edinburgh-club-guide.jpg"
 seeMore: "https://ra.co/events/uk/edinburgh?week=2022-01-24"
 postLink: "https://www.instagram.com/plantbassddjs"
-bio: "EDINBURGH WEEKLY CLUB GUIDE - The capital is back with a bang.."
+bio: "EDINBURGH WEEKLY CLUB GUIDE - Clubbing and normality as it were return this week after a frustrating month long hiatus in Scotland.."
 ---
 
-Clubbing and normality as it were return this week after a frustrating month long hiatus in Scotland. The capital is back with a bang with a very appetizing string of parties across the Cowgate and surrounding area from tonight onward. We will be highlighting the top club nights each week, profiling the best dance and experimental club nights that Edinburgh has to offer.
+### Clubbing and normality as it were return this week after a frustrating month long hiatus in Scotland.
+
+The capital is back with a bang with a very appetizing string of parties across the Cowgate and surrounding area from tonight onward. We will be highlighting the top club nights each week, profiling the best dance and experimental club nights that Edinburgh has to offer.
 
 **MONDAY 24th**
 
--   Bongo Club Reopening Night: Skillis All Night Long
+#### Bongo Club Reopening Night: Skillis All Night Long
 
 <img src="/news/18-club-guide/bongo.jpg" alt="Bongo Club" width="95%" />
 
@@ -21,7 +23,7 @@ Grandmaster Skillis takes charge of the Messenger Sound System for a special reo
 
 **TUESDAY 25th**
 
--   Midnight Bass // Relive Hogmanay @ Bongo Club
+#### Midnight Bass // Relive Hogmanay @ Bongo Club
 
 <img src="/news/18-club-guide/midnight-bass.jpg" alt="Midnight Bass" width="95%" />
 
@@ -30,7 +32,7 @@ Edinburgh and Scotland’s biggest DnB party returns to its infamous Tuesday nig
 
 **WEDNESDAY 26th**
 
--   Night Tube presents Aletha & Jacuzzi General @ Bongo Club
+#### Night Tube presents Aletha & Jacuzzi General @ Bongo Club
 
 <img src="/news/18-club-guide/night-tube.jpg" alt="Bongo Club Night Tune" width="95%" />
 
@@ -39,7 +41,7 @@ Bongo is the place to be on the opening nights it seems with Wednesday hosting N
 
 **THURSDAY 27th**
 
--   It’sNotRadio 1st Birthday @ Mash House
+#### It’sNotRadio 1st Birthday @ Mash House
 
 <img src="/news/18-club-guide/itsnotradio.jpg" alt="itsnotradio 1st birthday" width="95%" />
 
@@ -48,20 +50,21 @@ Scottish community radio It’sNotRadio celebrates turning one with a takeover a
 
 **FRIDAY 28th**
 
--   Speedset (Headset Does Fast Music) @ Bongo Club
+#### Speedset (Headset Does Fast Music) @ Bongo Club
 
 <img src="/news/18-club-guide/speedset.jpg" alt="speedset" width="95%" />
 
 Headset returns after a capacity Christmas Day party with a shift to the higher realms of the bpms. A massive lineup featuring talents like Anikonik, Feena, and DV60 with jungle, hardcore, ghetto tech, booty bass & more expected to rattle across Bongo’s 2 rooms all night long. One of our standouts for the week!
 £5 - £12 Tickets here https://ra.co/events/1493341
 
-Powerhouse: Warehouse Euphoria @ the Biscuit Factory
+#### Powerhouse: Warehouse Euphoria @ the Biscuit Factory
+
 Hedonism, Unity and Freedom. Powerhouse siege on Leith’s Biscuit Factory for an evening of hardcore, warehouse rave. Taking place at one of Edinburgh’s most unique venues, the Powerhouse crew welcome DJ Smoker, EUROSHOPPER and ONA:V among a stacked lineup showcasing old school funky techno, acidic industrial & more. Bringing it back to 1991 Berlin.
 £8 - Tickets here https://ra.co/events/1493341
 
 <img src="/news/18-club-guide/powerhouse.jpg" alt="Powerhouse" width="95%" />
 
--   Wee Dub Club: Roots Session Inna Leith #2 @ Dr. Bells Baths
+#### Wee Dub Club: Roots Session Inna Leith #2 @ Dr. Bells Baths
 
 <img src="/news/18-club-guide/wee-dub-club.jpg" alt="Wee Dub Club" width="95%" />
 
@@ -70,14 +73,14 @@ The almighty wee dub club return to Great Junction Street for an evening of regg
 
 **SATURDAY 29th**
 
--   Pulse: 90’s Detroit Techno and Electro @ Bongo Club
+#### Pulse: 90’s Detroit Techno and Electro @ Bongo Club
 
 <img src="/news/18-club-guide/pulse-black.jpg" alt="90’s Detroit Techno and Electro @ at Bongo Club" width="95%" />
 
 Pulse return to the Bongo with a special night of music nodding to the sound of old school Detroit techno & electro. Some of Edinburgh’s finest and hardest selectors are on hand here for one of two massive Pulse shows in the city on Saturday night.
 £6 - £10 Tickets here https://ra.co/events/1494179
 
--   Pulse: Neil Landstrumm (Live) @ Mash House
+#### Pulse: Neil Landstrumm (Live) @ Mash House
 
 <img src="/news/18-club-guide/pulse-blue.jpg" alt="Neil Landstrumm (Live) @ Mash House" width="95%" />
 
