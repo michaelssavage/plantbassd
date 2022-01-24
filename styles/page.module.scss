@@ -45,27 +45,28 @@
 	background-color: $headerBlack;
 	margin-bottom: 1rem;
 	&:hover {
-		color: $headerBlack !important;
-		background-color: $instagram !important;
+		color: $headerBlack;
+		background-color: $instagram;
 	}
 }
 
 .spotify {
-	color: $spotify !important;
+	color: $spotify;
 	margin-bottom: 1rem;
 	order: 2;
 	&:hover {
-		color: $headerBlack !important;
-		background-color: $spotify !important;
+		color: $headerBlack;
+		background-color: $spotify;
 	}
 }
 
 .soundcloud {
-	color: $white !important;
-	background-color: $soundcloud !important;
+	color: $white;
+	background-color: $soundcloud;
 	margin-bottom: 1rem;
 	&:hover {
-		color: $headerBlack !important;
+		color: $headerBlack;
+		background-color: $soundcloud;
 	}
 }
 
@@ -102,10 +103,6 @@
 	@extend .divBackground;
 }
 
-.parallax {
-	height: 60vh !important;
-}
-
 // @include breakpoint-below(md) {
 @media (max-width: 992px) {
 	.divBackground {
@@ -124,10 +121,6 @@
 	.bHeader {
 		padding: 10vh 0.5rem 0 0.5rem;
 		font-size: 2.4em;
-	}
-
-	.parallax {
-		height: 50vh !important;
 	}
 
 	.searchBox {

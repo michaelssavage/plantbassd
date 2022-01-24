@@ -1,3 +1,4 @@
+import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
 import PropTypes from "prop-types";
 import React from "react";
@@ -10,8 +11,13 @@ export default function CardExternal({ card }) {
 				<a href={card.link} rel="noopener noreferrer" target="_blank">
 					<Image
 						alt={card.pic}
-						className="card-img-top" // eslint-disable-line react/forbid-component-props
+						blurDataURL={`data:image/svg+xml;base64,${toBase64(
+							shimmer(400, 400)
+						)}`}
+						// eslint-disable-next-line react/forbid-component-props
+						className="card-img-top"
 						height={500}
+						placeholder="blur"
 						src={card.pic}
 						width={500}
 					/>

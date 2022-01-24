@@ -14,23 +14,26 @@
 	font-size: 3em;
 }
 
+@include breakpoint-below(xs) {
+	.header {
+		font-size: 2em;
+	}
+}
+
+@include breakpoint-below(xxs) {
+	.header {
+		font-size: 1.6em;
+	}
+}
+
 .frontText {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	overflow-y: hidden;
-}
-
-.welcomeText {
-	height: 90vh;
-	padding: 0 15%;
-	@extend .frontText;
-}
-
-.aboutText {
-	height: 60vh;
-	@extend .frontText;
+	height: 80vh;
+	padding: 0 3.8rem;
 }
 
 .textShape {
@@ -39,9 +42,4 @@
 	align-items: flex-start;
 	flex-direction: column;
 	flex-wrap: wrap;
-}
-
-.names {
-	display: flex;
-	flex-direction: row;
 }

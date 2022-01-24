@@ -11,12 +11,13 @@ export default function useClickLocation() {
 		navMenu = useRef();
 	useEffect(() => {
 		const handler = (event) => {
-			if (!navMenu.current.contains(event.target)) {
+			if (!navMenu.current.contains(event.target) && sidebar) {
 				closeSidebar();
 			}
 		};
-		document.addEventListener("mousedown", handler);
-
+		if (sidebar) {
+			document.addEventListener("mousedown", handler);
+		}
 		return () => {
 			document.removeEventListener("mousedown", handler);
 		};

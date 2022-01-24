@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
+import { IconContext } from "react-icons";
 import {
 	AiFillHome,
 	AiOutlineFacebook,
@@ -14,32 +15,40 @@ import { MdContacts } from "react-icons/md";
 import { RiSoundcloudLine, RiSpotifyLine } from "react-icons/ri";
 
 export default function SocialIcon({ icon, styling }) {
-	switch (icon) {
-		case "Home":
-			return <AiFillHome className={styling} />;
-		case "News":
-			return <ImNewspaper className={styling} />;
-		case "Mixes":
-			return <RiSoundcloudLine className={styling} />;
-		case "Takeovers":
-			return <FaSpotify className={styling} />;
-		case "Radio":
-			return <BiRadio className={styling} />;
-		case "Contact Us":
-			return <MdContacts className={styling} />;
-		case "Links":
-			return <AiOutlineLink className={styling} />;
-		case "facebook":
-			return <AiOutlineFacebook className={styling} />;
-		case "instagram":
-			return <AiOutlineInstagram className={styling} />;
-		case "email":
-			return <AiOutlineMail className={styling} />;
-		case "soundcloud":
-			return <RiSoundcloudLine className={styling} />;
-		default:
-			return <RiSpotifyLine className={styling} />;
-	}
+	const Switcher = () => {
+		switch (icon) {
+			case "Home":
+				return <AiFillHome />;
+			case "News":
+				return <ImNewspaper />;
+			case "Mixes":
+				return <RiSoundcloudLine />;
+			case "Takeovers":
+				return <FaSpotify />;
+			case "Radio":
+				return <BiRadio />;
+			case "Contact Us":
+				return <MdContacts />;
+			case "Links":
+				return <AiOutlineLink />;
+			case "facebook":
+				return <AiOutlineFacebook />;
+			case "instagram":
+				return <AiOutlineInstagram />;
+			case "email":
+				return <AiOutlineMail />;
+			case "soundcloud":
+				return <RiSoundcloudLine />;
+			default:
+				return <RiSpotifyLine />;
+		}
+	};
+
+	return (
+		<IconContext.Provider value={{ className: styling }}>
+			<Switcher />
+		</IconContext.Provider>
+	);
 }
 
 SocialIcon.propTypes = {

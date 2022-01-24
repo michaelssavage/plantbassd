@@ -85,6 +85,7 @@ Link {
 
 .globalBottomBtn {
 	margin-top: 1rem !important;
+	text-align: left;
 }
 
 .globalSection {
@@ -106,21 +107,25 @@ Link {
 	padding: 2rem 0;
 }
 
-.parallaxHeightChange {
-	height: 80vh !important;
-}
-
 @include breakpoint-below(sm) {
 	body {
 		margin-left: -3rem !important;
 	}
 
-	.parallaxHeightChange {
-		height: 50vh !important;
+	.header {
+		font-size: 2.4em;
 	}
+}
 
+@include breakpoint-below(xs) {
 	.header {
 		font-size: 2em;
+	}
+}
+
+@include breakpoint-below(xxs) {
+	.header {
+		font-size: 1.6em;
 	}
 }
 

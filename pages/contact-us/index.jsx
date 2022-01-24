@@ -1,4 +1,5 @@
 import { socialIconList } from "arrays/SidebarIcons";
+import { shimmer, toBase64 } from "components/BlurImg";
 import ContactForm from "components/ContactForm";
 import Footer from "components/Footer";
 import RellaxImg from "components/RellaxImg";
@@ -14,8 +15,10 @@ export default function ContactPage() {
 			<RellaxImg img="/various/collage.jpg" main={false} />
 
 			<div className={styles.container}>
-				<div className="row">
-					<div className="col-lg-6 col-md-12">
+				<div className="row pb-4">
+					<div className="col-lg-8 col-md-12">
+						<h1 className={styles.header}>About Us</h1>
+
 						<p>
 							{`Plant Bass'd consists of Oisin Campbell, Michael
 							Savage, and Peter Toal. Originally from Co.
@@ -30,22 +33,9 @@ export default function ContactPage() {
 							in Edinburgh, Glasgow, Dublin, and Monaghan.`}
 						</p>
 
-						<p>
-							{`Site by `}
-							<a
-								className="blackAnchor"
-								href="https://www.github.com/michaelssavage"
-							>
-								Michael.
-							</a>
-						</p>
-
 						<div className="row">
 							{socialIconList.map((item) => (
-								<div
-									className={`col ${styles.iconContainer}`}
-									key={item.link}
-								>
+								<div className="col" key={item.link}>
 									<Link href={item.link}>
 										<a>
 											<SocialIcon
@@ -58,17 +48,18 @@ export default function ContactPage() {
 							))}
 						</div>
 					</div>
-					<div
-						className={`${styles.imgHolder}
-						col-lg-6 
-						col-md-12
-					`}
-					>
+					<div className="col-lg-4 col-md-12">
 						<Image
 							alt="three lads"
-							height="719"
+							blurDataURL={`data:image/svg+xml;base64,${toBase64(
+								shimmer(400, 400)
+							)}`}
+							// eslint-disable-next-line react/forbid-component-props
+							className={styles.img}
+							height={540}
+							placeholder="blur"
 							src="/various/hoodie.jpg"
-							width="1080"
+							width={810}
 						/>
 					</div>
 				</div>

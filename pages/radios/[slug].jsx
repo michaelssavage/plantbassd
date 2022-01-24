@@ -1,3 +1,4 @@
+import { shimmer, toBase64 } from "components/BlurImg";
 import Footer from "components/Footer";
 import fs from "fs";
 import matter from "gray-matter";
@@ -37,7 +38,11 @@ export default function RadioSlug({
 							<div className={styles.imgWrapper}>
 								<Image
 									alt="artist tracklist"
+									blurDataURL={`data:image/svg+xml;base64,${toBase64(
+										shimmer(400, 400)
+									)}`}
 									height={600}
+									placeholder="blur"
 									src={tracklist}
 									width={600}
 								/>

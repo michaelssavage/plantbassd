@@ -1,3 +1,4 @@
+import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
 import React from "react";
 
@@ -13,14 +14,22 @@ export default function ArtistCard() {
 						<div className={styles.mixImages}>
 							<Image
 								alt="setradio logo"
-								height="400"
+								blurDataURL={`data:image/svg+xml;base64,${toBase64(
+									shimmer(400, 400)
+								)}`}
+								height={400}
+								placeholder="blur"
 								src="/mixes/7-set.jpg"
-								width="400"
+								width={400}
 							/>
 							<div className={styles.topImage}>
 								<Image
 									alt="itsnotradio logo"
+									blurDataURL={`data:image/svg+xml;base64,${toBase64(
+										shimmer(400, 400)
+									)}`}
 									height="400"
+									placeholder="blur"
 									src="/mixes/1-itsnotradio.jpg"
 									width="400"
 								/>
@@ -29,7 +38,7 @@ export default function ArtistCard() {
 					</div>
 
 					<div className="col-lg-6 col-md-12">
-						<div className={styles.clubDescriptor}>
+						<div className={`text-center ${styles.clubDescriptor}`}>
 							<h1 className="header" name="mixes">
 								Mixes
 							</h1>

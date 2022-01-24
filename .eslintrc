@@ -5,7 +5,6 @@
 		"plugin:react/all",
 		"plugin:import/errors",
 		"plugin:import/warnings",
-		"plugin:sonarjs/recommended",
 		"prettier"
 	],
 	"env": {
@@ -13,12 +12,7 @@
 		"es2021": true,
 		"node": true
 	},
-	"plugins": [
-		"simple-import-sort",
-		"sort-keys-fix",
-		"sonarjs",
-		"unused-imports"
-	],
+	"plugins": ["simple-import-sort", "sort-keys-fix", "unused-imports"],
 	"rules": {
 		"id-length": ["error", { "exceptionPatterns": ["a|b"] }],
 		"import/no-named-as-default": "off",
