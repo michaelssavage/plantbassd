@@ -11,18 +11,15 @@ import { FaBars } from "react-icons/fa";
 import styles from "@/styles/sidebar.module.scss";
 
 function Listing({ link, onClick, title }) {
-	const router = useRouter();
+	const router = useRouter(),
+		className = // eslint-disable-line sort-vars
+			router.pathname === `${link}`
+				? `${styles.activeLink}`
+				: `${styles.navLink}`;
 	return (
 		<Link href={link} passHref>
 			<a className="anchor">
-				<div
-					className={
-						router.pathname === link
-							? styles.activeLink
-							: styles.navLink
-					}
-					onClick={onClick}
-				>
+				<div className={className} onClick={onClick}>
 					<SocialIcon icon={title} styling={styles.navIcon} />
 					<span className={styles.navName}>{title}</span>
 				</div>
