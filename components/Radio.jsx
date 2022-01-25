@@ -7,14 +7,12 @@ import styles from "@/styles/components.module.scss";
 
 export default function Radio({ radios }) {
 	return (
-		<div className={styles.bgBlue}>
-			<div className="globalSection">
+		<section className={styles.bgBlue}>
+			<div className="container">
 				<h1 className="header" name="radios">
 					Guest Radio
 				</h1>
 				<p>Plant Bass'd Radio Mixes.</p>
-			</div>
-			<div className="container">
 				<div className="row g-2">
 					{radios.map((artist) => (
 						<CardNoText
@@ -27,7 +25,7 @@ export default function Radio({ radios }) {
 
 				<DiscoverMoreBtn link="/radios" />
 			</div>
-		</div>
+		</section>
 	);
 }
 

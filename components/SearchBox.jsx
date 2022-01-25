@@ -7,7 +7,7 @@ export default function SearchBox({ styling, filter, setFilter }) {
 			<input
 				aria-label="Filter"
 				className="form-control"
-				onChange={(event) => setFilter(event.target.value)} // eslint-disable-line react/jsx-no-bind
+				onChange={setFilter} // eslint-disable-line react/jsx-no-bind
 				placeholder="Filter Artists By Name"
 				type="text"
 				value={filter}

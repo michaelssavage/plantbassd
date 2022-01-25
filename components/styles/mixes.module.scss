@@ -11,7 +11,7 @@
 	padding-bottom: 5rem;
 }
 
-.topImage {
+.bottomImage {
 	position: absolute;
 	right: 0;
 	bottom: 0;
@@ -25,12 +25,26 @@
 // @include breakpoint-below(sm) {
 @media (max-width: 768px) {
 	.topImage {
-		display: none;
+		-moz-box-flex: 0;
+		flex: 0 0 auto;
+		width: 50%;
+		padding-right: 0.25rem;
+		padding-left: 0.25rem;
+	}
+
+	.bottomImage {
+		position: static;
+		-moz-box-flex: 0;
+		flex: 0 0 auto;
+		width: 50%;
+		padding-right: 0.25rem;
+		padding-left: 0.25rem;
 	}
 
 	.mixImages {
-		padding: 0 2rem 1rem 2rem;
-		text-align: center;
+		padding-bottom: 1rem;
+		display: flex;
+		flex-direction: row;
 	}
 
 	.clubDescriptor {
@@ -44,4 +58,10 @@
 
 .hoverBtn:hover {
 	color: $white !important;
+}
+
+@include breakpoint-below(xs) {
+	.mixImages {
+		padding: 0 1.5rem;
+	}
 }

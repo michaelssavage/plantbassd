@@ -8,18 +8,20 @@ export default function useFilter(takeovers = []) {
 
 	useEffect(() => {
 		try {
-			const filtered =
-				filter === ""
+			setTakeoverCards(
+				!filter
 					? takeovers
 					: takeovers.filter((takeover) =>
-							takeover.frontmatter.title.includes(filter)
-					  );
-			setTakeoverCards(filtered);
-		} catch (e) {
+							takeover.frontmatter.title
+								.toLowerCase()
+								.includes(filter.toLowerCase())
+					  )
+			);
+		} catch (err) {
 			setHasErrored(true);
-			setError(e);
+			setError(err);
 		}
-	}, [filter, takeovers]);
+	}, [filter]);
 
 	return { hasErrored, error, takeoverCards, filter, setFilter };
 }

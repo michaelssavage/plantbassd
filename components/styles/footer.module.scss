@@ -2,8 +2,7 @@
 @import "styles/colors";
 
 .descriptor {
-	text-align: left !important;
-	padding-top: 1.5rem !important;
+	padding: 1.5rem 2rem 0 2rem;
 	background-color: $white;
 }
 
@@ -14,15 +13,12 @@
 
 @include breakpoint-below(md) {
 	.footerParagraph {
-		margin-right: 1rem;
+		margin-right: 0rem;
+		padding-left: 0rem;
 	}
 }
 
 @include breakpoint-below(sm) {
-	.descriptor {
-		text-align: center !important;
-	}
-
 	.footerParagraph {
 		margin-right: 0;
 	}

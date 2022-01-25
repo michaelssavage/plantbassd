@@ -20,10 +20,10 @@ export default function Home({ news, takeovers, radios }) {
 
 			<Mixes />
 
-			<div className="discoveryCards">
+			<section className="discoveryCards">
 				<Takeover takeovers={takeovers} />
 				<Radio radios={radios} />
-			</div>
+			</section>
 
 			<Footer />
 		</>

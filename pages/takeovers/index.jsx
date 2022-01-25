@@ -16,7 +16,10 @@ import CardNoText from "@/cards/CardNoText";
 
 export default function TakeoverPage({ takeovers }) {
 	const { hasErrored, error, takeoverCards, filter, setFilter } =
-		useFilter(takeovers);
+			useFilter(takeovers),
+		handleSearchChange = (event) => {
+			setFilter(event.target.value);
+		};
 
 	if (hasErrored === true) {
 		return <Error error={error} />;
@@ -34,7 +37,7 @@ export default function TakeoverPage({ takeovers }) {
 					<div className={styles.searchBox}>
 						<SearchBox
 							filter={filter}
-							setFilter={setFilter}
+							setFilter={handleSearchChange}
 							styling={styles.searchFilter}
 						/>
 						<SpotifyButton

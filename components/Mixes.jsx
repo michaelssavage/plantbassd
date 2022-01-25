@@ -12,17 +12,19 @@ export default function ArtistCard() {
 				<div className="row align-items-center">
 					<div className="col-lg-6 col-md-12">
 						<div className={styles.mixImages}>
-							<Image
-								alt="setradio logo"
-								blurDataURL={`data:image/svg+xml;base64,${toBase64(
-									shimmer(400, 400)
-								)}`}
-								height={400}
-								placeholder="blur"
-								src="/mixes/7-set.jpg"
-								width={400}
-							/>
 							<div className={styles.topImage}>
+								<Image
+									alt="setradio logo"
+									blurDataURL={`data:image/svg+xml;base64,${toBase64(
+										shimmer(400, 400)
+									)}`}
+									height={400}
+									placeholder="blur"
+									src="/mixes/7-set.jpg"
+									width={400}
+								/>
+							</div>
+							<div className={styles.bottomImage}>
 								<Image
 									alt="itsnotradio logo"
 									blurDataURL={`data:image/svg+xml;base64,${toBase64(
@@ -38,7 +40,7 @@ export default function ArtistCard() {
 					</div>
 
 					<div className="col-lg-6 col-md-12">
-						<div className={`text-center ${styles.clubDescriptor}`}>
+						<div className={styles.clubDescriptor}>
 							<h1 className="header" name="mixes">
 								Mixes
 							</h1>
