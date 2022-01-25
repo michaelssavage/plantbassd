@@ -88,11 +88,6 @@ Link {
 	text-align: left;
 }
 
-.globalSection {
-	// max-width: 670px;
-	margin: 0 auto 2rem;
-}
-
 .header {
 	color: $headerBlack !important;
 	font-size: 3em;
@@ -100,6 +95,10 @@ Link {
 
 .discoveryCards {
 	background: linear-gradient(130deg, $pink 20%, $green 80%);
+}
+
+.top-ten-2021 {
+	padding: 2rem 0;
 }
 
 @include breakpoint-below(sm) {

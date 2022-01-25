@@ -39,7 +39,7 @@ export default function NewsPage({ news }) {
 	const { hasErrored, error, newsStories, tagList, handleTags } =
 		useNewsFilter(news);
 
-	if (hasErrored === true) {
+	if (hasErrored) {
 		<Error error={error} />;
 	}
 

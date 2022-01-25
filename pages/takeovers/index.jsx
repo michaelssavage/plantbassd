@@ -21,7 +21,7 @@ export default function TakeoverPage({ takeovers }) {
 			setFilter(event.target.value);
 		};
 
-	if (hasErrored === true) {
+	if (hasErrored) {
 		return <Error error={error} />;
 	}
 	return (

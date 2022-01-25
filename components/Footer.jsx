@@ -46,7 +46,6 @@ export default function FooterComponent() {
 
 							<p className="small mb-2">
 								{`© `} {new Date().getFullYear()}
-								{` `}
 								{` Plant Bass'd. All rights reserved.`}
 							</p>
 						</div>
