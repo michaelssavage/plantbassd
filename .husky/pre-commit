@@ -10,12 +10,6 @@ yarn lint ||
         false; 
 )
 
-yarn check-format ||
-(
-    echo 'Prettier Check Failed. Run npm run format, add changes and try commit again.';
-    false;
-)
-
 # If everything passes... Now we can commit
 echo 'Code fine, building now'
 

@@ -3,7 +3,6 @@ import "../styles/styles.global.scss"; // eslint-disable-line
 
 import Sidebar from "components/Sidebar";
 import Head from "next/head";
-import React from "react";
 import PropTypes from "prop-types";
 
 export default function MyApp({ Component, pageProps }) {

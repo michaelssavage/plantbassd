@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import React from "react";
 
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 import CardNoText from "@/cards/CardNoText";

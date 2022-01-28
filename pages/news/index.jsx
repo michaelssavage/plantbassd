@@ -6,7 +6,6 @@ import matter from "gray-matter";
 import useNewsFilter from "hooks/useNewsFilter";
 import path from "path";
 import PropTypes from "prop-types";
-import React from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import styles from "styles/page.module.scss";
 

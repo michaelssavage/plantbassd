@@ -1,6 +1,5 @@
 import Link from "next/link";
 import PropTypes from "prop-types";
-import React from "react";
 
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 import CardWithText from "@/cards/CardWithText";

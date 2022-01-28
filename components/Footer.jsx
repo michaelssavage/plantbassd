@@ -1,7 +1,6 @@
 import { column1, column2 } from "arrays/FooterLinks";
 import Link from "next/link";
 import PropTypes from "prop-types";
-import React from "react";
 
 import styles from "@/styles/footer.module.scss";
 

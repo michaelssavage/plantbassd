@@ -6,7 +6,6 @@ import RellaxImg from "components/RellaxImg";
 import SocialIcon from "components/SocialIcon";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import styles from "styles/contact.module.scss";
 
 export default function ContactPage() {

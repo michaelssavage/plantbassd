@@ -1,6 +1,5 @@
 import { clubMixes, downMixes, otherMixes } from "arrays/MixImages";
 import Footer from "components/Footer";
-import React from "react";
 import styles from "styles/page.module.scss";
 
 import GoBack from "@/btns/GoBack";

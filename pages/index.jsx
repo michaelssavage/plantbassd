@@ -9,7 +9,6 @@ import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 import PropTypes from "prop-types";
-import React from "react";
 
 export default function Home({ news, takeovers, radios }) {
 	return (

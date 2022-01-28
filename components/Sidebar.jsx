@@ -4,7 +4,6 @@ import useClickLocation from "hooks/useClickLocation";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import PropTypes from "prop-types";
-import React from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
 

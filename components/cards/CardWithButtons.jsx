@@ -2,7 +2,6 @@ import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
 import Link from "next/link";
 import PropTypes from "prop-types";
-import React from "react";
 import news from "styles/slug.module.scss";
 
 export default function CardWithButtons({

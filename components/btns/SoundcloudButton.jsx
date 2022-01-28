@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import React from "react";
 import { RiSoundcloudLine } from "react-icons/ri";
 
 export default function SoundcloudButton({ styling, link, title }) {

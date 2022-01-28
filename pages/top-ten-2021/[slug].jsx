@@ -4,7 +4,6 @@ import matter from "gray-matter";
 import { marked } from "marked";
 import path from "path";
 import PropTypes from "prop-types";
-import React from "react";
 import styles from "styles/slug.module.scss";
 
 import GoBack from "@/btns/GoBack";

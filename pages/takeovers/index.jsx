@@ -7,7 +7,6 @@ import matter from "gray-matter";
 import useFilter from "hooks/useFilter";
 import path from "path";
 import PropTypes from "prop-types";
-import React from "react";
 import styles from "styles/page.module.scss";
 
 import GoBack from "@/btns/GoBack";

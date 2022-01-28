@@ -1,6 +1,5 @@
 import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
-import React from "react";
 
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 import styles from "@/styles/mixes.module.scss";

@@ -1,7 +1,7 @@
 import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
 import PropTypes from "prop-types";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Rellax from "rellax";
 
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";

@@ -6,7 +6,6 @@ import { marked } from "marked";
 import Image from "next/image";
 import path from "path";
 import PropTypes from "prop-types";
-import React from "react";
 import styles from "styles/slug.module.scss";
 
 import CardWithButtons from "@/cards/CardWithButtons";
