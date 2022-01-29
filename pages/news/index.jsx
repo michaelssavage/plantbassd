@@ -8,10 +8,10 @@ import Head from "next/head";
 import path from "path";
 import PropTypes from "prop-types";
 import { AiOutlineCloseCircle } from "react-icons/ai";
-import styles from "styles/page.module.scss";
 
 import GoBack from "@/btns/GoBack";
 import CardWithText from "@/cards/CardWithText";
+import styles from "@/pageStyle/page.module.scss";
 
 function FilterTags({ tagList, handleTags }) {
 	return (
@@ -53,9 +53,9 @@ export default function NewsPage({ news }) {
 		<>
 			<div className={styles.newsBG}>
 				<div className="container">
-					<h1 className={styles.bHeader}>Plant Bass'd News</h1>
+					<h1 className={styles.pageHeader}>Plant Bass'd News</h1>
 
-					<p className={styles.bTexter}>
+					<p className={styles.pageText}>
 						{`News about Fresh Juice, Gigs, and all things Plant
 						Bass'd. Keep up to date on our Instagram, `}
 						<a

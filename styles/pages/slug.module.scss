@@ -1,5 +1,4 @@
-@import "breakpoints";
-@import "colors";
+@use "@/abstracts" as *;
 
 .newsSection {
 	margin: 10vh 0;

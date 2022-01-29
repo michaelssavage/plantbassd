@@ -1,5 +1,4 @@
-@import "styles/breakpoints";
-@import "styles/colors";
+@use "@/abstracts" as *;
 
 .mixSection {
 	background-color: $lavender;

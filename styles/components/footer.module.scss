@@ -1,5 +1,4 @@
-@import "styles/breakpoints";
-@import "styles/colors";
+@use "@/abstracts" as *;
 
 .descriptor {
 	padding: 1.5rem 2rem 0 2rem;

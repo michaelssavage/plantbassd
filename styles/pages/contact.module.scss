@@ -1,5 +1,4 @@
-@import "breakpoints";
-@import "colors";
+@use "@/abstracts" as *;
 
 .container {
 	padding: 3rem 6rem;

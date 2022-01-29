@@ -1,5 +1,4 @@
-@import "styles/breakpoints";
-@import "styles/colors";
+@use "@/abstracts" as *;
 
 .header {
 	height: 5rem;
@@ -26,11 +25,11 @@
 
 .headerToggle {
 	color: $white;
-	font-size: 2rem;
+	font-size: $navIcon;
 }
 
 .cancelToggle {
-	font-size: 2.2rem;
+	font-size: $xToggler;
 }
 
 .navContainer {
@@ -88,11 +87,11 @@
 }
 
 .navIcon {
-	font-size: 2rem;
+	font-size: $navIcon;
 }
 
 .navName {
-	font-size: 1.4rem;
+	font-size: $navName;
 	margin-left: 1.5rem;
 	margin-right: 0.5rem;
 }

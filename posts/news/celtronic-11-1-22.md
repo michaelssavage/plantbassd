@@ -20,7 +20,7 @@ Lorraine James would have to be our pick of Thursday night. We hadn’t heard of
 
 <div class="imgContainer">
     <a href="https://www.youtube.com/watch?v=QnvxRT9nUbc" rel="noopener noreferrer" target="_blank">
-        <img src="/news/18-club-guide/loraine-james.jpg" alt="loraine james press photo" width="95%" />
+        <img src="/news/13-celtronic/loraine-james.jpg" alt="loraine james press photo" width="95%" />
         <div class="youtubeOverlay">
             <div class="imgTextOverlay">Listen On Youtube</div>
         </div>

@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import styles from "./styles/error.module.scss";
+import styles from "@/styles/error.module.scss";
 
 export default function Error({ error }) {
 	return (

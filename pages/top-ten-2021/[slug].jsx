@@ -5,9 +5,9 @@ import { marked } from "marked";
 import Head from "next/head";
 import path from "path";
 import PropTypes from "prop-types";
-import styles from "styles/slug.module.scss";
 
 import GoBack from "@/btns/GoBack";
+import styles from "@/pageStyle/slug.module.scss";
 
 export default function TopTenSlug({ title, content }) {
 	return (

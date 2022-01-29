@@ -1,21 +1,16 @@
-@import "breakpoints";
-@import "colors";
+@use "@/abstracts" as *;
 
-.bHeader {
+.pageHeader {
 	text-align: center;
 	padding: 15vh 1rem 0 1rem;
-	font-size: 3em;
+	font-size: $lgHeader;
 }
 
-.texter {
-	font-size: 1.2em;
+.pageText {
+	text-align: center;
+	font-size: $paragraph;
 	margin-top: 1rem;
 	margin-bottom: 0.5em;
-}
-
-.bTexter {
-	text-align: center;
-	@extend .texter;
 }
 
 .searchBox {
@@ -118,9 +113,9 @@
 		padding-right: 4%;
 	}
 
-	.bHeader {
+	.pageHeader {
 		padding: 10vh 0.5rem 0 0.5rem;
-		font-size: 2.4em;
+		font-size: $mdHeader;
 	}
 
 	.searchBox {
@@ -140,7 +135,13 @@
 }
 
 @include breakpoint-below(xs) {
-	.bHeader {
-		font-size: 1.8em;
+	.pageHeader {
+		font-size: $smHeader;
+	}
+}
+
+@include breakpoint-below(xxs) {
+	.pageHeader {
+		font-size: $xsHeader;
 	}
 }

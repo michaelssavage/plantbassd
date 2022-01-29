@@ -1,5 +1,4 @@
-@import "styles/breakpoints";
-@import "styles/colors";
+@use "@/abstracts" as *;
 
 .bgWrap {
 	position: fixed;
@@ -7,23 +6,6 @@
 	width: 100%;
 	overflow: hidden;
 	z-index: -1;
-}
-
-.header {
-	color: $black !important;
-	font-size: 3em;
-}
-
-@include breakpoint-below(xs) {
-	.header {
-		font-size: 2em;
-	}
-}
-
-@include breakpoint-below(xxs) {
-	.header {
-		font-size: 1.6em;
-	}
 }
 
 .frontText {

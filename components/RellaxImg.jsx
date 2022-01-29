@@ -5,8 +5,7 @@ import { useEffect } from "react";
 import Rellax from "rellax";
 
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
-
-import styles from "./styles/rellax.module.scss";
+import styles from "@/styles/rellax.module.scss";
 
 export default function RellaxImg({ img, main }) {
 	useEffect(() => {
@@ -38,7 +37,7 @@ export default function RellaxImg({ img, main }) {
 
 			<div className={styles.frontText}>
 				<div className={`animate ${styles.textShape}`}>
-					<h1 className={styles.header}>Plant Bass'd</h1>
+					<h1 className="header">Plant Bass'd</h1>
 
 					<p>
 						Profiling the experimental dance music world and

@@ -1,9 +1,7 @@
-@import "breakpoints";
-@import "colors";
+@use "@/abstracts" as *;
 
 .linkPage {
 	min-height: 100vh;
-	// background: linear-gradient(180deg, $pink 0%, $lavender 40%);
 }
 
 .pbLogo {
@@ -12,7 +10,7 @@
 
 .linkHeading {
 	margin-top: 0.5em;
-	font-size: 1.6rem;
+	font-size: $linkHeading;
 }
 
 .iconContainer {
@@ -40,7 +38,7 @@
 }
 
 .btnText {
-	font-size: 1rem;
+	font-size: $btnText;
 	border-top: 3px solid $black;
 }
 

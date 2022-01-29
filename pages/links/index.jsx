@@ -8,7 +8,8 @@ import Image from "next/image";
 import Link from "next/link";
 import path from "path";
 import PropTypes from "prop-types";
-import styles from "styles/links.module.scss";
+
+import styles from "@/pageStyle/links.module.scss";
 
 export default function Links({ links }) {
 	return (

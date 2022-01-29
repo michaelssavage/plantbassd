@@ -7,9 +7,9 @@ import Head from "next/head";
 import Image from "next/image";
 import path from "path";
 import PropTypes from "prop-types";
-import styles from "styles/slug.module.scss";
 
 import CardWithButtons from "@/cards/CardWithButtons";
+import styles from "@/pageStyle/slug.module.scss";
 
 export default function RadioSlug({
 	frontmatter: { title, date, pic, tracklist, artistPage, mixLink },

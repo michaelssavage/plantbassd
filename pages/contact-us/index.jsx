@@ -7,7 +7,8 @@ import SocialIcon from "components/SocialIcon";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "styles/contact.module.scss";
+
+import styles from "@/pageStyle/contact.module.scss";
 
 export default function ContactPage() {
 	return (

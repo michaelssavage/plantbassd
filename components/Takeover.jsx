@@ -11,7 +11,7 @@ export default function Takeover({ takeovers }) {
 				<h1 className="header" name="takeovers">
 					Takeovers
 				</h1>
-				<p>Top Spotify Selects.</p>
+				<p>Artists Pick Their Top Ten Spotify Selects</p>
 				<div className="row g-2">
 					{takeovers.map((artist) => (
 						<CardNoText

@@ -5,9 +5,9 @@ import { marked } from "marked";
 import Head from "next/head";
 import path from "path";
 import PropTypes from "prop-types";
-import styles from "styles/slug.module.scss";
 
 import CardWithButtons from "@/cards/CardWithButtons";
+import styles from "@/pageStyle/slug.module.scss";
 
 function Content({ date, title, content }) {
 	return (

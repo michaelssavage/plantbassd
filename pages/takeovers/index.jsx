@@ -8,11 +8,11 @@ import useFilter from "hooks/useFilter";
 import Head from "next/head";
 import path from "path";
 import PropTypes from "prop-types";
-import styles from "styles/page.module.scss";
 
 import GoBack from "@/btns/GoBack";
 import SpotifyButton from "@/btns/SpotifyButton";
 import CardNoText from "@/cards/CardNoText";
+import styles from "@/pageStyle/page.module.scss";
 
 export default function TakeoverPage({ takeovers }) {
 	const { hasErrored, error, takeoverCards, filter, setFilter } =
@@ -31,11 +31,13 @@ export default function TakeoverPage({ takeovers }) {
 			</Head>
 			<div className={styles.takeoverBG}>
 				<div className="container">
-					<h1 className={styles.bHeader}>Plant Bass'd Takeovers</h1>
+					<h1 className={styles.pageHeader}>
+						Plant Bass'd Takeovers
+					</h1>
 
-					<p className={styles.bTexter}>
-						We ask artists to select and share their top tracks.
-						Check out the playlist here:
+					<p className={styles.pageText}>
+						Artists select and share their top tracks on Spotify.
+						Check out the playlist below.
 					</p>
 					<div className={styles.searchBox}>
 						<SearchBox
