@@ -3,13 +3,13 @@ import Footer from "components/Footer";
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
+import Head from "next/head";
 import Image from "next/image";
 import path from "path";
 import PropTypes from "prop-types";
-import React from "react";
-import styles from "styles/slug.module.scss";
 
 import CardWithButtons from "@/cards/CardWithButtons";
+import styles from "@/pageStyle/slug.module.scss";
 
 export default function RadioSlug({
 	frontmatter: { title, date, pic, tracklist, artistPage, mixLink },
@@ -17,6 +17,9 @@ export default function RadioSlug({
 }) {
 	return (
 		<>
+			<Head>
+				<title>Plant Bass'd Radios</title>
+			</Head>
 			<div className={styles.newsSection}>
 				<div className="container">
 					<div className="row">

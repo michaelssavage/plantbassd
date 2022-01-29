@@ -1,25 +1,28 @@
 import { clubMixes, downMixes, otherMixes } from "arrays/MixImages";
 import Footer from "components/Footer";
-import React from "react";
-import styles from "styles/page.module.scss";
+import Head from "next/head";
 
 import GoBack from "@/btns/GoBack";
 import SoundcloudButton from "@/btns/SoundcloudButton";
 import CardExternal from "@/cards/CardExternal";
+import styles from "@/pageStyle/page.module.scss";
 
 export default function MixesPage() {
 	return (
 		<>
+			<Head>
+				<title>Plant Bass'd Mixes</title>
+			</Head>
 			<div className={styles.mixBG}>
 				<div className="container">
-					<h1 className={styles.bHeader}>Plant Bass'd Mixes</h1>
+					<h1 className={styles.pageHeader}>Plant Bass'd Mixes</h1>
 
-					<p className={styles.bTexter}>
+					<p className={styles.pageText}>
 						{`Check out some mixes we've put together for ITSNOTRADIO,
 						Set Radio, and some guest mixes:`}
 					</p>
 
-					<p className={styles.bTexter}>
+					<p className={styles.pageText}>
 						<SoundcloudButton
 							link="https://soundcloud.com/plantbassddjs/sets/club-mixes"
 							styling={styles.soundcloud}
@@ -32,7 +35,7 @@ export default function MixesPage() {
 							<CardExternal card={card} key={card.key} />
 						))}
 					</div>
-					<p className={styles.bTexter}>
+					<p className={styles.pageText}>
 						<SoundcloudButton
 							link="https://soundcloud.com/plantbassddjs/sets/dance-mixes"
 							styling={styles.soundcloud}
@@ -45,7 +48,7 @@ export default function MixesPage() {
 							<CardExternal card={card} key={card.key} />
 						))}
 					</div>
-					<p className={styles.bTexter}>
+					<p className={styles.pageText}>
 						<SoundcloudButton
 							link="https://soundcloud.com/plantbassddjs/tracks"
 							styling={styles.soundcloud}

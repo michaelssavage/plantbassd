@@ -1,7 +1,6 @@
 import { column1, column2 } from "arrays/FooterLinks";
 import Link from "next/link";
 import PropTypes from "prop-types";
-import React from "react";
 
 import styles from "@/styles/footer.module.scss";
 
@@ -46,7 +45,6 @@ export default function FooterComponent() {
 
 							<p className="small mb-2">
 								{`© `} {new Date().getFullYear()}
-								{` `}
 								{` Plant Bass'd. All rights reserved.`}
 							</p>
 						</div>
@@ -60,12 +58,12 @@ export default function FooterComponent() {
 					>
 						<div className="row">
 							<div className="col">
-								<h5 className="mb-3">Main Content</h5>
+								<h3 className="mb-3">Main Content</h3>
 								<FootCol column={column1} />
 							</div>
 
 							<div className="col">
-								<h5 className="mb-3">Quick Links</h5>
+								<h3 className="mb-3">Quick Links</h3>
 								<FootCol column={column2} />
 							</div>
 						</div>

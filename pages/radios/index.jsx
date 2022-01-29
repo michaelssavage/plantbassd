@@ -2,27 +2,30 @@ import Footer from "components/Footer";
 import { sortByDate } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
+import Head from "next/head";
 import path from "path";
 import PropTypes from "prop-types";
-import React from "react";
-import styles from "styles/page.module.scss";
 
 import GoBack from "@/btns/GoBack";
 import SoundcloudButton from "@/btns/SoundcloudButton";
 import CardNoText from "@/cards/CardNoText";
+import styles from "@/pageStyle/page.module.scss";
 
 export default function RadioPage({ radios }) {
 	return (
 		<>
+			<Head>
+				<title>Plant Bass'd Radios</title>
+			</Head>
 			<div className={styles.radioBG}>
 				<div className="container">
-					<h1 className={styles.bHeader}>Plant Bass'd Radio</h1>
+					<h1 className={styles.pageHeader}>Plant Bass'd Radio</h1>
 
-					<p className={styles.bTexter}>
-						{`Guest mixes from homegrown and international artists.
-						Check them out here:`}
+					<p className={styles.pageText}>
+						Guest mixes from homegrown and international artists.
+						Check them out on our Soundcloud.
 					</p>
-					<p className={styles.bTexter}>
+					<p className={styles.pageText}>
 						<SoundcloudButton
 							link="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
 							styling={styles.soundcloud}

@@ -1,8 +1,8 @@
-let nodemailer = require("nodemailer"),
-	message = {
+const message = {
 		ERROR: 404,
 		SUCCESS: 200,
-	};
+	},
+	nodemailer = require("nodemailer");
 
 export default async function handler(req, res) {
 	if (req.method !== "POST") {
@@ -22,7 +22,7 @@ export default async function handler(req, res) {
 		from: process.env.EMAIL,
 		to: process.env.INBOX,
 		subject: `PlantBassd.com: Message From ${req.body.name}`,
-		text: req.body.message + " | Sent from: " + req.body.email,
+		text: `${req.body.message} | Sent from: ${req.body.email}`,
 		html: `<div>${req.body.message}</div><p>Sent from: ${req.body.email}</p>`,
 	};
 

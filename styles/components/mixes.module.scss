@@ -1,0 +1,66 @@
+@use "@/abstracts" as *;
+
+.mixSection {
+	background-color: $lavender;
+	padding: 2rem 0;
+}
+
+.mixImages {
+	position: relative;
+	padding-bottom: 5rem;
+}
+
+.bottomImage {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-radius: 0 10px 0 0;
+}
+
+.clubDescriptor {
+	padding-left: 2rem;
+}
+
+// @include breakpoint-below(sm) {
+@media (max-width: 768px) {
+	.topImage {
+		-moz-box-flex: 0;
+		flex: 0 0 auto;
+		width: 50%;
+		padding-right: 0.25rem;
+		padding-left: 0.25rem;
+	}
+
+	.bottomImage {
+		position: static;
+		-moz-box-flex: 0;
+		flex: 0 0 auto;
+		width: 50%;
+		padding-right: 0.25rem;
+		padding-left: 0.25rem;
+	}
+
+	.mixImages {
+		padding-bottom: 1rem;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.clubDescriptor {
+		padding-right: 2rem;
+	}
+
+	.clubButton {
+		text-align: center;
+	}
+}
+
+.hoverBtn:hover {
+	color: $white !important;
+}
+
+@include breakpoint-below(xs) {
+	.mixImages {
+		padding: 0 1.5rem;
+	}
+}

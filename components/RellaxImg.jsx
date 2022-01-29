@@ -1,14 +1,13 @@
 import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
 import PropTypes from "prop-types";
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import Rellax from "rellax";
 
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
+import styles from "@/styles/rellax.module.scss";
 
-import styles from "./styles/rellax.module.scss";
-
-export default function RellaxImg({ main, img }) {
+export default function RellaxImg({ img, main }) {
 	useEffect(() => {
 		// eslint-disable-next-line new-cap, no-new
 		new Rellax(".animate", {
@@ -38,24 +37,18 @@ export default function RellaxImg({ main, img }) {
 
 			<div className={styles.frontText}>
 				<div className={`animate ${styles.textShape}`}>
-					<h1 className={styles.header}>Plant Bass'd</h1>
+					<h1 className="header">Plant Bass'd</h1>
 
-					{main ? <Welcome /> : null}
+					<p>
+						Profiling the experimental dance music world and
+						throwing parties in between.
+					</p>
+					{main ? (
+						<DiscoverMoreBtn link="/contact-us" title="About Us" />
+					) : null}
 				</div>
 			</div>
 		</section>
-	);
-}
-
-function Welcome() {
-	return (
-		<>
-			<p>
-				Profiling the experimental dance music world and throwing
-				parties in between.
-			</p>
-			<DiscoverMoreBtn link="/contact-us" title="About Us" />
-		</>
 	);
 }
 

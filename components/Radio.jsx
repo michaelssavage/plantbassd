@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import React from "react";
 
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 import CardNoText from "@/cards/CardNoText";
@@ -12,7 +11,7 @@ export default function Radio({ radios }) {
 				<h1 className="header" name="radios">
 					Guest Radio
 				</h1>
-				<p>Plant Bass'd Radio Mixes.</p>
+				<p>Plant Bass'd Radio Mixes</p>
 				<div className="row g-2">
 					{radios.map((artist) => (
 						<CardNoText

@@ -4,34 +4,40 @@ import { sortByDate } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
 import useNewsFilter from "hooks/useNewsFilter";
+import Head from "next/head";
 import path from "path";
 import PropTypes from "prop-types";
-import React from "react";
 import { AiOutlineCloseCircle } from "react-icons/ai";
-import styles from "styles/page.module.scss";
 
 import GoBack from "@/btns/GoBack";
 import CardWithText from "@/cards/CardWithText";
+import styles from "@/pageStyle/page.module.scss";
 
 function FilterTags({ tagList, handleTags }) {
 	return (
-		<div className={styles.btnGroup} role="group">
-			<div>Filters:</div>
+		<>
+			<Head>
+				<title>Plant Bass'd News</title>
+			</Head>
+			<div className={styles.btnGroup} role="group">
+				<div>Filters:</div>
 
-			{tagList &&
-				tagList.map((tag) => (
-					<button
-						className={`btn btn-outline-dark ${
-							tag.value ? "active" : ""
-						}`}
-						key={tag.name}
-						onClick={() => handleTags(tag)}
-						type="button"
-					>
-						{tag.name} {tag.value ? <AiOutlineCloseCircle /> : null}
-					</button>
-				))}
-		</div>
+				{tagList &&
+					tagList.map((tag) => (
+						<button
+							className={`btn btn-outline-dark ${
+								tag.value ? "active" : ""
+							}`}
+							key={tag.name}
+							onClick={() => handleTags(tag)}
+							type="button"
+						>
+							{tag.name}{" "}
+							{tag.value ? <AiOutlineCloseCircle /> : null}
+						</button>
+					))}
+			</div>
+		</>
 	);
 }
 
@@ -39,7 +45,7 @@ export default function NewsPage({ news }) {
 	const { hasErrored, error, newsStories, tagList, handleTags } =
 		useNewsFilter(news);
 
-	if (hasErrored === true) {
+	if (hasErrored) {
 		<Error error={error} />;
 	}
 
@@ -47,9 +53,9 @@ export default function NewsPage({ news }) {
 		<>
 			<div className={styles.newsBG}>
 				<div className="container">
-					<h1 className={styles.bHeader}>Plant Bass'd News</h1>
+					<h1 className={styles.pageHeader}>Plant Bass'd News</h1>
 
-					<p className={styles.bTexter}>
+					<p className={styles.pageText}>
 						{`News about Fresh Juice, Gigs, and all things Plant
 						Bass'd. Keep up to date on our Instagram, `}
 						<a

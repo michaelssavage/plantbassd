@@ -2,33 +2,38 @@ import Footer from "components/Footer";
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
+import Head from "next/head";
 import path from "path";
 import PropTypes from "prop-types";
-import React from "react";
-import styles from "styles/slug.module.scss";
 
 import CardWithButtons from "@/cards/CardWithButtons";
+import styles from "@/pageStyle/slug.module.scss";
 
 function Content({ date, title, content }) {
 	return (
-		<div
-			className={`
+		<>
+			<Head>
+				<title>Plant Bass'd News</title>
+			</Head>
+			<div
+				className={`
 				${styles.postContent}
 				col-lg-6
 				col-md-12
 				col-xl-6 
 				`}
-		>
-			<p className={styles.postDate}>Posted on {date}</p>
-			<h1 className={styles.postTitle}>{title}</h1>
-			<div className={styles.postBody}>
-				<div
-					dangerouslySetInnerHTML={{
-						__html: marked(content),
-					}}
-				/>
+			>
+				<p className={styles.postDate}>Posted on {date}</p>
+				<h1 className={styles.postTitle}>{title}</h1>
+				<div className={styles.postBody}>
+					<div
+						dangerouslySetInnerHTML={{
+							__html: marked(content),
+						}}
+					/>
+				</div>
 			</div>
-		</div>
+		</>
 	);
 }
 

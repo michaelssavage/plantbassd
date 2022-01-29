@@ -1,14 +1,15 @@
-@import "breakpoints";
-@import "colors";
+@use "@/abstracts" as *;
 
 @font-face {
+	font-display: swap;
 	font-family: "Messina";
-	src: url("/fonts/Messina.ttf");
+	src: local("Messina"), url("/fonts/Messina.ttf");
 }
 
 @font-face {
+	font-display: swap;
 	font-family: "Molengo";
-	src: url("/fonts/Molengo-Regular.ttf");
+	src: local("Molengo"), url("/fonts/Molengo-Regular.ttf");
 }
 
 * {
@@ -41,12 +42,16 @@ h1 {
 }
 
 h2 {
-	font-size: 1.6rem;
+	font-size: $heading2;
 	padding-top: 1rem;
 }
 
+h3 {
+	font-size: $heading3;
+}
+
 p {
-	font-size: 1.2rem;
+	font-size: $paragraph;
 }
 
 img {
@@ -88,18 +93,17 @@ Link {
 	text-align: left;
 }
 
-.globalSection {
-	// max-width: 670px;
-	margin: 0 auto 2rem;
-}
-
 .header {
 	color: $headerBlack !important;
-	font-size: 3em;
+	font-size: $lgHeader;
 }
 
 .discoveryCards {
-	background: linear-gradient(130deg, $pink 20%, $green 80%);
+	background: linear-gradient(180deg, $pink 20%, $green 80%);
+}
+
+.top-ten-2021 {
+	padding: 2rem 0;
 }
 
 @include breakpoint-below(sm) {
@@ -108,19 +112,19 @@ Link {
 	}
 
 	.header {
-		font-size: 2.4em;
+		font-size: $mdHeader;
 	}
 }
 
 @include breakpoint-below(xs) {
 	.header {
-		font-size: 2em;
+		font-size: $smHeader;
 	}
 }
 
 @include breakpoint-below(xxs) {
 	.header {
-		font-size: 1.6em;
+		font-size: $xsHeader;
 	}
 }
 
@@ -174,7 +178,7 @@ Link {
 
 .imgTextOverlay {
 	color: $white;
-	font-size: 20px;
+	font-size: $heading3;
 	position: absolute;
 	top: 50%;
 	left: 50%;

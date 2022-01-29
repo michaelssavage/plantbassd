@@ -1,6 +1,5 @@
 import Link from "next/link";
 import PropTypes from "prop-types";
-import React from "react";
 
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 import CardWithText from "@/cards/CardWithText";
@@ -59,9 +58,9 @@ export default function News({ news }) {
 									Latest News
 								</h1>
 								<p>
-									{`Catch the latest about our Fresh Juice
-									series, Plant Bass'd Sweatbox Events,
-									upcoming gigs, and much more.`}
+									Catch the latest about our Fresh Juice
+									series, upcoming gigs & Plant Bass'd events,
+									and much more
 								</p>
 								<p>
 									{`Keep up to date on our Instagram, `}
@@ -69,7 +68,7 @@ export default function News({ news }) {
 										className="blackAnchor"
 										href="http://instagra.com/plantbassddjs"
 									>
-										@plantbassddjs.
+										@plantbassddjs
 									</a>
 								</p>
 							</div>

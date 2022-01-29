@@ -1,6 +1,5 @@
 import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
-import React from "react";
 
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 import styles from "@/styles/mixes.module.scss";
@@ -45,14 +44,14 @@ export default function ArtistCard() {
 								Mixes
 							</h1>
 							<p>
-								{`Jungle, Techno, Garage, Rave selects, and more.
+								Jungle, Techno, Garage, Rave selects, and more.
 								Listen on EHFM, ITSNOTRADIO, and Aurora, and our
-								Soundcloud.`}
+								Soundcloud
 							</p>
 
 							<p>
-								{`House, Disco, and Groovy numbers. Find these on
-								SET RADIO and our Soundcloud.`}
+								House, Disco, and Groovy numbers. Find these on
+								SET RADIO and our Soundcloud
 							</p>
 
 							<DiscoverMoreBtn link="/mixes" />

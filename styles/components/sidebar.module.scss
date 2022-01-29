@@ -1,0 +1,120 @@
+@use "@/abstracts" as *;
+
+.header {
+	height: 5rem;
+	width: 10rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 0 1rem;
+	background-color: $navBlue;
+	z-index: 5;
+	transition: 0.5s;
+	border-top-right-radius: 3rem;
+	border-bottom-right-radius: 3rem;
+	cursor: pointer;
+}
+
+.extendHeader {
+	width: 18rem;
+	@extend .header;
+}
+
+.headerToggle {
+	color: $white;
+	font-size: $navIcon;
+}
+
+.cancelToggle {
+	font-size: $xToggler;
+}
+
+.navContainer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 6rem;
+	height: 100vh;
+	background-color: $navBlue;
+	padding: 0.5rem;
+	transition: 0.5s;
+	z-index: 10;
+}
+
+.extendNav {
+	width: 14rem;
+	@extend .navContainer;
+}
+
+.navMenu {
+	height: 100%;
+	display: flex;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-top: 0.5rem;
+}
+
+.navLink {
+	display: flex;
+	align-items: center;
+	padding: 0.5rem 0 0.5rem 1.5rem;
+	background-color: $navBlue;
+	position: relative;
+	margin-bottom: 1.5rem;
+	transition: 0.3s;
+	color: $navGrey;
+	cursor: pointer;
+	&:hover {
+		color: $white;
+	}
+}
+
+.activeLink {
+	color: $white;
+	@extend .navLink;
+}
+
+.activeLink::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	width: 2px;
+	height: 32px;
+	background-color: $white;
+}
+
+.navIcon {
+	font-size: $navIcon;
+}
+
+.navName {
+	font-size: $navName;
+	margin-left: 1.5rem;
+	margin-right: 0.5rem;
+}
+
+@include breakpoint-below(sm) {
+	.header {
+		height: 9rem;
+		width: 2.2rem;
+		padding: 0 0.1rem;
+	}
+
+	.navContainer {
+		width: 0;
+		padding: 0;
+	}
+
+	.extendHeader {
+		width: 18rem;
+		padding: 0 1rem !important;
+	}
+
+	.extendNav {
+		width: 14rem;
+		padding: 0.5rem;
+	}
+}

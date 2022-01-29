@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import React from "react";
 import { FaSpotify } from "react-icons/fa";
 
 export default function SpotifyButton({ styling, link, title }) {

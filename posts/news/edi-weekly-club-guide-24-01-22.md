@@ -4,7 +4,7 @@ date: "January 24, 2022"
 tags: "reviews"
 pic: "/news/18-edinburgh-club-guide.jpg"
 seeMore: "https://ra.co/events/uk/edinburgh?week=2022-01-24"
-postLink: "https://www.instagram.com/plantbassddjs"
+postLink: "https://www.instagram.com/p/CZHtytXNFld/"
 bio: "EDINBURGH WEEKLY CLUB GUIDE - Clubbing and normality as it were return this week after a frustrating month long hiatus in Scotland.."
 ---
 

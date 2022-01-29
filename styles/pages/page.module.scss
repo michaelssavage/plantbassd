@@ -1,0 +1,147 @@
+@use "@/abstracts" as *;
+
+.pageHeader {
+	text-align: center;
+	padding: 15vh 1rem 0 1rem;
+	font-size: $lgHeader;
+}
+
+.pageText {
+	text-align: center;
+	font-size: $paragraph;
+	margin-top: 1rem;
+	margin-bottom: 0.5em;
+}
+
+.searchBox {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+}
+
+.searchFilter {
+	margin: 0 1rem 1rem 0;
+	width: 40%;
+	order: 1;
+}
+
+.btnGroup {
+	margin: 2rem 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 0.5rem 0.5rem;
+}
+
+.instagram {
+	color: $instagram;
+	background-color: $headerBlack;
+	margin-bottom: 1rem;
+	&:hover {
+		color: $headerBlack;
+		background-color: $instagram;
+	}
+}
+
+.spotify {
+	color: $spotify;
+	margin-bottom: 1rem;
+	order: 2;
+	&:hover {
+		color: $headerBlack;
+		background-color: $spotify;
+	}
+}
+
+.soundcloud {
+	color: $white;
+	background-color: $soundcloud;
+	margin-bottom: 1rem;
+	&:hover {
+		color: $headerBlack;
+		background-color: $soundcloud;
+	}
+}
+
+.divBackground {
+	padding-left: 12%;
+	padding-right: 12%;
+	padding-bottom: 2em;
+}
+
+.radioBG {
+	background-color: $green;
+	@extend .divBackground;
+}
+
+.mixBG {
+	background-color: $lavender;
+	@extend .divBackground;
+}
+
+.takeoverBG {
+	background-color: $pink;
+	min-height: 100vh;
+	@extend .divBackground;
+}
+
+.newsBG {
+	background-color: $lavender;
+	min-height: 100vh;
+	@extend .divBackground;
+}
+
+.topTenBG {
+	min-height: 100vh;
+	@extend .divBackground;
+}
+
+// @include breakpoint-below(md) {
+@media (max-width: 992px) {
+	.divBackground {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
+
+// @include breakpoint-below(xs) {
+@media (max-width: 576px) {
+	.divBackground {
+		padding-left: 4%;
+		padding-right: 4%;
+	}
+
+	.pageHeader {
+		padding: 10vh 0.5rem 0 0.5rem;
+		font-size: $mdHeader;
+	}
+
+	.searchBox {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.spotify {
+		order: 1;
+	}
+
+	.searchFilter {
+		margin: 1rem 0;
+		width: 100%;
+		order: 2;
+	}
+}
+
+@include breakpoint-below(xs) {
+	.pageHeader {
+		font-size: $smHeader;
+	}
+}
+
+@include breakpoint-below(xxs) {
+	.pageHeader {
+		font-size: $xsHeader;
+	}
+}

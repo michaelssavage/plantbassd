@@ -1,9 +1,6 @@
 {
 	"name": "plantbassd",
 	"private": true,
-	"pre-commit": [
-		"lint"
-	],
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
@@ -19,6 +16,7 @@
 		"gray-matter": "^4.0.3",
 		"marked": "^4.0.1",
 		"next": "12.0.2",
+		"next-pwa": "^5.4.4",
 		"nodemailer": "^6.7.2",
 		"prop-types": "^15.8.1",
 		"react": "^17.0.2",
@@ -27,7 +25,8 @@
 		"react-hot-toast": "^2.1.1",
 		"react-icons": "^4.3.1",
 		"rellax": "^1.12.1",
-		"sass": "^1.43.4"
+		"sass": "^1.43.4",
+		"sharp": "^0.29.3"
 	},
 	"devDependencies": {
 		"@next/eslint-plugin-next": "^12.0.4",
