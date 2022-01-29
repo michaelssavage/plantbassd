@@ -2,13 +2,15 @@
 @import "colors";
 
 @font-face {
+	font-display: swap;
 	font-family: "Messina";
-	src: url("/fonts/Messina.ttf");
+	src: local("Messina"), url("/fonts/Messina.ttf");
 }
 
 @font-face {
+	font-display: swap;
 	font-family: "Molengo";
-	src: url("/fonts/Molengo-Regular.ttf");
+	src: local("Molengo"), url("/fonts/Molengo-Regular.ttf");
 }
 
 * {
@@ -43,6 +45,10 @@ h1 {
 h2 {
 	font-size: 1.6rem;
 	padding-top: 1rem;
+}
+
+h3 {
+	font-size: 1.3rem;
 }
 
 p {

@@ -1,5 +1,6 @@
 import { clubMixes, downMixes, otherMixes } from "arrays/MixImages";
 import Footer from "components/Footer";
+import Head from "next/head";
 import styles from "styles/page.module.scss";
 
 import GoBack from "@/btns/GoBack";
@@ -9,6 +10,9 @@ import CardExternal from "@/cards/CardExternal";
 export default function MixesPage() {
 	return (
 		<>
+			<Head>
+				<title>Plant Bass'd Mixes</title>
+			</Head>
 			<div className={styles.mixBG}>
 				<div className="container">
 					<h1 className={styles.bHeader}>Plant Bass'd Mixes</h1>

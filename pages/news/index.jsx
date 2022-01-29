@@ -4,6 +4,7 @@ import { sortByDate } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
 import useNewsFilter from "hooks/useNewsFilter";
+import Head from "next/head";
 import path from "path";
 import PropTypes from "prop-types";
 import { AiOutlineCloseCircle } from "react-icons/ai";
@@ -14,23 +15,29 @@ import CardWithText from "@/cards/CardWithText";
 
 function FilterTags({ tagList, handleTags }) {
 	return (
-		<div className={styles.btnGroup} role="group">
-			<div>Filters:</div>
+		<>
+			<Head>
+				<title>Plant Bass'd News</title>
+			</Head>
+			<div className={styles.btnGroup} role="group">
+				<div>Filters:</div>
 
-			{tagList &&
-				tagList.map((tag) => (
-					<button
-						className={`btn btn-outline-dark ${
-							tag.value ? "active" : ""
-						}`}
-						key={tag.name}
-						onClick={() => handleTags(tag)}
-						type="button"
-					>
-						{tag.name} {tag.value ? <AiOutlineCloseCircle /> : null}
-					</button>
-				))}
-		</div>
+				{tagList &&
+					tagList.map((tag) => (
+						<button
+							className={`btn btn-outline-dark ${
+								tag.value ? "active" : ""
+							}`}
+							key={tag.name}
+							onClick={() => handleTags(tag)}
+							type="button"
+						>
+							{tag.name}{" "}
+							{tag.value ? <AiOutlineCloseCircle /> : null}
+						</button>
+					))}
+			</div>
+		</>
 	);
 }
 

@@ -2,6 +2,7 @@ import Footer from "components/Footer";
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
+import Head from "next/head";
 import path from "path";
 import PropTypes from "prop-types";
 import styles from "styles/slug.module.scss";
@@ -14,6 +15,9 @@ export default function TakeoverSlug({
 }) {
 	return (
 		<>
+			<Head>
+				<title>Plant Bass'd Takeovers</title>
+			</Head>
 			<div className={styles.newsSection}>
 				<div className="container">
 					<div className="row">

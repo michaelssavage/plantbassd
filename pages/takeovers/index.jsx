@@ -5,6 +5,7 @@ import { sortByDate } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
 import useFilter from "hooks/useFilter";
+import Head from "next/head";
 import path from "path";
 import PropTypes from "prop-types";
 import styles from "styles/page.module.scss";
@@ -25,6 +26,9 @@ export default function TakeoverPage({ takeovers }) {
 	}
 	return (
 		<>
+			<Head>
+				<title>Plant Bass'd Takeovers</title>
+			</Head>
 			<div className={styles.takeoverBG}>
 				<div className="container">
 					<h1 className={styles.bHeader}>Plant Bass'd Takeovers</h1>

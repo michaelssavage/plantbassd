@@ -2,6 +2,7 @@ import Footer from "components/Footer";
 import { sortByDate } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
+import Head from "next/head";
 import path from "path";
 import PropTypes from "prop-types";
 import styles from "styles/page.module.scss";
@@ -13,6 +14,9 @@ import CardNoText from "@/cards/CardNoText";
 export default function RadioPage({ radios }) {
 	return (
 		<>
+			<Head>
+				<title>Plant Bass'd Radios</title>
+			</Head>
 			<div className={styles.radioBG}>
 				<div className="container">
 					<h1 className={styles.bHeader}>Plant Bass'd Radio</h1>

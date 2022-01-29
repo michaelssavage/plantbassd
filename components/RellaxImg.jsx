@@ -8,7 +8,7 @@ import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 
 import styles from "./styles/rellax.module.scss";
 
-export default function RellaxImg({ main, img }) {
+export default function RellaxImg({ img, main }) {
 	useEffect(() => {
 		// eslint-disable-next-line new-cap, no-new
 		new Rellax(".animate", {
@@ -40,22 +40,16 @@ export default function RellaxImg({ main, img }) {
 				<div className={`animate ${styles.textShape}`}>
 					<h1 className={styles.header}>Plant Bass'd</h1>
 
-					{main ? <Welcome /> : null}
+					<p>
+						Profiling the experimental dance music world and
+						throwing parties in between.
+					</p>
+					{main ? (
+						<DiscoverMoreBtn link="/contact-us" title="About Us" />
+					) : null}
 				</div>
 			</div>
 		</section>
-	);
-}
-
-function Welcome() {
-	return (
-		<>
-			<p>
-				Profiling the experimental dance music world and throwing
-				parties in between.
-			</p>
-			<DiscoverMoreBtn link="/contact-us" title="About Us" />
-		</>
 	);
 }
 

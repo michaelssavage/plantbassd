@@ -4,6 +4,7 @@ import ContactForm from "components/ContactForm";
 import Footer from "components/Footer";
 import RellaxImg from "components/RellaxImg";
 import SocialIcon from "components/SocialIcon";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "styles/contact.module.scss";
@@ -11,7 +12,10 @@ import styles from "styles/contact.module.scss";
 export default function ContactPage() {
 	return (
 		<>
-			<RellaxImg img="/various/collage.jpg" main={false} />
+			<Head>
+				<title>Contact Us</title>
+			</Head>
+			<RellaxImg img="/various/collage.jpg" />
 
 			<div className={styles.container}>
 				<div className="row pb-4">

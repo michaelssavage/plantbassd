@@ -2,6 +2,7 @@ import Footer from "components/Footer";
 import fs from "fs";
 import matter from "gray-matter";
 import { marked } from "marked";
+import Head from "next/head";
 import path from "path";
 import PropTypes from "prop-types";
 import styles from "styles/slug.module.scss";
@@ -11,6 +12,9 @@ import GoBack from "@/btns/GoBack";
 export default function TopTenSlug({ title, content }) {
 	return (
 		<>
+			<Head>
+				<title>Plant Bass'd Reviews</title>
+			</Head>
 			<div className={styles.newsSection}>
 				<div className="container">
 					<div className={`col ${styles.topTenContent}`}>
