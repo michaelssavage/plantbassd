@@ -1,17 +1,14 @@
+import { linkList } from "arrays/linktree";
 import { socialIconList } from "arrays/SidebarIcons";
 import { shimmer, toBase64 } from "components/BlurImg";
 import SocialIcon from "components/SocialIcon";
-import fs from "fs";
-import matter from "gray-matter";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import path from "path";
-import PropTypes from "prop-types";
 
 import styles from "@/pageStyle/links.module.scss";
 
-export default function Links({ links }) {
+export default function Links() {
 	return (
 		<>
 			<Head>
@@ -53,7 +50,7 @@ export default function Links({ links }) {
 						))}
 					</div>
 
-					{links.map((item) => (
+					{linkList.map((item) => (
 						<div
 							className={`row ${styles.buttonStyle}`}
 							key={item.title}
@@ -72,28 +69,3 @@ export default function Links({ links }) {
 		</>
 	);
 }
-
-// eslint-disable-next-line func-style, require-await
-export async function getStaticProps() {
-	// Linktree data and the links.
-	const markdownWithMeta = fs.readFileSync(
-			path.join("posts/utils/linktree.md"),
-			"utf-8"
-		),
-		{ data: frontmatter } = matter(markdownWithMeta);
-
-	return {
-		props: {
-			links: frontmatter.links,
-		},
-	};
-}
-
-Links.propTypes = {
-	links: PropTypes.arrayOf(
-		PropTypes.shape({
-			link: PropTypes.string.isRequired,
-			title: PropTypes.string.isRequired,
-		})
-	).isRequired,
-};
