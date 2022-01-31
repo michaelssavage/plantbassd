@@ -10,14 +10,16 @@ Party Throwers and electronic music blog based in Edinburgh and Dublin. Sharing 
 
 ## Technologies
 
--   Site created using Next.js
+-   Site created using Next.js.
 -   Styled with bootstrap 5 and scss.
--   Markdown posts controlled by matter.
+-   Markdown posts parsed by gray-matter and marked.
 -   Packages managed with Yarn.
 -   Deployed to Vercel.
+-   Development organized by Trello.
 -   Some graphics made in Adobe Photoshop and Adobe Illustrator. [Images here.](https://github.com/michaelssavage/plantbassd-graphics)
 
 ## Get In Contact
 
--   Email: plantbassddjs@gmail.com
--   Website created by: michaelsavage940@gmail.com
+-   [Email](mailto:plantbassddjs@gmail.com)
+-   [Instagram](www.instagram.com/plantbassddjs)
+-   Website by Michael
