@@ -27,7 +27,7 @@ export default function ContactForm() {
 				res = await response.json();
 
 			if (res.error) {
-				toast.error("Form didn't submit!");
+				toast.error("Oops! Form wasn't submit");
 				throw new Error(res.error);
 			}
 			toast.success("Thanks, we'll be in touch!");
@@ -37,7 +37,9 @@ export default function ContactForm() {
 				name: "",
 			});
 		} catch (error) {
-			toast.error(error.message);
+			toast.error(
+				"Oops! Form wasn't submit. Try Again Or Message Us Directly"
+			);
 		} finally {
 			setLoading(false);
 		}

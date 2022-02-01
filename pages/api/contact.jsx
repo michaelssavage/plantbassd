@@ -1,12 +1,8 @@
-const message = {
-		ERROR: 404,
-		SUCCESS: 200,
-	},
-	nodemailer = require("nodemailer");
+const nodemailer = require("nodemailer");
 
 export default async function handler(req, res) {
 	if (req.method !== "POST") {
-		return res.status(message.ERROR).send({ error: "Not a POST method." });
+		return res.status(405).send({ error: "Not a POST method." });
 	}
 	const transporter = nodemailer.createTransport({
 		port: 465,
@@ -21,7 +17,7 @@ export default async function handler(req, res) {
 	const mailData = {
 		from: process.env.EMAIL,
 		to: process.env.INBOX,
-		subject: `PlantBassd.com: Message From ${req.body.name}`,
+		subject: "New Message From PlantBassd.com",
 		text: `${req.body.message} | Sent from: ${req.body.email}`,
 		html: `<div>${req.body.message}</div><p>Sent from: ${req.body.email}</p>`,
 	};
@@ -29,10 +25,10 @@ export default async function handler(req, res) {
 	transporter.sendMail(mailData, (err, data) => {
 		if (err) {
 			console.log(err);
-			res.send("error" + JSON.stringify(err));
+			res.status(500).end();
 		} else {
 			console.log("mail send");
-			res.status(message.SUCCESS).json({
+			res.status(200).json({
 				message: "Successfully sent",
 				receiver: process.env.INBOX,
 			});
