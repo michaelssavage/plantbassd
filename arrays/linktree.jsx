@@ -1,8 +1,9 @@
 export const linkList = [
-	{       title: "EDINBURGH WEEKLY CLUB GUIDE",
-	        link: "https://www.plantbassd.com/news/edi-weekly-club-guide-1-2-22"
+	{       
+                title: "EDINBURGH WEEKLY CLUB GUIDE",
+	        link: "https://www.plantbassd.com/news/edi-weekly-club-guide-1-2-22",
 	},
-	 
+	{
 		title: "FRESH JUICE: Long Island Sound - First Contact",
 		link: "https://www.plantbassd.com/news/long-island-sound-31-1-22",
 	},
