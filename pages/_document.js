@@ -21,7 +21,7 @@ class MyDocument extends Document {
 					around the world through curated Spotify playlists, 
 					Soundcloud Mixes, and reviews of new releases."
 					/>
-					<link rel="manifest" href="/manifest.json" />
+					<link rel="manifest" href="/manifest.webmanifest" />
 					<link rel="icon" href="/pb_favicon.ico" type="image/png" />
 					<link rel="apple-touch-icon" href="/icon-192x192.png" />
 					<meta property="og:type" content="website" />

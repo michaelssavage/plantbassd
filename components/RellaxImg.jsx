@@ -54,5 +54,5 @@ export default function RellaxImg({ img, main }) {
 
 RellaxImg.propTypes = {
 	img: PropTypes.string.isRequired,
-	main: PropTypes.bool.isRequired,
+	main: PropTypes.bool,
 };
