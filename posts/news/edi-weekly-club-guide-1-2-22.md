@@ -85,5 +85,3 @@ Attributors to many of our romances at Seafield and Blackford during the club fa
 EHFM radio bring back their residents party with day one alumni Nikki Kent (Lunch) who goes head to head with Ravelston (Dot Joining) with an ensemble of dance sounds forthcoming on the night. Another great way to support the city’s thriving community radio station!
 
 £5 - £7 - Tickets here https://ra.co/events/1495314
-
--   <p> Pulse: Neil Landstrumm (Live) @ Mash House </p>
