@@ -1,4 +1,4 @@
-import "bootstrap/dist/css/bootstrap.css"; // eslint-disable-line
+import "bootstrap/dist/css/bootstrap.min.css"; // eslint-disable-line
 import "../styles/styles.global.scss"; // eslint-disable-line
 
 import Sidebar from "components/Sidebar";
