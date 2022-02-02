@@ -1,5 +1,9 @@
 export const linkList = [
 	{       
+		title: "TAAHLIAH @ Sneaky Pete's Tickets",
+	        link: "https://ra.co/events/1494126",
+	},
+	{
                 title: "EDINBURGH WEEKLY CLUB GUIDE",
 	        link: "https://www.plantbassd.com/news/edi-weekly-club-guide-1-2-22",
 	},
