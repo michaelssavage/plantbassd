@@ -1,5 +1,5 @@
 ---
-title: "EDINBURGH WEEKLY CLUB GUIDE - REOPENING WEEK"
+title: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending 6th Feb 2022"
 date: "February 1, 2022"
 tags: "reviews"
 pic: "/news/18-edinburgh-club-guide.jpg"
