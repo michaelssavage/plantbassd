@@ -11,14 +11,6 @@ yarn lint ||
 )
 
 # If everything passes... Now we can commit
-echo 'Code fine, building now'
-
-yarn build ||
-(
-    echo '❌👷🔨Next build failed: View the errors above to see why. 
-    '
-    false;
-)
 
 # If everything passes... Now we can commit
 echo '✅✅✅✅ Commit passed ✅✅✅✅'

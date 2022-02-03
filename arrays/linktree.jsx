@@ -4,8 +4,12 @@ export const linkList = [
 	        link: "https://ra.co/events/1494126",
 	},
 	{
-                title: "EDINBURGH WEEKLY CLUB GUIDE",
-	        link: "https://www.plantbassd.com/news/edi-weekly-club-guide-1-2-22",
+		title: "Plant Bass'd Radio: Sweet Philly Raunchy Mix",
+		link: "https://soundcloud.com/plantbassddjs/plant-bassd-radio-sweet-philly-raunchy-mix",
+	},
+	{
+		title: "EDINBURGH WEEKLY CLUB GUIDE",
+		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-1-2-22",
 	},
 	{
 		title: "FRESH JUICE: Long Island Sound - First Contact",
@@ -26,10 +30,6 @@ export const linkList = [
 	{
 		title: "FRESH JUICE: Oldboy - GRIMEY ONES PART II",
 		link: "https://www.plantbassd.com/news/oldboy-7-1-22",
-	},
-	{
-		title: "Plant Bass'd Radio: Saz Powerhouse Mix",
-		link: "https://soundcloud.com/plantbassddjs/plant-bassd-radio-saz-mix",
 	},
 	{
 		title: "Plant Bass'd Picks: Rory Sweeney",
