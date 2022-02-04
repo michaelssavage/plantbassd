@@ -4,6 +4,10 @@ export const linkList = [
 	        link: "https://ra.co/events/1494126",
 	},
 	{
+		title: "Plant Bass'd Takeover: Glimmerman",
+		link: "https://www.plantbassd.com/takeovers/glimmerman-3-2-22",
+	},
+	{
 		title: "Plant Bass'd Radio: Sweet Philly Raunchy Mix",
 		link: "https://soundcloud.com/plantbassddjs/plant-bassd-radio-sweet-philly-raunchy-mix",
 	},
