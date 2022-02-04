@@ -1,14 +1,14 @@
-import Footer from "components/Footer";
 import { sortByDate } from "components/Utilities";
+import Footer from "components/Footer";
+import Head from "next/head";
+import PropTypes from "prop-types";
 import fs from "fs";
 import matter from "gray-matter";
-import Head from "next/head";
 import path from "path";
-import PropTypes from "prop-types";
 
-import GoBack from "@/btns/GoBack";
-import SoundcloudButton from "@/btns/SoundcloudButton";
 import CardNoText from "@/cards/CardNoText";
+import GoBack from "@/btns/GoBack";
+import SocialMediaBtn from "@/btns/SocialMediaBtn";
 import styles from "@/pageStyle/page.module.scss";
 
 export default function RadioPage({ radios }) {
@@ -26,7 +26,8 @@ export default function RadioPage({ radios }) {
 						Check them out on our Soundcloud.
 					</p>
 					<p className={styles.pageText}>
-						<SoundcloudButton
+						<SocialMediaBtn
+							icon="soundcloud"
 							link="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
 							styling={styles.soundcloud}
 							title="Plant Bass'd Radio"

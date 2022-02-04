@@ -1,4 +1,4 @@
-import { marked } from "marked";
+import Content from "components/SlugContent";
 import Footer from "components/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
@@ -6,28 +6,31 @@ import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 
-import GoBack from "@/btns/GoBack";
+import CardWithButtons from "@/cards/CardWithButtons";
 import styles from "@/pageStyle/slug.module.scss";
 
-export default function TopTenSlug({ title, content }) {
+export default function FreshJuiceSlug({
+	frontmatter: { title, date, pic, bandcamp, postLink },
+	content,
+}) {
 	return (
 		<>
 			<Head>
-				<title>Plant Bass'd Reviews</title>
+				<title>Plant Bass'd Fresh Juice</title>
 			</Head>
 			<div className={styles.newsSection}>
 				<div className="container">
-					<div className={`col ${styles.topTenContent}`}>
-						<h1 className={styles.postTitle}>{title}</h1>
-						<div className={styles.postBody}>
-							<div
-								dangerouslySetInnerHTML={{
-									__html: marked(content),
-								}}
-							/>
-						</div>
+					<div className="row">
+						<Content content={content} date={date} title={title} />
+						<CardWithButtons
+							artist="Bandcamp"
+							insta="Insta Post"
+							link={postLink}
+							page={bandcamp}
+							pic={pic}
+							title={title}
+						/>
 					</div>
-					<GoBack />
 				</div>
 			</div>
 
@@ -35,10 +38,9 @@ export default function TopTenSlug({ title, content }) {
 		</>
 	);
 }
-
 // eslint-disable-next-line func-style, require-await
 export async function getStaticPaths() {
-	const files = fs.readdirSync(path.join("posts/news")),
+	const files = fs.readdirSync(path.join("posts/fresh-juice")),
 		paths = files.map((filename) => ({
 			params: {
 				slug: filename.replace(".md", ""),
@@ -50,11 +52,10 @@ export async function getStaticPaths() {
 		paths,
 	};
 }
-
 // eslint-disable-next-line func-style, require-await
 export async function getStaticProps({ params: { slug } }) {
 	const markdownWithMeta = fs.readFileSync(
-			path.join("posts/news", `${slug}.md`),
+			path.join("posts/fresh-juice", `${slug}.md`),
 			"utf-8"
 		),
 		{ data: frontmatter, content } = matter(markdownWithMeta);
@@ -62,12 +63,18 @@ export async function getStaticProps({ params: { slug } }) {
 	return {
 		props: {
 			content,
-			title: frontmatter.title,
+			frontmatter,
 		},
 	};
 }
 
-TopTenSlug.propTypes = {
-	content: PropTypes.instanceOf(Object).isRequired,
+FreshJuiceSlug.propTypes = {
+	content: PropTypes.string.isRequired,
+	frontmatter: PropTypes.instanceOf(Object).isRequired,
+};
+
+Content.propTypes = {
+	content: PropTypes.string.isRequired,
+	date: PropTypes.string.isRequired,
 	title: PropTypes.string.isRequired,
 };

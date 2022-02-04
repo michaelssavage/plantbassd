@@ -1,19 +1,20 @@
 import PropTypes from "prop-types";
-import { RiSoundcloudLine } from "react-icons/ri";
+import SocialIcon from "components/SocialIcon";
 
-export default function SoundcloudButton({ styling, link, title }) {
+export default function SocialMediaBtn({ styling, link, icon, title }) {
 	return (
 		<a
 			className={`${styling} text-nowrap btn btn-dark btn-lg`}
 			href={link}
 			role="button"
 		>
-			<RiSoundcloudLine /> {title}
+			<SocialIcon icon={icon} /> {title}
 		</a>
 	);
 }
 
-SoundcloudButton.propTypes = {
+SocialMediaBtn.propTypes = {
+	icon: PropTypes.string.isRequired,
 	link: PropTypes.string.isRequired,
 	styling: PropTypes.string.isRequired,
 	title: PropTypes.string.isRequired,

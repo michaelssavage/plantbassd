@@ -7,7 +7,7 @@ export default function useNewsFilter(news = []) {
 	const [newsStories, setNewsStories] = useState(news);
 	const [tagList, setTagList] = useState([
 		{ name: "gigs", value: false },
-		{ name: "fresh juice", value: false },
+		{ name: "guides", value: false },
 		{ name: "reviews", value: false },
 	]);
 

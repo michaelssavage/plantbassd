@@ -2,7 +2,7 @@
 title: "Plant Bass’d present their first party offering to Edinburgh - Release Yo Freak"
 date: "September 13, 2021"
 tags: "gigs"
-pic: "/news/02_Release-Yo-Freak.jpg"
+pic: "/news/01_Release-Yo-Freak.jpg"
 tickets: "https://ra.co/events/1463880"
 postLink: "https://www.instagram.com/p/CTw1M-EjFKj/"
 bio: "Plant Bass’d present their first party offering to Edinburgh and Scotland itself at the otherworldly Sneaky Petes..."

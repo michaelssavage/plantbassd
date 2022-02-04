@@ -8,10 +8,10 @@
 		"prettier"
 	],
 	"plugins": [
-		"simple-import-sort",
+		"prettier",
 		"sort-keys-fix",
-		"unused-imports",
-		"prettier"
+		"sort-imports-es6-autofix",
+		"unused-imports"
 	],
 	"env": {
 		"browser": true,
@@ -36,10 +36,13 @@
 		"react/no-danger": "off",
 		"react/react-in-jsx-scope": "off",
 		"react/require-default-props": "off",
-		"simple-import-sort/exports": "error",
-		"simple-import-sort/imports": "error",
 		"sort-imports": "off",
-		"sort-keys-fix/sort-keys-fix": "warn"
+		"sort-keys-fix/sort-keys-fix": "warn",
+		"sort-imports-es6-autofix/sort-imports-es6": [2, {
+			"ignoreCase": false,
+			"ignoreMemberSort": false,
+			"memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+		}]
 	},
 	"ignorePatterns": ["node_modules/", ".next/", "build", "dist", "public"]
 }

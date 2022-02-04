@@ -1,10 +1,10 @@
 import { linkList } from "arrays/linktree";
-import { socialIconList } from "arrays/SidebarIcons";
 import { shimmer, toBase64 } from "components/BlurImg";
-import SocialIcon from "components/SocialIcon";
+import { socialIconList } from "arrays/SidebarIcons";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import SocialIcon from "components/SocialIcon";
 
 import styles from "@/pageStyle/links.module.scss";
 

@@ -26,49 +26,15 @@
 	order: 1;
 }
 
-.btnGroup {
-	margin: 2rem 1rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-	gap: 0.5rem 0.5rem;
-}
-
-.instagram {
-	color: $instagram;
-	background-color: $headerBlack;
-	margin-bottom: 1rem;
-	&:hover {
-		color: $headerBlack;
-		background-color: $instagram;
-	}
-}
-
-.spotify {
-	color: $spotify;
-	margin-bottom: 1rem;
-	order: 2;
-	&:hover {
-		color: $headerBlack;
-		background-color: $spotify;
-	}
-}
-
-.soundcloud {
-	color: $white;
-	background-color: $soundcloud;
-	margin-bottom: 1rem;
-	&:hover {
-		color: $headerBlack;
-		background-color: $soundcloud;
-	}
-}
-
 .divBackground {
 	padding-left: 12%;
 	padding-right: 12%;
 	padding-bottom: 2em;
+}
+
+.freshjuiceBG {
+	background-color: $blue;
+	@extend .divBackground;
 }
 
 .radioBG {
@@ -143,5 +109,47 @@
 @include breakpoint-below(xxs) {
 	.pageHeader {
 		font-size: $xsHeader;
+	}
+}
+
+// Button stylesheets
+
+.btnGroup {
+	margin: 2rem 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 0.5rem 0.5rem;
+}
+
+.spotify {
+	color: $spotify;
+	margin-bottom: 1rem;
+	order: 2;
+	&:hover {
+		color: $headerBlack;
+		background-color: $spotify;
+	}
+}
+
+.soundcloud {
+	color: $white;
+	background-color: $soundcloud;
+	margin-bottom: 1rem;
+	&:hover {
+		color: $headerBlack;
+		background-color: $soundcloud;
+	}
+}
+
+.bandcamp {
+	color: $white;
+	background-color: $bandcamp;
+	margin-bottom: 1rem;
+	order: 2;
+	&:hover {
+		color: $headerBlack;
+		background-color: $bandcamp;
 	}
 }

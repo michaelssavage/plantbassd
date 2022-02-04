@@ -1,16 +1,16 @@
+import { AiOutlineCloseCircle } from "react-icons/ai";
+import { sortByDate } from "components/Utilities";
 import Error from "components/Error";
 import Footer from "components/Footer";
-import { sortByDate } from "components/Utilities";
+import Head from "next/head";
+import PropTypes from "prop-types";
 import fs from "fs";
 import matter from "gray-matter";
-import useNewsFilter from "hooks/useNewsFilter";
-import Head from "next/head";
 import path from "path";
-import PropTypes from "prop-types";
-import { AiOutlineCloseCircle } from "react-icons/ai";
+import useNewsFilter from "hooks/useNewsFilter";
 
-import GoBack from "@/btns/GoBack";
 import CardWithText from "@/cards/CardWithText";
+import GoBack from "@/btns/GoBack";
 import styles from "@/pageStyle/page.module.scss";
 
 function FilterTags({ tagList, handleTags }) {
@@ -56,7 +56,7 @@ export default function NewsPage({ news }) {
 					<h1 className={styles.pageHeader}>Plant Bass'd News</h1>
 
 					<p className={styles.pageText}>
-						{`News about Fresh Juice, Gigs, and all things Plant
+						{`News about club guides, Gigs, and all things Plant
 						Bass'd. Keep up to date on our Instagram, `}
 						<a
 							className="blackAnchor"

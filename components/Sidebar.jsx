@@ -1,11 +1,11 @@
-import { sidebarList } from "arrays/SidebarIcons";
-import SocialIcon from "components/SocialIcon";
-import useClickLocation from "hooks/useClickLocation";
-import Link from "next/link";
-import { useRouter } from "next/router";
-import PropTypes from "prop-types";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
+import { sidebarList } from "arrays/SidebarIcons";
+import { useRouter } from "next/router";
+import Link from "next/link";
+import PropTypes from "prop-types";
+import SocialIcon from "components/SocialIcon";
+import useClickLocation from "hooks/useClickLocation";
 
 import styles from "@/styles/sidebar.module.scss";
 

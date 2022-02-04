@@ -12,6 +12,10 @@ export const sidebarList = [
 			title: "Mixes",
 		},
 		{
+			link: "/fresh-juice",
+			title: "Fresh Juice",
+		},
+		{
 			link: "/radios",
 			title: "Radio",
 		},

@@ -18,19 +18,19 @@ export const column1 = [
 	],
 	column2 = [
 		{
-			link: "/contact-us",
-			title: "About",
-		},
-		{
-			link: "/news",
+			link: "/fresh-juice",
 			title: "Fresh Juice",
-		},
-		{
-			link: "/contact-us",
-			title: "Contact Us",
 		},
 		{
 			link: "/links",
 			title: "Links",
+		},
+		{
+			link: "/contact-us",
+			title: "About Us",
+		},
+		{
+			link: "/contact-us",
+			title: "Contact Us",
 		},
 	];

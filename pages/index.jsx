@@ -1,17 +1,18 @@
+import { sortByDate } from "components/Utilities";
 import Footer from "components/Footer";
+import FreshJuice from "components/FreshJuice";
+import Head from "next/head";
 import Mixes from "components/Mixes";
 import News from "components/News";
+import PropTypes from "prop-types";
 import Radio from "components/Radio";
 import RellaxImg from "components/RellaxImg";
 import Takeover from "components/Takeover";
-import { sortByDate } from "components/Utilities";
 import fs from "fs";
 import matter from "gray-matter";
-import Head from "next/head";
 import path from "path";
-import PropTypes from "prop-types";
 
-export default function Home({ news, takeovers, radios }) {
+export default function Home({ news, takeovers, radios, freshjuice }) {
 	return (
 		<>
 			<Head>
@@ -22,6 +23,8 @@ export default function Home({ news, takeovers, radios }) {
 			<News news={news} />
 
 			<Mixes />
+
+			<FreshJuice freshjuice={freshjuice} />
 
 			<section className="discoveryCards">
 				<Takeover takeovers={takeovers} />
@@ -54,7 +57,14 @@ const getPosts = (directory) => {
 
 // eslint-disable-next-line func-style, require-await
 export async function getStaticProps() {
-	const news = getPosts("posts/news").sort(sortByDate).reverse().slice(0, 6),
+	// Get files from the takeover directory
+	const freshjuice = getPosts("posts/fresh-juice")
+			.sort(sortByDate)
+			.reverse()
+			.slice(0, 4),
+		// Get files from the news directory
+		news = getPosts("posts/news").sort(sortByDate).reverse().slice(0, 6),
+		// Get files from the radio directory
 		radios = getPosts("posts/radios")
 			.sort(sortByDate)
 			.reverse()
@@ -67,6 +77,7 @@ export async function getStaticProps() {
 
 	return {
 		props: {
+			freshjuice,
 			news,
 			radios,
 			takeovers,
@@ -75,6 +86,7 @@ export async function getStaticProps() {
 }
 
 Home.propTypes = {
+	freshjuice: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
 	news: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
 	radios: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
 	takeovers: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,

@@ -1,9 +1,17 @@
+@use "@/abstracts" as *;
+
+// fresh-juice component
+.bgBlue {
+	background-color: $blue;
+	padding: 2rem;
+}
+
 // Takeover component
-.bgGreen {
+.bgPink {
 	padding: 2rem 2rem 0 2rem;
 }
 
 // Radio component
-.bgBlue {
+.bgGreen {
 	padding: 2rem;
 }

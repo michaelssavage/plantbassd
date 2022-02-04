@@ -1,6 +1,3 @@
-import PropTypes from "prop-types";
-import { useMemo } from "react";
-import { IconContext } from "react-icons";
 import {
 	AiFillHome,
 	AiOutlineFacebook,
@@ -10,25 +7,29 @@ import {
 } from "react-icons/ai";
 import { BiRadio } from "react-icons/bi";
 import { FaSpotify } from "react-icons/fa";
+import { IconContext } from "react-icons";
 import { ImNewspaper } from "react-icons/im";
-import { MdContacts } from "react-icons/md";
+import { MdContacts, MdLocalDrink } from "react-icons/md";
 import { RiSoundcloudLine, RiSpotifyLine } from "react-icons/ri";
+import { SiBandcamp } from "react-icons/si";
+import { useMemo } from "react";
+import PropTypes from "prop-types";
 
 function Switcher({ icon }) {
-	switch (icon) {
-		case "Home":
+	switch (icon.toLowerCase()) {
+		case "home":
 			return <AiFillHome />;
-		case "News":
+		case "news":
 			return <ImNewspaper />;
-		case "Mixes":
+		case "mixes":
 			return <RiSoundcloudLine />;
-		case "Takeovers":
+		case "takeovers":
 			return <FaSpotify />;
-		case "Radio":
+		case "radio":
 			return <BiRadio />;
-		case "Contact Us":
+		case "contact us":
 			return <MdContacts />;
-		case "Links":
+		case "links":
 			return <AiOutlineLink />;
 		case "facebook":
 			return <AiOutlineFacebook />;
@@ -38,12 +39,16 @@ function Switcher({ icon }) {
 			return <AiOutlineMail />;
 		case "soundcloud":
 			return <RiSoundcloudLine />;
+		case "bandcamp":
+			return <SiBandcamp />;
+		case "fresh juice":
+			return <MdLocalDrink />;
 		default:
 			return <RiSpotifyLine />;
 	}
 }
 
-export default function SocialIcon({ icon, styling }) {
+export default function SocialIcon({ icon, styling = null }) {
 	const styleMemo = useMemo(() => ({ className: styling }), [styling]);
 	return (
 		<IconContext.Provider value={styleMemo}>
