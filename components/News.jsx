@@ -1,8 +1,8 @@
 import Link from "next/link";
 import PropTypes from "prop-types";
 
-import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 import CardWithText from "@/cards/CardWithText";
+import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 import styles from "@/styles/news.module.scss";
 
 function OtherNews({ otherNews }) {
@@ -58,9 +58,8 @@ export default function News({ news }) {
 									Latest News
 								</h1>
 								<p>
-									Catch the latest about our Fresh Juice
-									series, upcoming gigs & Plant Bass'd events,
-									and much more
+									Catch the latest about club guides, upcoming
+									gigs & Plant Bass'd events, and much more
 								</p>
 								<p>
 									{`Keep up to date on our Instagram, `}

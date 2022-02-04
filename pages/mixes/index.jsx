@@ -2,9 +2,9 @@ import { clubMixes, downMixes, otherMixes } from "arrays/MixImages";
 import Footer from "components/Footer";
 import Head from "next/head";
 
-import GoBack from "@/btns/GoBack";
-import SoundcloudButton from "@/btns/SoundcloudButton";
 import CardExternal from "@/cards/CardExternal";
+import GoBack from "@/btns/GoBack";
+import SocialMediaBtn from "@/btns/SocialMediaBtn";
 import styles from "@/pageStyle/page.module.scss";
 
 export default function MixesPage() {
@@ -23,7 +23,8 @@ export default function MixesPage() {
 					</p>
 
 					<p className={styles.pageText}>
-						<SoundcloudButton
+						<SocialMediaBtn
+							icon="soundcloud"
 							link="https://soundcloud.com/plantbassddjs/sets/club-mixes"
 							styling={styles.soundcloud}
 							title="Club Ready Mixes"
@@ -36,7 +37,8 @@ export default function MixesPage() {
 						))}
 					</div>
 					<p className={styles.pageText}>
-						<SoundcloudButton
+						<SocialMediaBtn
+							icon="soundcloud"
 							link="https://soundcloud.com/plantbassddjs/sets/dance-mixes"
 							styling={styles.soundcloud}
 							title="Downtempo Mixes"
@@ -49,7 +51,8 @@ export default function MixesPage() {
 						))}
 					</div>
 					<p className={styles.pageText}>
-						<SoundcloudButton
+						<SocialMediaBtn
+							icon="soundcloud"
 							link="https://soundcloud.com/plantbassddjs/tracks"
 							styling={styles.soundcloud}
 							title="More Mixes"

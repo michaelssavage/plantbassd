@@ -1,58 +1,30 @@
+import CardWithButtons from "@/cards/CardWithButtons";
+import Content from "components/SlugContent";
 import Footer from "components/Footer";
+import Head from "next/head";
+import PropTypes from "prop-types";
 import fs from "fs";
 import matter from "gray-matter";
-import { marked } from "marked";
-import Head from "next/head";
 import path from "path";
-import PropTypes from "prop-types";
-
-import CardWithButtons from "@/cards/CardWithButtons";
 import styles from "@/pageStyle/slug.module.scss";
 
-function Content({ date, title, content }) {
-	return (
-		<>
-			<Head>
-				<title>Plant Bass'd News</title>
-			</Head>
-			<div
-				className={`
-				${styles.postContent}
-				col-lg-6
-				col-md-12
-				col-xl-6 
-				`}
-			>
-				<p className={styles.postDate}>Posted on {date}</p>
-				<h1 className={styles.postTitle}>{title}</h1>
-				<div className={styles.postBody}>
-					<div
-						dangerouslySetInnerHTML={{
-							__html: marked(content),
-						}}
-					/>
-				</div>
-			</div>
-		</>
-	);
-}
-
 export default function NewsSlug({
-	frontmatter: { title, date, pic, bandcamp, tickets, seeMore, postLink },
+	frontmatter: { title, date, pic, tickets, seeMore, postLink },
 	content,
 }) {
 	let buyLink = seeMore,
 		buyText = "See More";
-	if (bandcamp) {
-		buyLink = bandcamp;
-		buyText = "Bandcamp";
-	} else if (tickets) {
+
+	if (tickets) {
 		buyLink = tickets;
 		buyText = "RA tickets";
 	}
 
 	return (
 		<>
+			<Head>
+				<title>Plant Bass'd News</title>
+			</Head>
 			<div className={styles.newsSection}>
 				<div className="container">
 					<div className="row">
@@ -106,10 +78,4 @@ export async function getStaticProps({ params: { slug } }) {
 NewsSlug.propTypes = {
 	content: PropTypes.string.isRequired,
 	frontmatter: PropTypes.instanceOf(Object).isRequired,
-};
-
-Content.propTypes = {
-	content: PropTypes.string.isRequired,
-	date: PropTypes.string.isRequired,
-	title: PropTypes.string.isRequired,
 };

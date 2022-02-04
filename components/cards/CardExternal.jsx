@@ -1,7 +1,7 @@
+import { RiSoundcloudLine } from "react-icons/ri";
 import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
 import PropTypes from "prop-types";
-import { RiSoundcloudLine } from "react-icons/ri";
 
 export default function CardExternal({ card }) {
 	return (

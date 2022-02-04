@@ -1,10 +1,10 @@
+import { marked } from "marked";
 import Footer from "components/Footer";
+import Head from "next/head";
+import PropTypes from "prop-types";
 import fs from "fs";
 import matter from "gray-matter";
-import { marked } from "marked";
-import Head from "next/head";
 import path from "path";
-import PropTypes from "prop-types";
 
 import CardWithButtons from "@/cards/CardWithButtons";
 import styles from "@/pageStyle/slug.module.scss";

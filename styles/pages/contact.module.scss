@@ -2,8 +2,18 @@
 
 .container {
 	padding: 3rem 6rem;
-	min-height: 100vh;
 	background-color: $lavender;
+}
+
+.iconBox {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: $black;
+	&:hover {
+		color: $headerBlack;
+	}
 }
 
 .img {

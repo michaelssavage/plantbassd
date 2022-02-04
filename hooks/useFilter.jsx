@@ -1,18 +1,18 @@
 import { useEffect, useState } from "react";
 
-export default function useFilter(takeovers = []) {
+export default function useFilter(posts = []) {
 	const [hasErrored, setHasErrored] = useState(false);
 	const [error, setError] = useState("");
-	const [takeoverCards, setTakeoverCards] = useState(takeovers);
+	const [postCards, setPostCards] = useState(posts);
 	const [filter, setFilter] = useState("");
 
 	useEffect(() => {
 		try {
-			setTakeoverCards(
+			setPostCards(
 				!filter
-					? takeovers
-					: takeovers.filter((takeover) =>
-							takeover.frontmatter.title
+					? posts
+					: posts.filter((post) =>
+							post.frontmatter.title
 								.toLowerCase()
 								.includes(filter.toLowerCase())
 					  )
@@ -23,5 +23,5 @@ export default function useFilter(takeovers = []) {
 		}
 	}, [filter]);
 
-	return { hasErrored, error, takeoverCards, filter, setFilter };
+	return { hasErrored, error, postCards, filter, setFilter };
 }

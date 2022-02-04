@@ -1,12 +1,11 @@
-import { socialIconList } from "arrays/SidebarIcons";
 import { shimmer, toBase64 } from "components/BlurImg";
-import ContactForm from "components/ContactForm";
+import { socialIconList } from "arrays/SidebarIcons";
 import Footer from "components/Footer";
-import RellaxImg from "components/RellaxImg";
-import SocialIcon from "components/SocialIcon";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import RellaxImg from "components/RellaxImg";
+import SocialIcon from "components/SocialIcon";
 
 import styles from "@/pageStyle/contact.module.scss";
 
@@ -24,28 +23,31 @@ export default function ContactPage() {
 						<h1 className={styles.header}>About Us</h1>
 
 						<p>
-							{`Plant Bass'd consists of Oisin Campbell, Michael
+							Plant Bass'd consists of Oisin Campbell, Michael
 							Savage, and Peter Toal. Originally from Co.
 							Monaghan, Ireland, the three lads created the
 							collective in early 2020 with the intention of
-							highlighting the different communities in the
-							electronic music scene.`}
+							highlighting artists, releases, and club nights in
+							the experimental dance music world.
 						</p>
 						<p>
-							{`With shared interests and ambitions, the team looks
+							With shared interests and ambitions, the team looks
 							towards creating unforgettable Plant Bass'd nights
-							in Edinburgh, Glasgow, Dublin, and Monaghan.`}
+							in Edinburgh, Scotland and Dublin, Ireland.
 						</p>
+
+						<h2>Get In Touch:</h2>
 
 						<div className="row">
 							{socialIconList.map((item) => (
 								<div className="col" key={item.link}>
 									<Link href={item.link}>
-										<a>
+										<a className={styles.iconBox}>
 											<SocialIcon
 												icon={item.icon}
 												styling={styles.socialIcon}
-											/>
+											/>{" "}
+											{item.icon.toUpperCase()}
 										</a>
 									</Link>
 								</div>
@@ -65,13 +67,6 @@ export default function ContactPage() {
 							src="/various/hoodie.jpg"
 							width={810}
 						/>
-					</div>
-				</div>
-				<div className="row">
-					<div className="col">
-						<h1 className={styles.header}>Contact Us</h1>
-
-						<ContactForm />
 					</div>
 				</div>
 			</div>
