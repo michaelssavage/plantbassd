@@ -48,7 +48,7 @@ function Switcher({ icon }) {
 	}
 }
 
-export default function SocialIcon({ icon, styling = null }) {
+export default function SocialIcon({ icon, styling = "navIcon" }) {
 	const styleMemo = useMemo(() => ({ className: styling }), [styling]);
 	return (
 		<IconContext.Provider value={styleMemo}>
@@ -59,7 +59,7 @@ export default function SocialIcon({ icon, styling = null }) {
 
 SocialIcon.propTypes = {
 	icon: PropTypes.string.isRequired,
-	styling: PropTypes.string.isRequired,
+	styling: PropTypes.string,
 };
 
 Switcher.propTypes = {

@@ -6,6 +6,7 @@ pic: "/news/01-edinburgh-club-guide.jpg"
 seeMore: "https://ra.co/events/uk/edinburgh?week=2022-01-24"
 postLink: "https://www.instagram.com/p/CZHtytXNFld/"
 bio: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending 30th Jan 2022.."
+path: "news"
 ---
 
 ### Clubbing and normality as it were return this week after a frustrating month long hiatus in Scotland.

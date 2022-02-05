@@ -38,7 +38,7 @@ export default function TopTenSlug({ title, content }) {
 
 // eslint-disable-next-line func-style, require-await
 export async function getStaticPaths() {
-	const files = fs.readdirSync(path.join("posts/news")),
+	const files = fs.readdirSync(path.join("posts/top-ten-2021")),
 		paths = files.map((filename) => ({
 			params: {
 				slug: filename.replace(".md", ""),
@@ -54,7 +54,7 @@ export async function getStaticPaths() {
 // eslint-disable-next-line func-style, require-await
 export async function getStaticProps({ params: { slug } }) {
 	const markdownWithMeta = fs.readFileSync(
-			path.join("posts/news", `${slug}.md`),
+			path.join("posts/top-ten-2021", `${slug}.md`),
 			"utf-8"
 		),
 		{ data: frontmatter, content } = matter(markdownWithMeta);
@@ -68,6 +68,6 @@ export async function getStaticProps({ params: { slug } }) {
 }
 
 TopTenSlug.propTypes = {
-	content: PropTypes.instanceOf(Object).isRequired,
+	content: PropTypes.string.isRequired,
 	title: PropTypes.string.isRequired,
 };

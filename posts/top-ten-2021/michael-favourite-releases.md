@@ -6,7 +6,7 @@ pic: "/top-ten-2021/michael.jpg"
 seeMore: "https://www.instagram.com/michaelsaverage/"
 postLink: "https://www.instagram.com/p/CXyxuQStNo4/"
 bio: "Michael picks some feel-good house, breakbeats, and club music with some room for heavies along the way..."
-altPath: true
+path: "top-ten-2021"
 ---
 
 Lots of euphoric electronic sounds in my top picks this year. Spent a lot of time with some feel-good house, breakbeats, and club music with some room for heavies along the way.

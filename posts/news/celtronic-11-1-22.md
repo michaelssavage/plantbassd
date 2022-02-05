@@ -6,6 +6,7 @@ pic: "/news/05_celtronic.jpg"
 seeMore: "https://www.instagram.com/celtronic"
 postLink: "https://www.instagram.com/plantbassddjs"
 bio: "Plant Bass'd attended Derry's biggest electronic music festival from 9th - 12th December.."
+path: "news"
 ---
 
 ## The First Pint

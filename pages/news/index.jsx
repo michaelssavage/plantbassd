@@ -41,9 +41,9 @@ function FilterTags({ tagList, handleTags }) {
 	);
 }
 
-export default function NewsPage({ news }) {
+export default function NewsPage({ files }) {
 	const { hasErrored, error, newsStories, tagList, handleTags } =
-		useNewsFilter(news);
+		useNewsFilter(files);
 
 	if (hasErrored) {
 		<Error error={error} />;
@@ -56,8 +56,8 @@ export default function NewsPage({ news }) {
 					<h1 className={styles.pageHeader}>Plant Bass'd News</h1>
 
 					<p className={styles.pageText}>
-						{`News about club guides, Gigs, and all things Plant
-						Bass'd. Keep up to date on our Instagram, `}
+						News about club guides, Gigs, and all things Plant
+						Bass'd. Keep up to date on our Instagram,
 						<a
 							className="blackAnchor"
 							href="http://instagra.com/plantbassddjs"
@@ -72,11 +72,7 @@ export default function NewsPage({ news }) {
 						{newsStories.map((story) => (
 							<CardWithText
 								key={story.frontmatter.title}
-								link={
-									story.frontmatter.altPath
-										? `/top-ten-2021/${story.slug}`
-										: `/news/${story.slug}`
-								}
+								link={`/${story.frontmatter.path}/${story.slug}`}
 								post={story}
 							/>
 						))}
@@ -91,33 +87,40 @@ export default function NewsPage({ news }) {
 	);
 }
 
-// eslint-disable-next-line func-style, require-await
-export async function getStaticProps() {
-	const files = fs.readdirSync(path.join("posts/news")),
-		// Get Slug and frontmatter from posts
-		news = files.map((filename) => {
-			const markdownWithMeta = fs.readFileSync(
-					path.join("posts/news", filename),
-					"utf-8"
-				),
-				{ data: frontmatter } = matter(markdownWithMeta),
-				slug = filename.replace(".md", "");
+const getPosts = (directory) => {
+	const files = fs.readdirSync(path.join(directory));
 
-			return {
-				frontmatter,
-				slug,
-			};
-		});
+	// Return Slug and frontmatter from takeover posts
+	return files.map((filename) => {
+		const markdownWithMeta = fs.readFileSync(
+				path.join(directory, filename),
+				"utf-8"
+			),
+			{ data: frontmatter } = matter(markdownWithMeta),
+			slug = filename.replace(".md", "");
+
+		return {
+			frontmatter,
+			slug,
+		};
+	});
+};
+
+/* eslint-disable */
+export async function getStaticProps() {
+	const news = getPosts("posts/news"),
+		topTen2021 = getPosts("posts/top-ten-2021"),
+		files = news.concat(topTen2021).sort(sortByDate).reverse();
 
 	return {
 		props: {
-			news: news.sort(sortByDate).reverse(),
+			files,
 		},
 	};
 }
-
+/* eslint-enable */
 NewsPage.propTypes = {
-	news: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
+	files: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
 };
 
 FilterTags.propTypes = {

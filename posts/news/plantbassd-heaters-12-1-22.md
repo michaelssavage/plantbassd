@@ -6,6 +6,7 @@ pic: "/news/06-plantbassd-heaters.jpg"
 tickets: "https://ra.co/events/1494126"
 postLink: "https://www.instagram.com/p/CYopQNkNpMh/"
 bio: "We takeover Heaters with a special headline slot from the ever palpable TAALHIAH!..."
+path: "news"
 ---
 
 ### We takeover Heaters with a special headline slot from the ever palpable TAALHIAH!
