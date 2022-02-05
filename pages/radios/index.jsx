@@ -27,7 +27,7 @@ export default function RadioPage({ radios }) {
 					</p>
 					<p className={styles.pageText}>
 						<SocialMediaBtn
-							icon="soundcloud"
+							icon="radio"
 							link="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
 							styling={styles.soundcloud}
 							title="Plant Bass'd Radio"
