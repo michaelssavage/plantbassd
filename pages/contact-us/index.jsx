@@ -40,7 +40,10 @@ export default function ContactPage() {
 
 						<div className="row">
 							{socialIconList.map((item) => (
-								<div className="col" key={item.link}>
+								<div
+									className="col-6 col-sm-4 col-md-4"
+									key={item.link}
+								>
 									<Link href={item.link}>
 										<a className={styles.iconBox}>
 											<SocialIcon
