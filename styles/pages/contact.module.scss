@@ -11,6 +11,7 @@
 	align-items: center;
 	flex-direction: column;
 	color: $black;
+	font-size: $cardDate;
 	&:hover {
 		color: $headerBlack;
 	}

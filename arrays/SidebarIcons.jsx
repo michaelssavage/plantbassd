@@ -53,4 +53,8 @@ export const sidebarList = [
 			icon: "soundcloud",
 			link: "https://soundcloud.com/plantbassddjs",
 		},
+		{
+			icon: "bandcamp",
+			link: "https://bandcamp.com/oisincampbellbap",
+		},
 	];
