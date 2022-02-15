@@ -4,7 +4,7 @@ date: "January 31, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/12-long-island-sound.jpg"
 bandcamp: "https://thehammerhits.bandcamp.com/album/first-contact-ep"
-postLink: "https://www.instagram.com/plantbassddjs"
+postLink: "https://www.instagram.com/plantbassd___"
 bio: "Long Island Sound are duo Rob Roche and Tim Nolan, who've just released their EP 'First Contact' on Irish artist Hammer's label, 'Remmah'..."
 ---
 

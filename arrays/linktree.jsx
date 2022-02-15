@@ -1,7 +1,7 @@
 export const linkList = [
 	{
-		title: "TAAHLIAH @ Sneaky Pete's Tickets",
-		link: "https://ra.co/events/1494126",
+		title: "FRESH JUICE: PU$$Y GALORE by KARNAGE KILLS X DJ MELL G",
+		link: "https://www.plantbassd.com/fresh-juice/dj-mell-g-15-2-22",
 	},
 	{
 		title: "EDINBURGH WEEKLY CLUB GUIDE",

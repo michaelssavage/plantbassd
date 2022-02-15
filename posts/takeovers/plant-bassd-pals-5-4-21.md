@@ -1,8 +1,8 @@
 ---
-title: "Plant Bass’d Takeover 010: @plantbassddjs & pals"
+title: "Plant Bass’d Takeover 010: @plantbassd___ & pals"
 date: "April 5, 2021"
 pic: "/takeovers/10_PB-Pals.jpg"
-artistPage: "https://www.instagram.com/plantbassddjs/"
+artistPage: "https://www.instagram.com/plantbassd___"
 postLink: "https://www.instagram.com/p/CNTI2uZHgWq/"
 ---
 
