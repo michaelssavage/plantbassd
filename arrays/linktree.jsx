@@ -1,4 +1,8 @@
 export const linkList = [
+	{       
+		title: "YTP @ Sneaky Pete's Tickets"
+	        link: "https://ra.co/events/1500809"
+	},
 	{
 		title: "FRESH JUICE: PU$$Y GALORE by KARNAGE KILLS X DJ MELL G",
 		link: "https://www.plantbassd.com/fresh-juice/dj-mell-g-15-2-22",
