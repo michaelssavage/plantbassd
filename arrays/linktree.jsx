@@ -1,7 +1,7 @@
 export const linkList = [
-	{       
+	{
 		title: "YTP @ Sneaky Pete's Tickets",
-	        link: "https://ra.co/events/1500809",
+		link: "https://ra.co/events/1500809",
 	},
 	{
 		title: "FRESH JUICE: PU$$Y GALORE by KARNAGE KILLS X DJ MELL G",
@@ -9,7 +9,7 @@ export const linkList = [
 	},
 	{
 		title: "EDINBURGH WEEKLY CLUB GUIDE",
-		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-7-2-22",
+		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-15-2-22",
 	},
 	{
 		title: "Plant Bass'd Takeover: Glimmerman",
@@ -32,12 +32,12 @@ export const linkList = [
 		link: "https://www.plantbassd.com/fresh-juice/jason-code-14-1-22",
 	},
 	{
-		title: "FRESH JUICE: Third Degree - 'HAZMAT Compilation'",
-		link: "https://www.plantbassd.com/fresh-juice/third-degree-10-1-22",
-	},
-	{
 		title: "Spotify Playlist: Plant Bass'd Picks",
 		link: "https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=611353a4ea0244d5",
+	},
+	{
+		title: "Soundcloud",
+		link: "https://soundcloud.com/plantbassddjs",
 	},
 	{
 		title: "Plant Bass'd Website",
