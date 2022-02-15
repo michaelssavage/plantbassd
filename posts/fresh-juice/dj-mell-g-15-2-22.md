@@ -4,7 +4,7 @@ date: "February 15, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/13-mell-g_pussy-galore.jpg"
 bandcamp: "https://juicygangrecords.bandcamp.com/album/pu-y-galore"
-postLink: "https://www.instagram.com/plantbassddjs"
+postLink: "https://www.instagram.com/plantbassd___"
 bio: "DJ MELL G spanks back once more with a second balls to the wall installment on her recently ignited Juicy Gang Records..."
 ---
 

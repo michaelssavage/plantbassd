@@ -65,9 +65,9 @@ export default function News({ news }) {
 									{`Keep up to date on our Instagram, `}
 									<a
 										className="blackAnchor"
-										href="http://instagra.com/plantbassddjs"
+										href="http://instagram.com/plantbassd___"
 									>
-										@plantbassddjs
+										@plantbassd___
 									</a>
 								</p>
 							</div>

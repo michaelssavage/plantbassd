@@ -3,7 +3,7 @@ title: "Plant Bass’d Takeover 019: @_glimmerman_"
 date: "February 4, 2022"
 pic: "/takeovers/19_glimmerman.jpg"
 artistPage: "https://www.instagram.com/_glimmerman_/"
-postLink: "https://www.instagram.com/plantbassddjs"
+postLink: "https://www.instagram.com/plantbassd___"
 ---
 
 ### Returning to our playlist takeover series, we bring you Irish bass wiz Glimmerman who shares his 10 favourite club tracks of the moment and chats to us about his latest EP, the timely surge in bass music, and the recently re-opened Irish night scene.

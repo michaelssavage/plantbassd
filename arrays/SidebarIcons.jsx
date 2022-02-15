@@ -39,7 +39,7 @@ export const sidebarList = [
 		},
 		{
 			icon: "instagram",
-			link: "https://www.instagram.com/plantbassddjs/",
+			link: "https://www.instagram.com/plantbassd___/",
 		},
 		{
 			icon: "email",

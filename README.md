@@ -21,5 +21,5 @@ Party Throwers and electronic music blog based in Edinburgh and Dublin. Sharing 
 ## Get In Contact
 
 -   [Email](mailto:plantbassddjs@gmail.com)
--   [Instagram](www.instagram.com/plantbassddjs)
+-   [Instagram](www.instagram.com/plantbassd___)
 -   Website by Michael

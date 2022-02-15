@@ -4,7 +4,7 @@ date: "February 7, 2022"
 tags: "guides"
 pic: "/news/03-edinburgh-club-guide.jpg"
 seeMore: "https://ra.co/events/uk/edinburgh?week=2022-02-07"
-postLink: "https://www.instagram.com/plantbassddjs"
+postLink: "https://www.instagram.com/plantbassd___"
 bio: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending 13th Feb 2022.."
 path: "news"
 ---
