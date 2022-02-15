@@ -1,6 +1,6 @@
 export const linkList = [
 	{       
-		title: "YTP @ Sneaky Pete's Tickets"
+		title: "YTP @ Sneaky Pete's Tickets",
 	        link: "https://ra.co/events/1500809",
 	},
 	{
