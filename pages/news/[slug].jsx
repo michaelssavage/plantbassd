@@ -31,7 +31,7 @@ export default function NewsSlug({
 						<Content content={content} date={date} title={title} />
 						<CardWithButtons
 							artist={buyText}
-							insta="Insta Post"
+							insta="Instagram"
 							link={postLink}
 							page={buyLink}
 							pic={pic}

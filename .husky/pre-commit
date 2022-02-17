@@ -6,11 +6,19 @@ echo '🏗️👷 Styling, testing and building your project before committing'
 
 yarn lint ||
 (
-        echo 'ESLint Check Failed. Make the required changes listed above, add changes and try to commit again.'
+        echo "ESLint Check Failed. Make the required changes listed above, add changes and try to commit again."
+        false; 
+)
+
+yarn build ||
+(
+        echo "Build Stage Failed. Make sure the server isn't running."
         false; 
 )
 
 # If everything passes... Now we can commit
 
 # If everything passes... Now we can commit
-echo '✅✅✅✅ Commit passed ✅✅✅✅'
+echo "✅✅✅✅ Commit passed ✅✅✅✅"
+
+# add --no-verify to bypass

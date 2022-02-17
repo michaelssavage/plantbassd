@@ -24,7 +24,7 @@ export default function FreshJuiceSlug({
 						<Content content={content} date={date} title={title} />
 						<CardWithButtons
 							artist="Bandcamp"
-							insta="Insta Post"
+							insta="Instagram"
 							link={postLink}
 							page={bandcamp}
 							pic={pic}
