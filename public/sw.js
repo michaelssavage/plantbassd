@@ -1,1 +1,1122 @@
-if(!self.define){let e,i={};const s=(s,a)=>(s=new URL(s+".js",a).href,i[s]||new Promise((i=>{if("document"in self){const e=document.createElement("script");e.src=s,e.onload=i,document.head.appendChild(e)}else e=s,importScripts(s),i()})).then((()=>{let e=i[s];if(!e)throw new Error(`Module ${s} didn’t register its module`);return e})));self.define=(a,c)=>{const r=e||("document"in self?document.currentScript.src:"")||location.href;if(i[r])return;let n={};const d=e=>s(e,r),o={module:{uri:r},exports:n,require:d};i[r]=Promise.all(a.map((e=>o[e]||d(e)))).then((e=>(c(...e),n)))}}define(["./workbox-1846d813"],(function(e){"use strict";importScripts(),self.skipWaiting(),e.clientsClaim(),e.precacheAndRoute([{url:"/_next/static/chunks/441-aa185963aa841acb.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/675-f5bb6e9a9044bfd5.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/866-6391e2c74139c131.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/framework-b2b803b7657b42a9.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/main-486bdcc43bf7a8a3.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/pages/_app-85d8826134ca969f.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/pages/_error-2280fa386d040b66.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/pages/contact-us-0a8b57263da8ea5b.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/pages/fresh-juice-a9e2a53772afcab2.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/pages/fresh-juice/%5Bslug%5D-ff5d9e322fdb96b1.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/pages/index-17657acd3c5c4380.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/pages/links-5bec06c53bfaf990.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/pages/mixes-3d7aaccf9d3491ea.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/pages/news-6f212ed36448a20b.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/pages/news/%5Bslug%5D-c9b0bdc2699e1ebc.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/pages/radios-6292d612d2aaebe0.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/pages/radios/%5Bslug%5D-4238c072d5f093a7.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/pages/takeovers-e7bfb87876841b3b.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/pages/takeovers/%5Bslug%5D-8474790c074cc6a1.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/pages/top-ten-2021/%5Bslug%5D-36931e4ded6ae6aa.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/chunks/webpack-49b6f2937c9ce9f4.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/css/072885a366875c58.css",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/css/11534297bc223ecb.css",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/css/128ec4d724f0e399.css",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/css/20e717ecb46e74f7.css",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/css/38db372cff5a7aad.css",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/css/6309e5c284655b2a.css",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/css/64d108c806942f0e.css",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/css/68442c4ac598f0e1.css",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/css/d3eb325a86df43be.css",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/fzP-Tev2lvntOowJRXTu0/_buildManifest.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/fzP-Tev2lvntOowJRXTu0/_middlewareManifest.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/_next/static/fzP-Tev2lvntOowJRXTu0/_ssgManifest.js",revision:"fzP-Tev2lvntOowJRXTu0"},{url:"/fonts/Messina.ttf",revision:"9529b9c3fbf7b1cafefbcf0da3d076b3"},{url:"/fonts/Molengo-Regular.ttf",revision:"53570d6f43fd5474424cdfab26d2fd55"},{url:"/fresh-juice/01_DG.jpg",revision:"ede1a9b037ba0e2ff4d14fc24a0a6b87"},{url:"/fresh-juice/02_Of-Paradise-Records.jpg",revision:"b353fa0a4453f56f2fff94f41a3cd4c6"},{url:"/fresh-juice/03_Carlos-Danger.jpg",revision:"cb63b3673f4ab970bdd52485c0fad224"},{url:"/fresh-juice/04_Pixl.jpg",revision:"db54f192e6b7ca223ec605ba2cdf91dd"},{url:"/fresh-juice/05_darkmavis-sweetphilly.jpg",revision:"f95fc9441bf9cbc8c3a6742f1c885d18"},{url:"/fresh-juice/06_juicy-gang.jpg",revision:"19285ffd3d62494bbf848fec67dbd45c"},{url:"/fresh-juice/06_mell-g-presspic.jpg",revision:"964af1bf3dc7ce5ce4e14c4cf24ee803"},{url:"/fresh-juice/06_mell-g.jpg",revision:"93eb8b3cae097e19b0079bac8b6c8bdf"},{url:"/fresh-juice/07_sets.jpg",revision:"c9e381c9994759be9367b590b4e6426e"},{url:"/fresh-juice/07_setslads.jpg",revision:"519d1ce8ec4c65155355fae5c3c135d2"},{url:"/fresh-juice/08_oldboy-grimey-ones.jpg",revision:"f77a477f0d0299fc7fc6b9e3c5f772bd"},{url:"/fresh-juice/08_oldboy.jpg",revision:"977bd48ef23c0d4fff71a62dadf5a90a"},{url:"/fresh-juice/09_hazmat-album-art.jpg",revision:"19ca9aa7bfb1f5a2418864b35d8af848"},{url:"/fresh-juice/09_third-degree-sign.png",revision:"7e1ea9cbdb9eab79eda54292fe9874dc"},{url:"/fresh-juice/09_third-degree.jpg",revision:"89083ca1f4f332c21b36dd0b930d9944"},{url:"/fresh-juice/10_JC01.jpg",revision:"dff17dfe04925322542a23b565de6f10"},{url:"/fresh-juice/10_jason-code.jpg",revision:"21f82df0f02d6c2d3ad02731142efde3"},{url:"/fresh-juice/10_jason-presspic.jpg",revision:"43165b1efc62b20c4c6e400d538b511d"},{url:"/fresh-juice/11-clan-destine.jpg",revision:"9256bd987c58fea2bcbbbce12fa38868"},{url:"/fresh-juice/11-clandest-lp.jpg",revision:"20a7c1ed0ffe6bb3a4fa21bc7ef34b49"},{url:"/fresh-juice/11-records.jpg",revision:"50f42edc7741708c503fc456db35f1c8"},{url:"/fresh-juice/12-long-island-sound-ep.jpg",revision:"ff67676953c03ef9d745497af7703501"},{url:"/fresh-juice/12-long-island-sound.jpg",revision:"4f280f09574fabd1b6ecff6ec760d784"},{url:"/fresh-juice/12-sos-press-pic.jpg",revision:"cec826de4bd8e3c37936f76bbfcd645e"},{url:"/fresh-juice/13-back-pg.jpg",revision:"ecd0880540c6eb640326208337b7f2ed"},{url:"/fresh-juice/13-front-pg.jpg",revision:"8ada978fc4067befb3f85e3d93e00392"},{url:"/fresh-juice/13-mell-g_pussy-galore.jpg",revision:"64c0d52e3e0e9a8dcc39d239099db272"},{url:"/fresh-juice/14-philthtrax.jpg",revision:"cb256bda9198631edc5ec8c14b1e3631"},{url:"/fresh-juice/14-plot-twist.jpg",revision:"17435906d0ca22bee9b834c96803d42f"},{url:"/fresh-juice/14-plot-twist2.jpg",revision:"ed523bd57092ac543eab2e5b7a95d1c2"},{url:"/fresh-juice/15-failed-units.jpg",revision:"eaf5ae3273bfcbcf90bc312264c65242"},{url:"/fresh-juice/15-pang.jpg",revision:"1c924bd39fdca8cae4287c18dec27f61"},{url:"/fresh-juice/15-pang2.jpg",revision:"5ec8312b0818ce74bc90725753bd7420"},{url:"/icons/icon-192x192.png",revision:"48d96d0ee79479560ab56ab8374fabb7"},{url:"/icons/icon-256x256.png",revision:"a8d3d0d0ca136d558bf545b384d0f862"},{url:"/icons/icon-384x384.png",revision:"2f835c75e2409dc7a5c6246deb7c5753"},{url:"/icons/icon-512x512.png",revision:"054cf4b26daaecce6a4af632687ae9a8"},{url:"/icons/maskable_icon.png",revision:"ba11b3be8f85fd0e21323fcf24f57ce0"},{url:"/manifest.webmanifest",revision:"dea0f8c10800c178d7e0d8cfdf8e5834"},{url:"/mixes/1-itsnotradio.jpg",revision:"d6835726f58450bdf419e4d14d3c2b23"},{url:"/mixes/10-aurora.jpg",revision:"7e760923502126676e46c6355db5e402"},{url:"/mixes/11-common_grounds.jpg",revision:"f508a6a72b184aba8844aebddcbfe11d"},{url:"/mixes/12-electro.jpg",revision:"53c0690b63ca46df7209a9fd8151ee85"},{url:"/mixes/2-itsnotradio.jpg",revision:"f99d7843ae76fb2c9e898e42408c9cb5"},{url:"/mixes/3-itsnotradio.png",revision:"966a8db5ad4a40df5f07a569d7ae111d"},{url:"/mixes/4-itsnotradio.jpg",revision:"99e92f8bd7e172e91e9ed1d3a433fb48"},{url:"/mixes/5-set.jpg",revision:"b8724be5886bd34f5a03d52eaa93b277"},{url:"/mixes/6-set.png",revision:"3659bce0aabcf812094b0a492d9870cc"},{url:"/mixes/7-set.jpg",revision:"986911b05c2647b8ff6e4930c9241749"},{url:"/mixes/8-set.jpg",revision:"e7d2aed6cb95cac576306e2266bca910"},{url:"/mixes/9-daffodil_day.jpg",revision:"15063b3c61cde77d4d1f033909d834a6"},{url:"/news/01-edinburgh-club-guide.jpg",revision:"19ea048e5f69f0aa0a2d1b83273e6656"},{url:"/news/01_Release-Yo-Freak.jpg",revision:"447ea1c52eb96549dfd3146a216ec381"},{url:"/news/02-edinburgh-club-guide.jpg",revision:"dbb1b6aefc8d88ac81412a240e347b88"},{url:"/news/02_SweatBox.jpg",revision:"008ebfad3a1337bec4b168016df8fee8"},{url:"/news/03-edinburgh-club-guide.jpg",revision:"152402386433e00b2aa5a21262a8dc3f"},{url:"/news/03_ruff-n-tuff.jpg",revision:"982adff718b2dbd9b6532d2622e44fa4"},{url:"/news/04-edinburgh-club-guide.jpg",revision:"ae27ce31b14eba6acbbd9857864b4e7b"},{url:"/news/04_mistletoe-and-grind.jpg",revision:"2acf4480430374f33601224021a9fe10"},{url:"/news/05-celtronic/giant-swan.jpg",revision:"e1d3511a4f27af99551b219971048313"},{url:"/news/05-celtronic/kink.jpg",revision:"0f5c51e362977aabf092cd49622932bc"},{url:"/news/05-celtronic/loraine-james.jpg",revision:"3292a7f5ae954cb2d7e3dccdab526cff"},{url:"/news/05_celtronic.jpg",revision:"28fe21ed5390f23d07426526b51ef70c"},{url:"/news/06-plantbassd-heaters.jpg",revision:"5213c3a7d484d92ea46bdf71bb4e8b75"},{url:"/news/06-plantbassd-heaters/lucky-dip.jpg",revision:"a0b09a26427bd12ec496cc47faac352d"},{url:"/news/06-plantbassd-heaters/sweet-philly.jpg",revision:"dea33a40e796f03b4c5812b9288909b4"},{url:"/news/06-plantbassd-heaters/taahliah.jpg",revision:"2a0044de79b55fb1e613a111b394c9a0"},{url:"/news/07-plantbassd-ytp.jpg",revision:"5c7f0c338f54bdfa9709626c56daef54"},{url:"/news/07-ytp.jpg",revision:"1c743f52d3e9dbeebaf760880816963d"},{url:"/news/club-guide/01-bongo.jpg",revision:"20b3c2d2e9c9bbdb6d1e180e7cf8380c"},{url:"/news/club-guide/01-itsnotradio.jpg",revision:"85ddb7af0d1bb09dde6ad5a9f2621682"},{url:"/news/club-guide/01-midnight-bass.jpg",revision:"765a2ce03ad38a3e9b5dda784c9cca0b"},{url:"/news/club-guide/01-night-tube.jpg",revision:"791dfd7ac14bd47cf383cc93d2765bc9"},{url:"/news/club-guide/01-powerhouse.jpg",revision:"4040494aa2c1fc28eb433e265a3d5e2e"},{url:"/news/club-guide/01-pulse-black.jpg",revision:"675f67102bfa634f97d16d49d62b1483"},{url:"/news/club-guide/01-pulse-blue.jpg",revision:"02fc0da1ae45542055d96a6a02920639"},{url:"/news/club-guide/01-speedset.jpg",revision:"85fe03da7e327052bab26ab7f277aa93"},{url:"/news/club-guide/01-wee-dub-club.jpg",revision:"af6a04c243689b47e67562e2bd678da1"},{url:"/news/club-guide/02-heaters.jpg",revision:"7f22aab9750ea01edf8fe702160ba005"},{url:"/news/club-guide/02-night-tube.png",revision:"2974707f5c888f0c8cfe9892b88ef5d7"},{url:"/news/club-guide/02-nikki-kent-ehfm.jpg",revision:"ebfb4f0bf5a0c38a10baab0ee949c42b"},{url:"/news/club-guide/02-nina-stranger.jpg",revision:"656cab9a760725230ca615f9e217aca0"},{url:"/news/club-guide/02-samedia-shebeen.png",revision:"d975af19e1496d60401ddd5bfb581ad5"},{url:"/news/club-guide/02-ssl-xl.png",revision:"40d3bbd0a5f6e15e91c7a02b531ec876"},{url:"/news/club-guide/02-volens-chorus.jpg",revision:"bff05b95a794094dfb219ffc9fdd9de0"},{url:"/news/club-guide/03-249.png",revision:"75e5a56087e3972e97d52bb0cf7dddcb"},{url:"/news/club-guide/03-bob-marley.jpg",revision:"ea0182077e8ca4866e6e26f50cd0ed53"},{url:"/news/club-guide/03-disco-makossa.jpg",revision:"63faa5aba087a9516b15aecb9fe57b65"},{url:"/news/club-guide/03-dusky.jpg",revision:"0b8ab281cf2698fc3b755eb36c29e861"},{url:"/news/club-guide/03-headset.jpg",revision:"b414044e56b1e2b4cb43388e16ca2c7a"},{url:"/news/club-guide/03-love-bomb.jpg",revision:"ab187900aa4159e08ebb5f551869a59f"},{url:"/news/club-guide/03-mash-house.jpg",revision:"46bc62f723dc43798190b4c4609d789c"},{url:"/news/club-guide/03-moxie.jpg",revision:"7e3f8c7932d0c16c8ac64c97fb0196c7"},{url:"/news/club-guide/03-overground.jpg",revision:"75397dcbdfe6754fd7d3953c354fa364"},{url:"/news/club-guide/03-postal.jpg",revision:"82791b9a2670e28c2f2efdb11c774acf"},{url:"/news/club-guide/04-athens.jpg",revision:"880512f3586ea3b7af1bc9d31b695911"},{url:"/news/club-guide/04-aurora.jpg",revision:"dc0738e635f25b8f9c8d74e81959e9f3"},{url:"/news/club-guide/04-dr-banana.jpg",revision:"861480246ceb96a8e84e119dc6dcdeaa"},{url:"/news/club-guide/04-heaters.jpg",revision:"a907c7bf69ce934ebcf8edc7810fd531"},{url:"/news/club-guide/04-heavy-flow.jpg",revision:"a61fc54ea331a6b25f45b3fd6e69ccd3"},{url:"/news/club-guide/04-midnight-bass.jpg",revision:"4379e41e361ecbb0418433c4650c53d8"},{url:"/news/club-guide/04-palidrone.jpg",revision:"35612c08ace3b880dc310bf498d483ed"},{url:"/news/club-guide/04-prosumer.jpg",revision:"dafc89e1689e54c5d13c0348213f5bd8"},{url:"/news/club-guide/04-shampain.jpg",revision:"aecd4e5c5bdb0fc66caea5e0919d2a51"},{url:"/pb_favicon.ico",revision:"5395ccb369c1280bd1fed8f158b8eb26"},{url:"/radios/01_jack-ward.jpg",revision:"7548f6b30148c7351ac3d771bfec00d8"},{url:"/radios/01_tracklist.jpg",revision:"fcbdd8a33e1bf2ee4a829decbba2e439"},{url:"/radios/02_colm-brandon.jpg",revision:"af1cda18415e02596f7f02353a8f1486"},{url:"/radios/02_tracklist.jpg",revision:"7d83ba0a747a5caa7d7fad6c49bc5f84"},{url:"/radios/03_kyle.jpg",revision:"b959ddc064f15d06df3a9aede2d743a6"},{url:"/radios/03_tracklist.jpg",revision:"9b349fae2baaa815608c738738cbf7a6"},{url:"/radios/04_saz.jpg",revision:"2d7b6a291716daed19faab9686164bc6"},{url:"/radios/04_tracklist.jpg",revision:"a5765dcaf826bc31e5876ee26b27d9d4"},{url:"/radios/05_sweet-philly.jpg",revision:"46cbd74417703ff4e71fd89cb2f6941e"},{url:"/radios/05_sweey-philly-setlist.jpg",revision:"7ce780592d2d78deb91dbb44c85362bf"},{url:"/robots.txt",revision:"e7d21f74e01465a0fec77c907577779a"},{url:"/sitemap-0.xml",revision:"d80a0c3447f0222d948d3245856bbfe4"},{url:"/sitemap.xml",revision:"effcf8786d0893e7fbce98594d64d737"},{url:"/takeovers/01_Luciid.jpg",revision:"6a93dcdeb3358d865558e48e3c4abc25"},{url:"/takeovers/02_Presswork.jpg",revision:"6d0a094f9b180b68cafbd7cc8a188d7a"},{url:"/takeovers/03_Mind-The-Gap.jpg",revision:"7c7200d30ee2f8af1f5d21607a2f8ea5"},{url:"/takeovers/04_Tomas.jpg",revision:"a3fc954f0f6062e4cfa9c61307ec501d"},{url:"/takeovers/05_Roo-Honeychild.jpg",revision:"407bda2cc6ecea757c519e10bbcd167f"},{url:"/takeovers/06_Yours-Truly.jpg",revision:"cd8db55bf3156b5e818a34934fbf530e"},{url:"/takeovers/07_Dar-Disku.jpg",revision:"2e34212cb4e29ca60a2863b6a6e359a0"},{url:"/takeovers/08_Efa-Oneill.jpg",revision:"fabb50973f4d54f2834dbcd09098c9e8"},{url:"/takeovers/09_Midnight-Bass.jpg",revision:"4f8a8997d7b0ff100ee5eddb96d04aa0"},{url:"/takeovers/10_PB-Pals.jpg",revision:"695060eb68f5123f1325a8e03e444ffc"},{url:"/takeovers/11_pagan.jpg",revision:"a2c9800842afcf72f989d94a815523d9"},{url:"/takeovers/12_Skin-And-Blister.jpg",revision:"3ce0d30c99141bbd5f5df1b21f7ab6e6"},{url:"/takeovers/13_sohotsospicy.jpg",revision:"ebee073ecfd4d9c635ddc3702edf3213"},{url:"/takeovers/14_Jack-ward.jpg",revision:"014da94e74324771b0295731603f6a19"},{url:"/takeovers/15_Miss-World.jpg",revision:"609f51d9fb8947aca2231128318ccf03"},{url:"/takeovers/16_Carmen-Electro.jpg",revision:"8d435a3a14f682ea1d0143be07c7641d"},{url:"/takeovers/17_cartin.jpg",revision:"c4b3a52063cdd0239a10e0a0cf4b1026"},{url:"/takeovers/18_Rory_Sweeney.jpg",revision:"0862d2ca268d015f785c4ee58331dda8"},{url:"/takeovers/19_glimmerman.jpg",revision:"8b53a7ca543ce8fa353f2f593d013a18"},{url:"/takeovers/19_glimmerman/djing.jpg",revision:"687e2672907ba6fd257fd36b6328a0c1"},{url:"/takeovers/19_glimmerman/fire.jpg",revision:"daa4fd7c74b07c79207862f35e386b7c"},{url:"/takeovers/19_glimmerman/record.jpg",revision:"b5617a1973e48101781af3b77f8b46fd"},{url:"/top-ten-2021/michael.jpg",revision:"c3cd511587f3b9908b69dc68eb04e497"},{url:"/top-ten-2021/michael/another_chemical_love_story.jpg",revision:"9dc30a60d627daf5bc824fdc220d7f3d"},{url:"/top-ten-2021/michael/blawan-woke_up_right_handed.jpg",revision:"8ce2e4b0573a9f6abc2d015269228b87"},{url:"/top-ten-2021/michael/eris_drew-quivering_in_time.jpg",revision:"6bf7493826a611b0d977b225427806ad"},{url:"/top-ten-2021/michael/george_fitzgerald-ultraviolet.png",revision:"ad9ed3b42737825485e3bfa6ee2d3177"},{url:"/top-ten-2021/michael/india_jordan-watch_out.jpg",revision:"ff64821dc18b7f53a44599251240dcbd"},{url:"/top-ten-2021/michael/laurence_guy-good_times.jpg",revision:"489b2d914ac2fdb3ecd40c2ef3e304c5"},{url:"/top-ten-2021/michael/lxury-smart_digital_life.jpg",revision:"0a6eea12c9b0ef17f74be0dffa45e528"},{url:"/top-ten-2021/michael/model_men_lp.jpg",revision:"1c63e8792429cd399d926eb2e22807b0"},{url:"/top-ten-2021/michael/roman_flugel-cluttered_homes.jpg",revision:"38334e1097d316300f0566b344d210e9"},{url:"/top-ten-2021/michael/shire_t-tomorrows_people.jpg",revision:"37198a5b1aca421dda33986dc9485f00"},{url:"/top-ten-2021/oisin.jpg",revision:"372a107ef57f89cd456300a5fa4cebe3"},{url:"/top-ten-2021/oisin/amy_dabbs-allure.jpg",revision:"1ba2cee1c7496609b8a917b06c7f15e4"},{url:"/top-ten-2021/oisin/anz-OTMI001.jpg",revision:"4a1eb8fb6d1e856fc339e505a240359b"},{url:"/top-ten-2021/oisin/ayesha-potential_energy.jpg",revision:"3b3920565a8e31b2750f0630daf2fb79"},{url:"/top-ten-2021/oisin/chippy_nonstop-dj_genderfluid.jpg",revision:"7065917f161eed975f4376104602e735"},{url:"/top-ten-2021/oisin/defekt-dont_stop.jpg",revision:"b1baa0e5ea65e5201612df2e0c108714"},{url:"/top-ten-2021/oisin/fio_fa-U_drink_U_pay.jpg",revision:"0a2e14461b25484aedd9a190821a359a"},{url:"/top-ten-2021/oisin/glimmer-step_mode.jpg",revision:"74f82ce7e6ae0530cf21024ec58abdfb"},{url:"/top-ten-2021/oisin/hilltown-asbeel.jpg",revision:"5d0453babbba314ca42dba43c02b8594"},{url:"/top-ten-2021/oisin/kessler-foul_play.jpg",revision:"31730791ae16cbbd69922eeee483daa2"},{url:"/top-ten-2021/oisin/lsdxoxo-dedicated2disrespect.jpg",revision:"9d34e1e9d4b6c1f07e76b6348b6f7418"},{url:"/top-ten-2021/peter.jpg",revision:"2ecb09470697b881e6dc9fe470e899a0"},{url:"/top-ten-2021/peter/ingi-wrestle.jpg",revision:"24a677eeda1cd049b04a36432feb1e83"},{url:"/top-ten-2021/peter/jabberwocky-inner_space.jpg",revision:"53c27fd4e91df8898626e42d03dc1cf6"},{url:"/top-ten-2021/peter/jack_ward-my_angel_rocks_4th_back.jpg",revision:"4d4c1d910522f5e9295cbfe5813eab09"},{url:"/top-ten-2021/peter/kempston_hardwick-mowbray_street.jpg",revision:"92884e30569def37dc31c0ffa782e88c"},{url:"/top-ten-2021/peter/logic1000-youve_got_the_whole_night_to_go.jpg",revision:"77519a07a98516352b73c24ff56c5a4c"},{url:"/top-ten-2021/peter/nicolas_duque-breaks_n_pieces_vol6.jpg",revision:"e6ea5d6b21f54fe3f0c7e7c3cf1de050"},{url:"/top-ten-2021/peter/sofia_kourtesis-fresia_magdalena.jpg",revision:"c2221ca8694270246f836c4e1ce2af9c"},{url:"/top-ten-2021/peter/sputnik_one-love_from_above.jpg",revision:"2197a238fd6877f46294630510f1bad2"},{url:"/top-ten-2021/peter/thugwindow-post_modern.jpg",revision:"f26fb3a11464872003c54bef5d21590f"},{url:"/top-ten-2021/peter/tom_vr-please_keep_shimmering.jpg",revision:"cd8ae38bf93fec2aa6878e10ddf0acf0"},{url:"/various/bg.jpg",revision:"e328106aa897d4de73efe7e02d9f179c"},{url:"/various/collage.jpg",revision:"60216147d1a8f65029ab1b8ae16d6928"},{url:"/various/hoodie.jpg",revision:"eb5a3c6737b745a5e30f83db4ea70b7d"},{url:"/various/itsnotradio.jpg",revision:"d6835726f58450bdf419e4d14d3c2b23"},{url:"/various/logo_circle.png",revision:"4b59c2c2bdcfd5213f20784bc42220a7"},{url:"/various/setradio.jpg",revision:"986911b05c2647b8ff6e4930c9241749"}],{ignoreURLParametersMatching:[]}),e.cleanupOutdatedCaches(),e.registerRoute("/",new e.NetworkFirst({cacheName:"start-url",plugins:[{cacheWillUpdate:async({request:e,response:i,event:s,state:a})=>i&&"opaqueredirect"===i.type?new Response(i.body,{status:200,statusText:"OK",headers:i.headers}):i}]}),"GET"),e.registerRoute(/^https:\/\/fonts\.(?:gstatic)\.com\/.*/i,new e.CacheFirst({cacheName:"google-fonts-webfonts",plugins:[new e.ExpirationPlugin({maxEntries:4,maxAgeSeconds:31536e3})]}),"GET"),e.registerRoute(/^https:\/\/fonts\.(?:googleapis)\.com\/.*/i,new e.StaleWhileRevalidate({cacheName:"google-fonts-stylesheets",plugins:[new e.ExpirationPlugin({maxEntries:4,maxAgeSeconds:604800})]}),"GET"),e.registerRoute(/\.(?:eot|otf|ttc|ttf|woff|woff2|font.css)$/i,new e.StaleWhileRevalidate({cacheName:"static-font-assets",plugins:[new e.ExpirationPlugin({maxEntries:4,maxAgeSeconds:604800})]}),"GET"),e.registerRoute(/\.(?:jpg|jpeg|gif|png|svg|ico|webp)$/i,new e.StaleWhileRevalidate({cacheName:"static-image-assets",plugins:[new e.ExpirationPlugin({maxEntries:64,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\/_next\/image\?url=.+$/i,new e.StaleWhileRevalidate({cacheName:"next-image",plugins:[new e.ExpirationPlugin({maxEntries:64,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\.(?:mp3|wav|ogg)$/i,new e.CacheFirst({cacheName:"static-audio-assets",plugins:[new e.RangeRequestsPlugin,new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\.(?:mp4)$/i,new e.CacheFirst({cacheName:"static-video-assets",plugins:[new e.RangeRequestsPlugin,new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\.(?:js)$/i,new e.StaleWhileRevalidate({cacheName:"static-js-assets",plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\.(?:css|less)$/i,new e.StaleWhileRevalidate({cacheName:"static-style-assets",plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\/_next\/data\/.+\/.+\.json$/i,new e.StaleWhileRevalidate({cacheName:"next-data",plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute(/\.(?:json|xml|csv)$/i,new e.NetworkFirst({cacheName:"static-data-assets",plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute((({url:e})=>{if(!(self.origin===e.origin))return!1;const i=e.pathname;return!i.startsWith("/api/auth/")&&!!i.startsWith("/api/")}),new e.NetworkFirst({cacheName:"apis",networkTimeoutSeconds:10,plugins:[new e.ExpirationPlugin({maxEntries:16,maxAgeSeconds:86400})]}),"GET"),e.registerRoute((({url:e})=>{if(!(self.origin===e.origin))return!1;return!e.pathname.startsWith("/api/")}),new e.NetworkFirst({cacheName:"others",networkTimeoutSeconds:10,plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:86400})]}),"GET"),e.registerRoute((({url:e})=>!(self.origin===e.origin)),new e.NetworkFirst({cacheName:"cross-origin",networkTimeoutSeconds:10,plugins:[new e.ExpirationPlugin({maxEntries:32,maxAgeSeconds:3600})]}),"GET")}));
+if (!self.define) {
+	let e,
+		i = {};
+	const s = (s, a) => (
+		(s = new URL(s + ".js", a).href),
+		i[s] ||
+			new Promise((i) => {
+				if ("document" in self) {
+					const e = document.createElement("script");
+					(e.src = s), (e.onload = i), document.head.appendChild(e);
+				} else (e = s), importScripts(s), i();
+			}).then(() => {
+				let e = i[s];
+				if (!e)
+					throw new Error(`Module ${s} didn’t register its module`);
+				return e;
+			})
+	);
+	self.define = (a, c) => {
+		const r =
+			e ||
+			("document" in self ? document.currentScript.src : "") ||
+			location.href;
+		if (i[r]) return;
+		let n = {};
+		const d = (e) => s(e, r),
+			o = { module: { uri: r }, exports: n, require: d };
+		i[r] = Promise.all(a.map((e) => o[e] || d(e))).then(
+			(e) => (c(...e), n)
+		);
+	};
+}
+define(["./workbox-1846d813"], function (e) {
+	"use strict";
+	importScripts(),
+		self.skipWaiting(),
+		e.clientsClaim(),
+		e.precacheAndRoute(
+			[
+				{
+					url: "/_next/static/chunks/441-aa185963aa841acb.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/675-f5bb6e9a9044bfd5.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/866-6391e2c74139c131.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/framework-b2b803b7657b42a9.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/main-486bdcc43bf7a8a3.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/pages/_app-85d8826134ca969f.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/pages/_error-2280fa386d040b66.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/pages/contact-us-0a8b57263da8ea5b.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/pages/fresh-juice-a9e2a53772afcab2.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/pages/fresh-juice/%5Bslug%5D-ff5d9e322fdb96b1.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/pages/index-17657acd3c5c4380.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/pages/links-5bec06c53bfaf990.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/pages/mixes-3d7aaccf9d3491ea.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/pages/news-6f212ed36448a20b.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/pages/news/%5Bslug%5D-c9b0bdc2699e1ebc.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/pages/radios-6292d612d2aaebe0.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/pages/radios/%5Bslug%5D-4238c072d5f093a7.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/pages/takeovers-e7bfb87876841b3b.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/pages/takeovers/%5Bslug%5D-8474790c074cc6a1.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/pages/top-ten-2021/%5Bslug%5D-36931e4ded6ae6aa.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/chunks/webpack-49b6f2937c9ce9f4.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/css/072885a366875c58.css",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/css/11534297bc223ecb.css",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/css/128ec4d724f0e399.css",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/css/20e717ecb46e74f7.css",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/css/38db372cff5a7aad.css",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/css/6309e5c284655b2a.css",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/css/64d108c806942f0e.css",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/css/68442c4ac598f0e1.css",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/css/d3eb325a86df43be.css",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/fzP-Tev2lvntOowJRXTu0/_buildManifest.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/fzP-Tev2lvntOowJRXTu0/_middlewareManifest.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/_next/static/fzP-Tev2lvntOowJRXTu0/_ssgManifest.js",
+					revision: "fzP-Tev2lvntOowJRXTu0",
+				},
+				{
+					url: "/fonts/Messina.ttf",
+					revision: "9529b9c3fbf7b1cafefbcf0da3d076b3",
+				},
+				{
+					url: "/fonts/Molengo-Regular.ttf",
+					revision: "53570d6f43fd5474424cdfab26d2fd55",
+				},
+				{
+					url: "/fresh-juice/01_DG.jpg",
+					revision: "ede1a9b037ba0e2ff4d14fc24a0a6b87",
+				},
+				{
+					url: "/fresh-juice/02_Of-Paradise-Records.jpg",
+					revision: "b353fa0a4453f56f2fff94f41a3cd4c6",
+				},
+				{
+					url: "/fresh-juice/03_Carlos-Danger.jpg",
+					revision: "cb63b3673f4ab970bdd52485c0fad224",
+				},
+				{
+					url: "/fresh-juice/04_Pixl.jpg",
+					revision: "db54f192e6b7ca223ec605ba2cdf91dd",
+				},
+				{
+					url: "/fresh-juice/05_darkmavis-sweetphilly.jpg",
+					revision: "f95fc9441bf9cbc8c3a6742f1c885d18",
+				},
+				{
+					url: "/fresh-juice/06_juicy-gang.jpg",
+					revision: "19285ffd3d62494bbf848fec67dbd45c",
+				},
+				{
+					url: "/fresh-juice/06_mell-g-presspic.jpg",
+					revision: "964af1bf3dc7ce5ce4e14c4cf24ee803",
+				},
+				{
+					url: "/fresh-juice/06_mell-g.jpg",
+					revision: "93eb8b3cae097e19b0079bac8b6c8bdf",
+				},
+				{
+					url: "/fresh-juice/07_sets.jpg",
+					revision: "c9e381c9994759be9367b590b4e6426e",
+				},
+				{
+					url: "/fresh-juice/07_setslads.jpg",
+					revision: "519d1ce8ec4c65155355fae5c3c135d2",
+				},
+				{
+					url: "/fresh-juice/08_oldboy-grimey-ones.jpg",
+					revision: "f77a477f0d0299fc7fc6b9e3c5f772bd",
+				},
+				{
+					url: "/fresh-juice/08_oldboy.jpg",
+					revision: "977bd48ef23c0d4fff71a62dadf5a90a",
+				},
+				{
+					url: "/fresh-juice/09_hazmat-album-art.jpg",
+					revision: "19ca9aa7bfb1f5a2418864b35d8af848",
+				},
+				{
+					url: "/fresh-juice/09_third-degree-sign.png",
+					revision: "7e1ea9cbdb9eab79eda54292fe9874dc",
+				},
+				{
+					url: "/fresh-juice/09_third-degree.jpg",
+					revision: "89083ca1f4f332c21b36dd0b930d9944",
+				},
+				{
+					url: "/fresh-juice/10_JC01.jpg",
+					revision: "dff17dfe04925322542a23b565de6f10",
+				},
+				{
+					url: "/fresh-juice/10_jason-code.jpg",
+					revision: "21f82df0f02d6c2d3ad02731142efde3",
+				},
+				{
+					url: "/fresh-juice/10_jason-presspic.jpg",
+					revision: "43165b1efc62b20c4c6e400d538b511d",
+				},
+				{
+					url: "/fresh-juice/11-clan-destine.jpg",
+					revision: "9256bd987c58fea2bcbbbce12fa38868",
+				},
+				{
+					url: "/fresh-juice/11-clandest-lp.jpg",
+					revision: "20a7c1ed0ffe6bb3a4fa21bc7ef34b49",
+				},
+				{
+					url: "/fresh-juice/11-records.jpg",
+					revision: "50f42edc7741708c503fc456db35f1c8",
+				},
+				{
+					url: "/fresh-juice/12-long-island-sound-ep.jpg",
+					revision: "ff67676953c03ef9d745497af7703501",
+				},
+				{
+					url: "/fresh-juice/12-long-island-sound.jpg",
+					revision: "4f280f09574fabd1b6ecff6ec760d784",
+				},
+				{
+					url: "/fresh-juice/12-sos-press-pic.jpg",
+					revision: "cec826de4bd8e3c37936f76bbfcd645e",
+				},
+				{
+					url: "/fresh-juice/13-back-pg.jpg",
+					revision: "ecd0880540c6eb640326208337b7f2ed",
+				},
+				{
+					url: "/fresh-juice/13-front-pg.jpg",
+					revision: "8ada978fc4067befb3f85e3d93e00392",
+				},
+				{
+					url: "/fresh-juice/13-mell-g_pussy-galore.jpg",
+					revision: "64c0d52e3e0e9a8dcc39d239099db272",
+				},
+				{
+					url: "/fresh-juice/14-philthtrax.jpg",
+					revision: "cb256bda9198631edc5ec8c14b1e3631",
+				},
+				{
+					url: "/fresh-juice/14-plot-twist.jpg",
+					revision: "17435906d0ca22bee9b834c96803d42f",
+				},
+				{
+					url: "/fresh-juice/14-plot-twist2.jpg",
+					revision: "ed523bd57092ac543eab2e5b7a95d1c2",
+				},
+				{
+					url: "/fresh-juice/15-failed-units.jpg",
+					revision: "eaf5ae3273bfcbcf90bc312264c65242",
+				},
+				{
+					url: "/fresh-juice/15-pang.jpg",
+					revision: "1c924bd39fdca8cae4287c18dec27f61",
+				},
+				{
+					url: "/fresh-juice/15-pang2.jpg",
+					revision: "5ec8312b0818ce74bc90725753bd7420",
+				},
+				{
+					url: "/icons/icon-192x192.png",
+					revision: "48d96d0ee79479560ab56ab8374fabb7",
+				},
+				{
+					url: "/icons/icon-256x256.png",
+					revision: "a8d3d0d0ca136d558bf545b384d0f862",
+				},
+				{
+					url: "/icons/icon-384x384.png",
+					revision: "2f835c75e2409dc7a5c6246deb7c5753",
+				},
+				{
+					url: "/icons/icon-512x512.png",
+					revision: "054cf4b26daaecce6a4af632687ae9a8",
+				},
+				{
+					url: "/icons/maskable_icon.png",
+					revision: "ba11b3be8f85fd0e21323fcf24f57ce0",
+				},
+				{
+					url: "/manifest.webmanifest",
+					revision: "dea0f8c10800c178d7e0d8cfdf8e5834",
+				},
+				{
+					url: "/mixes/1-itsnotradio.jpg",
+					revision: "d6835726f58450bdf419e4d14d3c2b23",
+				},
+				{
+					url: "/mixes/10-aurora.jpg",
+					revision: "7e760923502126676e46c6355db5e402",
+				},
+				{
+					url: "/mixes/11-common_grounds.jpg",
+					revision: "f508a6a72b184aba8844aebddcbfe11d",
+				},
+				{
+					url: "/mixes/12-electro.jpg",
+					revision: "53c0690b63ca46df7209a9fd8151ee85",
+				},
+				{
+					url: "/mixes/2-itsnotradio.jpg",
+					revision: "f99d7843ae76fb2c9e898e42408c9cb5",
+				},
+				{
+					url: "/mixes/3-itsnotradio.png",
+					revision: "966a8db5ad4a40df5f07a569d7ae111d",
+				},
+				{
+					url: "/mixes/4-itsnotradio.jpg",
+					revision: "99e92f8bd7e172e91e9ed1d3a433fb48",
+				},
+				{
+					url: "/mixes/5-set.jpg",
+					revision: "b8724be5886bd34f5a03d52eaa93b277",
+				},
+				{
+					url: "/mixes/6-set.png",
+					revision: "3659bce0aabcf812094b0a492d9870cc",
+				},
+				{
+					url: "/mixes/7-set.jpg",
+					revision: "986911b05c2647b8ff6e4930c9241749",
+				},
+				{
+					url: "/mixes/8-set.jpg",
+					revision: "e7d2aed6cb95cac576306e2266bca910",
+				},
+				{
+					url: "/mixes/9-daffodil_day.jpg",
+					revision: "15063b3c61cde77d4d1f033909d834a6",
+				},
+				{
+					url: "/news/01-edinburgh-club-guide.jpg",
+					revision: "19ea048e5f69f0aa0a2d1b83273e6656",
+				},
+				{
+					url: "/news/01_Release-Yo-Freak.jpg",
+					revision: "447ea1c52eb96549dfd3146a216ec381",
+				},
+				{
+					url: "/news/02-edinburgh-club-guide.jpg",
+					revision: "dbb1b6aefc8d88ac81412a240e347b88",
+				},
+				{
+					url: "/news/02_SweatBox.jpg",
+					revision: "008ebfad3a1337bec4b168016df8fee8",
+				},
+				{
+					url: "/news/03-edinburgh-club-guide.jpg",
+					revision: "152402386433e00b2aa5a21262a8dc3f",
+				},
+				{
+					url: "/news/03_ruff-n-tuff.jpg",
+					revision: "982adff718b2dbd9b6532d2622e44fa4",
+				},
+				{
+					url: "/news/04-edinburgh-club-guide.jpg",
+					revision: "ae27ce31b14eba6acbbd9857864b4e7b",
+				},
+				{
+					url: "/news/04_mistletoe-and-grind.jpg",
+					revision: "2acf4480430374f33601224021a9fe10",
+				},
+				{
+					url: "/news/05-celtronic/giant-swan.jpg",
+					revision: "e1d3511a4f27af99551b219971048313",
+				},
+				{
+					url: "/news/05-celtronic/kink.jpg",
+					revision: "0f5c51e362977aabf092cd49622932bc",
+				},
+				{
+					url: "/news/05-celtronic/loraine-james.jpg",
+					revision: "3292a7f5ae954cb2d7e3dccdab526cff",
+				},
+				{
+					url: "/news/05_celtronic.jpg",
+					revision: "28fe21ed5390f23d07426526b51ef70c",
+				},
+				{
+					url: "/news/06-plantbassd-heaters.jpg",
+					revision: "5213c3a7d484d92ea46bdf71bb4e8b75",
+				},
+				{
+					url: "/news/06-plantbassd-heaters/lucky-dip.jpg",
+					revision: "a0b09a26427bd12ec496cc47faac352d",
+				},
+				{
+					url: "/news/06-plantbassd-heaters/sweet-philly.jpg",
+					revision: "dea33a40e796f03b4c5812b9288909b4",
+				},
+				{
+					url: "/news/06-plantbassd-heaters/taahliah.jpg",
+					revision: "2a0044de79b55fb1e613a111b394c9a0",
+				},
+				{
+					url: "/news/07-plantbassd-ytp.jpg",
+					revision: "5c7f0c338f54bdfa9709626c56daef54",
+				},
+				{
+					url: "/news/07-ytp.jpg",
+					revision: "1c743f52d3e9dbeebaf760880816963d",
+				},
+				{
+					url: "/news/club-guide/01-bongo.jpg",
+					revision: "20b3c2d2e9c9bbdb6d1e180e7cf8380c",
+				},
+				{
+					url: "/news/club-guide/01-itsnotradio.jpg",
+					revision: "85ddb7af0d1bb09dde6ad5a9f2621682",
+				},
+				{
+					url: "/news/club-guide/01-midnight-bass.jpg",
+					revision: "765a2ce03ad38a3e9b5dda784c9cca0b",
+				},
+				{
+					url: "/news/club-guide/01-night-tube.jpg",
+					revision: "791dfd7ac14bd47cf383cc93d2765bc9",
+				},
+				{
+					url: "/news/club-guide/01-powerhouse.jpg",
+					revision: "4040494aa2c1fc28eb433e265a3d5e2e",
+				},
+				{
+					url: "/news/club-guide/01-pulse-black.jpg",
+					revision: "675f67102bfa634f97d16d49d62b1483",
+				},
+				{
+					url: "/news/club-guide/01-pulse-blue.jpg",
+					revision: "02fc0da1ae45542055d96a6a02920639",
+				},
+				{
+					url: "/news/club-guide/01-speedset.jpg",
+					revision: "85fe03da7e327052bab26ab7f277aa93",
+				},
+				{
+					url: "/news/club-guide/01-wee-dub-club.jpg",
+					revision: "af6a04c243689b47e67562e2bd678da1",
+				},
+				{
+					url: "/news/club-guide/02-heaters.jpg",
+					revision: "7f22aab9750ea01edf8fe702160ba005",
+				},
+				{
+					url: "/news/club-guide/02-night-tube.png",
+					revision: "2974707f5c888f0c8cfe9892b88ef5d7",
+				},
+				{
+					url: "/news/club-guide/02-nikki-kent-ehfm.jpg",
+					revision: "ebfb4f0bf5a0c38a10baab0ee949c42b",
+				},
+				{
+					url: "/news/club-guide/02-nina-stranger.jpg",
+					revision: "656cab9a760725230ca615f9e217aca0",
+				},
+				{
+					url: "/news/club-guide/02-samedia-shebeen.png",
+					revision: "d975af19e1496d60401ddd5bfb581ad5",
+				},
+				{
+					url: "/news/club-guide/02-ssl-xl.png",
+					revision: "40d3bbd0a5f6e15e91c7a02b531ec876",
+				},
+				{
+					url: "/news/club-guide/02-volens-chorus.jpg",
+					revision: "bff05b95a794094dfb219ffc9fdd9de0",
+				},
+				{
+					url: "/news/club-guide/03-249.png",
+					revision: "75e5a56087e3972e97d52bb0cf7dddcb",
+				},
+				{
+					url: "/news/club-guide/03-bob-marley.jpg",
+					revision: "ea0182077e8ca4866e6e26f50cd0ed53",
+				},
+				{
+					url: "/news/club-guide/03-disco-makossa.jpg",
+					revision: "63faa5aba087a9516b15aecb9fe57b65",
+				},
+				{
+					url: "/news/club-guide/03-dusky.jpg",
+					revision: "0b8ab281cf2698fc3b755eb36c29e861",
+				},
+				{
+					url: "/news/club-guide/03-headset.jpg",
+					revision: "b414044e56b1e2b4cb43388e16ca2c7a",
+				},
+				{
+					url: "/news/club-guide/03-love-bomb.jpg",
+					revision: "ab187900aa4159e08ebb5f551869a59f",
+				},
+				{
+					url: "/news/club-guide/03-mash-house.jpg",
+					revision: "46bc62f723dc43798190b4c4609d789c",
+				},
+				{
+					url: "/news/club-guide/03-moxie.jpg",
+					revision: "7e3f8c7932d0c16c8ac64c97fb0196c7",
+				},
+				{
+					url: "/news/club-guide/03-overground.jpg",
+					revision: "75397dcbdfe6754fd7d3953c354fa364",
+				},
+				{
+					url: "/news/club-guide/03-postal.jpg",
+					revision: "82791b9a2670e28c2f2efdb11c774acf",
+				},
+				{
+					url: "/news/club-guide/04-athens.jpg",
+					revision: "880512f3586ea3b7af1bc9d31b695911",
+				},
+				{
+					url: "/news/club-guide/04-aurora.jpg",
+					revision: "dc0738e635f25b8f9c8d74e81959e9f3",
+				},
+				{
+					url: "/news/club-guide/04-dr-banana.jpg",
+					revision: "861480246ceb96a8e84e119dc6dcdeaa",
+				},
+				{
+					url: "/news/club-guide/04-heaters.jpg",
+					revision: "a907c7bf69ce934ebcf8edc7810fd531",
+				},
+				{
+					url: "/news/club-guide/04-heavy-flow.jpg",
+					revision: "a61fc54ea331a6b25f45b3fd6e69ccd3",
+				},
+				{
+					url: "/news/club-guide/04-midnight-bass.jpg",
+					revision: "4379e41e361ecbb0418433c4650c53d8",
+				},
+				{
+					url: "/news/club-guide/04-palidrone.jpg",
+					revision: "35612c08ace3b880dc310bf498d483ed",
+				},
+				{
+					url: "/news/club-guide/04-prosumer.jpg",
+					revision: "dafc89e1689e54c5d13c0348213f5bd8",
+				},
+				{
+					url: "/news/club-guide/04-shampain.jpg",
+					revision: "aecd4e5c5bdb0fc66caea5e0919d2a51",
+				},
+				{
+					url: "/pb_favicon.ico",
+					revision: "5395ccb369c1280bd1fed8f158b8eb26",
+				},
+				{
+					url: "/radios/01_jack-ward.jpg",
+					revision: "7548f6b30148c7351ac3d771bfec00d8",
+				},
+				{
+					url: "/radios/01_tracklist.jpg",
+					revision: "fcbdd8a33e1bf2ee4a829decbba2e439",
+				},
+				{
+					url: "/radios/02_colm-brandon.jpg",
+					revision: "af1cda18415e02596f7f02353a8f1486",
+				},
+				{
+					url: "/radios/02_tracklist.jpg",
+					revision: "7d83ba0a747a5caa7d7fad6c49bc5f84",
+				},
+				{
+					url: "/radios/03_kyle.jpg",
+					revision: "b959ddc064f15d06df3a9aede2d743a6",
+				},
+				{
+					url: "/radios/03_tracklist.jpg",
+					revision: "9b349fae2baaa815608c738738cbf7a6",
+				},
+				{
+					url: "/radios/04_saz.jpg",
+					revision: "2d7b6a291716daed19faab9686164bc6",
+				},
+				{
+					url: "/radios/04_tracklist.jpg",
+					revision: "a5765dcaf826bc31e5876ee26b27d9d4",
+				},
+				{
+					url: "/radios/05_sweet-philly.jpg",
+					revision: "46cbd74417703ff4e71fd89cb2f6941e",
+				},
+				{
+					url: "/radios/05_sweey-philly-setlist.jpg",
+					revision: "7ce780592d2d78deb91dbb44c85362bf",
+				},
+				{
+					url: "/robots.txt",
+					revision: "e7d21f74e01465a0fec77c907577779a",
+				},
+				{
+					url: "/sitemap-0.xml",
+					revision: "d80a0c3447f0222d948d3245856bbfe4",
+				},
+				{
+					url: "/sitemap.xml",
+					revision: "effcf8786d0893e7fbce98594d64d737",
+				},
+				{
+					url: "/takeovers/01_Luciid.jpg",
+					revision: "6a93dcdeb3358d865558e48e3c4abc25",
+				},
+				{
+					url: "/takeovers/02_Presswork.jpg",
+					revision: "6d0a094f9b180b68cafbd7cc8a188d7a",
+				},
+				{
+					url: "/takeovers/03_Mind-The-Gap.jpg",
+					revision: "7c7200d30ee2f8af1f5d21607a2f8ea5",
+				},
+				{
+					url: "/takeovers/04_Tomas.jpg",
+					revision: "a3fc954f0f6062e4cfa9c61307ec501d",
+				},
+				{
+					url: "/takeovers/05_Roo-Honeychild.jpg",
+					revision: "407bda2cc6ecea757c519e10bbcd167f",
+				},
+				{
+					url: "/takeovers/06_Yours-Truly.jpg",
+					revision: "cd8db55bf3156b5e818a34934fbf530e",
+				},
+				{
+					url: "/takeovers/07_Dar-Disku.jpg",
+					revision: "2e34212cb4e29ca60a2863b6a6e359a0",
+				},
+				{
+					url: "/takeovers/08_Efa-Oneill.jpg",
+					revision: "fabb50973f4d54f2834dbcd09098c9e8",
+				},
+				{
+					url: "/takeovers/09_Midnight-Bass.jpg",
+					revision: "4f8a8997d7b0ff100ee5eddb96d04aa0",
+				},
+				{
+					url: "/takeovers/10_PB-Pals.jpg",
+					revision: "695060eb68f5123f1325a8e03e444ffc",
+				},
+				{
+					url: "/takeovers/11_pagan.jpg",
+					revision: "a2c9800842afcf72f989d94a815523d9",
+				},
+				{
+					url: "/takeovers/12_Skin-And-Blister.jpg",
+					revision: "3ce0d30c99141bbd5f5df1b21f7ab6e6",
+				},
+				{
+					url: "/takeovers/13_sohotsospicy.jpg",
+					revision: "ebee073ecfd4d9c635ddc3702edf3213",
+				},
+				{
+					url: "/takeovers/14_Jack-ward.jpg",
+					revision: "014da94e74324771b0295731603f6a19",
+				},
+				{
+					url: "/takeovers/15_Miss-World.jpg",
+					revision: "609f51d9fb8947aca2231128318ccf03",
+				},
+				{
+					url: "/takeovers/16_Carmen-Electro.jpg",
+					revision: "8d435a3a14f682ea1d0143be07c7641d",
+				},
+				{
+					url: "/takeovers/17_cartin.jpg",
+					revision: "c4b3a52063cdd0239a10e0a0cf4b1026",
+				},
+				{
+					url: "/takeovers/18_Rory_Sweeney.jpg",
+					revision: "0862d2ca268d015f785c4ee58331dda8",
+				},
+				{
+					url: "/takeovers/19_glimmerman.jpg",
+					revision: "8b53a7ca543ce8fa353f2f593d013a18",
+				},
+				{
+					url: "/takeovers/19_glimmerman/djing.jpg",
+					revision: "687e2672907ba6fd257fd36b6328a0c1",
+				},
+				{
+					url: "/takeovers/19_glimmerman/fire.jpg",
+					revision: "daa4fd7c74b07c79207862f35e386b7c",
+				},
+				{
+					url: "/takeovers/19_glimmerman/record.jpg",
+					revision: "b5617a1973e48101781af3b77f8b46fd",
+				},
+				{
+					url: "/top-ten-2021/michael.jpg",
+					revision: "c3cd511587f3b9908b69dc68eb04e497",
+				},
+				{
+					url: "/top-ten-2021/michael/another_chemical_love_story.jpg",
+					revision: "9dc30a60d627daf5bc824fdc220d7f3d",
+				},
+				{
+					url: "/top-ten-2021/michael/blawan-woke_up_right_handed.jpg",
+					revision: "8ce2e4b0573a9f6abc2d015269228b87",
+				},
+				{
+					url: "/top-ten-2021/michael/eris_drew-quivering_in_time.jpg",
+					revision: "6bf7493826a611b0d977b225427806ad",
+				},
+				{
+					url: "/top-ten-2021/michael/george_fitzgerald-ultraviolet.png",
+					revision: "ad9ed3b42737825485e3bfa6ee2d3177",
+				},
+				{
+					url: "/top-ten-2021/michael/india_jordan-watch_out.jpg",
+					revision: "ff64821dc18b7f53a44599251240dcbd",
+				},
+				{
+					url: "/top-ten-2021/michael/laurence_guy-good_times.jpg",
+					revision: "489b2d914ac2fdb3ecd40c2ef3e304c5",
+				},
+				{
+					url: "/top-ten-2021/michael/lxury-smart_digital_life.jpg",
+					revision: "0a6eea12c9b0ef17f74be0dffa45e528",
+				},
+				{
+					url: "/top-ten-2021/michael/model_men_lp.jpg",
+					revision: "1c63e8792429cd399d926eb2e22807b0",
+				},
+				{
+					url: "/top-ten-2021/michael/roman_flugel-cluttered_homes.jpg",
+					revision: "38334e1097d316300f0566b344d210e9",
+				},
+				{
+					url: "/top-ten-2021/michael/shire_t-tomorrows_people.jpg",
+					revision: "37198a5b1aca421dda33986dc9485f00",
+				},
+				{
+					url: "/top-ten-2021/oisin.jpg",
+					revision: "372a107ef57f89cd456300a5fa4cebe3",
+				},
+				{
+					url: "/top-ten-2021/oisin/amy_dabbs-allure.jpg",
+					revision: "1ba2cee1c7496609b8a917b06c7f15e4",
+				},
+				{
+					url: "/top-ten-2021/oisin/anz-OTMI001.jpg",
+					revision: "4a1eb8fb6d1e856fc339e505a240359b",
+				},
+				{
+					url: "/top-ten-2021/oisin/ayesha-potential_energy.jpg",
+					revision: "3b3920565a8e31b2750f0630daf2fb79",
+				},
+				{
+					url: "/top-ten-2021/oisin/chippy_nonstop-dj_genderfluid.jpg",
+					revision: "7065917f161eed975f4376104602e735",
+				},
+				{
+					url: "/top-ten-2021/oisin/defekt-dont_stop.jpg",
+					revision: "b1baa0e5ea65e5201612df2e0c108714",
+				},
+				{
+					url: "/top-ten-2021/oisin/fio_fa-U_drink_U_pay.jpg",
+					revision: "0a2e14461b25484aedd9a190821a359a",
+				},
+				{
+					url: "/top-ten-2021/oisin/glimmer-step_mode.jpg",
+					revision: "74f82ce7e6ae0530cf21024ec58abdfb",
+				},
+				{
+					url: "/top-ten-2021/oisin/hilltown-asbeel.jpg",
+					revision: "5d0453babbba314ca42dba43c02b8594",
+				},
+				{
+					url: "/top-ten-2021/oisin/kessler-foul_play.jpg",
+					revision: "31730791ae16cbbd69922eeee483daa2",
+				},
+				{
+					url: "/top-ten-2021/oisin/lsdxoxo-dedicated2disrespect.jpg",
+					revision: "9d34e1e9d4b6c1f07e76b6348b6f7418",
+				},
+				{
+					url: "/top-ten-2021/peter.jpg",
+					revision: "2ecb09470697b881e6dc9fe470e899a0",
+				},
+				{
+					url: "/top-ten-2021/peter/ingi-wrestle.jpg",
+					revision: "24a677eeda1cd049b04a36432feb1e83",
+				},
+				{
+					url: "/top-ten-2021/peter/jabberwocky-inner_space.jpg",
+					revision: "53c27fd4e91df8898626e42d03dc1cf6",
+				},
+				{
+					url: "/top-ten-2021/peter/jack_ward-my_angel_rocks_4th_back.jpg",
+					revision: "4d4c1d910522f5e9295cbfe5813eab09",
+				},
+				{
+					url: "/top-ten-2021/peter/kempston_hardwick-mowbray_street.jpg",
+					revision: "92884e30569def37dc31c0ffa782e88c",
+				},
+				{
+					url: "/top-ten-2021/peter/logic1000-youve_got_the_whole_night_to_go.jpg",
+					revision: "77519a07a98516352b73c24ff56c5a4c",
+				},
+				{
+					url: "/top-ten-2021/peter/nicolas_duque-breaks_n_pieces_vol6.jpg",
+					revision: "e6ea5d6b21f54fe3f0c7e7c3cf1de050",
+				},
+				{
+					url: "/top-ten-2021/peter/sofia_kourtesis-fresia_magdalena.jpg",
+					revision: "c2221ca8694270246f836c4e1ce2af9c",
+				},
+				{
+					url: "/top-ten-2021/peter/sputnik_one-love_from_above.jpg",
+					revision: "2197a238fd6877f46294630510f1bad2",
+				},
+				{
+					url: "/top-ten-2021/peter/thugwindow-post_modern.jpg",
+					revision: "f26fb3a11464872003c54bef5d21590f",
+				},
+				{
+					url: "/top-ten-2021/peter/tom_vr-please_keep_shimmering.jpg",
+					revision: "cd8ae38bf93fec2aa6878e10ddf0acf0",
+				},
+				{
+					url: "/various/bg.jpg",
+					revision: "e328106aa897d4de73efe7e02d9f179c",
+				},
+				{
+					url: "/various/collage.jpg",
+					revision: "60216147d1a8f65029ab1b8ae16d6928",
+				},
+				{
+					url: "/various/hoodie.jpg",
+					revision: "eb5a3c6737b745a5e30f83db4ea70b7d",
+				},
+				{
+					url: "/various/itsnotradio.jpg",
+					revision: "d6835726f58450bdf419e4d14d3c2b23",
+				},
+				{
+					url: "/various/logo_circle.png",
+					revision: "4b59c2c2bdcfd5213f20784bc42220a7",
+				},
+				{
+					url: "/various/setradio.jpg",
+					revision: "986911b05c2647b8ff6e4930c9241749",
+				},
+			],
+			{ ignoreURLParametersMatching: [] }
+		),
+		e.cleanupOutdatedCaches(),
+		e.registerRoute(
+			"/",
+			new e.NetworkFirst({
+				cacheName: "start-url",
+				plugins: [
+					{
+						cacheWillUpdate: async ({
+							request: e,
+							response: i,
+							event: s,
+							state: a,
+						}) =>
+							i && "opaqueredirect" === i.type
+								? new Response(i.body, {
+										status: 200,
+										statusText: "OK",
+										headers: i.headers,
+								  })
+								: i,
+					},
+				],
+			}),
+			"GET"
+		),
+		e.registerRoute(
+			/^https:\/\/fonts\.(?:gstatic)\.com\/.*/i,
+			new e.CacheFirst({
+				cacheName: "google-fonts-webfonts",
+				plugins: [
+					new e.ExpirationPlugin({
+						maxEntries: 4,
+						maxAgeSeconds: 31536e3,
+					}),
+				],
+			}),
+			"GET"
+		),
+		e.registerRoute(
+			/^https:\/\/fonts\.(?:googleapis)\.com\/.*/i,
+			new e.StaleWhileRevalidate({
+				cacheName: "google-fonts-stylesheets",
+				plugins: [
+					new e.ExpirationPlugin({
+						maxEntries: 4,
+						maxAgeSeconds: 604800,
+					}),
+				],
+			}),
+			"GET"
+		),
+		e.registerRoute(
+			/\.(?:eot|otf|ttc|ttf|woff|woff2|font.css)$/i,
+			new e.StaleWhileRevalidate({
+				cacheName: "static-font-assets",
+				plugins: [
+					new e.ExpirationPlugin({
+						maxEntries: 4,
+						maxAgeSeconds: 604800,
+					}),
+				],
+			}),
+			"GET"
+		),
+		e.registerRoute(
+			/\.(?:jpg|jpeg|gif|png|svg|ico|webp)$/i,
+			new e.StaleWhileRevalidate({
+				cacheName: "static-image-assets",
+				plugins: [
+					new e.ExpirationPlugin({
+						maxEntries: 64,
+						maxAgeSeconds: 86400,
+					}),
+				],
+			}),
+			"GET"
+		),
+		e.registerRoute(
+			/\/_next\/image\?url=.+$/i,
+			new e.StaleWhileRevalidate({
+				cacheName: "next-image",
+				plugins: [
+					new e.ExpirationPlugin({
+						maxEntries: 64,
+						maxAgeSeconds: 86400,
+					}),
+				],
+			}),
+			"GET"
+		),
+		e.registerRoute(
+			/\.(?:mp3|wav|ogg)$/i,
+			new e.CacheFirst({
+				cacheName: "static-audio-assets",
+				plugins: [
+					new e.RangeRequestsPlugin(),
+					new e.ExpirationPlugin({
+						maxEntries: 32,
+						maxAgeSeconds: 86400,
+					}),
+				],
+			}),
+			"GET"
+		),
+		e.registerRoute(
+			/\.(?:mp4)$/i,
+			new e.CacheFirst({
+				cacheName: "static-video-assets",
+				plugins: [
+					new e.RangeRequestsPlugin(),
+					new e.ExpirationPlugin({
+						maxEntries: 32,
+						maxAgeSeconds: 86400,
+					}),
+				],
+			}),
+			"GET"
+		),
+		e.registerRoute(
+			/\.(?:js)$/i,
+			new e.StaleWhileRevalidate({
+				cacheName: "static-js-assets",
+				plugins: [
+					new e.ExpirationPlugin({
+						maxEntries: 32,
+						maxAgeSeconds: 86400,
+					}),
+				],
+			}),
+			"GET"
+		),
+		e.registerRoute(
+			/\.(?:css|less)$/i,
+			new e.StaleWhileRevalidate({
+				cacheName: "static-style-assets",
+				plugins: [
+					new e.ExpirationPlugin({
+						maxEntries: 32,
+						maxAgeSeconds: 86400,
+					}),
+				],
+			}),
+			"GET"
+		),
+		e.registerRoute(
+			/\/_next\/data\/.+\/.+\.json$/i,
+			new e.StaleWhileRevalidate({
+				cacheName: "next-data",
+				plugins: [
+					new e.ExpirationPlugin({
+						maxEntries: 32,
+						maxAgeSeconds: 86400,
+					}),
+				],
+			}),
+			"GET"
+		),
+		e.registerRoute(
+			/\.(?:json|xml|csv)$/i,
+			new e.NetworkFirst({
+				cacheName: "static-data-assets",
+				plugins: [
+					new e.ExpirationPlugin({
+						maxEntries: 32,
+						maxAgeSeconds: 86400,
+					}),
+				],
+			}),
+			"GET"
+		),
+		e.registerRoute(
+			({ url: e }) => {
+				if (!(self.origin === e.origin)) return !1;
+				const i = e.pathname;
+				return !i.startsWith("/api/auth/") && !!i.startsWith("/api/");
+			},
+			new e.NetworkFirst({
+				cacheName: "apis",
+				networkTimeoutSeconds: 10,
+				plugins: [
+					new e.ExpirationPlugin({
+						maxEntries: 16,
+						maxAgeSeconds: 86400,
+					}),
+				],
+			}),
+			"GET"
+		),
+		e.registerRoute(
+			({ url: e }) => {
+				if (!(self.origin === e.origin)) return !1;
+				return !e.pathname.startsWith("/api/");
+			},
+			new e.NetworkFirst({
+				cacheName: "others",
+				networkTimeoutSeconds: 10,
+				plugins: [
+					new e.ExpirationPlugin({
+						maxEntries: 32,
+						maxAgeSeconds: 86400,
+					}),
+				],
+			}),
+			"GET"
+		),
+		e.registerRoute(
+			({ url: e }) => !(self.origin === e.origin),
+			new e.NetworkFirst({
+				cacheName: "cross-origin",
+				networkTimeoutSeconds: 10,
+				plugins: [
+					new e.ExpirationPlugin({
+						maxEntries: 32,
+						maxAgeSeconds: 3600,
+					}),
+				],
+			}),
+			"GET"
+		);
+});
