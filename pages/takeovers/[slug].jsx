@@ -40,7 +40,7 @@ export default function TakeoverSlug({
 
 						<CardWithButtons
 							artist="Artist's Insta"
-							insta="Insta Post"
+							insta="Instagram"
 							link={postLink}
 							page={artistPage}
 							pic={pic}

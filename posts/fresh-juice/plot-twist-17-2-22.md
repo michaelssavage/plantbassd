@@ -4,7 +4,7 @@ date: "February 17, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/14-plot-twist2.jpg"
 bandcamp: "https://philthtrax.bandcamp.com/album/new-futures"
-postLink: "https://www.instagram.com/plantbassd___"
+postLink: "https://www.instagram.com/p/CaFNPPdN82G/"
 bio: "Canadian electro and bass label Philthtrax land with their latest release from US artist Plot Twist, a 4 track spun out electronic voyage dubbed ‘New Futures’..."
 ---
 
