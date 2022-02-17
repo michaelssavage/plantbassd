@@ -8,6 +8,10 @@ export const linkList = [
 		link: "https://ra.co/events/1500809",
 	},
 	{
+		title: "FRESH JUICE: New Futures by Plot Twist",
+		link: "https://www.plantbassd.com/fresh-juice/plot-twist-17-2-22",
+	},
+	{
 		title: "FRESH JUICE: PU$$Y GALORE by KARNAGE KILLS X DJ MELL G",
 		link: "https://www.plantbassd.com/fresh-juice/dj-mell-g-15-2-22",
 	},
