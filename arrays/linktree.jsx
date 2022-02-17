@@ -1,5 +1,9 @@
 export const linkList = [
 	{
+		title: "SweatBox: y2k Rave Tickets",
+		link: "https://ra.co/events/1502535",
+	},
+	{
 		title: "YTP @ Sneaky Pete's Tickets",
 		link: "https://ra.co/events/1500809",
 	},
