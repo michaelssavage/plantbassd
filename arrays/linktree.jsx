@@ -1,11 +1,11 @@
 export const linkList = [
 	{
-		title: "SweatBox: y2k Rave Tickets",
-		link: "https://ra.co/events/1502535",
-	},
-	{
 		title: "YTP @ Sneaky Pete's Tickets",
 		link: "https://ra.co/events/1500809",
+	},
+	{
+		title: "FRESH JUICE: Rescue & Research Pt.4: PANG",
+		link: "https://www.plantbassd.com/fresh-juice/pang-18-2-22",
 	},
 	{
 		title: "FRESH JUICE: New Futures by Plot Twist",
