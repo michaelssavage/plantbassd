@@ -4,6 +4,10 @@ export const linkList = [
 		link: "https://ra.co/events/1500809",
 	},
 	{
+		title: "Edinburgh Weekly Club Guide",
+		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-23-2-22",
+	},
+	{
 		title: "FRESH JUICE: Rescue & Research Pt.4: PANG",
 		link: "https://www.plantbassd.com/fresh-juice/pang-18-2-22",
 	},
@@ -14,10 +18,6 @@ export const linkList = [
 	{
 		title: "FRESH JUICE: PU$$Y GALORE by KARNAGE KILLS X DJ MELL G",
 		link: "https://www.plantbassd.com/fresh-juice/dj-mell-g-15-2-22",
-	},
-	{
-		title: "EDINBURGH WEEKLY CLUB GUIDE",
-		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-15-2-22",
 	},
 	{
 		title: "Plant Bass'd Takeover: Glimmerman",
