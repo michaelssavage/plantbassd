@@ -4,6 +4,8 @@ date: "February 8, 2021"
 pic: "/takeovers/03_Mind-The-Gap.jpg"
 artistPage: "https://www.instagram.com/mindt_hegap/"
 postLink: "https://www.instagram.com/p/CLDA7dsntg8/"
+bio: "The club night that aims to showcase exclusively women, lgbtq+, and non-binary djs from Scotland and beyond..."
+path: "takeovers"
 ---
 
 ### This weeks takeover marks our first Edinburgh collab, and we are very pleased to kick start this branch with @mindt_hegap.

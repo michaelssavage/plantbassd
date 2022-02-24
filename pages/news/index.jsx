@@ -57,7 +57,7 @@ export default function NewsPage({ files }) {
 
 					<p className={styles.pageText}>
 						News about club guides, Gigs, and all things Plant
-						Bass'd. Keep up to date on our Instagram,
+						Bass'd. Keep up to date on our Instagram,{" "}
 						<a
 							className="blackAnchor"
 							href="http://instagram.com/plantbassd___"
@@ -87,30 +87,34 @@ export default function NewsPage({ files }) {
 	);
 }
 
-const getPosts = (directory) => {
-	const files = fs.readdirSync(path.join(directory));
-
-	// Return Slug and frontmatter from takeover posts
-	return files.map((filename) => {
-		const markdownWithMeta = fs.readFileSync(
-				path.join(directory, filename),
-				"utf-8"
-			),
-			{ data: frontmatter } = matter(markdownWithMeta),
-			slug = filename.replace(".md", "");
-
-		return {
-			frontmatter,
-			slug,
-		};
-	});
-};
-
 /* eslint-disable */
 export async function getStaticProps() {
-	const news = getPosts("posts/news"),
-		topTen2021 = getPosts("posts/top-ten-2021"),
-		files = news.concat(topTen2021).sort(sortByDate).reverse();
+	const getAllPosts = (dirPath, posts) => {
+		const allPosts = posts || [],
+			folders = fs.readdirSync(dirPath);
+
+		folders.forEach((file) => {
+			if (fs.statSync(`${dirPath}/${file}`).isDirectory()) {
+				// If this is a directory, then recursively call function
+				getAllPosts(`${dirPath}/${file}`, allPosts);
+			} else {
+				const markdownWithMeta = fs.readFileSync(
+						path.join(dirPath, file),
+						"utf-8"
+					),
+					{ data: frontmatter } = matter(markdownWithMeta),
+					slug = file.replace(".md", "");
+
+				allPosts.push({
+					frontmatter,
+					slug,
+				});
+			}
+		});
+		return allPosts;
+	};
+
+	const files = getAllPosts("posts").sort(sortByDate).reverse();
 
 	return {
 		props: {

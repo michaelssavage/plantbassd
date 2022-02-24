@@ -23,7 +23,10 @@ class MyDocument extends Document {
 					/>
 					<link rel="manifest" href="/manifest.webmanifest" />
 					<link rel="icon" href="/pb_favicon.ico" type="image/png" />
-					<link rel="apple-touch-icon" href="/icon-192x192.png" />
+					<link
+						rel="apple-touch-icon"
+						href="icons/icon-192x192.png"
+					/>
 					<meta property="og:type" content="website" />
 					<meta property="og:title" content="Plant Bass'd'" />
 					<meta

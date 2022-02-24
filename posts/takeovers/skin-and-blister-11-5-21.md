@@ -4,6 +4,8 @@ date: "May 11, 2021"
 pic: "/takeovers/12_Skin-And-Blister.jpg"
 artistPage: "https://www.instagram.com/skinandblister_club/"
 postLink: "https://www.instagram.com/p/COvw5YjnSiZ/"
+bio: "Skin & Blister focus on platforming Dublin’s female, trans and non-binary creatives within music & arts..."
+path: "takeovers"
 ---
 
 ### For takeover number 12 we have Dublin collective, Skin & Blister!

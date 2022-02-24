@@ -4,6 +4,8 @@ date: "March 8, 2021"
 pic: "/takeovers/06_Yours-Truly.jpg"
 artistPage: "https://www.instagram.com/trulymoore_/"
 postLink: "https://www.instagram.com/p/CMLFlO-nA9v/"
+bio: "A very Happy International Women’s Day to you all from the Plant Bass’d Selektaz!"
+path: "takeovers"
 ---
 
 ### A very Happy International Women’s Day to you all from the Plant Bass’d Selektaz! And no better way to celebrate than to kick off the next batch of takeover guests with Wicklows finest, @trulymoore\_ .

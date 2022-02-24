@@ -6,6 +6,7 @@ pic: "/fresh-juice/11-clan-destine.jpg"
 bandcamp: "https://clandestinerecords.bandcamp.com/album/thee-alpha-and-thee-omega-vol-ix"
 postLink: "https://www.instagram.com/p/CY_pe9Itp1C/"
 bio: "We caught up with label honcho Carl who has been steering the ship behind one of Glasgow’s best kept secrets for the last 10+ years...."
+path: "fresh-juice"
 ---
 
 ### We caught up with label honcho Carl who has been steering the ship behind one of Glasgow’s best kept secrets for the last 10+ years.

@@ -4,6 +4,8 @@ date: "February 22, 2021"
 pic: "/takeovers/05_Roo-Honeychild.jpg"
 artistPage: "https://www.instagram.com/roohoneychild/"
 postLink: "https://www.instagram.com/p/CLnAmJvncHQ/"
+bio: "2019 was a busy year for Roo with performances across Ireland, the UK and Europe, at festivals like @alltogethernow.ie..."
+path: "takeovers"
 ---
 
 ### Roo Honeychild is a DJ, producer and party thrower based between Dublin and Glasgow and she is a founding member of arts and party collective @clubcomfort\_\_\_.

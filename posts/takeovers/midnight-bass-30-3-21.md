@@ -4,6 +4,8 @@ date: "March 30, 2021"
 pic: "/takeovers/09_Midnight-Bass.jpg"
 artistPage: "https://www.instagram.com/midnightbass_edi/"
 postLink: "https://www.instagram.com/p/CNC9XRzn3w1/"
+bio: "Scotland’s biggest drum and bass night, Midnight Bass is a community-focused party, which runs weekly in independent venues.."
+path: "takeovers"
 ---
 
 ### With only our second ever Edinburgh collaboration, we are very excited to bring you Midnight Bass as our takeover guest for week 9!

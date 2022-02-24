@@ -1,10 +1,13 @@
 import { sortByDate } from "components/Utilities";
+import Error from "components/Error";
 import Footer from "components/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
+import SearchBox from "components/SearchBox";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
+import useFilter from "hooks/useFilter";
 
 import CardNoText from "@/cards/CardNoText";
 import GoBack from "@/btns/GoBack";
@@ -12,6 +15,15 @@ import SocialMediaBtn from "@/btns/SocialMediaBtn";
 import styles from "@/pageStyle/page.module.scss";
 
 export default function RadioPage({ radios }) {
+	const { hasErrored, error, postCards, filter, setFilter } =
+			useFilter(radios),
+		handleSearchChange = (event) => {
+			setFilter(event.target.value);
+		};
+
+	if (hasErrored) {
+		return <Error error={error} />;
+	}
 	return (
 		<>
 			<Head>
@@ -25,16 +37,21 @@ export default function RadioPage({ radios }) {
 						Guest mixes from homegrown and international artists.
 						Check them out on our Soundcloud.
 					</p>
-					<p className={styles.pageText}>
+					<div className={styles.searchBox}>
+						<SearchBox
+							filter={filter}
+							setFilter={handleSearchChange}
+							styling={styles.searchFilter}
+						/>
 						<SocialMediaBtn
 							icon="radio"
 							link="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
 							styling={styles.soundcloud}
 							title="Plant Bass'd Radio"
 						/>
-					</p>
+					</div>
 					<div className="row g-3">
-						{radios.map((radio) => (
+						{postCards.map((radio) => (
 							<CardNoText
 								key={radio.frontmatter.title}
 								link={`/radios/${radio.slug}`}

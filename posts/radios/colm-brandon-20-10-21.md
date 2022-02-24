@@ -5,6 +5,8 @@ pic: "/radios/02_colm-brandon.jpg"
 tracklist: "/radios/02_tracklist.jpg"
 artistPage: "https://www.instagram.com/cabal.ie"
 mixLink: "https://soundcloud.com/plantbassddjs/plant-bassd-radio-colm-brandon-vinyl-mix?in=plantbassddjs/sets/plant-bassd-radio"
+bio: "Our mix series returns with a special all-vinyl mix from Cabal co-founder and director, Colm Brandon!"
+path: "radios"
 ---
 
 ### Our mix series returns with a special all-vinyl mix from Cabal co-founder and director, Colm Brandon!

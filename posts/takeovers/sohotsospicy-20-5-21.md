@@ -4,6 +4,8 @@ date: "May 20, 2021"
 pic: "/takeovers/13_sohotsospicy.jpg"
 artistPage: "https://www.instagram.com/sohotsospicy/"
 postLink: "https://www.instagram.com/p/CPG47cNHeH3/"
+bio: "@thrustcollective head girl Aoife Keane (sohotsospicy) is manning our playlist this week with four to the floor, big bass and electro!"
+path: "takeovers"
 ---
 
 ### @thrustcollective head girl Aoife Keane (sohotsospicy) is manning our playlist this week with four to the floor, big bass and electro!
