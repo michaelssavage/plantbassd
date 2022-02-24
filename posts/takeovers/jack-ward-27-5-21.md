@@ -4,6 +4,8 @@ date: "May 27, 2021"
 pic: "/takeovers/14_Jack-ward.jpg"
 artistPage: "https://www.instagram.com/jack________ward/"
 postLink: "https://www.instagram.com/p/CPY5mZbnIMt/"
+bio: "Jack Ward shares a cheeky, eclectic selection of tunes that have influenced and inspired his lockdown and recent productions."
+path: "takeovers"
 ---
 
 ### Jack Ward shares a cheeky, eclectic selection of tunes that have influenced and inspired his lockdown and recent productions.

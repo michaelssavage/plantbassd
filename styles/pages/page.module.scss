@@ -123,10 +123,14 @@
 	gap: 0.5rem 0.5rem;
 }
 
-.spotify {
-	color: $spotify;
+.socialBtns {
 	margin-bottom: 1rem;
 	order: 2;
+}
+
+.spotify {
+	color: $spotify;
+	@extend .socialBtns;
 	&:hover {
 		color: $headerBlack;
 		background-color: $spotify;
@@ -136,7 +140,7 @@
 .soundcloud {
 	color: $white;
 	background-color: $soundcloud;
-	margin-bottom: 1rem;
+	@extend .socialBtns;
 	&:hover {
 		color: $headerBlack;
 		background-color: $soundcloud;
@@ -146,8 +150,7 @@
 .bandcamp {
 	color: $white;
 	background-color: $bandcamp;
-	margin-bottom: 1rem;
-	order: 2;
+	@extend .socialBtns;
 	&:hover {
 		color: $headerBlack;
 		background-color: $bandcamp;

@@ -11,7 +11,6 @@
 }
 
 .cardBody {
-	max-height: 10rem;
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
@@ -22,6 +21,7 @@
 
 .cardTitle {
 	font-size: $cardTitle;
+	max-height: 1.4rem;
 }
 
 // @include breakpoint-below(xs) {
@@ -44,7 +44,7 @@
 	height: 100%;
 	width: 100%;
 	opacity: 0;
-	transition: 0.5s ease;
+	transition: 0.25s ease;
 	background-color: $soundcloud;
 }
 

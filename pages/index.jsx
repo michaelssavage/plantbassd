@@ -12,7 +12,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 
-export default function Home({ news, takeovers, radios, freshjuice }) {
+export default function Home({ allPosts, takeovers, radios, freshjuice }) {
 	return (
 		<>
 			<Head>
@@ -20,7 +20,7 @@ export default function Home({ news, takeovers, radios, freshjuice }) {
 			</Head>
 			<RellaxImg img="/various/bg.jpg" main />
 
-			<News news={news} />
+			<News news={allPosts} />
 
 			<Mixes />
 
@@ -63,7 +63,7 @@ export async function getStaticProps() {
 			.reverse()
 			.slice(0, 4),
 		// Get files from the news directory
-		news = getPosts("posts/news").sort(sortByDate).reverse().slice(0, 6),
+		news = getPosts("posts/news"),
 		// Get files from the radio directory
 		radios = getPosts("posts/radios")
 			.sort(sortByDate)
@@ -73,12 +73,17 @@ export async function getStaticProps() {
 		takeovers = getPosts("posts/takeovers")
 			.sort(sortByDate)
 			.reverse()
-			.slice(0, 4);
+			.slice(0, 4),
+		allPosts = [] // eslint-disable-line sort-vars
+			.concat(freshjuice, news, radios, takeovers)
+			.sort(sortByDate)
+			.reverse()
+			.slice(0, 6);
 
 	return {
 		props: {
+			allPosts,
 			freshjuice,
-			news,
 			radios,
 			takeovers,
 		},
@@ -86,8 +91,8 @@ export async function getStaticProps() {
 }
 
 Home.propTypes = {
+	allPosts: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
 	freshjuice: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
-	news: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
 	radios: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
 	takeovers: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
 };

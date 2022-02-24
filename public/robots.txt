@@ -7,4 +7,3 @@ Host: https://plantbassd.com
 
 # Sitemaps
 Sitemap: https://plantbassd.com/sitemap.xml
-Sitemap: https://plantbassd.com/sitemap-0.xml

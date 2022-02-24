@@ -93,6 +93,22 @@ Link {
 	text-align: left;
 }
 
+.showMoreBtn {
+	margin-top: -1rem;
+	text-align: center;
+	position: relative;
+	z-index: 100;
+}
+
+.showBtn {
+	border-radius: 3rem;
+	padding: 1rem 2rem;
+	text-decoration: none;
+	font-size: 1.25rem;
+	color: $white;
+	background-color: $navBlue;
+}
+
 .header {
 	color: $headerBlack !important;
 	font-size: $lgHeader;
@@ -159,7 +175,7 @@ Link {
 	height: 100%;
 	width: 100%;
 	opacity: 0;
-	transition: 0.5s ease;
+	transition: 0.25s ease;
 }
 
 .soundcloudOverlay {

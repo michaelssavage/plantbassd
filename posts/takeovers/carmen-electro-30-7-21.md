@@ -4,6 +4,8 @@ date: "July 30, 2021"
 pic: "/takeovers/16_Carmen-Electro.jpg"
 artistPage: "https://www.instagram.com/carmenelectro/"
 postLink: "https://www.instagram.com/p/CR881PWDvBL/"
+bio: "With one of the coolest names in the game for sure, Carmen Electro takes over our playlist for its 16th edition!"
+path: "takeovers"
 ---
 
 ### With one of the coolest names in the game for sure, Carmen Electro takes over our playlist for its 16th edition!

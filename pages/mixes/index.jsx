@@ -22,6 +22,12 @@ export default function MixesPage() {
 						Set Radio, and some guest mixes:`}
 					</p>
 
+					<div className="row g-3 pb-4">
+						{clubMixes.map((card) => (
+							<CardExternal card={card} key={card.key} />
+						))}
+					</div>
+
 					<p className={styles.pageText}>
 						<SocialMediaBtn
 							icon="soundcloud"
@@ -32,7 +38,7 @@ export default function MixesPage() {
 					</p>
 
 					<div className="row g-3 pb-4">
-						{clubMixes.map((card) => (
+						{downMixes.map((card) => (
 							<CardExternal card={card} key={card.key} />
 						))}
 					</div>
@@ -45,8 +51,8 @@ export default function MixesPage() {
 						/>
 					</p>
 
-					<div className="row g-3 pb-4">
-						{downMixes.map((card) => (
+					<div className="row g-3">
+						{otherMixes.map((card) => (
 							<CardExternal card={card} key={card.key} />
 						))}
 					</div>
@@ -58,12 +64,6 @@ export default function MixesPage() {
 							title="More Mixes"
 						/>
 					</p>
-
-					<div className="row g-3">
-						{otherMixes.map((card) => (
-							<CardExternal card={card} key={card.key} />
-						))}
-					</div>
 
 					<GoBack />
 				</div>

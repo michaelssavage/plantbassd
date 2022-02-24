@@ -4,6 +4,8 @@ date: "February 1, 2021"
 pic: "/takeovers/02_Presswork.jpg"
 artistPage: "https://www.instagram.com/presswork_/"
 postLink: "https://www.instagram.com/p/CKwxx1VnnBr/"
+path: "takeovers"
+bio: "Next up manning the Spotify is Dublin producer Tom McGrath..."
 ---
 
 ### Next up manning the Spotify is Dublin producer Tom McGrath.

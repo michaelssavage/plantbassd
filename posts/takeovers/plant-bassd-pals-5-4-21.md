@@ -4,6 +4,8 @@ date: "April 5, 2021"
 pic: "/takeovers/10_PB-Pals.jpg"
 artistPage: "https://www.instagram.com/plantbassd___"
 postLink: "https://www.instagram.com/p/CNTI2uZHgWq/"
+bio: "For a special feature this week, the lineup for Organized Noise share the tunes they would be playing for you all were the gig to go ahead..."
+path: "takeovers"
 ---
 
 ### It is a year yesterday since we were set to stage Organized Noise 001, out the back of Seamie’s in sweet sweet Monaghan.
