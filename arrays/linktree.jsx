@@ -4,6 +4,10 @@ export const linkList = [
 		link: "https://ra.co/events/1500809",
 	},
 	{
+		title: "SweatBox: Y2K Rave Tickets",
+		link: "https://ra.co/events/1505400",
+	},
+	{
 		title: "Edinburgh Weekly Club Guide",
 		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-23-2-22",
 	},
