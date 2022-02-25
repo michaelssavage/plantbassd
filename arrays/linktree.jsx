@@ -8,6 +8,10 @@ export const linkList = [
 		link: "https://ra.co/events/1505400",
 	},
 	{
+		title: "FRESH JUICE: TOOFTRAX202 by Tooflez All Stars",
+		link: "https://www.plantbassd.com/fresh-juice/tooflez-24-2-22",
+	},
+	{
 		title: "Edinburgh Weekly Club Guide",
 		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-23-2-22",
 	},
