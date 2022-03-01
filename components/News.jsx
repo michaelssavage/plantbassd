@@ -13,7 +13,7 @@ function OtherNews({ otherNews }) {
 			>
 				{otherNews.map((story) => (
 					<Link
-						href={`/news/${story.slug}`}
+						href={`/${story.frontmatter.path}/${story.slug}`}
 						key={story.frontmatter.title}
 					>
 						<a className={`blackAnchor ${styles.anchorList}`}>
@@ -75,7 +75,7 @@ export default function News({ news }) {
 						{mostRecent.map((story) => (
 							<CardWithText
 								key={story.frontmatter.title}
-								link={`/news/${story.slug}`}
+								link={`/${story.frontmatter.path}/${story.slug}`}
 								post={story}
 							/>
 						))}
