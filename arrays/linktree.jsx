@@ -8,12 +8,16 @@ export const linkList = [
 		link: "https://ra.co/events/1505400",
 	},
 	{
-		title: "FRESH JUICE: TOOFTRAX202 by Tooflez All Stars",
-		link: "https://www.plantbassd.com/fresh-juice/tooflez-24-2-22",
+		title: "FRESH JUICE: Raziel V/A by Hilltown Disco",
+		link: "https://www.plantbassd.com/fresh-juice/hilltown-disco-1-3-22",
 	},
 	{
-		title: "Edinburgh Weekly Club Guide",
-		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-23-2-22",
+		title: "FRESH JUICE: Corrupt/ Brewing by LWS",
+		link: "https://www.plantbassd.com/fresh-juice/lws-1-3-22",
+	},
+	{
+		title: "FRESH JUICE: TOOFTRAX202 by Tooflez All Stars",
+		link: "https://www.plantbassd.com/fresh-juice/tooflez-24-2-22",
 	},
 	{
 		title: "FRESH JUICE: Rescue & Research Pt.4: PANG",
