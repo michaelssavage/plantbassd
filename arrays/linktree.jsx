@@ -8,6 +8,10 @@ export const linkList = [
 		link: "https://ra.co/events/1505400",
 	},
 	{
+		title: "EDINBURGH WEEKLY CLUB GUIDE",
+		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-2-3-22",
+	},
+	{
 		title: "FRESH JUICE: Raziel V/A by Hilltown Disco",
 		link: "https://www.plantbassd.com/fresh-juice/hilltown-disco-1-3-22",
 	},
