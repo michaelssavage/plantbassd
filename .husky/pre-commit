@@ -17,8 +17,6 @@ yarn build ||
 )
 
 # If everything passes... Now we can commit
-
-# If everything passes... Now we can commit
 echo "✅✅✅✅ Commit passed ✅✅✅✅"
 
 # add --no-verify to bypass
