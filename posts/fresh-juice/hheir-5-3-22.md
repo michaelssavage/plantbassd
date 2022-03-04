@@ -13,7 +13,7 @@ path: "fresh-juice"
 
 Buy/ Stream here https://hheir.bandcamp.com/album/preliminal-ep
 
-<img src="/fresh-juice/20-preliminal-art.png" alt="preliminal album art" width="95%" />
+<img src="/fresh-juice/20-preliminal.jpg" alt="preliminal album art" width="95%" />
 
 _XX_
 
