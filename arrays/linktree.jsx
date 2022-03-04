@@ -12,6 +12,10 @@ export const linkList = [
 		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-2-3-22",
 	},
 	{
+		title: "FRESH JUICE: Preliminal by HhÉiR",
+		link: "https://www.plantbassd.com/fresh-juice/hheir-5-3-22",
+	},
+	{
 		title: "FRESH JUICE: City Stars by DJ HANK",
 		link: "https://www.plantbassd.com/fresh-juice/dj-hank-3-3-22",
 	},
