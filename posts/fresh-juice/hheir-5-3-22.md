@@ -5,7 +5,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/20-heir-preliminal.jpg"
 bandcamp: "https://hheir.bandcamp.com/album/preliminal-ep"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "XX..."
+bio: "Cork-born and Edinburgh-based producer HhÉiR arrives with his debut EP on Irish label Verve. Two tracks of momentary bliss that drift between electro, bass, funky, and atmospheric club..."
 path: "fresh-juice"
 ---
 
