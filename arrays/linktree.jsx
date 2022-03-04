@@ -1,19 +1,39 @@
 export const linkList = [
 	{
-		title: "SweatBox: y2k Rave Tickets",
-		link: "https://ra.co/events/1502535",
-	},
-	{
 		title: "YTP @ Sneaky Pete's Tickets",
 		link: "https://ra.co/events/1500809",
 	},
 	{
-		title: "FRESH JUICE: PU$$Y GALORE by KARNAGE KILLS X DJ MELL G",
-		link: "https://www.plantbassd.com/fresh-juice/dj-mell-g-15-2-22",
+		title: "SweatBox: Y2K Rave Tickets",
+		link: "https://ra.co/events/1505400",
 	},
 	{
 		title: "EDINBURGH WEEKLY CLUB GUIDE",
-		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-15-2-22",
+		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-2-3-22",
+	},
+	{
+		title: "FRESH JUICE: Raziel V/A by Hilltown Disco",
+		link: "https://www.plantbassd.com/fresh-juice/hilltown-disco-1-3-22",
+	},
+	{
+		title: "FRESH JUICE: Corrupt/ Brewing by LWS",
+		link: "https://www.plantbassd.com/fresh-juice/lws-1-3-22",
+	},
+	{
+		title: "FRESH JUICE: TOOFTRAX202 by Tooflez All Stars",
+		link: "https://www.plantbassd.com/fresh-juice/tooflez-24-2-22",
+	},
+	{
+		title: "FRESH JUICE: Rescue & Research Pt.4: PANG",
+		link: "https://www.plantbassd.com/fresh-juice/pang-18-2-22",
+	},
+	{
+		title: "FRESH JUICE: New Futures by Plot Twist",
+		link: "https://www.plantbassd.com/fresh-juice/plot-twist-17-2-22",
+	},
+	{
+		title: "FRESH JUICE: PU$$Y GALORE by KARNAGE KILLS X DJ MELL G",
+		link: "https://www.plantbassd.com/fresh-juice/dj-mell-g-15-2-22",
 	},
 	{
 		title: "Plant Bass'd Takeover: Glimmerman",
