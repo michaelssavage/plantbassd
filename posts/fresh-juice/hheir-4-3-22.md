@@ -1,6 +1,6 @@
 ---
 title: "FRESH JUICE: Preliminal by HhÉiR"
-date: "March 5, 2022"
+date: "March 4, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/20-heir-preliminal.jpg"
 bandcamp: "https://hheir.bandcamp.com/album/preliminal-ep"
