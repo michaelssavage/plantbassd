@@ -1,0 +1,22 @@
+---
+title: "FRESH JUICE: XX"
+date: "XX, 2022"
+tags: "fresh juice"
+pic: "/fresh-juice/XX.jpg"
+bandcamp: "XX"
+postLink: "https://www.instagram.com/plantbassd___"
+bio: "XX..."
+path: "fresh-juice"
+---
+
+### XXX
+
+Buy/ Stream here XXX
+
+<img src="/fresh-juice/XXX.jpg" alt="XXX album art" width="95%" />
+
+_XXX_
+
+<img src="/fresh-juice/XXX.jpg" alt="XXX cover pic" width="95%" />
+
+_XXX_
