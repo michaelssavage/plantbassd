@@ -8,8 +8,12 @@ export const linkList = [
 		link: "https://ra.co/events/1505400",
 	},
 	{
-		title: "EDINBURGH WEEKLY CLUB GUIDE",
-		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-2-3-22",
+		title: "FRESH JUICE: Electrophile by Lossk",
+		link: "https://www.plantbassd.com/fresh-juice/lossk-7-3-22",
+	},
+	{
+		title: "FRESH JUICE: Breaks 'N' Pieces Vol. 18 by Nikki Nair",
+		linl: "https://www.plantbassd.com/fresh-juice/nikki-nair-5-3-22",
 	},
 	{
 		title: "FRESH JUICE: Preliminal by HhÉiR",
