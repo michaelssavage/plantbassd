@@ -8,6 +8,10 @@ export const linkList = [
 		link: "https://ra.co/events/1505400",
 	},
 	{
+		title: "EDINBURGH WEEKLY CLUB GUIDE",
+		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-7-3-22",
+	},
+	{
 		title: "FRESH JUICE: Electrophile by Lossk",
 		link: "https://www.plantbassd.com/fresh-juice/lossk-7-3-22",
 	},
