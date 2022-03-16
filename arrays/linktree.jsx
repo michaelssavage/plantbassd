@@ -1,15 +1,7 @@
 export const linkList = [
 	{
-		title: "YTP @ Sneaky Pete's Tickets",
-		link: "https://ra.co/events/1500809",
-	},
-	{
-		title: "SweatBox: Y2K Rave Tickets",
-		link: "https://ra.co/events/1505400",
-	},
-	{
 		title: "EDINBURGH WEEKLY CLUB GUIDE",
-		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-7-3-22",
+		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-14-3-22",
 	},
 	{
 		title: "FRESH JUICE: Electrophile by Lossk",
