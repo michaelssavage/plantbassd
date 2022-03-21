@@ -1,7 +1,11 @@
 export const linkList = [
 	{
-		title: "EDINBURGH WEEKLY CLUB GUIDE",
-		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-14-3-22",
+		title: "FRESH JUICE: Dancetrumentals by Snarexx",
+		link: "https://www.plantbassd.com/fresh-juice/snarexx-22-3-22"
+	},
+	{
+		title: "FRESH JUICE: Double Knee by Whistle & Klont",
+		link: "https://www.plantbassd.com/fresh-juice/whistle-klont-21-3-22",
 	},
 	{
 		title: "FRESH JUICE: Electrophile by Lossk",
