@@ -1,5 +1,9 @@
 export const linkList = [
 	{
+		title: "FRESH JUICE: Acid Avengers 021",
+		link: "https://www.plantbassd.com/fresh-juice/acid-avengers-23-2-22",
+	},
+	{
 		title: "FRESH JUICE: Dancetrumentals by Snarexx",
 		link: "https://www.plantbassd.com/fresh-juice/snarexx-22-3-22"
 	},
