@@ -1,5 +1,9 @@
 export const linkList = [
 	{
+		title: "SweatBox: Martyn Bootyspoon Tickets",
+		link: "https://ra.co/events/1515781",
+	},
+	{
 		title: "FRESH JUICE: Acid Avengers 021",
 		link: "https://www.plantbassd.com/fresh-juice/acid-avengers-23-2-22",
 	},
