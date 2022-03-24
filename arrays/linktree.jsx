@@ -1,7 +1,23 @@
 export const linkList = [
 	{
-		title: "EDINBURGH WEEKLY CLUB GUIDE",
-		link: "https://www.plantbassd.com/news/edi-weekly-club-guide-14-3-22",
+		title: "SweatBox: Martyn Bootyspoon Tickets",
+		link: "https://ra.co/events/1515781",
+	},
+	{
+		title: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending Week Ending 27/3/22",
+		link: "https://www.plantbassd.com/news/edi-weekly-guide-24-3-22",
+	},
+	{
+		title: "FRESH JUICE: Acid Avengers 021",
+		link: "https://www.plantbassd.com/fresh-juice/acid-avengers-23-2-22",
+	},
+	{
+		title: "FRESH JUICE: Dancetrumentals by Snarexx",
+		link: "https://www.plantbassd.com/fresh-juice/snarexx-22-3-22",
+	},
+	{
+		title: "FRESH JUICE: Double Knee by Whistle & Klont",
+		link: "https://www.plantbassd.com/fresh-juice/whistle-klont-21-3-22",
 	},
 	{
 		title: "FRESH JUICE: Electrophile by Lossk",
@@ -12,56 +28,12 @@ export const linkList = [
 		linl: "https://www.plantbassd.com/fresh-juice/nikki-nair-5-3-22",
 	},
 	{
-		title: "FRESH JUICE: Preliminal by HhÉiR",
-		link: "https://www.plantbassd.com/fresh-juice/hheir-5-3-22",
-	},
-	{
-		title: "FRESH JUICE: City Stars by DJ HANK",
-		link: "https://www.plantbassd.com/fresh-juice/dj-hank-3-3-22",
-	},
-	{
-		title: "FRESH JUICE: Raziel V/A by Hilltown Disco",
-		link: "https://www.plantbassd.com/fresh-juice/hilltown-disco-1-3-22",
-	},
-	{
-		title: "FRESH JUICE: Corrupt/ Brewing by LWS",
-		link: "https://www.plantbassd.com/fresh-juice/lws-1-3-22",
-	},
-	{
-		title: "FRESH JUICE: TOOFTRAX202 by Tooflez All Stars",
-		link: "https://www.plantbassd.com/fresh-juice/tooflez-24-2-22",
-	},
-	{
-		title: "FRESH JUICE: Rescue & Research Pt.4: PANG",
-		link: "https://www.plantbassd.com/fresh-juice/pang-18-2-22",
-	},
-	{
-		title: "FRESH JUICE: New Futures by Plot Twist",
-		link: "https://www.plantbassd.com/fresh-juice/plot-twist-17-2-22",
-	},
-	{
-		title: "FRESH JUICE: PU$$Y GALORE by KARNAGE KILLS X DJ MELL G",
-		link: "https://www.plantbassd.com/fresh-juice/dj-mell-g-15-2-22",
-	},
-	{
 		title: "Plant Bass'd Takeover: Glimmerman",
 		link: "https://www.plantbassd.com/takeovers/glimmerman-3-2-22",
 	},
 	{
 		title: "Plant Bass'd Radio: Sweet Philly Raunchy Mix",
 		link: "https://soundcloud.com/plantbassddjs/plant-bassd-radio-sweet-philly-raunchy-mix",
-	},
-	{
-		title: "FRESH JUICE: Long Island Sound - First Contact",
-		link: "https://www.plantbassd.com/fresh-juice/long-island-sound-31-1-22",
-	},
-	{
-		title: "FRESH JUICE: CLAN DESTINE - 'THEE ALPHA AND THEE OMEGA VOL. IX'",
-		link: "https://www.plantbassd.com/fresh-juice/clan-destine-21-1-22",
-	},
-	{
-		title: "FRESH JUICE: Jason Code - 'JCO1'",
-		link: "https://www.plantbassd.com/fresh-juice/jason-code-14-1-22",
 	},
 	{
 		title: "Spotify Playlist: Plant Bass'd Picks",
