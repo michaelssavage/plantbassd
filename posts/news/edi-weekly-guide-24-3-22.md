@@ -1,5 +1,5 @@
 ---
-title: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending Week Ending 27/3/22"
+title: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending 27/3/22"
 date: "March 24, 2022"
 tags: "guides"
 pic: "/news/09-edinburgh-club-guide.jpg"
