@@ -2,7 +2,7 @@
 title: "Plant Bass'd X Heaters"
 date: "January 12, 2022"
 tags: "gigs"
-pic: "/news/06-plantbassd-heaters.jpg"
+pic: "/news/05-plantbassd-heaters.jpg"
 tickets: "https://ra.co/events/1494126"
 postLink: "https://www.instagram.com/p/CYopQNkNpMh/"
 bio: "We takeover Heaters with a special headline slot from the ever palpable TAALHIAH!..."
@@ -22,6 +22,6 @@ RA Tickets Available through the link in our bio.
 
 @_leanlow_ on grafix!
 
-<img src="/news/06-plantbassd-heaters/taahliah.jpg" alt="Taahliah press pic" width="95%" />
-<img src="/news/06-plantbassd-heaters/sweet-philly.jpg" alt="Sweet Philly press pic" width="95%" />
-<img src="/news/06-plantbassd-heaters/lucky-dip.jpg" alt="Lucky Dip press pic" width="95%" />
+<img src="/news/05-taahliah.jpg" alt="Taahliah press pic" width="95%" />
+<img src="/news/05-sweet-philly.jpg" alt="Sweet Philly press pic" width="95%" />
+<img src="/news/05-lucky-dip.jpg" alt="Lucky Dip press pic" width="95%" />
