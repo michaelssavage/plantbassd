@@ -20,7 +20,6 @@ yarn build ||
 echo "✅✅✅✅ Commit passed ✅✅✅✅"
 
 git add .
-
 git commit -m "updating sw.js" --no-verify
 
 # add --no-verify to bypass
