@@ -4,8 +4,8 @@ export const linkList = [
 		link: "https://ra.co/events/1515781",
 	},
 	{
-		title: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending Week Ending 3/4/22",
-		link: "https://www.plantbassd.com/news/edi-weekly-guide-31-3-22",
+		title: "FRESH JUICE: U Got My Number? / Endz by Cartin",
+		link: "https://www.plantbassd.com/fresh-juice/cartin-12-4-22",
 	},
 	{
 		title: "FRESH JUICE: Acid Avengers 021",
