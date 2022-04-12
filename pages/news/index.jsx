@@ -56,7 +56,7 @@ export default function NewsPage({ files }) {
 					<h1 className={styles.pageHeader}>Plant Bass'd News</h1>
 
 					<p className={styles.pageText}>
-						News about club guides, Gigs, and all things Plant
+						News about club guides, gigs, and all things Plant
 						Bass'd. Keep up to date on our Instagram,{" "}
 						<a
 							className="blackAnchor"
