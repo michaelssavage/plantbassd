@@ -2,6 +2,11 @@ export const linkList = [
 	{
 		title: "SweatBox: Martyn Bootyspoon Tickets",
 		link: "https://ra.co/events/1515781",
+		
+	},
+	{
+		title: "Two Shell @ Bongo Club Tickets",
+		link: "https://ra.co/events/1523162",
 	},
 	{
 		title: "FRESH JUICE: U Got My Number? / Endz by Cartin",
