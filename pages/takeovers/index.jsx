@@ -15,85 +15,82 @@ import SocialMediaBtn from "@/btns/SocialMediaBtn";
 import styles from "@/pageStyle/page.module.scss";
 
 export default function TakeoverPage({ takeovers }) {
-	const { hasErrored, error, postCards, filter, setFilter } =
-			useFilter(takeovers),
-		handleSearchChange = (event) => {
-			setFilter(event.target.value);
-		};
+  const { error, filter, hasErrored, postCards, setFilter } =
+      useFilter(takeovers),
+    handleSearchChange = (event) => {
+      setFilter(event.target.value);
+    };
 
-	if (hasErrored) {
-		return <Error error={error} />;
-	}
-	return (
-		<>
-			<Head>
-				<title>Plant Bass'd Takeovers</title>
-			</Head>
-			<div className={styles.takeoverBG}>
-				<div className="container">
-					<h1 className={styles.pageHeader}>
-						Plant Bass'd Takeovers
-					</h1>
+  if (hasErrored) {
+    return <Error error={error} />;
+  }
+  return (
+    <>
+      <Head>
+        <title>Plant Bass'd Takeovers</title>
+      </Head>
+      <div className={styles.takeoverBG}>
+        <div className="container">
+          <h1 className={styles.pageHeader}>Plant Bass'd Takeovers</h1>
 
-					<p className={styles.pageText}>
-						Artists select and share their top tracks on Spotify.
-						Check out the playlist below.
-					</p>
-					<div className={styles.searchBox}>
-						<SearchBox
-							filter={filter}
-							setFilter={handleSearchChange}
-							styling={styles.searchFilter}
-						/>
-						<SocialMediaBtn
-							icon="spotify"
-							link="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
-							styling={styles.spotify}
-							title="Plant Bass'd Picks"
-						/>
-					</div>
-					<div className="row g-3">
-						{postCards.map((takeover) => (
-							<CardNoText
-								key={takeover.frontmatter.title}
-								link={`/takeovers/${takeover.slug}`}
-								post={takeover}
-							/>
-						))}
-					</div>
+          <p className={styles.pageText}>
+            Artists select and share their top tracks on Spotify. Check out the
+            playlist below.
+          </p>
+          <div className={styles.searchBox}>
+            <SearchBox
+              filter={filter}
+              setFilter={handleSearchChange}
+              styling={styles.searchFilter}
+            />
+            <SocialMediaBtn
+              icon="spotify"
+              link="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
+              styling={styles.spotify}
+              title="Plant Bass'd Picks"
+            />
+          </div>
+          <div className="row g-3">
+            {postCards.map((takeover) => (
+              <CardNoText
+                key={takeover.frontmatter.title}
+                link={`/takeovers/${takeover.slug}`}
+                post={takeover}
+              />
+            ))}
+          </div>
 
-					<GoBack />
-				</div>
-			</div>
+          <GoBack />
+        </div>
+      </div>
 
-			<Footer />
-		</>
-	);
+      <Footer />
+    </>
+  );
 }
-
 // eslint-disable-next-line func-style, require-await
 export async function getStaticProps() {
-	const files = fs.readdirSync(path.join("posts/takeovers")),
-		takeovers = files.map((filename) => {
-			const markdownWithMeta = fs.readFileSync(
-					path.join("posts/takeovers", filename),
-					"utf-8"
-				),
-				{ data: frontmatter } = matter(markdownWithMeta),
-				slug = filename.replace(".md", "");
-			return {
-				frontmatter,
-				slug,
-			};
-		});
+  const files = fs.readdirSync(path.join("posts/takeovers")),
+    takeovers = files.map((filename) => {
+      const markdownWithMeta = fs.readFileSync(
+          path.join("posts/takeovers", filename),
+          "utf-8"
+        ),
+        { data: frontmatter } = matter(markdownWithMeta),
+        slug = filename.replace(".md", "");
+      return {
+        frontmatter,
+        slug,
+      };
+    });
 
-	return {
-		props: {
-			takeovers: takeovers.sort(sortByDate).reverse(),
-		},
-	};
+  return {
+    props: {
+      takeovers: takeovers.sort(sortByDate).reverse(),
+    },
+  };
 }
 
 TakeoverPage.propTypes = {
-	takeovers: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
+  takeovers: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
 };

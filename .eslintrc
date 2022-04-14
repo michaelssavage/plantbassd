@@ -26,6 +26,8 @@
 		"max-lines-per-function": ["error", 80],
 		"no-magic-numbers": "off",
 		"no-ternary": "off",
+    "one-var": "off",
+    "max-statements": ["error", 11],
 		"react/jsx-max-depth": "off",
 		"react/jsx-no-literals": "off",
 		"react/jsx-no-bind": "off",

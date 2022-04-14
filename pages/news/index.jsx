@@ -14,125 +14,122 @@ import GoBack from "@/btns/GoBack";
 import styles from "@/pageStyle/page.module.scss";
 
 function FilterTags({ tagList, handleTags }) {
-	return (
-		<>
-			<Head>
-				<title>Plant Bass'd News</title>
-			</Head>
-			<div className={styles.btnGroup} role="group">
-				<div>Filters:</div>
+  return (
+    <>
+      <Head>
+        <title>Plant Bass'd News</title>
+      </Head>
+      <div className={styles.btnGroup} role="group">
+        <div>Filters:</div>
 
-				{tagList &&
-					tagList.map((tag) => (
-						<button
-							className={`btn btn-outline-dark ${
-								tag.value ? "active" : ""
-							}`}
-							key={tag.name}
-							onClick={() => handleTags(tag)}
-							type="button"
-						>
-							{tag.name}{" "}
-							{tag.value ? <AiOutlineCloseCircle /> : null}
-						</button>
-					))}
-			</div>
-		</>
-	);
+        {tagList &&
+          tagList.map((tag) => (
+            <button
+              className={`btn btn-outline-dark ${tag.value ? "active" : ""}`}
+              key={tag.name}
+              onClick={() => handleTags(tag)}
+              type="button"
+            >
+              {tag.name} {tag.value ? <AiOutlineCloseCircle /> : null}
+            </button>
+          ))}
+      </div>
+    </>
+  );
 }
 
 export default function NewsPage({ files }) {
-	const { hasErrored, error, newsStories, tagList, handleTags } =
-		useNewsFilter(files);
+  const { error, handleTags, hasErrored, newsStories, tagList } =
+    useNewsFilter(files);
 
-	if (hasErrored) {
-		<Error error={error} />;
-	}
+  if (hasErrored) {
+    <Error error={error} />;
+  }
 
-	return (
-		<>
-			<div className={styles.newsBG}>
-				<div className="container">
-					<h1 className={styles.pageHeader}>Plant Bass'd News</h1>
+  return (
+    <>
+      <div className={styles.newsBG}>
+        <div className="container">
+          <h1 className={styles.pageHeader}>Plant Bass'd News</h1>
 
-					<p className={styles.pageText}>
-						News about club guides, gigs, and all things Plant
-						Bass'd. Keep up to date on our Instagram,{" "}
-						<a
-							className="blackAnchor"
-							href="http://instagram.com/plantbassd___"
-						>
-							@plantbassd___
-						</a>
-					</p>
+          <p className={styles.pageText}>
+            News about club guides, gigs, and all things Plant Bass'd. Keep up
+            to date on our Instagram,{" "}
+            <a
+              className="blackAnchor"
+              href="http://instagram.com/plantbassd___"
+            >
+              @plantbassd___
+            </a>
+          </p>
 
-					<FilterTags handleTags={handleTags} tagList={tagList} />
+          <FilterTags handleTags={handleTags} tagList={tagList} />
 
-					<div className="row g-3">
-						{newsStories.map((story) => (
-							<CardWithText
-								key={story.frontmatter.title}
-								link={`/${story.frontmatter.path}/${story.slug}`}
-								post={story}
-							/>
-						))}
-					</div>
+          <div className="row g-3">
+            {newsStories.map((story) => (
+              <CardWithText
+                key={story.frontmatter.title}
+                link={`/${story.frontmatter.path}/${story.slug}`}
+                post={story}
+              />
+            ))}
+          </div>
 
-					<GoBack />
-				</div>
-			</div>
+          <GoBack />
+        </div>
+      </div>
 
-			<Footer />
-		</>
-	);
+      <Footer />
+    </>
+  );
 }
 
 /* eslint-disable */
 export async function getStaticProps() {
-	const getAllPosts = (dirPath, posts) => {
-		const allPosts = posts || [],
-			folders = fs.readdirSync(dirPath);
+  const getAllPosts = (dirPath, posts) => {
+    const allPosts = posts || [],
+      folders = fs.readdirSync(dirPath);
 
-		folders.forEach((file) => {
-			if (fs.statSync(`${dirPath}/${file}`).isDirectory()) {
-				// If this is a directory, then recursively call function
-				getAllPosts(`${dirPath}/${file}`, allPosts);
-			} else {
-				const markdownWithMeta = fs.readFileSync(
-						path.join(dirPath, file),
-						"utf-8"
-					),
-					{ data: frontmatter } = matter(markdownWithMeta),
-					slug = file.replace(".md", "");
+    folders.forEach((file) => {
+      if (fs.statSync(`${dirPath}/${file}`).isDirectory()) {
+        // If this is a directory, then recursively call function
+        getAllPosts(`${dirPath}/${file}`, allPosts);
+      } else {
+        const markdownWithMeta = fs.readFileSync(
+            path.join(dirPath, file),
+            "utf-8"
+          ),
+          { data: frontmatter } = matter(markdownWithMeta),
+          slug = file.replace(".md", "");
 
-				allPosts.push({
-					frontmatter,
-					slug,
-				});
-			}
-		});
-		return allPosts;
-	};
+        allPosts.push({
+          frontmatter,
+          slug,
+        });
+      }
+    });
+    return allPosts;
+  };
 
-	const files = getAllPosts("posts").sort(sortByDate).reverse();
+  const files = getAllPosts("posts").sort(sortByDate).reverse();
 
-	return {
-		props: {
-			files,
-		},
-	};
+  return {
+    props: {
+      files,
+    },
+  };
 }
 /* eslint-enable */
 NewsPage.propTypes = {
-	files: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
+  files: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
 };
 
 FilterTags.propTypes = {
-	handleTags: PropTypes.func.isRequired,
-	tagList: PropTypes.arrayOf(
-		PropTypes.shape({
-			name: PropTypes.string.isRequired,
-			value: PropTypes.bool.isRequired,
-		})
-	).isRequired,
+  handleTags: PropTypes.func.isRequired,
+  tagList: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      value: PropTypes.bool.isRequired,
+    })
+  ).isRequired,
 };
