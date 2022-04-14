@@ -1,57 +1,55 @@
 import { useEffect, useState } from "react";
 
 export default function useNewsFilter(news = []) {
-	const [hasErrored, setHasErrored] = useState(false);
-	const [error, setError] = useState("");
-	const [tags, setTags] = useState([]);
-	const [newsStories, setNewsStories] = useState(news);
-	const [tagList, setTagList] = useState([
-		{ name: "fresh juice", value: false },
-		{ name: "gigs", value: false },
-		{ name: "guides", value: false },
-		{ name: "reviews", value: false },
-	]);
+  const [hasErrored, setHasErrored] = useState(false);
+  const [error, setError] = useState("");
+  const [tags, setTags] = useState([]);
+  const [newsStories, setNewsStories] = useState(news);
+  const [tagList, setTagList] = useState([
+    { name: "fresh juice", value: false },
+    { name: "gigs", value: false },
+    { name: "guides", value: false },
+    { name: "reviews", value: false },
+  ]);
 
-	const addTag = (tag) => {
-		setTags([...tags, tag.name]);
-	};
+  const addTag = (tag) => {
+    setTags([...tags, tag.name]);
+  };
 
-	const removeTag = (tag) => {
-		const newTags = tags.filter((t) => t !== tag.name);
-		setTags(newTags);
-	};
+  const removeTag = (tag) => {
+    const newTags = tags.filter((tagItem) => tagItem !== tag.name);
+    setTags(newTags);
+  };
 
-	const updateTagList = (tag) => {
-		const idx = tagList.findIndex((e) => e === tag);
-		let newTagList = [...tagList];
-		newTagList[idx].value = !tag.value;
-		setTagList(newTagList);
-	};
+  const updateTagList = (tag) => {
+    const idx = tagList.findIndex((event) => event === tag),
+      newTagList = [...tagList];
+    newTagList[idx].value = !tag.value;
+    setTagList(newTagList);
+  };
 
-	const handleTags = (tag) => {
-		// onClick, either add or remove tags to the array.
-		if (!tag.value) {
-			addTag(tag);
-		} else {
-			removeTag(tag);
-		}
-		updateTagList(tag);
-	};
+  const handleTags = (tag) => {
+    // On onClick, either add or remove tags to the array.
+    if (tag.value) {
+      removeTag(tag);
+    } else {
+      addTag(tag);
+    }
+    updateTagList(tag);
+  };
 
-	useEffect(() => {
-		try {
-			const filtered =
-				tags.length === 0
-					? news
-					: news.filter((story) =>
-							tags.includes(story.frontmatter.tags)
-					  );
-			setNewsStories(filtered);
-		} catch (e) {
-			setHasErrored(true);
-			setError(e);
-		}
-	}, [tags, news]);
+  useEffect(() => {
+    try {
+      const filtered =
+        tags.length === 0
+          ? news
+          : news.filter((story) => tags.includes(story.frontmatter.tags));
+      setNewsStories(filtered);
+    } catch (event) {
+      setHasErrored(true);
+      setError(event);
+    }
+  }, [tags, news]);
 
-	return { hasErrored, error, newsStories, tagList, handleTags };
+  return { error, handleTags, hasErrored, newsStories, tagList };
 }

@@ -11,7 +11,7 @@ export const shimmer = (width, height) => `
 	<rect id="r" width="${width}" height="${height}" fill="url(#g)" />
 	<animate xlink:href="#r" attributeName="x" from="-${width}" to="${width}" dur="1s" repeatCount="indefinite"  />
 	</svg>`,
-	toBase64 = (str) =>
-		typeof window === "undefined"
-			? Buffer.from(str).toString("base64")
-			: window.btoa(str);
+  toBase64 = (str) =>
+    typeof window === "undefined"
+      ? Buffer.from(str).toString("base64")
+      : window.btoa(str);
