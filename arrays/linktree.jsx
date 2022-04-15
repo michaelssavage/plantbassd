@@ -2,6 +2,11 @@ export const linkList = [
 	{
 		title: "SweatBox: Martyn Bootyspoon Tickets",
 		link: "https://ra.co/events/1515781",
+	
+	},
+	{
+		title: "Plant Bass'd @ Wigwam Tickets",
+		link: "https://ra.co/events/1523165",
 		
 	},
 	{
