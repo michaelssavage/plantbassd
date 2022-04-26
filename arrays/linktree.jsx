@@ -8,6 +8,11 @@ export const linkList = [
 	{
 		title: "Two Shell @ Bongo Club Tickets",
 		link: "https://ra.co/events/1523162",
+		
+	},
+	{
+		title: "FRESH JUICE: NEEDS by 92Groovz",
+		link: "https://www.plantbassd.com/fresh-juice/92groovz-27-4-22",
 	},
 	{
 		title: "FRESH JUICE: U Got My Number? / Endz by Cartin",
