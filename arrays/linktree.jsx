@@ -1,16 +1,6 @@
 export const linkList = [
 	{
 	
-		title: "Wigwam Show - Resident Advisor Tickets",
-		link: "https://ra.co/events/1523165",
-		
-	},
-	{
-		title: "Wigwam Show - Eventbrite Tickets",
-		link: "https://www.eventbrite.ie/e/plant-bassd-presents-ayolxi-glimmerman-rory-sweeney-sohotsospicy-tickets-329830530997?aff=ebdssbdestsearch&keep_tld=1"
-		
-	},
-	{
 		title: "Two Shell @ Bongo Club Tickets",
 		link: "https://ra.co/events/1523162",
 		
