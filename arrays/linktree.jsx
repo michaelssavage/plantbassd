@@ -1,11 +1,17 @@
 export const linkList = [
 	{
-		title: "SweatBox: Martyn Bootyspoon Tickets",
-		link: "https://ra.co/events/1515781",
+	
+		title: "Two Shell @ Bongo Club Tickets",
+		link: "https://ra.co/events/1523162",
+		
 	},
 	{
-		title: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending Week Ending 27/3/22",
-		link: "https://www.plantbassd.com/news/edi-weekly-guide-24-3-22",
+		title: "FRESH JUICE: NEEDS by 92Groovz",
+		link: "https://www.plantbassd.com/fresh-juice/92groovz-27-4-22",
+	},
+	{
+		title: "FRESH JUICE: U Got My Number? / Endz by Cartin",
+		link: "https://www.plantbassd.com/fresh-juice/cartin-12-4-22",
 	},
 	{
 		title: "FRESH JUICE: Acid Avengers 021",
