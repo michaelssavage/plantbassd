@@ -1,9 +1,12 @@
 export const linkList = [
 	{
 	
-		title: "Two Shell @ Bongo Club Tickets",
-		link: "https://ra.co/events/1523162",
-		
+		title: "SweatBox @ Sneaky Pete's Tickets",
+		link: "https://ra.co/events/1530814",
+	},
+	{
+		title: "FRESH JUICE: Midnight Dub Vol.1 by PLUS ONE",
+		link: "https://www.plantbassd.com/fresh-juice/plus-one-4-5-22",
 	},
 	{
 		title: "FRESH JUICE: NEEDS by 92Groovz",
