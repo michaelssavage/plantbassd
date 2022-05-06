@@ -6,7 +6,7 @@ export const linkList = [
   },
   {
     title: "FRESH JUICE: 'Based On Your Listening History' by Viikatory",
-    link: "http://localhost:3000/fresh-juice/viikatory-7-5-22",
+    link: "https://www.plantbassd.com/fresh-juice/viikatory-7-5-22",
     icon: "fresh juice",
   },
   {
