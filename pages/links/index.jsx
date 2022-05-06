@@ -51,6 +51,7 @@ export default function Links() {
                 href={item.link}
                 role="button"
               >
+                <SocialIcon icon={item.icon} styling={styles.linkIcon} />
                 {item.title}
               </a>
             </div>
