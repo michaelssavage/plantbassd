@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 import { BiRadio } from "react-icons/bi";
 import { FaSpotify } from "react-icons/fa";
+import { GiTicket } from "react-icons/gi";
 import { IconContext } from "react-icons";
 import { ImNewspaper } from "react-icons/im";
 import { MdContacts, MdLocalDrink } from "react-icons/md";
@@ -43,6 +44,10 @@ function Switcher({ icon }) {
       return <SiBandcamp />;
     case "fresh juice":
       return <MdLocalDrink />;
+    case "gig":
+      return <GiTicket />;
+    case "site":
+      return <AiFillHome />;
     default:
       return <RiSpotifyLine />;
   }
