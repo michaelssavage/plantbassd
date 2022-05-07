@@ -44,7 +44,7 @@ function Switcher({ icon }) {
       return <SiBandcamp />;
     case "fresh juice":
       return <MdLocalDrink />;
-    case "gig":
+    case "tickets":
       return <GiTicket />;
     case "site":
       return <AiFillHome />;
