@@ -28,6 +28,7 @@ export default function Links() {
               width={60}
             />
           </div>
+
           <div className="row text-center">
             <h1 className={styles.linkHeading}>PLANT BASS'D</h1>
           </div>
@@ -44,15 +45,20 @@ export default function Links() {
             ))}
           </div>
 
+          <hr />
+
           {linkList.map((item) => (
             <div className={`row ${styles.buttonStyle}`} key={item.title}>
+              <div className={styles.linkTitle}>
+                <SocialIcon icon={item.icon} styling={styles.linkIcon} />
+                <div>{item.icon.toUpperCase()}</div>
+              </div>
               <a
                 className={`btn btn-outline-dark ${styles.btnText}`}
                 href={item.link}
                 role="button"
               >
-                <SocialIcon icon={item.icon} styling={styles.linkIcon} />
-                {item.title}
+                <div>{item.title}</div>
               </a>
             </div>
           ))}
