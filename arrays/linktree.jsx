@@ -5,8 +5,13 @@ export const linkList = [
     icon: "tickets",
   },
   {
-    title: "PREMIERE - Selky 'Paradise'",
+    title: "PREMIERE - 'Paradise' by Selky",
     link: "https://soundcloud.com/plantbassddjs/plant-bassd-premiere-selky-paradise-the-bumps-ep/s-3Gq2U2eURxn?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    icon: "premiere",
+  },
+  {
+    title: "'JUICY CLASS' by DJ FUCKOFF X DJ MELL G",
+    link: "https://www.plantbassd.com/fresh-juice/dj-mell-g-10-5-22",
     icon: "fresh juice",
   },
   {
@@ -42,11 +47,6 @@ export const linkList = [
   {
     title: "Double Knee by Whistle & Klont",
     link: "https://www.plantbassd.com/fresh-juice/whistle-klont-21-3-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "Electrophile by Lossk",
-    link: "https://www.plantbassd.com/fresh-juice/lossk-7-3-22",
     icon: "fresh juice",
   },
   {

@@ -6,6 +6,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { BiRadio } from "react-icons/bi";
+import { BsFillVolumeUpFill } from "react-icons/bs";
 import { FaSpotify } from "react-icons/fa";
 import { GiTicket } from "react-icons/gi";
 import { IconContext } from "react-icons";
@@ -48,6 +49,8 @@ function Switcher({ icon }) {
       return <GiTicket />;
     case "site":
       return <AiFillHome />;
+    case "premiere":
+      return <BsFillVolumeUpFill />;
     default:
       return <RiSpotifyLine />;
   }
