@@ -1,12 +1,13 @@
 ---
 title: "Glasgow Sweatbox set for 23/04/22"
 date: "April 1, 2022"
-tags: "gigs"
 pic: "/news/08-sweatbox.jpg"
 tickets: "https://ra.co/events/1515781"
 postLink: "https://www.instagram.com/p/Cbzq5MDAQ14/"
 bio: "Our next Glasgow SweatBox is ready for Martyn Bootyspoon at the Flying Duck Club with support from H3L3NA, Sweet Philly and OISÍN..."
 path: "news"
+tags: "gigs"
+city: "glasgow"
 ---
 
 ### Our next Glasgow SweatBox is ready for Martyn Bootyspoon at the Flying Duck Club with support from H3L3NA, Sweet Philly and OISÍN!

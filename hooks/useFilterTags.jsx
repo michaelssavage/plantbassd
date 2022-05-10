@@ -1,16 +1,11 @@
 import { useEffect, useState } from "react";
 
-export default function useNewsFilter(news = []) {
+export default function useFilterTags(initTagList, filterType, news = []) {
   const [hasErrored, setHasErrored] = useState(false);
   const [error, setError] = useState("");
   const [tags, setTags] = useState([]);
   const [newsStories, setNewsStories] = useState(news);
-  const [tagList, setTagList] = useState([
-    { name: "fresh juice", value: false },
-    { name: "gigs", value: false },
-    { name: "guides", value: false },
-    { name: "reviews", value: false },
-  ]);
+  const [tagList, setTagList] = useState(initTagList);
 
   const addTag = (tag) => {
     setTags([...tags, tag.name]);
@@ -43,13 +38,17 @@ export default function useNewsFilter(news = []) {
       const filtered =
         tags.length === 0
           ? news
-          : news.filter((story) => tags.includes(story.frontmatter.tags));
+          : news.filter((story) =>
+              filterType === "news"
+                ? tags.includes(story.frontmatter.tags)
+                : tags.includes(story.frontmatter.city)
+            );
       setNewsStories(filtered);
     } catch (event) {
       setHasErrored(true);
       setError(event);
     }
-  }, [tags, news]);
+  }, [tags, news, filterType]);
 
   return { error, handleTags, hasErrored, newsStories, tagList };
 }

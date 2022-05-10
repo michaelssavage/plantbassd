@@ -1,12 +1,13 @@
 ---
 title: "Plant Bass'd Ruff 'N' Tuff"
 date: "November 30, 2021"
-tags: "gigs"
 pic: "/news/03_ruff-n-tuff.jpg"
 tickets: "https://ra.co/events/1484531"
 postLink: "https://www.instagram.com/p/CW6gObttV-k/"
 bio: "We bring our SweatBox series to glasgow for a string of Ruff ‘N’ Tuff Jungle & Hardcore shows!..."
 path: "news"
+tags: "gigs"
+city: "glasgow"
 ---
 
 ### Save the date: Thursday 16th December 21!

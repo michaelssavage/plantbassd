@@ -1,12 +1,13 @@
 ---
 title: "Plant Bass'd and Mile High Club join forces"
 date: "April 14, 2022"
-tags: "gigs"
 pic: "/news/09-two-shell.jpg"
 tickets: "https://ra.co/events/1523162"
 postLink: "https://www.instagram.com/p/CcVbhyJMGKz/"
 bio: "Plant Bass'd and Mile High Club join forces for a very special show welcoming UK underground heavyweights Two Shell to the capital!..."
 path: "news"
+tags: "gigs"
+city: "edinburgh"
 ---
 
 ### Plant Bass'd and Mile High Club join forces for a very special show welcoming UK underground heavyweights Two Shell to the capital!

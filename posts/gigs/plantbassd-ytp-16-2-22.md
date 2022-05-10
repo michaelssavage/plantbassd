@@ -1,12 +1,13 @@
 ---
 title: "YTP leads Plant Bass'd X Heaters on the 9-3-22"
 date: "February 16, 2022"
-tags: "gigs"
 pic: "/news/06-plantbassd-ytp.jpg"
 tickets: "https://ra.co/events/1500809"
 postLink: "https://www.instagram.com/p/CaARYPONNhC/"
 bio: "Back to Sneaky’s for our next Heaters show with Dundee electro mammoth @ytp.aiff on the 9th of March!..."
 path: "news"
+tags: "gigs"
+city: "edinburgh"
 ---
 
 ### Back to Sneaky’s for our next Heaters show with Dundee electro mammoth @ytp.aiff on the 9th of March!

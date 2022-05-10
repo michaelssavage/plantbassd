@@ -1,46 +1,31 @@
-import { AiOutlineCloseCircle } from "react-icons/ai";
 import { sortByDate } from "components/Utilities";
 import Error from "components/Error";
+import FilterTags from "components/FilterTags";
 import Footer from "components/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
-import useNewsFilter from "hooks/useNewsFilter";
+import useFilterTags from "hooks/useFilterTags";
 
 import CardWithText from "@/cards/CardWithText";
 import GoBack from "@/btns/GoBack";
 import styles from "@/pageStyle/page.module.scss";
 
-function FilterTags({ tagList, handleTags }) {
-  return (
-    <>
-      <Head>
-        <title>Plant Bass'd News</title>
-      </Head>
-      <div className={styles.btnGroup} role="group">
-        <div>Filters:</div>
-
-        {tagList &&
-          tagList.map((tag) => (
-            <button
-              className={`btn btn-outline-dark ${tag.value ? "active" : ""}`}
-              key={tag.name}
-              onClick={() => handleTags(tag)}
-              type="button"
-            >
-              {tag.name} {tag.value ? <AiOutlineCloseCircle /> : null}
-            </button>
-          ))}
-      </div>
-    </>
-  );
-}
+const newsTags = [
+  { name: "fresh juice", value: false },
+  { name: "gigs", value: false },
+  { name: "guides", value: false },
+  { name: "reviews", value: false },
+];
 
 export default function NewsPage({ files }) {
-  const { error, handleTags, hasErrored, newsStories, tagList } =
-    useNewsFilter(files);
+  const { error, handleTags, hasErrored, newsStories, tagList } = useFilterTags(
+    newsTags,
+    "news",
+    files
+  );
 
   if (hasErrored) {
     <Error error={error} />;
@@ -48,6 +33,9 @@ export default function NewsPage({ files }) {
 
   return (
     <>
+      <Head>
+        <title>Plant Bass'd News</title>
+      </Head>
       <div className={styles.newsBG}>
         <div className="container">
           <h1 className={styles.pageHeader}>Plant Bass'd News</h1>
@@ -122,14 +110,4 @@ export async function getStaticProps() {
 /* eslint-enable */
 NewsPage.propTypes = {
   files: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
-};
-
-FilterTags.propTypes = {
-  handleTags: PropTypes.func.isRequired,
-  tagList: PropTypes.arrayOf(
-    PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      value: PropTypes.bool.isRequired,
-    })
-  ).isRequired,
 };
