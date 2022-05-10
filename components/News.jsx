@@ -1,42 +1,11 @@
-import Link from "next/link";
+import CardNoText from "@/cards/CardNoText";
+import NewsPreviews from "components/NewsPreviews";
 import PropTypes from "prop-types";
-
-import CardWithText from "@/cards/CardWithText";
-import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 import styles from "@/styles/news.module.scss";
-
-function OtherNews({ otherNews }) {
-  return (
-    <>
-      <div
-        className={`row list-group list-group-flush ${styles.listHorizontal}`}
-      >
-        {otherNews.map((story) => (
-          <Link
-            href={`/${story.frontmatter.path}/${story.slug}`}
-            key={story.frontmatter.title}
-          >
-            <a className={`blackAnchor ${styles.anchorList}`}>
-              <div
-                className={`list-group-item flex-fill ${styles.cardList}`}
-                key={story.frontmatter.title}
-              >
-                {story.frontmatter.date} {"// "}
-                {story.frontmatter.title}
-              </div>
-            </a>
-          </Link>
-        ))}
-      </div>
-
-      <DiscoverMoreBtn link="/news" />
-    </>
-  );
-}
 
 export default function News({ news }) {
   const mostRecent = news.slice(0, 2),
-    otherNews = news.slice(2, 6);
+    otherNews = news.slice(2, 5);
 
   return (
     <section className={styles.bg}>
@@ -56,21 +25,18 @@ export default function News({ news }) {
                 </h1>
                 <p>
                   Catch the latest about club guides, upcoming gigs & Plant
-                  Bass'd events, and much more
-                </p>
-                <p>
-                  {`Keep up to date on our Instagram, `}
+                  Bass'd events, and much more. Keep up to date on our{` `}
                   <a
                     className="blackAnchor"
                     href="http://instagram.com/plantbassd___"
                   >
-                    @plantbassd___
+                    Instagram
                   </a>
                 </p>
               </div>
             </div>
             {mostRecent.map((story) => (
-              <CardWithText
+              <CardNoText
                 key={story.frontmatter.title}
                 link={`/${story.frontmatter.path}/${story.slug}`}
                 post={story}
@@ -78,7 +44,7 @@ export default function News({ news }) {
             ))}
           </div>
 
-          <OtherNews otherNews={otherNews} />
+          <NewsPreviews otherNews={otherNews} />
         </div>
       </div>
     </section>
@@ -87,8 +53,4 @@ export default function News({ news }) {
 
 News.propTypes = {
   news: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
-};
-
-OtherNews.propTypes = {
-  otherNews: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
 };

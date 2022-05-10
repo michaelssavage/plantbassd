@@ -24,29 +24,31 @@ export default function ContactPage() {
 
             <p>
               Plant Bass'd consists of Oisin Campbell, Michael Savage, and Peter
-              Toal. Originally from Co. Monaghan, Ireland, the three lads
-              created the collective in early 2020 with the intention of
-              highlighting artists, releases, and club nights in the
-              experimental dance music world.
+              Toal who are originally from Co. Monaghan, Ireland. The collective
+              was started in early 2020 with the intention of playing parties
+              and sharing music interests but quickly evolved into highlighting
+              artists, releases, and club nights in the experimental dance music
+              world.
             </p>
             <p>
               With shared interests and ambitions, the team looks towards
-              creating unforgettable Plant Bass'd nights in Edinburgh, Scotland
-              and Dublin, Ireland.
+              creating unforgettable Plant Bass'd nights in Ireland and the UK.
             </p>
 
             <h2>Get In Touch:</h2>
 
             <div className="row">
               {socialIconList.map((item) => (
-                <div className="col-6 col-sm-4 col-md-4" key={item.link}>
+                <div className="col-6 col-sm-6 col-md-4" key={item.link}>
                   <Link href={item.link}>
-                    <a className={styles.iconBox}>
+                    <a className={`blackAnchor ${styles.iconBox}`}>
                       <SocialIcon
                         icon={item.icon}
                         styling={styles.socialIcon}
                       />{" "}
-                      {item.icon.toUpperCase()}
+                      <div className={styles.iconText}>
+                        {item.icon.toUpperCase()}
+                      </div>
                     </a>
                   </Link>
                 </div>

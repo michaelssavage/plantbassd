@@ -1,67 +1,68 @@
 @use "@/abstracts" as *;
 
 .container {
-	padding: 3rem 6rem;
-	background-color: $lavender;
+  padding: 3rem 6rem;
+  background-color: $lavender;
 }
 
 .iconBox {
-	text-decoration: none;
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	color: $black;
-	font-size: $cardDate;
-	&:hover {
-		color: $headerBlack;
-	}
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: $cardDate;
 }
 
 .img {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border-radius: 0.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.25rem;
 }
 
 .socialIcon {
-	display: flex;
-	height: 3rem;
-	width: 3rem;
-	margin: 0.5rem 0;
-	fill: $headerBlack;
-	&:hover {
-		transform: scale(1.1);
-		filter: drop-shadow(0px 6px 6px $dropShadow);
-	}
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+  margin: 0.5rem 0;
+  fill: $headerBlack;
+  border-radius: 1em 0 1em 0;
+}
+
+.iconText {
+  padding-left: 0.5rem;
 }
 
 @include breakpoint-below(md) {
-	.imgHolder {
-		padding: 1rem 0;
-	}
+  .imgHolder {
+    padding: 1rem 0;
+  }
 }
 
 @include breakpoint-below(sm) {
-	.container {
-		padding: 3rem 4rem;
-	}
+  .container {
+    padding: 3rem 4rem;
+  }
 
-	@include breakpoint-below(xs) {
-		.socialIcon {
-			width: 2.2rem;
-			height: 2.2rem;
-		}
-	}
+  @include breakpoint-below(xs) {
+    .socialIcon {
+      width: 2.2rem;
+      height: 2.2rem;
+    }
+  }
 }
 
 @include breakpoint-below(xs) {
-	.container {
-		padding: 3rem;
-	}
+  .container {
+    padding: 3rem;
+  }
 
-	.socialIcon {
-		height: 1.8rem;
-		width: 1.8rem;
-	}
+  .socialIcon {
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+
+  .iconBox {
+    flex-direction: column;
+  }
 }
