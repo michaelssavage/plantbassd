@@ -5,6 +5,11 @@ export const linkList = [
     icon: "tickets",
   },
   {
+    title: "PREMIERE - Selky 'Paradise'",
+    link: "https://soundcloud.com/plantbassddjs/plant-bassd-premiere-selky-paradise-the-bumps-ep/s-3Gq2U2eURxn?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    icon: "fresh juice",
+  },
+  {
     title: "'Based On Your Listening History' by Viikatory",
     link: "https://www.plantbassd.com/fresh-juice/viikatory-7-5-22",
     icon: "fresh juice",
