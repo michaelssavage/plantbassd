@@ -8,6 +8,14 @@ bio: "Plant Bass’d present their first party offering to Edinburgh and Scotlan
 path: "gigs"
 tags: "gigs"
 city: "edinburgh"
+anames: ["Roo Honeychild", "Feena", "OISÍN"]
+alinks:
+  [
+    "https://www.instagram.com/roohoneychild/",
+    "https://www.instagram.com/conan_303/",
+    "https://www.instagram.com/inspectorcampbellbap/",
+  ]
+apics: ["07-roo.jpg", "01-conan.jpg", "08-oisin.jpg"]
 ---
 
 Plant Bass’d present their first party offering to Edinburgh and Scotland itself at the otherworldly @sneakypetesclub with ‘SweatBox - Release Yo Freak’.

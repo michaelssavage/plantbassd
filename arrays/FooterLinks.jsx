@@ -1,36 +1,36 @@
 export const column1 = [
-		{
-			link: "/",
-			title: "Home",
-		},
-		{
-			link: "/news",
-			title: "News",
-		},
-		{
-			link: "/radios",
-			title: "Radio",
-		},
-		{
-			link: "/takeovers",
-			title: "Takeovers",
-		},
-	],
-	column2 = [
-		{
-			link: "/fresh-juice",
-			title: "Fresh Juice",
-		},
-		{
-			link: "/links",
-			title: "Links",
-		},
-		{
-			link: "/contact-us",
-			title: "About Us",
-		},
-		{
-			link: "/contact-us",
-			title: "Contact Us",
-		},
-	];
+    {
+      link: "/fresh-juice",
+      title: "Fresh Juice",
+    },
+    {
+      link: "/news",
+      title: "News",
+    },
+    {
+      link: "/gigs",
+      title: "Our Gigs",
+    },
+    {
+      link: "/takeovers",
+      title: "Takeovers",
+    },
+  ],
+  column2 = [
+    {
+      link: "/previous-guests",
+      title: "Previous Guests",
+    },
+    {
+      link: "/links",
+      title: "Link Tree",
+    },
+    {
+      link: "/radios",
+      title: "Guest Radio",
+    },
+    {
+      link: "/contact-us",
+      title: "Contact Us",
+    },
+  ];

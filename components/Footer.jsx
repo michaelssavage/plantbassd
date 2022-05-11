@@ -58,12 +58,12 @@ export default function FooterComponent() {
           >
             <div className="row">
               <div className="col">
-                <h3 className="mb-3">Main Content</h3>
+                <h3 className="mb-3">Quick Links</h3>
                 <FootCol column={column1} />
               </div>
 
               <div className="col">
-                <h3 className="mb-3">Quick Links</h3>
+                <h3 className="mb-3">More Content</h3>
                 <FootCol column={column2} />
               </div>
             </div>

@@ -8,6 +8,14 @@ bio: "We takeover Heaters with a special headline slot from the ever palpable TA
 path: "gigs"
 tags: "gigs"
 city: "edinburgh"
+anames: ["Taahliah", "Sweet Philly", "Lucky Dip"]
+alinks:
+  [
+    "https://www.instagram.com/akataahliah/",
+    "https://www.instagram.com/phillyholmes_/",
+    "https://www.instagram.com/_luckydip_/",
+  ]
+apics: ["05-taahliah.jpg", "05-sweet-philly.jpg", "05-lucky-dip.jpg"]
 ---
 
 ### We takeover Heaters with a special headline slot from the ever palpable TAALHIAH!
@@ -22,7 +30,3 @@ This is a night for everyone. A night of creative expression through hate defyin
 RA Tickets Available through the link in our bio.
 
 @_leanlow_ on grafix!
-
-<img src="/news/05-taahliah.jpg" alt="Taahliah press pic" width="95%" />
-<img src="/news/05-sweet-philly.jpg" alt="Sweet Philly press pic" width="95%" />
-<img src="/news/05-lucky-dip.jpg" alt="Lucky Dip press pic" width="95%" />

@@ -17,7 +17,7 @@ const newsTags = [
   { name: "fresh juice", value: false },
   { name: "gigs", value: false },
   { name: "guides", value: false },
-  { name: "reviews", value: false },
+  { name: "premieres", value: false },
 ];
 
 export default function NewsPage({ files }) {
