@@ -32,7 +32,9 @@ export default function CardWithButtons({
             <Link href={page}>
               <a
                 className={`${news.hoverLink} text-nowrap btn btn-outline-dark btn-lg`}
+                rel="noopener noreferrer"
                 role="button"
+                target="_blank"
               >
                 {artist}
               </a>
@@ -43,7 +45,9 @@ export default function CardWithButtons({
               <a
                 className={`${news.hoverLink} text-nowrap btn btn-outline-dark btn-lg`}
                 href={link}
+                rel="noopener noreferrer"
                 role="button"
+                target="_blank"
               >
                 {insta}
               </a>
