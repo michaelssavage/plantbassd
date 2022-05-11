@@ -37,7 +37,7 @@ export default function FooterComponent() {
 								by `}
                 <a
                   className="blackAnchor"
-                  href="http://github.com/michaelssavage"
+                  href="https://www.instagram.com/michaelsaverage/"
                 >
                   Michael.
                 </a>

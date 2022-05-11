@@ -75,7 +75,7 @@ export async function getStaticProps() {
       .concat(freshjuice, news, radios, takeovers)
       .sort(sortByDate)
       .reverse()
-      .slice(0, 6);
+      .slice(0, 5);
 
   return {
     props: {

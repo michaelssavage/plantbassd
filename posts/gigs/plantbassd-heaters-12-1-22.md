@@ -1,12 +1,13 @@
 ---
 title: "Plant Bass'd X Heaters"
 date: "January 12, 2022"
-tags: "gigs"
 pic: "/news/05-plantbassd-heaters.jpg"
 tickets: "https://ra.co/events/1494126"
 postLink: "https://www.instagram.com/p/CYopQNkNpMh/"
 bio: "We takeover Heaters with a special headline slot from the ever palpable TAALHIAH!..."
 path: "news"
+tags: "gigs"
+city: "edinburgh"
 ---
 
 ### We takeover Heaters with a special headline slot from the ever palpable TAALHIAH!

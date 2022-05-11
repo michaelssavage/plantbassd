@@ -47,6 +47,8 @@ function Switcher({ icon }) {
       return <MdLocalDrink />;
     case "tickets":
       return <GiTicket />;
+    case "gigs":
+      return <GiTicket />;
     case "site":
       return <AiFillHome />;
     case "premiere":

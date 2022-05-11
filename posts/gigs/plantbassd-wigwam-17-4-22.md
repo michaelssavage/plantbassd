@@ -1,12 +1,13 @@
 ---
 title: "Plant Bass'd return home for their first show on Irish soil"
 date: "April 17, 2022"
-tags: "gigs"
 pic: "/news/10-plantbassd-wigwam.jpg"
 tickets: "https://ra.co/events/1523165"
 postLink: "https://www.instagram.com/p/CcX2FJNMvLt/"
 bio: "Plant Bass'd return home for their first show on Irish soil with an ensemble featuring some of the most exciting electronic talent..."
 path: "news"
+tags: "gigs"
+city: "dublin"
 ---
 
 ## Plant Bass'd return home for their first show on Irish soil with an ensemble featuring some of the most exciting electronic talent on the Isle in the notorious Wigwam basement.

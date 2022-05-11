@@ -13,25 +13,25 @@ export default function ArtistCard() {
             <div className={styles.mixImages}>
               <div className={styles.topImage}>
                 <Image
-                  alt="setradio logo"
+                  alt="michael radio"
                   blurDataURL={`data:image/svg+xml;base64,${toBase64(
                     shimmer(400, 400)
                   )}`}
                   height={400}
                   placeholder="blur"
-                  src="/mixes/7-set.jpg"
+                  src="/mixes/michael.png"
                   width={400}
                 />
               </div>
               <div className={styles.bottomImage}>
                 <Image
-                  alt="itsnotradio logo"
+                  alt="oisin radio"
                   blurDataURL={`data:image/svg+xml;base64,${toBase64(
                     shimmer(400, 400)
                   )}`}
                   height="400"
                   placeholder="blur"
-                  src="/mixes/1-itsnotradio.jpg"
+                  src="/mixes/oisin.jpg"
                   width="400"
                 />
               </div>
@@ -44,16 +44,17 @@ export default function ArtistCard() {
                 Mixes
               </h1>
               <p>
-                Jungle, Techno, Garage, Rave selects, and more. Listen on EHFM,
+                Serving up the hot club sounds of ballroom, US club, electro,
+                ghetto tech, footwork, techno & more. Listen on EHFM,
                 ITSNOTRADIO, and Aurora, and our Soundcloud
               </p>
 
               <p>
-                House, Disco, and Groovy numbers. Find these on SET RADIO and
-                our Soundcloud
+                Find some House, Disco, and Groovy numbers on SET RADIO and our
+                Soundcloud too!
               </p>
 
-              <DiscoverMoreBtn link="/mixes" />
+              <DiscoverMoreBtn link="https://soundcloud.com/plantbassddjs" />
             </div>
           </div>
         </div>

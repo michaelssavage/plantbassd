@@ -1,12 +1,13 @@
 ---
 title: "Plantbass'd returns to Glasgow for our bumper SweatBox y2k Rave"
 date: "February 23, 2022"
-tags: "gigs"
 pic: "/news/07-sweatbox-y2k.jpg"
 tickets: "https://ra.co/events/1505400"
 postLink: "https://www.instagram.com/p/CaXbe4Ft6I_/"
 bio: "Noughties delights spinned inna footwork, jungle, electro styles & more with @roohoneychild, @case_ment, @iso.yso, and Lucky Dip!..."
 path: "news"
+tags: "gigs"
+city: "glasgow"
 ---
 
 ### Noughties delights spinned inna footwork, jungle, electro styles & more with @roohoneychild, @case_ment, @iso.yso, and Lucky Dip!

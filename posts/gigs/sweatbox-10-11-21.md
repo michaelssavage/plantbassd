@@ -1,12 +1,13 @@
 ---
 title: "SweatBox party"
 date: "November 10, 2021"
-tags: "gigs"
 pic: "/news/02_SweatBox.jpg"
 tickets: "https://ra.co/events/1480079"
 postLink: "https://www.instagram.com/p/CWGqB_RlnNu/"
 bio: "We are back with another SweatBox party! This time across the road to @bongoclub.edinburgh..."
 path: "news"
+tags: "gigs"
+city: "edinburgh"
 ---
 
 ### We are back with another SweatBox party! This time across the road to @bongoclub.edinburgh.

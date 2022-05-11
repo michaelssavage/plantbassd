@@ -1,213 +1,226 @@
 @use "@/abstracts" as *;
 
 @font-face {
-	font-display: swap;
-	font-family: "Messina";
-	src: local("Messina"), url("/fonts/Messina.ttf");
+  font-display: swap;
+  font-family: "Messina";
+  src: local("Messina"), url("/fonts/Messina.ttf");
 }
 
 @font-face {
-	font-display: swap;
-	font-family: "Molengo";
-	src: local("Molengo"), url("/fonts/Molengo-Regular.ttf");
+  font-display: swap;
+  font-family: "Molengo";
+  src: local("Molengo"), url("/fonts/Molengo-Regular.ttf");
 }
 
 * {
-	box-sizing: border-box;
-	font-family: "Molengo", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-		sans-serif;
+  box-sizing: border-box;
+  font-family: "Molengo", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 html,
 body {
-	padding: 0;
-	margin: 0 0 0 3rem;
+  padding: 0;
+  margin: 0 0 0 3rem;
 }
 
 a {
-	overflow-wrap: break-word;
-	word-wrap: break-word;
-	word-break: break-word;
-	-ms-hyphens: auto;
-	-moz-hyphens: auto;
-	-webkit-hyphens: auto;
-	hyphens: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 h1 {
-	font-family: "Messina";
-	color: $headerBlack;
-	@extend a;
+  font-family: "Messina";
+  color: $headerBlack;
+  @extend a;
 }
 
 h2 {
-	font-size: $heading2;
-	padding-top: 1rem;
+  font-size: $heading2;
+  padding-top: 1rem;
 }
 
 h3 {
-	font-size: $heading3;
+  font-size: $heading3;
 }
 
 p {
-	font-size: $paragraph;
+  font-size: $paragraph;
 }
 
 img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 Link {
-	color: inherit !important;
-	text-decoration: none !important;
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
 .anchor {
-	text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 .anchorHover {
-	@extend .anchor;
-	&:hover {
-		color: $headerBlack;
-		filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
-	}
+  @extend .anchor;
+  &:hover {
+    color: $headerBlack;
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+  }
 }
 
 .anchorColor {
-	color: inherit !important;
-	@extend .anchorHover;
+  color: inherit !important;
+  @extend .anchorHover;
+}
+
+.newsPreview {
+  color: $black !important;
+  @extend .anchorHover;
 }
 
 .blackAnchor {
-	color: $black !important;
-	@extend .anchorHover;
+  color: $black !important;
+  @extend .anchor;
+  border-radius: 1em 0 1em 0;
+  &:hover {
+    background-image: linear-gradient(
+      -100deg,
+      rgba(240, 60, 160, 0.2),
+      rgba(240, 60, 160, 0.6) 95%,
+      rgba(240, 60, 160, 0.1)
+    );
+  }
 }
 
 .globalBottomBtn {
-	margin-top: 1rem !important;
-	text-align: left;
+  margin-top: 1rem !important;
+  text-align: left;
 }
 
 .showMoreBtn {
-	margin-top: -1rem;
-	text-align: center;
-	position: relative;
-	z-index: 100;
+  margin-top: -1rem;
+  text-align: center;
+  position: relative;
+  z-index: 100;
 }
 
 .showBtn {
-	border-radius: 3rem;
-	padding: 1rem 2rem;
-	text-decoration: none;
-	font-size: 1.25rem;
-	color: $white;
-	background-color: $navBlue;
+  border-radius: 3rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: $white;
+  background-color: $navBlue;
 }
 
 .header {
-	color: $headerBlack !important;
-	font-size: $lgHeader;
+  color: $headerBlack !important;
+  font-size: $lgHeader;
 }
 
 .discoveryCards {
-	background: linear-gradient(180deg, $pink 20%, $green 80%);
+  background: linear-gradient(180deg, $pink 20%, $green 80%);
 }
 
 .top-ten-2021 {
-	padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 @include breakpoint-below(sm) {
-	body {
-		margin-left: -3rem !important;
-	}
+  body {
+    margin-left: -3rem !important;
+  }
 
-	.header {
-		font-size: $mdHeader;
-	}
+  .header {
+    font-size: $mdHeader;
+  }
 }
 
 @include breakpoint-below(xs) {
-	.header {
-		font-size: $smHeader;
-	}
+  .header {
+    font-size: $smHeader;
+  }
 }
 
 @include breakpoint-below(xxs) {
-	.header {
-		font-size: $xsHeader;
-	}
+  .header {
+    font-size: $xsHeader;
+  }
 }
 
 //above
 @include breakpoint-above(md) {
-	.top-ten-2021 {
-		-moz-box-flex: 0 !important;
-		flex: 0 0 auto !important;
-		width: 50% !important;
-	}
+  .top-ten-2021 {
+    -moz-box-flex: 0 !important;
+    flex: 0 0 auto !important;
+    width: 50% !important;
+  }
 }
 
 //below
 @include breakpoint-below(md) {
-	.top-ten-2021 {
-		-moz-box-flex: 0 !important;
-		flex: 0 0 auto !important;
-		width: 100% !important;
-	}
+  .top-ten-2021 {
+    -moz-box-flex: 0 !important;
+    flex: 0 0 auto !important;
+    width: 100% !important;
+  }
 }
 
 .imgContainer {
-	position: relative;
+  position: relative;
 }
 
 .imgOverlay {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	transition: 0.25s ease;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.25s ease;
 }
 
 .soundcloudOverlay {
-	background-color: $soundcloud;
-	@extend .imgOverlay;
+  background-color: $soundcloud;
+  @extend .imgOverlay;
 }
 
 .youtubeOverlay {
-	background-color: $youtube;
-	@extend .imgOverlay;
+  background-color: $youtube;
+  @extend .imgOverlay;
 }
 
 .imgContainer:hover .imgOverlay {
-	opacity: 0.9;
+  opacity: 0.9;
 }
 
 .imgTextOverlay {
-	color: $white;
-	font-size: $heading3;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	text-align: center;
+  color: $white;
+  font-size: $heading3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 img {
-	padding-bottom: 1rem;
+  padding-bottom: 1rem;
 }
 
 .navIcon {
-	font-size: $paragraph;
+  font-size: $paragraph;
 }
