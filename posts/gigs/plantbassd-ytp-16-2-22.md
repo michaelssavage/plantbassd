@@ -5,7 +5,7 @@ pic: "/news/06-plantbassd-ytp.jpg"
 tickets: "https://ra.co/events/1500809"
 postLink: "https://www.instagram.com/p/CaARYPONNhC/"
 bio: "Back to Sneaky’s for our next Heaters show with Dundee electro mammoth @ytp.aiff on the 9th of March!..."
-path: "news"
+path: "gigs"
 tags: "gigs"
 city: "edinburgh"
 ---
