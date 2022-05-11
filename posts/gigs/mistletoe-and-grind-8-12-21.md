@@ -5,7 +5,7 @@ pic: "/news/04_mistletoe-and-grind.jpg"
 tickets: "https://ra.co/events/1485121"
 postLink: "https://www.instagram.com/p/CXOsIjENYQ-/"
 bio: "We are back at @sneakypetesclub at the end of the month for a SweatBox 5amer! ..."
-path: "news"
+path: "gigs"
 tags: "gigs"
 city: "edinburgh"
 ---

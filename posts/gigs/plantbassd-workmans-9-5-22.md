@@ -5,7 +5,7 @@ pic: "/news/11-workmans.jpg"
 tickets: "https://ra.co/events/1533360"
 postLink: "https://www.instagram.com/p/CdQjEtls504/"
 bio: "Plant Bass'd returns to Dublin, this time to Workman’s Club with the launch of our new Organica series!.."
-path: "news"
+path: "gigs"
 tags: "gigs"
 city: "dublin"
 ---

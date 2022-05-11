@@ -5,7 +5,7 @@ pic: "/news/08-sweatbox.jpg"
 tickets: "https://ra.co/events/1515781"
 postLink: "https://www.instagram.com/p/Cbzq5MDAQ14/"
 bio: "Our next Glasgow SweatBox is ready for Martyn Bootyspoon at the Flying Duck Club with support from H3L3NA, Sweet Philly and OISÍN..."
-path: "news"
+path: "gigs"
 tags: "gigs"
 city: "glasgow"
 ---
