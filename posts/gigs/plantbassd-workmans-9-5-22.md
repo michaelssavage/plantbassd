@@ -8,6 +8,21 @@ bio: "Plant Bass'd returns to Dublin, this time to Workman’s Club with the lau
 path: "gigs"
 tags: "gigs"
 city: "dublin"
+anames: ["E The Artist", "Jenn Hession", "Silky Klub", "Sweet Philly"]
+alinks:
+  [
+    "https://www.instagram.com/etheartistdublin/",
+    "https://www.instagram.com/jennhession/",
+    "https://www.instagram.com/silkyklub/",
+    "https://www.instagram.com/phillyholmes_/",
+  ]
+apics:
+  [
+    "11-e-artist.jpg",
+    "11-jenn-hession.jpg",
+    "11-silky.jpg",
+    "05-sweet-philly.jpg",
+  ]
 ---
 
 Plant Bass'd returns to Dublin, this time to Workman’s Club with the launch of our new Organica series!
@@ -21,11 +36,3 @@ We are thrilled to be back home after our stellar night at Wigwam and hope to se
 This is a night for everyone. Leave your stresses and dress codes at home and immerse in the hate defying and freedom inspiring hard trax!
 
 !FREE NO MATTER WHAT!
-
-[<img src="/news/11-e-artist.jpg" alt="E The Artist press pic" width="85%" />@etheartistdublin](https://www.instagram.com/etheartistdublin/)
-
-[<img src="/news/11-jenn-hession.jpg" alt="Jenn Hession press pic" width="85%" />@jennhession](https://www.instagram.com/jennhession/)
-
-[<img src="/news/11-silky.jpg" alt="Silky DJs press pic" width="85%" />@silkyklub](https://www.instagram.com/silkyklub/)
-
-[<img src="/news/05-sweet-philly.jpg" alt="Sweet Philly press pic" width="85%" />@phillyholmes\_](https://www.instagram.com/phillyholmes_/)

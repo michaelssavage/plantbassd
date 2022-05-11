@@ -1,6 +1,6 @@
 import CardWithButtons from "@/cards/CardWithButtons";
-import Content from "components/SlugContent";
 import Footer from "components/Footer";
+import GigPosts from "components/GigPosts";
 import Head from "next/head";
 import PropTypes from "prop-types";
 import fs from "fs";
@@ -9,7 +9,17 @@ import path from "path";
 import styles from "@/pageStyle/slug.module.scss";
 
 export default function GigsSlug({
-  frontmatter: { title, date, pic, tickets, seeMore, postLink },
+  frontmatter: {
+    title,
+    date,
+    pic,
+    tickets,
+    seeMore,
+    postLink,
+    anames,
+    alinks,
+    apics,
+  },
   content,
 }) {
   let buyLink = seeMore,
@@ -28,7 +38,14 @@ export default function GigsSlug({
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            <Content content={content} date={date} title={title} />
+            <GigPosts
+              alinks={alinks}
+              anames={anames}
+              apics={apics}
+              content={content}
+              date={date}
+              title={title}
+            />
             <CardWithButtons
               artist={buyText}
               insta="Instagram"

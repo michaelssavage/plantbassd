@@ -8,6 +8,15 @@ bio: "Our next Glasgow SweatBox is ready for Martyn Bootyspoon at the Flying Duc
 path: "gigs"
 tags: "gigs"
 city: "glasgow"
+anames: ["Martyn Bootyspoon", "H3L3NA", "Sweet Philly", "OISÍN"]
+alinks:
+  [
+    "https://www.instagram.com/mbootyspoon/",
+    "https://www.instagram.com/helena_h3l3na/",
+    "https://www.instagram.com/phillyholmes_/",
+    "https://www.instagram.com/inspectorcampbellbap/",
+  ]
+apics: ["08-martyn.jpg", "08-helena.jpg", "05-sweet-philly.jpg", "08-oisin.jpg"]
 ---
 
 ### Our next Glasgow SweatBox is ready for Martyn Bootyspoon at the Flying Duck Club with support from H3L3NA, Sweet Philly and OISÍN!
@@ -19,16 +28,10 @@ A perfect match for the hate defying and freedom inspiring SweatBox sound!
 
 Support on the night comes Glasgow electro head H3L3NA (Clyde Built), Dublin's trance and US club experimentalist Sweet Philly, and Plant Bass'd's own OISIN (EHFM). 🌐
 
-[<img src="/news/08-martyn.jpg" alt="Martyn Bootyspoon press pic" width="85%" />](https://www.instagram.com/mbootyspoon/)
-
 £6 First Release Tickets are starting to move for our next sweatbox on Saturday the 23rd of April.  
 Snatch them while they’re hot and cheap - https://ra.co/events/1515781 🌱
 
-[<img src="/news/08-helena.jpg" alt="Helena press pic" width="85%" />](https://www.instagram.com/helena_h3l3na/)
-
 Previous guests A-Z:
 Casement // Feena // Fio Fa // Iso Yso // Roo Honeychild // Sweet Philly // TAAHLIAH // Ten Pence Criminal // YTP
-
-[<img src="/news/05-sweet-philly.jpg" alt="Sweet Philly press pic" width="85%" />](https://www.instagram.com/phillyholmes_/)
 
 Incredible artwork from @studio.kenya 🖼

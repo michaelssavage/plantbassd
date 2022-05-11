@@ -8,6 +8,15 @@ bio: "Noughties delights spinned inna footwork, jungle, electro styles & more wi
 path: "gigs"
 tags: "gigs"
 city: "glasgow"
+anames: ["Roo Honeychild", "Casement", "Iso Yso", "Lucky Dip"]
+alinks:
+  [
+    "https://www.instagram.com/roohoneychild/",
+    "https://www.instagram.com/case_ment/",
+    "https://www.instagram.com/iso.yso/",
+    "https://www.instagram.com/_luckydip_/",
+  ]
+apics: ["07-roo.jpg", "07-casement.jpg", "07-iso-yso.jpg", "05-lucky-dip.jpg"]
 ---
 
 ### Noughties delights spinned inna footwork, jungle, electro styles & more with @roohoneychild, @case_ment, @iso.yso, and Lucky Dip!
@@ -20,15 +29,9 @@ A night simply too fetch to miss out on in the Broadcast Basement.
 
 This is a night for all. Leave your stresses and dress codes at home and immerse yourself in the hate defying and freedom inspiring SweatBox sound!
 
-<img src="/news/07-roo.jpg" alt="Roo Honeychild press pic" width="95%" />
-
 £5 entry all night long. https://ra.co/events/1505400 🌱
-
-<img src="/news/07-casement.jpg" alt="Casement press pic" width="95%" />
 
 Past guests;
 TAAHLIAH // Fio Fa // Feena // Sweet Philly // YTP // Wrisk // Ten Pence Criminal & more
-
-<img src="/news/07-iso-yso.jpg" alt="Iso Yso press pic" width="95%" />
 
 Artwork from the amazing @dj\_\_egg !
