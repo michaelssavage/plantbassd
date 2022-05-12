@@ -11,9 +11,7 @@ path: "news"
 
 Wake up wake up wake up, it’s the first of the month! February is upon us, and after a scintillating return to clubbing last week another hell bent schedule is in store this week in the capital. As will be the norm for us now, we once again bring you our top picks and highlights forthcoming in Edinburgh’s experimental dance music community in this second edition of our weekly club guide.
 
-**TUESDAY 1st**
-
--   <p> Midnight Bass // Jungle Special @ Bongo Club </p>
+**TUESDAY 1st - Midnight Bass // Jungle Special @ Bongo Club**
 
 <img src="/news/club-guide/01-midnight-bass.jpg" alt="Midnight Bass" width="85%" />
 
@@ -23,9 +21,7 @@ In addition, Clean-Up Crew bring one of the liveliest sets to any party and are 
 
 £5 - £6 - Tickets here https://ra.co/events/1498317
 
-**WEDNESDAY 2nd**
-
--   <p> Heaters // Haptic All Night Long @ Sneaky Pete’s </p>
+**WEDNESDAY 2nd - Heaters // Haptic All Night Long @ Sneaky Pete’s**
 
 <img src="/news/club-guide/02-heaters.jpg" alt="Heaters // Haptic All Night Long @ Sneaky Pete’s" width="85%" />
 
@@ -33,9 +29,7 @@ Heaters breathes new life with a run of new residents on Sneaky’s Wednesdays. 
 
 £3 - Tickets here https://ra.co/events/1494994
 
-**THURSDAY 3rd**
-
--   <p> Volens Chorus presents Casement @ Sneaky Pete’s </p>
+**THURSDAY 3rd - Volens Chorus presents Casement @ Sneaky Pete’s**
 
 <img src="/news/club-guide/02-volens-chorus.jpg" alt="Volens Chorus presents Casement @ Sneaky Pete’s" width="85%" />
 
@@ -43,9 +37,7 @@ Volens Chorus return to their spiritual home with another imminent hard-hitting 
 
 £5 - £7 - Tickets here https://ra.co/events/1495805
 
-**FRIDAY 4th**
-
--   <p> Miss World: Nina Stanger & Moray Leisure Centre @ Sneaky Pete’s </p>
+**FRIDAY 4th - Miss World: Nina Stanger & Moray Leisure Centre @ Sneaky Pete’s**
 
 <img src="/news/club-guide/02-nina-stranger.jpg" alt="Miss World: Nina Stanger & Moray Leisure Centre @ Sneaky Pete’s" width="85%" />
 
@@ -53,7 +45,7 @@ Miss World mark their return to clubbing with two of northern Scotland’s most 
 
 £5 - £7 - Tickets here https://ra.co/events/1495501
 
--   <p> SSL XL: Dancehall Special @ Bongo Club </p>
+**FRIDAY 4th - SSL XL: Dancehall Special @ Bongo Club**
 
 <img src="/news/club-guide/02-ssl-xl.png" alt="SSL XL: Dancehall Special @ Bongo Club" width="85%" />
 
@@ -61,7 +53,7 @@ SSL XL is back on the Messenger Soundsystem for an epic Dancehall Special with s
 
 £8 - £10 - Tickets here https://ra.co/events/1497362
 
--   <p> Night Tube: O’Flynn @ the Caves </p>
+**FRIDAY 4th - Night Tube: O’Flynn @ the Caves**
 
 <img src="/news/club-guide/02-night-tube.png" alt="Night Tube: O’Flynn @ the Caves" width="85%" />
 
@@ -69,9 +61,7 @@ Just about ready to sell out, Night Tube throw up their second club offering of 
 
 Final Release £16 - Tickets here https://ra.co/events/1497288
 
-**SATURDAY 5th**
-
--   <p> Samedia Shebeen @ Mash House </p>
+**SATURDAY 5th - Samedia Shebeen @ Mash House**
 
 <img src="/news/club-guide/02-samedia-shebeen.png" alt="Samedia Shebeen" width="85%" />
 
@@ -79,7 +69,7 @@ Attributors to many of our romances at Seafield and Blackford during the club fa
 
 £6 - £8 - Tickets here https://www.skiddle.com/whats-on/Edinburgh/The-Mash-House/Samedia-Shebeen-at-The-Mash-House/35980265/
 
--   <p> EHFM presents: Nikki Kent & Ravelston @ Sneaky Pete’s </p>
+**SATURDAY 5th - EHFM presents: Nikki Kent & Ravelston @ Sneaky Pete’s**
 
 <img src="/news/club-guide/02-nikki-kent-ehfm.jpg" alt="Nikki Kent & Ravelston @ Sneaky Pete’s" width="85%" />
 

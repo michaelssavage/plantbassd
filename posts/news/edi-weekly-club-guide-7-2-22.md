@@ -11,9 +11,7 @@ path: "news"
 
 Another stellar week of clubbing is in store in the capital with stimulating sets expected from names like Batu, TAAHLIAH, Dusky, Moxie & more. Check out our club guide for the notable electronic nights this week in the city.
 
-**MONDAY 7th**
-
--   <p> Headset 7th Birthday: Batu, Yushh, Cando & Skillis @ Sneaky Pete’s </p>
+**MONDAY 7th - Headset 7th Birthday: Batu, Yushh, Cando & Skillis @ Sneaky Pete’s**
 
 <img src="/news/club-guide/03-headset.jpg" alt="Headset 7th Birthday: Batu, Yushh, Cando & Skillis @ Sneaky Pete’s" width="85%" />
 
@@ -21,9 +19,7 @@ Rescheduled from December, Headset celebrates it’s 7th birthday in style with 
 
 £10 - £15 - [Tickets here Headset 7th Birthday: Batu, Yushh, Cando, Skillis at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1481727)
 
-**WEDNESDAY 9th**
-
--   <p> Plant Bass’d x Heaters: TAAHLIAH @ Sneaky Pete’s </p>
+**WEDNESDAY 9th - Plant Bass’d x Heaters: TAAHLIAH @ Sneaky Pete’s**
 
 <img src="/news/06-plantbassd-heaters.jpg" alt="Plant Bass’d x Heaters: TAAHLIAH @ Sneaky Pete’s" width="85%" />
 
@@ -31,9 +27,7 @@ We return to Sneaky Pete’s this Wednesday for the start of a new collaboration
 
 £5 - £7 - [Tickets here Heaters // Plant Bass'd: TAAHLIAH at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1494126)
 
-**THURSDAY 10th**
-
--   <p> Dusky All Night Long @ Sneaky Pete’s </p>
+**THURSDAY 10th - Dusky All Night Long @ Sneaky Pete’s**
 
 <img src="/news/club-guide/03-dusky.jpg" alt="Dusky All Night Long @ Sneaky Pete’s" width="85%" />
 
@@ -42,9 +36,7 @@ more modern house, Dusky are set to take punters on a dance music journey this T
 
 £8 - £12 - Tickets are sold out with 20 on the door on the night. [RA Resale queue available here Dusky All Night Long at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1494388)
 
-**FRIDAY 11th**
-
--   <p> 249’s Queer Night for All @ Ooh Mami Leith </p>
+**FRIDAY 11th - 249’s Queer Night for All @ Ooh Mami Leith**
 
 <img src="/news/club-guide/03-249.png" alt="249’s Queer Night for All @ Ooh Mami Leith" width="85%" />
 
@@ -52,17 +44,13 @@ more modern house, Dusky are set to take punters on a dance music journey this T
 
 £5 - Tickets here [249's Queer Night for All - Live Music & DJs Tickets | Ooh Mami Edinburgh | Fri 11th February 2022 Lineup (skiddle.com)](https://www.skiddle.com/whats-on/Edinburgh/Ooh-Mami/249s-Queer-Night-for-All---Live-Music--DJs-/35980758/)
 
-**FRIDAY 11th**
-
--   <p> Love Bomb!: An Evening with Grdn (Venue TBA On The Day) </p>
+**FRIDAY 11th - Love Bomb!: An Evening with Grdn (Venue TBA On The Day)**
 
 <img src="/news/club-guide/03-love-bomb.jpg" alt="Love Bomb!: An Evening with Grdn (Venue TBA On The Day)" width="85%" />
 
 Edinburgh’s transiting party starters GRDN are back with a lovedown from their own residents at a secret location in central Edinburgh. After a string of pop up parties and a night at Teviot Underground with Acid Waxa recently, GRDN are establishing themselves as one of the more inventive club series in the capital with another exciting show expected on Friday. And it’s free! Follow their instagram for details.
 
-**FRIDAY 11th**
-
--   <p> Rave Safe: A Harm Reduction Fundraiser from Overground @ Mash House </p>
+**FRIDAY 11th - Rave Safe: A Harm Reduction Fundraiser from Overground @ Mash House**
 
 <img src="/news/club-guide/03-overground.jpg" alt="Rave Safe: A Harm Reduction Fundraiser from Overground @ Mash House" width="85%" />
 
@@ -70,9 +58,7 @@ Overground kick start their 2022 series with a fundraiser for the Harm Reduction
 
 £2 - £7.50 (plus donations) - Tickets here [☻ RaveSafe℠ ☻ A Harm Reduction Fundraiser ☻ ᴏᴠᴇʀɢʀᴏᴜɴᴅ ☻ at The Mash House, Edinburgh · Tickets](https://ra.co/events/1496288)
 
-**FRIDAY 11th**
-
--   <p> Disco Makossa w/ BUTHO the WARRIOR @ Bongo Club </p>
+**FRIDAY 11th - Disco Makossa w/ BUTHO the WARRIOR @ Bongo Club**
 
 <img src="/news/club-guide/03-disco-makossa.jpg" alt="Disco Makossa w/ BUTHO the WARRIOR @ Bongo Club" width="85%" />
 
@@ -80,9 +66,7 @@ Samedia Shebeen’s carnival-esque party Disco Makossa is back at the Bongo with
 
 £6 - £8 - Tickets here [Disco Makossa w/BUTHO THE WARRIOR (JAIVA) Tickets | The Bongo Club Edinburgh | Fri 11th February 2022 Lineup (skiddle.com)](https://www.skiddle.com/whats-on/Edinburgh/The-Bongo-Club/Disco-Makossa-wBUTHO-THE-WARRIOR-JAIVA/35984953/)
 
-**SATURDAY 12th**
-
--   <p> Moxie All Night Long @ Sneaky Pete’s </p>
+**SATURDAY 12th - Moxie All Night Long @ Sneaky Pete’s**
 
 <img src="/news/club-guide/03-moxie.jpg" alt="Moxie All Night Long @ Sneaky Pete’s" width="85%" />
 
@@ -90,9 +74,7 @@ Moxie takes on Sneaky’s once more for a 4 hour set. NTS resident and long time
 
 £6 - £10 - Tickets here [Moxie All Night Long at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1494474)
 
-**SATURDAY 12th**
-
--   <p> Messenger Soundsystem: Bob Marley Birthday Special @ Bongo Club </p>
+**SATURDAY 12th - Messenger Soundsystem: Bob Marley Birthday Special @ Bongo Club**
 
 <img src="/news/club-guide/03-bob-marley.jpg" alt="Messenger Soundsystem: Bob Marley Birthday Special @ Bongo Club" width="85%" />
 
@@ -100,9 +82,7 @@ The Messenger Soundsystem hosts a very special night, an ode to all things Bob M
 
 £6 - £10 - Tickets here [Bob Marley Birthday Special - Messenger Sound System at The Bongo Club, Edinburgh · Tickets (ra.co)](https://ra.co/events/1496302)
 
-**SATURDAY 12th**
-
--   <p> Club Nacht: Brain Dancing & Kieran Apter @ Mash House </p>
+**SATURDAY 12th - Club Nacht: Brain Dancing & Kieran Apter @ Mash House**
 
 <img src="/news/club-guide/03-mash-house.jpg" alt="Club Nacht: Brain Dancing & Kieran Apter @ Mash House" width="85%" />
 
@@ -110,9 +90,7 @@ Another opening show of the year, this time for Club Nacht as they welcome Brain
 
 £5 - £10 - Tickets here [Bob Marley Birthday Special - Messenger Sound System at The Bongo Club, Edinburgh · Tickets (ra.co)](https://ra.co/events/1496302)
 
-**SUNDAY 13th**
-
--   <p> Postal: Franck b2b DV60 @ Sneaky Pete’s  </p>
+**SUNDAY 13th - Postal: Franck b2b DV60 @ Sneaky Pete’s**
 
 <img src="/news/club-guide/03-postal.jpg" alt="Postal: Franck b2b DV60 @ Sneaky Pete’s" width="85%" />
 
