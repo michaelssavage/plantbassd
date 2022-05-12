@@ -31,21 +31,24 @@ export default function PreviousGuestsPage() {
             {guestList.map((guest) => (
               <div
                 className={`
-            col-6 
-            col-md-6 
+            col-4
+            col-md-4 
             col-lg-3 
             col-xl-3`}
                 key={guest.name}
               >
                 <Link href={guest.link}>
                   <a>
-                    <div className={`card ${styles.cardStyle}`}>
+                    <div className={`card imgContainer ${styles.cardStyle}`}>
                       <Image
                         alt={guest.name}
                         height={200}
                         src={`/news/${guest.img}`}
                         width={200}
                       />
+                      <div className="guestOverlay">
+                        <div className="guestTextOverlay">{guest.name}</div>
+                      </div>
                     </div>
                   </a>
                 </Link>

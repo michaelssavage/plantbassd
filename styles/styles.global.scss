@@ -191,8 +191,8 @@ Link {
   transition: 0.25s ease;
 }
 
-.soundcloudOverlay {
-  background-color: $soundcloud;
+.guestOverlay {
+  background-color: $navBlue;
   @extend .imgOverlay;
 }
 
@@ -215,6 +215,12 @@ Link {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.guestTextOverlay {
+  font-size: $cardSmall;
+  word-break: keep-all;
+  @extend .imgTextOverlay;
 }
 
 img {

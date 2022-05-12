@@ -41,16 +41,10 @@
 }
 
 @include breakpoint-below(xs) {
-  .header {
-    margin-top: 0;
-  }
   .pageContainer {
-    padding: 0;
+    padding: 0 7%;
   }
   .header {
     font-size: $mdHeader;
-  }
-  .guestPics {
-    margin: 2rem 0 0;
   }
 }
