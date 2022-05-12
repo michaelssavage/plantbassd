@@ -11,72 +11,56 @@ path: "news"
 
 Rolling into March, Edinburgh undergoes another packed scheduled in clubland with sets incoming from the likes of Desert Sound Colony and Jossy Mitsu, as well as inimitable parties from Volens Chorus, SSL XL, Palidrone, & more.
 
-**WEDNESDAY 2nd**
-
--   <p> Heaters x Haptic: Desert Sound Colony @ Sneaky Pete’s </p>
+**WEDNESDAY 2nd - Heaters x Haptic: Desert Sound Colony @ Sneaky Pete’s**
 
 [<img src="/news/club-guide/06-haptic.jpg" alt="Heaters x Haptic: Desert Sound Colony @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1500804)
 
 Haptic continue their exciting residency with Heaters with the man behind the Holding Hands label, Desert Sound Colony. One of the dominant forces in UK techno and breaks, the Holding Hands imprint has emerged with talent like Adam Pits, Gallegos, Kessler, & more alongside consistent powerhouse releases from DSC himself. Expect wubby techno, breaks, and all things rattly! One of our picks for the week.  
 £5 - £7 - Tickets here https://ra.co/events/1500804
 
-**THURSDAY 3rd**
-
--   <p> Volens Chorus present WBBR & Kakano @ Sneaky Pete’s </p>
+**THURSDAY 3rd - Volens Chorus present WBBR & Kakano @ Sneaky Pete’s**
 
 [<img src="/news/club-guide/06-volens.jpg" alt="Volens Chorus present WBBR & Kakano @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1504090)
 
 The monthly nutters Volens Chorus party returns for March with a riot of footwork, ghetto tech, juke trax, & more featuring WBBR, Kakano, and the Volens residents. If you haven't experienced the Volens Chorus parties yet, do yourself a favour and re-energize your week.  
 £3 - £5 - Tickets here https://ra.co/events/1504090
 
-**FRIDAY 4th**
-
--   <p> SSL XL presents DNB/170 Special @ Bongo Club </p>
+**FRIDAY 4th - SSL XL presents DNB/170 Special @ Bongo Club**
 
 [<img src="/news/club-guide/06-ssl.jpg" alt="SSL XL presents DNB/170 Special @ Bongo Club" width="85%"/>](https://ra.co/events/1503536)
 
 The ferocious SSL XL initiates a DnB/ 170 special this Friday with an ever stacked line-up ready to pulsate on the Messenger Sound System. SSL regulars Mrs. Magoo, The General, DJ Void, and Skillis himself bring the noise with an exciting b2b with local heavy-hitters 170 Lex and Kaydee. Brother Most Righteous and Steadfast Sylvatica bring the reggae, roots, and dub session to room 2.  
 £5 - £12 - Tickets here https://ra.co/events/1503536
 
-**FRIDAY 4th**
-
--   <p> Miss World: Jossy Mitsu @ Sneaky Pete’s </p>
+**FRIDAY 4th - Miss World: Jossy Mitsu @ Sneaky Pete’s**
 
 [<img src="/news/club-guide/06-world.jpg" alt="Miss World: Jossy Mitsu @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1501798)
 
 The monthly Miss World party continues to pull out some of the best bookings in the city. Their March edition sees Rinse FM and Fabric resident Jossy Mitsu take the Sneaky’s sweatbox for an evening of leftfield techno and chubby breaks alongside the Miss world ressies. Another of our picks of the week on Cowgate!  
 £8 - £12 - Tickets here https://ra.co/events/1501798
 
-**FRIDAY 4th**
-
--   <p> Mutiny @ Mash House </p>
+**FRIDAY 4th - Mutiny @ Mash House**
 
 [<img src="/news/club-guide/06-mutiny.jpg" alt="Mutiny @ Mash House" width="85%"/>](https://ra.co/events/1494626)
 
 Mutiny returns to the capital with an onslaught of amen breaks and ruthless jungle. A ruff ‘n’ tuff lineup featuring Duburban, Jahganut, Simply Dread, Tony Jungle, & Jamin Nimjah set to test the sound barriers with jungletek & DnB.  
 £8 - Tickets here https://ra.co/events/1494626
 
-**SATURDAY 5th**
-
--   <p> Samedia Shebeen with Lua Prea @ Mash House </p>
+**SATURDAY 5th - Samedia Shebeen with Lua Prea @ Mash House**
 
 [<img src="/news/club-guide/06-samedia.jpg" alt="Samedia Shebeen with Lua Prea @ Mash House" width="85%"/>](https://www.skiddle.com/e/36013109)
 
 The constant capital groovers Samedia Shebeen are back at Mash this Saturday with Angolan and Polish duo Lua Preta. Together with MC Ms. Gia and selector Mentalcut, the pair are set to bring a joyous mix of afrobeat and electronic delights alongside the Samedia familiars.  
 £7 - £9 - Tickets here www.skiddle.com/e/36013109
 
-**SATURDAY 5th**
-
--   <p> Palidrone x Schematic @ Sneaky Pete’s </p>
+**SATURDAY 5th - Palidrone x Schematic @ Sneaky Pete’s**
 
 [<img src="/news/club-guide/06-palidrone.jpg" alt="Palidrone x Schematic @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1503834)
 
 Palidrone’s first Sneaky’s appearance of the year sees them team up with Glasgow based imprint Schematic. Residents from both sides will go head to head dishing out fierceful electro, techno and hybrid club tracks with top selectors like J Wax, Dansa, Koran, & DDSIX all making appearances.  
 £5 - £7 - Tickets here https://ra.co/events/1503834
 
-**SATURDAY 5th**
-
--   <p> Hinkin & Drinkin @ Teviot Underground </p>
+**SATURDAY 5th - Hinkin & Drinkin @ Teviot Underground**
 
 [<img src="/news/club-guide/06-hinkin.jpg" alt="Hinkin & Drinkin @ Teviot Underground" width="85%"/>](https://ra.co/events/1499908)
 
