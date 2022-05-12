@@ -5,6 +5,16 @@ export const linkList = [
     icon: "tickets",
   },
   {
+    title: "VIRTUAL VELOCITY by CLUB SP33D",
+    link: "https://www.plantbassd.com/fresh-juice/club-sp33d-12-5-22",
+    icon: "fresh juice",
+  },
+  {
+    title: "The Bumps by Selky",
+    link: "https://www.plantbassd.com/fresh-juice/selky-12-5-22",
+    icon: "fresh juice",
+  },
+  {
     title: "PREMIERE - 'Paradise' by Selky",
     link: "https://soundcloud.com/plantbassddjs/plant-bassd-premiere-selky-paradise-the-bumps-ep/s-3Gq2U2eURxn?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
     icon: "premiere",
