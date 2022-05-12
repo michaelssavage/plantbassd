@@ -1,7 +1,6 @@
 import { guestList } from "arrays/previousGuests";
+import CardExternal from "@/cards/CardExternal";
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
 import styles from "@/pageStyle/guests.module.scss";
 
 export default function PreviousGuestsPage() {
@@ -29,30 +28,7 @@ export default function PreviousGuestsPage() {
         <div className={`${styles.guestPics} container`}>
           <div className="row g-2">
             {guestList.map((guest) => (
-              <div
-                className={`
-            col-4
-            col-md-4 
-            col-lg-3 
-            col-xl-3`}
-                key={guest.name}
-              >
-                <Link href={guest.link}>
-                  <a>
-                    <div className={`card imgContainer ${styles.cardStyle}`}>
-                      <Image
-                        alt={guest.name}
-                        height={200}
-                        src={`/news/${guest.img}`}
-                        width={200}
-                      />
-                      <div className="guestOverlay">
-                        <div className="guestTextOverlay">{guest.name}</div>
-                      </div>
-                    </div>
-                  </a>
-                </Link>
-              </div>
+              <CardExternal guest={guest} key={guest.name} />
             ))}
           </div>
         </div>

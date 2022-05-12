@@ -1,40 +1,45 @@
-import { RiSoundcloudLine } from "react-icons/ri";
 import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
+import Link from "next/link";
 import PropTypes from "prop-types";
+import styles from "@/pageStyle/guests.module.scss";
 
-export default function CardExternal({ card }) {
+export default function CardExternal({ guest }) {
   return (
-    <div className="col-6 col-md-6 col-lg-6 col-xl-3">
-      <div className="imgContainer">
-        <a href={card.link} rel="noopener noreferrer" target="_blank">
-          <Image
-            alt={card.pic}
-            blurDataURL={`data:image/svg+xml;base64,${toBase64(
-              shimmer(400, 400)
-            )}`}
-            // eslint-disable-next-line react/forbid-component-props
-            className="card-img-top"
-            height={500}
-            placeholder="blur"
-            src={card.pic}
-            width={500}
-          />
-          <div className="soundcloudOverlay">
-            <div className="imgTextOverlay">
-              <RiSoundcloudLine /> Listen Now
+    <div
+      className={`
+            col-4
+            col-md-4 
+            col-lg-3 
+            col-xl-3`}
+    >
+      <Link href={guest.link}>
+        <a>
+          <div className={`card imgContainer ${styles.cardStyle}`}>
+            <Image
+              alt={guest.name}
+              blurDataURL={`data:image/svg+xml;base64,${toBase64(
+                shimmer(400, 400)
+              )}`}
+              height={200}
+              placeholder="blur"
+              src={`/news/${guest.img}`}
+              width={200}
+            />
+            <div className="guestOverlay">
+              <div className="guestTextOverlay">{guest.name}</div>
             </div>
           </div>
         </a>
-      </div>
+      </Link>
     </div>
   );
 }
 
 CardExternal.propTypes = {
-  card: PropTypes.shape({
-    key: PropTypes.string.isRequired,
+  guest: PropTypes.shape({
+    img: PropTypes.string.isRequired,
     link: PropTypes.string.isRequired,
-    pic: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
   }).isRequired,
 };
