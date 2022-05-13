@@ -5,6 +5,11 @@ export const linkList = [
     icon: "tickets",
   },
   {
+    title: "HEADSET001 by Creep Woland",
+    link: "https://www.plantbassd.com/fresh-juice/headset-13-5-22",
+    icon: "fresh juice!,
+  },
+  {
     title: "VIRTUAL VELOCITY by CLUB SP33D",
     link: "https://www.plantbassd.com/fresh-juice/club-sp33d-12-5-22",
     icon: "fresh juice",
