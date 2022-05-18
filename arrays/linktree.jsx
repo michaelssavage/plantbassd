@@ -7,7 +7,7 @@ export const linkList = [
   {
     title: "HEADSET001 by Creep Woland",
     link: "https://www.plantbassd.com/fresh-juice/headset-13-5-22",
-    icon: "fresh juice!,
+    icon: "fresh juice",
   },
   {
     title: "VIRTUAL VELOCITY by CLUB SP33D",
