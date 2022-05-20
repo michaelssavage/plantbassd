@@ -1,8 +1,8 @@
 export const linkList = [
   {
-    title: "SweatBox @ Sneaky Pete's Tickets",
-    link: "https://ra.co/events/1530814",
-    icon: "tickets",
+    title: "PREMIERE - 'Baby Gay Track' by Jack Ward",
+    link: "https://soundcloud.com/plantbassddjs/plant-bassd-premiere-jack-ward-baby-gay-track",
+    icon: "premiere",
   },
   {
     title: "HEADSET001 by Creep Woland",
