@@ -10,6 +10,11 @@ export const guestList = [
     name: "Casement",
   },
   {
+    img: "12-cabbage.jpg",
+    link: "https://www.instagram.com/apieceofcabbage/",
+    name: "Miss Cabbage",
+  },
+  {
     img: "02-feena.jpg",
     link: "https://www.instagram.com/feena_mmm/",
     name: "Feena",
@@ -53,6 +58,11 @@ export const guestList = [
     img: "10-sweeney.jpg",
     link: "https://www.instagram.com/rory_sweeney123/",
     name: "Rory Sweeney",
+  },
+  {
+    img: "12-sara.jpg",
+    link: "https://www.instagram.com/sarrawild/",
+    name: "Sarra Wild",
   },
   {
     img: "smiff.jpg",
