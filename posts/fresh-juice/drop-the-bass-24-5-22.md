@@ -2,7 +2,7 @@
 title: "FRESH JUICE: Drop The Bass by Generator"
 date: "May 24, 2022"
 tags: "fresh juice"
-pic: "/fresh-juice/32-drop-the-bass.jpg"
+pic: "/fresh-juice/34-drop-the-bass.jpg"
 bandcamp: "https://philthtrax.bandcamp.com/album/drop-the-bass"
 postLink: "https://www.instagram.com/plantbassd___"
 bio: "Mysteriously crafted and delivered, the Generator Drops the Bass on the latest entry to the Philthtrax global catalogue..."
