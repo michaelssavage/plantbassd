@@ -1,5 +1,10 @@
 export const linkList = [
   {
+    title: "Drop The Bass by Generator",
+    link: "https://www.plantbassd.com/fresh-juice/drop-the-bass-24-5-22",
+    icon: "fresh juice",
+  },
+  {
     title: "PREMIERE - 'Baby Gay Track' by Jack Ward",
     link: "https://soundcloud.com/plantbassddjs/plant-bassd-premiere-jack-ward-baby-gay-track",
     icon: "premiere",
