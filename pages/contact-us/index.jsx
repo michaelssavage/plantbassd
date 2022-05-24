@@ -4,7 +4,6 @@ import Footer from "components/Footer";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import RellaxImg from "components/RellaxImg";
 import SocialIcon from "components/SocialIcon";
 
 import styles from "@/pageStyle/contact.module.scss";
@@ -15,7 +14,6 @@ export default function ContactPage() {
       <Head>
         <title>Contact Us</title>
       </Head>
-      <RellaxImg img="/various/collage.jpg" />
 
       <div className={styles.container}>
         <div className="row pb-4">
