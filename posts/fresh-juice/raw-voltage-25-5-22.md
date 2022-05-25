@@ -36,7 +36,7 @@ SupaA & shevinkields’ show no remorse on the electrified ‘Party Cake’. Des
 There is further dual combat on the intensifying and rolling electro number that is ‘Faandulum’ as My Boyfriend & Vulcan manage to keep up to speed with the now distinct Raw Voltage chaos.
 
 The Deserter does exactly that on ‘My Whole Life Right Here’, leaving you in the wake of his turbulent electro might. The Argentinian teases with some momentary bliss at the breakdown before returning to the destructive panel that the track initialized with.
-CLUB SP33D merchant Zpectrum brings some club filtering to a familiar Nelly trackon ‘Hottt’. An electro whirlwind of the R&B hit that rides high on its snappy hats and acidic channeling.
+CLUB SP33D merchant Zpectrum brings some club filtering to a familiar Nelly track on ‘Hottt’. An electro whirlwind of the R&B hit that rides high on its snappy hats and acidic channeling.
 Saigg’s ‘Swift Garden’ is another tunnel-chasing rager that leans heavy on the acidic bass lines and 808 hits.
 
 Salush merges a footworking beat with more rumbling electro bass on ‘Hot as Fuck’. A change in sound direction from the preceding electro and ghetto numbers as the German steps on the juke.
@@ -45,7 +45,7 @@ The drift away from electro patterns is brief as Makabr’s ‘Search of a Trove
 LeBlonde’s entry sees an ‘Upturned’ electro groove as the dust settles from the dark electro feels that have dominated the majority of the release.
 Costa’s closing drone electro styled ‘Gear System’ journeys through the barren wasteland that Raw Voltage has left behind after 17 tracks that rock all systems to the core.
 
-Ovelha Trax maintain a clear theme on Raw Voltage that coughs up a plethora of hard-nosed electro and ghetto tech tracks, channeling the darker angles throughout. An impressive gathering of global producers that merge together seemingly, giving an almost mixable feel to the compilation for the duration.
+Ovelha Trax maintain a clear theme on Raw Voltage that coughs up a plethora of hard-nosed electro and ghetto tech tracks, channeling the darker angles throughout. An impressive gathering of global producers that merge together seamlessly, giving an almost mixable feel to the compilation for the duration.
 
 Raw Voltage V/A is available to buy and stream now, and in true Ovelha Trax fashion, they have already landed another release this month with Bicycle Ride’s ‘Distorted Wheels’ (see here: [Bicycle Ride - Distorted Wheels | Ovelha Trax](https://ovelhatrax.bandcamp.com/album/bicycle-ride-distorted-wheels-3) ).
 
