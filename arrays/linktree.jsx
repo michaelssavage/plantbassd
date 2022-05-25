@@ -1,5 +1,10 @@
 export const linkList = [
   {
+    title: "Raw Voltage V/A by Ovelha Trax",
+    link: "https://www.plantbassd.com/fresh-juice/raw-voltage-25-5-22",
+    icon: "fresh juice",
+  },
+  {
     title: "Drop The Bass by Generator",
     link: "https://www.plantbassd.com/fresh-juice/drop-the-bass-24-5-22",
     icon: "fresh juice",
