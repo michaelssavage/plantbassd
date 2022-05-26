@@ -13,11 +13,11 @@ The weekend is starting a day earlier with a stacked St. Patrick’s Day opening
 
 ## WEDNESDAY 16th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/08-overtime.jpg" alt="OVERTIME: Dr Banana, Harvey Furness b2b Misbeats @ Bongo Club" width="85%"/>](https://ra.co/events/1502624)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### OVERTIME: Dr Banana, Harvey Furness b2b Misbeats @ Bongo Club
 
@@ -25,15 +25,15 @@ Overtime bring back Dr Banana to Edinburgh weeks after his last show at Sneaky P
 
 £6 - £10 - Tickets here: https://ra.co/events/1502624
 
-</div></div>
+</div></div><hr>
 
 ## THURSDAY 17th March (St. Patrick’s Day)
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/08-greenhouse.jpg" alt="Greenhouse Records: Lux @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1498831)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Greenhouse Records: Lux @ Sneaky Pete’s
 
@@ -41,15 +41,15 @@ Flourishing from the growing Leipzig scene, Lux lands to Sneaky’s for the firs
 
 £6 - £10 - Tickets here: https://ra.co/events/1498831
 
-</div></div>
+</div></div><hr>
 
 ## THURSDAY 17th March (St. Patrick’s Day)
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/08-nocturnal.jpg" alt="Nocturnal Rhythms with Interplanetary Criminal b2b Bluetoof & more @ Bongo Club" width="85%"/>](https://ra.co/events/1501882)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Nocturnal Rhythms with Interplanetary Criminal b2b Bluetoof & more @ Bongo Club
 
@@ -57,15 +57,15 @@ London based club night Nocturnal Rhythms takes its show north after finding its
 
 £12.99 - Tickets here: https://ra.co/events/1501882
 
-</div></div>
+</div></div><hr>
 
 ## THURSDAY 17th March (St. Patrick’s Day)
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/08-swoose.jpg" alt="Club Nacht presents Swoose @ Mash House" width="85%"/>](https://ra.co/events/1508813)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Club Nacht presents Swoose @ Mash House
 
@@ -73,15 +73,15 @@ A Scottish debut for Belfast native and AVA mainstay as Swoose is Club Nacht’s
 
 £5 - Tickets here: https://ra.co/events/1508813
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 18th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/08-ukraine.jpg" alt="Overground presents Rave for Ukraine @ Mash House" width="85%"/>](https://ra.co/events/1507548)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Overground presents Rave for Ukraine @ Mash House
 
@@ -89,15 +89,15 @@ Overground return after a stellar night with Coco Bryce at Bongo last week for a
 
 £4.50 - £7.50 - Tickets here: https://ra.co/events/1507548
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 18th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/08-aquelarre.jpg" alt="Aquelarre: Lonely Carp & Pako Vega @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1503161)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Aquelarre: Lonely Carp & Pako Vega @ Sneaky Pete’s
 
@@ -105,15 +105,15 @@ Aquelarre’s first party of the year is a local affair with Lonely Carp (Spit I
 
 £7 - Tickets here: https://ra.co/events/1503161
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 18th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/08-electrikal.jpg" alt="Electrikal Present: IMANU/ ANNIX/ ANIKONIK/ VOLENS CHORUS @ Bongo Club" width="85%"/>](https://www.skiddle.com/whats-on/Edinburgh/The-Bongo-Club/Electrikal-Present-IMANU--ANNIX--ANIKONIK/36011006/)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Electrikal Present: IMANU/ ANNIX/ ANIKONIK/ VOLENS CHORUS @ Bongo Club
 
@@ -121,15 +121,15 @@ The Electrikal Soundsystem powers up Bongo once more with Imanu, Annix, and Anik
 
 £13.45 - Tickets here: https://www.skiddle.com/whats-on/Edinburgh/The-Bongo-Club/Electrikal-Present-IMANU--ANNIX--ANIKONIK/36011006/
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 19th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/08-caves.jpg" alt="ECFS Caves Special: Steve Cox + Night Tube Residents @ the Caves" width="85%"/>](https://ra.co/events/1508183)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### ECFS Caves Special: Steve Cox + Night Tube Residents @ the Caves
 
@@ -137,15 +137,15 @@ Notable Glasgow DJ and Sub Club resident Stevie Cox is the special guest for ECF
 
 £4 - £10 - Tickets here: https://ra.co/events/1508183
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 19th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/08-hyam.jpg" alt="Heal Yourself & Move @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1504117)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Heal Yourself & Move @ Sneaky Pete’s
 
@@ -153,15 +153,15 @@ Heal Yourself & Move presents being (live), Other lANDS & Housse of Traps. ‘be
 
 £7 - Tickets here: https://ra.co/events/1504117
 
-</div></div>
+</div></div><hr>
 
 ## SUNDAY 20th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/08-chloe.jpg" alt="Postal presents Chloé Robinson @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1510403)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Postal presents Chloé Robinson @ Sneaky Pete’s
 
@@ -169,4 +169,4 @@ Rinse FM and NTS regular Chloé Robinson arrives to Postal Sunday’s packed wit
 
 £5 - Tickets here: https://ra.co/events/1510403
 
-</div></div>
+</div></div><hr>

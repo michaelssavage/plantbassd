@@ -11,11 +11,11 @@ path: "guides"
 
 ## THURSDAY 31st March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/10-milkit.jpg" alt="Milkit N Mates @ Mash House" width="85%"/>](https://ra.co/events/1505083)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Milkit N Mates @ Mash House
 
@@ -23,15 +23,15 @@ Edinburgh’s Milkit crew return to the Mash House for the first time this calen
 
 £4 - £6 - Tickets here: https://ra.co/events/1505083
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 1st April
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/10-ssl.jpg" alt="SSL XL: Skillis & Steve Messenger All Night Long @ Bongo Club" width="85%"/>](https://ra.co/events/1511623)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### SSL XL: Skillis & Steve Messenger All Night Long @ Bongo Club
 
@@ -39,15 +39,15 @@ Edinburgh’s favourite recently departed son Skillis returns for an all night l
 
 £5 - £8 - Tickets here: https://ra.co/events/1511623
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 1st April
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/10-hardcore.jpg" alt="Powerhouse: Hardcore @ Mash House" width="85%"/>](https://ra.co/events/1516484)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Powerhouse: Hardcore @ Mash House
 
@@ -55,15 +55,15 @@ Powerhouse Fridays are well and truly back underway up the stairs at Mash. More 
 
 £5 - Tickets here: https://ra.co/events/1516484
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 1st April
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/10-world.jpg" alt="Miss World @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1511439)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Miss World @ Sneaky Pete’s
 
@@ -71,15 +71,15 @@ Miss World roll into April with a residents show featuring Epika’s Naafi. Afte
 
 £5 - Tickets here: https://ra.co/events/1511439
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 1st April
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/10-lotus.jpg" alt="Jackhammer presents Black Lotus and Neil Landstrumm - Live @ the Caves" width="85%"/>](https://ra.co/events/1512272)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Jackhammer presents Black Lotus and Neil Landstrumm - Live @ the Caves
 
@@ -87,15 +87,15 @@ Now in its twentieth year, Jackhammer is back at the Caves with two special head
 
 £10 - Tickets here: https://ra.co/events/1512272
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 1st April
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/10-twister.jpg" alt="Twister N’ Techno @ Banshee Labrynth" width="85%"/>](https://ra.co/events/1517648)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Twister N’ Techno @ Banshee Labrynth
 
@@ -103,15 +103,15 @@ DIY start-up Twister N’ Techno is kicking up a fuss at the unusual surrounding
 
 Free Entry - https://ra.co/events/1517648
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 2nd April
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/10-dv60.jpg" alt="Industrial Estate @ Mash House" width="85%"/>](https://ra.co/events/1503537)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Industrial Estate @ Mash House
 
@@ -119,15 +119,15 @@ An event that has been on everyone's lips the past few weeks, Industrial Estate 
 
 £4 - £6 - Tickets here: https://ra.co/events/1503537
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 2nd April
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/10-ehfm.jpg" alt="EHFM presents: Radio Buena Vida @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1513725)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### EHFM presents: Radio Buena Vida @ Sneaky Pete’s
 
@@ -135,15 +135,15 @@ A sound clash between two of the leading community radio stations in the central
 
 £5 - £8 - Tickets here: https://ra.co/events/1513725
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 2nd April
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/10-soul.jpg" alt="Soulsville International: Ann Tweak & Jacuzzi General @ Bongo Club" width="85%"/>](https://ra.co/events/1514969)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Soulsville International: Ann Tweak & Jacuzzi General @ Bongo Club
 
@@ -151,15 +151,15 @@ The next installment of Soulsville sees Ann Tweak (Mirror Dance) and the Jacuzzi
 
 £6 - £8 - Tickets here: https://ra.co/events/1514969
 
-</div></div>
+</div></div><hr>
 
 ## SUNDAY 3rd April
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/10-postal.jpg" alt="Postal with Jasper Tygner @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1513026)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Postal with Jasper Tygner @ Sneaky Pete’s
 
@@ -167,4 +167,4 @@ Sneaky’s Sundays brings forth another enticing guest this week with Jasper Tyg
 
 £3 - Tickets here: https://ra.co/events/1513026
 
-</div></div>
+</div></div><hr>

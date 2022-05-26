@@ -131,8 +131,8 @@ Link {
   background: linear-gradient(180deg, $pink 20%, $green 80%);
 }
 
-.top-ten-2021 {
-  padding: 2rem 0;
+.clubGuide {
+  padding: 0.5rem 0;
 }
 
 @include breakpoint-below(sm) {
@@ -159,7 +159,7 @@ Link {
 
 //above
 @include breakpoint-above(md) {
-  .top-ten-2021 {
+  .clubGuide {
     -moz-box-flex: 0 !important;
     flex: 0 0 auto !important;
     width: 50% !important;
@@ -168,11 +168,11 @@ Link {
 
 //below
 @include breakpoint-below(md) {
-  .top-ten-2021 {
+  .clubGuide {
     -moz-box-flex: 0 !important;
     flex: 0 0 auto !important;
     width: 100% !important;
-    padding: 1rem 0;
+    padding: 0.25rem 0;
   }
 }
 

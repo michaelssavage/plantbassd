@@ -14,10 +14,10 @@ Lots of euphoric electronic sounds in my top picks this year. Spent a lot of tim
 ## 1. Shire T - Tomorrow’s People (Dama Dama Music)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/michael/shire_t-tomorrows_people.jpg" alt="Shire T album cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 My album of the year, Tomorrow’s People is incredibly futuristic and nostalgic. Not a moment gone to waste in this bustling soundscape that glues together UK Garage, breakbeat, acid house and more! We’ve got some serious dancefloor fillers in the form of _Full Attention_, _Blue Kiss_, and _Burnin’ Jungle_.
 
@@ -35,10 +35,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://n
 ## 2. Eris Drew - Quivering In Time (T4T LUV NRG)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/michael/eris_drew-quivering_in_time.jpg" alt="Eris Drew EP cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 Samples, tricks, vocal chops, sound effects condensed into a restless hour of music story-telling. This album is rich with life and each song acts a mini-mix as they evolve over their track life.
 
@@ -54,10 +54,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://e
 ## 3. Laurence Guy - Your Good Times Are Here (Shall Not Fade)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/michael/laurence_guy-good_times.jpg" alt="Laurence Guy EP cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 Your Good Times Are Here has two feel-good House thumpers accompanied by slowed-down reflections.
 
@@ -75,10 +75,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://l
 ## 4. Lxury - Smart Digital Life (Lost Palms)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/michael/lxury-smart_digital_life.jpg" alt="Lxury EP cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 Lxury is one of my favourite artists. Each tune is a guaranteed joy to listen to. The London producer creates summery, easy-to-digest tracks that have some experimental features sprinkled here and there so I have high hopes for every new release. My expectations were matched and more for his latest EP as each track was oozing with euphoric bounciness.
 
@@ -92,10 +92,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://l
 ## 5. Blawan - Woke Up Right Handed (XL Recordings)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/michael/blawan-woke_up_right_handed.jpg" alt="Blawan EP cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 A dark brewing EP of monstrous and evolving sounds. There’s an intense roaring low-end throughout that disregards club music conventions. Pioneering as ever, Blawan is leading his own path in terms of sound design.
 
@@ -111,10 +111,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://b
 ## 6. Roman Flugel - Cluttered Homes (Running Back)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/michael/roman_flugel-cluttered_homes.jpg" alt="Roman Flugel track cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 Jack of all trades, Roman Flugel, is a multi-genre producer. He first landed on my radar after hearing the massive Italo dance hit, Garden Party, last year. Cluttered Homes sits upfront and noticeable in an otherwise melancholy and ambient EP. The track is dark too but is driven with more urgency. Helped along by a hypnotic acid line that I just can’t get enough of.
 
@@ -126,10 +126,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://r
 ## 7. George Fitzgerald - Ultraviolet (Double Six Records)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/michael/george_fitzgerald-ultraviolet.png" alt="George Fitzgerald track cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 I fell in love with this track because of the way I first consumed it. It’ll surprise me every time I hear it based on that initial experience I had. I was driving late across the country and stuck it on in the car and the gorgeous synths panned left and right across the speakers. I was stunned by how blissful it was.
 
@@ -143,10 +143,10 @@ Read, Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="htt
 ## 8. Model Man (Self-titled LP) - (Mahogany Records)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/michael/model_men_lp.jpg" alt="Model Man LP cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 _“Harmony is the musical element that comes the most naturally to me.”_ Model Man’s first album release is full to the brim with beautiful melodies fused with visceral energy. Model Man came from a Mormon upbringing so a lot of that classical gospel-like sound can be heard seeping through each track.
 
@@ -164,10 +164,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://m
 ## 9. India Jordan - Watch Out! (Ninja Tune)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/michael/india_jordan-watch_out.jpg" alt="India Jordans EP cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 Pacey as f\*\*k. Watch Out! Includes five sweeping tracks. India Jordan is receiving massive recognition for their efforts and I can’t wait to see what they can come up with.
 
@@ -181,10 +181,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://i
 ## 10. Another Chemical Love Story (Self-titled & Self-released Album)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/michael/another_chemical_love_story.jpg" alt="ACLS EP cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 Elliot Adamson’s new project sees the release of nine mammoth tracks. The album samples some real groovy vocals and fits them into unforgettable club bangers.
 

@@ -14,10 +14,10 @@ I've been listening to a massive year of heavy low-end energy on strong percussi
 ## 1. INGI - Wrestle (Fly By Night Recordings)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/peter/ingi-wrestle.jpg" alt="INGI album cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 Precise programmed drums hitting hard in this EP. Big fan of the use of the vocal chops and atmospheric mood. I reckon this would blow the place up of any club. Can't wait to hear it!
 
@@ -31,10 +31,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://f
 ## 2. Kempston Hardwick - Mowbray Street (Lobster Theremin)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/peter/kempston_hardwick-mowbray_street.jpg" alt="Kempston Hardwick EP cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 Kempston Hardwick deserves so much more attention for his groovy tracks. His name stands out, the cover art is gorgeous, and he's releasing on powerhouse label, Lobster Theremin. The first track, Mowbray Street, will make you move your feet and that energy lets up.
 
@@ -48,10 +48,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://l
 ## 3. Jabberwocky - Inner Space (Future Disco)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/peter/jabberwocky-inner_space.jpg" alt="Jabberwocky EP cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 Inner Space includes two tasty singles. Inner Space and Apollo are meant for sunny festival weather! Super peppy and super fun tunes.
 
@@ -65,10 +65,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://f
 ## 4. Sofia Kourtesis - Fresia Magdalena (Technicolour)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/peter/sofia_kourtesis-fresia_magdalena.jpg" alt="Sofia Kourtesis  EP cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 Music for the soul, Fresia Magdalena takes us on a joyful trip throughout the album. Sofia has a beautiful singing voice and it's used so effectively to showcase her story telling.
 
@@ -82,10 +82,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://s
 ## 5. Logic1000 - You've Got the Whole Night to Go (Because Music)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/peter/logic1000-youve_got_the_whole_night_to_go.jpg" alt="logic1000 EP cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 Put this EP on, sit down, and zone out. Logic1000 is so good at creating hypnotizing harmonies and I love the clean Garage sound sitting neatly in the spacious production.
 
@@ -99,10 +99,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://l
 ## 6. Sputnik One - Love From Above (Wisdom Teeth)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/peter/sputnik_one-love_from_above.jpg" alt="Sputnik One track cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 Release of the year for me. I've been paying attention to everything Sputnik One has been putting out.
 
@@ -116,10 +116,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://w
 ## 7. Tom VR - Please Keep Shimmering (All My Thoughts)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/peter/tom_vr-please_keep_shimmering.jpg" alt="Tom VR cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 Artist in more ways than one, TOM VR created 10 quality tracks as well as painting the album art. This release has been in the works for a while according to Tom VR so there are no shortcuts.
 
@@ -133,10 +133,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://t
 ## 8. Jack Ward - My Angel Rocks 4th & Back (Philly's Dawn Chorus Mix)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/peter/jack_ward-my_angel_rocks_4th_back.jpg" alt="Jack Ward cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 Our friend, Jack Ward, was treated to a superb remix by Philly Dawn. The mix keeps the same themes of the original mix but just adds some extra chorus goodness.
 
@@ -148,10 +148,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://j
 ## 9. Nicolas Duque - Breaks 'N' Pieces Vol. 6 (Breaks 'N' Pieces)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/peter/nicolas_duque-breaks_n_pieces_vol6.jpg" alt="Nicolas Duque EP cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 Deep House, Breaks, and plenty of rave sounds.
 
@@ -165,10 +165,10 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://c
 ## 10. THUGWIDOW - Post Modern (Sneaker Social Club)
 
 <div class="row">
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 <img src="/top-ten-2021/peter/thugwindow-post_modern.jpg" alt="THUGWIDOW EP cover art" width="60%" />
 </div>
-<div class="col top-ten-2021">
+<div class="col clubGuide">
 
 Serious energy throughout. Check it out!
 

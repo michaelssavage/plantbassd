@@ -13,11 +13,11 @@ UNiiQU3, Breaka, Coco Bryce & more descend on the capital this week.
 
 ## MONDAY 7th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/07-unique.jpg" alt="Headset: UNiiQU3 @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1497542)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Headset: UNiiQU3 @ Sneaky Pete’s
 
@@ -25,15 +25,15 @@ The queen of Jersey club stops by Sneaky’s for a workout with Headset. Unmissa
 
 £6 - £10 - Tickets here: https://ra.co/events/1497542
 
-</div></div>
+</div></div><hr>
 
 ## TUESDAY 8th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/07-bongo.jpg" alt="Midnight Bass presents Amoss @ Bongo Club" width="85%"/>](https://ra.co/events/1505780)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Midnight Bass presents Amoss @ Bongo Club
 
@@ -41,15 +41,15 @@ Ever present fixture Midnight Bass brings Amoss (Flexout Audio/ Dispatch Recordi
 
 £6 - £8 - Tickets here: https://ra.co/events/1505780
 
-</div></div>
+</div></div><hr>
 
 ## WEDNESDAY 9th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/07-breakey.jpg" alt="Shelflife presents Breaka b2b Bakey @ Mash House" width="85%"/>](https://ra.co/events/1498603)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Shelflife presents Breaka b2b Bakey @ Mash House
 
@@ -57,15 +57,15 @@ Breaka and Bakey lock horns for the next Shelflife party. Two of the toughest so
 
 £10 - Tickets here: https://ra.co/events/1498603
 
-</div></div>
+</div></div><hr>
 
 ## WEDNESDAY 9th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/07-plant.jpg" alt="Plant Bass’d x Heaters: YTP @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1500809)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Plant Bass’d x Heaters: YTP @ Sneaky Pete’s
 
@@ -73,15 +73,15 @@ Expect venomous electro & ghetto tech as we return to Sneaky’s to bring you YT
 
 £5 - Tickets here: https://ra.co/events/1500809
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 11th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/07-coco.jpg" alt="Overground presents Coco Bryce @ Bongo Club" width="85%"/>](https://ra.co/events/1502343)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Overground presents Coco Bryce @ Bongo Club
 
@@ -89,15 +89,15 @@ A true stalwart in UK jungle and breaks, Coco Bryce lands to Bongo with Overgrou
 
 £7.5 - £10.5 - Tickets here: https://ra.co/events/1502343
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 11th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/07-smiff.jpg" alt="Superstar Fishbar 1st Birthday @ Mash House" width="85%"/>](https://www.skiddle.com/whats-on/Edinburgh/The-Mash-House/Superstar-Fishbar-1st-Birthday-/36018532/)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Superstar Fishbar 1st Birthday @ Mash House
 
@@ -105,15 +105,15 @@ Superstar Fishbar celebrate turning one with selections from Spanish born, Glasg
 
 £7 - £10.15 - Tickets here: https://www.skiddle.com/whats-on/Edinburgh/The-Mash-House/Superstar-Fishbar-1st-Birthday-/36018532/
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 11th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/07-hot.png" alt="Hot Mess @ Sneaky Pete’s @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1505653)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Hot Mess @ Sneaky Pete’s @ Sneaky Pete’s
 
@@ -121,15 +121,15 @@ Hot Mess returns for its March edition. Friendly, hot & kinda wild spinning all 
 
 £6 - Tickets here: https://ra.co/events/1505653
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 12th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/07-barbara.jpg" alt="Hand-made with Love: Bárbara Boeing @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1496115)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Hand-made with Love: Bárbara Boeing @ Sneaky Pete’s
 
@@ -137,15 +137,15 @@ Hand-made return to Sneaky’s with Brazilian Bárbara Boeing. A dynamic selecto
 
 £6 - £10 - Tickets here: https://ra.co/events/1496115
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 12th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/07-nocturne.jpg" alt="Club Nacht presents Jordan Nocturne @ Mash House" width="85%"/>](https://ra.co/events/1459419)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Club Nacht presents Jordan Nocturne @ Mash House
 
@@ -153,15 +153,15 @@ One of the finest exports from the Belfast club scene, Jordan Nocturne takes the
 
 £5 - £15 - Tickets here: https://ra.co/events/1459419
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 12th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/07-messenger.jpg" alt="Messenger Soundsystem @ Bongo Club" width="85%"/>](https://ra.co/events/1503542)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Messenger Soundsystem @ Bongo Club
 
@@ -169,15 +169,15 @@ For a more earthy and humbling sound, look no further than the Messenger Soundsy
 
 £7 - £10 - Tickets here: https://ra.co/events/1503542
 
-</div></div>
+</div></div><hr>
 
 ## SUNDAY 13th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/07-postal.jpg" alt="Postal with The Nightlark" width="85%"/>](https://ra.co/events/1500912)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Postal with The Nightlark
 
@@ -185,4 +185,4 @@ The robust Nightlark takes on Postal armed with a distinct collection. Having wo
 
 £3 - Tickets here: https://ra.co/events/1500912
 
-</div></div>
+</div></div><hr>

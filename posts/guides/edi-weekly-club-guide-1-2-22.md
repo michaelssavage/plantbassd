@@ -13,9 +13,9 @@ Wake up wake up wake up, it’s the first of the month! February is upon us, and
 
 ## TUESDAY 1st February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/01-midnight-bass.jpg" alt="Midnight Bass" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Midnight Bass // Jungle Special @ Bongo Club
 
@@ -25,13 +25,13 @@ In addition, Clean-Up Crew bring one of the liveliest sets to any party and are 
 
 £5 - £6 - Tickets here: https://ra.co/events/1498317
 
-</div></div>
+</div></div><hr>
 
 ## WEDNESDAY 2nd February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/02-heaters.jpg" alt="Heaters // Haptic All Night Long @ Sneaky Pete’s" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Heaters // Haptic All Night Long @ Sneaky Pete’s
 
@@ -39,13 +39,13 @@ Heaters breathes new life with a run of new residents on Sneaky’s Wednesdays. 
 
 £3 - Tickets here: https://ra.co/events/1494994
 
-</div></div>
+</div></div><hr>
 
 ## THURSDAY 3rd February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/02-volens-chorus.jpg" alt="Volens Chorus presents Casement @ Sneaky Pete’s" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Volens Chorus presents Casement @ Sneaky Pete’s
 
@@ -53,13 +53,13 @@ Volens Chorus return to their spiritual home with another imminent hard-hitting 
 
 £5 - £7 - Tickets here: https://ra.co/events/1495805
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 4th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/02-nina-stranger.jpg" alt="Miss World: Nina Stanger & Moray Leisure Centre @ Sneaky Pete’s" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Miss World: Nina Stanger & Moray Leisure Centre @ Sneaky Pete’s
 
@@ -67,13 +67,13 @@ Miss World mark their return to clubbing with two of northern Scotland’s most 
 
 £5 - £7 - Tickets here: https://ra.co/events/1495501
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 4th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/02-ssl-xl.png" alt="SSL XL: Dancehall Special @ Bongo Club" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### SSL XL: Dancehall Special @ Bongo Club
 
@@ -81,13 +81,13 @@ SSL XL is back on the Messenger Soundsystem for an epic Dancehall Special with s
 
 £8 - £10 - Tickets here: https://ra.co/events/1497362
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 4th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/02-night-tube.png" alt="Night Tube: O’Flynn @ the Caves" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Night Tube: O’Flynn @ the Caves
 
@@ -95,13 +95,13 @@ Just about ready to sell out, Night Tube throw up their second club offering of 
 
 Final Release £16 - Tickets here: https://ra.co/events/1497288
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 5th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/02-samedia-shebeen.png" alt="Samedia Shebeen" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Samedia Shebeen @ Mash House
 
@@ -109,13 +109,13 @@ Attributors to many of our romances at Seafield and Blackford during the club fa
 
 £6 - £8 - Tickets here: https://www.skiddle.com/whats-on/Edinburgh/The-Mash-House/Samedia-Shebeen-at-The-Mash-House/35980265/
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 5th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/02-nikki-kent-ehfm.jpg" alt="Nikki Kent & Ravelston @ Sneaky Pete’s" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### EHFM presents: Nikki Kent & Ravelston @ Sneaky Pete’s
 
@@ -123,4 +123,4 @@ EHFM radio bring back their residents party with day one alumni Nikki Kent (Lunc
 
 £5 - £7 - Tickets here: https://ra.co/events/1495314
 
-</div></div>
+</div></div><hr>

@@ -13,11 +13,11 @@ Peering into the weekend, it has been a week filled with new beginnings in the c
 
 ## THURSDAY 24th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/09-margins.png" alt="MARGINS: Angel D’lite @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1504128)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### MARGINS: Angel D’lite @ Sneaky Pete’s
 
@@ -25,15 +25,15 @@ The brainchild of local spinners Digging the Underground, MARGINS initializes at
 
 Tickets here: https://ra.co/events/1504128
 
-</div></div>
+</div></div><hr>
 
 ## THURSDAY 24th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/09-slurp.png" alt="Slurp presents: TECHNO RAVE AGAINST HOMELESSNESS @ Bongo Club" width="85%"/>](https://ra.co/events/1508981)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Slurp presents: TECHNO RAVE AGAINST HOMELESSNESS @ Bongo Club
 
@@ -41,15 +41,15 @@ Slurp EdInburgh are bringing together an eclectic mix of techno producers and dj
 
 Tickets here: https://ra.co/events/1508981
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 25th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/09-missset.png" alt="Headset presents Missset @ Bongo Club" width="85%"/>](https://ra.co/events/1513384)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Headset presents Missset @ Bongo Club
 
@@ -57,15 +57,15 @@ Edinburgh’s favourite sweethearts Miss World take over Headset this Friday acr
 
 Tickets here: https://ra.co/events/1513384
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 25th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/09-dub.jpg" alt="Wee Dub Club: Mungo’s Hi-Fi with Charlie P + Prince Fatty @ Potterow" width="85%"/>](https://www.skiddle.com/whats-on/Edinburgh/Potterow/Wee-Dub-Club-Mungos-Hi-Fi-wCharlie-P--Prince-Fatty--More/35955741/)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Wee Dub Club: Mungo’s Hi-Fi with Charlie P + Prince Fatty @ Potterow
 
@@ -73,15 +73,15 @@ Wee Dub Club continues to go from strength to strength as they welcome Scottish 
 
 Tickets here: https://www.skiddle.com/whats-on/Edinburgh/Potterow/Wee-Dub-Club-Mungos-Hi-Fi-wCharlie-P--Prince-Fatty--More/35955741/
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 25th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/09-wax.png" alt="Palidrone & INTERVENTION present: Ifeoluwa, J Wax, xivro & residents @ Mash House" width="85%"/>](https://ra.co/events/1509240)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Palidrone & INTERVENTION present: Ifeoluwa, J Wax, xivro & residents @ Mash House
 
@@ -89,15 +89,15 @@ Following their free DJ workshop (see here https://ra.co/events/1466809) with th
 
 Tickets here: https://ra.co/events/1509240
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 25th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/09-powerhouse.png" alt="Powerhouse: Hedonism, Unity & Freedom @ Mash House (upstairs)" width="85%"/>](https://ra.co/events/1514074)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Powerhouse: Hedonism, Unity & Freedom @ Mash House (upstairs)
 
@@ -105,30 +105,30 @@ Edinburgh’s ultimate dark party returns after a brief hiatus to its home up th
 
 Tickets here: https://ra.co/events/1514074
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 25th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/09-orla.png" alt="First Edition - Or:la @ Liquid Rooms" width="85%"/>](<[LINK](https://ra.co/events/1498729)>)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### First Edition - Or:la @ Liquid Rooms
 
 Derry’s finest electronic export, Or:la brings her genre-fluid and era bending sound to the Liquid rooms. DJ Mag’s best DJ of 2021, Or:la is a regular feature at the likes of Dekmantel, Warehouse Project, and Fabric, and is one of the most sought after talents in Europe. If you don’t know the sound, you definitely know the name. Support from Seamus, Plastic GRN, & Onda.  
 Tickets here: https://ra.co/events/1498729
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 26th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/09-dan.png" alt="Pulse: D.Dan @ Mash House" width="85%"/>](https://ra.co/events/1506837)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Pulse: D.Dan @ Mash House
 
@@ -136,15 +136,15 @@ It’s another dual party Saturday for Pulse this weekend, with their Mash House
 
 Tickets here: https://ra.co/events/1506837
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 26th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/09-revolt.png" alt="Revolt @ Summerhall" width="85%"/>](https://ra.co/events/1511946)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Revolt @ Summerhall
 
@@ -152,15 +152,15 @@ One of the city’s more curious and forward thinking parties, the recently esta
 
 Tickets here: https://ra.co/events/1511946
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 26th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/09-jam.png" alt="Soul Jam: Kirollus @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1512623)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Soul Jam: Kirollus @ Sneaky Pete’s
 
@@ -168,15 +168,15 @@ The ever present Soul Jam welcome Kirollus to Sneaky’s alongside residents Per
 
 Tickets here: https://ra.co/events/1512623
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 26th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/09-chicago.png" alt="Pulse: 90’s Chicago House & Techno" width="85%"/>](https://ra.co/events/1510483)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Pulse: 90’s Chicago House & Techno
 
@@ -184,15 +184,15 @@ Following on from their previous Detroit themed party, Pulse presents an evening
 
 Tickets here: https://ra.co/events/1510483
 
-</div></div>
+</div></div><hr>
 
 ## SUNDAY 27th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/07-postal.jpg" alt="Postal: OISÍN, Heybreau & Lucky Dip @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1500914)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Postal: OISÍN, Heybreau & Lucky Dip @ Sneaky Pete’s
 
@@ -200,4 +200,4 @@ There's nowhere else you should be but Sneaky’s on Sundays. The growingly form
 
 Tickets here: https://ra.co/events/1500914
 
-</div></div>
+</div></div><hr>
