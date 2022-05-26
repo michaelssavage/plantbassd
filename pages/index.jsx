@@ -18,7 +18,7 @@ export default function Home({ allPosts, takeovers, radios, freshjuice }) {
       <Head>
         <title>Plant Bass'd</title>
       </Head>
-      <RellaxImg img="/various/bg.jpg" main />
+      <RellaxImg />
 
       <News news={allPosts} />
 

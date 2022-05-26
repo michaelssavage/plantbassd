@@ -1,13 +1,11 @@
 import { shimmer, toBase64 } from "components/BlurImg";
 import { useEffect } from "react";
-import Image from "next/image";
-import PropTypes from "prop-types";
-import Rellax from "rellax";
-
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
+import Image from "next/image";
+import Rellax from "rellax";
 import styles from "@/styles/rellax.module.scss";
 
-export default function RellaxImg({ img, main }) {
+export default function RellaxImg() {
   useEffect(() => {
     // eslint-disable-next-line new-cap, no-new
     new Rellax(".animate", {
@@ -31,7 +29,7 @@ export default function RellaxImg({ img, main }) {
           layout="fill"
           objectFit="cover"
           placeholder="blur"
-          src={img}
+          src="/various/bg.jpg"
         />
       </div>
 
@@ -39,20 +37,17 @@ export default function RellaxImg({ img, main }) {
         <div className={`animate ${styles.textShape}`}>
           <h1 className="header">Plant Bass'd</h1>
 
-          <p>
+          <p className={styles.profileText}>
             Profiling the experimental dance music world and throwing parties in
             between.
           </p>
-          {main ? (
-            <DiscoverMoreBtn link="/contact-us" title="About Us" />
-          ) : null}
+          <div className={styles.btns}>
+            <DiscoverMoreBtn link="/contact-us" title="About us" />
+            <DiscoverMoreBtn link="/gigs" title="Gigs" />
+            <DiscoverMoreBtn link="/previous-guests" title="Previous Guests" />
+          </div>
         </div>
       </div>
     </section>
   );
 }
-
-RellaxImg.propTypes = {
-  img: PropTypes.string.isRequired,
-  main: PropTypes.bool,
-};

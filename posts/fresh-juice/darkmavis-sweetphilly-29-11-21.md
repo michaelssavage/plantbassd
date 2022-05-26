@@ -11,6 +11,10 @@ path: "fresh-juice"
 
 ### @darkpmavis & @phillyholmes\_ have just dropped a club EP full of pink and sparkly bangers for you all!
 
+<hr>
+
+_Words by Oisín Campbell/ Design by Michael Savage_
+
 Forging sounds of trance, house, avant-garde pop, and nods to old school jungle & hardcore breaks, the pair have come together and aligned their respective sounds creating catchy energetic club music.
 
 Davis (@craneclubdub) & Holmes have cracked a knack on this release for building songs from an initial soft point and into peak time anthems.

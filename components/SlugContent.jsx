@@ -7,9 +7,9 @@ export default function Content({ date, title, content }) {
     <div
       className={`
 				${styles.postContent}
-				col-lg-6
+				col-lg-7
 				col-md-12
-				col-xl-6 
+				col-xl-7 
 				`}
     >
       <p className={styles.postDate}>Posted on {date}</p>

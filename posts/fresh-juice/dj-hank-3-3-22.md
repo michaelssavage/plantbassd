@@ -11,9 +11,13 @@ path: "fresh-juice"
 
 ### Seminal Chicago footwork from DJ HANK, blended effortlessly with the influences of UK garage, ambient, and RnB on City Stars.
 
+<hr>
+
+_Words by Oisín Campbell/ Design by Michael Savage_
+
 Buy/ Stream here https://djhank.bandcamp.com/album/city-stars
 
-<img src="/fresh-juice/19-dj-hank.jpg" alt="DJ Hank album art" width="95%" />
+<img src="/fresh-juice/19-dj-hank.jpg" alt="DJ Hank album art" width="75%" />
 
 Landing on the giant London-based label Hyperdub, DJ HANK finds himself in fine company with alumni including Burial, Proc Fiskal, Lorraine James, and Kode9 to name but a handful. Hailing from North Carolina, Hank repositioned himself to Chicago aged 18 where he became immersed in the city’s vibrant footwork scene. There he frequented the city’s footwork battle nights, most notably the Battlegroundz affair, which in turn led to a push towards the production end of things.
 
@@ -21,7 +25,7 @@ Over the last number of years Hank has developed a following for his ear-catchin
 
 Now landing on Hyperdub, the Windy City based artist has immersed himself in an ambient, RnB infused collection of footwork steppers. ‘Lift Gate’ opens up the City Stars release with hazy chimes that fall into colorful strings and quickfire drum patterns, drifting us into the creative mind of DJ HANK and his footwork prowess.
 
-<img src="/fresh-juice/19-hank.jpg" alt="DJ Hank cover pic" width="95%" />
+<img src="/fresh-juice/19-hank.jpg" alt="DJ Hank cover pic" width="75%" />
 
 Lead single ‘Stay’ serves up an engrossing vocal sample that unfolds over rumbling bass lines and a pacing footwork step, setting up an exquisite club friendly yet down to earth and humbling sound.
 

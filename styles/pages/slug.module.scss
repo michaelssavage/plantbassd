@@ -1,59 +1,59 @@
 @use "@/abstracts" as *;
 
 .newsSection {
-	margin: 10vh 0;
-	padding: 0 0.5rem;
+  margin: 10vh 0;
+  padding: 0 0.5rem;
 }
 
 .newsImage {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 2rem;
-	margin: 0 3rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2rem;
+  margin: 0 2rem;
 }
 
 .button {
-	padding-top: 1rem;
-	text-align: center;
+  padding-top: 1rem;
+  text-align: center;
 }
 
 @include breakpoint-below(xm) {
-	.postContent {
-		padding: 0 2rem;
-	}
+  .postContent {
+    padding: 0 0 0 2rem;
+  }
 }
 
 // @include breakpoint-below(sm) {
 @media (max-width: 768px) {
-	.newsSection {
-		margin-bottom: 2vh;
-	}
+  .newsSection {
+    margin-bottom: 2vh;
+  }
 
-	.newsImage {
-		margin: 2rem 2rem 0 2rem;
-	}
+  .newsImage {
+    margin: 2rem 2rem 0 2rem;
+  }
 
-	.postContent {
-		padding: 0 2rem;
-		margin: 0;
-	}
+  .postContent {
+    padding: 0 2rem;
+    margin: 0;
+  }
 }
 
 .imgWrapper {
-	padding: 0.5rem 0;
-	text-align: center;
+  padding: 0.5rem 0;
+  text-align: center;
 }
 
 .hoverLink:hover {
-	color: $white !important;
+  color: $white !important;
 }
 
 .topTenContent {
-	padding: 0 3rem;
+  padding: 0 3rem;
 }
 
 @include breakpoint-below(md) {
-	.topTenContent {
-		padding: 0 1rem;
-	}
+  .topTenContent {
+    padding: 0 1rem;
+  }
 }

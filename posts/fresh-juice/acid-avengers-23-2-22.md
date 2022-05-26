@@ -11,10 +11,14 @@ path: "fresh-juice"
 
 ### Acid Avengers rolls into the 20’s with another split edition, this time featuring Maelstrom, Locked Club and RLGN.
 
+<hr>
+
+_Words by Oisín Campbell/ Design by Michael Savage_
+
 5 tracks that tackle the squelch, weighty bass and all things ravey and wavy.  
 Buy/ Stream here https://tripalium.bandcamp.com/album/aar021-maelstrom-locked-club-rlgn-acid-avengers-021
 
-<img src="/fresh-juice/25-acid-avengers.jpg" alt="Acid Avengers album art" width="95%" />
+<img src="/fresh-juice/25-acid-avengers.jpg" alt="Acid Avengers album art" width="75%" />
 
 A sub-series of the French imprint Tripalium Corp, Acid Avengers has brought together some of the great heavyweights of the modern electro scene with past editions featuring the likes of DeFeKt, Nite Fleit, and Posthuman. This entry sees the return of Maelstrom (France) alongside Russian punks Locked Club and RLGN as they offer up five acidic pumpers, full of tuff drums and TB-303.
 
@@ -22,7 +26,7 @@ RAAR and Culitvated Electronics familiar Maelstrom dominates the A-side with 3 r
 
 ‘Think For Yourself’ serves a moody domineering bassline with animalistic drums and cackling effects. A dark and distorted electro groover that leans more on the flang than the squelch with demanding samples.
 
-<img src="/fresh-juice/25-maelstrom.jpg" alt="Maelstrom cover pic" width="95%" />
+<img src="/fresh-juice/25-maelstrom.jpg" alt="Maelstrom cover pic" width="75%" />
 
 Wrapping up Maelstrom’s contribution, ‘La Nui Est A Toi’ manipulates with a sharp 808 rhythm and bass line that step on the gas together with unhinged 303 trinkets that distort until reconfiguration. Appears to lose itself in the breakdown before regaining the strong 808 strut it initiated with.
 
@@ -30,7 +34,7 @@ The ever stimulating Locked Club and RLGN provide a slightly more stripped back 
 
 ‘Captain Industrial’ is a more fleshed out fetishized version of the usual Locked Club sound, as elements of their productions are evident against more toned out Chicago-esque kicks and hats. The trembling acid line and hip-hop samples give the track stout as elements of Eastern sounds are forged after the breakdown. A tight-knitted chugger from this delightful combo.
 
-<img src="/fresh-juice/25-locked-club.jpg" alt="Locked club cover pic" width="95%" />
+<img src="/fresh-juice/25-locked-club.jpg" alt="Locked club cover pic" width="75%" />
 
 Closing out the EP, ‘Kill Me’ follows a similar suit with a more tamed down pace, but with an equally club friendly bassy bounce and acid house groove. Again, smart samples add to the atmosphere within the track as open hats add to the crunch as sirens alarm on this tense yet groovy hotstepper.
 

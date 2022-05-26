@@ -27,7 +27,7 @@ export default function CardWithButtons({
           src={pic}
           width={500}
         />
-        <div className={`row ${news.buttons}`}>
+        <div className="row">
           <div className={`col ${news.button}`}>
             <Link href={page}>
               <a

@@ -11,6 +11,10 @@ path: "fresh-juice"
 
 ### To celebrate 5 years of releases, Of Paradise return with the 4th installment of their V/A series, featuring efforts from the likes of @oallhates, @iazarus, and @strattontrax.
 
+<hr>
+
+_Words by Oisín Campbell/ Design by Michael Savage_
+
 We spoke to label runners Paul Patterson and @fadeofparadise about the challenges involved in putting together a compilation, the outlook of the label, the idea of being aesthetically underground, and more.
 
 The label has worked with a host of exciting names on past releases highlighting a raw take on dub house, techno, trance and breaks, with Vol. 4 showing no sign of veering away from this club-friendly sound.

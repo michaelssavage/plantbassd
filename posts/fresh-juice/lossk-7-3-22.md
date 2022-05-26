@@ -11,9 +11,13 @@ path: "fresh-juice"
 
 ### Brighton born and raised, Lossk offers up a spillage of electro and bass on the expansive Glasgow based Hyperdome Records.
 
+<hr>
+
+_Words by Oisín Campbell/ Design by Michael Savage_
+
 Buy/ stream here https://hyperdomerecords.bandcamp.com/album/hyprecs-008-electrophile
 
-<img src="/fresh-juice/22-lossk.png" alt="Lossk album art" width="95%" />
+<img src="/fresh-juice/22-lossk.png" alt="Lossk album art" width="75%" />
 
 After recently forming Bad Era Records in his home of Brighton, Lossk joins the growing Hyperdome records after developing an avid taste for electro sounds in recent years. ‘Electrophile’ lands as the 8th release on the now well established Hyperdome Records, which has expanded from its club night origins over time with founder DJ Bastard at the helm. The Lossk release falls on the label after previous efforts from the likes of YTP, mod-R, Mister Sticktalk, & more.
 
@@ -21,7 +25,7 @@ Electrophile initializes with opening track ‘Ballistix’ which surges with at
 
 Stepping up the pace, ‘Ghetto Bird’ slaps up a swift 808 electro shuffle with more towering bass lines and synth trinkets. Mean cyborg samples and acidic shots add to this dark tempered roller.
 
-<img src="/fresh-juice/22-hyperdome.jpg" alt="Hyperdome art" width="95%" />
+<img src="/fresh-juice/22-hyperdome.jpg" alt="Hyperdome art" width="75%" />
 
 Squidgy kicks stomp on ‘Holicron Bop’ and are heaved forward by chasing bass belts and berzerk acid lines. A hyperactive electro racer that momentarily ceases fire before restoring its frantic energy.
 
