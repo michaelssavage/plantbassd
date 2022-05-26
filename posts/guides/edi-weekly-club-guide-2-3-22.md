@@ -13,11 +13,11 @@ Rolling into March, Edinburgh undergoes another packed scheduled in clubland wit
 
 ## WEDNESDAY 2nd March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/06-haptic.jpg" alt="Heaters x Haptic: Desert Sound Colony @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1500804)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Heaters x Haptic: Desert Sound Colony @ Sneaky Pete’s
 
@@ -25,15 +25,15 @@ Haptic continue their exciting residency with Heaters with the man behind the Ho
 
 £5 - £7 - Tickets here: https://ra.co/events/1500804
 
-</div></div>
+</div></div><hr>
 
 ## THURSDAY 3rd March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/06-volens.jpg" alt="Volens Chorus present WBBR & Kakano @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1504090)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Volens Chorus present WBBR & Kakano @ Sneaky Pete’s
 
@@ -41,15 +41,15 @@ The monthly nutters Volens Chorus party returns for March with a riot of footwor
 
 £3 - £5 - Tickets here: https://ra.co/events/1504090
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 4th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/06-ssl.jpg" alt="SSL XL presents DNB/170 Special @ Bongo Club" width="85%"/>](https://ra.co/events/1503536)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### SSL XL presents DNB/170 Special @ Bongo Club
 
@@ -57,15 +57,15 @@ The ferocious SSL XL initiates a DnB/ 170 special this Friday with an ever stack
 
 £5 - £12 - Tickets here: https://ra.co/events/1503536
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 4th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/06-world.jpg" alt="Miss World: Jossy Mitsu @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1501798)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Miss World: Jossy Mitsu @ Sneaky Pete’s
 
@@ -73,15 +73,15 @@ The monthly Miss World party continues to pull out some of the best bookings in 
 
 £8 - £12 - Tickets here: https://ra.co/events/1501798
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 4th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/06-mutiny.jpg" alt="Mutiny @ Mash House" width="85%"/>](https://ra.co/events/1494626)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Mutiny @ Mash House
 
@@ -89,15 +89,15 @@ Mutiny returns to the capital with an onslaught of amen breaks and ruthless jung
 
 £8 - Tickets here: https://ra.co/events/1494626
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 5th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/06-samedia.jpg" alt="Samedia Shebeen with Lua Prea @ Mash House" width="85%"/>](https://www.skiddle.com/e/36013109)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Samedia Shebeen with Lua Prea @ Mash House
 
@@ -105,15 +105,15 @@ The constant capital groovers Samedia Shebeen are back at Mash this Saturday wit
 
 £7 - £9 - Tickets here: www.skiddle.com/e/36013109
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 5th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/06-palidrone.jpg" alt="Palidrone x Schematic @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1503834)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Palidrone x Schematic @ Sneaky Pete’s
 
@@ -121,15 +121,15 @@ Palidrone’s first Sneaky’s appearance of the year sees them team up with Gla
 
 £5 - £7 - Tickets here: https://ra.co/events/1503834
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 5th March
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 
 [<img src="/news/club-guide/06-hinkin.jpg" alt="Hinkin & Drinkin @ Teviot Underground" width="85%"/>](https://ra.co/events/1499908)
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Hinkin & Drinkin @ Teviot Underground
 
@@ -137,4 +137,4 @@ An evening featuring pretty much everything as Hinkin & Drinkin amalgamate susta
 
 £5 - Tickets here: https://ra.co/events/1499908
 
-</div></div>
+</div></div><hr>

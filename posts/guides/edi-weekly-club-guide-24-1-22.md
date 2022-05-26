@@ -15,9 +15,9 @@ The capital is back with a bang with a very appetizing string of parties across 
 
 ## MONDAY 24th January
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/01-bongo.jpg" alt="Bongo Club" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Bongo Club Reopening Night: Skillis All Night Long
 
@@ -25,13 +25,13 @@ Grandmaster Skillis takes charge of the Messenger Sound System for a special reo
 
 £5 - £10 - Tickets here: https://ra.co/events/1495228
 
-</div></div>
+</div></div><hr>
 
 ## TUESDAY 25th January
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/01-midnight-bass.jpg" alt="Midnight Bass" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Midnight Bass // Relive Hogmanay @ Bongo Club
 
@@ -39,13 +39,13 @@ Edinburgh and Scotland’s biggest DnB party returns to its infamous Tuesday nig
 
 £5 - £6 - Tickets here: https://ra.co/events/1479637
 
-</div></div>
+</div></div><hr>
 
 ## WEDNESDAY 26th January
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/01-night-tube.jpg" alt="Bongo Club Night Tune" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Night Tube presents Aletha & Jacuzzi General @ Bongo Club
 
@@ -53,13 +53,13 @@ Bongo is the place to be on the opening nights it seems with Wednesday hosting N
 
 £10 on final release - Tickets here: https://ra.co/events/1488021
 
-</div></div>
+</div></div><hr>
 
 ## THURSDAY 27th January
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/01-itsnotradio.jpg" alt="itsnotradio 1st birthday" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### It’sNotRadio 1st Birthday @ Mash House
 
@@ -67,13 +67,13 @@ Scottish community radio It’sNotRadio celebrates turning one with a takeover a
 
 £5 - £10 - Tickets here: https://ra.co/events/1491449
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 28th January
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/01-speedset.jpg" alt="speedset" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Speedset (Headset Does Fast Music) @ Bongo Club
 
@@ -81,13 +81,13 @@ Headset returns after a capacity Christmas Day party with a shift to the higher 
 
 £5 - £12 Tickets here: https://ra.co/events/1493341
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 28th January
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/01-powerhouse.jpg" alt="Powerhouse" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Powerhouse: Warehouse Euphoria @ the Biscuit Factory
 
@@ -95,13 +95,13 @@ Hedonism, Unity and Freedom. Powerhouse siege on Leith’s Biscuit Factory for a
 
 £8 - Tickets here: https://ra.co/events/1493341
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 28th January
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/01-wee-dub-club.jpg" alt="Wee Dub Club" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Wee Dub Club: Roots Session Inna Leith #2 @ Dr. Bells Baths
 
@@ -109,13 +109,13 @@ The almighty wee dub club return to Great Junction Street for an evening of regg
 
 £8 - £10 Tickets here: https://www.skiddle.com/whats-on/Edinburgh/The-Old-Dr-Bells-Baths/Wee-Dub-Club-Roots-Session-Inna-Lieth-2/35955771/
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 29th January
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/01-pulse-black.jpg" alt="90’s Detroit Techno and Electro @ at Bongo Club" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Pulse: 90’s Detroit Techno and Electro @ Bongo Club
 
@@ -123,16 +123,16 @@ Pulse return to the Bongo with a special night of music nodding to the sound of 
 
 £6 - £10 Tickets here: https://ra.co/events/1494179
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 29th January
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/01-pulse-blue.jpg" alt="Neil Landstrumm (Live) @ Mash House" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Pulse: Neil Landstrumm (Live) @ Mash House
 
 Not one, but TWO! Pulse bring back one of the UK’s most innovative techno producers in Neil Landstrumm who will be shelling out a tantalizing live set. A true master at work who has been ever present since the 90’s, this is another stand out for reopening week for us.
 
-</div></div>
+</div></div><hr>

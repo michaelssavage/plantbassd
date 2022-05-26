@@ -13,9 +13,9 @@ Another fruitful week of clubbing is in store on Valentine’s week in the capit
 
 ## TUESDAY 15th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/04-midnight-bass.jpg" alt="Midnight Bass Grime Special @ the Bongo Club" width="85%">
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Midnight Bass Grime Special @ the Bongo Club
 
@@ -23,13 +23,13 @@ Midnight Bass brings forth it’s second party of the week in the capital on Tue
 
 £0 - £6 - Tickets here: [Midnight Bass // Grime Special w/ Rapture 4D, Big Alf, sosi & JI2001 at The Bongo Club, Edinburgh · Tickets](https://ra.co/events/1499948)
 
-</div></div>
+</div></div><hr>
 
 ## WEDNESDAY 16th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/04-heavy-flow.jpg" alt="Heavy Flow: The Return @ the Mash House" width="85%">
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Heavy Flow: The Return @ the Mash House
 
@@ -38,14 +38,14 @@ A club night making a real difference with its inclusivity, and with 100% of pro
 
 £6.50 - £8.50 - Tickets here: [HEAVY FLOW: The Return tickets on Wednesday 16 Feb | Sanitree | FIXR](https://fixr.co/event/588515786)
 
-</div></div>
+</div></div><hr>
 
 ## WEDNESDAY 16th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/04-heaters.jpg" alt="Heaters x hypnotikk: Ahadadream @ Sneaky Pete’s" width="85%">
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Heaters x hypnotikk: Ahadadream @ Sneaky Pete’s
 
@@ -53,13 +53,13 @@ New heaters ressies hypnotikk arrive on the scene with a promising booking in Ah
 
 £5 - £7 - Tickets here: [Heaters // Hypnotikk: Ahadadream at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1495001)
 
-</div></div>
+</div></div><hr>
 
 ## THURSDAY 17th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/04-dr-banana.jpg" alt="Dr Banana presents @ Sneaky Pete’s" width="85%">
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Dr Banana presents @ Sneaky Pete’s
 
@@ -67,14 +67,14 @@ Signal welcomes Dr Banana on his tour to Sneaky’s for a two step showdown with
 
 £5 - £9 - Tickets [Dr Banana presents: Sneaky Pete's Club at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1495015)
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 18th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/04-palidrone.jpg" alt="Palidrone 4th Birthday: Parris, Lewis-Lowe b2b Feena, Saint Sunday @ the Mash House" width="85%">
 
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Palidrone 4th Birthday: Parris, Lewis-Lowe b2b Feena, Saint Sunday @ the Mash House
 
@@ -83,13 +83,13 @@ Support from Lewis Lowe, Feena, Saint Sunday, and the Palidrone crew only adds t
 
 £5 - £10 - Tickets [Palidrone 4th Birthday: Parris, Lewis Lowe b2b Feena, Saint Sunday at The Mash House, Edinburgh · Tickets (ra.co)](https://ra.co/events/1495229)
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 18th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/04-aurora.jpg" alt="603 presents: Aurora @ the Liquid Rooms" width="85%">
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### 603 presents: Aurora @ the Liquid Rooms
 
@@ -97,13 +97,13 @@ Support from Lewis Lowe, Feena, Saint Sunday, and the Palidrone crew only adds t
 
 £4 - £6 - Tickets [603 presents: Aurora at The Liquid Room, Edinburgh · Tickets](https://ra.co/events/1490586)
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 18th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/04-athens.jpg" alt="Athens of the North Disco Club with Sam & Fryer @ Sneaky Pete’s" width="85%">
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Athens of the North Disco Club with Sam & Fryer @ Sneaky Pete’s
 
@@ -111,13 +111,13 @@ Funk fuellers AOTN return to the city with Sam Don (Free Association & Netil Rad
 
 £7 - Tickets [Athens of the North Disco Club with Sam & Fryer at Sneaky Pete's, Edinburgh · Tickets](https://ra.co/events/1495299)
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 19th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/04-prosumer.jpg" alt="Prosumer presents Heyday with Joe Delon @ Sneaky Pete’s" width="85%">
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Prosumer presents Heyday with Joe Delon @ Sneaky Pete’s
 
@@ -125,13 +125,13 @@ Prosumer’s Heyday returns with Joe Delon for the queer party that buoys betwee
 
 £5 - £7 - Tickets [Prosumer presents Heyday with Joe Delon at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1495174)
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 19th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/04-shampain.jpg" alt="Tais-Toi presents: Shampain @ the Mash House" width="85%">
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Tais-Toi presents: Shampain @ the Mash House
 
@@ -139,4 +139,4 @@ Irish block-rocking selector Shampain (Rinse France/ G-Town Records) returns to 
 
 £6 - £10 - Tickets [Tais-Toi presents: Shampain at The Mash House, Edinburgh · Tickets (ra.co)](https://ra.co/events/1495092)
 
-</div></div>
+</div></div><hr>

@@ -13,9 +13,9 @@ Another stellar week of clubbing is in store in the capital with stimulating set
 
 ## MONDAY 7th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/03-headset.jpg" alt="Headset 7th Birthday: Batu, Yushh, Cando & Skillis @ Sneaky Pete’s" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Headset 7th Birthday: Batu, Yushh, Cando & Skillis @ Sneaky Pete’s
 
@@ -23,13 +23,13 @@ Rescheduled from December, Headset celebrates it’s 7th birthday in style with 
 
 £10 - £15 - [Tickets here: Headset 7th Birthday: Batu, Yushh, Cando, Skillis at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1481727)
 
-</div></div>
+</div></div><hr>
 
 ## WEDNESDAY 9th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/06-plantbassd-heaters.jpg" alt="Plant Bass’d x Heaters: TAAHLIAH @ Sneaky Pete’s" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Plant Bass’d x Heaters: TAAHLIAH @ Sneaky Pete’s
 
@@ -37,13 +37,13 @@ We return to Sneaky Pete’s this Wednesday for the start of a new collaboration
 
 £5 - £7 - [Tickets here: Heaters // Plant Bass'd: TAAHLIAH at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1494126)
 
-</div></div>
+</div></div><hr>
 
 ## THURSDAY 10th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/03-dusky.jpg" alt="Dusky All Night Long @ Sneaky Pete’s" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Dusky All Night Long @ Sneaky Pete’s
 
@@ -52,13 +52,13 @@ more modern house, Dusky are set to take punters on a dance music journey this T
 
 £8 - £12 - Tickets are sold out with 20 on the door on the night. [RA Resale queue available here Dusky All Night Long at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1494388)
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 11th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/03-249.png" alt="249’s Queer Night for All @ Ooh Mami Leith" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### 249’s Queer Night for All @ Ooh Mami Leith
 
@@ -66,25 +66,25 @@ more modern house, Dusky are set to take punters on a dance music journey this T
 
 £5 - Tickets here: [249's Queer Night for All - Live Music & DJs Tickets | Ooh Mami Edinburgh | Fri 11th February 2022 Lineup (skiddle.com)](https://www.skiddle.com/whats-on/Edinburgh/Ooh-Mami/249s-Queer-Night-for-All---Live-Music--DJs-/35980758/)
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 11th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/03-love-bomb.jpg" alt="Love Bomb!: An Evening with Grdn (Venue TBA On The Day)" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Love Bomb!: An Evening with Grdn (Venue TBA On The Day)
 
 Edinburgh’s transiting party starters GRDN are back with a lovedown from their own residents at a secret location in central Edinburgh. After a string of pop up parties and a night at Teviot Underground with Acid Waxa recently, GRDN are establishing themselves as one of the more inventive club series in the capital with another exciting show expected on Friday. And it’s free! Follow their instagram for details.
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 11th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/03-overground.jpg" alt="Rave Safe: A Harm Reduction Fundraiser from Overground @ Mash House" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Rave Safe: A Harm Reduction Fundraiser from Overground @ Mash House
 
@@ -92,13 +92,13 @@ Overground kick start their 2022 series with a fundraiser for the Harm Reduction
 
 £2 - £7.50 (plus donations) - Tickets here: [☻ RaveSafe℠ ☻ A Harm Reduction Fundraiser ☻ ᴏᴠᴇʀɢʀᴏᴜɴᴅ ☻ at The Mash House, Edinburgh · Tickets](https://ra.co/events/1496288)
 
-</div></div>
+</div></div><hr>
 
 ## FRIDAY 11th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/03-disco-makossa.jpg" alt="Disco Makossa w/ BUTHO the WARRIOR @ Bongo Club" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Disco Makossa w/ BUTHO the WARRIOR @ Bongo Club
 
@@ -106,13 +106,13 @@ Samedia Shebeen’s carnival-esque party Disco Makossa is back at the Bongo with
 
 £6 - £8 - Tickets here: [Disco Makossa w/BUTHO THE WARRIOR (JAIVA) Tickets | The Bongo Club Edinburgh | Fri 11th February 2022 Lineup (skiddle.com)](https://www.skiddle.com/whats-on/Edinburgh/The-Bongo-Club/Disco-Makossa-wBUTHO-THE-WARRIOR-JAIVA/35984953/)
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 12th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/03-moxie.jpg" alt="Moxie All Night Long @ Sneaky Pete’s" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Moxie All Night Long @ Sneaky Pete’s
 
@@ -120,13 +120,13 @@ Moxie takes on Sneaky’s once more for a 4 hour set. NTS resident and long time
 
 £6 - £10 - Tickets here: [Moxie All Night Long at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1494474)
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 12th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/03-bob-marley.jpg" alt="Messenger Soundsystem: Bob Marley Birthday Special @ Bongo Club" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Messenger Soundsystem: Bob Marley Birthday Special @ Bongo Club
 
@@ -134,13 +134,13 @@ The Messenger Soundsystem hosts a very special night, an ode to all things Bob M
 
 £6 - £10 - Tickets here: [Bob Marley Birthday Special - Messenger Sound System at The Bongo Club, Edinburgh · Tickets (ra.co)](https://ra.co/events/1496302)
 
-</div></div>
+</div></div><hr>
 
 ## SATURDAY 12th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/03-mash-house.jpg" alt="Club Nacht: Brain Dancing & Kieran Apter @ Mash House" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Club Nacht: Brain Dancing & Kieran Apter @ Mash House
 
@@ -148,17 +148,17 @@ Another opening show of the year, this time for Club Nacht as they welcome Brain
 
 £5 - £10 - Tickets here: [Bob Marley Birthday Special - Messenger Sound System at The Bongo Club, Edinburgh · Tickets (ra.co)](https://ra.co/events/1496302)
 
-</div></div>
+</div></div><hr>
 
 ## SUNDAY 13th February
 
-<div class="row"><div class="col top-ten-2021">
+<div class="row"><div class="col clubGuide">
 <img src="/news/club-guide/03-postal.jpg" alt="Postal: Franck b2b DV60 @ Sneaky Pete’s" width="85%" />
-</div><div class="col top-ten-2021">
+</div><div class="col clubGuide">
 
 ### Postal: Franck b2b DV60 @ Sneaky Pete’s
 
 Sneaky’s Sunday edition of Postal is bringing together two of the city’s hardest hitters in Franck (Carouse Records, childsplay) and DV60 (Volens Chorus) for a devastating b2b 4 hour session. A strong concoction of techno, electro, hardcore, & more will be served up to close out another epic week of clubbing on Cowgate.
 Tickets here: [Postal at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1496429)
 
-</div></div>
+</div></div><hr>
