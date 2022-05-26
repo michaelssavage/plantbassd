@@ -13,10 +13,10 @@ path: "fresh-juice"
 
 Buy/ Stream here XXX
 
-<img src="/fresh-juice/XXX.jpg" alt="XXX album art" width="95%" />
+<img src="/fresh-juice/XXX.jpg" alt="XXX album art" width="75%" />
 
 _XXX_
 
-<img src="/fresh-juice/XXX.jpg" alt="XXX cover pic" width="95%" />
+<img src="/fresh-juice/XXX.jpg" alt="XXX cover pic" width="75%" />
 
 _XXX_

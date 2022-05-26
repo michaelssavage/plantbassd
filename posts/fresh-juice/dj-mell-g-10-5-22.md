@@ -11,9 +11,13 @@ path: "fresh-juice"
 
 ### The third entry in quick succession from the thwarting DJ MELL G founded Juicy Gang Records lands with another joint effort, this time featuring the razor sharp aggressor that is DJ Fuckoff.
 
+<hr>
+
+_Words by Oisín Campbell/ Design by Michael Savage_
+
 Buy/ Stream here: https://juicygangrecords.bandcamp.com/album/juicy-class
 
-<img src="/fresh-juice/30-mell-g.jpg" alt="Juicy Class album art" width="95%" />
+<img src="/fresh-juice/30-mell-g.jpg" alt="Juicy Class album art" width="75%" />
 
 Following on from the initial collaborations with DJ Godfather and Karnage Kills on Juicy Gang, DJ MELL G strikes another fiery chord on JUICY CLASS with the domineering Kiwi, DJ Fuckoff. The sound delivered is once again raunch-fuelled and overflowing with bad attitude as the wicked Mell G bounce is given a crossover with the tenacious lyrics of Berlin based DJ Fuckoff.
 
@@ -21,7 +25,7 @@ An alluring DJ Fuckoff’ voicemail sets the sensual tone for the EP on opening 
 
 ‘LIKE IT FAST’ follows with another ode to the bedroom as Mel G and Fuckoff pick up the pace and the bass. The old school ghetto tech feel is met with more rigid hats and tappy broken beat breakdowns.
 
-<img src="/fresh-juice/30-side-b.jpg" alt="side b cover pic" width="95%" />
+<img src="/fresh-juice/30-side-b.jpg" alt="side b cover pic" width="75%" />
 
 The insatiable vocals that Karnage Kills provided on JGR003 are really challenged by DJ Fuckoff on JUICY CLASS, and the teasing ‘DEATH BY PUSSY’ is maybe the best example of this. DJ Fuckoff’s commanding vocals once more are the focal point against Mell’s broken booty bass rhythm that is laced with electro elements.
 

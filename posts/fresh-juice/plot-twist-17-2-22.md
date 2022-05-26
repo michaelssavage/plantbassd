@@ -11,9 +11,13 @@ path: "fresh-juice"
 
 ### Canadian electro and bass label Philthtrax land with their latest release from US artist Plot Twist, a 4 track spun out electronic voyage dubbed ‘New Futures’.
 
+<hr>
+
+_Words by Oisín Campbell/ Design by Michael Savage_
+
 We chatted to Cherriep from the label about the foundations and inspiration behind Philthtrax and the latest release to bear fruit on their back catalog which has featured hitters like DJ Nasty, Garneau, Criminal Practice, & many more.
 
-<img src="/fresh-juice/14-plot-twist.jpg" alt="plot twist album art" width="95%" />
+<img src="/fresh-juice/14-plot-twist.jpg" alt="plot twist album art" width="75%" />
 
 (Buy/ Listen here [New Futures | Plot Twist | Philthtrax (bandcamp.com)](https://philthtrax.bandcamp.com/album/new-futures))
 
@@ -24,7 +28,7 @@ The Philthtrax world could fall under many branches of sound with its vast and d
 
 By the time they had the label up and running, the footwork scene had blown up exponentially, and soon the focus of Philthtrax shifted towards ghetto tech, and pressing records of that ilk. This eventually led to working with some of the great innovators of the sound in Detroit’s Filthiest aka DJ Nasty, Body Mechanic, Mr. De’, DJ Deeon, DJ Godfather and more.
 
-<img src="/fresh-juice/14-philthtrax.jpg" alt="philthtrax cover art" width="95%" />
+<img src="/fresh-juice/14-philthtrax.jpg" alt="philthtrax cover art" width="75%" />
 
 As the label has matured it has maintained its pressing of a high-volume of ghetto tech and electro records, as well as taking focus on the continuous conveyor belt of talent coming from the likes of the Russian Federation and it’s multifaceted wave of electro & bass producers (think Snarexx, Mix Master Kutyma, DJ Karawai). This span in time has also seen Ghostwhip go on to form the ‘Posse Up’ label which has also become a staple for hard club trax.
 

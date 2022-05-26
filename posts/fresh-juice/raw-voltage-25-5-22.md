@@ -11,6 +11,10 @@ path: "fresh-juice"
 
 ### Constant releasers, Portugal’s Ovelha Trax land with yet another Various Artists compilation sharing tracks from global producers that amass the typical label sounds of electro, ghetto tech and rave.
 
+<hr>
+
+_Words by Oisín Campbell/ Design by Michael Savage_
+
 Buy/ Stream here [VA. Raw Voltage | Ovelha Trax](https://ovelhatrax.bandcamp.com/album/va-raw-voltage)
 
 <img src="/fresh-juice/35-raw-voltage.jpg" alt="raw voltage album art" width="85%" />

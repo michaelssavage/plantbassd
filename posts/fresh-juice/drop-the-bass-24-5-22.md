@@ -11,15 +11,19 @@ path: "fresh-juice"
 
 ### Mysteriously crafted and delivered, the Generator Drops the Bass on the latest entry to the Philthtrax global catalogue.
 
+<hr>
+
+_Words by Oisín Campbell/ Design by Michael Savage_
+
 Buy/ stream here: [Drop The Bass | Generator | Philthtrax (bandcamp.com)](https://philthtrax.bandcamp.com/album/drop-the-bass)
 
-<img src="/fresh-juice/34-generator.jpg" alt="generator album art" width="95%" />
+<img src="/fresh-juice/34-generator.jpg" alt="generator album art" width="75%" />
 
 Splashing up sounds inspired by old school electro breaks and Miami hip-hop, Generator amasses Drexciya-esque elements with well expressioned electro and bass foundations. Already the third release of the calendar year for Canadian outfit Philthtrax, ‘Drop The Bass’ whacks up more intense, club friendly tracks than the releases that preceded it with the spaced out and gorgeously textured EP’s that came from Snarexx and and Plot Twist.
 
 Title track ‘Drop The Bass’ kicks up a well established fuss from the get go with its clanging effects and shuffling electro breaks. Squidgy electro and acidic lines are brought up to Miami bass speed with fragments of hip-hop that help maintain a funkin’ groove throughout. A block-rocking track that could rip up any party!
 
-<img src="/fresh-juice/34-cover.png" alt="philthtrax cover pic" width="95%" />
+<img src="/fresh-juice/34-cover.png" alt="philthtrax cover pic" width="75%" />
 
 ‘Shake That’ takes on a slightly darker electro feel that ticks alongside strands of classic breakbeat and jungle. Sensual vocal samples and arcade style bleeps help to fuse the groove with the track’s more serious percussion.
 

@@ -11,7 +11,11 @@ path: "fresh-juice"
 
 ### We caught up with label honcho Carl who has been steering the ship behind one of Glasgow’s best kept secrets for the last 10+ years.
 
-<img src="/fresh-juice/11-clandest-lp.jpg" alt="THEE ALPHA AND THEE OMEGA VOL IX" width="95%" />
+<hr>
+
+_Words by Oisín Campbell/ Design by Michael Savage_
+
+<img src="/fresh-juice/11-clandest-lp.jpg" alt="THEE ALPHA AND THEE OMEGA VOL IX" width="75%" />
 
 Glasgow’s Clan Destine Records arrive with the ninth installment in their ‘ALPHA AND OMEGA‘ compilation series with a disturbing concoction of booty shaking juke, footwork, jungle, breaks, grime, electro, ghetto tech, hip hop and phonk.
 
@@ -21,7 +25,7 @@ Initially a platform for the post punk scene in Glasgow around the time of 2009,
 
 How would one best sum up the world of Clan Destine? ‘A total hot mess’ says Carl. A label that promises to strictly release only what they enjoy. ‘We don’t want to belong or fit in anywhere and don’t give a flying f\*ck about the music industry, it’s all about the music’. When digging through the releases that have come out of the imprint, it is evident that there are no patterns. Every release has its own unique identity, with each one giving the middle finger to the rule book in a true punk, DIY fashion.
 
-<img src="/fresh-juice/11-records.jpg" alt="clan destine records" width="95%" />
+<img src="/fresh-juice/11-records.jpg" alt="clan destine records" width="75%" />
 
 This motive has seen the sound of Clan Destine constantly diversify from its original punk roots into the realms of hip hop, electro, ghetto tech, trap, black metal & more. All these sounds filter through the gothic aesthetic that the Glaswegian outfit has become renowned for, resulting in some of the most interesting and obscure releases you're likely to endure in a calendar year.
 

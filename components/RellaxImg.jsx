@@ -37,7 +37,7 @@ export default function RellaxImg() {
         <div className={`animate ${styles.textShape}`}>
           <h1 className="header">Plant Bass'd</h1>
 
-          <p>
+          <p className={styles.profileText}>
             Profiling the experimental dance music world and throwing parties in
             between.
           </p>
