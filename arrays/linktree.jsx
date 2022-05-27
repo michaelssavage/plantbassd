@@ -1,5 +1,10 @@
 export const linkList = [
   {
+    title: "Magic the Gabbering by Bitten Twice",
+    link: "https://www.plantbassd.com/fresh-juice/magic-the-gabbering-27-5-22",
+    icon: "fresh juice",
+  },
+  {
     title: "Raw Voltage V/A by Ovelha Trax",
     link: "https://www.plantbassd.com/fresh-juice/raw-voltage-25-5-22",
     icon: "fresh juice",
