@@ -13,13 +13,13 @@ path: "fresh-juice"
 
 <hr>
 
-_Words by Oisín Campbell/ Design by Michael Savage_
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
 Once again, Cartin embodies a range of eclectic percussion, vocals, and instrumental arrangements that emerge as high energy club tracks amassing dub techno and tightly knit breaks.
 
-Buy/ Stream here: https://cartinaf.bandcamp.com/album/u-got-my-number-endz
-
 <img src="/fresh-juice/26-endz.jpg" alt="Endz album art" width="75%" />
+
+Buy/ Stream here: https://cartinaf.bandcamp.com/album/u-got-my-number-endz
 
 One of the most exciting talents to emerge from the north of Ireland in recent memory, Cartin’s stock is bolstered even further with this release after his memorable 2021 ‘Bunk’ entry on Belfast label Nocturne. If that release hadn’t caught your attention, then his rip-roaring guitar fuelled Boiler Room live set at the latest edition of AVA Festival certainly should have.
 

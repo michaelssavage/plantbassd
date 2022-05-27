@@ -13,11 +13,11 @@ path: "fresh-juice"
 
 <hr>
 
-_Words by Oisín Campbell/ Design by Michael Savage_
-
-Buy/ Stream here https://djhank.bandcamp.com/album/city-stars
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
 <img src="/fresh-juice/19-dj-hank.jpg" alt="DJ Hank album art" width="75%" />
+
+Buy/ Stream here https://djhank.bandcamp.com/album/city-stars
 
 Landing on the giant London-based label Hyperdub, DJ HANK finds himself in fine company with alumni including Burial, Proc Fiskal, Lorraine James, and Kode9 to name but a handful. Hailing from North Carolina, Hank repositioned himself to Chicago aged 18 where he became immersed in the city’s vibrant footwork scene. There he frequented the city’s footwork battle nights, most notably the Battlegroundz affair, which in turn led to a push towards the production end of things.
 

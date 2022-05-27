@@ -13,7 +13,7 @@ path: "fresh-juice"
 
 <hr>
 
-_Words by Oisín Campbell/ Design by Michael Savage_
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
 <img src="/fresh-juice/10_JC01.jpg" alt="JC01 Album Art" width="75%" />
 

@@ -13,7 +13,7 @@ path: "fresh-juice"
 
 <hr>
 
-_Words by Oisín Campbell/ Design by Michael Savage_
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
 An ode to the sounds of the 90s UK scene with trickles of Baltimore, breakcore and footwork, Sweeney effortlessly transcends through 132 to 195 bpm, telling the story of these definitive genres in dance music along the way.
 

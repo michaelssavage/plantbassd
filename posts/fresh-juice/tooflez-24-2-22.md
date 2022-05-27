@@ -13,13 +13,13 @@ path: "fresh-juice"
 
 <hr>
 
-_Words by Oisín Campbell/ Design by Michael Savage_
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+
+<img src="/fresh-juice/16-tooftrax.png" alt="tooftrax202 album art" width="75%" />
 
 A 7 track thriller of zorbing electro and ghetto tech filled with nods to the original Detroit and New York sounds.
 
 Available to buy and stream now: [tooftrax202-sonic-transmissions-for-the-resistance](https://tooflezmuzik.bandcamp.com/album/tooftrax202-sonic-transmissions-for-the-resistance)
-
-<img src="/fresh-juice/16-tooftrax.png" alt="tooftrax202 album art" width="75%" />
 
 Describing themselves as more than just a label, Tooflez is a movement striving to break down the barriers of modern day music culture and breathe new life into the communal nature that we all as creatives hold so dear. With their musical weapons of restoration at hand, the collective are closing the gap on gender and racial diversity within their community and beyond by sharing skills, knowledge, and equipment with those working in their environment. A co-operative collective if you will, and to boot they have an ever growing discography with a roster including the likes of jpeg.love, DJ Karawai, AK Sports, & more.
 

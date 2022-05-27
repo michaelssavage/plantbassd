@@ -13,7 +13,7 @@ path: "fresh-juice"
 
 <hr>
 
-_Words by Oisín Campbell/ Design by Michael Savage_
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
 <img src="/fresh-juice/11-clandest-lp.jpg" alt="THEE ALPHA AND THEE OMEGA VOL IX" width="75%" />
 

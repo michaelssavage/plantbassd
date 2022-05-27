@@ -7,18 +7,17 @@ bandcamp: "https://bittentwicecollective.bandcamp.com/album/magic-the-gabbering"
 postLink: "https://www.instagram.com/plantbassd___"
 bio: "Dublin-based hardcore experimental contingent Bitten Twice cough up their next manic episode on the full throttle Magic the Gabbering..."
 path: "fresh-juice"
-words: Words by Oisín Campbell/ Design by Michael Savage
 ---
 
 ### Dublin-based hardcore experimental contingent Bitten Twice cough up their next manic episode on the full throttle Magic the Gabbering.
 
 <hr>
 
-_Words by Oisín Campbell/ Design by Michael Savage_
-
-Buy/ Stream here: [Magic the Gabbering | Bitten Twice](https://bittentwicecollective.bandcamp.com/album/magic-the-gabbering)
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
 <img src="/fresh-juice/36-bitten-twice.png" alt="Magic the Gabbering album art" width="75%" />
+
+Buy/ Stream here: [Magic the Gabbering | Bitten Twice](https://bittentwicecollective.bandcamp.com/album/magic-the-gabbering)
 
 Growingly notorious within the Dublin electronic scene, Bitten Twice have been making a startling noise in the city both as a collective and individually for a number of years now. Consisting of Julia Louise Knifefist, Rory Sweeney, and Fomorian Vein, the imprint has embedded a frightening concoction of hardcore, gabber, and jungle inspired sounds within both their releases, as well as their stage presence.
 
@@ -28,7 +27,7 @@ Magic the Gabbering sees all three heads spin their own takes on the definitive 
 
 Knifefist follows on this form with ‘David Blaine’. Another gut-wrenching gabber hit that establishes itself with its eerie-backgrounds, well-positioned vocal samples, and immense kicks and hats.
 
-<img src="/fresh-juice/36-twice.png" alt="bitten twice cover pic" width="75%" />
+<img src="/fresh-juice/36-twice.png" alt="bitten twice cover pic" width="100%" />
 
 Fomorian Vein closes out with a more comforting dreamy background on ‘Kyteler & Petronella’. As expected, the reserved approach inevitably collides with stabbing kicks that are less serious in their depth than the preceding tracks, but all the same pack a formidable punch. Junglistic breakdowns allow the airy pallet to re-emerge into this twisted druid’s brew before more tentative kicks close out the gabbering.
 
