@@ -53,6 +53,10 @@ p {
   font-size: $paragraph;
 }
 
+.smallText {
+  font-size: $cardSmall;
+}
+
 img {
   display: block;
   margin-left: auto;

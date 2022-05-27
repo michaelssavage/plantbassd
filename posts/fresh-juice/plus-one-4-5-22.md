@@ -13,11 +13,11 @@ path: "fresh-juice"
 
 <hr>
 
-_Words by Michael Savage/ Design by Michael Savage_
-
-Buy/ Stream here: https://mattfinneganplusone.bandcamp.com/album/midnight-dub-vol-1
+<p class="smallText"><i>Words by Michael Savage/ Design by Michael Savage</i></p>
 
 <img src="/fresh-juice/28_midnight-dubs.png" alt="midnight dubs album art" width="75%" />
+
+Buy/ Stream here: https://mattfinneganplusone.bandcamp.com/album/midnight-dub-vol-1
 
 PLUS ONE has proven himself to be a versatile producer and DJ with a dedication to advancing his sound using whatever inspiration he can find. In this case, it’s the sound of racing games from his childhood such as cult favourites Midnight Club and Need For Speed Underground. The Irishman shines most with the use of atmospheric elements in his compositions and if you check out who creates most of his artwork, you can build a mental image of a blissful harmonious relationship between Matt and HIS plus one.
 

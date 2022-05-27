@@ -13,11 +13,11 @@ path: "fresh-juice"
 
 <hr>
 
-_Words by Oisín Campbell/ Design by Michael Savage_
-
-We chatted to Cherriep from the label about the foundations and inspiration behind Philthtrax and the latest release to bear fruit on their back catalog which has featured hitters like DJ Nasty, Garneau, Criminal Practice, & many more.
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
 <img src="/fresh-juice/14-plot-twist.jpg" alt="plot twist album art" width="75%" />
+
+We chatted to Cherriep from the label about the foundations and inspiration behind Philthtrax and the latest release to bear fruit on their back catalog which has featured hitters like DJ Nasty, Garneau, Criminal Practice, & many more.
 
 (Buy/ Listen here [New Futures | Plot Twist | Philthtrax (bandcamp.com)](https://philthtrax.bandcamp.com/album/new-futures))
 

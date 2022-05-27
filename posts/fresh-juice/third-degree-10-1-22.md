@@ -13,7 +13,7 @@ path: "fresh-juice"
 
 <hr>
 
-_Words by Oisín Campbell/ Design by Michael Savage_
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
 <img src="/fresh-juice/09_hazmat-album-art.jpg" alt="third degree hazmat album art" width="75%" />
 
