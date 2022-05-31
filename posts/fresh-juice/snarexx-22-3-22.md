@@ -11,15 +11,15 @@ path: "fresh-juice"
 
 ### Snarexx reappears on the St. Petersburg based, electro connoisseuring Urban, this time with an EP of his own.
 
-<hr>
-
-<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
-
-<img src="/fresh-juice/24-Snarexx.jpg" alt="Dancetrumentals album art" width="75%" />
-
 4 tracks of tappy Detroit-fused electro bytes delivered with a helping hand from Intruder.wav on the close.
 
 Buy/ stream here https://urbanstghetto.bandcamp.com/album/dancetrumentals
+
+<img src="/fresh-juice/24-Snarexx.jpg" alt="Dancetrumentals album art" width="75%" />
+
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+
+<hr>
 
 Following a string of reputable releases on credible labels such as Habibi Bass, urwaxx, and Posse Up, Snarexx has distinguished himself within the Detroit inspired electro revival in Eastern Europe and beyond with infectious cuts that tackle booty house, ghetto tech, and classic 808 and synth driven electro sounds. After two formidable releases in 2021 with ‘Return of The Space Bass’ on urwaxx and ‘Bass Tales’ on Habibi Bass, which took on more cosmic electro journeys, ‘Dancetrumentals’ takes on more of a street, block-rocking sound that rides heavy on 808 and break lines alongside some darker synth lines and funk.
 

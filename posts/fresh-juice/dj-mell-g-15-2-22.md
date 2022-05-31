@@ -11,13 +11,13 @@ path: "fresh-juice"
 
 ### DJ MELL G spanks back once more with a second balls to the wall installment on her recently ignited Juicy Gang Records. ‘PU$$Y GALORE’ sees Mell team up with rising queer UK grime force, KARNAGE KILLS, for a three track trip to divinity!
 
-<hr>
-
-<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+(Listen & Buy the EP now here [PU$$Y GALORE | KARNAGE KILLS X DJ MELL G | JUICY GANG RECORDS (bandcamp.com)](https://juicygangrecords.bandcamp.com/album/pu-y-galore).
 
 <img src="/fresh-juice/13-front-pg.jpg" alt="pussy galore album art" width="75%" />
 
-(Listen & Buy the EP now here [PU$$Y GALORE | KARNAGE KILLS X DJ MELL G | JUICY GANG RECORDS (bandcamp.com)](https://juicygangrecords.bandcamp.com/album/pu-y-galore).
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+
+<hr>
 
 Opening track ‘ON MY MIND’ instantly outlines the perfect combination that this collaboration is set to play out. A thundering bass line with shrieking drums and alarm sounds beautifully lines up with the bad attitude lyrics of Karnage Kills. Bolstered by floatier key melodies throughout, this is a sensual dark room slammer from MELL G which picks up right where the ‘COPS CAN’T DANCE’ effort with DJ Godfather left off.
 

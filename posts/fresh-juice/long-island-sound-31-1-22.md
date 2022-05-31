@@ -11,11 +11,13 @@ path: "fresh-juice"
 
 ### Long Island Sound are duo Rob Roche and Tim Nolan, who've just released their EP _First Contact_ on Irish artist Hammer's label, _Remmah_.
 
-<hr>
-
-<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+Buy/ Stream here: https://thehammerhits.bandcamp.com/album/first-contact-ep
 
 <img src="/fresh-juice/12-long-island-sound-ep.jpg" alt="first contact album art" width="75%" />
+
+<p class="smallText"><i>Words by Michael Savage/ Design by Michael Savage</i></p>
+
+<hr>
 
 Hailing from Dublin, the duo have created a phenomenal release of ambient and pulsing cuts that find tranquil moments in space throughout.
 

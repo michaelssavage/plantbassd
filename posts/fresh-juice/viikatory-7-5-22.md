@@ -11,13 +11,13 @@ path: "fresh-juice"
 
 ### International Chrome mainstay and master of the electro dark arts, Viikatory continues to rampage on ‘Based On Your Listening History’.
 
-<hr>
-
-<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+(Buy/ Listen here) [viikatory-based-on-your-listening-history](https://raiders.bandcamp.com/album/viikatory-based-on-your-listening-history)
 
 <img src="/fresh-juice/29_Viikatory.png" alt="BOYLH album art" width="75%" />
 
-(Buy/ Listen here) [viikatory-based-on-your-listening-history](https://raiders.bandcamp.com/album/viikatory-based-on-your-listening-history)
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+
+<hr>
 
 Landing on the ever fruitful Berlin imprint ‘Raiders’, Viikatory’s intergalactic take on all things electro is once more the point of issue on this spell-binding 4 tracker. Described by the label as ‘Uberzone meets DJ Godfather in a space elevator heading to a rave in low earth orbit’, the Bellarussian’s cosmic yet defiant touch pulsates with every release.
 

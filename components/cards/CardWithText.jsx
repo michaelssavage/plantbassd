@@ -5,15 +5,13 @@ import PropTypes from "prop-types";
 
 import styles from "@/styles/card.module.scss";
 
-export default function CardWithText({ post, link }) {
+export default function CardWithText({
+  post,
+  link,
+  columns = "col-6 col-sm-6 col-md-6 col-lg-3",
+}) {
   return (
-    <div
-      className={`
-			col-6 
-			col-sm-6 
-			col-md-6 
-			col-lg-3`}
-    >
+    <div className={columns}>
       <Link href={link}>
         <a className="anchorColor">
           <div className={`card ${styles.cardStyle}`}>
@@ -41,6 +39,7 @@ export default function CardWithText({ post, link }) {
 }
 
 CardWithText.propTypes = {
+  columns: PropTypes.string,
   link: PropTypes.string.isRequired,
   post: PropTypes.instanceOf(Object).isRequired,
 };

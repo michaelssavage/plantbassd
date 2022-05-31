@@ -11,15 +11,14 @@ path: "fresh-juice"
 
 ### Dundonian purveyors of electro, Hilltown Disco continue their now longstanding V/A collaboration with Art Angel
 
-<hr>
+Now in it’s 8th edition with the Raziel release, the imprint delivers 5 electro stunners from Alex Jann, Atix, Dexorcist, Sentient State and Weith.
+
+Buy/ Listen here: https://hilltowndiscouk.bandcamp.com/album/raziel
+<img src="/fresh-juice/18-raziel.jpg" alt="Raziel album art" width="75%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-Now in it’s 8th edition with the Raziel release, the imprint delivers 5 electro stunners from Alex Jann, Atix, Dexorcist, Sentient State and Weith.
-
-<img src="/fresh-juice/18-raziel.jpg" alt="Raziel album art" width="75%" />
-
-Buy/ Listen here: https://hilltowndiscouk.bandcamp.com/album/raziel
+<hr>
 
 After last years pulsating Asbeel and Zadkiel releases with Art Angel, Hilltown Disco once again show off their eclectic electro tastes as they bring together acts from the US, France and the UK to add to their already staggering alumni.
 

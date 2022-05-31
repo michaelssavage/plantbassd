@@ -11,13 +11,13 @@ path: "fresh-juice"
 
 ### Mysteriously crafted and delivered, the Generator Drops the Bass on the latest entry to the Philthtrax global catalogue.
 
-<hr>
-
-<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+Buy/ stream here: [Drop The Bass | Generator | Philthtrax (bandcamp.com)](https://philthtrax.bandcamp.com/album/drop-the-bass)
 
 <img src="/fresh-juice/34-generator.jpg" alt="generator album art" width="75%" />
 
-Buy/ stream here: [Drop The Bass | Generator | Philthtrax (bandcamp.com)](https://philthtrax.bandcamp.com/album/drop-the-bass)
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+
+<hr>
 
 Splashing up sounds inspired by old school electro breaks and Miami hip-hop, Generator amasses Drexciya-esque elements with well expressioned electro and bass foundations. Already the third release of the calendar year for Canadian outfit Philthtrax, ‘Drop The Bass’ whacks up more intense, club friendly tracks than the releases that preceded it with the spaced out and gorgeously textured EP’s that came from Snarexx and and Plot Twist.
 

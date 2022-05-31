@@ -11,11 +11,11 @@ path: "fresh-juice"
 
 ### Next up under the Plant Bass’d microscope is a riveting compilation from Australian label, Third Degree Records.
 
-<hr>
+<img src="/fresh-juice/09_hazmat-album-art.jpg" alt="third degree hazmat album art" width="75%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<img src="/fresh-juice/09_hazmat-album-art.jpg" alt="third degree hazmat album art" width="75%" />
+<hr>
 
 Fronted by Nora Zion & Super Flog, the Hazardous Materials V/A brings together a selection of organised chaos with entries from a host of Perth producers alongside some friends from the UK.
 

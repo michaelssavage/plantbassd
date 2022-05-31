@@ -11,11 +11,11 @@ path: "fresh-juice"
 
 ### Jason Code returns with more kamikaze breaks and dubs on his self-released ‘JCO1’ effort.
 
-<hr>
+<img src="/fresh-juice/10_JC01.jpg" alt="JC01 Album Art" width="75%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<img src="/fresh-juice/10_JC01.jpg" alt="JC01 Album Art" width="75%" />
+<hr>
 
 Having just come off the back of his explosive Scuffed debut with ‘HOT!’ (Listen: https://jasoncode.bandcamp.com/album/hot-ep), the Seattle native is beginning to forge a signature sound that fuses bassy/dubstep sounds with shuffling juke and speed garage rhythms in devastating fashion.
 

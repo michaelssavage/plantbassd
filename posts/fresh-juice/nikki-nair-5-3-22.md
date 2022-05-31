@@ -11,13 +11,13 @@ path: "fresh-juice"
 
 ### US bass and breaks dynamo Nikki Nair shares his next turn on Cheeky Music’s Breaks ‘N’ Pieces series, featuring 5 percussion heavy prowlers.
 
-<hr>
-
-<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+Buy/ Stream here https://cheekymusicgroup.bandcamp.com/album/breaks-n-pieces-vol-18
 
 <img src="/fresh-juice/21-nikki-art.jpg" alt="Breaks n pieces album art" width="75%" />
 
-Buy/ Stream here https://cheekymusicgroup.bandcamp.com/album/breaks-n-pieces-vol-18
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+
+<hr>
 
 The multi-dimensional, aggressive sound of Nikki Nair tests itself further on volume 18 of Breaks ‘N’ Pieces as his forward thinking, chizzling percussive led cuts push the decibels yet again. Releases on Scuffed, Dirtybird, and Lobster Theremin, has seen his sound blossom across many waters, leaving an ever-growing anticipation for his every release.
 

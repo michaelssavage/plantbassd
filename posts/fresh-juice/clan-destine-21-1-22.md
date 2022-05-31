@@ -11,11 +11,11 @@ path: "fresh-juice"
 
 ### We caught up with label honcho Carl who has been steering the ship behind one of Glasgow’s best kept secrets for the last 10+ years.
 
-<hr>
+<img src="/fresh-juice/11-clandest-lp.jpg" alt="THEE ALPHA AND THEE OMEGA VOL IX" width="75%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<img src="/fresh-juice/11-clandest-lp.jpg" alt="THEE ALPHA AND THEE OMEGA VOL IX" width="75%" />
+<hr>
 
 Glasgow’s Clan Destine Records arrive with the ninth installment in their ‘ALPHA AND OMEGA‘ compilation series with a disturbing concoction of booty shaking juke, footwork, jungle, breaks, grime, electro, ghetto tech, hip hop and phonk.
 
