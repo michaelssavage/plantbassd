@@ -11,9 +11,9 @@ path: "fresh-juice"
 
 ### Rory Sweeney recently dropped his new body of work under the Carlos Danger alias, spanning 12 tracks of breaks/ garage/ jungle and hardcore.
 
-<hr>
-
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+
+<hr>
 
 An ode to the sounds of the 90s UK scene with trickles of Baltimore, breakcore and footwork, Sweeney effortlessly transcends through 132 to 195 bpm, telling the story of these definitive genres in dance music along the way.
 

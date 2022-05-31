@@ -11,14 +11,15 @@ path: "fresh-juice"
 
 ### Acid Avengers rolls into the 20’s with another split edition, this time featuring Maelstrom, Locked Club and RLGN.
 
-<hr>
+5 tracks that tackle the squelch, weighty bass and all things ravey and wavy.
 
-<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+Buy/ Stream here https://tripalium.bandcamp.com/album/aar021-maelstrom-locked-club-rlgn-acid-avengers-021
 
 <img src="/fresh-juice/25-acid-avengers.jpg" alt="Acid Avengers album art" width="75%" />
 
-5 tracks that tackle the squelch, weighty bass and all things ravey and wavy.  
-Buy/ Stream here https://tripalium.bandcamp.com/album/aar021-maelstrom-locked-club-rlgn-acid-avengers-021
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+
+<hr>
 
 A sub-series of the French imprint Tripalium Corp, Acid Avengers has brought together some of the great heavyweights of the modern electro scene with past editions featuring the likes of DeFeKt, Nite Fleit, and Posthuman. This entry sees the return of Maelstrom (France) alongside Russian punks Locked Club and RLGN as they offer up five acidic pumpers, full of tuff drums and TB-303.
 

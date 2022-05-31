@@ -11,15 +11,15 @@ path: "fresh-juice"
 
 ### The notorious Edinburgh based party series Headset expands to record label heights with its first release coming from regular affiliate, Creep Woland.
 
-<hr>
-
-<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
-
-<img src="/fresh-juice/33-cover.jpg" alt="headset album art" width="75%" />
-
 4 tracks of floating, atmospheric breaks and 2-step that resonate deeply with the sounds that have become synonymous with Headset over the years.
 
 (Buy/ Stream here) https://headset-scotland.bandcamp.com/album/headset001
+
+<img src="/fresh-juice/33-cover.jpg" alt="headset album art" width="75%" />
+
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+
+<hr>
 
 Backed by somewhat of a cult figure in Edinburgh’s electronic scene, Skillis’ Headset laid its foundations in the city in 2014 initializing as an underground focused rave party at the well respected Bongo Club. It has been a mainstay on Edinburgh’s fabled Cowgate ever since, hailed as one of the most attended and respected parties in all of Scotland. Recent guest bookings like UNiiQU3, Yung Singh, Batu, and Jeremy Sylvester, offer up an idea into the typical sounds that are associated with the Headset imprint.
 

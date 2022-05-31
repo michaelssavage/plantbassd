@@ -11,12 +11,13 @@ path: "fresh-juice"
 
 ### The third entry in quick succession from the thwarting DJ MELL G founded Juicy Gang Records lands with another joint effort, this time featuring the razor sharp aggressor that is DJ Fuckoff.
 
-<hr>
+Buy/ Stream here: https://juicygangrecords.bandcamp.com/album/juicy-class
 
-<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 <img src="/fresh-juice/30-mell-g.jpg" alt="Juicy Class album art" width="75%" />
 
-Buy/ Stream here: https://juicygangrecords.bandcamp.com/album/juicy-class
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+
+<hr>
 
 Following on from the initial collaborations with DJ Godfather and Karnage Kills on Juicy Gang, DJ MELL G strikes another fiery chord on JUICY CLASS with the domineering Kiwi, DJ Fuckoff. The sound delivered is once again raunch-fuelled and overflowing with bad attitude as the wicked Mell G bounce is given a crossover with the tenacious lyrics of Berlin based DJ Fuckoff.
 

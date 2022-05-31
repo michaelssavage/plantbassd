@@ -3,7 +3,6 @@ import Error from "components/Error";
 import FilterTags from "components/FilterTags";
 import Footer from "components/Footer";
 import Head from "next/head";
-import Link from "next/link";
 import PropTypes from "prop-types";
 import fs from "fs";
 import matter from "gray-matter";
@@ -21,7 +20,7 @@ const newsTags = [
   { name: "premieres", value: false },
 ];
 
-export default function NewsPage({ files }) {
+export default function ArchivePage({ files }) {
   const { error, handleTags, hasErrored, newsStories, tagList } = useFilterTags(
     newsTags,
     "news",
@@ -35,41 +34,23 @@ export default function NewsPage({ files }) {
   return (
     <>
       <Head>
-        <title>Plant Bass'd News</title>
+        <title>Plant Bass'd Archive</title>
       </Head>
-      <div className={styles.newsBG}>
+      <div className={styles.takeoverBG}>
         <div className="container">
-          <h1 className={styles.pageHeader}>Plant Bass'd News</h1>
-
-          <p className={styles.pageText}>
-            News about club guides, gigs, and all things Plant Bass'd. Keep up
-            to date on our Instagram,{" "}
-            <a
-              className="blackAnchor"
-              href="http://instagram.com/plantbassd___"
-            >
-              @plantbassd___
-            </a>
-          </p>
+          <h1 className={styles.pageHeader}>Plant Bass'd Archive</h1>
 
           <FilterTags handleTags={handleTags} tagList={tagList} />
 
           <div className="row g-3">
             {newsStories.map((story) => (
               <CardWithText
+                columns="col-4 col-sm-4 col-md-4 col-lg-2"
                 key={story.frontmatter.title}
                 link={`/${story.frontmatter.path}/${story.slug}`}
                 post={story}
               />
             ))}
-          </div>
-
-          <div className={styles.viewAllBtn}>
-            <Link href="/archive">
-              <a className="btn btn-dark btn-lg px-5 py-2" type="button">
-                View All Posts
-              </a>
-            </Link>
           </div>
 
           <GoBack />
@@ -108,7 +89,7 @@ export async function getStaticProps() {
     return allPosts;
   };
 
-  const files = getAllPosts("posts").sort(sortByDate).reverse().slice(0, 40);
+  const files = getAllPosts("posts").sort(sortByDate).reverse();
 
   return {
     props: {
@@ -117,6 +98,6 @@ export async function getStaticProps() {
   };
 }
 /* eslint-enable */
-NewsPage.propTypes = {
+ArchivePage.propTypes = {
   files: PropTypes.arrayOf(PropTypes.instanceOf(Object)).isRequired,
 };

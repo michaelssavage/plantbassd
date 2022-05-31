@@ -11,13 +11,13 @@ path: "fresh-juice"
 
 ### Cork-born and Edinburgh-based producer HhÉiR arrives with his debut EP on Irish label Verve. Two tracks of momentary bliss that drift between electro, bass, funky, and atmospheric club.
 
-<hr>
-
-<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+Buy/ Stream here https://hheir.bandcamp.com/album/preliminal-ep
 
 <img src="/fresh-juice/20-preliminal.jpg" alt="preliminal album art" width="75%" />
 
-Buy/ Stream here https://hheir.bandcamp.com/album/preliminal-ep
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+
+<hr>
 
 Constructed during the challenging nights of lockdown with an Akai APC and a range of samples, the Preminal EP began to take its shape, as too did the HhÉiR (Olan Cahill) moniker.
 Hoping to amass a sound that captured the distant atmosphere of clubs at the time, Olan has arranged two elating yet healing tracks that lean heavy on well grooved percussion and soothing melodies.

@@ -11,13 +11,13 @@ path: "fresh-juice"
 
 ### Constant releasers, Portugal’s Ovelha Trax land with yet another Various Artists compilation sharing tracks from global producers that amass the typical label sounds of electro, ghetto tech and rave.
 
-<hr>
-
-<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+Buy/ Stream here [VA. Raw Voltage | Ovelha Trax](https://ovelhatrax.bandcamp.com/album/va-raw-voltage)
 
 <img src="/fresh-juice/35-raw-voltage.jpg" alt="raw voltage album art" width="85%" />
 
-Buy/ Stream here [VA. Raw Voltage | Ovelha Trax](https://ovelhatrax.bandcamp.com/album/va-raw-voltage)
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+
+<hr>
 
 From an ever-reliable bank of V/A’s and producer EP’s, the Portuguese independent rave label Ovelha Trax have been making continuous noise in electro circles since September of last year. Their output in this time has seen them release 6 V/A’s alongside 6 artist EP’s from continental acts like Sophie Forrest, Play Boy Joe, and Svzz. 12 releases in total in the space of 9 months from the label’s foundation indicates the prowess the label is trying to establish with it’s growing roster of esteemed electro, ghetto and rave producers helping to craft the imprint’s now distinguishable sound.
 

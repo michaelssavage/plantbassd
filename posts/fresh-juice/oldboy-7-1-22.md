@@ -11,14 +11,15 @@ path: "fresh-juice"
 
 ### Sheffield’s Oldboy arrives with another quadruplet of grime laced breaks, dubstep, and garage instrumentals. The sequel that no one asked for says Oldboy, but one we most definitely think we deserved!
 
-<hr>
+The initial ‘Grimey Ones’ effort (listen: https://oldboytrax.bandcamp.com/album/grimey-ones) caught our attention last summer along with the ridiculous 128kpbs releases that the steel city based artist fronts with mates Phasmid, Xander, Papa Nugs, and Longeez, have firmly put Oldboy on our release radar.
 
-<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+(Listen: https://128kbps.bandcamp.com/album/now-thats-what-i-call-c-pyright-infringement-128)
 
 <img src="/fresh-juice/08_oldboy.jpg" alt="third degree hazmat album art" width="75%" />
 
-The initial ‘Grimey Ones’ effort (listen: https://oldboytrax.bandcamp.com/album/grimey-ones) caught our attention last summer along with the ridiculous 128kpbs releases that the steel city based artist fronts with mates Phasmid, Xander, Papa Nugs, and Longeez, have firmly put Oldboy on our release radar.
-(Listen: https://128kbps.bandcamp.com/album/now-thats-what-i-call-c-pyright-infringement-128)
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+
+<hr>
 
 Grimey Ones Part II introduces itself with a dark and shuffling dubstep effort in the shape of ‘LUV U’, which maintains a groove throughout with its consistent breaks and snappy voiceovers. Lead single ‘LOOSE SHELLS’ runs riot with a chippy 2 step rhythm that overlaps with Flowdan’s ‘Shell A Verse’ for a truly mad ting!
 

@@ -11,13 +11,13 @@ path: "fresh-juice"
 
 ### Dublin-based hardcore experimental contingent Bitten Twice cough up their next manic episode on the full throttle Magic the Gabbering.
 
-<hr>
-
-<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+Buy/ Stream here: [Magic the Gabbering | Bitten Twice](https://bittentwicecollective.bandcamp.com/album/magic-the-gabbering)
 
 <img src="/fresh-juice/36-bitten-twice.png" alt="Magic the Gabbering album art" width="75%" />
 
-Buy/ Stream here: [Magic the Gabbering | Bitten Twice](https://bittentwicecollective.bandcamp.com/album/magic-the-gabbering)
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+
+<hr>
 
 Growingly notorious within the Dublin electronic scene, Bitten Twice have been making a startling noise in the city both as a collective and individually for a number of years now. Consisting of Julia Louise Knifefist, Rory Sweeney, and Fomorian Vein, the imprint has embedded a frightening concoction of hardcore, gabber, and jungle inspired sounds within both their releases, as well as their stage presence.
 
