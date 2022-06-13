@@ -1,5 +1,10 @@
 export const linkList = [
   {
+    title: "SweatBox: Bitten Twice X Plant Bass'd",
+    link: "https://ra.co/events/1546542",
+    icon: "tickets",
+  },
+  {
     title: "OFK OO1 by Offtrack",
     link: "https://www.plantbassd.com/fresh-juice/offtrack-1-6-22",
     icon: "fresh juice",
