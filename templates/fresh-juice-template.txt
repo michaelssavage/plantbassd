@@ -11,14 +11,13 @@ path: "fresh-juice"
 
 ### XXX
 
-<hr>
-
-<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
-
+Buy/ Stream here: []()
 
 <img src="/fresh-juice/XXX.jpg" alt="XXX album art" width="75%" />
 
-Buy/ Stream here: []()
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+
+<hr>
 
 _XXX_
 
