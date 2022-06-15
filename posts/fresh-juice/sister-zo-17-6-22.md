@@ -1,6 +1,6 @@
 ---
 title: "FRESH JUICE: Freak Shift by Sister Zo"
-date: "June 17, 2022"
+date: "June 17, 2020"
 tags: "fresh juice"
 pic: "/fresh-juice/40-sister-zo_freak-shift.jpg"
 bandcamp: "https://sisterzo.bandcamp.com/album/freak-shift-ep"
