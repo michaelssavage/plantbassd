@@ -21,7 +21,7 @@ Buy/ Stream here: [DJ Ladybarn | Gunchester](https://ilpadrinorecords.bandcamp.c
 
 Il Padrino has been welcoming anyone and everyone to the party since its birth in 2014 out of Belfast showcasing the more elaborate side of club music. The past 8 years has seen the label sharing many different genres beit garage, footwork, or phonk, all the while carrying interesting themes and sharing the tracks to the world for free. It's a labour of love existing merely for the enjoyment of it all, and that passion evidently filters through to the music.
 
-Hailing from Fallowfield, Manchester, DJ Ladybarn has been a common provider to the imprint with his take on UK garage and break sounds. Previously inspired by phonk music as well old skool UKG and 2-step, Ladybarn has been pushing a more a break-beat and bass driven sound on recent releases, with nods to those previous inspirations clearly still evident in his productions.
+Hailing from Fallowfield, Manchester, DJ Ladybarn has been a common provider to the imprint with his take on UK garage and break sounds. Previously inspired by phonk music as well old skool UKG and 2-step, Ladybarn has been pushing a more break-beat and bass driven sound on recent releases, with nods to those previous inspirations clearly still evident in his productions.
 
 Gunchester was made with the intention of trying something new. A phonk-fused 2 step 4 tracker that pays homage to artists like Bicep, Overmono, MJ Cole, and many heads from the 90’s garage and house era, yet all the while it maintains its own unique atmospheric club feel.
 
@@ -35,6 +35,6 @@ Solidified by the formidable breakbeat of Overmono’s ‘So U Kno’ and laced 
 
 The stuttering shuffle of ‘Fade Into The Sky’ journeys the EP to its close with an alluring organ melody and more euphoric vocals and bass-lines. The mid-rift continues to gain weight with the track’s progression before drifting into the 2 step abyss.
 
-An impressive rendition from Ladybarn with these 4 uplifting garage spinners that are sure to help out during peak time in any intimate club settings. Il Padrino have added another stormer to their now vast locker that continues to grow by the month it seems at this stage.
+An impressive rendition from Ladybarn with these 4 uplifting garage spinners that are sure to help out during peak time in any intimate club settings. Il Padrino have added another stormer to their now vast locker that continues to grow month on month.
 
 Discover the extended Il Padrino catalogue here: https://ilpadrinorecords.bandcamp.com/
