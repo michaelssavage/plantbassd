@@ -5,6 +5,11 @@ export const linkList = [
     icon: "tickets",
   },
   {
+    title: "Bolt by HomeSick",
+    link: "https://www.plantbassd.com/fresh-juice/homesick-16-6-22",
+    icon: "fresh juice",
+  },
+  {
     title: "Gunchester by DJ Ladybarn",
     link: "https://www.plantbassd.com/fresh-juice/dj-ladybarn-15-6-22",
     icon: "fresh juice",
