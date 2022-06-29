@@ -1,8 +1,58 @@
 export const linkList = [
   {
-    title: "SweatBox @ Sneaky Pete's Tickets",
-    link: "https://ra.co/events/1530814",
+    title: "SweatBox: Bitten Twice X Plant Bass'd",
+    link: "https://ra.co/events/1546542",
     icon: "tickets",
+  },
+  {
+    title: "Bolt by HomeSick",
+    link: "https://www.plantbassd.com/fresh-juice/homesick-16-6-22",
+    icon: "fresh juice",
+  },
+  {
+    title: "Gunchester by DJ Ladybarn",
+    link: "https://www.plantbassd.com/fresh-juice/dj-ladybarn-15-6-22",
+    icon: "fresh juice",
+  },
+  {
+    title: "OFK OO1 by Offtrack",
+    link: "https://www.plantbassd.com/fresh-juice/offtrack-1-6-22",
+    icon: "fresh juice",
+  },
+  {
+    title: "Magic the Gabbering by Bitten Twice",
+    link: "https://www.plantbassd.com/fresh-juice/magic-the-gabbering-27-5-22",
+    icon: "fresh juice",
+  },
+  {
+    title: "Raw Voltage V/A by Ovelha Trax",
+    link: "https://www.plantbassd.com/fresh-juice/raw-voltage-25-5-22",
+    icon: "fresh juice",
+  },
+  {
+    title: "Drop The Bass by Generator",
+    link: "https://www.plantbassd.com/fresh-juice/drop-the-bass-24-5-22",
+    icon: "fresh juice",
+  },
+  {
+    title: "PREMIERE - 'Baby Gay Track' by Jack Ward",
+    link: "https://soundcloud.com/plantbassddjs/plant-bassd-premiere-jack-ward-baby-gay-track",
+    icon: "premiere",
+  },
+  {
+    title: "HEADSET001 by Creep Woland",
+    link: "https://www.plantbassd.com/fresh-juice/headset-13-5-22",
+    icon: "fresh juice",
+  },
+  {
+    title: "VIRTUAL VELOCITY by CLUB SP33D",
+    link: "https://www.plantbassd.com/fresh-juice/club-sp33d-12-5-22",
+    icon: "fresh juice",
+  },
+  {
+    title: "The Bumps by Selky",
+    link: "https://www.plantbassd.com/fresh-juice/selky-12-5-22",
+    icon: "fresh juice",
   },
   {
     title: "PREMIERE - 'Paradise' by Selky",
