@@ -1,8 +1,13 @@
 export const linkList = [
   {
-    title: "SweatBox: Bitten Twice X Plant Bass'd",
-    link: "https://ra.co/events/1546542",
-    icon: "tickets",
+    title: "Plant Bass'd Presents: Amor Satyr, Skillis & Doubt",
+    link: "https://ra.co/events/1550775",
+    icon: "tickets"
+  },
+  {
+    title: "Life Simulator by POUCH ENVY",
+    link: "https://www.plantbassd.com/fresh-juice/pouch-envy-29-6-22",
+    icon: "fresh juice",
   },
   {
     title: "Bolt by HomeSick",
