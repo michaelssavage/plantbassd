@@ -5,7 +5,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/39-homesick-bolt.jpg"
 bandcamp: "https://homesick89.bandcamp.com/album/bolt-ep"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Configured by means of AI, HomeSick’s Bolt EP bends searing bass lines and drum programming resulting in three high voltage dubstep and hip-hop hybrids on Leipzig’s fearsome Defrostatica Records...."
+bio: "Configured by means of AI, HomeSick’s Bolt EP bends searing bass lines and drum programming resulting in three high voltage dubstep and hip-hop hybrids on Leipzig’s fearsome Defrostatica Records..."
 path: "fresh-juice"
 ---
 
@@ -21,7 +21,7 @@ Buy/ Stream here: [HomeSick | Bolt](https://homesick89.bandcamp.com/album/bolt-e
 
 With the aim in mind to blur the boundaries between jungle, footwork, drum and bass, & more, it is no surprise to hear the sound culminated by HomeSick on the defiant Defrostatica imprint. Hailing from Calgary in Alberta, Canada, HomeSick has been voyaging as one of the country’s most cutting edge producers in the last number of years, particularly since 2020 when he began using machine learning and AI in his productions. It has led him to heights of becoming a Red Bull Music Academy graduate and opened avenues to perform at global festivals like Sonar, Shambala, and Bass Coast.
 
-Whether or not you are aware of the production prowess of HomeSick before listening to Bolt will likely make no difference to how you will receive the sounds on the release. The opening title-track wastes no time in introducing the Canadian’s destructive sound pallet. ‘Bolt’ is an almost overwhelming bass-fused half time number that crosses between blitzing dubstep and trap rhythms. A bass-line powered by intensive voltage, HomeSick amasses a tasering thud leaving listeners bemused as to what the f*ck is going on?! But in a really f*cking good way. 
+Whether or not you are aware of the production prowess of HomeSick before listening to Bolt will likely make no difference to how you will receive the sounds on the release. The opening title-track wastes no time in introducing the Canadian’s destructive sound pallet. ‘Bolt’ is an almost overwhelming bass-fused half time number that crosses between blitzing dubstep and trap rhythms. A bass-line powered by intensive voltage, HomeSick amasses a tasering thud leaving listeners bemused as to what the f\*ck is going on?! But in a really f\*cking good way. 
 
 
 <img src="/fresh-juice/39-cover.jpg" alt="homesick cover pic" width="75%" />

@@ -22,15 +22,11 @@ export default function Links() {
               blurDataURL={`data:image/svg+xml;base64,${toBase64(
                 shimmer(400, 400)
               )}`}
-              height={60}
+              height={150}
               placeholder="blur"
-              src="/various/logo_circle.png"
-              width={60}
+              src="/various/pb_white.png"
+              width={150}
             />
-          </div>
-
-          <div className="row text-center">
-            <h1 className={styles.linkHeading}>PLANT BASS'D</h1>
           </div>
 
           <div className="row">
