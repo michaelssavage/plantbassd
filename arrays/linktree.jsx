@@ -5,6 +5,11 @@ export const linkList = [
     icon: "tickets"
   },
   {
+    title: "PINS: A Compilation of Electronic Music From Glasgow",
+    link: "https://www.plantbassd.com/fresh-juice/pins-5-7-22",
+    icon: "fresh juice",
+  },
+  {
     title: "Life Simulator by POUCH ENVY",
     link: "https://www.plantbassd.com/fresh-juice/pouch-envy-29-6-22",
     icon: "fresh juice",
