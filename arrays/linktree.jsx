@@ -5,6 +5,11 @@ export const linkList = [
     icon: "tickets"
   },
   {
+    title: "Headbutt by Strick",
+    link: "https://www.plantbassd.com/fresh-juice/strick-7-7-22",
+    icon: "fresh juice",
+  },
+  {
     title: "PINS: A Compilation of Electronic Music From Glasgow",
     link: "https://www.plantbassd.com/fresh-juice/pins-5-7-22",
     icon: "fresh juice",
