@@ -5,6 +5,11 @@ export const linkList = [
     icon: "tickets"
   },
   {
+    title: "Plant Bass'd Presents: Plus One, E the Artist & Lychee",
+    link: "https://www.eventbrite.ie/e/plant-bassd-presents-plus-one-with-e-the-artist-lychee-tickets-384796585947",
+    icon: "tickets",
+  },
+  {
     title: "Headbutt by Strick",
     link: "https://www.plantbassd.com/fresh-juice/strick-7-7-22",
     icon: "fresh juice",
