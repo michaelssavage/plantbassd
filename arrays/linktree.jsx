@@ -1,10 +1,5 @@
 export const linkList = [
   {
-    title: "Plant Bass'd Presents: Amor Satyr, Skillis & Doubt",
-    link: "https://ra.co/events/1550775",
-    icon: "tickets"
-  },
-  {
     title: "Plant Bass'd Presents: Plus One, E the Artist & Lychee",
     link: "https://www.eventbrite.ie/e/plant-bassd-presents-plus-one-with-e-the-artist-lychee-tickets-384796585947",
     icon: "tickets",
