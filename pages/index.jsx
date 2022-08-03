@@ -62,7 +62,10 @@ export async function getStaticProps() {
       .sort(sortByDate)
       .reverse()
       .slice(0, 4),
+    // Get files from the gigs directory
     gigs = getPosts("posts/gigs").sort(sortByDate).reverse().slice(0, 4),
+    // Get files from the guides directory
+    guides = getPosts("posts/guides").sort(sortByDate).reverse().slice(0, 4),
     // Get files from the news directory
     news = getPosts("posts/news"),
     // Get files from the radio directory
@@ -73,7 +76,7 @@ export async function getStaticProps() {
       .reverse()
       .slice(0, 4),
     allPosts = [] // eslint-disable-line sort-vars
-      .concat(freshjuice, gigs, news, radios, takeovers)
+      .concat(freshjuice, gigs, guides, news, radios, takeovers)
       .sort(sortByDate)
       .reverse()
       .slice(0, 5);
