@@ -1,12 +1,12 @@
 ---
 title: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending XXX"
 date: "XXX, 2022"
-tags: "guides"
 pic: "/news/XXX-edinburgh-club-guide.jpg"
 seeMore: "https://ra.co/events/uk/edinburgh?week=2022-0X-XX"
 postLink: "https://www.instagram.com/plantbassd___"
 bio: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending XXX.."
-path: "news"
+tags: "guides"
+path: "guides"
 ---
 
 **DAY**
@@ -16,3 +16,17 @@ path: "news"
 [<img src="/news/club-guide/IMG.jpg" alt="TITLE" width="85%"/>](LINK)
 
 TEXT
+
+## DAY
+
+<div class="row"><div class="col clubGuide">
+
+[<img src="/news/club-guide/IMG.jpg" alt="TITLE" width="85%"/>](https://ra.co/events/1505083)
+
+</div><div class="col clubGuide">
+
+### TITLE
+
+TEXT
+
+</div></div><hr>
