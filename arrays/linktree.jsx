@@ -1,5 +1,10 @@
 export const linkList = [
   {
+    title: "Rattle by Palidrone",
+    link: "https://www.plantbassd.com/fresh-juice/palidrone-9-8-22",
+    icon: "fresh juice",
+  },
+  {
     title: "Edinburgh Club Guide: Fringe Special",
     link: "https://www.plantbassd.com/guides/edi-club-guide-3-8-22",
     icon: "club guide",
