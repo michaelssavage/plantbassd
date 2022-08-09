@@ -37,9 +37,9 @@ Already a prolific producer in his own right, J Wax continues to further cement 
 
 (Pictured: J Wax)
 
-A familiar on Edinburgh’s Edina St. Records, Scottish Football closes out the noise with a rolling bass fusion of J Wax’s ‘Limes’. Darker in substance, ‘Limes’ is rotated into a moody club chugger with high pitched tensions that added an extra layer of fluidity to the original working.
+A familiar on Edinburgh’s Edina St. Records, Scottish Football closes out the noise with a rolling bass fusion of J Wax’s ‘Limes’. Darker in substance, ‘Limes’ is rotated into a moody club chugger with high pitched tensions that adds an extra layer of fluidity to the original working.
 
-Palidrone are building a home to platform some of the most exciting producer talents in the locality of Edinburgh and they have really shined on this debut EP. Aiming to be a haven for ‘genre-fluid, future-facing club music with a focus on Edinburgh producers primarily as well as some guest appearances from further afield’, Palidrone’s aim and intuition is clear. With this release they have truly announced themselves to the label world and ‘Rattle’ marks an exciting path for another budding Scottish label to thrive.
+Palidrone are building a home to platform some of the most exciting producer talents in the locality of Edinburgh and they have really shined on this debut EP. Aiming to be a haven for ‘genre-fluid, future-facing club music with a focus on Edinburgh producers primarily as well as some guest appearances from further afield’, Palidrone’s drive and intuition is clear. With this release they have truly announced themselves to the label world and ‘Rattle’ marks an exciting path for another budding Scottish label to thrive.
 
 Support so far for the release has come from some of the scene's top names in India Jordan, Martyn Bootyspoon, Kessler, and more!
 
