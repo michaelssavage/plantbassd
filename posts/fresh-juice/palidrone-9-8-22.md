@@ -1,0 +1,46 @@
+---
+title: "FRESH JUICE: Rattle by Palidrone"
+date: "August 9, 2022"
+tags: "fresh juice"
+pic: "/fresh-juice/46-rattle.jpg"
+bandcamp: "https://palidrone.bandcamp.com/album/rattle"
+postLink: "https://www.instagram.com/plantbassd___"
+bio: "One of Edinburgh’s most formidable party collectives, Palidrone bolster to record label heights with their debut release ‘Rattle’ featuring contributions from founders Dansa, J Wax, Provost, alongside a strong remixing effort from Scottish Football..."
+path: "fresh-juice"
+---
+
+### One of Edinburgh’s most formidable party collectives, Palidrone bolster to record label heights with their debut release ‘Rattle’ featuring contributions from founders Dansa, J Wax, Provost, alongside a strong remixing effort from Scottish Football.
+
+Buy/ Stream here: [Rattle | Various Artists | Palidrone](https://palidrone.bandcamp.com/album/rattle)
+
+<img src="/fresh-juice/46-palidrone.jpg" alt="rattle album art" width="75%" />
+
+<p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
+
+<hr>
+
+Founded in 2017, Palidrone have remained a constant figure on the Edinburgh circuit in that time with their knack for stand out bookings as well as their own party blending sounds that amass through raw club, electro, UK techno & beyond. Past guests for the crew's long-standing shows in the city’s venues of Mash House & Sneaky Pete’s include dominant heads like Teki Latex, DJ Stingray, Giant Swan, and VTSS to name but a few.
+
+On speaking with Daniel Howe (aka Dansa) of Palidrone, the transition to record label has been viewed by the collective as ‘a natural extension’ of the parties they have been throwing and the sounds they have been pushing over the last 5 years.
+
+<img src="/fresh-juice/46-pali.jpg" alt="palidrone cover art" width="75%" />
+
+With ‘Rattle’ it feels as though they were destined to move their platform to a production standpoint with their debut release amassing 4 hybrid club tracks that whittle through drone techno, choppy bass and glitched out electro bytes.
+
+Provost’s opening effort on ‘Green Gills’ glides through subterranean bass lines and kicks, creating deep lying ridges for the airy club elements and vocal snippets to thrive. A pulsating two-stepper throughout.
+
+Following up, Dansa shines on ‘Vow’ with his distinct ear for electro serving him well on this 808 chaser. Featuring thudding bass lines and piercing kicks, it is destined for murked out dancefloors and sound systems.
+
+Already a prolific producer in his own right, J Wax continues to further cement his prowess in Scottish and UK dance circles on ‘Limes’. Minimalistic in its approach, the Tayport native drills out a masterful club rhythm with its clipping breakbeat pattern and atmospheric backdrops.
+
+<img src="/fresh-juice/46-jwax.png" alt="J Wax cover pic" width="75%" />
+
+(Pictured: J Wax)
+
+A familiar on Edinburgh’s Edina St. Records, Scottish Football closes out the noise with a rolling bass fusion of J Wax’s ‘Limes’. Darker in substance, ‘Limes’ is rotated into a moody club chugger with high pitched tensions that added an extra layer of fluidity to the original working.
+
+Palidrone are building a home to platform some of the most exciting producer talents in the locality of Edinburgh and they have really shined on this debut EP. Aiming to be a haven for ‘genre-fluid, future-facing club music with a focus on Edinburgh producers primarily as well as some guest appearances from further afield’, Palidrone’s aim and intuition is clear. With this release they have truly announced themselves to the label world and ‘Rattle’ marks an exciting path for another budding Scottish label to thrive.
+
+Support so far for the release has come from some of the scene's top names in India Jordan, Martyn Bootyspoon, Kessler, and more!
+
+Catch Palidrone’s next Edinburgh party with Parris & Tim Reaper on the 19th of August at Mash House - (Tickets; https://ra.co/events/1559428)
