@@ -1,6 +1,6 @@
 ---
 title: "FRESH JUICE: Luv 2 Luv U // Do It Right by Burnout"
-date: "August 5, 2022"
+date: "August 12, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/45-burnout.jpg"
 bandcamp: "https://burnoutdub.bandcamp.com/album/luv-2-luv-u-do-it-right"
