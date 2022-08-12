@@ -1,7 +1,7 @@
 export const linkList = [
   {
     title: "Luv 2 LUv U // Do It Right by Burnout",
-    link: "https://www.plantbassd.com/fresh-juice/burnout-5-8-22",
+    link: "https://www.plantbassd.com/fresh-juice/burnout-12-8-22",
     icon: "fresh juice",
   },
   {
