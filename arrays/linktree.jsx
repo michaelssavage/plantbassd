@@ -1,8 +1,23 @@
 export const linkList = [
   {
-    title: "Plant Bass'd Presents: Amor Satyr, Skillis & Doubt",
-    link: "https://ra.co/events/1550775",
-    icon: "tickets"
+    title: "Luv 2 LUv U // Do It Right by Burnout",
+    link: "https://www.plantbassd.com/fresh-juice/burnout-12-8-22",
+    icon: "fresh juice",
+  },
+  {
+    title: "Rattle by Palidrone",
+    link: "https://www.plantbassd.com/fresh-juice/palidrone-9-8-22",
+    icon: "fresh juice",
+  },
+  {
+    title: "Edinburgh Club Guide: Fringe Special",
+    link: "https://www.plantbassd.com/guides/edi-club-guide-3-8-22",
+    icon: "club guide",
+  },
+  {
+    title: "Headbutt by Strick",
+    link: "https://www.plantbassd.com/fresh-juice/strick-7-7-22",
+    icon: "fresh juice",
   },
   {
     title: "PINS: A Compilation of Electronic Music From Glasgow",
