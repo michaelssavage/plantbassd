@@ -1,5 +1,15 @@
 export const linkList = [
   {
+    title: "Plant Bass'd: Battle Royale",
+    link: "https://ra.co/events/1570572",
+    icon: "tickets",
+  },
+  {
+    title: "Plant Bass'd Organica @ the Grand Social",
+    link: "https://rb.gy/64aqxs",
+    icon: "tickets",
+  },
+  {
     title: "Luv 2 LUv U // Do It Right by Burnout",
     link: "https://www.plantbassd.com/fresh-juice/burnout-12-8-22",
     icon: "fresh juice",
