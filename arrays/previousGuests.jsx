@@ -1,5 +1,10 @@
 export const guestList = [
   {
+    img: "14-satyr.jpg",
+    link: "https://www.instagram.com/amorsatyr/",
+    name: "Amor Satyr",
+  },
+  {
     img: "10-ayolxi.jpg",
     link: "https://www.instagram.com/ayolxi/",
     name: "Ayolxi",
@@ -8,6 +13,11 @@ export const guestList = [
     img: "07-casement.jpg",
     link: "https://www.instagram.com/case_ment/",
     name: "Casement",
+  },
+  {
+    img: "16-dj-egg.jpg",
+    link: "https://www.instagram.com/dj__egg/",
+    name: "DJ Egg",
   },
   {
     img: "12-cabbage.jpg",
@@ -48,6 +58,11 @@ export const guestList = [
     img: "08-martyn.jpg",
     link: "https://www.instagram.com/mbootyspoon/",
     name: "Martyn Bootyspoon",
+  },
+  {
+    img: "15-plus-one.jpg",
+    link: "https://www.instagram.com/__plus__one__/",
+    name: "Plus One",
   },
   {
     img: "07-roo.jpg",
