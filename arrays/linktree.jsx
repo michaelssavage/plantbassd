@@ -5,14 +5,14 @@ export const linkList = [
     icon: "tickets",
   },
   {
-    title: "Plant Bass'd: Battle Royale",
-    link: "https://ra.co/events/1570572",
-    icon: "tickets",
-  },
-  {
     title: "Plant Bass'd Organica @ the Grand Social",
     link: "https://www.eventbrite.ie/e/plant-bassd-presents-organica-tickets-399512531737",
     icon: "tickets",
+  },
+  { 
+    title: "'LETS GET IT' by Fourtwenty Sound",
+    link: "https://soundcloud.com/plantbassddjs/fourtwenty-sound-lets-get-it",
+    icon: "premiere",
   },
   {
     title: "Luv 2 LUv U // Do It Right by Burnout",
@@ -23,11 +23,6 @@ export const linkList = [
     title: "Rattle by Palidrone",
     link: "https://www.plantbassd.com/fresh-juice/palidrone-9-8-22",
     icon: "fresh juice",
-  },
-  {
-    title: "Edinburgh Club Guide: Fringe Special",
-    link: "https://www.plantbassd.com/guides/edi-club-guide-3-8-22",
-    icon: "club guide",
   },
   {
     title: "Headbutt by Strick",
