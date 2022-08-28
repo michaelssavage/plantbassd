@@ -35,7 +35,7 @@ We could hear Henry Earnest settling everyone into the beginning of the weekend 
 As the sun set and we discovered more of the arena, Moondiver, a four-piece mellow jazz and hip hop/moonbeat band were a warm welcome to the merrymakers who started to feel the festival spirit (alcohol?) at the Further Afield main stage. Not much soon after, Footnotes played some vinyl records including some fun Caribbean funk records at the Way Out There stage. A small dome shaped stage with a big heart.
 
 21.00 - 22.00  
-This was followed by The Bonk down by the Moon River stage, a brilliant set with hypnotic and intense melodies over steady drum machine patterns. Later in Shift Yard, Kev Sheridan had a packed crowd in the Shift Yard. Even with a small mishap with the power tripping out on him, he was reactive enough to start using drumsticks to create beats off different items until the sound was ready to go again. He kept morale high in such a stressful situation and the party continued as if nothing happened.
+This was followed by The Bonk down by the Moon River stage, a brilliant set with hypnotic and intense melodies over steady drum machine patterns. Meanwhile, Kev Sheridan had a packed crowd in the Shift Yard. Even with a small mishap with the power tripping out on him, he was reactive enough to start using drumsticks to create beats off different items until the sound was ready to go again. He kept morale high in such a stressful situation and the party continued as if nothing happened.
 
 <div class="row"><div class="col clubGuide">
 
