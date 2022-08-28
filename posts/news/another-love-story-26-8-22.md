@@ -9,13 +9,13 @@ bio: "Plant Bass'd attended Another Love Story Festival 2022.."
 path: "news"
 ---
 
-# Another Love Story
+
 
 <p class="smallText"><i>Editing by Peter Toal & Michael Savage/ Words & Design by Michael Savage</i></p>
 
-Another Love Story aims to start the journey slowly, build you up and gently take you back down to where you started your weekend. Leaving the festival feeling optimistic and fulfilled on Sunday evening is a refreshing change to other festivals where attendees collectively trudge away from the grounds on Monday morning. Another Love Story is intimate.
+Another Love Story aims to start the journey slowly, build you up and gently take you back down to where you started your weekend. Leaving the festival feeling optimistic and fulfilled on Sunday evening is a refreshing change to other festivals where attendees collectively trudge away from the grounds on Monday morning.
 
-The festival has evolved over time, accomodating a larger crowd over the past years. Food options and packaging where possible have moved towards a more sustainable effort and the once open Killyon Manor has now been closed off to the public. We both encountered some mellow spirits over the weekend telling us stories of having attended Another Love Story each year since 2016 and proudly saying that it has continued to outdo itself in production and entertainment year in, year out. A beloved Irish celebration of artists from every part of the isle.
+The festival has evolved over time, accommodating a larger crowd over the past years. Food options and packaging where possible have moved towards a more sustainable effort and the once open Killyon Manor has now been closed off to the public. We encountered some mellow spirits over the weekend who attended previous Love Story's each year since 2016 and proudly saying that it has continued to outdo itself in production and entertainment year in, year out. A beloved Irish celebration of artists from every part of the isle.
 
 Noteworthy to us was the incredible sound systems with each stage having great designs and attentive engineers mixing live. Much thought was put into the best possible listening experience. The main stage in particular had a natural enclosed space by the trees creating a perfect soundscape.
 
@@ -147,7 +147,7 @@ Before we left the grounds on Sunday, we had some Bahay Filipino Street Food. Ph
 
 ---
 
-## Conclusion
+## Our Wrap-up 
 
 Another Love Story is two weeks out from Electric Picnic and it's a striking comparison of the attentiveness and intimacy this small festival has created. It is an empowering, spectacular weekend for those who desire the festival experience without being overwhelmed by massive crowds or having too many stages to cover. We found ourselves in a sea of eccentric genuine personalities who left feeling just as good as they arrived. An older crowd with more sense and love for each other. Time and time again, we thought “oh they got this right.”
 
