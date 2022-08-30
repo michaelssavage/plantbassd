@@ -10,6 +10,11 @@ export const linkList = [
     icon: "tickets",
   },
   { 
+    title: "On Site at Another Love Story",
+    link: "https://www.plantbassd.com/news/another-love-story-26-8-22",
+    icon: "news",
+  },
+  {
     title: "'LETS GET IT' by Fourtwenty Sound",
     link: "https://soundcloud.com/plantbassddjs/fourtwenty-sound-lets-get-it",
     icon: "premiere",
