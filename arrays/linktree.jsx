@@ -1,5 +1,25 @@
 export const linkList = [
   {
+    title: "Plant Bass'd: Cowgate 1st Birthday",
+    link: "https://ra.co/events/1576857",
+    icon: "tickets",
+  },
+  {
+    title: "Plant Bass'd Organica @ the Grand Social",
+    link: "https://www.eventbrite.ie/e/plant-bassd-presents-organica-tickets-399512531737",
+    icon: "tickets",
+  },
+  { 
+    title: "On Site at Another Love Story",
+    link: "https://www.plantbassd.com/news/another-love-story-26-8-22",
+    icon: "news",
+  },
+  {
+    title: "'LETS GET IT' by Fourtwenty Sound",
+    link: "https://soundcloud.com/plantbassddjs/fourtwenty-sound-lets-get-it",
+    icon: "premiere",
+  },
+  {
     title: "Luv 2 LUv U // Do It Right by Burnout",
     link: "https://www.plantbassd.com/fresh-juice/burnout-12-8-22",
     icon: "fresh juice",
@@ -8,11 +28,6 @@ export const linkList = [
     title: "Rattle by Palidrone",
     link: "https://www.plantbassd.com/fresh-juice/palidrone-9-8-22",
     icon: "fresh juice",
-  },
-  {
-    title: "Edinburgh Club Guide: Fringe Special",
-    link: "https://www.plantbassd.com/guides/edi-club-guide-3-8-22",
-    icon: "club guide",
   },
   {
     title: "Headbutt by Strick",
@@ -63,66 +78,6 @@ export const linkList = [
     title: "PREMIERE - 'Baby Gay Track' by Jack Ward",
     link: "https://soundcloud.com/plantbassddjs/plant-bassd-premiere-jack-ward-baby-gay-track",
     icon: "premiere",
-  },
-  {
-    title: "HEADSET001 by Creep Woland",
-    link: "https://www.plantbassd.com/fresh-juice/headset-13-5-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "VIRTUAL VELOCITY by CLUB SP33D",
-    link: "https://www.plantbassd.com/fresh-juice/club-sp33d-12-5-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "The Bumps by Selky",
-    link: "https://www.plantbassd.com/fresh-juice/selky-12-5-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "PREMIERE - 'Paradise' by Selky",
-    link: "https://soundcloud.com/plantbassddjs/plant-bassd-premiere-selky-paradise-the-bumps-ep/s-3Gq2U2eURxn?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-    icon: "premiere",
-  },
-  {
-    title: "'JUICY CLASS' by DJ FUCKOFF X DJ MELL G",
-    link: "https://www.plantbassd.com/fresh-juice/dj-mell-g-10-5-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "'Based On Your Listening History' by Viikatory",
-    link: "https://www.plantbassd.com/fresh-juice/viikatory-7-5-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "Midnight Dub Vol.1 by PLUS ONE",
-    link: "https://www.plantbassd.com/fresh-juice/plus-one-4-5-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "NEEDS by 92Groovz",
-    link: "https://www.plantbassd.com/fresh-juice/92groovz-27-4-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "U Got My Number? / Endz by Cartin",
-    link: "https://www.plantbassd.com/fresh-juice/cartin-12-4-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "Acid Avengers 021",
-    link: "https://www.plantbassd.com/fresh-juice/acid-avengers-23-2-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "Dancetrumentals by Snarexx",
-    link: "https://www.plantbassd.com/fresh-juice/snarexx-22-3-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "Double Knee by Whistle & Klont",
-    link: "https://www.plantbassd.com/fresh-juice/whistle-klont-21-3-22",
-    icon: "fresh juice",
   },
   {
     title: "Glimmerman Spotify Selects",
