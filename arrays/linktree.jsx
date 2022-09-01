@@ -10,6 +10,11 @@ export const linkList = [
     icon: "tickets",
   },
   { 
+    title: "WZY 2.5 by Woozy",
+    link: "https://www.plantbassd.com/fresh-juice/woozy-2-9-22",
+    icon: "fresh juice",
+  },
+  {
     title: "On Site at Another Love Story",
     link: "https://www.plantbassd.com/news/another-love-story-26-8-22",
     icon: "news",
