@@ -42,7 +42,7 @@ New Yorker Sobolik flips the switch once more on the driving breakbeat number th
 WDDS is given the honour of closing out WZY 2.5 with a steady jungle/ DnB fusion on ‘Slow Burner’. Starting off reserved and eerie, it is then followed by a tribal drum trail that lays the foundation for sharp, reappearing amen breaks and bass morphs. A true bass delight.
 
 <img src="/fresh-juice/47-ema.png" alt="EMA cover pic" width="75%" />
-(Pictured: Woozy label head EMA)
+<div class="text-center">(Pictured: Woozy label head EMA)</div>
 
 Still only in the morning of its existence, Woozy is creating some real depth on what is now its 3rd release in 2 years. EMA’s knack for combining the right artists at the right time on the imprint is no surprise given her already valued esteem as a curator and selector. These are truly intoxicating drum tracks with a healthy dose from the Irish reserve and some exciting contributions from further afield.
 
