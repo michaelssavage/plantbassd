@@ -10,6 +10,11 @@ export const linkList = [
     icon: "tickets",
   },
   { 
+    title: "'Sonale Los Bajos' by CRRDR",
+    link: "https://soundcloud.com/plantbassddjs/plant-bassd-premiere-sonale-los-bajos-by-crrdr"
+    icon: "premiere",
+  },
+  {
     title: "WZY 2.5 by Woozy",
     link: "https://www.plantbassd.com/fresh-juice/woozy-2-9-22",
     icon: "fresh juice",
