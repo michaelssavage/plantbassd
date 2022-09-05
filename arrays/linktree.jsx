@@ -10,6 +10,11 @@ export const linkList = [
     icon: "tickets",
   },
   {
+    title: "'Sonale Los Bajos' by CRRDR",
+    link: "https://soundcloud.com/plantbassddjs/plant-bassd-premiere-sonale-los-bajos-by-crrdr",
+    icon: "premiere",
+  },
+  {
     title: "WZY 2.5 by Woozy",
     link: "https://www.plantbassd.com/fresh-juice/woozy-2-9-22",
     icon: "fresh juice",
@@ -53,46 +58,6 @@ export const linkList = [
     title: "Bolt by HomeSick",
     link: "https://www.plantbassd.com/fresh-juice/homesick-16-6-22",
     icon: "fresh juice",
-  },
-  {
-    title: "Gunchester by DJ Ladybarn",
-    link: "https://www.plantbassd.com/fresh-juice/dj-ladybarn-15-6-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "OFK OO1 by Offtrack",
-    link: "https://www.plantbassd.com/fresh-juice/offtrack-1-6-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "Magic the Gabbering by Bitten Twice",
-    link: "https://www.plantbassd.com/fresh-juice/magic-the-gabbering-27-5-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "Raw Voltage V/A by Ovelha Trax",
-    link: "https://www.plantbassd.com/fresh-juice/raw-voltage-25-5-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "Drop The Bass by Generator",
-    link: "https://www.plantbassd.com/fresh-juice/drop-the-bass-24-5-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "PREMIERE - 'Baby Gay Track' by Jack Ward",
-    link: "https://soundcloud.com/plantbassddjs/plant-bassd-premiere-jack-ward-baby-gay-track",
-    icon: "premiere",
-  },
-  {
-    title: "Glimmerman Spotify Selects",
-    link: "https://www.plantbassd.com/takeovers/glimmerman-3-2-22",
-    icon: "takeovers",
-  },
-  {
-    title: "Sweet Philly Raunchy Mix",
-    link: "https://soundcloud.com/plantbassddjs/plant-bassd-radio-sweet-philly-raunchy-mix",
-    icon: "radio",
   },
   {
     title: "Plant Bass'd Picks",
