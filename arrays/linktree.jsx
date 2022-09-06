@@ -1,13 +1,13 @@
 export const linkList = [
   {
-    title: "Plant Bass'd: Cowgate 1st Birthday",
-    link: "https://ra.co/events/1576857",
-    icon: "tickets",
-  },
-  {
     title: "Plant Bass'd Organica @ the Grand Social",
     link: "https://www.eventbrite.ie/e/plant-bassd-presents-organica-tickets-399512531737",
     icon: "tickets",
+  },
+  {
+    title: "'For Sure' by Sweet Philly",
+    link: "https://www.plantbassd.com/fresh-juice/sweet-philly-3-9-22",
+    icon: "fresh juice",
   },
   {
     title: "'Sonale Los Bajos' by CRRDR",
