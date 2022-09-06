@@ -4,6 +4,11 @@ export const linkList = [
     link: "https://www.eventbrite.ie/e/plant-bassd-presents-organica-tickets-399512531737",
     icon: "tickets",
   },
+  { 
+    title: "Gang Of Bitches From Hell",
+    link: "https://ra.co/events/1581956",
+    icon: "tickets",
+  },
   {
     title: "'For Sure' by Sweet Philly",
     link: "https://www.plantbassd.com/fresh-juice/sweet-philly-3-9-22",
