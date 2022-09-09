@@ -20,9 +20,9 @@ export const guestList = [
     name: "DJ Egg",
   },
   {
-    img: "12-cabbage.jpg",
-    link: "https://www.instagram.com/apieceofcabbage/",
-    name: "Miss Cabbage",
+    img: "19-dj-pacifier.jpg",
+    link: "https://www.instagram.com/dj_pacifier/",
+    name: "DJ Pacifier",
   },
   {
     img: "02-feena.jpg",
@@ -45,6 +45,11 @@ export const guestList = [
     name: "H3L3NA",
   },
   {
+    img: "18-hellokt.jpg",
+    link: "https://www.instagram.com/katiietynan/",
+    name: "HelloKT",
+  },
+  {
     img: "07-iso-yso.jpg",
     link: "https://www.instagram.com/iso.yso/",
     name: "Iso Yso",
@@ -58,6 +63,11 @@ export const guestList = [
     img: "08-martyn.jpg",
     link: "https://www.instagram.com/mbootyspoon/",
     name: "Martyn Bootyspoon",
+  },
+  {
+    img: "12-cabbage.jpg",
+    link: "https://www.instagram.com/apieceofcabbage/",
+    name: "Miss Cabbage",
   },
   {
     img: "15-plus-one.jpg",

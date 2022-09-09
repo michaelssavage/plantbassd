@@ -39,22 +39,28 @@
 }
 
 .freshjuiceBG {
-  background-color: $blue;
+  background-color: $culturedWhite;
   @extend .divBackground;
 }
 
 .radioBG {
-  background-color: $green;
+  background-color: $opal;
   @extend .divBackground;
 }
 
 .mixBG {
-  background-color: $lavender;
+  background-color: $teal;
   @extend .divBackground;
 }
 
 .takeoverBG {
-  background-color: $pink;
+  background-color: $lilac;
+  min-height: 100vh;
+  @extend .divBackground;
+}
+
+.archiveBG {
+  background-color: $rosyBrown;
   min-height: 100vh;
   @extend .divBackground;
 }

@@ -21,8 +21,8 @@ export default function ContactPage() {
             <h1 className={styles.header}>About Us</h1>
 
             <p>
-              Plant Bass'd consists of Oisin Campbell, Michael Savage, and Peter
-              Toal who are originally from Co. Monaghan, Ireland. The collective
+              Plant Bass'd is spearheaded by Oisin Campbell, Michael Savage, and
+              Peter Toal originating from Co. Monaghan, Ireland. The collective
               was started in early 2020 with the intention of playing parties
               and sharing music interests but quickly evolved into highlighting
               artists, releases, and club nights in the experimental dance music
