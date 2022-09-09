@@ -1,0 +1,31 @@
+---
+title: "1 whole year of parties across Edinburgh, Glasgow and Dublin."
+date: "September 4, 2022"
+pic: "/news/19-cowgate.jpg"
+tickets: "https://ra.co/events/1576857"
+postLink: "https://www.instagram.com/p/CiFg-QjMKMq/"
+bio: "Celebrating a year of parties on Edinburgh’s Cowgate and beyond with special guest DJ Pacifier..."
+path: "gigs"
+tags: "gigs"
+city: "Edinburgh"
+anames: ["DJ Pacifier", "KateLate", "OISÍN"]
+alinks:
+  [
+    "https://www.instagram.com/dj_pacifier/",
+    "https://www.instagram.com/katelate.dj/",
+    "https://www.instagram.com/inspectorcampbellbap/",
+  ]
+apics: ["19-dj-pacifier.jpg", "19-katelate.jpg", "19-oisin.jpg"]
+---
+
+### Celebrating a year of parties on Edinburgh’s Cowgate and beyond with special guest DJ Pacifier
+
+Plant Bass’d invite you to celebrate 1 whole year since they began their dark and twisted parties on the infamous Cowgate with very special guest, Canadian gabber and breakcore tycoon DJ Pacifier landing in on their EU/ UK Tour to spread their wealth of panel beaters and splurge to the Sneaky’s faithful!!!
+
+We’ve also invited Femmergy’s KateLate to land in on the fun times alongside Plant Bass’d headman OISÍN!!
+
+Garage // Bass // Breaks //Jungle // Footwork // Editzzz & more all night longz!
+
+Access granted to anyone and everyone <3 Please arrive dressed inappropriately xxx
+
+!!! £3 Advance // £5 OTD !!!

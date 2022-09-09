@@ -36,7 +36,7 @@ export default function ArchivePage({ files }) {
       <Head>
         <title>Plant Bass'd Archive</title>
       </Head>
-      <div className={styles.takeoverBG}>
+      <div className={styles.archiveBG}>
         <div className="container">
           <h1 className={styles.pageHeader}>Plant Bass'd Archive</h1>
 

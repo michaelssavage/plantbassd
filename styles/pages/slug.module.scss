@@ -17,10 +17,8 @@
   text-align: center;
 }
 
-@include breakpoint-below(xm) {
-  .postContent {
-    padding: 0 0 0 2rem;
-  }
+.postContent {
+  padding: 0 0 0 4rem;
 }
 
 // @include breakpoint-below(sm) {
