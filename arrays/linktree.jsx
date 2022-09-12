@@ -1,12 +1,12 @@
 export const linkList = [
   {
-    title: "Plant Bass'd Organica @ the Grand Social",
-    link: "https://www.eventbrite.ie/e/plant-bassd-presents-organica-tickets-399512531737",
-    icon: "tickets",
-  },
-  { 
     title: "Gang Of Bitches From Hell",
     link: "https://ra.co/events/1581956",
+    icon: "tickets",
+  },
+  {
+    title: "SweatBox with DJ MELL G",
+    link: "https://ra.co/events/1585832",
     icon: "tickets",
   },
   {
