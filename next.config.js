@@ -8,7 +8,6 @@ const withPWA = require("next-pwa")({
 })
 
 const nextConfig = withPWA({
-  extends: ["plugin:@next/next/recommended"],
   i18n: {
     defaultLocale: "en",
     locales: ["en"],
