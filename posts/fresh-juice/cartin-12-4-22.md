@@ -19,7 +19,7 @@ Buy/ Stream here: https://cartinaf.bandcamp.com/album/u-got-my-number-endz
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 One of the most exciting talents to emerge from the north of Ireland in recent memory, Cartin’s stock is bolstered even further with this release after his memorable 2021 ‘Bunk’ entry on Belfast label Nocturne. If that release hadn’t caught your attention, then his rip-roaring guitar fuelled Boiler Room live set at the latest edition of AVA Festival certainly should have.
 

@@ -15,7 +15,7 @@ path: "fresh-juice"
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Having just come off the back of his explosive Scuffed debut with ‘HOT!’ (Listen: https://jasoncode.bandcamp.com/album/hot-ep), the Seattle native is beginning to forge a signature sound that fuses bassy/dubstep sounds with shuffling juke and speed garage rhythms in devastating fashion.
 

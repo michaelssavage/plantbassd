@@ -17,7 +17,7 @@ Buy/ Stream here: https://thehammerhits.bandcamp.com/album/first-contact-ep
 
 <p class="smallText"><i>Words by Michael Savage/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Hailing from Dublin, the duo have created a phenomenal release of ambient and pulsing cuts that find tranquil moments in space throughout.
 

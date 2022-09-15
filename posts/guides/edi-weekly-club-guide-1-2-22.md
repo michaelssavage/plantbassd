@@ -25,7 +25,7 @@ In addition, Clean-Up Crew bring one of the liveliest sets to any party and are 
 
 £5 - £6 - Tickets here: https://ra.co/events/1498317
 
-</div></div><hr>
+</div></div><hr/>
 
 ## WEDNESDAY 2nd February
 
@@ -39,7 +39,7 @@ Heaters breathes new life with a run of new residents on Sneaky’s Wednesdays. 
 
 £3 - Tickets here: https://ra.co/events/1494994
 
-</div></div><hr>
+</div></div><hr/>
 
 ## THURSDAY 3rd February
 
@@ -53,7 +53,7 @@ Volens Chorus return to their spiritual home with another imminent hard-hitting 
 
 £5 - £7 - Tickets here: https://ra.co/events/1495805
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 4th February
 
@@ -67,7 +67,7 @@ Miss World mark their return to clubbing with two of northern Scotland’s most 
 
 £5 - £7 - Tickets here: https://ra.co/events/1495501
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 4th February
 
@@ -81,7 +81,7 @@ SSL XL is back on the Messenger Soundsystem for an epic Dancehall Special with s
 
 £8 - £10 - Tickets here: https://ra.co/events/1497362
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 4th February
 
@@ -95,7 +95,7 @@ Just about ready to sell out, Night Tube throw up their second club offering of 
 
 Final Release £16 - Tickets here: https://ra.co/events/1497288
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 5th February
 
@@ -109,7 +109,7 @@ Attributors to many of our romances at Seafield and Blackford during the club fa
 
 £6 - £8 - Tickets here: https://www.skiddle.com/whats-on/Edinburgh/The-Mash-House/Samedia-Shebeen-at-The-Mash-House/35980265/
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 5th February
 
@@ -123,4 +123,4 @@ EHFM radio bring back their residents party with day one alumni Nikki Kent (Lunc
 
 £5 - £7 - Tickets here: https://ra.co/events/1495314
 
-</div></div><hr>
+</div></div><hr/>

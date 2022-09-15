@@ -19,7 +19,7 @@ Buy/ Stream here https://tripalium.bandcamp.com/album/aar021-maelstrom-locked-cl
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 A sub-series of the French imprint Tripalium Corp, Acid Avengers has brought together some of the great heavyweights of the modern electro scene with past editions featuring the likes of DeFeKt, Nite Fleit, and Posthuman. This entry sees the return of Maelstrom (France) alongside Russian punks Locked Club and RLGN as they offer up five acidic pumpers, full of tuff drums and TB-303.
 

@@ -25,7 +25,7 @@ Overtime bring back Dr Banana to Edinburgh weeks after his last show at Sneaky P
 
 £6 - £10 - Tickets here: https://ra.co/events/1502624
 
-</div></div><hr>
+</div></div><hr/>
 
 ## THURSDAY 17th March (St. Patrick’s Day)
 
@@ -41,7 +41,7 @@ Flourishing from the growing Leipzig scene, Lux lands to Sneaky’s for the firs
 
 £6 - £10 - Tickets here: https://ra.co/events/1498831
 
-</div></div><hr>
+</div></div><hr/>
 
 ## THURSDAY 17th March (St. Patrick’s Day)
 
@@ -57,7 +57,7 @@ London based club night Nocturnal Rhythms takes its show north after finding its
 
 £12.99 - Tickets here: https://ra.co/events/1501882
 
-</div></div><hr>
+</div></div><hr/>
 
 ## THURSDAY 17th March (St. Patrick’s Day)
 
@@ -73,7 +73,7 @@ A Scottish debut for Belfast native and AVA mainstay as Swoose is Club Nacht’s
 
 £5 - Tickets here: https://ra.co/events/1508813
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 18th March
 
@@ -89,7 +89,7 @@ Overground return after a stellar night with Coco Bryce at Bongo last week for a
 
 £4.50 - £7.50 - Tickets here: https://ra.co/events/1507548
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 18th March
 
@@ -105,7 +105,7 @@ Aquelarre’s first party of the year is a local affair with Lonely Carp (Spit I
 
 £7 - Tickets here: https://ra.co/events/1503161
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 18th March
 
@@ -121,7 +121,7 @@ The Electrikal Soundsystem powers up Bongo once more with Imanu, Annix, and Anik
 
 £13.45 - Tickets here: https://www.skiddle.com/whats-on/Edinburgh/The-Bongo-Club/Electrikal-Present-IMANU--ANNIX--ANIKONIK/36011006/
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 19th March
 
@@ -137,7 +137,7 @@ Notable Glasgow DJ and Sub Club resident Stevie Cox is the special guest for ECF
 
 £4 - £10 - Tickets here: https://ra.co/events/1508183
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 19th March
 
@@ -153,7 +153,7 @@ Heal Yourself & Move presents being (live), Other lANDS & Housse of Traps. ‘be
 
 £7 - Tickets here: https://ra.co/events/1504117
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SUNDAY 20th March
 
@@ -169,4 +169,4 @@ Rinse FM and NTS regular Chloé Robinson arrives to Postal Sunday’s packed wit
 
 £5 - Tickets here: https://ra.co/events/1510403
 
-</div></div><hr>
+</div></div><hr/>

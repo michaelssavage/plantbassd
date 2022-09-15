@@ -17,7 +17,7 @@ Buy/ Stream here https://hheir.bandcamp.com/album/preliminal-ep
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Constructed during the challenging nights of lockdown with an Akai APC and a range of samples, the Preminal EP began to take its shape, as too did the HhÉiR (Olan Cahill) moniker.
 Hoping to amass a sound that captured the distant atmosphere of clubs at the time, Olan has arranged two elating yet healing tracks that lean heavy on well grooved percussion and soothing melodies.

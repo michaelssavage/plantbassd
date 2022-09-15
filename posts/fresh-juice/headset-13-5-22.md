@@ -19,7 +19,7 @@ path: "fresh-juice"
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Backed by somewhat of a cult figure in Edinburgh’s electronic scene, Skillis’ Headset laid its foundations in the city in 2014 initializing as an underground focused rave party at the well respected Bongo Club. It has been a mainstay on Edinburgh’s fabled Cowgate ever since, hailed as one of the most attended and respected parties in all of Scotland. Recent guest bookings like UNiiQU3, Yung Singh, Batu, and Jeremy Sylvester, offer up an idea into the typical sounds that are associated with the Headset imprint.
 

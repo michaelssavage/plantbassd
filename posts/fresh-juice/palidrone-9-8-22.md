@@ -17,7 +17,7 @@ Buy/ Stream here: [Rattle | Various Artists | Palidrone](https://palidrone.bandc
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Founded in 2017, Palidrone have remained a constant figure on the Edinburgh circuit in that time with their knack for stand out bookings as well as their own party blending sounds that amass through raw club, electro, UK techno & beyond. Past guests for the crew's long-standing shows in the city’s venues of Mash House & Sneaky Pete’s include dominant heads like Teki Latex, DJ Stingray, Giant Swan, and VTSS to name but a few.
 

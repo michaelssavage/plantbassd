@@ -17,7 +17,7 @@ path: "fresh-juice"
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Landing on the ever fruitful Berlin imprint ‘Raiders’, Viikatory’s intergalactic take on all things electro is once more the point of issue on this spell-binding 4 tracker. Described by the label as ‘Uberzone meets DJ Godfather in a space elevator heading to a rave in low earth orbit’, the Bellarussian’s cosmic yet defiant touch pulsates with every release.
 

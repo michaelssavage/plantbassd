@@ -16,7 +16,7 @@ Buy/ stream here https://hyperdomerecords.bandcamp.com/album/hyprecs-008-electro
 <img src="/fresh-juice/22-lossk.png" alt="Lossk album art" width="75%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
-<hr>
+<hr/>
 
 After recently forming Bad Era Records in his home of Brighton, Lossk joins the growing Hyperdome records after developing an avid taste for electro sounds in recent years. ‘Electrophile’ lands as the 8th release on the now well established Hyperdome Records, which has expanded from its club night origins over time with founder DJ Bastard at the helm. The Lossk release falls on the label after previous efforts from the likes of YTP, mod-R, Mister Sticktalk, & more.
 

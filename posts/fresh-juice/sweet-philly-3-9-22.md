@@ -17,7 +17,7 @@ Buy/ Stream here: [For Sure | Sweet Philly](https://sweetphilly.bandcamp.com/alb
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Since making the move to Scotland a year ago, Philly has not taken long to make their mark on the circuit securing slots alongside acts like TAAHLIAH and Martyn Bootyspoon, as well making headline appearances for Headset and EHFM at the Edinburgh famous Sneaky Pete’s Club.
 

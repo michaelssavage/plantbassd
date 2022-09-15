@@ -17,7 +17,7 @@ Buy/ Stream here: [LIFE SIMULATOR | POUCH ENVY](https://pouch-envy.bandcamp.com/
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Pouch Envy is the production alter ego of Per Pintaric, a club craftsman that has been grabbing the attention of the Bandcamp world as of late with a string of personal edit packs, as well as contributions to the likes of International Chrome, Low Income Squad, and Unity Records.
 
