@@ -7,7 +7,7 @@ postLink: "https://www.instagram.com/p/Ch5ShApMBWl/"
 bio: "Plant Bass'd return with their locally sourced Organica series, this time to new surroundings in the Grand Social..."
 path: "gigs"
 tags: "gigs"
-city: "Dublin"
+city: "dublin"
 anames: ["Curtisy", "D*mp", "HelloKT", "Lychee"]
 alinks:
   [

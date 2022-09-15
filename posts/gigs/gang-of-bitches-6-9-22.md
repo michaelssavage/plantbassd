@@ -7,7 +7,7 @@ postLink: "https://www.instagram.com/p/CiK9rUpMs6Z/"
 bio: "Plant Bass’d and Lucky Dip combine to bring you a night of all-femme hard dance at the Bongo Club..."
 path: "gigs"
 tags: "gigs"
-city: "Edinburgh"
+city: "edinburgh"
 anames: ["Joey Mousepads", "Miss Cabbage", "Melly", "Lucky Dip"]
 alinks:
   [

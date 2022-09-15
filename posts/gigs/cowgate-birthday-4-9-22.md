@@ -7,7 +7,7 @@ postLink: "https://www.instagram.com/p/CiFg-QjMKMq/"
 bio: "Celebrating a year of parties on Edinburgh’s Cowgate and beyond with special guest DJ Pacifier..."
 path: "gigs"
 tags: "gigs"
-city: "Edinburgh"
+city: "edinburgh"
 anames: ["DJ Pacifier", "KateLate", "OISÍN"]
 alinks:
   [
