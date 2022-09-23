@@ -1,10 +1,5 @@
 export const linkList = [
   {
-    title: "Gang Of Bitches From Hell",
-    link: "https://ra.co/events/1581956",
-    icon: "tickets",
-  },
-  {
     title: "SweatBox with DJ MELL G",
     link: "https://ra.co/events/1585832",
     icon: "tickets",
