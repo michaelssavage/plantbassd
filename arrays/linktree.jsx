@@ -5,6 +5,11 @@ export const linkList = [
     icon: "tickets",
   },
   {
+    title: "Gang Of Bitches From Hell II",
+    link: "https://ra.co/events/1595479",
+    icon: "tickets",
+  },
+  {
     title: "'For Sure' by Sweet Philly",
     link: "https://www.plantbassd.com/fresh-juice/sweet-philly-3-9-22",
     icon: "fresh juice",
