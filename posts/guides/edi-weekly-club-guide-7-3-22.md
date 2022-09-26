@@ -25,7 +25,7 @@ The queen of Jersey club stops by Sneaky’s for a workout with Headset. Unmissa
 
 £6 - £10 - Tickets here: https://ra.co/events/1497542
 
-</div></div><hr>
+</div></div><hr/>
 
 ## TUESDAY 8th March
 
@@ -41,7 +41,7 @@ Ever present fixture Midnight Bass brings Amoss (Flexout Audio/ Dispatch Recordi
 
 £6 - £8 - Tickets here: https://ra.co/events/1505780
 
-</div></div><hr>
+</div></div><hr/>
 
 ## WEDNESDAY 9th March
 
@@ -57,7 +57,7 @@ Breaka and Bakey lock horns for the next Shelflife party. Two of the toughest so
 
 £10 - Tickets here: https://ra.co/events/1498603
 
-</div></div><hr>
+</div></div><hr/>
 
 ## WEDNESDAY 9th March
 
@@ -73,7 +73,7 @@ Expect venomous electro & ghetto tech as we return to Sneaky’s to bring you YT
 
 £5 - Tickets here: https://ra.co/events/1500809
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 11th March
 
@@ -89,7 +89,7 @@ A true stalwart in UK jungle and breaks, Coco Bryce lands to Bongo with Overgrou
 
 £7.5 - £10.5 - Tickets here: https://ra.co/events/1502343
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 11th March
 
@@ -105,7 +105,7 @@ Superstar Fishbar celebrate turning one with selections from Spanish born, Glasg
 
 £7 - £10.15 - Tickets here: https://www.skiddle.com/whats-on/Edinburgh/The-Mash-House/Superstar-Fishbar-1st-Birthday-/36018532/
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 11th March
 
@@ -121,7 +121,7 @@ Hot Mess returns for its March edition. Friendly, hot & kinda wild spinning all 
 
 £6 - Tickets here: https://ra.co/events/1505653
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 12th March
 
@@ -137,7 +137,7 @@ Hand-made return to Sneaky’s with Brazilian Bárbara Boeing. A dynamic selecto
 
 £6 - £10 - Tickets here: https://ra.co/events/1496115
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 12th March
 
@@ -153,7 +153,7 @@ One of the finest exports from the Belfast club scene, Jordan Nocturne takes the
 
 £5 - £15 - Tickets here: https://ra.co/events/1459419
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 12th March
 
@@ -169,7 +169,7 @@ For a more earthy and humbling sound, look no further than the Messenger Soundsy
 
 £7 - £10 - Tickets here: https://ra.co/events/1503542
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SUNDAY 13th March
 
@@ -185,4 +185,4 @@ The robust Nightlark takes on Postal armed with a distinct collection. Having wo
 
 £3 - Tickets here: https://ra.co/events/1500912
 
-</div></div><hr>
+</div></div><hr/>

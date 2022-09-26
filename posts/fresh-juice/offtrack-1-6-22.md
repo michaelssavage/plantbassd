@@ -17,7 +17,7 @@ Buy/ Stream here: [OFK 001 | Offtrack](https://offtrack.bandcamp.com/releases)
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Offtrack’s (Thomas Kilmurray) debut self-released LP, OFK 001, depicts the ranging and rolling sound that the Midlands artist has crafted for himself over the last number of years. A regular feature at some of the most recent editions of the iconic Life Festival and Fuinneamh, as well as holding down supporting slots around the country for acts like Hadone, DeFeKt, and Cailín, Killmurray has been brewing up a storm on the Irish circuit with his blend of driving and entrancing techno.
 

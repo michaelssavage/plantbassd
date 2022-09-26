@@ -25,7 +25,7 @@ The brainchild of local spinners Digging the Underground, MARGINS initializes at
 
 Tickets here: https://ra.co/events/1504128
 
-</div></div><hr>
+</div></div><hr/>
 
 ## THURSDAY 24th March
 
@@ -41,7 +41,7 @@ Slurp EdInburgh are bringing together an eclectic mix of techno producers and dj
 
 Tickets here: https://ra.co/events/1508981
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 25th March
 
@@ -57,7 +57,7 @@ Edinburgh’s favourite sweethearts Miss World take over Headset this Friday acr
 
 Tickets here: https://ra.co/events/1513384
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 25th March
 
@@ -73,7 +73,7 @@ Wee Dub Club continues to go from strength to strength as they welcome Scottish 
 
 Tickets here: https://www.skiddle.com/whats-on/Edinburgh/Potterow/Wee-Dub-Club-Mungos-Hi-Fi-wCharlie-P--Prince-Fatty--More/35955741/
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 25th March
 
@@ -89,7 +89,7 @@ Following their free DJ workshop (see here https://ra.co/events/1466809) with th
 
 Tickets here: https://ra.co/events/1509240
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 25th March
 
@@ -105,7 +105,7 @@ Edinburgh’s ultimate dark party returns after a brief hiatus to its home up th
 
 Tickets here: https://ra.co/events/1514074
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 25th March
 
@@ -120,7 +120,7 @@ Tickets here: https://ra.co/events/1514074
 Derry’s finest electronic export, Or:la brings her genre-fluid and era bending sound to the Liquid rooms. DJ Mag’s best DJ of 2021, Or:la is a regular feature at the likes of Dekmantel, Warehouse Project, and Fabric, and is one of the most sought after talents in Europe. If you don’t know the sound, you definitely know the name. Support from Seamus, Plastic GRN, & Onda.  
 Tickets here: https://ra.co/events/1498729
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 26th March
 
@@ -136,7 +136,7 @@ It’s another dual party Saturday for Pulse this weekend, with their Mash House
 
 Tickets here: https://ra.co/events/1506837
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 26th March
 
@@ -152,7 +152,7 @@ One of the city’s more curious and forward thinking parties, the recently esta
 
 Tickets here: https://ra.co/events/1511946
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 26th March
 
@@ -168,7 +168,7 @@ The ever present Soul Jam welcome Kirollus to Sneaky’s alongside residents Per
 
 Tickets here: https://ra.co/events/1512623
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 26th March
 
@@ -184,7 +184,7 @@ Following on from their previous Detroit themed party, Pulse presents an evening
 
 Tickets here: https://ra.co/events/1510483
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SUNDAY 27th March
 
@@ -200,4 +200,4 @@ There's nowhere else you should be but Sneaky’s on Sundays. The growingly form
 
 Tickets here: https://ra.co/events/1500914
 
-</div></div><hr>
+</div></div><hr/>

@@ -17,7 +17,7 @@ Buy/ Stream here: https://anusrecords.bandcamp.com/album/double-knee-ep
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Based in Utrecht and Rotterdam respectively, Whistle & Klont combine on this record to engineer tense destructive club weapons that you can instantly feel violently ricocheting off the walls of a dark room. Having both studied at the same high school, growing up merely towns apart, and appearing in the same punk band (albeit at different times) during their youth, a meeting of the pairs' minds was primed. A similar sense of humour and love for unconventional music has allowed them to clash together and muscle out the sound bending breaks and textures that they have become known for.
 

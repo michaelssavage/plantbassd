@@ -23,7 +23,7 @@ Edinburgh’s Milkit crew return to the Mash House for the first time this calen
 
 £4 - £6 - Tickets here: https://ra.co/events/1505083
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 1st April
 
@@ -39,7 +39,7 @@ Edinburgh’s favourite recently departed son Skillis returns for an all night l
 
 £5 - £8 - Tickets here: https://ra.co/events/1511623
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 1st April
 
@@ -55,7 +55,7 @@ Powerhouse Fridays are well and truly back underway up the stairs at Mash. More 
 
 £5 - Tickets here: https://ra.co/events/1516484
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 1st April
 
@@ -71,7 +71,7 @@ Miss World roll into April with a residents show featuring Epika’s Naafi. Afte
 
 £5 - Tickets here: https://ra.co/events/1511439
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 1st April
 
@@ -87,7 +87,7 @@ Now in its twentieth year, Jackhammer is back at the Caves with two special head
 
 £10 - Tickets here: https://ra.co/events/1512272
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 1st April
 
@@ -103,7 +103,7 @@ DIY start-up Twister N’ Techno is kicking up a fuss at the unusual surrounding
 
 Free Entry - https://ra.co/events/1517648
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 2nd April
 
@@ -119,7 +119,7 @@ An event that has been on everyone's lips the past few weeks, Industrial Estate 
 
 £4 - £6 - Tickets here: https://ra.co/events/1503537
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 2nd April
 
@@ -135,7 +135,7 @@ A sound clash between two of the leading community radio stations in the central
 
 £5 - £8 - Tickets here: https://ra.co/events/1513725
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 2nd April
 
@@ -151,7 +151,7 @@ The next installment of Soulsville sees Ann Tweak (Mirror Dance) and the Jacuzzi
 
 £6 - £8 - Tickets here: https://ra.co/events/1514969
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SUNDAY 3rd April
 
@@ -167,4 +167,4 @@ Sneaky’s Sundays brings forth another enticing guest this week with Jasper Tyg
 
 £3 - Tickets here: https://ra.co/events/1513026
 
-</div></div><hr>
+</div></div><hr/>

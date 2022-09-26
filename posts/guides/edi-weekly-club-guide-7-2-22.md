@@ -23,7 +23,7 @@ Rescheduled from December, Headset celebrates it’s 7th birthday in style with 
 
 £10 - £15 - [Tickets here: Headset 7th Birthday: Batu, Yushh, Cando, Skillis at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1481727)
 
-</div></div><hr>
+</div></div><hr/>
 
 ## WEDNESDAY 9th February
 
@@ -37,7 +37,7 @@ We return to Sneaky Pete’s this Wednesday for the start of a new collaboration
 
 £5 - £7 - [Tickets here: Heaters // Plant Bass'd: TAAHLIAH at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1494126)
 
-</div></div><hr>
+</div></div><hr/>
 
 ## THURSDAY 10th February
 
@@ -52,7 +52,7 @@ more modern house, Dusky are set to take punters on a dance music journey this T
 
 £8 - £12 - Tickets are sold out with 20 on the door on the night. [RA Resale queue available here Dusky All Night Long at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1494388)
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 11th February
 
@@ -66,7 +66,7 @@ more modern house, Dusky are set to take punters on a dance music journey this T
 
 £5 - Tickets here: [249's Queer Night for All - Live Music & DJs Tickets | Ooh Mami Edinburgh | Fri 11th February 2022 Lineup (skiddle.com)](https://www.skiddle.com/whats-on/Edinburgh/Ooh-Mami/249s-Queer-Night-for-All---Live-Music--DJs-/35980758/)
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 11th February
 
@@ -78,7 +78,7 @@ more modern house, Dusky are set to take punters on a dance music journey this T
 
 Edinburgh’s transiting party starters GRDN are back with a lovedown from their own residents at a secret location in central Edinburgh. After a string of pop up parties and a night at Teviot Underground with Acid Waxa recently, GRDN are establishing themselves as one of the more inventive club series in the capital with another exciting show expected on Friday. And it’s free! Follow their instagram for details.
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 11th February
 
@@ -92,7 +92,7 @@ Overground kick start their 2022 series with a fundraiser for the Harm Reduction
 
 £2 - £7.50 (plus donations) - Tickets here: [☻ RaveSafe℠ ☻ A Harm Reduction Fundraiser ☻ ᴏᴠᴇʀɢʀᴏᴜɴᴅ ☻ at The Mash House, Edinburgh · Tickets](https://ra.co/events/1496288)
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 11th February
 
@@ -106,7 +106,7 @@ Samedia Shebeen’s carnival-esque party Disco Makossa is back at the Bongo with
 
 £6 - £8 - Tickets here: [Disco Makossa w/BUTHO THE WARRIOR (JAIVA) Tickets | The Bongo Club Edinburgh | Fri 11th February 2022 Lineup (skiddle.com)](https://www.skiddle.com/whats-on/Edinburgh/The-Bongo-Club/Disco-Makossa-wBUTHO-THE-WARRIOR-JAIVA/35984953/)
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 12th February
 
@@ -120,7 +120,7 @@ Moxie takes on Sneaky’s once more for a 4 hour set. NTS resident and long time
 
 £6 - £10 - Tickets here: [Moxie All Night Long at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1494474)
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 12th February
 
@@ -134,7 +134,7 @@ The Messenger Soundsystem hosts a very special night, an ode to all things Bob M
 
 £6 - £10 - Tickets here: [Bob Marley Birthday Special - Messenger Sound System at The Bongo Club, Edinburgh · Tickets (ra.co)](https://ra.co/events/1496302)
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 12th February
 
@@ -148,7 +148,7 @@ Another opening show of the year, this time for Club Nacht as they welcome Brain
 
 £5 - £10 - Tickets here: [Bob Marley Birthday Special - Messenger Sound System at The Bongo Club, Edinburgh · Tickets (ra.co)](https://ra.co/events/1496302)
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SUNDAY 13th February
 
@@ -161,4 +161,4 @@ Another opening show of the year, this time for Club Nacht as they welcome Brain
 Sneaky’s Sunday edition of Postal is bringing together two of the city’s hardest hitters in Franck (Carouse Records, childsplay) and DV60 (Volens Chorus) for a devastating b2b 4 hour session. A strong concoction of techno, electro, hardcore, & more will be served up to close out another epic week of clubbing on Cowgate.
 Tickets here: [Postal at Sneaky Pete's, Edinburgh · Tickets (ra.co)](https://ra.co/events/1496429)
 
-</div></div><hr>
+</div></div><hr/>

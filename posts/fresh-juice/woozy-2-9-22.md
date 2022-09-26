@@ -17,7 +17,7 @@ Buy/ Stream here: [WZY 2.5 | Woozy](https://woozydublin.bandcamp.com/)
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Founded and directed by well-respected selector and curator EMA of Skin & Blister and Yamamori Tengu (formerly alongside Sputnik One), Woozy has grown vastly in stature over the last two years. Churning out some of the most cutting edge UK influenced bass music, productions have come from rising acts from that spectrum with entrants such as Glimmerman, Yussh, and Coe among other bass masters.
 

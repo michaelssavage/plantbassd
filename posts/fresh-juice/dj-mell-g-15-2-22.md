@@ -17,7 +17,7 @@ path: "fresh-juice"
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Opening track ‘ON MY MIND’ instantly outlines the perfect combination that this collaboration is set to play out. A thundering bass line with shrieking drums and alarm sounds beautifully lines up with the bad attitude lyrics of Karnage Kills. Bolstered by floatier key melodies throughout, this is a sensual dark room slammer from MELL G which picks up right where the ‘COPS CAN’T DANCE’ effort with DJ Godfather left off.
 

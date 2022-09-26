@@ -19,7 +19,7 @@ The initial ‘Grimey Ones’ effort (listen: https://oldboytrax.bandcamp.com/al
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Grimey Ones Part II introduces itself with a dark and shuffling dubstep effort in the shape of ‘LUV U’, which maintains a groove throughout with its consistent breaks and snappy voiceovers. Lead single ‘LOOSE SHELLS’ runs riot with a chippy 2 step rhythm that overlaps with Flowdan’s ‘Shell A Verse’ for a truly mad ting!
 

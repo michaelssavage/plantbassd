@@ -25,7 +25,7 @@ Grandmaster Skillis takes charge of the Messenger Sound System for a special reo
 
 £5 - £10 - Tickets here: https://ra.co/events/1495228
 
-</div></div><hr>
+</div></div><hr/>
 
 ## TUESDAY 25th January
 
@@ -39,7 +39,7 @@ Edinburgh and Scotland’s biggest DnB party returns to its infamous Tuesday nig
 
 £5 - £6 - Tickets here: https://ra.co/events/1479637
 
-</div></div><hr>
+</div></div><hr/>
 
 ## WEDNESDAY 26th January
 
@@ -53,7 +53,7 @@ Bongo is the place to be on the opening nights it seems with Wednesday hosting N
 
 £10 on final release - Tickets here: https://ra.co/events/1488021
 
-</div></div><hr>
+</div></div><hr/>
 
 ## THURSDAY 27th January
 
@@ -67,7 +67,7 @@ Scottish community radio It’sNotRadio celebrates turning one with a takeover a
 
 £5 - £10 - Tickets here: https://ra.co/events/1491449
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 28th January
 
@@ -81,7 +81,7 @@ Headset returns after a capacity Christmas Day party with a shift to the higher 
 
 £5 - £12 Tickets here: https://ra.co/events/1493341
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 28th January
 
@@ -95,7 +95,7 @@ Hedonism, Unity and Freedom. Powerhouse siege on Leith’s Biscuit Factory for a
 
 £8 - Tickets here: https://ra.co/events/1493341
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 28th January
 
@@ -109,7 +109,7 @@ The almighty wee dub club return to Great Junction Street for an evening of regg
 
 £8 - £10 Tickets here: https://www.skiddle.com/whats-on/Edinburgh/The-Old-Dr-Bells-Baths/Wee-Dub-Club-Roots-Session-Inna-Lieth-2/35955771/
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 29th January
 
@@ -123,7 +123,7 @@ Pulse return to the Bongo with a special night of music nodding to the sound of 
 
 £6 - £10 Tickets here: https://ra.co/events/1494179
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 29th January
 
@@ -135,4 +135,4 @@ Pulse return to the Bongo with a special night of music nodding to the sound of 
 
 Not one, but TWO! Pulse bring back one of the UK’s most innovative techno producers in Neil Landstrumm who will be shelling out a tantalizing live set. A true master at work who has been ever present since the 90’s, this is another stand out for reopening week for us.
 
-</div></div><hr>
+</div></div><hr/>

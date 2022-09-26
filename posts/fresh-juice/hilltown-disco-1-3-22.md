@@ -18,7 +18,7 @@ Buy/ Listen here: https://hilltowndiscouk.bandcamp.com/album/raziel
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 After last years pulsating Asbeel and Zadkiel releases with Art Angel, Hilltown Disco once again show off their eclectic electro tastes as they bring together acts from the US, France and the UK to add to their already staggering alumni.
 

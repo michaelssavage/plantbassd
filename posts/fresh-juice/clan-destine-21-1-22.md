@@ -15,7 +15,7 @@ path: "fresh-juice"
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Glasgow’s Clan Destine Records arrive with the ninth installment in their ‘ALPHA AND OMEGA‘ compilation series with a disturbing concoction of booty shaking juke, footwork, jungle, breaks, grime, electro, ghetto tech, hip hop and phonk.
 

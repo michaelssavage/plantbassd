@@ -15,7 +15,7 @@ path: "fresh-juice"
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Fronted by Nora Zion & Super Flog, the Hazardous Materials V/A brings together a selection of organised chaos with entries from a host of Perth producers alongside some friends from the UK.
 

@@ -17,7 +17,7 @@ Buy/ Stream here: [Headbutt | Strick](https://eventhestrong.bandcamp.com/album/h
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Canadian born & bred, Strick has culminated a jittery drum-focused club sound over the last number of years. Notable duo workings alongside Manchester’s Avernian on both German imprint ROW and Birmingham’s Circular Jaw, as well as self-released workings like ‘Caffeine Ethos’ have seen his sound gain a great traction with drum enthusiasts.
 

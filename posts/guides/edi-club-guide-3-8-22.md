@@ -27,7 +27,7 @@ A stand out on the opening weekend, Fringe By the Sea sees an enticing collabora
 
 Tickets here - https://ra.co/events/1532520
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Saturday 6th of August
 
@@ -43,7 +43,7 @@ Edinburgh’s iconic community radio station EHFM returns to Sneaky’s for thei
 
 Tickets here: https://ra.co/events/1564778
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Sunday 7th of August
 
@@ -59,7 +59,7 @@ Cabaret Voltaire presents a new Fringe special with Haven, a Sunday series throu
 
 Tickets here: https://ra.co/events/1561917
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Wednesday 10th of August
 
@@ -75,7 +75,7 @@ Elysium returns to the Mash House for its second edition, this time gauging an e
 
 Tickets here - https://ra.co/events/1563245
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Wednesday 10th of August
 
@@ -91,7 +91,7 @@ Local stalwart Franck invites one of Europe’s most cutting edge producers in D
 
 Tickets here - https://ra.co/events/1552572
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Thursday 11th of August
 
@@ -107,7 +107,7 @@ The International Festival invites a stellar collection of artists to Leith Thea
 
 Tickets here - https://ra.co/events/1558631
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Friday 12th of August
 
@@ -123,7 +123,7 @@ With its usual home of Bongo Club in Underbelly hibernation for the month, Edinb
 
 Tickets here - https://ra.co/events/1566136
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Saturday 13th of August
 
@@ -139,7 +139,7 @@ One of the standout acts coming to the city this August, Squarepusher takes to t
 
 Tickets here - https://ra.co/events/1558626
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Sunday 14th of August
 
@@ -155,7 +155,7 @@ Haven invites everyone's favourite Miss World to the vaults for its second Sunda
 
 Tickets here - https://ra.co/events/1561923
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Wednesday 17th of August
 
@@ -171,7 +171,7 @@ Drifting away from the club sounds momentarily as US native bossing vocalist Pri
 
 Tickets here - https://ra.co/events/1558625
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Thursday 18th of August
 
@@ -187,7 +187,7 @@ Shaping up to be one of the biggest nights of the festival on Cowgate, ghetto te
 
 Tickets here - https://ra.co/events/1563155
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Thursday 18th of August
 
@@ -203,7 +203,7 @@ One of the city’s most honest and underground shindigs, Signal returns with fo
 
 Tickets here - https://ra.co/events/1560834
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Friday 19th of August
 
@@ -219,7 +219,7 @@ After having to postpone his previous date earlier in the year, Parris finally m
 
 Tickets here - https://ra.co/events/1559428
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Saturday 20th of August
 
@@ -235,7 +235,7 @@ The big names just keep on coming as First Edition invite Hessle Audio co-founde
 
 Tickets here - https://ra.co/events/1526402
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Thursday 25th of August
 
@@ -251,7 +251,7 @@ Spearheading Ireland’s bass movement with her riveting Woozy label, EMA takes 
 
 Tickets here - https://ra.co/events/1564615
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Saturday 27th of August
 
@@ -267,7 +267,7 @@ Edinburgh’s definitive techno party Pulse takes on the Mash House festival clo
 
 Tickets here - https://ra.co/events/1558220
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Saturday 27th of August
 
@@ -283,7 +283,7 @@ Two of the great Scott sound systems go head to head at Summerhall on the festiv
 
 Tickets here - https://ra.co/events/1559985
 
-</div></div><hr>
+</div></div><hr/>
 
 ## Sunday 28th of August
 
@@ -299,4 +299,4 @@ On what will be the grand finale of festival proceedings, Haven’s Cab Vol Sund
 
 Tickets here - https://ra.co/events/1554596
 
-</div></div><hr>
+</div></div><hr/>

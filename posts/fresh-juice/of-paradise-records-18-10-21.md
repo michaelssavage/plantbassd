@@ -13,7 +13,7 @@ path: "fresh-juice"
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 We spoke to label runners Paul Patterson and @fadeofparadise about the challenges involved in putting together a compilation, the outlook of the label, the idea of being aesthetically underground, and more.
 

@@ -17,7 +17,7 @@ Buy/ Stream here: [DJ Ladybarn | Gunchester](https://ilpadrinorecords.bandcamp.c
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Il Padrino has been welcoming anyone and everyone to the party since its birth in 2014 out of Belfast showcasing the more elaborate side of club music. The past 8 years has seen the label sharing many different genres beit garage, footwork, or phonk, all the while carrying interesting themes and sharing the tracks to the world for free. It's a labour of love existing merely for the enjoyment of it all, and that passion evidently filters through to the music.
 

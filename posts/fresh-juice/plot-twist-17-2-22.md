@@ -19,7 +19,7 @@ We chatted to Cherriep from the label about the foundations and inspiration behi
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
-<hr>
+<hr/>
 
 Falling as the first release of the calendar year for the label, Plot Twist (who has had sporadic releases on Philthtrax since 2014) soundtracks a journey from the roots of the electro sound to its unknown bounds with a real futuristic feel throughout. Initialized with opening title-track ‘New Futures’, the Mid-West artist lays down snappy hats over old school 808 kicks and bass lines that nod to the electro eras gone by.
 This is chased up by ‘Think Tank (The Unknown)’, a bass-ridden electro club weapon that depicts a world of higher computer intelligence than man can control.

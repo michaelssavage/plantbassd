@@ -22,7 +22,7 @@ Incoming shows from Blawan, Habibi Funk, Jacques Greene, Jeremy Sylvester, Shere
 
 Rounding off an epic month of Heaters bookings, Arab disco and funk sensation Habibi Funk takes Sneaky’s alongside local star Hiba for what is sure to be a most unique clubbing experience filled with global sounds. Online tickets are sold out but you may be able to grab one on the door if you’re early enough!
 
-</div></div><hr>
+</div></div><hr/>
 
 ## THURSDAY 24th February
 
@@ -36,7 +36,7 @@ Rounding off an epic month of Heaters bookings, Arab disco and funk sensation Ha
 The Hooversounds boss and one of the current spearheads of the UK scene, Sherelle gets up close and personal with Club Sylkie at Sneaky’s this Thursday. A night of hard jungle, footwork, techno, breaks & more alongside Feena and Club Sylkie residents.  
 This is also sold out online with some tickets being left on the door (GET DOWN EARLY!).
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 25th February
 
@@ -52,7 +52,7 @@ Circle returns with a night of specialist underground techno and electro featuri
 
 £7 -£8 - Tickets here: https://ra.co/events/1499462
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 25th February
 
@@ -68,7 +68,7 @@ Edinburgh label Hobbes Music returns to Bongo with a stacked line-up two celebra
 
 £4 - £10 - Tickets here: https://ra.co/events/1496109
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 25th February
 
@@ -84,7 +84,7 @@ Edinburgh label Hobbes Music returns to Bongo with a stacked line-up two celebra
 
 £5 - £7 - Tickets https://ra.co/events/1503021
 
-</div></div><hr>
+</div></div><hr/>
 
 ## FRIDAY 25th February
 
@@ -100,7 +100,7 @@ Presented by Storytime, Ross From Friends’ ‘Tread’ album tour arrives in E
 
 £15 - £20 - Tickets here: https://ra.co/events/1479894
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 26th February
 
@@ -116,7 +116,7 @@ One of the forefathers of UKG, Jeremy Sylvester is in town for a Headset Special
 
 £8 - £15 - Tickets here: https://ra.co/events/1488202
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 26th February
 
@@ -132,7 +132,7 @@ Longstanding Sub-Club resident Domenic Capello joins local hero Telfort for the 
 
 £10 - £15 - Tickets here: https://ra.co/events/1478837
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 26th February
 
@@ -148,7 +148,7 @@ Another reschedule, Pulse brings UK hard techno ace Blawan to town for a highly 
 
 £10 - £15 - Tickets here: https://ra.co/events/1478837
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 26th February
 
@@ -164,7 +164,7 @@ Queer, experimental party Revolt returns with it’s second city party to Summer
 
 £9 - Tickets here: https://ra.co/events/1498447
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 26th February
 
@@ -180,7 +180,7 @@ Edinburgh’s disco and afro-funk dons Samedia Shebeen bring the soundclash agai
 
 £11.25 - Tickets here: https://www.skiddle.com/whats-on/Edinburgh/La-Belle-Angele/Samedia-Shebeen-Tropical-Soundclash/35979180/
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SATURDAY 26th February
 
@@ -196,7 +196,7 @@ Soul Jam ressies Tuesday Gonzalez and Percy Main tackle their night by themselve
 
 £5 - £7 - Tickets here: https://ra.co/events/1503025
 
-</div></div><hr>
+</div></div><hr/>
 
 ## SUNDAY 27th February
 
@@ -212,4 +212,4 @@ Canadian house master Jacques Greene stops by for an unexpected return to one of
 
 £10 - Tickets here: https://ra.co/events/1501927
 
-</div></div><hr>
+</div></div><hr/>
