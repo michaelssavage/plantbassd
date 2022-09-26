@@ -5,11 +5,6 @@ import Head from "next/head";
 import PropTypes from "prop-types";
 import Sidebar from "components/Sidebar";
 
-export function reportWebVitals(metric) {
-  // eslint-disable-next-line no-console
-  console.log(metric);
-}
-
 export default function MyApp({ Component, pageProps }) {
   return (
     <>
