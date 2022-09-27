@@ -10,7 +10,7 @@ export const linkList = [
     icon: "tickets",
   },
   {
-    tile: "On Site at Fuinneamh Festival",
+    title: "On Site at Fuinneamh Festival",
     link: "https://www.plantbassd.com/news/fuinneamh-27-9-22",
     icon: "news",
   },
