@@ -10,6 +10,11 @@ export const linkList = [
     icon: "tickets",
   },
   {
+    tile: "On Site at Fuinneamh Festival",
+    link: "https://www.plantbassd.com/news/fuinneamh-27-9-22",
+    icon: "news",
+  },
+  {
     title: "'For Sure' by Sweet Philly",
     link: "https://www.plantbassd.com/fresh-juice/sweet-philly-3-9-22",
     icon: "fresh juice",
