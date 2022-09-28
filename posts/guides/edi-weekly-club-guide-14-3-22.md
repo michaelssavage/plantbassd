@@ -1,6 +1,6 @@
 ---
 title: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending 20/3/22"
-name: "EDINBURGH CLUB GUIDE"
+name: "EDINBURGH CLUB GUIDE St. Patrick’s Day"
 date: "March 14, 2022"
 pic: "/news/08-edinburgh-club-guide.jpg"
 seeMore: "https://ra.co/events/uk/edinburgh?week=2022-03-14"
