@@ -1,30 +1,27 @@
 @use "@/abstracts" as *;
 
-.descriptor {
-	padding: 1.5rem 2rem 0 2rem;
-	background-color: $white;
-}
-
 .footerParagraph {
-	margin-right: 18%;
-	padding-left: 0.5rem;
+  margin-right: 20%;
 }
 
 @include breakpoint-below(md) {
-	.footerParagraph {
-		margin-right: 0rem;
-		padding-left: 0rem;
-	}
+  .footerParagraph {
+    margin-right: 10%;
+  }
 }
 
 @include breakpoint-below(sm) {
-	.footerParagraph {
-		margin-right: 0;
-	}
+  .footerParagraph {
+    margin-right: 0;
+  }
 }
 
 .footerColor {
-	color: $headerBlack;
-	padding-left: 0;
-	list-style: none;
+  color: $headerBlack;
+  padding-left: 0;
+  list-style: none;
+}
+
+.justifyContent {
+  text-align: justify;
 }
