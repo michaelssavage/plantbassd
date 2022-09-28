@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass’d Takeover 002: @presswork"
+name: "Plant Bass’d Takeover presswork"
 date: "February 1, 2021"
 pic: "/takeovers/02_Presswork.jpg"
 artistPage: "https://www.instagram.com/presswork_/"

@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass'd return to the Wigwam basement this July"
+name: "plus one e the artist lychee oisin dublin"
 date: "July 14, 2022"
 pic: "/news/15-plus.jpg"
 tickets: "https://www.eventbrite.com/e/plant-bassd-presents-plus-one-with-e-the-artist-lychee-tickets-384796585947"

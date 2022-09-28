@@ -1,5 +1,6 @@
 ---
 title: "Review: Another Love Story Festival 2022"
+name: "Another Love Story festival michael savage"
 date: "August 26, 2022"
 tags: "reviews"
 pic: "/news/17-als.png"
@@ -8,8 +9,6 @@ postLink: "https://www.instagram.com/plantbassd___"
 bio: "Plant Bass'd attended Another Love Story Festival 2022.."
 path: "news"
 ---
-
-
 
 <p class="smallText"><i>Editing by Peter Toal & Michael Savage/ Words & Design by Michael Savage</i></p>
 
@@ -147,7 +146,7 @@ Before we left the grounds on Sunday, we had some Bahay Filipino Street Food. Ph
 
 ---
 
-## Our Wrap-up 
+## Our Wrap-up
 
 Another Love Story is two weeks out from Electric Picnic and it's a striking comparison of the attentiveness and intimacy this small festival has created. It is an empowering, spectacular weekend for those who desire the festival experience without being overwhelmed by massive crowds or having too many stages to cover. We found ourselves in a sea of eccentric genuine personalities who left feeling just as good as they arrived. An older crowd with more sense and love for each other. Time and time again, we thought “oh they got this right.”
 

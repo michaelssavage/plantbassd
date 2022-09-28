@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: New Futures by Plot Twist (Philthtrax)"
+name: "FRESH JUICE New Futures Plot Twist Philthtrax"
 date: "February 17, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/14-plot-twist2.jpg"

@@ -2,7 +2,7 @@ import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
 import Link from "next/link";
 import PropTypes from "prop-types";
-import styles from "@/pageStyle/guests.module.scss";
+import styles from "@/styles/card.module.scss";
 
 export default function CardExternal({ guest }) {
   return (
@@ -11,10 +11,10 @@ export default function CardExternal({ guest }) {
             col-4
             col-md-4 
             col-lg-3 
-            col-xl-3`}
+            col-xl-2`}
     >
       <Link href={guest.link}>
-        <a>
+        <a className="blackAnchor">
           <div className={`card imgContainer ${styles.cardStyle}`}>
             <Image
               alt={guest.name}
@@ -30,6 +30,7 @@ export default function CardExternal({ guest }) {
               <div className="guestTextOverlay">{guest.name}</div>
             </div>
           </div>
+          <p className="nameAnchor">{guest.name}</p>
         </a>
       </Link>
     </div>

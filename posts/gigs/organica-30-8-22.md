@@ -1,5 +1,6 @@
 ---
 title: "PLANT BASS'D PRESENTS: ORGANICA"
+name: "curtisy dump hellokt lychee savage dublin"
 date: "August 30, 2022"
 pic: "/news/18-organica.png"
 tickets: "https://www.eventbrite.ie/e/plant-bassd-presents-organica-tickets-399512531737"

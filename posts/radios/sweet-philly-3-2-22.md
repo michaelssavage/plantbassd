@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass’d Radio: @phillyholmes_"
+name: "Sweet Philly Holmes"
 date: "February 3, 2022"
 pic: "/radios/05_sweet-philly.jpg"
 tracklist: "/radios/05_sweey-philly-setlist.jpg"

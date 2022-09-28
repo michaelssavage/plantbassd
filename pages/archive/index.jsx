@@ -1,34 +1,26 @@
 import { sortByDate } from "components/Utilities";
 import Error from "components/Error";
-import FilterTags from "components/FilterTags";
 import Footer from "components/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
-import useFilterTags from "hooks/useFilterTags";
+import useFilter from "hooks/useFilter";
 
 import CardWithText from "@/cards/CardWithText";
 import GoBack from "@/btns/GoBack";
 import styles from "@/pageStyle/page.module.scss";
 
-const newsTags = [
-  { name: "fresh juice", value: false },
-  { name: "gigs", value: false },
-  { name: "guides", value: false },
-  { name: "premieres", value: false },
-];
-
 export default function ArchivePage({ files }) {
-  const { error, handleTags, hasErrored, newsStories, tagList } = useFilterTags(
-    newsTags,
-    "news",
-    files
-  );
+  const { error, filter, hasErrored, postCards, setFilter } = useFilter(files);
+
+  const handleSearchChange = (event) => {
+    setFilter(event.target.value);
+  };
 
   if (hasErrored) {
-    <Error error={error} />;
+    return <Error error={error} />;
   }
 
   return (
@@ -36,25 +28,33 @@ export default function ArchivePage({ files }) {
       <Head>
         <title>Plant Bass'd Archive</title>
       </Head>
-      <div className={styles.archiveBG}>
-        <div className="container">
-          <h1 className={styles.pageHeader}>Plant Bass'd Archive</h1>
+      <div className="archiveBG">
+        <h1 className={styles.pageHeader}>Plant Bass'd Archive</h1>
 
-          <FilterTags handleTags={handleTags} tagList={tagList} />
-
-          <div className="row g-3">
-            {newsStories.map((story) => (
-              <CardWithText
-                columns="col-4 col-sm-4 col-md-4 col-lg-2"
-                key={story.frontmatter.title}
-                link={`/${story.frontmatter.path}/${story.slug}`}
-                post={story}
-              />
-            ))}
-          </div>
-
-          <GoBack />
+        {/* SEARCH BOX */}
+        <div className={`input-group ${styles.archiveFilter}`}>
+          <input
+            aria-label="Filter"
+            className="form-control"
+            onChange={handleSearchChange}
+            placeholder="Filter The Archive With Any Search Term..."
+            type="text"
+            value={filter}
+          />
         </div>
+
+        <div className="row g-3">
+          {postCards.map((story) => (
+            <CardWithText
+              columns="col-4 col-sm-4 col-md-4 col-lg-2"
+              key={story.frontmatter.title}
+              link={`/${story.frontmatter.path}/${story.slug}`}
+              post={story}
+            />
+          ))}
+        </div>
+
+        <GoBack />
       </div>
 
       <Footer />

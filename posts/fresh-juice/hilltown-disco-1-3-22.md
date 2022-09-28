@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: Raziel V/A by Hilltown Disco"
+name: "FRESH JUICE Raziel Hilltown disco"
 date: "March 1, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/18-hilltown-disco.jpg"

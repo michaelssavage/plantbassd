@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: Preliminal by HhÉiR"
+name: "FRESH JUICE preliminal hheir"
 date: "March 4, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/20-heir-preliminal.jpg"

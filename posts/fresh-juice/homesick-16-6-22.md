@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: Bolt by HomeSick"
+name: "FRESH JUICE bolt HomeSick"
 date: "June 16, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/39-homesick-bolt.jpg"

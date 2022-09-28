@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: darkmavis & sweet philly - ‘Euphore’"
+name: "FRESH JUICE darkmavis sweet philly euphore"
 date: "November 29, 2021"
 pic: "/fresh-juice/05_darkmavis-sweetphilly.jpg"
 tags: "fresh juice"

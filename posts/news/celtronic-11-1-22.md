@@ -1,5 +1,6 @@
 ---
 title: "Review: Celtronic Festival 2021"
+name: "Celtronic festival derry michael savage"
 date: "January 1, 2022"
 tags: "reviews"
 pic: "/news/05_celtronic.jpg"
@@ -9,7 +10,7 @@ bio: "Plant Bass'd attended Derry's biggest electronic music festival from 9th -
 path: "news"
 ---
 
-## The First Pint
+<p class="smallText"><i>Words & Design by Michael Savage</i></p>
 
 Our introduction to Derry was Sandino’s, with the venue just upstairs. This was a cool and eclectic bar filled with photos, flags, scribbles, iconic figures, and history reminders. We started the weekend on the right foot.
 

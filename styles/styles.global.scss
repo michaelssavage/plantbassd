@@ -18,10 +18,19 @@
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-html,
+html {
+  padding: 0;
+  margin: 0;
+}
 body {
   padding: 0;
-  margin: 0 0 0 3rem;
+  margin: 0 0 0 6rem !important;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin-left: 0rem !important;
+  }
 }
 
 a {
@@ -53,6 +62,10 @@ p {
   font-size: $paragraph;
 }
 
+.messinaFont {
+  font-family: "Messina";
+}
+
 .smallText {
   font-size: $cardSmall;
 }
@@ -65,34 +78,36 @@ img {
 }
 
 Link {
-  color: inherit !important;
-  text-decoration: none !important;
+  color: inherit;
+  text-decoration: none;
 }
 
 .anchor {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 .anchorHover {
   @extend .anchor;
   &:hover {
-    color: $headerBlack;
+    color: $black;
     filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
   }
 }
 
 .anchorColor {
-  color: inherit !important;
+  color: inherit;
   @extend .anchorHover;
 }
 
 .newsPreview {
-  color: $black !important;
+  color: $black;
   @extend .anchorHover;
 }
 
 .blackAnchor {
-  color: $black !important;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(240, 60, 160);
   @extend .anchor;
   border-radius: 1em 0 1em 0;
   &:hover {
@@ -102,11 +117,19 @@ Link {
       rgba(240, 60, 160, 0.6) 95%,
       rgba(240, 60, 160, 0.1)
     );
+    color: inherit;
+    text-decoration: none;
   }
 }
 
+.nameAnchor {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .globalBottomBtn {
-  margin-top: 1rem !important;
+  margin-top: 1rem;
   text-align: left;
 }
 
@@ -126,24 +149,16 @@ Link {
   background-color: $navBlue;
 }
 
+.discoveryCards {
+  background: linear-gradient(180deg, $lilac 20%, $opal 80%);
+}
+
 .header {
   color: $headerBlack !important;
   font-size: $lgHeader;
 }
 
-.discoveryCards {
-  background: linear-gradient(180deg, $lilac 20%, $opal 80%);
-}
-
-.clubGuide {
-  padding: 0.5rem 0;
-}
-
 @include breakpoint-below(sm) {
-  body {
-    margin-left: -3rem !important;
-  }
-
   .header {
     font-size: $mdHeader;
   }
@@ -161,7 +176,10 @@ Link {
   }
 }
 
-//above
+.clubGuide {
+  padding: 0.5rem 0;
+}
+
 @include breakpoint-above(md) {
   .clubGuide {
     -moz-box-flex: 0 !important;
@@ -170,7 +188,6 @@ Link {
   }
 }
 
-//below
 @include breakpoint-below(md) {
   .clubGuide {
     -moz-box-flex: 0 !important;
@@ -179,6 +196,8 @@ Link {
     padding: 0.25rem 0;
   }
 }
+
+// ============ PREVIOUS GUEST OVERLAY ============
 
 .imgContainer {
   position: relative;
@@ -234,4 +253,123 @@ img {
 
 .navIcon {
   font-size: $paragraph;
+}
+
+// ------------------- COMPONENT COLOURS/LAYOUTS -------------------
+
+.layout {
+  padding: 0 5%;
+}
+
+@media (max-width: 768px) {
+  .layout {
+    padding: 0 8%;
+  }
+}
+
+@media (max-width: 376px) {
+  .layout {
+    padding: 0 10%;
+  }
+}
+
+.newsSection {
+  background-color: $blank;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.mixSection {
+  background-color: $lavender;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+// fresh-juice component
+.freshSection {
+  background-color: $culturedWhite;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.takeoverSection {
+  padding-top: 2rem;
+  @extend .layout;
+}
+
+.radioSection {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.footerSection {
+  padding-top: 2rem;
+  background-color: $white;
+  @extend .layout;
+}
+
+// ------------------- PAGE COLOURS/LAYOUTS -------------------
+
+.newsBG {
+  background-color: $lavender;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.freshjuiceBG {
+  background-color: $culturedWhite;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.gigsBG {
+  background-color: $teal;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.radioBG {
+  background-color: $opal;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.takeoverBG {
+  background-color: $lilac;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.archiveBG {
+  background-color: $rosyBrown;
+  min-height: 100vh;
+  @extend .layout;
+}
+
+.aboutBG {
+  text-align: justify;
+  background-color: $lavender;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.errorBG {
+  height: 100vh;
+  @extend .layout;
+}
+
+.errorPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }

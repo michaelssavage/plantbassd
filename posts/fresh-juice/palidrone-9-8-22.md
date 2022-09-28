@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: Rattle by Palidrone"
+name: "FRESH JUICE Rattle Palidrone"
 date: "August 9, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/46-rattle.jpg"

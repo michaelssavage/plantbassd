@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: Magic the Gabbering by Bitten Twice"
+name: "FRESH JUICE magic the gabbering bitten twice rory sweeney julia louise knifefist"
 date: "May 27, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/36-magic.jpg"

@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass’d Radio: @jack________ward PRIDE mix!"
+name: "Jack Ward Pride"
 date: "June 30, 2021"
 pic: "/radios/01_jack-ward.jpg"
 tracklist: "/radios/01_tracklist.jpg"

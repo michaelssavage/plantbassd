@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass’d Takeover 012: @skinandblister_club"
+name: "Plant Bass’d Takeover skin blister"
 date: "May 11, 2021"
 pic: "/takeovers/12_Skin-And-Blister.jpg"
 artistPage: "https://www.instagram.com/skinandblister_club/"

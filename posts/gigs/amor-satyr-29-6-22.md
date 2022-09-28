@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass'd kickstart a new venture at Stereo, Glasgow with a 3 way bill"
+name: Amor Satyr skillis doubt Glasgow Stereo"
 date: "June 29, 2022"
 pic: "/news/14-amor.jpg"
 tickets: "https://ra.co/events/1550775"

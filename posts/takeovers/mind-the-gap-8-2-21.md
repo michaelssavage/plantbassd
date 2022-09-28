@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass’d Takeover 003: @mindt_hegap"
+name: "Plant Bass’d Takeover mind the gap"
 date: "February 8, 2021"
 pic: "/takeovers/03_Mind-The-Gap.jpg"
 artistPage: "https://www.instagram.com/mindt_hegap/"

@@ -1,5 +1,6 @@
 ---
 title: "Plantbass'd returns to Glasgow for our bumper SweatBox y2k Rave"
+name: "roo honeychild casement iso yso lucky dip glasgow"
 date: "February 23, 2022"
 pic: "/news/07-sweatbox-y2k.jpg"
 tickets: "https://ra.co/events/1505400"

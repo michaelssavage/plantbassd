@@ -3,7 +3,6 @@ import Error from "components/Error";
 import Footer from "components/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
-import SearchBox from "components/SearchBox";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
@@ -16,10 +15,11 @@ import styles from "@/pageStyle/page.module.scss";
 
 export default function TakeoverPage({ takeovers }) {
   const { error, filter, hasErrored, postCards, setFilter } =
-      useFilter(takeovers),
-    handleSearchChange = (event) => {
-      setFilter(event.target.value);
-    };
+    useFilter(takeovers);
+
+  const handleSearchChange = (event) => {
+    setFilter(event.target.value);
+  };
 
   if (hasErrored) {
     return <Error error={error} />;
@@ -29,39 +29,43 @@ export default function TakeoverPage({ takeovers }) {
       <Head>
         <title>Plant Bass'd Takeovers</title>
       </Head>
-      <div className={styles.takeoverBG}>
-        <div className="container">
-          <h1 className={styles.pageHeader}>Plant Bass'd Takeovers</h1>
+      <div className="takeoverBG">
+        <h1 className={styles.pageHeader}>Plant Bass'd Takeovers</h1>
 
-          <p className={styles.pageText}>
-            Artists select and share their top tracks on Spotify. Check out the
-            playlist below.
-          </p>
-          <div className={styles.searchBox}>
-            <SearchBox
-              filter={filter}
-              setFilter={handleSearchChange}
-              styling={styles.searchFilter}
-            />
-            <SocialMediaBtn
-              icon="spotify"
-              link="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
-              styling={styles.spotify}
-              title="Plant Bass'd Picks"
+        <p className={styles.pageText}>
+          Artists select and share their top tracks on Spotify. Check out the
+          playlist below.
+        </p>
+        <div className={styles.searchBox}>
+          {/* SEARCH BOX */}
+          <div className={`input-group ${styles.radioFilter}`}>
+            <input
+              aria-label="Filter"
+              className="form-control"
+              onChange={handleSearchChange}
+              placeholder="Filter Artists By Name..."
+              type="text"
+              value={filter}
             />
           </div>
-          <div className="row g-3">
-            {postCards.map((takeover) => (
-              <CardNoText
-                key={takeover.frontmatter.title}
-                link={`/takeovers/${takeover.slug}`}
-                post={takeover}
-              />
-            ))}
-          </div>
-
-          <GoBack />
+          <SocialMediaBtn
+            icon="spotify"
+            link="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
+            styling={styles.spotify}
+            title="Plant Bass'd Picks"
+          />
         </div>
+        <div className="row g-3">
+          {postCards.map((takeover) => (
+            <CardNoText
+              key={takeover.frontmatter.title}
+              link={`/takeovers/${takeover.slug}`}
+              post={takeover}
+            />
+          ))}
+        </div>
+
+        <GoBack />
       </div>
 
       <Footer />

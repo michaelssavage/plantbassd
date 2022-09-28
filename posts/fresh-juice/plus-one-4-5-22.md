@@ -1,5 +1,6 @@
 ---
-title: "FRESH JUICE: FRESH JUICE: MIDNIGHT DUB VOL.1 by PLUS ONE"
+title: "FRESH JUICE: MIDNIGHT DUB VOL.1 by PLUS ONE"
+name: "FRESH JUICE MIDNIGHT DUB VOL.1 PLUS ONE"
 date: "May 4, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/28_plus-one.jpg"

@@ -1,9 +1,5 @@
 @use "@/abstracts" as *;
 
-.bg {
-  background-color: $blank;
-}
-
 .headerContainer {
   display: flex;
   align-items: center;
@@ -59,7 +55,7 @@
   -moz-box-direction: normal;
   flex-direction: row;
   border-top: 5px solid $navBlue;
-  margin-top: 1rem;
+  margin: 1rem 0 0;
 }
 
 // @include breakpoint-below(xs) {

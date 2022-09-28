@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: U Got My Number? / Endz by Cartin"
+name: "FRESH JUICE endz number cartin"
 date: "April 12, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/26-cartin-endz.jpg"

@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: Long Island Sound - First Contact"
+name: "FRESH JUICE Long Island Sound First Contact michael savage"
 date: "January 31, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/12-long-island-sound.jpg"
@@ -15,7 +16,7 @@ Buy/ Stream here: https://thehammerhits.bandcamp.com/album/first-contact-ep
 
 <img src="/fresh-juice/12-long-island-sound-ep.jpg" alt="first contact album art" width="75%" />
 
-<p class="smallText"><i>Words by Michael Savage/ Design by Michael Savage</i></p>
+<p class="smallText"><i>Words & Design by Michael Savage</i></p>
 
 <hr/>
 

@@ -1,5 +1,6 @@
 ---
 title: "SweatBox party"
+name: "edinburgh fio fa feena oisin"
 date: "November 10, 2021"
 pic: "/news/02_SweatBox.jpg"
 tickets: "https://ra.co/events/1480079"

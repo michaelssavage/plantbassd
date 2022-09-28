@@ -1,5 +1,6 @@
 ---
 title: "Review: Fuinneamh Festival 2022"
+name: "Fuinneamh festival louth"
 date: "September 27, 2022"
 tags: "reviews"
 pic: "/news/23-fuinneamh.png"

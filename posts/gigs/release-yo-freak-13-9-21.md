@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass’d present their first party offering to Edinburgh - Release Yo Freak"
+name: "roo honeychild conan oisin edinburgh"
 date: "September 13, 2021"
 pic: "/news/01_Release-Yo-Freak.jpg"
 tickets: "https://ra.co/events/1463880"

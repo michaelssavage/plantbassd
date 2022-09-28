@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: Carlos Danger - Carlos Danger’s Summer Sound"
+name: "FRESH JUICE carlos danger rory sweeney"
 date: "November 1, 2021"
 tags: "fresh juice"
 pic: "/fresh-juice/03_Carlos-Danger.jpg"

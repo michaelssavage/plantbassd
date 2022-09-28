@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: 'JUICY CLASS' by DJ FUCKOFF X DJ MELL G"
+name: "FRESH JUICE dj mell g juicy class dj fuckoff"
 date: "May 10, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/30-juicy-class.jpg"

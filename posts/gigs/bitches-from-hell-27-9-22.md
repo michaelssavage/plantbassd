@@ -1,5 +1,6 @@
 ---
 title: "The Gang of Bitches return to Bongo Club (27 Oct)"
+name: "poog1rl katelate sky"
 date: "September 27, 2022"
 pic: "/news/25-bfh.jpg"
 tickets: "https://ra.co/events/1595479"

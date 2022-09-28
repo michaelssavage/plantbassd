@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass’d Takeover 001: @luciidmusic"
+name: "Plant Bass’d Takeover luciid luke pollock"
 date: "January 25, 2021"
 pic: "/takeovers/01_Luciid.jpg"
 artistPage: "https://www.instagram.com/luciidmusic/"

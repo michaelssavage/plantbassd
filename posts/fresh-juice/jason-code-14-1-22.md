@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: JCO1 by Jason Code"
+name: "FRESH JUICE jason code jc01"
 date: "January 17, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/10_jason-code.jpg"

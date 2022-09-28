@@ -1,5 +1,6 @@
 ---
 title: "We return to Glasgow’s Stereo Club later this month (27/8)"
+name: "battle royale stereo glasgow roo honeychild egg vaj casement doubt oisin"
 date: "August 15, 2022"
 pic: "/news/16-battle-royale.jpg"
 tickets: "https://ra.co/events/1570572"

@@ -6,7 +6,9 @@ export default function SocialMediaBtn({ styling, link, icon, title }) {
     <a
       className={`${styling} text-nowrap btn btn-dark btn-lg`}
       href={link}
+      rel="noopener noreferrer"
       role="button"
+      target="_blank"
     >
       <SocialIcon icon={icon} /> {title}
     </a>

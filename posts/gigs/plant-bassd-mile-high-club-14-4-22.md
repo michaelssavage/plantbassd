@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass'd and Mile High Club join forces"
+name: "two shell behra sosi oisin edinburgh"
 date: "April 14, 2022"
 pic: "/news/09-two-shell.jpg"
 tickets: "https://ra.co/events/1523162"

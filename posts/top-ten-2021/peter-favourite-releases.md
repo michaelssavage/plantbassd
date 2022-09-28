@@ -1,5 +1,6 @@
 ---
 title: "Peter’s Top 10 Dance Releases of 2021"
+name: "top 10 releases peter toal"
 date: "December 27, 2021"
 tags: "reviews"
 pic: "/top-ten-2021/peter.jpg"

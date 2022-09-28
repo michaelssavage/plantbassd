@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass'd return home for their first show on Irish soil"
+name: "rory sweeney sohotsospicy glimmerman ayolxi dublin"
 date: "April 17, 2022"
 pic: "/news/10-plantbassd-wigwam.jpg"
 tickets: "https://ra.co/events/1523165"

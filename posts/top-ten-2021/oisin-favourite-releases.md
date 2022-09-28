@@ -1,5 +1,6 @@
 ---
 title: "OISÍN’s Top 10 Dance Releases of 2021"
+name: "top 10 releases oisin"
 date: "December 21, 2021"
 tags: "reviews"
 pic: "/top-ten-2021/oisin.jpg"

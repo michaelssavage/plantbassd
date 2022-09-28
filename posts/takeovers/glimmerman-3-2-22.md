@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass’d Takeover 019: @_glimmerman_"
+name: "Plant Bass’d Takeover glimmerman"
 date: "February 4, 2022"
 pic: "/takeovers/19_glimmerman.jpg"
 artistPage: "https://www.instagram.com/_glimmerman_/"
