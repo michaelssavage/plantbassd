@@ -52,7 +52,9 @@ export default function Links() {
               <a
                 className={`btn btn-outline-dark ${styles.btnText}`}
                 href={item.link}
+                rel="noopener noreferrer"
                 role="button"
+                target="_blank"
               >
                 <div>{item.title}</div>
               </a>

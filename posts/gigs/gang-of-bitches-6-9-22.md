@@ -35,4 +35,4 @@ xxx Devour Endeavour. Please arrive dressed in DevilCore xxx
 
 £5 - £10
 
-Artwork: @_leanlow_
+Artwork: @\_leanlow\_
