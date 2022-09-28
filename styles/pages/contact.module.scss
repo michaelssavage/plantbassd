@@ -1,10 +1,5 @@
 @use "@/abstracts" as *;
 
-.container {
-  padding: 15vh 6rem 0 8rem;
-  background-color: $lavender;
-}
-
 .iconBox {
   text-decoration: none;
   display: flex;
@@ -13,10 +8,11 @@
   font-size: $cardDate;
 }
 
+.imgContainer {
+  text-align: center;
+}
+
 .img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 0.25rem;
 }
 
@@ -39,22 +35,32 @@
   }
 }
 
+.container {
+  padding: 10vh 12rem 2rem 14rem;
+  text-align: justify;
+  background-color: $lavender;
+}
+
+@include breakpoint-below(md) {
+  .container {
+    padding: 8vh 8rem 2rem 10rem;
+  }
+}
+
 @include breakpoint-below(sm) {
   .container {
-    padding: 3rem 4rem;
+    padding: 6vh 6rem 2rem 8rem;
   }
 
-  @include breakpoint-below(xs) {
-    .socialIcon {
-      width: 2.2rem;
-      height: 2.2rem;
-    }
+  .socialIcon {
+    width: 2.2rem;
+    height: 2.2rem;
   }
 }
 
 @include breakpoint-below(xs) {
   .container {
-    padding: 3rem;
+    padding: 4vh 4rem 2rem 6rem;
   }
 
   .socialIcon {
