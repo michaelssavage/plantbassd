@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: Drop The Bass by Generator"
+name: "FRESH JUICE drop the bass generator"
 date: "May 24, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/34-drop-the-bass.jpg"

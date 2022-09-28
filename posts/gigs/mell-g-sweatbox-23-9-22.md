@@ -1,5 +1,6 @@
 ---
 title: "SweatBox series heads to Stereo Club (14 Oct)"
+name: "mell g nyla kopi o glasgow"
 date: "September 23, 2022"
 pic: "/news/24-mell-g.jpg"
 tickets: "https://ra.co/events/1585832"

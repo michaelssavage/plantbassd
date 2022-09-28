@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: ‘Based On Your Listening History’ by Viikatory"
+name: "FRESH JUICE Based On Your Listening History Viikatory"
 date: "May 7, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/29_Viikatory.jpg"

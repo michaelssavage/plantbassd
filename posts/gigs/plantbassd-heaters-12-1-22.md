@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass'd X Heaters"
+name: "taahliah sweet philly lucky dip edinburgh"
 date: "January 12, 2022"
 pic: "/news/05-plantbassd-heaters.jpg"
 tickets: "https://ra.co/events/1494126"

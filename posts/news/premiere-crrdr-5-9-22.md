@@ -1,5 +1,6 @@
 ---
 title: "PLANT BASS’D PREMIERE: ‘Sonale Los Bajos’ by CRRDR"
+name: "PLANT BASS’D PREMIERE Sonale Los Bajos CRRDR"
 date: "September 5, 2022"
 tags: "premieres"
 pic: "/news/22-crrdr.jpg"

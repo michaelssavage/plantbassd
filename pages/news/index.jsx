@@ -37,43 +37,38 @@ export default function NewsPage({ files }) {
       <Head>
         <title>Plant Bass'd News</title>
       </Head>
-      <div className={styles.newsBG}>
-        <div className="container">
-          <h1 className={styles.pageHeader}>Plant Bass'd News</h1>
+      <div className="newsBG">
+        <h1 className={styles.pageHeader}>Plant Bass'd News</h1>
 
-          <p className={styles.pageText}>
-            News about club guides, gigs, and all things Plant Bass'd. Keep up
-            to date on our Instagram,{" "}
-            <a
-              className="blackAnchor"
-              href="http://instagram.com/plantbassd___"
-            >
-              @plantbassd___
-            </a>
-          </p>
+        <p className={styles.pageText}>
+          News about club guides, gigs, and all things Plant Bass'd. Keep up to
+          date on our Instagram,{" "}
+          <a className="blackAnchor" href="http://instagram.com/plantbassd___">
+            @plantbassd___
+          </a>
+        </p>
 
-          <FilterTags handleTags={handleTags} tagList={tagList} />
+        <FilterTags handleTags={handleTags} tagList={tagList} />
 
-          <div className="row g-3">
-            {newsStories.map((story) => (
-              <CardWithText
-                key={story.frontmatter.title}
-                link={`/${story.frontmatter.path}/${story.slug}`}
-                post={story}
-              />
-            ))}
-          </div>
-
-          <div className={styles.viewAllBtn}>
-            <Link href="/archive">
-              <a className="btn btn-dark btn-lg px-5 py-2" type="button">
-                View All Posts
-              </a>
-            </Link>
-          </div>
-
-          <GoBack />
+        <div className="row g-3">
+          {newsStories.map((story) => (
+            <CardWithText
+              key={story.frontmatter.title}
+              link={`/${story.frontmatter.path}/${story.slug}`}
+              post={story}
+            />
+          ))}
         </div>
+
+        <div className={styles.viewAllBtn}>
+          <Link href="/archive">
+            <a className="btn btn-dark btn-lg px-5 py-2" type="button">
+              View All Posts
+            </a>
+          </Link>
+        </div>
+
+        <GoBack />
       </div>
 
       <Footer />

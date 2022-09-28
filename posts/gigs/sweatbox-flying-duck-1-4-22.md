@@ -1,5 +1,6 @@
 ---
 title: "Glasgow Sweatbox set for 23/04/22"
+name: "glasgow martyn bootspoon helena sweet philly oisin"
 date: "April 1, 2022"
 pic: "/news/08-sweatbox.jpg"
 tickets: "https://ra.co/events/1515781"

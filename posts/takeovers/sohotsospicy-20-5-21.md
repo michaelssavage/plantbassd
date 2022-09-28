@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass’d Takeover 013: @sohotsospicy"
+name: "Plant Bass’d Takeover sohotsospicy"
 date: "May 20, 2021"
 pic: "/takeovers/13_sohotsospicy.jpg"
 artistPage: "https://www.instagram.com/sohotsospicy/"

@@ -3,7 +3,6 @@ import Error from "components/Error";
 import Footer from "components/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
-import SearchBox from "components/SearchBox";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
@@ -16,10 +15,11 @@ import styles from "@/pageStyle/page.module.scss";
 
 export default function FreshJuicePage({ freshjuice }) {
   const { error, filter, hasErrored, postCards, setFilter } =
-      useFilter(freshjuice),
-    handleSearchChange = (event) => {
-      setFilter(event.target.value);
-    };
+    useFilter(freshjuice);
+
+  const handleSearchChange = (event) => {
+    setFilter(event.target.value);
+  };
 
   if (hasErrored) {
     return <Error error={error} />;
@@ -29,38 +29,42 @@ export default function FreshJuicePage({ freshjuice }) {
       <Head>
         <title>Plant Bass'd Fresh Juice</title>
       </Head>
-      <div className={styles.freshjuiceBG}>
-        <div className="container">
-          <h1 className={styles.pageHeader}>Fresh Juice</h1>
+      <div className="freshjuiceBG">
+        <h1 className={styles.pageHeader}>Fresh Juice</h1>
 
-          <p className={styles.pageText}>
-            New music releases from around the world that we've highlighted.
-          </p>
-          <div className={styles.searchBox}>
-            <SearchBox
-              filter={filter}
-              setFilter={handleSearchChange}
-              styling={styles.searchFilter}
-            />
-            <SocialMediaBtn
-              icon="bandcamp"
-              link="https://bandcamp.com/oisincampbellbap"
-              styling={styles.bandcamp}
-              title="Our Bandcamp Collection"
+        <p className={styles.pageText}>
+          New music releases from around the world that we've highlighted.
+        </p>
+        <div className={styles.searchBox}>
+          {/* SEARCH BOX */}
+          <div className={`input-group ${styles.radioFilter}`}>
+            <input
+              aria-label="Filter"
+              className="form-control"
+              onChange={handleSearchChange}
+              placeholder="Filter Artists By Name..."
+              type="text"
+              value={filter}
             />
           </div>
-          <div className="row g-3">
-            {postCards.map((radio) => (
-              <CardNoText
-                key={radio.frontmatter.title}
-                link={`/fresh-juice/${radio.slug}`}
-                post={radio}
-              />
-            ))}
-          </div>
-
-          <GoBack />
+          <SocialMediaBtn
+            icon="bandcamp"
+            link="https://bandcamp.com/oisincampbellbap"
+            styling={styles.bandcamp}
+            title="Our Bandcamp Collection"
+          />
         </div>
+        <div className="row g-3">
+          {postCards.map((radio) => (
+            <CardNoText
+              key={radio.frontmatter.title}
+              link={`/fresh-juice/${radio.slug}`}
+              post={radio}
+            />
+          ))}
+        </div>
+
+        <GoBack />
       </div>
 
       <Footer />

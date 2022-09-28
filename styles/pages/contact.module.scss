@@ -8,14 +8,6 @@
   font-size: $cardDate;
 }
 
-.imgContainer {
-  text-align: center;
-}
-
-.img {
-  border-radius: 0.25rem;
-}
-
 .socialIcon {
   display: flex;
   height: 3rem;
@@ -35,23 +27,7 @@
   }
 }
 
-.container {
-  padding: 10vh 12rem 2rem 14rem;
-  text-align: justify;
-  background-color: $lavender;
-}
-
-@include breakpoint-below(md) {
-  .container {
-    padding: 8vh 8rem 2rem 10rem;
-  }
-}
-
 @include breakpoint-below(sm) {
-  .container {
-    padding: 6vh 6rem 2rem 8rem;
-  }
-
   .socialIcon {
     width: 2.2rem;
     height: 2.2rem;
@@ -59,10 +35,6 @@
 }
 
 @include breakpoint-below(xs) {
-  .container {
-    padding: 4vh 4rem 2rem 6rem;
-  }
-
   .socialIcon {
     height: 1.8rem;
     width: 1.8rem;

@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: HAZMAT Compilation (Hazardous Materials Vol. 001)"
+name: "FRESH JUICE HAZMAT Compilation Hazardous Materials"
 date: "January 10, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/09_third-degree.jpg"

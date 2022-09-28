@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: Raw Voltage V/A by Ovelha Trax"
+name: "FRESH JUICE Raw Voltage V/A Ovelha Trax"
 date: "May 25, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/35-raw.jpg"

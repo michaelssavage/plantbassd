@@ -1,5 +1,6 @@
 ---
 title: "23/12/21 - SweatBox: Mistletoe & Grind"
+name: "edinburgh nina stanger oisin peeve skillis smiff"
 date: "December 8, 2021"
 pic: "/news/04_mistletoe-and-grind.jpg"
 tickets: "https://ra.co/events/1485121"

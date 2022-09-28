@@ -50,13 +50,18 @@ export default function ArtistCard() {
               <a
                 className="blackAnchor"
                 href="https://soundcloud.com/plantbassddjs"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 Soundcloud
               </a>
               .
             </p>
 
-            <DiscoverMoreBtn link="https://soundcloud.com/plantbassddjs" />
+            <DiscoverMoreBtn
+              external
+              link="https://soundcloud.com/plantbassddjs"
+            />
           </div>
         </div>
       </div>

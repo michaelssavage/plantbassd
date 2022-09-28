@@ -1,5 +1,6 @@
 ---
 title: "Back at the Sneaky Pete’s club for another night of insatiable hot trax"
+name: "sarra wild cabbage petfood oisin edinburgh"
 date: "May 18, 2022"
 pic: "/news/12-heaters.png"
 tickets: "https://ra.co/events/1530814"

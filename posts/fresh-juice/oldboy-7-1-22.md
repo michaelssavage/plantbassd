@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: GRIMEY ONES PART II by Oldboy"
+name: "FRESH JUICE GRIMEY ONES PART II Oldboy"
 date: "January 7, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/08_oldboy-grimey-ones.jpg"

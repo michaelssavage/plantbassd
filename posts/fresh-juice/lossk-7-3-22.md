@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: Electrophile by Lossk (Hyperdome)"
+name: "FRESH JUICE Electrophile Lossk Hyperdome"
 date: "March 7, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/22-electrophile.jpg"

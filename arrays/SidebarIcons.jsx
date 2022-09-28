@@ -24,7 +24,7 @@ export const sidebarList = [
       title: "Takeovers",
     },
     {
-      link: "/contact-us",
+      link: "/about",
       title: "Contact Us",
     },
     {

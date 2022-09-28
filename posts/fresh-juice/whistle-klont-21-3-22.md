@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: Double Knee by Whistle & Klont"
+name: "FRESH JUICE Double Knee Whistle & Klont"
 date: "March 21, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/23-whistle-klont_double-knee.jpg"

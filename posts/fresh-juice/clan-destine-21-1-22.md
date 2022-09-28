@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: THEE ALPHA AND THEE OMEGA VOL IX - CLAN DESTINE CLICK"
+name: "FRESH JUICE "
 date: "January 21, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/11-clan-destine.jpg"

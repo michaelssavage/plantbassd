@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass'd returns to Dublin, this time to Workman’s Club"
+name: "e the artist jenn jession silky club sweet philly dublin"
 date: "May 9, 2022"
 pic: "/news/11-workmans.jpg"
 tickets: "https://ra.co/events/1533360"

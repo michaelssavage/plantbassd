@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: Of Paradise Records - ‘Of Paradise Vol. 4’."
+name: "FRESH JUICE of paradise records"
 date: "October 18, 2021"
 tags: "fresh juice"
 pic: "/fresh-juice/02_Of-Paradise-Records.jpg"

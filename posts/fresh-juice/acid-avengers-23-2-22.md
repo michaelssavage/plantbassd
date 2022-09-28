@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: Acid Avengers 021 by Maelstrom / Locked Club & RLGN"
+name: "FRESH JUICE Acid Avengers Maelstrom Locked Club RLGN"
 date: "March 23, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/25-maelstrom_acid-avengers.jpg"

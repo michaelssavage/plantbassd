@@ -2,7 +2,7 @@ import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
 import Link from "next/link";
 import PropTypes from "prop-types";
-import styles from "@/pageStyle/guests.module.scss";
+import styles from "@/styles/card.module.scss";
 
 export default function CardExternal({ guest }) {
   return (

@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: City Stars by DJ HANK"
+name: "FRESH JUICE dj hank city stars"
 date: "March 3, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/19-city-stars.jpg"

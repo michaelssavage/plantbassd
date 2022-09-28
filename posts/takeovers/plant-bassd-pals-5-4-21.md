@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass’d Takeover 010: @plantbassd___ & pals"
+name: "Plant Bass’d Takeover fonza doubleduv bozo"
 date: "April 5, 2021"
 pic: "/takeovers/10_PB-Pals.jpg"
 artistPage: "https://www.instagram.com/plantbassd___"

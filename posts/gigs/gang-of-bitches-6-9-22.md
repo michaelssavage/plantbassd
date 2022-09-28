@@ -1,5 +1,6 @@
 ---
 title: "The Gang Of Bitches From Hell"
+name: "joey mousepads cabbage lucky dip melly edinburgh"
 date: "September 6, 2022"
 pic: "/news/20-gang-of-bitches.jpg"
 tickets: "https://ra.co/events/1581956"

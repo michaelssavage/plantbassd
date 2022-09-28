@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: Headbutt by Strick"
+name: "FRESH JUICE Headbutt Strick"
 date: "July 7, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/42-strick-headbutt.jpg"

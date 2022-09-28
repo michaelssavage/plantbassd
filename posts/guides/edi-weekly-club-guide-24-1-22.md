@@ -1,5 +1,6 @@
 ---
 title: "EDINBURGH WEEKLY CLUB GUIDE - REOPENING WEEK"
+name: "EDINBURGH CLUB GUIDE"
 date: "January 24, 2022"
 pic: "/news/01-edinburgh-club-guide.jpg"
 seeMore: "https://ra.co/events/uk/edinburgh?week=2022-01-24"

@@ -129,7 +129,7 @@ Link {
 }
 
 .globalBottomBtn {
-  margin-top: 1rem !important;
+  margin-top: 1rem;
   text-align: left;
 }
 
@@ -255,7 +255,7 @@ img {
   font-size: $paragraph;
 }
 
-// ------------------------COMPONENT COLOURS -----------------------
+// ------------------- COMPONENT COLOURS/LAYOUTS -------------------
 
 .layout {
   padding: 0 5%;
@@ -264,6 +264,12 @@ img {
 @media (max-width: 768px) {
   .layout {
     padding: 0 8%;
+  }
+}
+
+@media (max-width: 376px) {
+  .layout {
+    padding: 0 10%;
   }
 }
 
@@ -304,4 +310,66 @@ img {
   padding-top: 2rem;
   background-color: $white;
   @extend .layout;
+}
+
+// ------------------- PAGE COLOURS/LAYOUTS -------------------
+
+.newsBG {
+  background-color: $lavender;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.freshjuiceBG {
+  background-color: $culturedWhite;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.gigsBG {
+  background-color: $teal;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.radioBG {
+  background-color: $opal;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.takeoverBG {
+  background-color: $lilac;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.archiveBG {
+  background-color: $rosyBrown;
+  min-height: 100vh;
+  @extend .layout;
+}
+
+.aboutBG {
+  text-align: justify;
+  background-color: $lavender;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.errorBG {
+  height: 100vh;
+  @extend .layout;
+}
+
+.errorPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }

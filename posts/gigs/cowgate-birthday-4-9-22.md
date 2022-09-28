@@ -1,5 +1,6 @@
 ---
 title: "1 whole year of parties across Edinburgh, Glasgow and Dublin."
+name: "pacifier katelate oisin cowgate edinburgh"
 date: "September 4, 2022"
 pic: "/news/19-cowgate.jpg"
 tickets: "https://ra.co/events/1576857"

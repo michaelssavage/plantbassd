@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass'd Ruff 'N' Tuff"
+name: "smiff oisin glashow"
 date: "November 30, 2021"
 pic: "/news/03_ruff-n-tuff.jpg"
 tickets: "https://ra.co/events/1484531"

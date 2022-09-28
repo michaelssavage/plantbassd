@@ -21,14 +21,14 @@ export const links = [
   },
   {
     link: "/links",
-    title: "Link Tree",
+    title: "Links",
   },
   {
     link: "/radios",
     title: "Guest Radio",
   },
   {
-    link: "/contact-us",
+    link: "/about",
     title: "Contact Us",
   },
 ];

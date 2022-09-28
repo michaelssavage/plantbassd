@@ -1,19 +1,35 @@
 import Link from "next/link";
 import PropTypes from "prop-types";
 
-export default function DiscoverMoreBtn({ title = "Discover More", link }) {
+export default function DiscoverMoreBtn({
+  external,
+  link,
+  title = "Discover More",
+}) {
   return (
     <div className="globalBottomBtn">
       <Link href={link}>
-        <a className="text-nowrap btn btn-outline-dark btn-lg" role="button">
-          {title}
-        </a>
+        {external ? (
+          <a
+            className="text-nowrap btn btn-outline-dark btn-lg"
+            rel="noopener noreferrer"
+            role="button"
+            target="_blank"
+          >
+            {title}
+          </a>
+        ) : (
+          <a className="text-nowrap btn btn-outline-dark btn-lg" role="button">
+            {title}
+          </a>
+        )}
       </Link>
     </div>
   );
 }
 
 DiscoverMoreBtn.propTypes = {
+  external: PropTypes.bool.isRequired,
   link: PropTypes.string.isRequired,
   title: PropTypes.string,
 };

@@ -1,5 +1,6 @@
 ---
 title: "Plant Bass'd invites Bitten Twice to Edinburgh"
+name: "rory sweeney julia louise knifefist oisin edinburgh"
 date: "June 14, 2022"
 pic: "/news/13-bitten-twice.jpg"
 tickets: "https://ra.co/events/1546542"

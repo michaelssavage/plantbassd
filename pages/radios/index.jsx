@@ -3,7 +3,6 @@ import Error from "components/Error";
 import Footer from "components/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
-import SearchBox from "components/SearchBox";
 import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
@@ -15,52 +14,59 @@ import SocialMediaBtn from "@/btns/SocialMediaBtn";
 import styles from "@/pageStyle/page.module.scss";
 
 export default function RadioPage({ radios }) {
-  const { error, filter, hasErrored, postCards, setFilter } = useFilter(radios),
-    handleSearchChange = (event) => {
-      setFilter(event.target.value);
-    };
+  const { error, filter, hasErrored, postCards, setFilter } = useFilter(radios);
+
+  const handleSearchChange = (event) => {
+    setFilter(event.target.value);
+  };
 
   if (hasErrored) {
     return <Error error={error} />;
   }
+
   return (
     <>
       <Head>
         <title>Plant Bass'd Radios</title>
       </Head>
-      <div className={styles.radioBG}>
-        <div className="container">
-          <h1 className={styles.pageHeader}>Plant Bass'd Radio</h1>
 
-          <p className={styles.pageText}>
-            Guest mixes from homegrown and international artists. Check them out
-            on our Soundcloud.
-          </p>
-          <div className={styles.searchBox}>
-            <SearchBox
-              filter={filter}
-              setFilter={handleSearchChange}
-              styling={styles.searchFilter}
-            />
-            <SocialMediaBtn
-              icon="radio"
-              link="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
-              styling={styles.soundcloud}
-              title="Plant Bass'd Radio"
+      <div className="radioBG">
+        <h1 className={styles.pageHeader}>Plant Bass'd Radio</h1>
+
+        <p className={styles.pageText}>
+          Guest mixes from homegrown and international artists. Check them out
+          on our Soundcloud.
+        </p>
+        <div className={styles.searchBox}>
+          {/* SEARCH BOX */}
+          <div className={`input-group ${styles.radioFilter}`}>
+            <input
+              aria-label="Filter"
+              className="form-control"
+              onChange={handleSearchChange}
+              placeholder="Filter Artists By Name..."
+              type="text"
+              value={filter}
             />
           </div>
-          <div className="row g-3">
-            {postCards.map((radio) => (
-              <CardNoText
-                key={radio.frontmatter.title}
-                link={`/radios/${radio.slug}`}
-                post={radio}
-              />
-            ))}
-          </div>
-
-          <GoBack />
+          <SocialMediaBtn
+            icon="radio"
+            link="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
+            styling={styles.soundcloud}
+            title="Plant Bass'd Radio"
+          />
         </div>
+        <div className="row g-3">
+          {postCards.map((radio) => (
+            <CardNoText
+              key={radio.frontmatter.title}
+              link={`/radios/${radio.slug}`}
+              post={radio}
+            />
+          ))}
+        </div>
+
+        <GoBack />
       </div>
 
       <Footer />

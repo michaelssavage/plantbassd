@@ -1,5 +1,6 @@
 ---
 title: "PLANT BASS’D PREMIERE: ‘Paradise’ by Selky (The Bumps EP)"
+name: "PLANT BASS’D PREMIERE Paradise Jack Selky"
 date: "May 11, 2022"
 tags: "premieres"
 pic: "/news/12-premiere.png"

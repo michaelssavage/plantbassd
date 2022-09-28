@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: TOOFTRAX202 by Tooflez All Stars"
+name: "FRESH JUICE TOOFTRAX202 Tooflez All Stars"
 date: "February 24, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/16-tooftrax202.jpg"

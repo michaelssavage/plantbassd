@@ -11,9 +11,7 @@ export default function useFilter(posts = []) {
       setPostCards(
         filter
           ? posts.filter((post) =>
-              post.frontmatter.title
-                .toLowerCase()
-                .includes(filter.toLowerCase())
+              post.frontmatter.name.toLowerCase().includes(filter.toLowerCase())
             )
           : posts
       );

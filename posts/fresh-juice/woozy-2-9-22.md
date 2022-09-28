@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: WZY 2.5 by Woozy"
+name: "FRESH JUICE WZY 2.5 Woozy"
 date: "September 2, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/47-fj.jpg"

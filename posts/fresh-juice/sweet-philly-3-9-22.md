@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: For Sure by Sweet Philly"
+name: "FRESH JUICE For Sure Sweet Philly"
 date: "September 3, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/48-for-sure.jpg"

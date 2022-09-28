@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: Gunchester by DJ Ladybarn"
+name: "FRESH JUICE dj ladybarn gunchester"
 date: "June 15, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/38-dj-ladybarn-gunchester.jpg"

@@ -42,7 +42,7 @@ export default function RellaxImg() {
             between.
           </p>
           <div className={styles.btns}>
-            <DiscoverMoreBtn link="/contact-us" title="About us" />
+            <DiscoverMoreBtn link="/about" title="About us" />
             <DiscoverMoreBtn link="/gigs" title="Gigs" />
             <DiscoverMoreBtn link="/previous-guests" title="Previous Guests" />
           </div>

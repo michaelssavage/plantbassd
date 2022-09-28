@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: LIFE SIMULATOR by POUCH ENVY"
+name: "FRESH JUICE LIFE SIMULATOR POUCH ENVY"
 date: "June 29, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/41-pouch-envy.jpg"

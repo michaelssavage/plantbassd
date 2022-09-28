@@ -1,5 +1,6 @@
 ---
 title: "YTP leads Plant Bass'd X Heaters on the 9-3-22"
+name: "ytp edinburgh ten pence criminal oisin"
 date: "February 16, 2022"
 pic: "/news/06-plantbassd-ytp.jpg"
 tickets: "https://ra.co/events/1500809"

@@ -5,18 +5,17 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import SocialIcon from "components/SocialIcon";
-
-import styles from "@/pageStyle/contact.module.scss";
+import styles from "@/pageStyle/page.module.scss";
 
 export default function ContactPage() {
   return (
     <>
       <Head>
-        <title>Contact Us</title>
+        <title>About Us</title>
       </Head>
 
-      <div className={styles.container}>
-        <h1 className={styles.header}>About Us</h1>
+      <div className="aboutBG">
+        <h1 className={styles.pageHeader}>About Us</h1>
 
         <p>
           Plant Bass'd is spearheaded by Oisin Campbell, Michael Savage, and
@@ -30,14 +29,14 @@ export default function ContactPage() {
           unforgettable Plant Bass'd nights in Ireland and the UK.
         </p>
 
-        <div className={styles.imgContainer}>
+        <div className="text-center">
           <Image
-            alt="three lads"
+            alt="image of oisin, michael and peter"
             blurDataURL={`data:image/svg+xml;base64,${toBase64(
               shimmer(400, 400)
             )}`}
             // eslint-disable-next-line react/forbid-component-props
-            className={styles.img}
+            className="rounded"
             height={300}
             placeholder="blur"
             src="/various/hoodie.jpg"
