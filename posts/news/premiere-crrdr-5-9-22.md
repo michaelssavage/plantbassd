@@ -3,7 +3,7 @@ title: "PLANT BASS’D PREMIERE: ‘Sonale Los Bajos’ by CRRDR"
 name: "PLANT BASS’D PREMIERE Sonale Los Bajos CRRDR"
 date: "September 5, 2022"
 tags: "premieres"
-pic: "/news/22-crrdr.jpg"
+pic: "/news/22-crrdr.png"
 seeMore: "https://soundcloud.com/plantbassddjs/plant-bassd-premiere-sonale-los-bajos-by-crrdr"
 postLink: "https://www.instagram.com/plantbassd___"
 bio: Multi-layered club experimentalist CRRDR joins in on fellow Colombian imprint Muakk's first V/A 'Muakk Besitos Bailables'..."
@@ -18,4 +18,4 @@ Muakk brings together 20 artists from Latam and the world combining latincore bo
 
 <img src="/news/22-cover.jpg" alt="CRRDR cover pic" width="75%" />
 
-Support the full V/A here 🌱 muakk.bandcamp.com/album/muakk-besitos-bailables
+Support the full V/A here 🌱 [Muakk Besitos Bailables | MUAKK](https://muakk.bandcamp.com/album/muakk-besitos-bailables)
