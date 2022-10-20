@@ -5,6 +5,11 @@ export const linkList = [
     icon: "tickets",
   },
   {
+    title: "SweatBox: LUXE @ Sneaky Petes",
+    link: "https://ra.co/events/1606239",
+    icon: "tickets",
+  },
+  {
     title: "On Site at Fuinneamh Festival",
     link: "https://www.plantbassd.com/news/fuinneamh-27-9-22",
     icon: "news",
