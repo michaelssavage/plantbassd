@@ -10,6 +10,11 @@ export const linkList = [
     icon: "tickets",
   },
   {
+    title: "BABELGAM - KLAN DESTINO (2AT REMIX)",
+    link: "https://soundcloud.com/plantbassddjs/klan-destino-2at-remix",
+    icon: "premiere",
+  },
+  {
     title: "On Site at Fuinneamh Festival",
     link: "https://www.plantbassd.com/news/fuinneamh-27-9-22",
     icon: "news",
