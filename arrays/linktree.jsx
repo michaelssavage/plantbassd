@@ -1,13 +1,13 @@
 export const linkList = [
   {
-    title: "Gang Of Bitches From Hell II",
-    link: "https://ra.co/events/1595479",
-    icon: "tickets",
-  },
-  {
     title: "SweatBox: LUXE @ Sneaky Petes",
     link: "https://ra.co/events/1606239",
     icon: "tickets",
+  },
+  {
+    title: "Michel Ange - Nineteen Ninety One",
+    link: "https://soundcloud.com/plantbassddjs/premiere-michel-ange-nineteen-ninety-one",
+    icon: "premiere",
   },
   {
     title: "BABELGAM - KLAN DESTINO (2AT REMIX)",
