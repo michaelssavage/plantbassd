@@ -55,10 +55,10 @@ export async function getStaticPaths() {
 // eslint-disable-next-line func-style, require-await
 export async function getStaticProps({ params: { slug } }) {
   const markdownWithMeta = fs.readFileSync(
-      path.join("posts/fresh-juice", `${slug}.md`),
-      "utf-8"
-    ),
-    { data: frontmatter, content } = matter(markdownWithMeta);
+    path.join("posts/fresh-juice", `${slug}.md`),
+    "utf-8"
+  );
+  const { data: frontmatter, content } = matter(markdownWithMeta);
 
   return {
     props: {

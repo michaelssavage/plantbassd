@@ -10,7 +10,7 @@ bio: "With past releases on coveted labels like Future Bounce Werk & MATRACA, Bo
 path: "news"
 ---
 
-Stream here: <a href="https://soundcloud.com/plantbassddjs/fourtwenty-sound-lets-get-it" rel="noopener noreferrer" target="_blank">PLANT BASS’D PREMIERE: ‘LETS GET IT’ by Fourtwenty Sound</a>
+Stream here: <a href="https://soundcloud.com/plantbassddjs/fourtwenty-sound-lets-get-it" rel="noopener noreferrer" target="_blank">LETS GET IT by Fourtwenty Sound</a>
 
 With past releases on coveted labels like Future Bounce Werk & MATRACA, Bogota based Fourtwenty Sound shines further on 'LETS GET IT'.
 

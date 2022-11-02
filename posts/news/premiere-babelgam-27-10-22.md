@@ -10,7 +10,7 @@ bio: MUAKK presents an experiment with BABELGAM, a post punk glitch and pop band
 path: "news"
 ---
 
-Stream here: <a href="https://soundcloud.com/plantbassddjs/klan-destino-2at-remix" rel="noopener noreferrer" target="_blank">PLANT BASS’D PREMIERE: BABELGAM - KLAN DESTINO (2AT REMIX)</a>
+Stream here: <a href="https://soundcloud.com/plantbassddjs/klan-destino-2at-remix" rel="noopener noreferrer" target="_blank">BABELGAM - KLAN DESTINO (2AT REMIX)</a>
 
 MUAKK presents an experiment with BABELGAM, a post punk glitch and pop band from Bogota with producers from the city reworking tracks into club ready guaracha, hardcore, dembow, trance, gabber and breakcore cuts.
 
