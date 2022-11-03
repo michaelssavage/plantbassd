@@ -5,14 +5,14 @@ export const linkList = [
     icon: "tickets",
   },
   {
+    title: "Body Mechanic - High Octane",
+    link: "https://www.plantbassd.com/fresh-juice/body-mechanic-3-11-22",
+    icon: "fresh juice",
+  },
+  {
     title: "Michel Ange - Nineteen Ninety One",
     link: "https://soundcloud.com/plantbassddjs/premiere-michel-ange-nineteen-ninety-one",
     icon: "premiere",
-  },
-  {
-    title: "'High Octane' by Body Mechanic"
-    link: "https://www.plantbassd.com/fresh-juice/body-mechanic-3-11-22",
-    icon: "fresh juice",
   },
   {
     title: "BABELGAM - KLAN DESTINO (2AT REMIX)",
