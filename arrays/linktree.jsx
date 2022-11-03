@@ -10,6 +10,11 @@ export const linkList = [
     icon: "premiere",
   },
   {
+    title: "'High Octane' by Body Mechanic"
+    link: "https://www.plantbassd.com/fresh-juice/body-mechanic-3-11-22",
+    icon: "fresh juice",
+  },
+  {
     title: "BABELGAM - KLAN DESTINO (2AT REMIX)",
     link: "https://soundcloud.com/plantbassddjs/klan-destino-2at-remix",
     icon: "premiere",
