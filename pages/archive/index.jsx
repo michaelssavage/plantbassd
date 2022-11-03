@@ -3,14 +3,14 @@ import Error from "components/Error";
 import Footer from "components/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
-import fs from "fs";
 import matter from "gray-matter";
-import path from "path";
 import useFilter from "hooks/useFilter";
+import { CardWithText } from "components/Card";
+import styles from "styles/page.module.scss";
+import fs from "fs";
+import path from "path";
 
-import CardWithText from "@/cards/CardWithText";
 import GoBack from "@/btns/GoBack";
-import styles from "@/pageStyle/page.module.scss";
 
 export default function ArchivePage({ files }) {
   const { error, filter, hasErrored, postCards, setFilter } = useFilter(files);
@@ -37,7 +37,7 @@ export default function ArchivePage({ files }) {
             aria-label="Filter"
             className="form-control"
             onChange={handleSearchChange}
-            placeholder="Filter The Archive With Any Search Term..."
+            placeholder="Enter a search query..."
             type="text"
             value={filter}
           />
@@ -62,23 +62,19 @@ export default function ArchivePage({ files }) {
   );
 }
 
-/* eslint-disable */
 export async function getStaticProps() {
   const getAllPosts = (dirPath, posts) => {
-    const allPosts = posts || [],
-      folders = fs.readdirSync(dirPath);
+    const allPosts = posts || [];
+    const folders = fs.readdirSync(dirPath);
 
     folders.forEach((file) => {
       if (fs.statSync(`${dirPath}/${file}`).isDirectory()) {
         // If this is a directory, then recursively call function
         getAllPosts(`${dirPath}/${file}`, allPosts);
       } else {
-        const markdownWithMeta = fs.readFileSync(
-            path.join(dirPath, file),
-            "utf-8"
-          ),
-          { data: frontmatter } = matter(markdownWithMeta),
-          slug = file.replace(".md", "");
+        const markdownWithMeta = fs.readFileSync(path.join(dirPath, file), "utf-8");
+        const { data: frontmatter } = matter(markdownWithMeta);
+        const slug = file.replace(".md", "");
 
         allPosts.push({
           frontmatter,

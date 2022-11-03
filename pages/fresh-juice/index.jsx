@@ -3,19 +3,17 @@ import Error from "components/Error";
 import Footer from "components/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
-import fs from "fs";
 import matter from "gray-matter";
-import path from "path";
 import useFilter from "hooks/useFilter";
-
-import CardNoText from "@/cards/CardNoText";
+import { CardNoText } from "components/Card";
+import styles from "styles/page.module.scss";
+import SocialIcon from "components/SocialIcon";
+import fs from "fs";
+import path from "path";
 import GoBack from "@/btns/GoBack";
-import SocialMediaBtn from "@/btns/SocialMediaBtn";
-import styles from "@/pageStyle/page.module.scss";
 
 export default function FreshJuicePage({ freshjuice }) {
-  const { error, filter, hasErrored, postCards, setFilter } =
-    useFilter(freshjuice);
+  const { error, filter, hasErrored, postCards, setFilter } = useFilter(freshjuice);
 
   const handleSearchChange = (event) => {
     setFilter(event.target.value);
@@ -32,12 +30,11 @@ export default function FreshJuicePage({ freshjuice }) {
       <div className="freshjuiceBG">
         <h1 className={styles.pageHeader}>Fresh Juice</h1>
 
-        <p className={styles.pageText}>
-          New music releases from around the world that we've highlighted.
-        </p>
-        <div className={styles.searchBox}>
+        <p className={styles.pageText}>New music releases from around the world that we've highlighted.</p>
+
+        <div className="row align-items-center">
           {/* SEARCH BOX */}
-          <div className={`input-group ${styles.radioFilter}`}>
+          <div className={`col-md-4 me-auto input-group ${styles.radioFilter}`}>
             <input
               aria-label="Filter"
               className="form-control"
@@ -47,20 +44,23 @@ export default function FreshJuicePage({ freshjuice }) {
               value={filter}
             />
           </div>
-          <SocialMediaBtn
-            icon="bandcamp"
-            link="https://bandcamp.com/oisincampbellbap"
-            styling={styles.bandcamp}
-            title="Our Bandcamp Collection"
-          />
+
+          <div className={`col-auto ${styles.socialBtns}`}>
+            <a
+              className={`${styles.bandcamp} text-nowrap btn btn-dark`}
+              href="https://bandcamp.com/oisincampbellbap"
+              rel="noopener noreferrer"
+              role="button"
+              target="_blank"
+            >
+              <SocialIcon icon="bandcamp" /> Our Bandcamp Collection
+            </a>
+          </div>
         </div>
+
         <div className="row g-3">
           {postCards.map((radio) => (
-            <CardNoText
-              key={radio.frontmatter.title}
-              link={`/fresh-juice/${radio.slug}`}
-              post={radio}
-            />
+            <CardNoText key={radio.frontmatter.title} link={`/fresh-juice/${radio.slug}`} post={radio} />
           ))}
         </div>
 
@@ -71,24 +71,20 @@ export default function FreshJuicePage({ freshjuice }) {
     </>
   );
 }
-// eslint-disable-next-line func-style, require-await
+
 export async function getStaticProps() {
   // Get files from the takeover directory
-  const files = fs.readdirSync(path.join("posts/fresh-juice")),
-    // Get Slug and frontmatter from posts
-    freshjuice = files.map((filename) => {
-      const markdownWithMeta = fs.readFileSync(
-          path.join("posts/fresh-juice", filename),
-          "utf-8"
-        ),
-        { data: frontmatter } = matter(markdownWithMeta),
-        slug = filename.replace(".md", "");
+  const files = fs.readdirSync(path.join("posts/fresh-juice"));
+  const freshjuice = files.map((filename) => {
+    const markdownWithMeta = fs.readFileSync(path.join("posts/fresh-juice", filename), "utf-8");
+    const { data: frontmatter } = matter(markdownWithMeta);
+    const slug = filename.replace(".md", "");
 
-      return {
-        frontmatter,
-        slug,
-      };
-    });
+    return {
+      frontmatter,
+      slug,
+    };
+  });
 
   return {
     props: {

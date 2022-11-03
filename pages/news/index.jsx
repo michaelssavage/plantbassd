@@ -5,14 +5,13 @@ import Footer from "components/Footer";
 import Head from "next/head";
 import Link from "next/link";
 import PropTypes from "prop-types";
-import fs from "fs";
 import matter from "gray-matter";
-import path from "path";
 import useFilterTags from "hooks/useFilterTags";
-
-import CardWithText from "@/cards/CardWithText";
+import { CardWithText } from "components/Card";
+import styles from "styles/page.module.scss";
+import fs from "fs";
+import path from "path";
 import GoBack from "@/btns/GoBack";
-import styles from "@/pageStyle/page.module.scss";
 
 const newsTags = [
   { name: "fresh juice", value: false },
@@ -22,11 +21,7 @@ const newsTags = [
 ];
 
 export default function NewsPage({ files }) {
-  const { error, handleTags, hasErrored, newsStories, tagList } = useFilterTags(
-    newsTags,
-    "news",
-    files
-  );
+  const { error, handleTags, hasErrored, newsStories, tagList } = useFilterTags(newsTags, "news", files);
 
   if (hasErrored) {
     <Error error={error} />;
@@ -41,8 +36,7 @@ export default function NewsPage({ files }) {
         <h1 className={styles.pageHeader}>Plant Bass'd News</h1>
 
         <p className={styles.pageText}>
-          News about club guides, gigs, and all things Plant Bass'd. Keep up to
-          date on our Instagram,{" "}
+          News about club guides, gigs, and all things Plant Bass'd. Keep up to date on our Instagram,{" "}
           <a className="blackAnchor" href="http://instagram.com/plantbassd___">
             @plantbassd___
           </a>
@@ -79,20 +73,17 @@ export default function NewsPage({ files }) {
 /* eslint-disable */
 export async function getStaticProps() {
   const getAllPosts = (dirPath, posts) => {
-    const allPosts = posts || [],
-      folders = fs.readdirSync(dirPath);
+    const allPosts = posts || [];
+    const folders = fs.readdirSync(dirPath);
 
     folders.forEach((file) => {
       if (fs.statSync(`${dirPath}/${file}`).isDirectory()) {
         // If this is a directory, then recursively call function
         getAllPosts(`${dirPath}/${file}`, allPosts);
       } else {
-        const markdownWithMeta = fs.readFileSync(
-            path.join(dirPath, file),
-            "utf-8"
-          ),
-          { data: frontmatter } = matter(markdownWithMeta),
-          slug = file.replace(".md", "");
+        const markdownWithMeta = fs.readFileSync(path.join(dirPath, file), "utf-8");
+        const { data: frontmatter } = matter(markdownWithMeta);
+        const slug = file.replace(".md", "");
 
         allPosts.push({
           frontmatter,

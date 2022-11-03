@@ -1,16 +1,9 @@
 import { marked } from "marked";
-import Image from "next/image";
 import PropTypes from "prop-types";
-import styles from "@/pageStyle/slug.module.scss";
+import styles from "styles/slug.module.scss";
+import { Picture } from "./Picture";
 
-export default function GigPosts({
-  alinks = [],
-  anames = [],
-  apics = [],
-  content,
-  date,
-  title,
-}) {
+export default function GigPosts({ alinks = [], anames = [], apics = [], content, date, title }) {
   return (
     <div
       className={`
@@ -32,12 +25,8 @@ export default function GigPosts({
           <div className="row">
             {anames.map((name, idx) => (
               <div className="col-6 col-lg-6 col-md-6 col-6" key={name}>
-                <Image
-                  alt={`${name} press pic`}
-                  height="300"
-                  src={`/news/${apics[idx]}`}
-                  width="300"
-                />
+                <Picture alt={`${name} press pic`} height={300} src={`/news/${apics[idx]}`} width={300} />
+
                 <a className="blackAnchor px-1 py-2" href={alinks[idx]}>
                   {name}
                 </a>

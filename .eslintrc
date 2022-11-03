@@ -1,17 +1,10 @@
 {
 	"extends": [
-		"eslint:all",
+		"eslint:recommended",
 		"next/core-web-vitals",
-		"plugin:react/all",
-		"plugin:import/errors",
-		"plugin:import/warnings",
-		"prettier"
-	],
-	"plugins": [
-		"prettier",
-		"sort-keys-fix",
-		"sort-imports-es6-autofix",
-		"unused-imports"
+		"plugin:react/recommended",
+		"plugin:react-hooks/recommended",
+		"plugin:import/recommended"
 	],
 	"env": {
 		"browser": true,
@@ -21,10 +14,21 @@
 	"rules": {
 		"id-length": ["error", { "exceptionPatterns": ["a|b"] }],
 		"import/no-named-as-default": "off",
-		"import/no-unresolved": "off",
+    "import/no-unresolved": 0,
+		"import/order": [1, { "groups": 
+      ["external", 
+      "builtin", 
+      "internal", 
+      "sibling", 
+      "parent", 
+      "index"
+    ]}],
+    "linebreak-style": ["error", "windows"],
 		"func-style": [2, "declaration", { "allowArrowFunctions": true }],
 		"max-lines-per-function": ["error", 80],
+    "max-params": ["error", 4],
 		"no-magic-numbers": "off",
+    "no-new": 0,
 		"no-ternary": "off",
     "one-var": "off",
     "max-statements": ["error", 11],
@@ -34,18 +38,13 @@
 		"react/jsx-no-bind": "off",
 		"react/jsx-props-no-spreading": "off",
 		"react/jsx-uses-react": "off",
+    "react/forbid-component-props": 0,
 		"react/no-unescaped-entities": "off",
 		"react/no-multi-comp": "off",
 		"react/no-danger": "off",
 		"react/react-in-jsx-scope": "off",
 		"react/require-default-props": "off",
-		"sort-imports": "off",
-		"sort-keys-fix/sort-keys-fix": "warn",
-		"sort-imports-es6-autofix/sort-imports-es6": [2, {
-			"ignoreCase": false,
-			"ignoreMemberSort": false,
-			"memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
-		}]
+		"sort-imports": ["error", {"ignoreCase": true, "ignoreDeclarationSort": true}]
 	},
 	"ignorePatterns": ["node_modules/", ".next/", "build", "dist", "public"]
 }

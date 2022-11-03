@@ -2,17 +2,14 @@ import Content from "components/SlugContent";
 import Footer from "components/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
-import fs from "fs";
 import matter from "gray-matter";
+import { CardWithButtons } from "components/Card";
+import styles from "styles/slug.module.scss";
+import fs from "fs";
 import path from "path";
 
-import CardWithButtons from "@/cards/CardWithButtons";
-import styles from "@/pageStyle/slug.module.scss";
 
-export default function FreshJuiceSlug({
-  frontmatter: { title, date, pic, bandcamp, postLink },
-  content,
-}) {
+export default function FreshJuiceSlug({ frontmatter: { title, date, pic, bandcamp, postLink }, content }) {
   return (
     <>
       <Head>
@@ -38,26 +35,23 @@ export default function FreshJuiceSlug({
     </>
   );
 }
-// eslint-disable-next-line func-style, require-await
+
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/fresh-juice")),
-    paths = files.map((filename) => ({
-      params: {
-        slug: filename.replace(".md", ""),
-      },
-    }));
+  const files = fs.readdirSync(path.join("posts/fresh-juice"));
+  const paths = files.map((filename) => ({
+    params: {
+      slug: filename.replace(".md", ""),
+    },
+  }));
 
   return {
     fallback: false,
     paths,
   };
 }
-// eslint-disable-next-line func-style, require-await
+
 export async function getStaticProps({ params: { slug } }) {
-  const markdownWithMeta = fs.readFileSync(
-    path.join("posts/fresh-juice", `${slug}.md`),
-    "utf-8"
-  );
+  const markdownWithMeta = fs.readFileSync(path.join("posts/fresh-juice", `${slug}.md`), "utf-8");
   const { data: frontmatter, content } = matter(markdownWithMeta);
 
   return {

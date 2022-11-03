@@ -1,6 +1,6 @@
 import { marked } from "marked";
 import PropTypes from "prop-types";
-import styles from "@/pageStyle/slug.module.scss";
+import styles from "styles/slug.module.scss";
 
 export default function Content({ date, title, content }) {
   return (
