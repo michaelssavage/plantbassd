@@ -3,7 +3,7 @@ title: "FRESH JUICE: High Octane by Body Mechanic (Philthtrax)"
 date: "November 3, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/49-body-mechanic.jpg"
-bandcamp: "https://www.juno.co.uk/products/body-mechanic-high-octane-ep/899750-01/"
+bandcamp: "https://bit.ly/3Sd14Pm"
 postLink: "https://www.instagram.com/plantbassd___"
 bio: "One of the Detroit forefathers, the Body Mechanic returns with a super rare electro funk 12” on High Octane, courtesy of definitive electro label Philthtrax..."
 path: "fresh-juice"
@@ -11,7 +11,7 @@ path: "fresh-juice"
 
 ### One of the Detroit forefathers, the Body Mechanic returns with a super rare electro funk 12” on High Octane, courtesy of definitive electro label Philthtrax.
 
-Order here: [High Octane | Body Mechanic](https://clone.nl/item70400.html)
+Order here: [High Octane | Body Mechanic](https://bit.ly/3rR0X0O)
 
 <img src="/fresh-juice/49-high-octane.jpg" alt="High Octane album art" width="75%" />
 
@@ -36,5 +36,5 @@ These tracks roll back the years whilst sounding as fresh and as relevant as the
 
 If you wish to buy a copy of the vinyl you can do so directly through Clone or Juno here;
 
-Clone: https://clone.nl/item70400.html  
-Juno: https://www.juno.co.uk/products/body-mechanic-high-octane-ep/899750-01/
+Clone: https://bit.ly/3rR0X0O  
+Juno: https://bit.ly/3Sd14Pm
