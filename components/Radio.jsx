@@ -5,14 +5,19 @@ import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 
 export default function Radio({ radios }) {
   return (
-    <section className="radioSection">
+    <section className="radioSection col-lg-6 col-md-12">
       <h1 className="header" name="radios">
         Guest Radio
       </h1>
       <p>Plant Bass'd Radio Mixes</p>
       <div className="row g-2">
         {radios.map((artist) => (
-          <CardNoText key={artist.frontmatter.title} link={`/radios/${artist.slug}`} post={artist} />
+          <CardNoText
+            columns="col-6 col-md-6 col-lg-6 col-xl-6"
+            key={artist.frontmatter.title}
+            link={`/radios/${artist.slug}`}
+            post={artist}
+          />
         ))}
       </div>
 

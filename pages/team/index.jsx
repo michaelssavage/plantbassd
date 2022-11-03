@@ -4,7 +4,8 @@ import Head from "next/head";
 import Link from "next/link";
 import SocialIcon from "components/SocialIcon";
 import { Picture } from "components/Picture";
-import styles from "@/pageStyle/page.module.scss";
+import styles from "styles/page.module.scss";
+import ourTeam from "arrays/our-team.json";
 
 export default function TeamPage() {
   return (
@@ -27,9 +28,24 @@ export default function TeamPage() {
           Ireland and the UK.
         </p>
 
-        <div className="text-center">
-          <Picture alt="image of oisin, michael and peter" height={300} src="/various/hoodie.jpg" width={480} />
+        <div className="row d-flex flex-row">
+          {ourTeam.map((member) => (
+            <div className="px-5 col-lg-4 col-md-4 col-sm-12" key={member.name}>
+              <Link className="blackAnchor" href={member.link}>
+                <div className={`card imgContainer ${styles.cardStyle}`}>
+                  <Picture alt={member.name} height={300} src={`/news/${member.img}`} width={300} />
+                  <div className="guestOverlay">
+                    <div className="guestTextOverlay">
+                      {member.name} - {member.role}
+                    </div>
+                  </div>
+                </div>
+              </Link>
+              <p className="nameAnchor">{member.name}</p>
+            </div>
+          ))}
         </div>
+
         <h2>Get In Touch:</h2>
 
         <div className="row">

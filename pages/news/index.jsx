@@ -12,7 +12,7 @@ import fs from "fs";
 import path from "path";
 
 import GoBack from "@/btns/GoBack";
-import styles from "@/pageStyle/page.module.scss";
+import styles from "styles/page.module.scss";
 
 const newsTags = [
   { name: "fresh juice", value: false },

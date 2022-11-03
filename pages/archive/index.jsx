@@ -6,11 +6,11 @@ import PropTypes from "prop-types";
 import matter from "gray-matter";
 import useFilter from "hooks/useFilter";
 import { CardWithText } from "components/Card";
+import styles from "styles/page.module.scss";
 import fs from "fs";
 import path from "path";
 
 import GoBack from "@/btns/GoBack";
-import styles from "@/pageStyle/page.module.scss";
 
 export default function ArchivePage({ files }) {
   const { error, filter, hasErrored, postCards, setFilter } = useFilter(files);
@@ -37,7 +37,7 @@ export default function ArchivePage({ files }) {
             aria-label="Filter"
             className="form-control"
             onChange={handleSearchChange}
-            placeholder="Filter The Archive With Any Search Term..."
+            placeholder="Enter a search query..."
             type="text"
             value={filter}
           />

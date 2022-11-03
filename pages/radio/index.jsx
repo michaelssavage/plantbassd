@@ -6,11 +6,11 @@ import PropTypes from "prop-types";
 import matter from "gray-matter";
 import useFilter from "hooks/useFilter";
 import { CardNoText } from "components/Card";
+import styles from "styles/page.module.scss";
 import fs from "fs";
 import path from "path";
 import GoBack from "@/btns/GoBack";
 import SocialMediaBtn from "@/btns/SocialMediaBtn";
-import styles from "@/pageStyle/page.module.scss";
 
 export default function RadioPage({ radios }) {
   const { error, filter, hasErrored, postCards, setFilter } = useFilter(radios);

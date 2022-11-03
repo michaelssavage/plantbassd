@@ -7,7 +7,7 @@ import { CardWithButtons } from "components/Card";
 import fs from "fs";
 import path from "path";
 
-import styles from "@/pageStyle/slug.module.scss";
+import styles from "styles/slug.module.scss";
 
 export default function FreshJuiceSlug({ frontmatter: { title, date, pic, bandcamp, postLink }, content }) {
   return (

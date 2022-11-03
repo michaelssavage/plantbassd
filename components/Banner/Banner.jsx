@@ -15,7 +15,7 @@ export default function Banner() {
           layout="fill"
           objectFit="cover"
           placeholder="blur"
-          src="/various/bg.jpg"
+          src="/various/collage.jpg"
         />
       </div>
 

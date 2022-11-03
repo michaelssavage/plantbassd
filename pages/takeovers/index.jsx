@@ -10,7 +10,7 @@ import fs from "fs";
 import path from "path";
 import GoBack from "@/btns/GoBack";
 import SocialMediaBtn from "@/btns/SocialMediaBtn";
-import styles from "@/pageStyle/page.module.scss";
+import styles from "styles/page.module.scss";
 
 export default function TakeoverPage({ takeovers }) {
   const { error, filter, hasErrored, postCards, setFilter } = useFilter(takeovers);

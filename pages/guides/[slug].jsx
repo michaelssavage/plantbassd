@@ -7,7 +7,7 @@ import fs from "fs";
 import path from "path";
 
 import GoBack from "@/btns/GoBack";
-import styles from "@/pageStyle/slug.module.scss";
+import styles from "styles/slug.module.scss";
 
 export default function TopTenSlug({ title, content }) {
   return (

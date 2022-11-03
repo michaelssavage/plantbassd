@@ -14,8 +14,8 @@
 
 * {
   box-sizing: border-box;
-  font-family: "Molengo", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Molengo", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+    Droid Sans, Helvetica Neue, sans-serif;
 }
 
 html {
@@ -149,10 +149,6 @@ Link {
   background-color: $navBlue;
 }
 
-.discoveryCards {
-  background: linear-gradient(180deg, $lilac 20%, $opal 80%);
-}
-
 .header {
   color: $headerBlack !important;
   font-size: $lgHeader;
@@ -258,18 +254,18 @@ img {
 // ------------------- COMPONENT COLOURS/LAYOUTS -------------------
 
 .layout {
-  padding: 0 5%;
+  padding: 0 8%;
 }
 
 @media (max-width: 768px) {
-  .layout {
-    padding: 0 8%;
+  .halfLayout {
+    padding: 0 4%;
   }
 }
 
 @media (max-width: 376px) {
   .layout {
-    padding: 0 10%;
+    padding: 0 12%;
   }
 }
 
@@ -281,15 +277,14 @@ img {
 }
 
 .mixSection {
-  background-color: $lavender;
+  background-color: $culturedWhite;
   padding-top: 2rem;
   padding-bottom: 2rem;
   @extend .layout;
 }
 
-// fresh-juice component
 .freshSection {
-  background-color: $culturedWhite;
+  background-color: $lavender;
   padding-top: 2rem;
   padding-bottom: 2rem;
   @extend .layout;
@@ -297,13 +292,14 @@ img {
 
 .takeoverSection {
   padding-top: 2rem;
-  @extend .layout;
+  padding-right: 1rem;
+  @extend .halfLayout;
 }
 
 .radioSection {
   padding-top: 2rem;
-  padding-bottom: 2rem;
-  @extend .layout;
+  padding-left: 1rem;
+  @extend .halfLayout;
 }
 
 .footerSection {
@@ -343,7 +339,6 @@ img {
 .takeoverBG {
   background-color: $lilac;
   min-height: 100vh;
-  padding-bottom: 2rem;
   @extend .layout;
 }
 
@@ -364,6 +359,21 @@ img {
 .errorBG {
   height: 100vh;
   @extend .layout;
+}
+
+.discoveryCards {
+  background: linear-gradient(270deg, $lilac 20%, $opal 80%);
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  @extend .layout;
+}
+
+@media (max-width: 992px) {
+  .discoveryCards {
+    background: linear-gradient(180deg, $lilac 20%, $opal 80%);
+    flex-direction: column;
+  }
 }
 
 .errorPage {

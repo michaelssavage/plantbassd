@@ -2,11 +2,8 @@
 	"compilerOptions": {
 		"baseUrl": ".",
 		"paths": {
-			"@/styles/*": ["styles/components/*"],
 			"@/forwards/*": ["styles/abstracts/*"],
 			"@/abstracts": ["styles/abstracts"],
-			"@/pageStyle/*": ["styles/pages/*"],
-			"@/cards/*": ["components/Card/*"],
 			"@/btns/*": ["components/btns/*"]
 		}
 	}

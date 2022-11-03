@@ -3,7 +3,7 @@ import { Picture } from "components/Picture";
 import styles from "./Mixes.module.scss";
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 
-export default function ArtistCard() {
+export default function Mixes() {
   return (
     <section className="mixSection">
       <div className="row align-items-center">

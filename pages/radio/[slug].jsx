@@ -5,9 +5,9 @@ import PropTypes from "prop-types";
 import matter from "gray-matter";
 import { CardWithButtons } from "components/Card";
 import { Picture } from "components/Picture";
+import styles from "styles/slug.module.scss";
 import fs from "fs";
 import path from "path";
-import styles from "@/pageStyle/slug.module.scss";
 
 export default function RadioSlug({ frontmatter: { title, date, pic, tracklist, artistPage, mixLink }, content }) {
   return (

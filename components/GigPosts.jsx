@@ -1,7 +1,7 @@
 import { marked } from "marked";
 import PropTypes from "prop-types";
+import styles from "styles/slug.module.scss";
 import { Picture } from "./Picture";
-import styles from "@/pageStyle/slug.module.scss";
 
 export default function GigPosts({ alinks = [], anames = [], apics = [], content, date, title }) {
   return (

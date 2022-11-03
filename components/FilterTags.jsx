@@ -1,6 +1,6 @@
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import PropTypes from "prop-types";
-import styles from "@/pageStyle/page.module.scss";
+import styles from "styles/page.module.scss";
 
 export default function FilterTags({ tagList, handleTags }) {
   return (
@@ -15,8 +15,7 @@ export default function FilterTags({ tagList, handleTags }) {
               onClick={() => handleTags(tag)}
               type="button"
             >
-              {tag.name.charAt(0).toUpperCase() + tag.name.slice(1)}{" "}
-              {tag.value ? <AiOutlineCloseCircle /> : null}
+              {tag.name.charAt(0).toUpperCase() + tag.name.slice(1)} {tag.value ? <AiOutlineCloseCircle /> : null}
             </button>
           ))
         : null}

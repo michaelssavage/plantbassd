@@ -18,18 +18,16 @@ export default function Home({ allPosts, takeovers, radios, freshjuice }) {
       <Head>
         <title>Plant Bass'd</title>
       </Head>
+
       <Banner />
-
       <News news={allPosts} />
-
+      <FreshJuice freshjuice={freshjuice} />
       <Mixes />
 
-      <FreshJuice freshjuice={freshjuice} />
-
-      <section className="discoveryCards">
+      <div className="discoveryCards">
         <Takeover takeovers={takeovers} />
         <Radio radios={radios} />
-      </section>
+      </div>
 
       <Footer />
     </>
@@ -57,8 +55,8 @@ export async function getStaticProps() {
   const gigs = getPosts("posts/gigs").sort(sortByDate).reverse().slice(0, 4);
   const guides = getPosts("posts/guides").sort(sortByDate).reverse().slice(0, 4);
   const news = getPosts("posts/news").sort(sortByDate).reverse().slice(0, 4);
-  const radios = getPosts("posts/radios").sort(sortByDate).reverse().slice(0, 4);
-  const takeovers = getPosts("posts/takeovers").sort(sortByDate).reverse().slice(0, 4);
+  const radios = getPosts("posts/radios").sort(sortByDate).reverse().slice(0, 2);
+  const takeovers = getPosts("posts/takeovers").sort(sortByDate).reverse().slice(0, 2);
   const allPosts = [].concat(freshjuice, gigs, guides, news, radios, takeovers).sort(sortByDate).reverse().slice(0, 5);
 
   return {

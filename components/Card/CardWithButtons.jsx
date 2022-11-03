@@ -1,7 +1,7 @@
 import Link from "next/link";
 import PropTypes from "prop-types";
 import { Picture } from "components/Picture";
-import news from "@/pageStyle/slug.module.scss";
+import news from "styles/slug.module.scss";
 
 export const CardWithButtons = ({ pic, title, artist, page, insta, link }) => {
   return (
