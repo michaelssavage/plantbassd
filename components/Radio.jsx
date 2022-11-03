@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import CardNoText from "@/cards/CardNoText";
+import { CardNoText } from "components/Card";
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 
 export default function Radio({ radios }) {
@@ -12,11 +12,7 @@ export default function Radio({ radios }) {
       <p>Plant Bass'd Radio Mixes</p>
       <div className="row g-2">
         {radios.map((artist) => (
-          <CardNoText
-            key={artist.frontmatter.title}
-            link={`/radios/${artist.slug}`}
-            post={artist}
-          />
+          <CardNoText key={artist.frontmatter.title} link={`/radios/${artist.slug}`} post={artist} />
         ))}
       </div>
 

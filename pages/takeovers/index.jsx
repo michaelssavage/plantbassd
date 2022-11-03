@@ -5,10 +5,9 @@ import Head from "next/head";
 import PropTypes from "prop-types";
 import matter from "gray-matter";
 import useFilter from "hooks/useFilter";
+import { CardNoText } from "components/Card";
 import fs from "fs";
 import path from "path";
-
-import CardNoText from "@/cards/CardNoText";
 import GoBack from "@/btns/GoBack";
 import SocialMediaBtn from "@/btns/SocialMediaBtn";
 import styles from "@/pageStyle/page.module.scss";

@@ -3,9 +3,9 @@ import Footer from "components/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
 import matter from "gray-matter";
+import { CardWithButtons } from "components/Card";
 import fs from "fs";
 import path from "path";
-import CardWithButtons from "@/cards/CardWithButtons";
 import styles from "@/pageStyle/slug.module.scss";
 
 export default function NewsSlug({ frontmatter: { title, date, pic, tickets, seeMore, postLink }, content }) {

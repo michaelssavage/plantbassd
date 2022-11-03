@@ -1,7 +1,7 @@
-import NewsPreviews from "components/NewsPreviews";
 import PropTypes from "prop-types";
-import CardNoText from "@/cards/CardNoText";
-import styles from "@/styles/news.module.scss";
+import { CardNoText } from "components/Card";
+import Previews from "./Previews";
+import styles from "./News.module.scss";
 
 export default function News({ news }) {
   const mostRecent = news.slice(0, 2);
@@ -38,7 +38,7 @@ export default function News({ news }) {
         ))}
       </div>
 
-      <NewsPreviews otherNews={otherNews} />
+      <Previews otherNews={otherNews} />
     </section>
   );
 }

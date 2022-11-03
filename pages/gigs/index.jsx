@@ -6,10 +6,10 @@ import Head from "next/head";
 import PropTypes from "prop-types";
 import matter from "gray-matter";
 import useFilterTags from "hooks/useFilterTags";
+import { CardNoText } from "components/Card";
 import fs from "fs";
 import path from "path";
 
-import CardNoText from "@/cards/CardNoText";
 import GoBack from "@/btns/GoBack";
 import styles from "@/pageStyle/page.module.scss";
 

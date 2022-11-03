@@ -5,10 +5,10 @@ import Head from "next/head";
 import PropTypes from "prop-types";
 import matter from "gray-matter";
 import useFilter from "hooks/useFilter";
+import { CardWithText } from "components/Card";
 import fs from "fs";
 import path from "path";
 
-import CardWithText from "@/cards/CardWithText";
 import GoBack from "@/btns/GoBack";
 import styles from "@/pageStyle/page.module.scss";
 

@@ -6,8 +6,7 @@ import Link from "next/link";
 import PropTypes from "prop-types";
 import SocialIcon from "components/SocialIcon";
 import useClickLocation from "hooks/useClickLocation";
-
-import styles from "@/styles/sidebar.module.scss";
+import styles from "./Sidebar.module.scss";
 
 function Listing({ link, onClick, title }) {
   const router = useRouter();

@@ -6,7 +6,7 @@ import Mixes from "components/Mixes";
 import News from "components/News";
 import PropTypes from "prop-types";
 import Radio from "components/Radio";
-import RellaxImg from "components/RellaxImg";
+import Banner from "components/Banner";
 import Takeover from "components/Takeover";
 import matter from "gray-matter";
 import fs from "fs";
@@ -18,7 +18,7 @@ export default function Home({ allPosts, takeovers, radios, freshjuice }) {
       <Head>
         <title>Plant Bass'd</title>
       </Head>
-      <RellaxImg />
+      <Banner />
 
       <News news={allPosts} />
 

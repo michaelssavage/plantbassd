@@ -6,7 +6,7 @@
 			"@/forwards/*": ["styles/abstracts/*"],
 			"@/abstracts": ["styles/abstracts"],
 			"@/pageStyle/*": ["styles/pages/*"],
-			"@/cards/*": ["components/cards/*"],
+			"@/cards/*": ["components/Card/*"],
 			"@/btns/*": ["components/btns/*"]
 		}
 	}

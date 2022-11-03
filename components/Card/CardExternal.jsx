@@ -2,25 +2,17 @@ import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
 import Link from "next/link";
 import PropTypes from "prop-types";
-import styles from "@/styles/card.module.scss";
+import styles from "./Card.module.scss";
 
-export default function CardExternal({ guest }) {
+export const CardExternal = ({ guest }) => {
   return (
-    <div
-      className={`
-            col-4
-            col-md-4 
-            col-lg-3 
-            col-xl-2`}
-    >
+    <div className="col-4 col-md-4 col-lg-3 col-xl-2">
       <Link href={guest.link}>
         <a className="blackAnchor">
           <div className={`card imgContainer ${styles.cardStyle}`}>
             <Image
               alt={guest.name}
-              blurDataURL={`data:image/svg+xml;base64,${toBase64(
-                shimmer(400, 400)
-              )}`}
+              blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(400, 400))}`}
               height={200}
               placeholder="blur"
               src={`/news/${guest.img}`}
@@ -35,7 +27,7 @@ export default function CardExternal({ guest }) {
       </Link>
     </div>
   );
-}
+};
 
 CardExternal.propTypes = {
   guest: PropTypes.shape({

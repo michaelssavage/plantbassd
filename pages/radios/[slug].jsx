@@ -5,10 +5,10 @@ import Head from "next/head";
 import Image from "next/image";
 import PropTypes from "prop-types";
 import matter from "gray-matter";
+import { CardWithButtons } from "components/Card";
 import fs from "fs";
 import path from "path";
 
-import CardWithButtons from "@/cards/CardWithButtons";
 import styles from "@/pageStyle/slug.module.scss";
 
 export default function RadioSlug({ frontmatter: { title, date, pic, tracklist, artistPage, mixLink }, content }) {

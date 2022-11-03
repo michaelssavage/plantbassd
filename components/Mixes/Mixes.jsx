@@ -1,8 +1,8 @@
 import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
 
+import styles from "./Mixes.module.scss";
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
-import styles from "@/styles/mixes.module.scss";
 
 export default function ArtistCard() {
   return (
@@ -13,9 +13,7 @@ export default function ArtistCard() {
             <div className={styles.topImage}>
               <Image
                 alt="michael radio"
-                blurDataURL={`data:image/svg+xml;base64,${toBase64(
-                  shimmer(400, 400)
-                )}`}
+                blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(400, 400))}`}
                 height={400}
                 placeholder="blur"
                 src="/mixes/michael.png"
@@ -25,9 +23,7 @@ export default function ArtistCard() {
             <div className={styles.bottomImage}>
               <Image
                 alt="oisin radio"
-                blurDataURL={`data:image/svg+xml;base64,${toBase64(
-                  shimmer(400, 400)
-                )}`}
+                blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(400, 400))}`}
                 height="400"
                 placeholder="blur"
                 src="/mixes/oisin.jpg"
@@ -43,10 +39,9 @@ export default function ArtistCard() {
               Mixes
             </h1>
             <p>
-              Serving up the hot club sounds of ballroom, US club, electro,
-              ghetto tech, footwork, techno & more on EHFM, ITSNOTRADIO, and
-              Aurora. Also find some House, Disco, and Groovy numbers on SET
-              RADIO. Listen to all on our{" "}
+              Serving up the hot club sounds of ballroom, US club, electro, ghetto tech, footwork, techno & more on
+              EHFM, ITSNOTRADIO, and Aurora. Also find some House, Disco, and Groovy numbers on SET RADIO. Listen to all
+              on our{" "}
               <a
                 className="blackAnchor"
                 href="https://soundcloud.com/plantbassddjs"
@@ -58,10 +53,7 @@ export default function ArtistCard() {
               .
             </p>
 
-            <DiscoverMoreBtn
-              external
-              link="https://soundcloud.com/plantbassddjs"
-            />
+            <DiscoverMoreBtn external link="https://soundcloud.com/plantbassddjs" />
           </div>
         </div>
       </div>

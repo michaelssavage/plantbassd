@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import CardNoText from "@/cards/CardNoText";
+import { CardNoText } from "components/Card";
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 
 export default function Takeover({ takeovers }) {
@@ -12,11 +12,7 @@ export default function Takeover({ takeovers }) {
       <p>Artists Pick Their Top Ten Spotify Selects</p>
       <div className="row g-2">
         {takeovers.map((artist) => (
-          <CardNoText
-            key={artist.frontmatter.title}
-            link={`/takeovers/${artist.slug}`}
-            post={artist}
-          />
+          <CardNoText key={artist.frontmatter.title} link={`/takeovers/${artist.slug}`} post={artist} />
         ))}
       </div>
 

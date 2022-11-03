@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import CardNoText from "@/cards/CardNoText";
+import { CardNoText } from "components/Card";
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 
 export default function FreshJuice({ freshjuice }) {
@@ -12,11 +12,7 @@ export default function FreshJuice({ freshjuice }) {
       <p>New Music Releases Around The World</p>
       <div className="row g-2">
         {freshjuice.map((artist) => (
-          <CardNoText
-            key={artist.frontmatter.title}
-            link={`/fresh-juice/${artist.slug}`}
-            post={artist}
-          />
+          <CardNoText key={artist.frontmatter.title} link={`/fresh-juice/${artist.slug}`} post={artist} />
         ))}
       </div>
 
