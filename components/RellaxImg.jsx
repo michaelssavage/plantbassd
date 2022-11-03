@@ -1,8 +1,8 @@
 import { shimmer, toBase64 } from "components/BlurImg";
 import { useEffect } from "react";
-import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 import Image from "next/image";
 import Rellax from "rellax";
+import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 import styles from "@/styles/rellax.module.scss";
 
 export default function RellaxImg() {

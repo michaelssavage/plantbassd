@@ -1,6 +1,6 @@
 import { guestList } from "arrays/previousGuests";
-import CardExternal from "@/cards/CardExternal";
 import Head from "next/head";
+import CardExternal from "@/cards/CardExternal";
 import styles from "@/pageStyle/page.module.scss";
 
 export default function PreviousGuestsPage() {

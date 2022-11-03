@@ -9,11 +9,7 @@ export default function useFilter(posts = []) {
   useEffect(() => {
     try {
       setPostCards(
-        filter
-          ? posts.filter((post) =>
-              post.frontmatter.name.toLowerCase().includes(filter.toLowerCase())
-            )
-          : posts
+        filter ? posts.filter((post) => post.frontmatter.name.toLowerCase().includes(filter.toLowerCase())) : posts
       );
     } catch (err) {
       setHasErrored(true);

@@ -39,9 +39,7 @@ export default function useFilterTags(initTagList, filterType, news = []) {
         tags.length === 0
           ? news
           : news.filter((story) =>
-              filterType === "news"
-                ? tags.includes(story.frontmatter.tags)
-                : tags.includes(story.frontmatter.city)
+              filterType === "news" ? tags.includes(story.frontmatter.tags) : tags.includes(story.frontmatter.city)
             );
       setNewsStories(filtered);
     } catch (event) {

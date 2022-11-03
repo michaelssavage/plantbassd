@@ -10,11 +10,8 @@ import useClickLocation from "hooks/useClickLocation";
 import styles from "@/styles/sidebar.module.scss";
 
 function Listing({ link, onClick, title }) {
-  const router = useRouter(),
-    className = // eslint-disable-line sort-vars
-      router.pathname === `${link}`
-        ? `${styles.activeLink}`
-        : `${styles.navLink}`;
+  const router = useRouter();
+  const className = router.pathname === `${link}` ? `${styles.activeLink}` : `${styles.navLink}`;
   return (
     <Link href={link} passHref>
       <a className="anchor">
@@ -32,17 +29,9 @@ export default function Sidebar() {
 
   return (
     <div ref={navMenu}>
-      <header
-        className={sidebar ? styles.extendHeader : styles.header}
-        onClick={showSidebar}
-      >
+      <header className={sidebar ? styles.extendHeader : styles.header} onClick={showSidebar}>
         <div className={styles.headerToggle}>
-          {sidebar ? (
-            // eslint-disable-next-line react/forbid-component-props
-            <AiOutlineClose className={styles.cancelToggle} />
-          ) : (
-            <FaBars />
-          )}
+          {sidebar ? <AiOutlineClose className={styles.cancelToggle} /> : <FaBars />}
         </div>
       </header>
 
@@ -50,12 +39,7 @@ export default function Sidebar() {
         <nav className={styles.navMenu}>
           <div className={styles.navList}>
             {sidebarList.map((item) => (
-              <Listing
-                key={item.title}
-                link={item.link}
-                onClick={closeSidebar}
-                title={item.title}
-              />
+              <Listing key={item.title} link={item.link} onClick={closeSidebar} title={item.title} />
             ))}
           </div>
         </nav>

@@ -2,8 +2,8 @@ import { marked } from "marked";
 import Footer from "components/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
-import fs from "fs";
 import matter from "gray-matter";
+import fs from "fs";
 import path from "path";
 
 import GoBack from "@/btns/GoBack";
@@ -36,14 +36,13 @@ export default function TopTenSlug({ title, content }) {
   );
 }
 
-// eslint-disable-next-line func-style, require-await
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/guides")),
-    paths = files.map((filename) => ({
-      params: {
-        slug: filename.replace(".md", ""),
-      },
-    }));
+  const files = fs.readdirSync(path.join("posts/guides"));
+  const paths = files.map((filename) => ({
+    params: {
+      slug: filename.replace(".md", ""),
+    },
+  }));
 
   return {
     fallback: false,
@@ -51,13 +50,9 @@ export async function getStaticPaths() {
   };
 }
 
-// eslint-disable-next-line func-style, require-await
 export async function getStaticProps({ params: { slug } }) {
-  const markdownWithMeta = fs.readFileSync(
-      path.join("posts/guides", `${slug}.md`),
-      "utf-8"
-    ),
-    { data: frontmatter, content } = matter(markdownWithMeta);
+  const markdownWithMeta = fs.readFileSync(path.join("posts/guides", `${slug}.md`), "utf-8");
+  const { data: frontmatter, content } = matter(markdownWithMeta);
 
   return {
     props: {

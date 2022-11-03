@@ -4,17 +4,14 @@ import Footer from "components/Footer";
 import Head from "next/head";
 import Image from "next/image";
 import PropTypes from "prop-types";
-import fs from "fs";
 import matter from "gray-matter";
+import fs from "fs";
 import path from "path";
 
 import CardWithButtons from "@/cards/CardWithButtons";
 import styles from "@/pageStyle/slug.module.scss";
 
-export default function RadioSlug({
-  frontmatter: { title, date, pic, tracklist, artistPage, mixLink },
-  content,
-}) {
+export default function RadioSlug({ frontmatter: { title, date, pic, tracklist, artistPage, mixLink }, content }) {
   return (
     <>
       <Head>
@@ -41,9 +38,7 @@ export default function RadioSlug({
               <div className={styles.imgWrapper}>
                 <Image
                   alt="artist tracklist"
-                  blurDataURL={`data:image/svg+xml;base64,${toBase64(
-                    shimmer(400, 400)
-                  )}`}
+                  blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(400, 400))}`}
                   height={600}
                   placeholder="blur"
                   src={tracklist}
@@ -69,14 +64,13 @@ export default function RadioSlug({
   );
 }
 
-// eslint-disable-next-line func-style, require-await
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/radios")),
-    paths = files.map((filename) => ({
-      params: {
-        slug: filename.replace(".md", ""),
-      },
-    }));
+  const files = fs.readdirSync(path.join("posts/radios"));
+  const paths = files.map((filename) => ({
+    params: {
+      slug: filename.replace(".md", ""),
+    },
+  }));
 
   return {
     fallback: false,
@@ -84,13 +78,9 @@ export async function getStaticPaths() {
   };
 }
 
-// eslint-disable-next-line func-style, require-await
 export async function getStaticProps({ params: { slug } }) {
-  const markdownWithMeta = fs.readFileSync(
-      path.join("posts/radios", `${slug}.md`),
-      "utf-8"
-    ),
-    { data: frontmatter, content } = matter(markdownWithMeta);
+  const markdownWithMeta = fs.readFileSync(path.join("posts/radios", `${slug}.md`), "utf-8");
+  const { data: frontmatter, content } = matter(markdownWithMeta);
 
   return {
     props: {

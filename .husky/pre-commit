@@ -4,13 +4,13 @@
 echo '🏗️👷 Styling, testing and building your project before committing'
 
 
-yarn lint ||
+npm run lint ||
 (
         echo "ESLint Check Failed. Make the required changes listed above, add changes and try to commit again."
         false; 
 )
 
-yarn build ||
+npm run build ||
 (
         echo "Build Stage Failed. Make sure the server isn't running."
         false; 

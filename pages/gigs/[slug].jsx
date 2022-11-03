@@ -1,25 +1,15 @@
-import CardWithButtons from "@/cards/CardWithButtons";
 import Footer from "components/Footer";
 import GigPosts from "components/GigPosts";
 import Head from "next/head";
 import PropTypes from "prop-types";
-import fs from "fs";
 import matter from "gray-matter";
+import fs from "fs";
 import path from "path";
+import CardWithButtons from "@/cards/CardWithButtons";
 import styles from "@/pageStyle/slug.module.scss";
 
 export default function GigsSlug({
-  frontmatter: {
-    title,
-    date,
-    pic,
-    tickets,
-    seeMore,
-    postLink,
-    anames,
-    alinks,
-    apics,
-  },
+  frontmatter: { title, date, pic, tickets, seeMore, postLink, anames, alinks, apics },
   content,
 }) {
   let buyLink = seeMore,
@@ -38,14 +28,7 @@ export default function GigsSlug({
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            <GigPosts
-              alinks={alinks}
-              anames={anames}
-              apics={apics}
-              content={content}
-              date={date}
-              title={title}
-            />
+            <GigPosts alinks={alinks} anames={anames} apics={apics} content={content} date={date} title={title} />
             <CardWithButtons
               artist={buyText}
               insta="Instagram"
@@ -63,25 +46,22 @@ export default function GigsSlug({
   );
 }
 export function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/gigs")),
-    paths = files.map((filename) => ({
-      params: {
-        slug: filename.replace(".md", ""),
-      },
-    }));
+  const files = fs.readdirSync(path.join("posts/gigs"));
+  const paths = files.map((filename) => ({
+    params: {
+      slug: filename.replace(".md", ""),
+    },
+  }));
 
   return {
     fallback: false,
     paths,
   };
 }
-// eslint-disable-next-line func-style, require-await
+
 export async function getStaticProps({ params: { slug } }) {
-  const markdownWithMeta = fs.readFileSync(
-      path.join("posts/gigs", `${slug}.md`),
-      "utf-8"
-    ),
-    { data: frontmatter, content } = matter(markdownWithMeta);
+  const markdownWithMeta = fs.readFileSync(path.join("posts/gigs", `${slug}.md`), "utf-8");
+  const { data: frontmatter, content } = matter(markdownWithMeta);
 
   return {
     props: {

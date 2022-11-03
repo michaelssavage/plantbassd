@@ -2,17 +2,14 @@ import { marked } from "marked";
 import Footer from "components/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
-import fs from "fs";
 import matter from "gray-matter";
+import fs from "fs";
 import path from "path";
 
 import CardWithButtons from "@/cards/CardWithButtons";
 import styles from "@/pageStyle/slug.module.scss";
 
-export default function TakeoverSlug({
-  frontmatter: { title, date, pic, artistPage, postLink },
-  content,
-}) {
+export default function TakeoverSlug({ frontmatter: { title, date, pic, artistPage, postLink }, content }) {
   return (
     <>
       <Head>
@@ -55,14 +52,13 @@ export default function TakeoverSlug({
   );
 }
 
-// eslint-disable-next-line func-style, require-await
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/takeovers")),
-    paths = files.map((filename) => ({
-      params: {
-        slug: filename.replace(".md", ""),
-      },
-    }));
+  const files = fs.readdirSync(path.join("posts/takeovers"));
+  const paths = files.map((filename) => ({
+    params: {
+      slug: filename.replace(".md", ""),
+    },
+  }));
 
   return {
     fallback: false,
@@ -70,13 +66,9 @@ export async function getStaticPaths() {
   };
 }
 
-// eslint-disable-next-line func-style, require-await
 export async function getStaticProps({ params: { slug } }) {
-  const markdownWithMeta = fs.readFileSync(
-      path.join("posts/takeovers", `${slug}.md`),
-      "utf-8"
-    ),
-    { data: frontmatter, content } = matter(markdownWithMeta);
+  const markdownWithMeta = fs.readFileSync(path.join("posts/takeovers", `${slug}.md`), "utf-8");
+  const { data: frontmatter, content } = matter(markdownWithMeta);
 
   return {
     props: {

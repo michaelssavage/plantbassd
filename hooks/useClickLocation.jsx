@@ -1,14 +1,15 @@
 import { useEffect, useRef, useState } from "react";
 
 export default function useClickLocation() {
-  const [sidebar, setSidebar] = useState(false),
-    closeSidebar = () => {
-      setSidebar(false);
-    },
-    navMenu = useRef(),
-    showSidebar = () => {
-      setSidebar(!sidebar);
-    };
+  const [sidebar, setSidebar] = useState(false);
+  const closeSidebar = () => {
+    setSidebar(false);
+  };
+
+  const navMenu = useRef();
+  const showSidebar = () => {
+    setSidebar(!sidebar);
+  };
   useEffect(() => {
     const handler = (event) => {
       if (!navMenu.current.contains(event.target) && sidebar) {

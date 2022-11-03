@@ -3,10 +3,10 @@ import Error from "components/Error";
 import Footer from "components/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
-import fs from "fs";
 import matter from "gray-matter";
-import path from "path";
 import useFilter from "hooks/useFilter";
+import fs from "fs";
+import path from "path";
 
 import CardNoText from "@/cards/CardNoText";
 import GoBack from "@/btns/GoBack";
@@ -14,8 +14,7 @@ import SocialMediaBtn from "@/btns/SocialMediaBtn";
 import styles from "@/pageStyle/page.module.scss";
 
 export default function FreshJuicePage({ freshjuice }) {
-  const { error, filter, hasErrored, postCards, setFilter } =
-    useFilter(freshjuice);
+  const { error, filter, hasErrored, postCards, setFilter } = useFilter(freshjuice);
 
   const handleSearchChange = (event) => {
     setFilter(event.target.value);
@@ -32,9 +31,7 @@ export default function FreshJuicePage({ freshjuice }) {
       <div className="freshjuiceBG">
         <h1 className={styles.pageHeader}>Fresh Juice</h1>
 
-        <p className={styles.pageText}>
-          New music releases from around the world that we've highlighted.
-        </p>
+        <p className={styles.pageText}>New music releases from around the world that we've highlighted.</p>
         <div className={styles.searchBox}>
           {/* SEARCH BOX */}
           <div className={`input-group ${styles.radioFilter}`}>
@@ -56,11 +53,7 @@ export default function FreshJuicePage({ freshjuice }) {
         </div>
         <div className="row g-3">
           {postCards.map((radio) => (
-            <CardNoText
-              key={radio.frontmatter.title}
-              link={`/fresh-juice/${radio.slug}`}
-              post={radio}
-            />
+            <CardNoText key={radio.frontmatter.title} link={`/fresh-juice/${radio.slug}`} post={radio} />
           ))}
         </div>
 
@@ -71,24 +64,20 @@ export default function FreshJuicePage({ freshjuice }) {
     </>
   );
 }
-// eslint-disable-next-line func-style, require-await
+
 export async function getStaticProps() {
   // Get files from the takeover directory
-  const files = fs.readdirSync(path.join("posts/fresh-juice")),
-    // Get Slug and frontmatter from posts
-    freshjuice = files.map((filename) => {
-      const markdownWithMeta = fs.readFileSync(
-          path.join("posts/fresh-juice", filename),
-          "utf-8"
-        ),
-        { data: frontmatter } = matter(markdownWithMeta),
-        slug = filename.replace(".md", "");
+  const files = fs.readdirSync(path.join("posts/fresh-juice"));
+  const freshjuice = files.map((filename) => {
+    const markdownWithMeta = fs.readFileSync(path.join("posts/fresh-juice", filename), "utf-8");
+    const { data: frontmatter } = matter(markdownWithMeta);
+    const slug = filename.replace(".md", "");
 
-      return {
-        frontmatter,
-        slug,
-      };
-    });
+    return {
+      frontmatter,
+      slug,
+    };
+  });
 
   return {
     props: {

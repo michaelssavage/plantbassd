@@ -1,5 +1,5 @@
-import GoBack from "@/btns/GoBack";
 import PropTypes from "prop-types";
+import GoBack from "@/btns/GoBack";
 
 export default function Error({ error }) {
   return (

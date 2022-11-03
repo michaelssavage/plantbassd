@@ -1,17 +1,14 @@
-import CardWithButtons from "@/cards/CardWithButtons";
 import Content from "components/SlugContent";
 import Footer from "components/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
-import fs from "fs";
 import matter from "gray-matter";
+import fs from "fs";
 import path from "path";
+import CardWithButtons from "@/cards/CardWithButtons";
 import styles from "@/pageStyle/slug.module.scss";
 
-export default function NewsSlug({
-  frontmatter: { title, date, pic, tickets, seeMore, postLink },
-  content,
-}) {
+export default function NewsSlug({ frontmatter: { title, date, pic, tickets, seeMore, postLink }, content }) {
   let buyLink = seeMore,
     buyText = "See More";
 
@@ -46,25 +43,21 @@ export default function NewsSlug({
   );
 }
 export function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/news")),
-    paths = files.map((filename) => ({
-      params: {
-        slug: filename.replace(".md", ""),
-      },
-    }));
+  const files = fs.readdirSync(path.join("posts/news"));
+  const paths = files.map((filename) => ({
+    params: {
+      slug: filename.replace(".md", ""),
+    },
+  }));
 
   return {
     fallback: false,
     paths,
   };
 }
-// eslint-disable-next-line func-style, require-await
 export async function getStaticProps({ params: { slug } }) {
-  const markdownWithMeta = fs.readFileSync(
-      path.join("posts/news", `${slug}.md`),
-      "utf-8"
-    ),
-    { data: frontmatter, content } = matter(markdownWithMeta);
+  const markdownWithMeta = fs.readFileSync(path.join("posts/news", `${slug}.md`), "utf-8");
+  const { data: frontmatter, content } = matter(markdownWithMeta);
 
   return {
     props: {
