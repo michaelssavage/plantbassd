@@ -17,7 +17,7 @@ export const Picture = ({ alt, height, src, width }) => {
 
 Picture.propTypes = {
   alt: PropTypes.string.isRequired,
-  height: PropTypes.string.isRequired,
+  height: PropTypes.number.isRequired,
   src: PropTypes.string.isRequired,
-  width: PropTypes.string.isRequired,
+  width: PropTypes.number.isRequired,
 };

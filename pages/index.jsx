@@ -57,7 +57,7 @@ export async function getStaticProps() {
   const news = getPosts("posts/news").sort(sortByDate).reverse().slice(0, 4);
   const radios = getPosts("posts/radios").sort(sortByDate).reverse().slice(0, 2);
   const takeovers = getPosts("posts/takeovers").sort(sortByDate).reverse().slice(0, 2);
-  const allPosts = [].concat(freshjuice, gigs, guides, news, radios, takeovers).sort(sortByDate).reverse().slice(0, 5);
+  const allPosts = [].concat(freshjuice, gigs, guides, news, radios, takeovers).sort(sortByDate).reverse().slice(0, 4);
 
   return {
     props: {

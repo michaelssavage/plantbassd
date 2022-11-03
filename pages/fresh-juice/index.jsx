@@ -6,12 +6,11 @@ import PropTypes from "prop-types";
 import matter from "gray-matter";
 import useFilter from "hooks/useFilter";
 import { CardNoText } from "components/Card";
+import styles from "styles/page.module.scss";
+import SocialIcon from "components/SocialIcon";
 import fs from "fs";
 import path from "path";
-
 import GoBack from "@/btns/GoBack";
-import SocialMediaBtn from "@/btns/SocialMediaBtn";
-import styles from "styles/page.module.scss";
 
 export default function FreshJuicePage({ freshjuice }) {
   const { error, filter, hasErrored, postCards, setFilter } = useFilter(freshjuice);
@@ -32,9 +31,10 @@ export default function FreshJuicePage({ freshjuice }) {
         <h1 className={styles.pageHeader}>Fresh Juice</h1>
 
         <p className={styles.pageText}>New music releases from around the world that we've highlighted.</p>
-        <div className={styles.searchBox}>
+
+        <div className="row align-items-center">
           {/* SEARCH BOX */}
-          <div className={`input-group ${styles.radioFilter}`}>
+          <div className={`col-md-4 me-auto input-group ${styles.radioFilter}`}>
             <input
               aria-label="Filter"
               className="form-control"
@@ -44,13 +44,20 @@ export default function FreshJuicePage({ freshjuice }) {
               value={filter}
             />
           </div>
-          <SocialMediaBtn
-            icon="bandcamp"
-            link="https://bandcamp.com/oisincampbellbap"
-            styling={styles.bandcamp}
-            title="Our Bandcamp Collection"
-          />
+
+          <div className={`col-auto ${styles.socialBtns}`}>
+            <a
+              className={`${styles.bandcamp} text-nowrap btn btn-dark`}
+              href="https://bandcamp.com/oisincampbellbap"
+              rel="noopener noreferrer"
+              role="button"
+              target="_blank"
+            >
+              <SocialIcon icon="bandcamp" /> Our Bandcamp Collection
+            </a>
+          </div>
         </div>
+
         <div className="row g-3">
           {postCards.map((radio) => (
             <CardNoText key={radio.frontmatter.title} link={`/fresh-juice/${radio.slug}`} post={radio} />

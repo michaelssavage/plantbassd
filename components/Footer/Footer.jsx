@@ -16,7 +16,12 @@ export default function Footer() {
 
             <p className="small mb-0">
               Site by{" "}
-              <a className="blackAnchor" href="https://www.instagram.com/michaelsaverage/">
+              <a
+                className="blackAnchor"
+                href="https://www.instagram.com/michaelsaverage/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 Michael.
               </a>
             </p>

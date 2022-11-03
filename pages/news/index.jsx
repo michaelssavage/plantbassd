@@ -8,11 +8,10 @@ import PropTypes from "prop-types";
 import matter from "gray-matter";
 import useFilterTags from "hooks/useFilterTags";
 import { CardWithText } from "components/Card";
+import styles from "styles/page.module.scss";
 import fs from "fs";
 import path from "path";
-
 import GoBack from "@/btns/GoBack";
-import styles from "styles/page.module.scss";
 
 const newsTags = [
   { name: "fresh juice", value: false },

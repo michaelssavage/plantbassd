@@ -1,15 +1,28 @@
 import PropTypes from "prop-types";
 
 import { CardNoText } from "components/Card";
-import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
+import Link from "next/link";
 
 export default function Takeover({ takeovers }) {
   return (
     <section className="takeoverSection col-lg-6 col-md-12">
-      <h1 className="header" name="takeovers">
-        Takeovers
-      </h1>
-      <p>Artists Pick Their Top Ten Spotify Selects</p>
+      <div className="row mb-2 align-items-center">
+        <h1 className="col me-auto heading mb-0" name="takeovers">
+          Takeovers
+        </h1>
+        <div className="col-auto">
+          <Link href="/takeovers">
+            <a className="text-nowrap btn btn-outline-dark" rel="noopener noreferrer" role="button" target="_blank">
+              More
+            </a>
+          </Link>
+        </div>
+      </div>
+
+      <div className="row mb-2">
+        <p>Artists, Friends, and Guests pick their Top Ten Spotify Selects</p>
+      </div>
+
       <div className="row g-2">
         {takeovers.map((artist) => (
           <CardNoText
@@ -20,8 +33,6 @@ export default function Takeover({ takeovers }) {
           />
         ))}
       </div>
-
-      <DiscoverMoreBtn link="/takeovers" />
     </section>
   );
 }

@@ -6,11 +6,11 @@ import PropTypes from "prop-types";
 import matter from "gray-matter";
 import useFilter from "hooks/useFilter";
 import { CardNoText } from "components/Card";
+import styles from "styles/page.module.scss";
+import SocialIcon from "components/SocialIcon";
 import fs from "fs";
 import path from "path";
 import GoBack from "@/btns/GoBack";
-import SocialMediaBtn from "@/btns/SocialMediaBtn";
-import styles from "styles/page.module.scss";
 
 export default function TakeoverPage({ takeovers }) {
   const { error, filter, hasErrored, postCards, setFilter } = useFilter(takeovers);
@@ -33,9 +33,9 @@ export default function TakeoverPage({ takeovers }) {
         <p className={styles.pageText}>
           Artists select and share their top tracks on Spotify. Check out the playlist below.
         </p>
-        <div className={styles.searchBox}>
+        <div className="row align-items-center">
           {/* SEARCH BOX */}
-          <div className={`input-group ${styles.radioFilter}`}>
+          <div className={`col-md-4 me-auto input-group ${styles.radioFilter}`}>
             <input
               aria-label="Filter"
               className="form-control"
@@ -45,12 +45,17 @@ export default function TakeoverPage({ takeovers }) {
               value={filter}
             />
           </div>
-          <SocialMediaBtn
-            icon="spotify"
-            link="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
-            styling={styles.spotify}
-            title="Plant Bass'd Picks"
-          />
+          <div className={`col-auto ${styles.socialBtns}`}>
+            <a
+              className={`${styles.spotify} text-nowrap btn btn-dark`}
+              href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
+              rel="noopener noreferrer"
+              role="button"
+              target="_blank"
+            >
+              <SocialIcon icon="spotify" /> Plant Bass'd Picks
+            </a>
+          </div>
         </div>
         <div className="row g-3">
           {postCards.map((takeover) => (

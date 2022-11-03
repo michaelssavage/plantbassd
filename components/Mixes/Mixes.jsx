@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Picture } from "components/Picture";
 import styles from "./Mixes.module.scss";
-import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 
 export default function Mixes() {
   return (
@@ -25,8 +24,10 @@ export default function Mixes() {
             </h1>
             <p>
               Serving up the hot club sounds of ballroom, US club, electro, ghetto tech, footwork, techno & more on
-              EHFM, ITSNOTRADIO, and Aurora. Also find some House, Disco, and Groovy numbers on SET RADIO. Listen to all
-              on our{" "}
+              EHFM, ITSNOTRADIO, and Aurora. Also find some House, Disco, and Groovy numbers on SET RADIO.
+            </p>
+            <p>
+              Listen to all on our{" "}
               <a
                 className="blackAnchor"
                 href="https://soundcloud.com/plantbassddjs"
@@ -37,8 +38,6 @@ export default function Mixes() {
               </a>
               .
             </p>
-
-            <DiscoverMoreBtn external link="https://soundcloud.com/plantbassddjs" />
           </div>
         </div>
       </div>

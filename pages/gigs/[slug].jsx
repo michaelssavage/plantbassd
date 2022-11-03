@@ -4,9 +4,9 @@ import Head from "next/head";
 import PropTypes from "prop-types";
 import matter from "gray-matter";
 import { CardWithButtons } from "components/Card";
+import styles from "styles/slug.module.scss";
 import fs from "fs";
 import path from "path";
-import styles from "styles/slug.module.scss";
 
 export default function GigsSlug({
   frontmatter: { title, date, pic, tickets, seeMore, postLink, anames, alinks, apics },

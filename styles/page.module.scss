@@ -13,13 +13,6 @@
   margin-bottom: 0.5em;
 }
 
-.searchBox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
-
 .searchFilter {
   width: 40%;
 }
@@ -62,11 +55,6 @@
 
 // @include breakpoint-below(xs) {
 @media (max-width: 576px) {
-  .searchBox {
-    flex-direction: column;
-    justify-content: center;
-  }
-
   .spotify {
     order: 1;
   }
@@ -102,7 +90,6 @@
 
 .spotify {
   color: $spotify;
-  @extend .socialBtns;
   &:hover {
     color: $headerBlack;
     background-color: $spotify;
@@ -112,7 +99,6 @@
 .soundcloud {
   color: $white;
   background-color: $soundcloud;
-  @extend .socialBtns;
   &:hover {
     color: $headerBlack;
     background-color: $soundcloud;
@@ -122,7 +108,6 @@
 .bandcamp {
   color: $white;
   background-color: $bandcamp;
-  @extend .socialBtns;
   &:hover {
     color: $headerBlack;
     background-color: $bandcamp;
@@ -135,6 +120,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: row;
   font-size: $cardDate;
 }
@@ -162,6 +148,10 @@
   .socialIcon {
     width: 2.2rem;
     height: 2.2rem;
+  }
+  .socialBtns {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 

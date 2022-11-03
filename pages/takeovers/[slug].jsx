@@ -4,10 +4,9 @@ import Head from "next/head";
 import PropTypes from "prop-types";
 import matter from "gray-matter";
 import { CardWithButtons } from "components/Card";
+import styles from "styles/slug.module.scss";
 import fs from "fs";
 import path from "path";
-
-import styles from "styles/slug.module.scss";
 
 export default function TakeoverSlug({ frontmatter: { title, date, pic, artistPage, postLink }, content }) {
   return (

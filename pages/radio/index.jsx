@@ -7,10 +7,10 @@ import matter from "gray-matter";
 import useFilter from "hooks/useFilter";
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
+import SocialIcon from "components/SocialIcon";
 import fs from "fs";
 import path from "path";
 import GoBack from "@/btns/GoBack";
-import SocialMediaBtn from "@/btns/SocialMediaBtn";
 
 export default function RadioPage({ radios }) {
   const { error, filter, hasErrored, postCards, setFilter } = useFilter(radios);
@@ -35,9 +35,9 @@ export default function RadioPage({ radios }) {
         <p className={styles.pageText}>
           Guest mixes from homegrown and international artists. Check them out on our Soundcloud.
         </p>
-        <div className={styles.searchBox}>
+        <div className="row align-items-center">
           {/* SEARCH BOX */}
-          <div className={`input-group ${styles.radioFilter}`}>
+          <div className={`col-md-4 me-auto input-group ${styles.radioFilter}`}>
             <input
               aria-label="Filter"
               className="form-control"
@@ -47,12 +47,18 @@ export default function RadioPage({ radios }) {
               value={filter}
             />
           </div>
-          <SocialMediaBtn
-            icon="radio"
-            link="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
-            styling={styles.soundcloud}
-            title="Plant Bass'd Radio"
-          />
+
+          <div className={`col-auto ${styles.socialBtns}`}>
+            <a
+              className={`${styles.soundcloud} text-nowrap btn btn-dark`}
+              href="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
+              rel="noopener noreferrer"
+              role="button"
+              target="_blank"
+            >
+              <SocialIcon icon="radio" /> Plant Bass'd Radio
+            </a>
+          </div>
         </div>
         <div className="row g-3">
           {postCards.map((radio) => (
@@ -69,7 +75,6 @@ export default function RadioPage({ radios }) {
 }
 
 export async function getStaticProps() {
-  // Get files from the takeover directory
   const files = fs.readdirSync(path.join("posts/radios"));
   const radios = files.map((filename) => {
     const markdownWithMeta = fs.readFileSync(path.join("posts/radios", filename), "utf-8");

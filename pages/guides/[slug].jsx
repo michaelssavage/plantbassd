@@ -3,11 +3,11 @@ import Footer from "components/Footer";
 import Head from "next/head";
 import PropTypes from "prop-types";
 import matter from "gray-matter";
+import styles from "styles/slug.module.scss";
 import fs from "fs";
 import path from "path";
 
 import GoBack from "@/btns/GoBack";
-import styles from "styles/slug.module.scss";
 
 export default function TopTenSlug({ title, content }) {
   return (

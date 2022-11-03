@@ -46,18 +46,21 @@ export default function TeamPage() {
           ))}
         </div>
 
-        <h2>Get In Touch:</h2>
+        <h2 className="text-center">Get In Touch</h2>
+        <hr />
 
         <div className="row">
           {socialIconList.map((item) => (
-            <div className="col-6 col-sm-6 col-md-4" key={item.link}>
-              <Link href={item.link}>
-                <a className={`blackAnchor ${styles.iconBox}`}>
-                  <SocialIcon icon={item.icon} styling={styles.socialIcon} />{" "}
-                  <div className={styles.iconText}>{item.icon.toUpperCase()}</div>
-                </a>
-              </Link>
-            </div>
+            <Link href={item.link} key={item.link}>
+              <a
+                className={`col-6 col-sm-6 col-md-4 blackAnchor ${styles.iconBox}`}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <SocialIcon icon={item.icon} styling={styles.socialIcon} />{" "}
+                <div className={styles.iconText}>{item.icon.toUpperCase()}</div>
+              </a>
+            </Link>
           ))}
         </div>
       </div>

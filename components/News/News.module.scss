@@ -1,20 +1,7 @@
 @use "@/abstracts" as *;
 
-.headerContainer {
-  display: flex;
-  align-items: center;
-}
-
-.content {
-  padding-right: 2rem;
-}
-
 // @include breakpoint-below(md) {
 @media (max-width: 992px) {
-  .mobileHead {
-    margin-top: 2rem;
-  }
-
   .content {
     padding-right: 0;
     padding-bottom: 2rem;
@@ -23,20 +10,9 @@
 
 // @include breakpoint-below(sm) {
 @media (max-width: 768px) {
-  .mobileHead {
-    margin-top: 2rem;
-  }
   .button {
     text-align: center;
   }
-  .content {
-    padding-bottom: 1rem;
-  }
-}
-
-.anchorList {
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .cardList {
@@ -47,22 +23,5 @@
     // filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
     background-color: $black;
     color: $white;
-  }
-}
-
-.listHorizontal {
-  -moz-box-orient: horizontal;
-  -moz-box-direction: normal;
-  flex-direction: row;
-  border-top: 5px solid $navBlue;
-  margin: 1rem 0 0;
-}
-
-// @include breakpoint-below(xs) {
-@media (max-width: 576px) {
-  .listHorizontal {
-    -moz-box-orient: vertical;
-    -moz-box-direction: normal;
-    flex-direction: column;
   }
 }

@@ -18,7 +18,7 @@ export const CardNoText = ({ columns = "col-6 col-md-6 col-lg-6 col-xl-3", post,
 };
 
 CardNoText.propTypes = {
-  columns: PropTypes.string.isRequired,
+  columns: PropTypes.string,
   link: PropTypes.string.isRequired,
   post: PropTypes.instanceOf(Object).isRequired,
 };
