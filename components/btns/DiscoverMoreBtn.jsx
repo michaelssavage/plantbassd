@@ -1,11 +1,7 @@
 import Link from "next/link";
 import PropTypes from "prop-types";
 
-export default function DiscoverMoreBtn({
-  external,
-  link,
-  title = "Discover More",
-}) {
+export default function DiscoverMoreBtn({ external, link, title = "Discover More" }) {
   return (
     <div className="globalBottomBtn">
       <Link href={link}>
@@ -29,7 +25,7 @@ export default function DiscoverMoreBtn({
 }
 
 DiscoverMoreBtn.propTypes = {
-  external: PropTypes.bool.isRequired,
+  external: PropTypes.bool,
   link: PropTypes.string.isRequired,
   title: PropTypes.string,
 };
