@@ -1,22 +1,13 @@
-import { shimmer, toBase64 } from "components/BlurImg";
-import Image from "next/image";
 import Link from "next/link";
 import PropTypes from "prop-types";
+import { Picture } from "components/Picture";
 import news from "@/pageStyle/slug.module.scss";
 
 export const CardWithButtons = ({ pic, title, artist, page, insta, link }) => {
   return (
     <div className="col">
       <div className={news.newsImage}>
-        <Image
-          alt={title}
-          blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(400, 400))}`}
-          height={500}
-          layout="responsive"
-          placeholder="blur"
-          src={pic}
-          width={500}
-        />
+        <Picture alt={title} height={500} src={pic} width={500} />
         <div className="row">
           <div className={`col ${news.button}`}>
             <Link href={page}>

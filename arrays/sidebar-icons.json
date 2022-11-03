@@ -16,8 +16,8 @@
     "title": "Fresh Juice"
   },
   {
-    "link": "/mixes",
-    "title": "Mixes"
+    "link": "/radio",
+    "title": "Radio"
   },
   {
     "link": "/takeovers",
@@ -29,6 +29,6 @@
   },
   {
     "link": "/links",
-    "title": "links"
+    "title": "Links"
   }
 ]

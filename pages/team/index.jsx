@@ -1,21 +1,20 @@
-import { shimmer, toBase64 } from "components/BlurImg";
 import socialIconList from "arrays/social-icons";
 import Footer from "components/Footer";
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 import SocialIcon from "components/SocialIcon";
+import { Picture } from "components/Picture";
 import styles from "@/pageStyle/page.module.scss";
 
-export default function ContactPage() {
+export default function TeamPage() {
   return (
     <>
       <Head>
-        <title>About Us</title>
+        <title>Our Team</title>
       </Head>
 
       <div className="aboutBG">
-        <h1 className={styles.pageHeader}>About Us</h1>
+        <h1 className={styles.pageHeader}>Our Team</h1>
 
         <p>
           Plant Bass'd is spearheaded by Oisin Campbell, Michael Savage, and Peter Toal originating from Co. Monaghan,
@@ -29,16 +28,7 @@ export default function ContactPage() {
         </p>
 
         <div className="text-center">
-          <Image
-            alt="image of oisin, michael and peter"
-            blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(400, 400))}`}
-            // eslint-disable-next-line react/forbid-component-props
-            className="rounded"
-            height={300}
-            placeholder="blur"
-            src="/various/hoodie.jpg"
-            width={480}
-          />
+          <Picture alt="image of oisin, michael and peter" height={300} src="/various/hoodie.jpg" width={480} />
         </div>
         <h2>Get In Touch:</h2>
 

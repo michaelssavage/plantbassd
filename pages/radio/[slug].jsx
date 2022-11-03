@@ -1,21 +1,19 @@
 import { marked } from "marked";
-import { shimmer, toBase64 } from "components/BlurImg";
 import Footer from "components/Footer";
 import Head from "next/head";
-import Image from "next/image";
 import PropTypes from "prop-types";
 import matter from "gray-matter";
 import { CardWithButtons } from "components/Card";
+import { Picture } from "components/Picture";
 import fs from "fs";
 import path from "path";
-
 import styles from "@/pageStyle/slug.module.scss";
 
 export default function RadioSlug({ frontmatter: { title, date, pic, tracklist, artistPage, mixLink }, content }) {
   return (
     <>
       <Head>
-        <title>Plant Bass'd Radios</title>
+        <title>Plant Bass'd Mixes</title>
       </Head>
       <div className={styles.newsSection}>
         <div className="container">
@@ -36,14 +34,7 @@ export default function RadioSlug({ frontmatter: { title, date, pic, tracklist, 
                 />
               </div>
               <div className={styles.imgWrapper}>
-                <Image
-                  alt="artist tracklist"
-                  blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(400, 400))}`}
-                  height={600}
-                  placeholder="blur"
-                  src={tracklist}
-                  width={600}
-                />
+                <Picture alt="artist tracklist" height={600} src={tracklist} width={600} />
               </div>
             </div>
 

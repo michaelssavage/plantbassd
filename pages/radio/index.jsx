@@ -26,11 +26,11 @@ export default function RadioPage({ radios }) {
   return (
     <>
       <Head>
-        <title>Plant Bass'd Radios</title>
+        <title>Plant Bass'd Mixes</title>
       </Head>
 
       <div className="radioBG">
-        <h1 className={styles.pageHeader}>Plant Bass'd Radio</h1>
+        <h1 className={styles.pageHeader}>Plant Bass'd Mixes</h1>
 
         <p className={styles.pageText}>
           Guest mixes from homegrown and international artists. Check them out on our Soundcloud.

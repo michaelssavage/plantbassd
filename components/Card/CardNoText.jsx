@@ -1,5 +1,4 @@
-import { shimmer, toBase64 } from "components/BlurImg";
-import Image from "next/image";
+import { Picture } from "components/Picture";
 import Link from "next/link";
 import PropTypes from "prop-types";
 import styles from "./Card.module.scss";
@@ -10,16 +9,7 @@ export const CardNoText = ({ post, link }) => {
       <Link href={link}>
         <a className="anchorColor">
           <div className={`card ${styles.cardStyle}`}>
-            <Image
-              alt={post.frontmatter.title}
-              blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(400, 400))}`}
-              // eslint-disable-next-line react/forbid-component-props
-              className="card-img-top"
-              height={500}
-              placeholder="blur"
-              src={post.frontmatter.pic}
-              width={500}
-            />
+            <Picture alt={post.frontmatter.title} height={500} src={post.frontmatter.pic} width={500} />
           </div>
         </a>
       </Link>

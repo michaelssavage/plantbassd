@@ -1,6 +1,5 @@
-import { shimmer, toBase64 } from "components/BlurImg";
 import Image from "next/image";
-
+import { Picture } from "components/Picture";
 import styles from "./Mixes.module.scss";
 import DiscoverMoreBtn from "@/btns/DiscoverMoreBtn";
 
@@ -11,24 +10,10 @@ export default function ArtistCard() {
         <div className="col-lg-6 col-md-12">
           <div className={styles.mixImages}>
             <div className={styles.topImage}>
-              <Image
-                alt="michael radio"
-                blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(400, 400))}`}
-                height={400}
-                placeholder="blur"
-                src="/mixes/michael.png"
-                width={400}
-              />
+              <Picture alt="michael radio" height={400} src="/mixes/michael.png" width={400} />
             </div>
             <div className={styles.bottomImage}>
-              <Image
-                alt="oisin radio"
-                blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(400, 400))}`}
-                height="400"
-                placeholder="blur"
-                src="/mixes/oisin.jpg"
-                width="400"
-              />
+              <Image alt="oisin radio" height={400} src="/mixes/oisin.jpg" width={400} />
             </div>
           </div>
         </div>

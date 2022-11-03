@@ -1,11 +1,9 @@
 import { linkList } from "arrays/linktree";
-import { shimmer, toBase64 } from "components/BlurImg";
 import socialIconList from "arrays/social-icons";
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 import SocialIcon from "components/SocialIcon";
-
+import { Picture } from "components/Picture";
 import styles from "@/pageStyle/links.module.scss";
 
 export default function Links() {
@@ -17,14 +15,7 @@ export default function Links() {
       <div className={styles.linkPage}>
         <div className={styles.pushSides}>
           <div className={`row ${styles.pbLogo}`}>
-            <Image
-              alt="plant bass'd logo"
-              blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(400, 400))}`}
-              height={150}
-              placeholder="blur"
-              src="/various/pb_white.png"
-              width={150}
-            />
+            <Picture alt="plant bass'd logo" height={150} src="/various/pb_white.png" width={150} />
           </div>
 
           <div className="row">
