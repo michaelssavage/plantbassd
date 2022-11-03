@@ -1,0 +1,34 @@
+[
+  {
+    "link": "/",
+    "title": "Home"
+  },
+  {
+    "link": "/news",
+    "title": "News"
+  },
+  {
+    "link": "/gigs",
+    "title": "Gigs"
+  },
+  {
+    "link": "/fresh-juice",
+    "title": "Fresh Juice"
+  },
+  {
+    "link": "/mixes",
+    "title": "Mixes"
+  },
+  {
+    "link": "/takeovers",
+    "title": "Takeovers"
+  },
+  {
+    "link": "/team",
+    "title": "Contact Us"
+  },
+  {
+    "link": "/links",
+    "title": "links"
+  }
+]

@@ -1,6 +1,6 @@
 import { AiOutlineClose } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
-import { sidebarList } from "arrays/SidebarIcons";
+import sidebarList from "arrays/sidebar-icons";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import PropTypes from "prop-types";

@@ -1,6 +1,6 @@
 import { linkList } from "arrays/linktree";
 import { shimmer, toBase64 } from "components/BlurImg";
-import { socialIconList } from "arrays/SidebarIcons";
+import socialIconList from "arrays/social-icons";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
@@ -19,9 +19,7 @@ export default function Links() {
           <div className={`row ${styles.pbLogo}`}>
             <Image
               alt="plant bass'd logo"
-              blurDataURL={`data:image/svg+xml;base64,${toBase64(
-                shimmer(400, 400)
-              )}`}
+              blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(400, 400))}`}
               height={150}
               placeholder="blur"
               src="/various/pb_white.png"

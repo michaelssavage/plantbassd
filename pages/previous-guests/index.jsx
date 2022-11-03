@@ -1,4 +1,4 @@
-import { guestList } from "arrays/previousGuests";
+import guestList from "arrays/previous-guests";
 import Head from "next/head";
 import CardExternal from "@/cards/CardExternal";
 import styles from "@/pageStyle/page.module.scss";

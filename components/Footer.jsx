@@ -1,4 +1,4 @@
-import { links } from "arrays/FooterLinks";
+import links from "arrays/footer-links";
 import Link from "next/link";
 
 import styles from "@/styles/footer.module.scss";
@@ -11,12 +11,8 @@ export default function FooterComponent() {
           <h1 className="mb-3">Plant Bass'd</h1>
           <div className={styles.footerParagraph}>
             <p className={styles.justifyContent}>
-              profiling the experimental dance music world and throwing parties
-              in between in EDI/ DUB/ GLA. Site by{" "}
-              <a
-                className="blackAnchor"
-                href="https://www.instagram.com/michaelsaverage/"
-              >
+              profiling the experimental dance music world and throwing parties in between in EDI/ DUB/ GLA. Site by{" "}
+              <a className="blackAnchor" href="https://www.instagram.com/michaelsaverage/">
                 Michael.
               </a>
             </p>
