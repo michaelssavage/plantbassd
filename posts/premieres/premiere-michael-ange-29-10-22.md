@@ -1,12 +1,13 @@
 ---
 title: "PREMIERE: Nineteen Ninety One by Michel Ange"
+name: "PLANT BASS’D PREMIERE Nineteen Ninety One Michel Ange"
 date: "October 29, 2022"
 tags: "premieres"
-pic: "/news/26-ange.png"
+pic: "/premieres/26-ange.png"
 seeMore: "https://soundcloud.com/plantbassddjs/premiere-michel-ange-nineteen-ninety-one"
 postLink: "https://www.instagram.com/plantbassd___"
 bio: A Breaking Concept (@abcrecordings) land their first release on their imprint with Rave Factory..."
-path: "news"
+path: "premieres"
 ---
 
 Stream here: <a href="https://soundcloud.com/plantbassddjs/premiere-michel-ange-nineteen-ninety-one" rel="noopener noreferrer" target="_blank">Michel Ange - Nineteen Ninety One</a>
@@ -15,6 +16,6 @@ A Breaking Concept (@abcrecordings) land their first release on their imprint wi
 
 Past, present and future combine on Michel Ange’s ‘Nineteen Ninety One’ evoking old school hardcore NRG with an edgier view on breakcore.
 
-<img src="/news/26-michael-ange.jpg" alt="Michael Ange cover pic" width="75%" />
+<img src="/premieres/26-michael-ange.jpg" alt="Michael Ange cover pic" width="75%" />
 
 Support Michael Ange here 🌱 https://abreakingconcept.bandcamp.com/album/rave-factory-v-a-i

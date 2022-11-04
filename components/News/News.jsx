@@ -11,7 +11,7 @@ export default function News({ news }) {
         </h1>
         <div className="col-auto">
           <Link href="/news">
-            <a className="text-nowrap btn btn-outline-dark" rel="noopener noreferrer" role="button" target="_blank">
+            <a className="text-nowrap btn btn-outline-dark" role="button">
               View More
             </a>
           </Link>

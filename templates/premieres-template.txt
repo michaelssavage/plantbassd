@@ -1,18 +1,19 @@
 ---
 title: "XX"
+name: "XX"
 date: "XX, 2022"
 tags: "premieres"
-pic: "/news/XX"
+pic: "/premieres/XX"
 seeMore: "XX"
 postLink: "https://www.instagram.com/plantbassd___"
 bio: XX..."
-path: "news"
+path: "premieres"
 ---
 
 Stream here: <a href="XX" rel="noopener noreferrer" target="_blank">XX</a>
 
 XX
 
-<img src="/news/XX.jpg" alt="XX" width="75%" />
+<img src="/premieres/XX.jpg" alt="XX" width="75%" />
 
 Support XX here 🌱 XX

@@ -12,7 +12,7 @@ export default function Radio({ radios }) {
         </h1>
         <div className="col-auto">
           <Link href="/radios">
-            <a className="text-nowrap btn btn-outline-dark" rel="noopener noreferrer" role="button" target="_blank">
+            <a className="text-nowrap btn btn-outline-dark" role="button">
               More
             </a>
           </Link>

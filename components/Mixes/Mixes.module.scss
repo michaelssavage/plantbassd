@@ -24,7 +24,6 @@
     flex: 0 0 auto;
     width: 50%;
     padding-right: 0.25rem;
-    padding-left: 0.25rem;
   }
 
   .bottomImage {
@@ -32,7 +31,6 @@
     -moz-box-flex: 0;
     flex: 0 0 auto;
     width: 50%;
-    padding-right: 0.25rem;
     padding-left: 0.25rem;
   }
 
@@ -53,10 +51,4 @@
 
 .hoverBtn:hover {
   color: $white !important;
-}
-
-@include breakpoint-below(xs) {
-  .mixImages {
-    padding: 0 1.5rem;
-  }
 }

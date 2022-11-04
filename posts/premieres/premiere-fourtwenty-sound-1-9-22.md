@@ -3,11 +3,11 @@ title: "PLANT BASS’D PREMIERE: ‘LETS GET IT’ by Fourtwenty Sound"
 name: "PLANT BASS’D PREMIERE LETS GET IT Fourtwenty Sound"
 date: "September 1, 2022"
 tags: "premieres"
-pic: "/news/21-fourtwenty.png"
+pic: "/premieres/21-fourtwenty.png"
 seeMore: "https://soundcloud.com/plantbassddjs/fourtwenty-sound-lets-get-it"
 postLink: "https://www.instagram.com/plantbassd___"
 bio: "With past releases on coveted labels like Future Bounce Werk & MATRACA, Bogota based Fourtwenty Sound shines further on 'LETS GET IT'..."
-path: "news"
+path: "premieres"
 ---
 
 Stream here: <a href="https://soundcloud.com/plantbassddjs/fourtwenty-sound-lets-get-it" rel="noopener noreferrer" target="_blank">LETS GET IT by Fourtwenty Sound</a>
@@ -18,6 +18,6 @@ Venezuelan, Bogotá based multi-genre producer Fourtwenty Sound lands on Scottis
 
 A mutating bass and footwork number that fuses acidic whirls with crushing breakbeats and phonk breakdowns.
 
-<img src="/news/21-cover.jpg" alt="Fourtwenty Sound Cover Pic" width="75%" />
+<img src="/premieres/21-cover.jpg" alt="Fourtwenty Sound Cover Pic" width="75%" />
 
 Support 'Welcome to the Hyperdome II' here 🌱 https://hyperdomerecords.bandcamp.com/album/hyprecs-010-welcome-to-the-hyperdome-ii
