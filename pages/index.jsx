@@ -9,7 +9,6 @@ import Radio from "components/Radio";
 import Banner from "components/Banner";
 import Takeover from "components/Takeover";
 import matter from "gray-matter";
-import Premieres from "components/Premieres";
 import fs from "fs";
 import path from "path";
 
@@ -29,8 +28,6 @@ export default function Home({ allPosts, takeovers, radios, freshjuice }) {
         <Takeover takeovers={takeovers} />
         <Radio radios={radios} />
       </div>
-
-      <Premieres />
 
       <Footer />
     </main>

@@ -7,10 +7,11 @@ export default function Radio({ radios }) {
   return (
     <section className="radioSection col-lg-6 col-md-12">
       <div className="row mb-2 align-items-center">
-        <h1 className="col me-auto heading mb-0" name="takeovers">
+        <h1 className="col me-auto mb-0" name="radios">
           Radios
         </h1>
-        <div className="col-auto">
+
+        <div className="col-auto px-0">
           <Link href="/radios">
             <a className="text-nowrap btn btn-outline-dark" role="button">
               More
@@ -18,7 +19,11 @@ export default function Radio({ radios }) {
           </Link>
         </div>
       </div>
-      <p>Guest Radio Mixes from homegrown organic DJs</p>
+
+      <div className="row mb-2">
+        <p>Guest Radio Mixes from homegrown organic DJs</p>
+      </div>
+
       <div className="row g-2">
         {radios.map((artist) => (
           <CardNoText

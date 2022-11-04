@@ -12,7 +12,7 @@ export const CardWithButtons = ({ pic, title, artist, page, insta, link }) => {
           <div className={`col ${news.button}`}>
             <Link href={page}>
               <a
-                className={`${news.hoverLink} text-nowrap btn btn-outline-dark btn-lg`}
+                className={`${news.hoverLink} text-nowrap btn btn-outline-dark`}
                 rel="noopener noreferrer"
                 role="button"
                 target="_blank"
@@ -24,7 +24,7 @@ export const CardWithButtons = ({ pic, title, artist, page, insta, link }) => {
           <div className={`col ${news.button}`}>
             <Link href={page}>
               <a
-                className={`${news.hoverLink} text-nowrap btn btn-outline-dark btn-lg`}
+                className={`${news.hoverLink} text-nowrap btn btn-outline-dark`}
                 href={link}
                 rel="noopener noreferrer"
                 role="button"

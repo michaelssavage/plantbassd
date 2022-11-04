@@ -67,7 +67,7 @@ p {
 }
 
 .smallText {
-  font-size: $cardSmall;
+  font-size: $cardDate;
 }
 
 img {
@@ -150,26 +150,7 @@ Link {
 }
 
 .header {
-  color: $headerBlack !important;
-  font-size: $lgHeader;
-}
-
-@include breakpoint-below(sm) {
-  .header {
-    font-size: $mdHeader;
-  }
-}
-
-@include breakpoint-below(xs) {
-  .header {
-    font-size: $smHeader;
-  }
-}
-
-@include breakpoint-below(xxs) {
-  .header {
-    font-size: $xsHeader;
-  }
+  color: $headerBlack;
 }
 
 .clubGuide {
@@ -238,7 +219,7 @@ Link {
 }
 
 .guestTextOverlay {
-  font-size: $cardSmall;
+  font-size: $cardDate;
   word-break: keep-all;
   @extend .imgTextOverlay;
 }
@@ -254,18 +235,18 @@ img {
 // ------------------- COMPONENT COLOURS/LAYOUTS -------------------
 
 .layout {
-  padding: 0 8%;
+  padding: 0 10%;
 }
 
 @media (max-width: 768px) {
   .halfLayout {
-    padding: 0 4%;
+    padding: 0 5%;
   }
 }
 
 @media (max-width: 376px) {
   .layout {
-    padding: 0 12%;
+    padding: 0 14%;
   }
 }
 
@@ -373,6 +354,12 @@ img {
   .discoveryCards {
     background: linear-gradient(180deg, $lilac 20%, $opal 80%);
     flex-direction: column;
+  }
+  .takeoverSection {
+    padding-right: 0;
+  }
+  .radioSection {
+    padding-left: 0;
   }
 }
 

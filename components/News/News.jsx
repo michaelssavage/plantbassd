@@ -6,13 +6,13 @@ export default function News({ news }) {
   return (
     <section className="newsSection">
       <div className="row mb-2 align-items-center">
-        <h1 className="col me-auto heading mb-0" name="news">
+        <h1 className="col me-auto mb-0" name="news">
           Latest News
         </h1>
-        <div className="col-auto">
+        <div className="col-auto px-0">
           <Link href="/news">
             <a className="text-nowrap btn btn-outline-dark" role="button">
-              View More
+              More
             </a>
           </Link>
         </div>
