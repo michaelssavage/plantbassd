@@ -14,7 +14,7 @@ export default function Footer() {
               profiling the experimental dance music world and throwing parties in between in EDI/ DUB/ GLA.
             </p>
 
-            <p className="small mb-0">
+            <p className={`small ${styles.siteBy}`}>
               Site by{" "}
               <a
                 className="blackAnchor"

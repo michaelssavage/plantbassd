@@ -1,10 +1,4 @@
-import {
-  AiFillHome,
-  AiOutlineFacebook,
-  AiOutlineInstagram,
-  AiOutlineLink,
-  AiOutlineMail,
-} from "react-icons/ai";
+import { AiFillHome, AiOutlineFacebook, AiOutlineInstagram, AiOutlineLink, AiOutlineMail } from "react-icons/ai";
 import { BiRadio } from "react-icons/bi";
 import { BsFillVolumeUpFill } from "react-icons/bs";
 import { FaSpotify } from "react-icons/fa";
@@ -51,7 +45,7 @@ function Switcher({ icon }) {
       return <GiTicket />;
     case "site":
       return <AiFillHome />;
-    case "premiere":
+    case "premieres":
       return <BsFillVolumeUpFill />;
     default:
       return <RiSpotifyLine />;

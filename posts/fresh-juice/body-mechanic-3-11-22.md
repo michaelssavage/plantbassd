@@ -7,6 +7,7 @@ bandcamp: "https://bit.ly/3Sd14Pm"
 postLink: "https://www.instagram.com/plantbassd___"
 bio: "One of the Detroit forefathers, the Body Mechanic returns with a super rare electro funk 12” on High Octane, courtesy of definitive electro label Philthtrax..."
 path: "fresh-juice"
+artist: "Juno"
 ---
 
 ### One of the Detroit forefathers, the Body Mechanic returns with a super rare electro funk 12” on High Octane, courtesy of definitive electro label Philthtrax.
@@ -24,7 +25,7 @@ Order here: [High Octane | Body Mechanic](https://bit.ly/3rR0X0O)
 A2 ‘Interplay’ arrives smoothly with a booty tooting drum pattern and further organ funk that locks the sound on that irrepressible mid 80’s-90’s sound. A well pressed electro cut up.
 
 <img src="/fresh-juice/49-bm.jpg" alt="Body Mechanic cover pic" width="75%" />
-(Pictured: Body Mechanic)
+<p class="smallText"><i>(Pictured: Body Mechanic)</i></p>
 
 Having played as a consistent figure within US electro, techno, and hip hop since the 80’s working with acts like Kurtis Blow, DJ Dee, as well as being held in the same light as Detroit spearheads like DJ Assault and Dr. De, the Body Mechanic has carved out a distinct ability to roll through the many dimensions of his hometown sound.
 

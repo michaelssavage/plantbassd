@@ -7,6 +7,7 @@ bandcamp: "https://distrokid.com/hyperfollow/sloucho/hold-it-down"
 postLink: "https://www.instagram.com/plantbassd___"
 bio: "Cabal co-founder & Director Cóilín Phelan debuts his first release under new moniker Sloucho with ‘Hold It Down’..."
 path: "fresh-juice"
+artist: "Distrokid"
 ---
 
 ### Cabal co-founder & Director Cóilín Phelan debuts his first release under new moniker Sloucho with ‘Hold It Down’.
@@ -14,7 +15,6 @@ path: "fresh-juice"
 Save track here: [Hold It Down | Sloucho](https://distrokid.com/hyperfollow/sloucho/hold-it-down)
 
 <img src="/fresh-juice/50-beach.jpg" alt="Hold it down album art" width="50%" />
-
 <p class="smallText"><i>Words by Oisín Campbell & Michael Savage/ Design by Michael Savage</i></p>
 
 <hr/>
@@ -28,14 +28,14 @@ Sloucho, alias of Zizzou, has had a busy Summer playing at AVA Festival and All 
 “We follow an unnamed soul on their journey to accepting their fate. Their heart, which represents their desires, is externalised in a cinder block which they are attached to. They are faced with a series of challenges, the first of two they fail, and are sent to die by a rising tide.
 
 <img src="/fresh-juice/50-bts.jpg" alt="Behind the scenes of the production of the track’s video" width="85%" />
-(Pictured: Behind the scenes of the production of the track’s video featuring Craig Checko and being directed by Sloucho himself)
+<p class="smallText"><i>(Pictured: Behind the scenes of the production of the track’s video featuring Craig Checko and being directed by Sloucho himself)</i></p>
 
 We come to understand that each time that they untether themselves from their fate they are punished. On the third challenge they finally accept that if they escape they will only end up back where they started, forever in this loop. So they accept their fate and drown themselves, for which they are rewarded with resurrection.”
 
 The track maintains this haunting yet inspiring feeling throughout and becomes almost addictive to listen to after a few plays. Sloucho’s attention to the craft and the layered meaning of the sound and its story encompass each other blissfully both audibly and visually.
 
 <img src="/fresh-juice/50-sloucho.png" alt="Sloucho cover pic" width="60%" />
-(Pictured: Sloucho)
+<p class="smallText"><i>(Pictured: Sloucho)</i></p>
 
 Pioneering collective Cabal are influencing the music scene in Ireland with creative efforts in music, visuals, and spaces for artistic expression. They have grand ideas and co-founders Cóilín Phelan and previous guest of the page, Colm Brandon, plan to boldly explore them. The wider Cabal team is expanding and it includes Dillion Reid (Brawni) who recently showcased his new music productions using synthesizers. Sloucho's talent can be seen again as he stepped for the design duties on Brawni’s cover art.
 

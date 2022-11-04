@@ -19,7 +19,7 @@
   margin-bottom: 0.5rem;
 }
 .cardTitle {
-  font-size: $cardTitle;
+  font-size: $cardDate;
   max-height: 1.4rem;
 }
 
@@ -40,7 +40,7 @@
     padding: 0.5rem;
   }
   .cardTitle {
-    font-size: $cardSmall;
+    font-size: $cardDate;
   }
 }
 

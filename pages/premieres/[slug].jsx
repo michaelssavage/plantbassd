@@ -8,24 +8,29 @@ import styles from "styles/slug.module.scss";
 import fs from "fs";
 import path from "path";
 
-export default function FreshJuiceSlug({
-  frontmatter: { artist = "Bandcamp", title, date, pic, bandcamp, postLink },
-  content,
-}) {
+export default function PremieresSlug({ frontmatter: { title, date, pic, tickets, seeMore, postLink }, content }) {
+  let buyLink = seeMore,
+    buyText = "See More";
+
+  if (tickets) {
+    buyLink = tickets;
+    buyText = "RA tickets";
+  }
+
   return (
     <>
       <Head>
-        <title>Plant Bass'd Fresh Juice</title>
+        <title>Plant Bass'd News</title>
       </Head>
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
             <Content content={content} date={date} title={title} />
             <CardWithButtons
-              artist={artist}
+              artist={buyText}
               insta="Instagram"
               link={postLink}
-              page={bandcamp}
+              page={buyLink}
               pic={pic}
               title={title}
             />
@@ -37,9 +42,8 @@ export default function FreshJuiceSlug({
     </>
   );
 }
-
-export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/fresh-juice"));
+export function getStaticPaths() {
+  const files = fs.readdirSync(path.join("posts/premieres"));
   const paths = files.map((filename) => ({
     params: {
       slug: filename.replace(".md", ""),
@@ -51,9 +55,8 @@ export async function getStaticPaths() {
     paths,
   };
 }
-
 export async function getStaticProps({ params: { slug } }) {
-  const markdownWithMeta = fs.readFileSync(path.join("posts/fresh-juice", `${slug}.md`), "utf-8");
+  const markdownWithMeta = fs.readFileSync(path.join("posts/premieres", `${slug}.md`), "utf-8");
   const { data: frontmatter, content } = matter(markdownWithMeta);
 
   return {
@@ -64,13 +67,7 @@ export async function getStaticProps({ params: { slug } }) {
   };
 }
 
-FreshJuiceSlug.propTypes = {
+PremieresSlug.propTypes = {
   content: PropTypes.string.isRequired,
   frontmatter: PropTypes.instanceOf(Object).isRequired,
-};
-
-Content.propTypes = {
-  content: PropTypes.string.isRequired,
-  date: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
 };

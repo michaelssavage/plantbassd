@@ -7,12 +7,12 @@ export default function Takeover({ takeovers }) {
   return (
     <section className="takeoverSection col-lg-6 col-md-12">
       <div className="row mb-2 align-items-center">
-        <h1 className="col me-auto heading mb-0" name="takeovers">
+        <h1 className="col me-auto mb-0" name="takeovers">
           Takeovers
         </h1>
-        <div className="col-auto">
+        <div className="col-auto px-0">
           <Link href="/takeovers">
-            <a className="text-nowrap btn btn-outline-dark" rel="noopener noreferrer" role="button" target="_blank">
+            <a className="text-nowrap btn btn-outline-dark" role="button">
               More
             </a>
           </Link>

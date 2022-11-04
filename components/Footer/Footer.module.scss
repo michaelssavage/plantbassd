@@ -4,6 +4,10 @@
   margin-right: 20%;
 }
 
+.siteBy {
+  margin-bottom: 0;
+}
+
 @include breakpoint-below(md) {
   .footerParagraph {
     margin-right: 10%;
@@ -13,6 +17,9 @@
 @include breakpoint-below(sm) {
   .footerParagraph {
     margin-right: 0;
+  }
+  .siteBy {
+    margin-bottom: 1rem;
   }
 }
 

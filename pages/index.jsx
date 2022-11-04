@@ -14,7 +14,7 @@ import path from "path";
 
 export default function Home({ allPosts, takeovers, radios, freshjuice }) {
   return (
-    <>
+    <main>
       <Head>
         <title>Plant Bass'd</title>
       </Head>
@@ -30,14 +30,14 @@ export default function Home({ allPosts, takeovers, radios, freshjuice }) {
       </div>
 
       <Footer />
-    </>
+    </main>
   );
 }
 
 const getPosts = (directory) => {
   const files = fs.readdirSync(path.join(directory));
 
-  // Return Slug and frontmatter from takeover posts
+  // Return Slug and frontmatter from posts
   return files.map((filename) => {
     const markdownWithMeta = fs.readFileSync(path.join(directory, filename), "utf-8");
     const { data: frontmatter } = matter(markdownWithMeta);
@@ -56,8 +56,13 @@ export async function getStaticProps() {
   const guides = getPosts("posts/guides").sort(sortByDate).reverse().slice(0, 4);
   const news = getPosts("posts/news").sort(sortByDate).reverse().slice(0, 4);
   const radios = getPosts("posts/radios").sort(sortByDate).reverse().slice(0, 2);
+  const premieres = getPosts("posts/premieres").sort(sortByDate).reverse().slice(0, 4);
   const takeovers = getPosts("posts/takeovers").sort(sortByDate).reverse().slice(0, 2);
-  const allPosts = [].concat(freshjuice, gigs, guides, news, radios, takeovers).sort(sortByDate).reverse().slice(0, 4);
+  const allPosts = []
+    .concat(freshjuice, gigs, guides, news, radios, premieres, takeovers)
+    .sort(sortByDate)
+    .reverse()
+    .slice(0, 4);
 
   return {
     props: {
