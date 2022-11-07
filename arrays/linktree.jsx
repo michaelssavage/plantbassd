@@ -1,13 +1,13 @@
 export const linkList = [
   {
-    title: "Sloucho - Hold It Down",
-    link: "https://www.plantbassd.com/fresh-juice/sloucho-4-11-22",
-    icon: "fresh juice",
-  },
-  {
     title: "SweatBox: LUXE @ Sneaky Petes",
     link: "https://ra.co/events/1606239",
     icon: "tickets",
+  },
+  {
+    title: "Sloucho - Hold It Down",
+    link: "https://www.plantbassd.com/fresh-juice/sloucho-4-11-22",
+    icon: "fresh juice",
   },
   {
     title: "Body Mechanic - High Octane",
