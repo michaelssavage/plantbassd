@@ -1,8 +1,8 @@
 export const linkList = [
   {
-    title: "SweatBox: LUXE @ Sneaky Petes",
-    link: "https://ra.co/events/1606239",
-    icon: "tickets",
+    title: "Rory Sweeney feat. Curtisy 'Veggies'",
+    link: "https://soundcloud.com/plantbassddjs/premiere-rory-sweeney-veggies-feat-curtisy",
+    icon: "premiere",
   },
   {
     title: "Sloucho - Hold It Down",
