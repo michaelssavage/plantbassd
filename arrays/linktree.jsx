@@ -1,7 +1,7 @@
 export const linkList = [
   {
     title: "Rory Sweeney feat. Curtisy 'Veggies'",
-    link: "https://soundcloud.com/plantbassddjs/premiere-rory-sweeney-veggies-feat-curtisy",
+    link: "https://soundcloud.com/plantbassddjs/premiere-rory-sweeney-veggies-ft-curtisy",
     icon: "premiere",
   },
   {
