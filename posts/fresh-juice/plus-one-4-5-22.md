@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here: https://mattfinneganplusone.bandcamp.com/album/midnight-dub-vol-1
 
-<img src="/fresh-juice/28_midnight-dubs.png" alt="midnight dubs album art" width="75%" />
+<img src="/fresh-juice/28_midnight-dubs.png" alt="midnight dubs album art" width="100%" />
 
 <p class="smallText"><i>Words by Michael Savage/ Design by Michael Savage</i></p>
 
@@ -24,7 +24,7 @@ PLUS ONE has proven himself to be a versatile producer and DJ with a dedication 
 
 As the overseas movement in dance music draws toward more leftfield and bass sounds, PLUS ONE will be seen as one of the early Irish adopters of the sound. The Dublin native has crafted this sound from his experience playing around the Emerald Isle having worked with dominant acts like Kojaque and making appearances on Rinse FM, as well as working with an eclectic bunch of Irish dance artists in Glimmerman, Ema, Small Crab, and Sputnik One.
 
-<img src="/fresh-juice/28_matt.jpg" alt="Matt Finnegan pic" width="75%" />
+<img src="/fresh-juice/28_matt.jpg" alt="Matt Finnegan pic" width="100%" />
 
 PLUS ONE takes four R&B hits from the past two years and creates some powerful arrangements to be heard in more intimate club settings. Each track is manipulated to give a complete new listening experience to the originals, reshaping the vocals into a new role in the tracks, and diverging from the original pop sound. The end result is an atmospheric EP filled with euphoric introspective vocals on top of dreamy textures.
 

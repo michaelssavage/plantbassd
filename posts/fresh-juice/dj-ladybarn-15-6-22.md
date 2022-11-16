@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here: [DJ Ladybarn | Gunchester](https://ilpadrinorecords.bandcamp.com/album/dj-ladybarn-gunchester)
 
-<img src="/fresh-juice/38-dj ladybarn.jpg" alt="gunchester album art" width="75%" />
+<img src="/fresh-juice/38-dj ladybarn.jpg" alt="gunchester album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -26,7 +26,7 @@ Hailing from Fallowfield, Manchester, DJ Ladybarn has been a common provider to 
 
 Gunchester was made with the intention of trying something new. A phonk-fused 2 step 4 tracker that pays homage to artists like Bicep, Overmono, MJ Cole, and many heads from the 90’s garage and house era, yet all the while it maintains its own unique atmospheric club feel.
 
-<img src="/fresh-juice/38-il-padrino.jpg" alt="il padrino cover pic" width="75%" />
+<img src="/fresh-juice/38-il-padrino.jpg" alt="il padrino cover pic" width="100%" />
 
 The EP’s title-track ‘Gunchester’ initiates proceedings with a pulsating synth instrumental that forges with a well weighted 2 step rhythm and static vocals. Chatter reminiscing of a bygone Manchester era fills the background adding further substance to this emotive garage anthem.
 

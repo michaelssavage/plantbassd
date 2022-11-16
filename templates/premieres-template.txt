@@ -10,10 +10,10 @@ bio: XX..."
 path: "premieres"
 ---
 
+<img src="/premieres/XX.jpg" alt="XX" width="100%" />
+
 Stream here: <a href="XX" rel="noopener noreferrer" target="_blank">XX</a>
 
 XX
 
-<img src="/premieres/XX.jpg" alt="XX" width="75%" />
-
-Support XX here 🌱 XX
+Support XX here 🌱 []()

@@ -8,7 +8,10 @@ import styles from "styles/slug.module.scss";
 import fs from "fs";
 import path from "path";
 
-export default function PremieresSlug({ frontmatter: { title, date, pic, tickets, seeMore, postLink }, content }) {
+export default function PremieresSlug({
+  frontmatter: { title, date, pic, tickets, seeMore, postLink, youtube },
+  content,
+}) {
   let buyLink = seeMore,
     buyText = "See More";
 
@@ -34,6 +37,21 @@ export default function PremieresSlug({ frontmatter: { title, date, pic, tickets
               pic={pic}
               title={title}
             />
+          </div>
+          <div className="row mt-5">
+            {youtube ? (
+              <iframe
+                src={youtube}
+                width={560}
+                height={720}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                title={title}
+              />
+            ) : (
+              <></>
+            )}
           </div>
         </div>
       </div>

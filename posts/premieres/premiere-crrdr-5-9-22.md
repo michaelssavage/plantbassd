@@ -10,12 +10,12 @@ bio: Multi-layered club experimentalist CRRDR joins in on fellow Colombian impri
 path: "premieres"
 ---
 
+<img src="/premieres/22-cover.jpg" alt="CRRDR cover pic" width="100%" />
+
 Stream here: <a href="https://soundcloud.com/plantbassddjs/plant-bassd-premiere-sonale-los-bajos-by-crrdr" rel="noopener noreferrer" target="_blank">Sonale Los Bajos by CRRDR</a>
 
 Multi-layered club experimentalist CRRDR joins in on fellow Colombian imprint Muakk's first V/A 'Muakk Besitos Bailables' with the latin footwork fusion of 'Sonale Los Bajos'.
 
 Muakk brings together 20 artists from Latam and the world combining latincore bombs loaded with speed perreo, hardcore, guaracha, tuki, trance and club.
-
-<img src="/premieres/22-cover.jpg" alt="CRRDR cover pic" width="75%" />
 
 Support the full V/A here 🌱 [Muakk Besitos Bailables | MUAKK](https://muakk.bandcamp.com/album/muakk-besitos-bailables)

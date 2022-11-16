@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: Hold It Down by Sloucho"
+name: "fresh juice hold it down slouco michael savage"
 date: "November 4, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/50-hold_it_down.png"
@@ -14,7 +15,7 @@ artist: "Distrokid"
 
 Save track here: [Hold It Down | Sloucho](https://distrokid.com/hyperfollow/sloucho/hold-it-down)
 
-<img src="/fresh-juice/50-beach.jpg" alt="Hold it down album art" width="50%" />
+<img src="/fresh-juice/50-beach.jpg" alt="Hold it down album art" width="100%" />
 <p class="smallText"><i>Words by Oisín Campbell & Michael Savage/ Design by Michael Savage</i></p>
 
 <hr/>
@@ -27,7 +28,7 @@ Sloucho, alias of Zizzou, has had a busy Summer playing at AVA Festival and All 
 
 “We follow an unnamed soul on their journey to accepting their fate. Their heart, which represents their desires, is externalised in a cinder block which they are attached to. They are faced with a series of challenges, the first of two they fail, and are sent to die by a rising tide.
 
-<img src="/fresh-juice/50-bts.jpg" alt="Behind the scenes of the production of the track’s video" width="85%" />
+<img src="/fresh-juice/50-bts.jpg" alt="Behind the scenes of the production of the track’s video" width="100%" />
 <p class="smallText"><i>(Pictured: Behind the scenes of the production of the track’s video featuring Craig Checko and being directed by Sloucho himself)</i></p>
 
 We come to understand that each time that they untether themselves from their fate they are punished. On the third challenge they finally accept that if they escape they will only end up back where they started, forever in this loop. So they accept their fate and drown themselves, for which they are rewarded with resurrection.”

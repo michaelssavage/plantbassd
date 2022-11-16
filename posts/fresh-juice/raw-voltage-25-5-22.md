@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here [VA. Raw Voltage | Ovelha Trax](https://ovelhatrax.bandcamp.com/album/va-raw-voltage)
 
-<img src="/fresh-juice/35-raw-voltage.jpg" alt="raw voltage album art" width="85%" />
+<img src="/fresh-juice/35-raw-voltage.jpg" alt="raw voltage album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 

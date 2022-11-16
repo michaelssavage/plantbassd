@@ -16,7 +16,7 @@ The initial ‘Grimey Ones’ effort (listen: https://oldboytrax.bandcamp.com/al
 
 (Listen: https://128kbps.bandcamp.com/album/now-thats-what-i-call-c-pyright-infringement-128)
 
-<img src="/fresh-juice/08_oldboy.jpg" alt="third degree hazmat album art" width="75%" />
+<img src="/fresh-juice/08_oldboy.jpg" alt="third degree hazmat album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 

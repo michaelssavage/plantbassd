@@ -12,7 +12,7 @@ path: "fresh-juice"
 
 ### Jason Code returns with more kamikaze breaks and dubs on his self-released ‘JCO1’ effort.
 
-<img src="/fresh-juice/10_JC01.jpg" alt="JC01 Album Art" width="75%" />
+<img src="/fresh-juice/10_JC01.jpg" alt="JC01 Album Art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -24,7 +24,7 @@ Jason has been plying his trade in the ever blooming Nashville scene over the la
 
 This 4 track battering ram kicks off with ‘Bodyyy’, which pulsates from the get go with its thudding bassline and trigger-happy breaks. Similarly to the title track from his Scuffed entry, ‘HOT!’, Code’s ‘Bodyyy’ huffs and puffs with its pacing interchanges and epic breakdowns. A truly challenging two-stepper!
 
-<img src="/fresh-juice/10_jason-presspic.jpg" alt="jason code press pic" width="75%" />
+<img src="/fresh-juice/10_jason-presspic.jpg" alt="jason code press pic" width="100%" />
 
 ‘FACE AH’ follows with more sawed off breaks and eerie basslines that are further cemented by a rolling vocal sample throughout. At this point, there is a serious sense that the Tennessee based artist is really trying to outdo his previous efforts on ‘JCO1’.
 

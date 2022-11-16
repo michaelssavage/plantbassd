@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here: https://anusrecords.bandcamp.com/album/double-knee-ep
 
-<img src="/fresh-juice/23-double-knee.jpg" alt="Double knee album art" width="75%" />
+<img src="/fresh-juice/23-double-knee.jpg" alt="Double knee album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -26,7 +26,7 @@ Opening track ‘Wasted’ announces itself with a fully charged bass energy tha
 
 Lead single ‘Keelas’ is a real pace tester that races along with bouncing footwork rhythms and alarming synth lines. Weighted bass lines add a thick texture to the track which breaks down with energetic 90’s rave melodies before returning to boiling point.
 
-<img src="/fresh-juice/23-ar.jpg" alt="ANUS records cover pic" width="75%" />
+<img src="/fresh-juice/23-ar.jpg" alt="ANUS records cover pic" width="100%" />
 
 The rapid ‘At Days End’ becomes trapped in a battle between breakcore and dubstep that yields dramatic effects. Catapulting breaks and bass weave through each other for another slamming sound that would test the foundations of any room.
 

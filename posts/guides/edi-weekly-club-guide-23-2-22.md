@@ -16,7 +16,7 @@ Incoming shows from Blawan, Habibi Funk, Jacques Greene, Jeremy Sylvester, Shere
 
 <div class="row"><div class="col clubGuide">
 
-<img src="/news/club-guide/05-heaters.jpg" alt="Heaters: Habibi Funk & Hiba @ Sneaky Pete’s" width="85%" />
+<img src="/news/club-guide/05-heaters.jpg" alt="Heaters: Habibi Funk & Hiba @ Sneaky Pete’s" width="100%" />
 </div><div class="col clubGuide">
 
 ### Heaters: Habibi Funk & Hiba @ Sneaky Pete’s
@@ -29,7 +29,7 @@ Rounding off an epic month of Heaters bookings, Arab disco and funk sensation Ha
 
 <div class="row"><div class="col clubGuide">
 
-<img src="/news/club-guide/05-sherelle.jpg" alt="Club Sylkie: Sherelle @ Sneaky Pete’s" width="85%" />
+<img src="/news/club-guide/05-sherelle.jpg" alt="Club Sylkie: Sherelle @ Sneaky Pete’s" width="100%" />
 </div><div class="col clubGuide">
 
 ### Club Sylkie: Sherelle @ Sneaky Pete’s
@@ -43,7 +43,7 @@ This is also sold out online with some tickets being left on the door (GET DOWN 
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/05-circle.png" alt="Circle 04 @ the Mash House" width="85%" />](https://ra.co/events/1499462)
+[<img src="/news/club-guide/05-circle.png" alt="Circle 04 @ the Mash House" width="100%" />](https://ra.co/events/1499462)
 
 </div><div class="col clubGuide">
 
@@ -59,7 +59,7 @@ Circle returns with a night of specialist underground techno and electro featuri
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/05-hobbes.jpg" alt="Hobbes Music: Jam The Box @ Bongo Club" width="85%" />](https://ra.co/events/1496109)
+[<img src="/news/club-guide/05-hobbes.jpg" alt="Hobbes Music: Jam The Box @ Bongo Club" width="100%" />](https://ra.co/events/1496109)
 
 </div><div class="col clubGuide">
 
@@ -75,7 +75,7 @@ Edinburgh label Hobbes Music returns to Bongo with a stacked line-up two celebra
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/05-lionoil.jpg" alt="Lionoil: Feena, Panooc & Percy Main @ Sneaky Pete’s" width="85%" />](https://ra.co/events/1503021)
+[<img src="/news/club-guide/05-lionoil.jpg" alt="Lionoil: Feena, Panooc & Percy Main @ Sneaky Pete’s" width="100%" />](https://ra.co/events/1503021)
 
 </div><div class="col clubGuide">
 
@@ -91,7 +91,7 @@ Edinburgh label Hobbes Music returns to Bongo with a stacked line-up two celebra
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/05-storytime.jpg" alt="Storytime presents Ross From Friends (Live) @ La Belle Angelle" width="85%" />](https://ra.co/events/1479894)
+[<img src="/news/club-guide/05-storytime.jpg" alt="Storytime presents Ross From Friends (Live) @ La Belle Angelle" width="100%" />](https://ra.co/events/1479894)
 
 </div><div class="col clubGuide">
 
@@ -107,7 +107,7 @@ Presented by Storytime, Ross From Friends’ ‘Tread’ album tour arrives in E
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/05-garage.jpg" alt="Headset UKG Special: Jeremy Sylvester & Onyx Stone @ Bongo Club" width="85%" />](https://ra.co/events/1488202)
+[<img src="/news/club-guide/05-garage.jpg" alt="Headset UKG Special: Jeremy Sylvester & Onyx Stone @ Bongo Club" width="100%" />](https://ra.co/events/1488202)
 
 </div><div class="col clubGuide">
 
@@ -123,7 +123,7 @@ One of the forefathers of UKG, Jeremy Sylvester is in town for a Headset Special
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/05-excursions.jpg" alt="Deep Excursions Daytime Party with Domenic Capello & Telfort @ the Biscuit Factory" width="85%" />](https://ra.co/events/1478837)
+[<img src="/news/club-guide/05-excursions.jpg" alt="Deep Excursions Daytime Party with Domenic Capello & Telfort @ the Biscuit Factory" width="100%" />](https://ra.co/events/1478837)
 
 </div><div class="col clubGuide">
 
@@ -139,7 +139,7 @@ Longstanding Sub-Club resident Domenic Capello joins local hero Telfort for the 
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/05-pulse.jpg" alt="Pulse: Blawan @ the Mash House" width="85%" />](https://ra.co/events/1478837)
+[<img src="/news/club-guide/05-pulse.jpg" alt="Pulse: Blawan @ the Mash House" width="100%" />](https://ra.co/events/1478837)
 
 </div><div class="col clubGuide">
 
@@ -155,7 +155,7 @@ Another reschedule, Pulse brings UK hard techno ace Blawan to town for a highly 
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/05-revolt.jpg" alt="Revolt @ Summerhall" width="85%" />](https://ra.co/events/1498447)
+[<img src="/news/club-guide/05-revolt.jpg" alt="Revolt @ Summerhall" width="100%" />](https://ra.co/events/1498447)
 
 </div><div class="col clubGuide">
 
@@ -171,7 +171,7 @@ Queer, experimental party Revolt returns with it’s second city party to Summer
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/05-samedia.jpg" alt="Samedia Shebeen’s Tropical Soundclash @ La Belle Angele" width="85%" />](https://www.skiddle.com/whats-on/Edinburgh/La-Belle-Angele/Samedia-Shebeen-Tropical-Soundclash/35979180/)
+[<img src="/news/club-guide/05-samedia.jpg" alt="Samedia Shebeen’s Tropical Soundclash @ La Belle Angele" width="100%" />](https://www.skiddle.com/whats-on/Edinburgh/La-Belle-Angele/Samedia-Shebeen-Tropical-Soundclash/35979180/)
 
 </div><div class="col clubGuide">
 
@@ -187,7 +187,7 @@ Edinburgh’s disco and afro-funk dons Samedia Shebeen bring the soundclash agai
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/05-soul.jpg" alt="Soul Jam: Tuesday Gonzalez & Percy Main @ Sneaky Pete’s" width="85%" />](https://ra.co/events/1503025)
+[<img src="/news/club-guide/05-soul.jpg" alt="Soul Jam: Tuesday Gonzalez & Percy Main @ Sneaky Pete’s" width="100%" />](https://ra.co/events/1503025)
 
 </div><div class="col clubGuide">
 
@@ -203,7 +203,7 @@ Soul Jam ressies Tuesday Gonzalez and Percy Main tackle their night by themselve
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/05-postal.jpg" alt="Postal: Jacques Greene @ Sneaky Pete’s" width="85%" />](https://ra.co/events/1501927)
+[<img src="/news/club-guide/05-postal.jpg" alt="Postal: Jacques Greene @ Sneaky Pete’s" width="100%" />](https://ra.co/events/1501927)
 
 </div><div class="col clubGuide">
 

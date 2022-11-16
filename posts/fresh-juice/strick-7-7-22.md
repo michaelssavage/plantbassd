@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here: [Headbutt | Strick](https://eventhestrong.bandcamp.com/album/headbutt)
 
-<img src="/fresh-juice/42-strick.jpg" alt="Headbutt album art" width="75%" />
+<img src="/fresh-juice/42-strick.jpg" alt="Headbutt album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -24,13 +24,13 @@ Canadian born & bred, Strick has culminated a jittery drum-focused club sound ov
 
 Strick’s ‘Headbutt’ EP came to fruition after a move back to his home in rural Ontario some two years ago. Working on his family’s vineyard, Strick used his free time to stay connected with the scene by making an abundance of club-focused productions which also served as a form of personal energetic release during the frustrating periods of COVID-19.
 
-<img src="/fresh-juice/42-headbutt.jpg" alt="Strick cover pic" width="75%" />
+<img src="/fresh-juice/42-headbutt.jpg" alt="Strick cover pic" width="100%" />
 
 The release is described by the folk at Even The Strong as ‘OG hard-drum’, and with it comes 4 tracks of rolling, hypnotic percussive groove all designed for bodily moves. Opening title-track ‘Headbutt’ is initially masked as a funky house rhythm before steadily dwindling into an onslaught of resuscitating bass and drilling kicks. By the time it reaches its midway, it is a fully blown tribal mover that blends between the two opposing rhythms with ease.
 
 ‘Carny Energy’ wastes no time in distinguishing its sound and pattern. A straight up hard-drum teeth gritter that creates a desirable tension with its background alarm sounds alongside further creaks and groans.
 
-<img src="/fresh-juice/42-ets.jpg" alt="Event The Strong pic" width="75%" />
+<img src="/fresh-juice/42-ets.jpg" alt="Event The Strong pic" width="100%" />
 
 Strick’s alluring raw body sound continues on ‘Propane’ which shakes to the core with its commanding kicks and finely balanced jitters, evoking a primal energy throughout.
 

@@ -12,7 +12,7 @@ path: "fresh-juice"
 
 ### Next up under the Plant Bass’d microscope is a riveting compilation from Australian label, Third Degree Records.
 
-<img src="/fresh-juice/09_hazmat-album-art.jpg" alt="third degree hazmat album art" width="75%" />
+<img src="/fresh-juice/09_hazmat-album-art.jpg" alt="third degree hazmat album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -26,7 +26,7 @@ Opening track ‘Sunblush’ from Sterlo dilutes cloudy melodies with a choppy b
 
 CRUSH MOOD TRAX delivers a punching funky sound on ‘Butler Ave’ with a melodic dancehall undertone that echoes throughout. It is greatly reminiscent of a Livity Sound production. It is then the turn of label queen bee Nora Zion. ‘They Don’t Know’ thrusts a silent footwork killer at us which quakes further at each turn.
 
-<img src="/fresh-juice/09_third-degree-sign.png" alt="third degree hazmat triangular sign" width="75%" />
+<img src="/fresh-juice/09_third-degree-sign.png" alt="third degree hazmat triangular sign" width="100%" />
 
 By the time you’ve arrived at the fifth track, it becomes very clear that each delivery is going to throw you in a different direction. ‘FEEL U’ does not even try to hide it’s impending devastation with R15+ sending out a weather warning right from the get go with its shuffling breaks and basslines. In keeping with this change in bass direction, Glasgow’s Casement loudly introduces himself on ‘Cloudstepper’, flirting with UKG, bass and dubstep in a dark and stormy fashion.
 

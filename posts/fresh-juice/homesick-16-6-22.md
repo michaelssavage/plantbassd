@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here: [HomeSick | Bolt](https://homesick89.bandcamp.com/album/bolt-ep)
 
-<img src="/fresh-juice/39-homesick.jpg" alt="bolt album art" width="75%" />
+<img src="/fresh-juice/39-homesick.jpg" alt="bolt album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -24,7 +24,7 @@ With the aim in mind to blur the boundaries between jungle, footwork, drum and b
 
 Whether or not you are aware of the production prowess of HomeSick before listening to Bolt will likely make no difference to how you will receive the sounds on the release. The opening title-track wastes no time in introducing the Canadian’s destructive sound pallet. ‘Bolt’ is an almost overwhelming bass-fused half time number that crosses between blitzing dubstep and trap rhythms. A bass-line powered by intensive voltage, HomeSick amasses a tasering thud leaving listeners bemused as to what the f\*ck is going on?! But in a really f\*cking good way.
 
-<img src="/fresh-juice/39-cover.jpg" alt="homesick cover pic" width="75%" />
+<img src="/fresh-juice/39-cover.jpg" alt="homesick cover pic" width="100%" />
 
 This wall of noise is followed up on the bass-tingling ‘Yes Track’. Less vicious with it’s kicks, but just as fierce with it’s low-end, HomeSick shows a hint of subtlety on this number that stays true to the sound with it’s moody deep-tone and energizing vocal samples.
 

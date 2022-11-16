@@ -10,12 +10,12 @@ bio: "Part of the Club Comfort trifecta, Selky lands with the first of a new edi
 path: "premieres"
 ---
 
+<img src="/premieres/12-selky.jpg" alt="Selky Cover Pic" width="100%" />
+
 Stream here: <a href="https://soundcloud.com/plantbassddjs/plant-bassd-premiere-selky-paradise-the-bumps-ep" rel="noopener noreferrer" target="_blank">Selky - Paradise</a>
 
 Part of the Club Comfort trifecta, Selky lands with the first of a new edits series with 'The Bumps'. 4 Baltimore club and breakbeat fusions of classic hits.
 
 ‘Paradise’ is a Baltimore/ breaks flip of the Phil Collins hit ‘Another Day’, and it’s a proper festival and club sizzler.
-
-<img src="/premieres/12-selky.jpg" alt="Selky Cover Pic" width="75%" />
 
 Support the EP on Bandcamp 🌱 https://selky.bandcamp.com/album/the-bumps

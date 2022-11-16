@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here https://djhank.bandcamp.com/album/city-stars
 
-<img src="/fresh-juice/19-dj-hank.jpg" alt="DJ Hank album art" width="75%" />
+<img src="/fresh-juice/19-dj-hank.jpg" alt="DJ Hank album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -26,7 +26,7 @@ Over the last number of years Hank has developed a following for his ear-catchin
 
 Now landing on Hyperdub, the Windy City based artist has immersed himself in an ambient, RnB infused collection of footwork steppers. ‘Lift Gate’ opens up the City Stars release with hazy chimes that fall into colorful strings and quickfire drum patterns, drifting us into the creative mind of DJ HANK and his footwork prowess.
 
-<img src="/fresh-juice/19-hank.jpg" alt="DJ Hank cover pic" width="75%" />
+<img src="/fresh-juice/19-hank.jpg" alt="DJ Hank cover pic" width="100%" />
 
 Lead single ‘Stay’ serves up an engrossing vocal sample that unfolds over rumbling bass lines and a pacing footwork step, setting up an exquisite club friendly yet down to earth and humbling sound.
 

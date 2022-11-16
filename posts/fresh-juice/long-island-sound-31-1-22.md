@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here: https://thehammerhits.bandcamp.com/album/first-contact-ep
 
-<img src="/fresh-juice/12-long-island-sound-ep.jpg" alt="first contact album art" width="75%" />
+<img src="/fresh-juice/12-long-island-sound-ep.jpg" alt="first contact album art" width="100%" />
 
 <p class="smallText"><i>Words & Design by Michael Savage</i></p>
 
@@ -30,6 +30,6 @@ _Aurora_ reminds us of that night. A smooth track of two parts, The first comman
 
 _Komorebi_ details a swaggering frenetic acid line and a relaxed ambient groove underneath. A standout favourite of ours coming in at 4.31 minutes, it is the shortest track but most impactful!
 
-<img src="/fresh-juice/12-sos-press-pic.jpg" alt="press pic of the two lads" width="75%" />
+<img src="/fresh-juice/12-sos-press-pic.jpg" alt="press pic of the two lads" width="100%" />
 
 First Contact by Long Island Sound is a stellar release out now that you can stream and purchase digitally from bandcamp. https://thehammerhits.bandcamp.com/album/first-contact-ep

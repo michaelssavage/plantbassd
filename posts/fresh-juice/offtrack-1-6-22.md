@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here: [OFK 001 | Offtrack](https://offtrack.bandcamp.com/releases)
 
-<img src="/fresh-juice/37-ofk.png" alt="ofk album art" width="75%" />
+<img src="/fresh-juice/37-ofk.png" alt="ofk album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -28,7 +28,7 @@ After a string of V/A offerings and remix workings on Digital Indecency, Fyun, a
 
 The beefed up ‘Low Cut’ follows with a kick-fuelled techno terror that fits seamlessly into it’s grey and industrial background feels.
 
-<img src="/fresh-juice/37-thomas.jpg" alt="Thomas cover pic" width="75%" />
+<img src="/fresh-juice/37-thomas.jpg" alt="Thomas cover pic" width="100%" />
 
 ‘Show No Emotion’ returns to the alluring trancing feel that was displayed on ‘Professor Hypnosis’. Constantly teasing as to when it may implode on itself, it manages to stay in balance and continues to intensify to its end as a real dark room thriller.
 

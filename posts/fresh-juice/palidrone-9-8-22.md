@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here: [Rattle | Various Artists | Palidrone](https://palidrone.bandcamp.com/album/rattle)
 
-<img src="/fresh-juice/46-palidrone.jpg" alt="rattle album art" width="75%" />
+<img src="/fresh-juice/46-palidrone.jpg" alt="rattle album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -24,7 +24,7 @@ Founded in 2017, Palidrone have remained a constant figure on the Edinburgh circ
 
 On speaking with Daniel Howe (aka Dansa) of Palidrone, the transition to record label has been viewed by the collective as ‘a natural extension’ of the parties they have been throwing and the sounds they have been pushing over the last 5 years.
 
-<img src="/fresh-juice/46-pali.jpg" alt="palidrone cover art" width="75%" />
+<img src="/fresh-juice/46-pali.jpg" alt="palidrone cover art" width="100%" />
 
 With ‘Rattle’ it feels as though they were destined to move their platform to a production standpoint with their debut release amassing 4 hybrid club tracks that whittle through drone techno, choppy bass and glitched out electro bytes.
 
@@ -34,7 +34,7 @@ Following up, Dansa shines on ‘Vow’ with his distinct ear for electro servin
 
 Already a prolific producer in his own right, J Wax continues to further cement his prowess in Scottish and UK dance circles on ‘Limes’. Minimalistic in its approach, the Tayport native drills out a masterful club rhythm with its clipping breakbeat pattern and atmospheric backdrops.
 
-<img src="/fresh-juice/46-jwax.png" alt="J Wax cover pic" width="75%" />
+<img src="/fresh-juice/46-jwax.png" alt="J Wax cover pic" width="100%" />
 
 (Pictured: J Wax)
 

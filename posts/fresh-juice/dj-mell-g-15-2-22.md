@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 (Listen & Buy the EP now here [PU$$Y GALORE | KARNAGE KILLS X DJ MELL G | JUICY GANG RECORDS (bandcamp.com)](https://juicygangrecords.bandcamp.com/album/pu-y-galore).
 
-<img src="/fresh-juice/13-front-pg.jpg" alt="pussy galore album art" width="75%" />
+<img src="/fresh-juice/13-front-pg.jpg" alt="pussy galore album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -24,7 +24,7 @@ Opening track ‘ON MY MIND’ instantly outlines the perfect combination that t
 
 The B-side arrives with a similarly doofing track in ‘GITM’, which holds more of an electro pounce alongside chippy hats and more domineering vocals from the impressive Karnage Kills. This paired with ‘ON MY MIND’ offers up two thumping club tracks primed for sweaty booths as the now Kiev-based MELL G shines once more as one of the most fruitful electro/ ghetto tech talents in Europe at the moment.
 
-<img src="/fresh-juice/13-back-pg.jpg" alt="back of pussy galore album art" width="75%" />
+<img src="/fresh-juice/13-back-pg.jpg" alt="back of pussy galore album art" width="100%" />
 
 ‘SUCK MY DICK’ closes out another Juicy Gang delight in the shape of a more house shelled production that brings the now evidently joyous charm of KARNAGE KILLS in with a strutting catwalk rhythm that screams bad manners.
 

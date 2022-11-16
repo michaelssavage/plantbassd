@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here: [WZY 2.5 | Woozy](https://woozydublin.bandcamp.com/)
 
-<img src="/fresh-juice/47-wzy2.5.jpg" alt="wzy 2.5 album art" width="75%" />
+<img src="/fresh-juice/47-wzy2.5.jpg" alt="wzy 2.5 album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -24,7 +24,7 @@ Founded and directed by well-respected selector and curator EMA of Skin & Bliste
 
 WZY 2.5 combines well drilled bass, DnB, jungle, and dub rolls from acts based across Europe, North America, and the imprints native Ireland featuring two debut productions from Ambit and Eich.
 
-<img src="/fresh-juice/47-woozy.jpg" alt="woozy cover pic" width="75%" />
+<img src="/fresh-juice/47-woozy.jpg" alt="woozy cover pic" width="100%" />
 
 2.5 opens up with Dublin’s Ambit as she marks a debut release with ‘Act Of Goodness’. A warpy dubstep chugger that reverberates with tightly screwed breaks and monstrous bass lines.
 
@@ -42,7 +42,7 @@ New Yorker Sobolik flips the switch once more on the driving breakbeat number th
 
 WDDS is given the honour of closing out WZY 2.5 with a steady jungle/ DnB fusion on ‘Slow Burner’. Starting off reserved and eerie, it is then followed by a tribal drum trail that lays the foundation for sharp, reappearing amen breaks and bass morphs. A true bass delight.
 
-<img src="/fresh-juice/47-ema.png" alt="EMA cover pic" width="75%" />
+<img src="/fresh-juice/47-ema.png" alt="EMA cover pic" width="100%" />
 <div class="text-center">(Pictured: Woozy label head EMA)</div>
 
 Still only in the morning of its existence, Woozy is creating some real depth on what is now its 3rd release in 2 years. EMA’s knack for combining the right artists at the right time on the imprint is no surprise given her already valued esteem as a curator and selector. These are truly intoxicating drum tracks with a healthy dose from the Irish reserve and some exciting contributions from further afield.

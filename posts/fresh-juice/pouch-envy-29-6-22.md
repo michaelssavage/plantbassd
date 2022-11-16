@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here: [LIFE SIMULATOR | POUCH ENVY](https://pouch-envy.bandcamp.com/album/life-simulator-ep)
 
-<img src="/fresh-juice/41-life-simulator.jpg" alt="Life simulator album art" width="75%" />
+<img src="/fresh-juice/41-life-simulator.jpg" alt="Life simulator album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -38,7 +38,7 @@ The EP’s Opening track ‘PARAGONE’ takes an enticing Baltimore inspired bre
 
 ‘2AM’ approaches in a more minimal space with elastic 808 fills before being surged by an anthemic bass and atmospheric vocals.
 
-<img src="/fresh-juice/41-envy.jpg" alt="Pouch envy cover pic" width="75%" />
+<img src="/fresh-juice/41-envy.jpg" alt="Pouch envy cover pic" width="100%" />
 
 Pintaric switches on the booty bass with the club energizer ‘BOUNCE’. Shaking between a booty and juke bounce, as well as tracing elements of electro, the track typifies the New York artist’s innate ability to deface singular genres.
 

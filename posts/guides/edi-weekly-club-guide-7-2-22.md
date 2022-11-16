@@ -15,7 +15,7 @@ Another stellar week of clubbing is in store in the capital with stimulating set
 ## MONDAY 7th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/03-headset.jpg" alt="Headset 7th Birthday: Batu, Yushh, Cando & Skillis @ Sneaky Pete’s" width="85%" />
+<img src="/news/club-guide/03-headset.jpg" alt="Headset 7th Birthday: Batu, Yushh, Cando & Skillis @ Sneaky Pete’s" width="100%" />
 </div><div class="col clubGuide">
 
 ### Headset 7th Birthday: Batu, Yushh, Cando & Skillis @ Sneaky Pete’s
@@ -29,7 +29,7 @@ Rescheduled from December, Headset celebrates it’s 7th birthday in style with 
 ## WEDNESDAY 9th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/06-plantbassd-heaters.jpg" alt="Plant Bass’d x Heaters: TAAHLIAH @ Sneaky Pete’s" width="85%" />
+<img src="/news/06-plantbassd-heaters.jpg" alt="Plant Bass’d x Heaters: TAAHLIAH @ Sneaky Pete’s" width="100%" />
 </div><div class="col clubGuide">
 
 ### Plant Bass’d x Heaters: TAAHLIAH @ Sneaky Pete’s
@@ -43,7 +43,7 @@ We return to Sneaky Pete’s this Wednesday for the start of a new collaboration
 ## THURSDAY 10th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/03-dusky.jpg" alt="Dusky All Night Long @ Sneaky Pete’s" width="85%" />
+<img src="/news/club-guide/03-dusky.jpg" alt="Dusky All Night Long @ Sneaky Pete’s" width="100%" />
 </div><div class="col clubGuide">
 
 ### Dusky All Night Long @ Sneaky Pete’s
@@ -58,7 +58,7 @@ more modern house, Dusky are set to take punters on a dance music journey this T
 ## FRIDAY 11th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/03-249.png" alt="249’s Queer Night for All @ Ooh Mami Leith" width="85%" />
+<img src="/news/club-guide/03-249.png" alt="249’s Queer Night for All @ Ooh Mami Leith" width="100%" />
 </div><div class="col clubGuide">
 
 ### 249’s Queer Night for All @ Ooh Mami Leith
@@ -72,7 +72,7 @@ more modern house, Dusky are set to take punters on a dance music journey this T
 ## FRIDAY 11th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/03-love-bomb.jpg" alt="Love Bomb!: An Evening with Grdn (Venue TBA On The Day)" width="85%" />
+<img src="/news/club-guide/03-love-bomb.jpg" alt="Love Bomb!: An Evening with Grdn (Venue TBA On The Day)" width="100%" />
 </div><div class="col clubGuide">
 
 ### Love Bomb!: An Evening with Grdn (Venue TBA On The Day)
@@ -84,7 +84,7 @@ Edinburgh’s transiting party starters GRDN are back with a lovedown from their
 ## FRIDAY 11th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/03-overground.jpg" alt="Rave Safe: A Harm Reduction Fundraiser from Overground @ Mash House" width="85%" />
+<img src="/news/club-guide/03-overground.jpg" alt="Rave Safe: A Harm Reduction Fundraiser from Overground @ Mash House" width="100%" />
 </div><div class="col clubGuide">
 
 ### Rave Safe: A Harm Reduction Fundraiser from Overground @ Mash House
@@ -98,7 +98,7 @@ Overground kick start their 2022 series with a fundraiser for the Harm Reduction
 ## FRIDAY 11th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/03-disco-makossa.jpg" alt="Disco Makossa w/ BUTHO the WARRIOR @ Bongo Club" width="85%" />
+<img src="/news/club-guide/03-disco-makossa.jpg" alt="Disco Makossa w/ BUTHO the WARRIOR @ Bongo Club" width="100%" />
 </div><div class="col clubGuide">
 
 ### Disco Makossa w/ BUTHO the WARRIOR @ Bongo Club
@@ -112,7 +112,7 @@ Samedia Shebeen’s carnival-esque party Disco Makossa is back at the Bongo with
 ## SATURDAY 12th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/03-moxie.jpg" alt="Moxie All Night Long @ Sneaky Pete’s" width="85%" />
+<img src="/news/club-guide/03-moxie.jpg" alt="Moxie All Night Long @ Sneaky Pete’s" width="100%" />
 </div><div class="col clubGuide">
 
 ### Moxie All Night Long @ Sneaky Pete’s
@@ -126,7 +126,7 @@ Moxie takes on Sneaky’s once more for a 4 hour set. NTS resident and long time
 ## SATURDAY 12th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/03-bob-marley.jpg" alt="Messenger Soundsystem: Bob Marley Birthday Special @ Bongo Club" width="85%" />
+<img src="/news/club-guide/03-bob-marley.jpg" alt="Messenger Soundsystem: Bob Marley Birthday Special @ Bongo Club" width="100%" />
 </div><div class="col clubGuide">
 
 ### Messenger Soundsystem: Bob Marley Birthday Special @ Bongo Club
@@ -140,7 +140,7 @@ The Messenger Soundsystem hosts a very special night, an ode to all things Bob M
 ## SATURDAY 12th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/03-mash-house.jpg" alt="Club Nacht: Brain Dancing & Kieran Apter @ Mash House" width="85%" />
+<img src="/news/club-guide/03-mash-house.jpg" alt="Club Nacht: Brain Dancing & Kieran Apter @ Mash House" width="100%" />
 </div><div class="col clubGuide">
 
 ### Club Nacht: Brain Dancing & Kieran Apter @ Mash House
@@ -154,7 +154,7 @@ Another opening show of the year, this time for Club Nacht as they welcome Brain
 ## SUNDAY 13th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/03-postal.jpg" alt="Postal: Franck b2b DV60 @ Sneaky Pete’s" width="85%" />
+<img src="/news/club-guide/03-postal.jpg" alt="Postal: Franck b2b DV60 @ Sneaky Pete’s" width="100%" />
 </div><div class="col clubGuide">
 
 ### Postal: Franck b2b DV60 @ Sneaky Pete’s
