@@ -1,8 +1,8 @@
 export const linkList = [
   {
-    title: "Trash Catalogue Pt. 1 by Rory Sweeney",
+    title: "Trash Catalogue Pt.1 by Rory Sweeney",
     link: "https://www.plantbassd.com/fresh-juice/rory-sweeney-15-11-22",
-    icon: "fresh juice",
+    icon: "premiere",
   },
   {
     title: "Rory Sweeney feat. Curtisy 'Veggies'",
