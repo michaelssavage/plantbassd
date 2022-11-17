@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here https://hheir.bandcamp.com/album/preliminal-ep
 
-<img src="/fresh-juice/20-preliminal.jpg" alt="preliminal album art" width="75%" />
+<img src="/fresh-juice/20-preliminal.jpg" alt="preliminal album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -25,7 +25,7 @@ Hoping to amass a sound that captured the distant atmosphere of clubs at the tim
 
 ‘001’ channels an earthy tone that is met with growing bass lines and hard kicks. Consistent hats and claps allow the track to maintain its rhythm as the melody develops and takes flight into a soaring procession of euphoric, slow-fading keys.
 
-<img src="/fresh-juice/20-hheir.jpg" alt="hheir cover pic" width="75%" />
+<img src="/fresh-juice/20-hheir.jpg" alt="hheir cover pic" width="100%" />
 
 After we received an early demo of ‘Hang My Hat’, it’s striking percussion and chord progression was instantly evident. Drum patterns that weave between UK funky and more steady tribal kicks set the tone as the domineering synth-line deftly takes over.
 

@@ -16,7 +16,7 @@ Rolling into March, Edinburgh undergoes another packed scheduled in clubland wit
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/06-haptic.jpg" alt="Heaters x Haptic: Desert Sound Colony @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1500804)
+[<img src="/news/club-guide/06-haptic.jpg" alt="Heaters x Haptic: Desert Sound Colony @ Sneaky Pete’s" width="100%"/>](https://ra.co/events/1500804)
 
 </div><div class="col clubGuide">
 
@@ -32,7 +32,7 @@ Haptic continue their exciting residency with Heaters with the man behind the Ho
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/06-volens.jpg" alt="Volens Chorus present WBBR & Kakano @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1504090)
+[<img src="/news/club-guide/06-volens.jpg" alt="Volens Chorus present WBBR & Kakano @ Sneaky Pete’s" width="100%"/>](https://ra.co/events/1504090)
 
 </div><div class="col clubGuide">
 
@@ -48,7 +48,7 @@ The monthly nutters Volens Chorus party returns for March with a riot of footwor
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/06-ssl.jpg" alt="SSL XL presents DNB/170 Special @ Bongo Club" width="85%"/>](https://ra.co/events/1503536)
+[<img src="/news/club-guide/06-ssl.jpg" alt="SSL XL presents DNB/170 Special @ Bongo Club" width="100%"/>](https://ra.co/events/1503536)
 
 </div><div class="col clubGuide">
 
@@ -64,7 +64,7 @@ The ferocious SSL XL initiates a DnB/ 170 special this Friday with an ever stack
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/06-world.jpg" alt="Miss World: Jossy Mitsu @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1501798)
+[<img src="/news/club-guide/06-world.jpg" alt="Miss World: Jossy Mitsu @ Sneaky Pete’s" width="100%"/>](https://ra.co/events/1501798)
 
 </div><div class="col clubGuide">
 
@@ -80,7 +80,7 @@ The monthly Miss World party continues to pull out some of the best bookings in 
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/06-mutiny.jpg" alt="Mutiny @ Mash House" width="85%"/>](https://ra.co/events/1494626)
+[<img src="/news/club-guide/06-mutiny.jpg" alt="Mutiny @ Mash House" width="100%"/>](https://ra.co/events/1494626)
 
 </div><div class="col clubGuide">
 
@@ -96,7 +96,7 @@ Mutiny returns to the capital with an onslaught of amen breaks and ruthless jung
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/06-samedia.jpg" alt="Samedia Shebeen with Lua Prea @ Mash House" width="85%"/>](https://www.skiddle.com/e/36013109)
+[<img src="/news/club-guide/06-samedia.jpg" alt="Samedia Shebeen with Lua Prea @ Mash House" width="100%"/>](https://www.skiddle.com/e/36013109)
 
 </div><div class="col clubGuide">
 
@@ -112,7 +112,7 @@ The constant capital groovers Samedia Shebeen are back at Mash this Saturday wit
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/06-palidrone.jpg" alt="Palidrone x Schematic @ Sneaky Pete’s" width="85%"/>](https://ra.co/events/1503834)
+[<img src="/news/club-guide/06-palidrone.jpg" alt="Palidrone x Schematic @ Sneaky Pete’s" width="100%"/>](https://ra.co/events/1503834)
 
 </div><div class="col clubGuide">
 
@@ -128,7 +128,7 @@ Palidrone’s first Sneaky’s appearance of the year sees them team up with Gla
 
 <div class="row"><div class="col clubGuide">
 
-[<img src="/news/club-guide/06-hinkin.jpg" alt="Hinkin & Drinkin @ Teviot Underground" width="85%"/>](https://ra.co/events/1499908)
+[<img src="/news/club-guide/06-hinkin.jpg" alt="Hinkin & Drinkin @ Teviot Underground" width="100%"/>](https://ra.co/events/1499908)
 
 </div><div class="col clubGuide">
 

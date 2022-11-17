@@ -15,7 +15,7 @@ path: "fresh-juice"
 Now in it’s 8th edition with the Raziel release, the imprint delivers 5 electro stunners from Alex Jann, Atix, Dexorcist, Sentient State and Weith.
 
 Buy/ Listen here: https://hilltowndiscouk.bandcamp.com/album/raziel
-<img src="/fresh-juice/18-raziel.jpg" alt="Raziel album art" width="75%" />
+<img src="/fresh-juice/18-raziel.jpg" alt="Raziel album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -27,7 +27,7 @@ Sentient State opens up the Hilltown Disco catalogue for 2022 with the compilati
 
 Hyper-charged Skee Mask-like kicks and pads enter on Weith’s ‘Inevitability’ as the funk of Model 5000 dissolves. Aggressive bass lines crash against whaling propeller noises as the flow turns deeper and darker at each bridge.
 
-<img src="/fresh-juice/18-hilltown-art.jpg" alt="Hilltown art" width="75%" />
+<img src="/fresh-juice/18-hilltown-art.jpg" alt="Hilltown art" width="100%" />
 
 The impressive Alex Jann offers up squidging acidic synth lines over a block-rockin’ 808 beat on lead single ‘Solaris Flare’. An ever-sharpening sound with chasing bass lines and neatly programmed bleeps that constantly try to one up each other throughout this rumbling collision of sounds.
 

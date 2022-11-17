@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here: [Luv 2 Luv U // Do It Right by Burnout](https://burnoutdub.bandcamp.com/album/luv-2-luv-u-do-it-right)
 
-<img src="/fresh-juice/45-bnout.jpg" alt="burnout album art" width="75%" />
+<img src="/fresh-juice/45-bnout.jpg" alt="burnout album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -28,7 +28,7 @@ Burnout shines on this club friendly two tracker amassing tightly screwed break 
 
 Luv 2 Luv U grooves on a souped up breakbeat that is met with timely deep lying kicks. The sensual vocals of the Destiny’s Child classic ‘Naughty Girl’ linger in the background fittingly alongside the Dub’s menacing break patterns. A track that wouldn’t go a miss on the likes of Club Glow.
 
-<img src="/fresh-juice/45-luv.jpg" alt="burnout cover pic" width="75%" />
+<img src="/fresh-juice/45-luv.jpg" alt="burnout cover pic" width="100%" />
 
 ‘Do It Right' spins up a similarly nostalgic hit with Far East Movement’s ‘Like a G6’ getting the Burnout treatment. A deep ridged atmospheric build up is once again met with titanic breaks and cutting bass lines that are poised to rattle the dark rooms and basements.
 

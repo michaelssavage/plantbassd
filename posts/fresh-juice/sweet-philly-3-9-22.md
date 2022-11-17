@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here: [For Sure | Sweet Philly](https://sweetphilly.bandcamp.com/album/for-sure)
 
-<img src="/fresh-juice/48-art.jpg" alt="For sure album art" width="75%" />
+<img src="/fresh-juice/48-art.jpg" alt="For sure album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -24,7 +24,7 @@ Since making the move to Scotland a year ago, Philly has not taken long to make 
 
 ‘For Sure’ arrives as the first release since Philly’s triumphant ‘Euphore’ (co-released with darkmavis) in 2021, and earmarks a slight shift in direction from their past jersey club and trance inspired hits.
 
-<img src="/fresh-juice/48-sweet-philly.jpg" alt="Sweet Philly cover pic" width="75%" />
+<img src="/fresh-juice/48-sweet-philly.jpg" alt="Sweet Philly cover pic" width="100%" />
 
 ‘For Sure’ takes an alluring bassline wobble that junctures with a pasty pumping house rhythm. Elements of jackin’ house and ballroom lilt the background and amount together in a feverish club friendly fashion.
 

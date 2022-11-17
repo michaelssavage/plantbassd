@@ -23,4 +23,4 @@ Hate defying and freedom inspiring hard trax all night long!
 
 @_steven_dale_ on graphics & visuals!
 
-<img src="/news/06-ytp.jpg" alt="YTP press pic" width="75%" />
+<img src="/news/06-ytp.jpg" alt="YTP press pic" width="100%" />

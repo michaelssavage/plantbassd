@@ -1,5 +1,6 @@
 ---
 title: "XX"
+name: "XX"
 date: "XX, 2022"
 pic: "/news/XX.jpg"
 tickets: "XX"

@@ -16,7 +16,7 @@ path: "fresh-juice"
 
 Buy/ stream here https://urbanstghetto.bandcamp.com/album/dancetrumentals
 
-<img src="/fresh-juice/24-Snarexx.jpg" alt="Dancetrumentals album art" width="75%" />
+<img src="/fresh-juice/24-Snarexx.jpg" alt="Dancetrumentals album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -28,7 +28,7 @@ The EP begins its installation with ‘City 313’, a minimalistic effort that p
 
 On the follow-up, ‘Thunderclaps’ packs a ghetto punch with break lines that would make DJ Assault smile wryly. Stormy bass backgrounds and synth runners add to the allure of the track which exudes a perfectly crafted combination of dark electro and ghetto tech.
 
-<img src="/fresh-juice/24-yp.jpg" alt="УРБАН / URBAN cover pic" width="75%" />
+<img src="/fresh-juice/24-yp.jpg" alt="УРБАН / URBAN cover pic" width="100%" />
 
 ‘G-Motion’ stays fly on the phonk on this joyful booty house effort as high-pressing synths ride smoothly over the snappy 4x4 rhythm. A track that would light up any set, a real cracker from Snarexx here.
 

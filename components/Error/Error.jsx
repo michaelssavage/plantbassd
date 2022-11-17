@@ -10,11 +10,7 @@ export default function Error({ error }) {
 
         <div className="d-flex flex-row gap-2">
           <div className="globalBottomBtn">
-            <button
-              className="btn btn-outline-dark btn-lg"
-              onClick={() => window.location.reload()}
-              type="button"
-            >
+            <button className="btn btn-outline-dark" onClick={() => window.location.reload()} type="button">
               Try Again
             </button>
           </div>

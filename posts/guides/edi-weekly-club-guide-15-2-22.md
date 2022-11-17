@@ -15,7 +15,7 @@ Another fruitful week of clubbing is in store on Valentine’s week in the capit
 ## TUESDAY 15th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/04-midnight-bass.jpg" alt="Midnight Bass Grime Special @ the Bongo Club" width="85%">
+<img src="/news/club-guide/04-midnight-bass.jpg" alt="Midnight Bass Grime Special @ the Bongo Club" width="100%">
 </div><div class="col clubGuide">
 
 ### Midnight Bass Grime Special @ the Bongo Club
@@ -29,7 +29,7 @@ Midnight Bass brings forth it’s second party of the week in the capital on Tue
 ## WEDNESDAY 16th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/04-heavy-flow.jpg" alt="Heavy Flow: The Return @ the Mash House" width="85%">
+<img src="/news/club-guide/04-heavy-flow.jpg" alt="Heavy Flow: The Return @ the Mash House" width="100%">
 </div><div class="col clubGuide">
 
 ### Heavy Flow: The Return @ the Mash House
@@ -44,7 +44,7 @@ A club night making a real difference with its inclusivity, and with 100% of pro
 ## WEDNESDAY 16th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/04-heaters.jpg" alt="Heaters x hypnotikk: Ahadadream @ Sneaky Pete’s" width="85%">
+<img src="/news/club-guide/04-heaters.jpg" alt="Heaters x hypnotikk: Ahadadream @ Sneaky Pete’s" width="100%">
 
 </div><div class="col clubGuide">
 
@@ -59,7 +59,7 @@ New heaters ressies hypnotikk arrive on the scene with a promising booking in Ah
 ## THURSDAY 17th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/04-dr-banana.jpg" alt="Dr Banana presents @ Sneaky Pete’s" width="85%">
+<img src="/news/club-guide/04-dr-banana.jpg" alt="Dr Banana presents @ Sneaky Pete’s" width="100%">
 </div><div class="col clubGuide">
 
 ### Dr Banana presents @ Sneaky Pete’s
@@ -73,7 +73,7 @@ Signal welcomes Dr Banana on his tour to Sneaky’s for a two step showdown with
 ## FRIDAY 18th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/04-palidrone.jpg" alt="Palidrone 4th Birthday: Parris, Lewis-Lowe b2b Feena, Saint Sunday @ the Mash House" width="85%">
+<img src="/news/club-guide/04-palidrone.jpg" alt="Palidrone 4th Birthday: Parris, Lewis-Lowe b2b Feena, Saint Sunday @ the Mash House" width="100%">
 
 </div><div class="col clubGuide">
 
@@ -89,7 +89,7 @@ Support from Lewis Lowe, Feena, Saint Sunday, and the Palidrone crew only adds t
 ## FRIDAY 18th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/04-aurora.jpg" alt="603 presents: Aurora @ the Liquid Rooms" width="85%">
+<img src="/news/club-guide/04-aurora.jpg" alt="603 presents: Aurora @ the Liquid Rooms" width="100%">
 </div><div class="col clubGuide">
 
 ### 603 presents: Aurora @ the Liquid Rooms
@@ -103,7 +103,7 @@ Support from Lewis Lowe, Feena, Saint Sunday, and the Palidrone crew only adds t
 ## FRIDAY 18th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/04-athens.jpg" alt="Athens of the North Disco Club with Sam & Fryer @ Sneaky Pete’s" width="85%">
+<img src="/news/club-guide/04-athens.jpg" alt="Athens of the North Disco Club with Sam & Fryer @ Sneaky Pete’s" width="100%">
 </div><div class="col clubGuide">
 
 ### Athens of the North Disco Club with Sam & Fryer @ Sneaky Pete’s
@@ -117,7 +117,7 @@ Funk fuellers AOTN return to the city with Sam Don (Free Association & Netil Rad
 ## SATURDAY 19th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/04-prosumer.jpg" alt="Prosumer presents Heyday with Joe Delon @ Sneaky Pete’s" width="85%">
+<img src="/news/club-guide/04-prosumer.jpg" alt="Prosumer presents Heyday with Joe Delon @ Sneaky Pete’s" width="100%">
 </div><div class="col clubGuide">
 
 ### Prosumer presents Heyday with Joe Delon @ Sneaky Pete’s
@@ -131,7 +131,7 @@ Prosumer’s Heyday returns with Joe Delon for the queer party that buoys betwee
 ## SATURDAY 19th February
 
 <div class="row"><div class="col clubGuide">
-<img src="/news/club-guide/04-shampain.jpg" alt="Tais-Toi presents: Shampain @ the Mash House" width="85%">
+<img src="/news/club-guide/04-shampain.jpg" alt="Tais-Toi presents: Shampain @ the Mash House" width="100%">
 </div><div class="col clubGuide">
 
 ### Tais-Toi presents: Shampain @ the Mash House

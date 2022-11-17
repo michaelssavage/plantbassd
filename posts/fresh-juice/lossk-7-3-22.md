@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ stream here https://hyperdomerecords.bandcamp.com/album/hyprecs-008-electrophile
 
-<img src="/fresh-juice/22-lossk.png" alt="Lossk album art" width="75%" />
+<img src="/fresh-juice/22-lossk.png" alt="Lossk album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 <hr/>
@@ -25,7 +25,7 @@ Electrophile initializes with opening track ‘Ballistix’ which surges with at
 
 Stepping up the pace, ‘Ghetto Bird’ slaps up a swift 808 electro shuffle with more towering bass lines and synth trinkets. Mean cyborg samples and acidic shots add to this dark tempered roller.
 
-<img src="/fresh-juice/22-hyperdome.jpg" alt="Hyperdome art" width="75%" />
+<img src="/fresh-juice/22-hyperdome.jpg" alt="Hyperdome art" width="100%" />
 
 Squidgy kicks stomp on ‘Holicron Bop’ and are heaved forward by chasing bass belts and berzerk acid lines. A hyperactive electro racer that momentarily ceases fire before restoring its frantic energy.
 

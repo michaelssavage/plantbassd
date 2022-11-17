@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here: [Magic the Gabbering | Bitten Twice](https://bittentwicecollective.bandcamp.com/album/magic-the-gabbering)
 
-<img src="/fresh-juice/36-bitten-twice.png" alt="Magic the Gabbering album art" width="75%" />
+<img src="/fresh-juice/36-bitten-twice.png" alt="Magic the Gabbering album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -34,6 +34,6 @@ Fomorian Vein closes out with a more comforting dreamy background on ‘Kyteler 
 
 Alongside the many healthy scenes that are establishing themselves within Ireland’s vibrant music industry, Bitten Twice are leading the way for the hardcore culture and doing so in a way that is turning a lot of heads. Describing themselves as an ‘experimental rave collective dedicated to promoting strange sounds and unconventional rhythms’, this is merely a brief synopsis of the creative chaos that the trifecta are capable of offering up. Watch out for this lot, beit within Bitten Twice or their personal work, they are making some of the most explosive music in the country right now.
 
-<img src="/fresh-juice/36-bitten.jpg" alt="bitten twice 2 cover pic" width="75%" />
+<img src="/fresh-juice/36-bitten.jpg" alt="bitten twice 2 cover pic" width="100%" />
 
 Discover the extended Bitten Twice catalogue here: https://bittentwicecollective.bandcamp.com/

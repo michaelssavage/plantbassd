@@ -16,7 +16,7 @@ As the Irish festival came to an unfortunate end after last weekend, it did so i
 
 Be it for the all-star cast of acts, the iconic stages, the beautiful surroundings, the chance to catch friends, or the lust for escapism, there was more than one reason to flock to the Co. Louth festival over the weekend. It is all these different factors combined that make the final destination on the festival calendar one of the most lured by seasoned goers and newcomers alike.
 
-<img src="/news/23-tent.jpg" alt="Tents" width="75%" />
+<img src="/news/23-tent.jpg" alt="Tents" width="100%" />
 <div class="text-center">(Pictured: Fuinneamh Campsite)</div>
 
 ---
@@ -27,19 +27,19 @@ Running as a short but sweet two dayer rather than the typical 3-5 day slogging 
 
 It was clear upon descending on the campsite that the festival would be a close-knit affair with the majority of the site’s amenities being held within the perimeter of the camp. There was a comforting feeling that the festival was catering to you upon arrival. Food vendors, yoga & art installations, firepits, and the stages all stood near your side. After a quick tent pitch and a brisk can, it was time to get straight into it!
 
-<img src="/news/23-ufo.jpg" alt="UFO Art Installation" width="75%" />
+<img src="/news/23-ufo.jpg" alt="UFO Art Installation" width="100%" />
 
 Being met by the Ogham Alignment, Dark Matter and Cosmic Background stages right within the campsite, it was only natural to venture to these first. From here it was sets from the likes of Rowdiboi, Corralo, Rustal and Cailín that helped to bend the opening evening into shape. As night fell, the allure of the Keep Her Lit and Temple stages took hold with a mouth-watering schedule billed with DJ Assault, DJ Mell G, Hector Oaks, Sunil Sharpe & more all surfacing.
 
 It was action from more local heroes that captured the evening’s imagination however. R. Kitt’s rolling hard house set around 9pm on the KHL really set the fire in the belly and gave the eager Saturday evening crowd a stiff workout. Moving around the stages from here, there were some uplifting and proper ‘taps aff’ performances from the likes of Taint and IMNOTYOURMATE on the techno fuelled Temple Stage hosted by Dublin’s Research crew.
 
-<img src="/news/23-paint.jpg" alt="Body paintings Art Installation" width="75%" />
+<img src="/news/23-paint.jpg" alt="Body paintings Art Installation" width="100%" />
 
 One of the great fears at any festival is the conflicting matter of the ‘clash’. The kick in the stomach once stage times are revealed and your two favourite acts are playing at the same time, on stages seemingly kilometers apart. That fearful blow of colliding acts is subdued greatly at Fuinneamh due to the festival’s convenient size. With no stage being more than a 5 minute walk from each other, it allowed revelers to drift in and out of the Saturday night highlights.
 
 One of the evening (and weekend) standout sets came from Irish electro hero DeFeKt who inspired with a hard hitting live set venturing through his well respected flagship discography. Electro & ghetto tech took hold of the Keep Her Lit stage into the small hours of Saturday night with both DJ MELL G and the legendary DJ Assault whipping up iconic Detroit and European sounds. Over at the Temple it was Sunil Sharpe and Hector Oaks who took control of the night’s final hours combining for an iconic back to back all wax closer that would stand long in the memory for any techno lover.
 
-<img src="/news/23-stage.jpg" alt="Stage at night" width="75%" />
+<img src="/news/23-stage.jpg" alt="Stage at night" width="100%" />
 
 There was further magic taking place within the campsite stage areas with festival founder Lucas taking the early morning warriors through a cosmic journey of sounds on the breathtaking Ogham Alignment stage. Tucked away in the corners of the campsite were the psy-trance fuelled Cosmic Background, the jungle & drum ‘n’ bass kicking Dark Matter stage, as well as the wholesome wellness area and Lotus Tribe bandstand that combined live music, fire pits, yoga and performers helping to serve as a comforting cool down from the wild heat of the dance areas throughout the night and weekend.
 
@@ -53,7 +53,7 @@ After grabbing back our bearings and getting some well needed nourishment in (ye
 
 It was around 4pm when the action really started to gain momentum once more with Offtrack’s hypnotic techno cuts at the Temple, as well as one of the stand out sets (if not the stand out) of the weekend coming from EMA and Jio who combined to stir punters back into a frenzy with buzzing bass and funky rhythms. A samba dance version of ‘If You’re Happy and You Know It’ tickled the crowd particularly and closing out a set with Overmono’s ‘Le Tigre’ will just never be a bad idea. Well in EMA and Jio, well in.
 
-<img src="/news/23-tree.jpg" alt="Campsite at night" width="75%" />
+<img src="/news/23-tree.jpg" alt="Campsite at night" width="100%" />
 
 Long Island Sound followed proceedings on the KHL with their typical dreamy breakbeat patterns, which soothed the crowd out once more before the final night chaos really began to unfold.
 
@@ -63,7 +63,7 @@ It was only natural to head back in for the dance on the final night with anothe
 
 Listed as one of the stand-out pairings of the festival, Tommy Holohan’s combo punch with the Netherland’s Stranger pushed through some rougher techno and breaks cuts to a packed out Temple. A particular remix of Dizzee Rascal’s ‘Stand Up Tall’ really pushed the mood to another height. All the way throughout, a St. Brigid’s cross glued to a stick and wrapped in fairy lights hovered above from the crowd almost poetically. If you were at Fuinneamh at all during the weekend you surely saw it waving through the sky in all its glory at one stage or another! More homage to St. Brigid at festivals from now please.
 
-<img src="/news/23-bike.jpg" alt="painting of bike" width="75%" />
+<img src="/news/23-bike.jpg" alt="painting of bike" width="100%" />
 <div class="text-center">(Fuinneamh really comes alive at night)</div>
 
 Back at the KHL and it was the incredible Peach and Midland that took up the two closing slots. Peach’s dreamy house touches oozed the crowd out before a thundering close to the iconic stage from Midland. Ripping through bombs like Prozak’s ‘Ruff Dub’ and closing with SOPHIE’s mesmeric ‘Nothing More To Say’ and Utah Saints driving ‘Something Good’ had smiles glued to people’s faces as the famous wooden structure came to a close all spun up exquisitely by the Londoner.

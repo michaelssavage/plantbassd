@@ -18,7 +18,7 @@ The festival has evolved over time, accommodating a larger crowd over the past y
 
 Noteworthy to us was the incredible sound systems with each stage having great designs and attentive engineers mixing live. Much thought was put into the best possible listening experience. The main stage in particular had a natural enclosed space by the trees creating a perfect soundscape.
 
-<img src="/news/17-killyon-manor.jpg" alt="Killyon Manor" width="75%" />
+<img src="/news/17-killyon-manor.jpg" alt="Killyon Manor" width="100%" />
 <div class="text-center">(Pictured: Killyon Manor)</div>
 
 ---

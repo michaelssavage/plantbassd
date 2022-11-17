@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 (Buy/ Listen here) [viikatory-based-on-your-listening-history](https://raiders.bandcamp.com/album/viikatory-based-on-your-listening-history)
 
-<img src="/fresh-juice/29_Viikatory.png" alt="BOYLH album art" width="75%" />
+<img src="/fresh-juice/29_Viikatory.png" alt="BOYLH album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -26,7 +26,7 @@ Opening track ‘Lesson 1’ exudes an outer space energy from the get go with i
 
 Title track ‘Based On Your Listening History’ brings in Raiders co-founder and Berliner ‘jpeg.love’ for a booty bass floor-filler. A sensual affair that demands all butts to be shaken, Viikatory and jpeg.love collide their respective electro and ghetto styles managing to meet somewhere in the middle. It’s cheeky, hot, raunchy, and boy does it go hard!
 
-<img src="/fresh-juice/29_cover.png" alt="Viikatory cover pic" width="75%" />
+<img src="/fresh-juice/29_cover.png" alt="Viikatory cover pic" width="100%" />
 
 Armoured with heavy use of the 808, ‘Assigned To Main Mix’ packs the tightest punch on the EP with its storming basslines and cheeky vocal samples. An overall dark electro smash hit that paces at Autobahn speed alongside some old school trinkets.
 

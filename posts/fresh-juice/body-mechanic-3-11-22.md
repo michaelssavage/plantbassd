@@ -1,5 +1,6 @@
 ---
 title: "FRESH JUICE: High Octane by Body Mechanic (Philthtrax)"
+name: fresh juice high octane body mechanic philthtrax
 date: "November 3, 2022"
 tags: "fresh juice"
 pic: "/fresh-juice/49-body-mechanic.jpg"
@@ -14,7 +15,7 @@ artist: "Juno"
 
 Order here: [High Octane | Body Mechanic](https://bit.ly/3rR0X0O)
 
-<img src="/fresh-juice/49-high-octane.jpg" alt="High Octane album art" width="75%" />
+<img src="/fresh-juice/49-high-octane.jpg" alt="High Octane album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -24,7 +25,7 @@ Order here: [High Octane | Body Mechanic](https://bit.ly/3rR0X0O)
 
 A2 ‘Interplay’ arrives smoothly with a booty tooting drum pattern and further organ funk that locks the sound on that irrepressible mid 80’s-90’s sound. A well pressed electro cut up.
 
-<img src="/fresh-juice/49-bm.jpg" alt="Body Mechanic cover pic" width="75%" />
+<img src="/fresh-juice/49-bm.jpg" alt="Body Mechanic cover pic" width="100%" />
 <p class="smallText"><i>(Pictured: Body Mechanic)</i></p>
 
 Having played as a consistent figure within US electro, techno, and hip hop since the 80’s working with acts like Kurtis Blow, DJ Dee, as well as being held in the same light as Detroit spearheads like DJ Assault and Dr. De, the Body Mechanic has carved out a distinct ability to roll through the many dimensions of his hometown sound.

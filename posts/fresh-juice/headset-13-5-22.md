@@ -16,7 +16,7 @@ path: "fresh-juice"
 
 (Buy/ Stream here) https://headset-scotland.bandcamp.com/album/headset001
 
-<img src="/fresh-juice/33-cover.jpg" alt="headset album art" width="75%" />
+<img src="/fresh-juice/33-cover.jpg" alt="headset album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -28,7 +28,7 @@ The notion of Headset as a label has been in the works since its roots as a part
 
 A craftsman of the darker themes of electronic music, Creep Woland’s sound could be described as a more gothic take on breakbeats, dubstep, and jungle, that in many cases make reference to the overcast feel that his home of Glasgow can sometimes exude.
 
-<img src="/fresh-juice/33-woland.png" alt="creep woland cover pic" width="75%" />
+<img src="/fresh-juice/33-woland.png" alt="creep woland cover pic" width="100%" />
 
 More often than not Woland has produced self-released workings with the notable Close Reading LP, and Chamberlain & DIESEL-BLUEZ EP’s all falling under his own banner.
 
@@ -38,7 +38,7 @@ HEADSET001 marks a slight shift in sound direction, with the EP uncovering a mor
 
 Fellow Scotsman Usurp enters on ‘Healing Able 713’, combining with Woland to create a more stubborn and pitched breakbeat foundation with a garage feel. Further uplifting synth works help to relax the energy against the resurfacing dubstep influenced bassline.
 
-<img src="/fresh-juice/33-title.png" alt="headset title cover pic" width="75%" />
+<img src="/fresh-juice/33-title.png" alt="headset title cover pic" width="100%" />
 
 On to the B-Side, ‘Luca Benzito’ continues Woland’s tread into garage waters. The piano work along with soundbwoy vocal samples and flailing police sirens merge into the breakdown meeting at the opposite side in 2 step shuffling fashion. A sound Headset knows all too well.
 

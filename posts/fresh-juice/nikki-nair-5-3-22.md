@@ -14,7 +14,7 @@ path: "fresh-juice"
 
 Buy/ Stream here https://cheekymusicgroup.bandcamp.com/album/breaks-n-pieces-vol-18
 
-<img src="/fresh-juice/21-nikki-art.jpg" alt="Breaks n pieces album art" width="75%" />
+<img src="/fresh-juice/21-nikki-art.jpg" alt="Breaks n pieces album art" width="100%" />
 
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
@@ -26,7 +26,7 @@ Opening track ‘Way of the Void’ paces itself to start, sharing trinkets of t
 
 ‘Pop Music’ follows with a more electro laden rhythm, armoured by pounding kicks and claps that lose sensibility during some of the breakdowns. Another soundsystem punisher as one could only expect from Nair.
 
-<img src="/fresh-juice/21-nikki-nair.jpg" alt="Nikki Nair cover pic" width="75%" />
+<img src="/fresh-juice/21-nikki-nair.jpg" alt="Nikki Nair cover pic" width="100%" />
 
 Flipping to the B-side, the Atlanta-based producer brings the cowbell and shuffle on ‘Unit’. The resurfacing bass line adds weight to the track as its drums and bleeps intensify. More cowbell please Nikki.
 
