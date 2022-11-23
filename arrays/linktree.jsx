@@ -1,8 +1,13 @@
 export const linkList = [
   {
+    title: "Verbal Groove by SMIFF",
+    link: "https://soundcloud.com/plantbassddjs/premiere-verbal-groove-by-smiff",
+    icon: "premiere",
+  },
+  {
     title: "Trash Catalogue Pt.1 by Rory Sweeney",
     link: "https://www.plantbassd.com/fresh-juice/rory-sweeney-15-11-22",
-    icon: "premiere",
+    icon: "fresh juice",
   },
   {
     title: "Rory Sweeney feat. Curtisy 'Veggies'",
