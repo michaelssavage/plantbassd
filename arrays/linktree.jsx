@@ -1,5 +1,10 @@
 export const linkList = [
   {
+    title: "Verbal Groove EP - SMIFF",
+    link: "https://www.plantbassd.com/fresh-juice/smiff-25-11-22",
+    icon: "fresh juice",
+  },
+  {
     title: "Verbal Groove by SMIFF",
     link: "https://soundcloud.com/plantbassddjs/premiere-verbal-groove-by-smiff",
     icon: "premiere",
