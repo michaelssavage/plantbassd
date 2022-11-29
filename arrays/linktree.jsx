@@ -1,5 +1,10 @@
 export const linkList = [
   {
+    title: "HEADSET002 - Capricorn One",
+    link: "https://www.plantbassd.com/fresh-juice/headset002-28-11-22",
+    icon: "fresh juice",
+  },
+  {
     title: "Verbal Groove EP - SMIFF",
     link: "https://www.plantbassd.com/fresh-juice/smiff-25-11-22",
     icon: "fresh juice",
