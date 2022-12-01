@@ -34,7 +34,7 @@ export default function Mixes() {
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Soundcloud
+                SoundCloud
               </a>
               .
             </p>

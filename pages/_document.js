@@ -19,16 +19,13 @@ class MyDocument extends Document {
 					throwing parties in between. 
 					A blog showcasing electronic music acts in Ireland and 
 					around the world through curated Spotify playlists, 
-					Soundcloud Mixes, and reviews of new releases."
+					SoundCloud Mixes, and reviews of new releases."
           />
           <link rel="manifest" href="/manifest.webmanifest" />
           <link rel="icon" href="/pb_favicon.ico" type="image/png" />
           <link rel="apple-touch-icon" href="icons/icon-192x192.png" />
           <meta property="og:type" content="website" />
-          <meta
-            property="og:title"
-            content="Plant Bass'd - Experimental dance music blog and party thrower"
-          />
+          <meta property="og:title" content="Plant Bass'd - Experimental dance music blog and party thrower" />
           <meta
             property="og:description"
             content="Profiling the experimental dance music world and
@@ -36,10 +33,7 @@ class MyDocument extends Document {
           />
           <meta property="og:site_name" content="Plant Bass'd" />
           <meta property="og:url" content="https://plantbassd.com" />
-          <meta
-            property="og:image"
-            content="https://plantbassd.com/icons/icon-192x192.png"
-          />
+          <meta property="og:image" content="https://plantbassd.com/icons/icon-192x192.png" />
         </Head>
         <body>
           <Main />

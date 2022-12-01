@@ -1,6 +1,6 @@
 ---
 title: "PREMIERE: Nineteen Ninety One by Michel Ange"
-name: "PLANT BASS’D PREMIERE Nineteen Ninety One Michel Ange"
+name: "PREMIERE Nineteen Ninety One Michel Ange"
 date: "October 29, 2022"
 tags: "premieres"
 pic: "/premieres/26-ange.png"

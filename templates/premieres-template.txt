@@ -12,8 +12,8 @@ path: "premieres"
 
 <img src="/premieres/XX.jpg" alt="XX" width="100%" />
 
-Stream here: <a href="XX" rel="noopener noreferrer" target="_blank">XX</a>
+Stream <a href="XX" rel="noopener noreferrer" target="_blank">XX</a> on SoundCloud
 
 XX
 
-Support XX here 🌱 []()
+Support <a href="XX" rel="noopener noreferrer" target="_blank">XX</a> on Bandcamp 🌱
