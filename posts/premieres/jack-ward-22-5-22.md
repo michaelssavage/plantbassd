@@ -1,6 +1,6 @@
 ---
-title: "PLANT BASS’D PREMIERE: ’Baby Gay Track’ by Jack Ward (A Gift From Me To You EP)"
-name: "PLANT BASS’D PREMIERE Baby Gay Track Jack Ward"
+title: "PREMIERE: ’Baby Gay Track’ by Jack Ward (A Gift From Me To You EP)"
+name: "PREMIERE Baby Gay Track Jack Ward"
 date: "May 22, 2022"
 tags: "premieres"
 pic: "/premieres/13-jack-ward-premiere.png"

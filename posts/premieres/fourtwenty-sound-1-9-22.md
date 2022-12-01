@@ -1,6 +1,6 @@
 ---
-title: "PLANT BASS’D PREMIERE: ‘LETS GET IT’ by Fourtwenty Sound"
-name: "PLANT BASS’D PREMIERE LETS GET IT Fourtwenty Sound"
+title: "PREMIERE: ‘LETS GET IT’ by Fourtwenty Sound"
+name: "PREMIERE LETS GET IT Fourtwenty Sound"
 date: "September 1, 2022"
 tags: "premieres"
 pic: "/premieres/21-fourtwenty.png"

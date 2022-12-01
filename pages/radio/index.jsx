@@ -33,7 +33,7 @@ export default function RadioPage({ radios }) {
         <h1 className={styles.pageHeader}>Plant Bass'd Mixes</h1>
 
         <p className={styles.pageText}>
-          Guest mixes from homegrown and international artists. Check them out on our Soundcloud.
+          Guest mixes from homegrown and international artists. Check them out on our SoundCloud.
         </p>
         <div className="row align-items-center">
           {/* SEARCH BOX */}
