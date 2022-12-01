@@ -1,5 +1,10 @@
 export const linkList = [
   {
+    title: "I Do My Own Stunts by Brawni",
+    link: "https://on.soundcloud.com/eTmNw",
+    icon: "premiere",
+  },
+  {
     title: "HEADSET002 - Capricorn One",
     link: "https://www.plantbassd.com/fresh-juice/headset002-28-11-22",
     icon: "fresh juice",
