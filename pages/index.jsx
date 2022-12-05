@@ -7,6 +7,7 @@ import News from "components/News";
 import PropTypes from "prop-types";
 import Radio from "components/Radio";
 import Banner from "components/Banner";
+import Premiere from "components/Premiere";
 import Takeover from "components/Takeover";
 import matter from "gray-matter";
 import fs from "fs";
@@ -22,12 +23,15 @@ export default function Home({ allPosts, takeovers, radios, freshjuice }) {
       <Banner />
       <News news={allPosts} />
       <FreshJuice freshjuice={freshjuice} />
-      <Mixes />
+
+      <Premiere />
 
       <div className="discoveryCards">
         <Takeover takeovers={takeovers} />
         <Radio radios={radios} />
       </div>
+
+      <Mixes />
 
       <Footer />
     </main>

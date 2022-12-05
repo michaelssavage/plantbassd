@@ -1,0 +1,30 @@
+@use "@/abstracts" as *;
+
+.content_bg {
+  background-image: url("../../public/various/background.png");
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.frontText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: hidden;
+  flex-wrap: wrap;
+  height: 50vh;
+  padding: 0 3.8rem;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.profileText {
+  margin: 0;
+}
