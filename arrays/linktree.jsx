@@ -1,5 +1,10 @@
 export const linkList = [
   {
+    title: "Prograsm by DJ Pacifier",
+    link: "https://on.soundcloud.com/Ga2ZK",
+    icon: "premiere",
+  },
+  {
     title: "Shroom Talk by Curtisy x owin",
     link: "https://on.soundcloud.com/RDnsU",
     icon: "premiere",
