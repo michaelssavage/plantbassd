@@ -3,19 +3,20 @@ title: "Top 10 Releases of 2021"
 name: "top 10 releases michael savage"
 date: "December 22, 2021"
 tags: "reviews"
-pic: "/top-ten-2021/michael.jpg"
-cover: "/top-ten-2021/michael.jpg"
+pic: "/top-picks/michael.jpg"
+cover: "/news/michael.jpg"
 bio: "Michael picks some feel-good house, breakbeats, and club music with some room for heavies along the way..."
 path: "top-ten-releases"
 header: "Michael Savage"
+insta: "https://www.instagram.com/michaelsaverage/"
 intro: "Lots of euphoric electronic sounds in Michael's top picks this year. He spent a lot of time with some feel-good house, breakbeats, and club music with some room for heavies along the way."
 ---
 
 ## 1. Shire T - Tomorrow’s People (Dama Dama Music)
 
-<div class="row">
+<div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/shire_t-tomorrows_people.jpg" alt="Shire T album cover art" width="100%" />
+<img src="/top-picks/michael/shire_t-tomorrows_people.jpg" alt="Shire T album cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -34,9 +35,9 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://n
 
 ## 2. Eris Drew - Quivering In Time (T4T LUV NRG)
 
-<div class="row">
+<div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/eris_drew-quivering_in_time.jpg" alt="Eris Drew EP cover art" width="100%" />
+<img src="/top-picks/michael/eris_drew-quivering_in_time.jpg" alt="Eris Drew EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -53,9 +54,9 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://e
 
 ## 3. Laurence Guy - Your Good Times Are Here (Shall Not Fade)
 
-<div class="row">
+<div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/laurence_guy-good_times.jpg" alt="Laurence Guy EP cover art" width="100%" />
+<img src="/top-picks/michael/laurence_guy-good_times.jpg" alt="Laurence Guy EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -74,9 +75,9 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://l
 
 ## 4. Lxury - Smart Digital Life (Lost Palms)
 
-<div class="row">
+<div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/lxury-smart_digital_life.jpg" alt="Lxury EP cover art" width="100%" />
+<img src="/top-picks/michael/lxury-smart_digital_life.jpg" alt="Lxury EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -91,9 +92,9 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://l
 
 ## 5. Blawan - Woke Up Right Handed (XL Recordings)
 
-<div class="row">
+<div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/blawan-woke_up_right_handed.jpg" alt="Blawan EP cover art" width="100%" />
+<img src="/top-picks/michael/blawan-woke_up_right_handed.jpg" alt="Blawan EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -110,9 +111,9 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://b
 
 ## 6. Roman Flugel - Cluttered Homes (Running Back)
 
-<div class="row">
+<div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/roman_flugel-cluttered_homes.jpg" alt="Roman Flugel track cover art" width="100%" />
+<img src="/top-picks/michael/roman_flugel-cluttered_homes.jpg" alt="Roman Flugel track cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -125,9 +126,9 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://r
 
 ## 7. George Fitzgerald - Ultraviolet (Double Six Records)
 
-<div class="row">
+<div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/george_fitzgerald-ultraviolet.png" alt="George Fitzgerald track cover art" width="100%" />
+<img src="/top-picks/michael/george_fitzgerald-ultraviolet.png" alt="George Fitzgerald track cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -142,9 +143,9 @@ Read, Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="htt
 
 ## 8. Model Man (Self-titled LP) - (Mahogany Records)
 
-<div class="row">
+<div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/model_men_lp.jpg" alt="Model Man LP cover art" width="100%" />
+<img src="/top-picks/michael/model_men_lp.jpg" alt="Model Man LP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -163,9 +164,9 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://m
 
 ## 9. India Jordan - Watch Out! (Ninja Tune)
 
-<div class="row">
+<div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/india_jordan-watch_out.jpg" alt="India Jordans EP cover art" width="100%" />
+<img src="/top-picks/michael/india_jordan-watch_out.jpg" alt="India Jordans EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -180,9 +181,9 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://i
 
 ## 10. Another Chemical Love Story (Self-titled & Self-released Album)
 
-<div class="row">
+<div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/another_chemical_love_story.jpg" alt="ACLS EP cover art" width="100%" />
+<img src="/top-picks/michael/another_chemical_love_story.jpg" alt="ACLS EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 

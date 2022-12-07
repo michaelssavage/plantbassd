@@ -5,7 +5,7 @@
 }
 
 .topTenContent {
-  padding: 5% 15% 2% 15%;
+  padding: 4% 12% 2% 12%;
 }
 
 .postTitle {
@@ -20,7 +20,7 @@
 
 @media (max-width: 768px) {
   .topTenContent {
-    padding: 15% 10% 2% 10%;
+    padding: 12% 8% 2% 8%;
   }
 }
 
@@ -29,5 +29,13 @@
   &:hover {
     color: $headerBlack;
     background-color: $spotify;
+  }
+}
+
+.instagram {
+  color: $instagram;
+  &:hover {
+    color: $headerBlack;
+    background-color: $instagram;
   }
 }

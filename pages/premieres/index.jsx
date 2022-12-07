@@ -32,7 +32,9 @@ export default function PremieresPage({ premieres }) {
       <div className="radioBG">
         <h1 className={styles.pageHeader}>Plant Bass'd Premieres</h1>
 
-        <p className={styles.pageText}>New track premieres from around the world. Check them out on our SoundCloud.</p>
+        <p className={styles.pageText}>
+          New track premieres from around the world. Listen to the {premieres.length} tunes on our SoundCloud.
+        </p>
         <div className="row align-items-center">
           <div className={`col-md-4 me-auto input-group ${styles.radioFilter}`}>
             <input

@@ -33,7 +33,9 @@ export default function GigsPage({ gigs }) {
       <div className="gigsBG">
         <h1 className={styles.pageHeader}>Plant Bass'd Gigs</h1>
 
-        <p className={styles.pageText}>Check out some of the shows we've put together in Ireland and the UK:</p>
+        <p className={styles.pageText}>
+          Check out some of the {newsStories.length} shows we've put together in Ireland and the UK:
+        </p>
 
         <FilterTags handleTags={handleTags} tagList={tagList} />
 

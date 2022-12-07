@@ -24,9 +24,10 @@
 }
 
 .archiveFilter {
-  margin: 1rem 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1rem auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
   @extend .searchFilter;
 }
 

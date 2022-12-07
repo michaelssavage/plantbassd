@@ -41,6 +41,7 @@ export default function ArchivePage({ files }) {
             type="text"
             value={filter}
           />
+          <p className="m-0">{postCards.length} Posts</p>
         </div>
 
         <div className="row g-3">
