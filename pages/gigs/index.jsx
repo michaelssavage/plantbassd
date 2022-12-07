@@ -41,7 +41,7 @@ export default function GigsPage({ gigs }) {
 
         <div className="row g-3">
           {newsStories.map((gig) => (
-            <CardNoText key={gig.frontmatter.title} link={`/${gig.frontmatter.path}/${gig.slug}`} post={gig} />
+            <CardNoText key={gig.frontmatter.name} link={`/${gig.frontmatter.path}/${gig.slug}`} post={gig} />
           ))}
         </div>
 

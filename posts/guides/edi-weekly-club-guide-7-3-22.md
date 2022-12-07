@@ -1,6 +1,6 @@
 ---
 title: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending 13/3/22"
-name: "EDINBURGH CLUB GUIDE"
+name: "EDINBURGH WEEKLY CLUB GUIDE march 7th"
 date: "March 7, 2022"
 pic: "/news/07-edinburgh-club-guide.jpg"
 seeMore: "https://ra.co/events/uk/edinburgh?week=2022-03-07"

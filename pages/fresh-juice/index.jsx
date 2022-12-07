@@ -62,7 +62,7 @@ export default function FreshJuicePage({ freshjuice }) {
 
         <div className="row g-3">
           {postCards.map((radio) => (
-            <CardNoText key={radio.frontmatter.title} link={`/fresh-juice/${radio.slug}`} post={radio} />
+            <CardNoText key={radio.frontmatter.name} link={`/fresh-juice/${radio.slug}`} post={radio} />
           ))}
         </div>
 

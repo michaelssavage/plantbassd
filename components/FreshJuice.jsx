@@ -26,7 +26,7 @@ export default function FreshJuice({ freshjuice }) {
 
       <div className="row g-2">
         {freshjuice.map((artist) => (
-          <CardNoText key={artist.frontmatter.title} link={`/fresh-juice/${artist.slug}`} post={artist} />
+          <CardNoText key={artist.frontmatter.name} link={`/fresh-juice/${artist.slug}`} post={artist} />
         ))}
       </div>
     </section>

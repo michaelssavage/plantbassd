@@ -3,10 +3,10 @@ title: "Top 10 Releases of 2021"
 name: "top 10 releases michael savage"
 date: "December 22, 2021"
 tags: "reviews"
-pic: "/top-picks/michael.jpg"
+pic: "/top-ten-releases/michael.jpg"
 cover: "/news/michael.jpg"
 bio: "Michael picks some feel-good house, breakbeats, and club music with some room for heavies along the way..."
-path: "top-picks"
+path: "top-ten-releases"
 header: "Michael Savage"
 insta: "https://www.instagram.com/michaelsaverage/"
 intro: "Lots of euphoric electronic sounds in Michael's top picks this year. He spent a lot of time with some feel-good house, breakbeats, and club music with some room for heavies along the way."
@@ -16,7 +16,7 @@ intro: "Lots of euphoric electronic sounds in Michael's top picks this year. He 
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-picks/michael/shire_t-tomorrows_people.jpg" alt="Shire T album cover art" width="100%" />
+<img src="/top-ten-releases/michael/shire_t-tomorrows_people.jpg" alt="Shire T album cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -37,7 +37,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://n
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-picks/michael/eris_drew-quivering_in_time.jpg" alt="Eris Drew EP cover art" width="100%" />
+<img src="/top-ten-releases/michael/eris_drew-quivering_in_time.jpg" alt="Eris Drew EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -56,7 +56,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://e
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-picks/michael/laurence_guy-good_times.jpg" alt="Laurence Guy EP cover art" width="100%" />
+<img src="/top-ten-releases/michael/laurence_guy-good_times.jpg" alt="Laurence Guy EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -77,7 +77,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://l
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-picks/michael/lxury-smart_digital_life.jpg" alt="Lxury EP cover art" width="100%" />
+<img src="/top-ten-releases/michael/lxury-smart_digital_life.jpg" alt="Lxury EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -94,7 +94,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://l
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-picks/michael/blawan-woke_up_right_handed.jpg" alt="Blawan EP cover art" width="100%" />
+<img src="/top-ten-releases/michael/blawan-woke_up_right_handed.jpg" alt="Blawan EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -113,7 +113,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://b
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-picks/michael/roman_flugel-cluttered_homes.jpg" alt="Roman Flugel track cover art" width="100%" />
+<img src="/top-ten-releases/michael/roman_flugel-cluttered_homes.jpg" alt="Roman Flugel track cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -128,7 +128,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://r
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-picks/michael/george_fitzgerald-ultraviolet.png" alt="George Fitzgerald track cover art" width="100%" />
+<img src="/top-ten-releases/michael/george_fitzgerald-ultraviolet.png" alt="George Fitzgerald track cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -145,7 +145,7 @@ Read, Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="htt
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-picks/michael/model_men_lp.jpg" alt="Model Man LP cover art" width="100%" />
+<img src="/top-ten-releases/michael/model_men_lp.jpg" alt="Model Man LP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -166,7 +166,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://m
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-picks/michael/india_jordan-watch_out.jpg" alt="India Jordans EP cover art" width="100%" />
+<img src="/top-ten-releases/michael/india_jordan-watch_out.jpg" alt="India Jordans EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -183,7 +183,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://i
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-picks/michael/another_chemical_love_story.jpg" alt="ACLS EP cover art" width="100%" />
+<img src="/top-ten-releases/michael/another_chemical_love_story.jpg" alt="ACLS EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 

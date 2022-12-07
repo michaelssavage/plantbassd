@@ -62,7 +62,7 @@ export default function RadioPage({ radios }) {
         </div>
         <div className="row g-3">
           {postCards.map((radio) => (
-            <CardNoText key={radio.frontmatter.title} link={`/radios/${radio.slug}`} post={radio} />
+            <CardNoText key={radio.frontmatter.name} link={`/radios/${radio.slug}`} post={radio} />
           ))}
         </div>
 

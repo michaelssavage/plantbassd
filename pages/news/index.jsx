@@ -47,11 +47,7 @@ export default function NewsPage({ files }) {
 
         <div className="row g-3">
           {newsStories.map((story) => (
-            <CardWithText
-              key={story.frontmatter.title}
-              link={`/${story.frontmatter.path}/${story.slug}`}
-              post={story}
-            />
+            <CardWithText key={story.frontmatter.name} link={`/${story.frontmatter.path}/${story.slug}`} post={story} />
           ))}
         </div>
 

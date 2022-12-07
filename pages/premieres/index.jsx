@@ -61,7 +61,7 @@ export default function PremieresPage({ premieres }) {
         </div>
         <div className="row g-3">
           {postCards.map((premiere) => (
-            <CardNoText key={premiere.frontmatter.title} link={`/premieres/${premiere.slug}`} post={premiere} />
+            <CardNoText key={premiere.frontmatter.name} link={`/premieres/${premiere.slug}`} post={premiere} />
           ))}
         </div>
 

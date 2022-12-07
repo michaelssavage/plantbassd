@@ -67,7 +67,7 @@ export default function TopTenSlug({ title, date, cover, intro, header, insta, c
 }
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/top-picks"));
+  const files = fs.readdirSync(path.join("posts/top-ten-releases"));
   const paths = files.map((filename) => ({
     params: {
       slug: filename.replace(".md", ""),
@@ -81,7 +81,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }) {
-  const markdownWithMeta = fs.readFileSync(path.join("posts/top-picks", `${slug}.md`), "utf-8");
+  const markdownWithMeta = fs.readFileSync(path.join("posts/top-ten-releases", `${slug}.md`), "utf-8");
   const { data: frontmatter, content } = matter(markdownWithMeta);
 
   return {

@@ -27,7 +27,7 @@ export default function Takeover({ takeovers }) {
         {takeovers.map((artist) => (
           <CardNoText
             columns="col-6 col-md-6 col-lg-6 col-xl-6"
-            key={artist.frontmatter.title}
+            key={artist.frontmatter.name}
             link={`/takeovers/${artist.slug}`}
             post={artist}
           />

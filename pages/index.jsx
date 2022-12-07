@@ -63,7 +63,7 @@ export async function getStaticProps() {
   const radios = getPosts("posts/radios").sort(sortByDate).reverse().slice(0, 2);
   const premieres = getPosts("posts/premieres").sort(sortByDate).reverse().slice(0, 4);
   const takeovers = getPosts("posts/takeovers").sort(sortByDate).reverse().slice(0, 2);
-  const topTen = getPosts("posts/top-picks").sort(sortByDate).reverse().slice(0, 2);
+  const topTen = getPosts("posts/top-ten-releases").sort(sortByDate).reverse().slice(0, 2);
   const allPosts = []
     .concat(freshjuice, gigs, guides, news, radios, premieres, takeovers, topTen)
     .sort(sortByDate)
