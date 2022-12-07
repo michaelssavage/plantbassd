@@ -1,5 +1,40 @@
 export const linkList = [
   {
+    title: "Switch by Stephen Mahoney",
+    link: "https://soundcloud.com/plantbassddjs/premiere-stephen-mahoney-switch/s-xe0BERPKLDC?si=212429fff75b4bb199d112773e37d925&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    icon: "premiere",
+  },
+  {
+    title: "Shroom Talk by Curtisy x owin",
+    link: "https://on.soundcloud.com/RDnsU",
+    icon: "premiere",
+  },
+  {
+    title: "I Do My Own Stunts by Brawni",
+    link: "https://on.soundcloud.com/eTmNw",
+    icon: "premiere",
+  },
+  {
+    title: "HEADSET002 - Capricorn One",
+    link: "https://www.plantbassd.com/fresh-juice/headset002-28-11-22",
+    icon: "fresh juice",
+  },
+  {
+    title: "Verbal Groove EP - SMIFF",
+    link: "https://www.plantbassd.com/fresh-juice/smiff-25-11-22",
+    icon: "fresh juice",
+  },
+  {
+    title: "Verbal Groove by SMIFF",
+    link: "https://soundcloud.com/plantbassddjs/premiere-verbal-groove-by-smiff",
+    icon: "premiere",
+  },
+  {
+    title: "Trash Catalogue Pt.1 by Rory Sweeney",
+    link: "https://www.plantbassd.com/fresh-juice/rory-sweeney-15-11-22",
+    icon: "fresh juice",
+  },
+  {
     title: "Rory Sweeney feat. Curtisy 'Veggies'",
     link: "https://soundcloud.com/plantbassddjs/premiere-rory-sweeney-veggies-ft-curtisy",
     icon: "premiere",
