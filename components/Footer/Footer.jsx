@@ -11,7 +11,7 @@ export default function Footer() {
           <h1 className="mb-0">Plant Bass'd</h1>
           <div className={styles.footerParagraph}>
             <p className={styles.justifyContent}>
-              profiling the experimental dance music world and throwing parties in between in EDI/ DUB/ GLA.
+              Profiling the experimental dance music world and throwing parties in between in EDI/ DUB/ GLA.
             </p>
 
             <p className={`small ${styles.siteBy}`}>

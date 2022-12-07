@@ -11,6 +11,9 @@ path: "premieres"
 ---
 
 <img src="/premieres/XX.jpg" alt="XX" width="100%" />
+<p class="smallText"><i>XXX</i></p>
+
+<hr/>
 
 Stream <a href="XX" rel="noopener noreferrer" target="_blank">XX</a> on SoundCloud
 

@@ -7,6 +7,7 @@ import News from "components/News";
 import PropTypes from "prop-types";
 import Radio from "components/Radio";
 import Banner from "components/Banner";
+import Premiere from "components/Premiere";
 import Takeover from "components/Takeover";
 import matter from "gray-matter";
 import fs from "fs";
@@ -21,7 +22,11 @@ export default function Home({ allPosts, takeovers, radios, freshjuice }) {
 
       <Banner />
       <News news={allPosts} />
+
+      <Premiere />
+
       <FreshJuice freshjuice={freshjuice} />
+
       <Mixes />
 
       <div className="discoveryCards">
@@ -58,8 +63,9 @@ export async function getStaticProps() {
   const radios = getPosts("posts/radios").sort(sortByDate).reverse().slice(0, 2);
   const premieres = getPosts("posts/premieres").sort(sortByDate).reverse().slice(0, 4);
   const takeovers = getPosts("posts/takeovers").sort(sortByDate).reverse().slice(0, 2);
+  const topTen = getPosts("posts/top-ten-releases").sort(sortByDate).reverse().slice(0, 2);
   const allPosts = []
-    .concat(freshjuice, gigs, guides, news, radios, premieres, takeovers)
+    .concat(freshjuice, gigs, guides, news, radios, premieres, takeovers, topTen)
     .sort(sortByDate)
     .reverse()
     .slice(0, 4);

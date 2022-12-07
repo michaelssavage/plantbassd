@@ -20,7 +20,7 @@ export default function News({ news }) {
 
       <div className="row mb-2">
         <p>
-          Catch the latest about club guides, upcoming gigs & Plant Bass'd events, and much more. Keep up to date on our{" "}
+          Catch the latest about club guides, upcoming gigs & events, and more. Keep up to date on our{" "}
           <a
             className="blackAnchor"
             href="http://instagram.com/plantbassd___"
