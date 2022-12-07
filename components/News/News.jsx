@@ -35,7 +35,7 @@ export default function News({ news }) {
 
       <div className="row g-2">
         {news.map((story) => (
-          <CardWithText key={story.frontmatter.title} link={`/${story.frontmatter.path}/${story.slug}`} post={story} />
+          <CardWithText key={story.frontmatter.name} link={`/${story.frontmatter.path}/${story.slug}`} post={story} />
         ))}
       </div>
     </section>

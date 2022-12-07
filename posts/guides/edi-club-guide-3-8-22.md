@@ -1,6 +1,6 @@
 ---
 title: "EDINBURGH CLUB GUIDE: Fringe Special"
-name: "EDINBURGH CLUB GUIDE fringe"
+name: "EDINBURGH WEEKLY CLUB GUIDE fringe special august 3"
 date: "August 3, 2022"
 pic: "/news/11-edinburgh-club-guide.jpg"
 seeMore: "https://ra.co/events/uk/edinburgh?week=2022-08-03"

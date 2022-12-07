@@ -32,7 +32,9 @@ export default function PremieresPage({ premieres }) {
       <div className="radioBG">
         <h1 className={styles.pageHeader}>Plant Bass'd Premieres</h1>
 
-        <p className={styles.pageText}>New track premieres from around the world. Check them out on our SoundCloud.</p>
+        <p className={styles.pageText}>
+          New track premieres from around the world. Listen to the {premieres.length} tunes on our SoundCloud.
+        </p>
         <div className="row align-items-center">
           <div className={`col-md-4 me-auto input-group ${styles.radioFilter}`}>
             <input
@@ -59,7 +61,7 @@ export default function PremieresPage({ premieres }) {
         </div>
         <div className="row g-3">
           {postCards.map((premiere) => (
-            <CardNoText key={premiere.frontmatter.title} link={`/premieres/${premiere.slug}`} post={premiere} />
+            <CardNoText key={premiere.frontmatter.name} link={`/premieres/${premiere.slug}`} post={premiere} />
           ))}
         </div>
 

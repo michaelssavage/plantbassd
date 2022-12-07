@@ -41,13 +41,14 @@ export default function ArchivePage({ files }) {
             type="text"
             value={filter}
           />
+          <p className="m-0">{postCards.length} Posts</p>
         </div>
 
         <div className="row g-3">
           {postCards.map((story) => (
             <CardWithText
               columns="col-4 col-sm-4 col-md-4 col-lg-2"
-              key={story.frontmatter.title}
+              key={story.frontmatter.name}
               link={`/${story.frontmatter.path}/${story.slug}`}
               post={story}
             />

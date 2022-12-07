@@ -28,7 +28,7 @@ export default function Radio({ radios }) {
         {radios.map((artist) => (
           <CardNoText
             columns="col-6 col-md-6 col-lg-6 col-xl-6"
-            key={artist.frontmatter.title}
+            key={artist.frontmatter.name}
             link={`/radios/${artist.slug}`}
             post={artist}
           />

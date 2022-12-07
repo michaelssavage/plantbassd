@@ -1,0 +1,163 @@
+---
+title: "Top 10 Releases Of The Year"
+name: "top 10 releases picks XX"
+date: "XX, 2022"
+tags: "reviews"
+pic: "/top-ten-releases/XX.jpg"
+cover: "/top-ten-releases/XX.jpg"
+bio: "XX..."
+path: "top-ten-releases"
+header: "XX"
+insta: "https://www.instagram.com/XX"
+intro: "XX"
+---
+
+## 1. XX
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/XX/1.jpg" alt="XX" width="100%" />
+</div>
+<div class="col clubGuide">
+
+XX
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+
+</div>
+</div>
+
+## 2. XX
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/XX/2.jpg" alt="XX cover art" width="100%" />
+</div>
+<div class="col clubGuide">
+
+XX
+
+Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Spotify</a>
+
+</div>
+</div>
+
+## 3. XX
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/XX/3.jpg" alt="XX" width="100%" />
+</div>
+<div class="col clubGuide">
+
+XX
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+
+</div>
+</div>
+
+## 4. XX
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/XX/4.jpg" alt="XX" width="100%" />
+</div>
+<div class="col clubGuide">
+
+XX
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+
+</div>
+</div>
+
+## 5. XX
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/XX/5.jpg" alt="XX" width="100%" />
+</div>
+<div class="col clubGuide">
+
+XX
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+
+</div>
+</div>
+
+## 6. XX
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/XX/6.jpg" alt="XX" width="100%" />
+</div>
+<div class="col clubGuide">
+
+XX
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+
+</div>
+</div>
+
+## 7. XX
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/XX/7.jpg" alt="XX" width="100%" />
+</div>
+<div class="col clubGuide">
+
+XX
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+
+</div>
+</div>
+
+## 8. XX
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/XX/8.jpg" alt="XX" width="100%" />
+</div>
+<div class="col clubGuide">
+
+XX
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+
+</div>
+</div>
+
+## 9. XX
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/XX/9.jpg" alt="XX" width="100%" />
+</div>
+<div class="col clubGuide">
+
+XX
+
+Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">YouTube</a>
+
+</div>
+</div>
+
+## 10. XX
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/XX/10.jpg" alt="XX" width="100%" />
+</div>
+<div class="col clubGuide">
+
+XX
+
+Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Spotify</a>
+
+</div>
+</div>

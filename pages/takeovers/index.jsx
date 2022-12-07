@@ -59,7 +59,7 @@ export default function TakeoverPage({ takeovers }) {
         </div>
         <div className="row g-3">
           {postCards.map((takeover) => (
-            <CardNoText key={takeover.frontmatter.title} link={`/takeovers/${takeover.slug}`} post={takeover} />
+            <CardNoText key={takeover.frontmatter.name} link={`/takeovers/${takeover.slug}`} post={takeover} />
           ))}
         </div>
 

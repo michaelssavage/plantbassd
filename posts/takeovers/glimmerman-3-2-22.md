@@ -20,7 +20,7 @@ We highlighted ‘Step Mode’ as one of our favourite releases of 2021 in our e
 
 “That definitely changed with this release. Maybe it’s a confidence thing but I definitely feel legitimately proud of these tracks and I do be getting excited to load them up in the club. It’s also been great to catch other DJ’s spin these out. Hearing Darwin send Sputnik One’s remix of Step Mode while I was on the dancefloor was definitely a highlight of 2021!”.
 
-<img src="/top-ten-2021/oisin/glimmer-step_mode.jpg" alt="Glimmerman press pic" width="100%" />
+<img src="/top-ten-releases/oisin/glimmer-step_mode.jpg" alt="Glimmerman press pic" width="100%" />
 
 Stream & Purchase Step Mode here https://firstsecondlabel.bandcamp.com/album/step-mode
 

@@ -30,7 +30,9 @@ export default function FreshJuicePage({ freshjuice }) {
       <div className="freshjuiceBG">
         <h1 className={styles.pageHeader}>Fresh Juice</h1>
 
-        <p className={styles.pageText}>New music releases from around the world that we've highlighted.</p>
+        <p className={styles.pageText}>
+          Listen to the {postCards.length} new music releases from around the world that we couldn't get enough of.
+        </p>
 
         <div className="row align-items-center">
           {/* SEARCH BOX */}
@@ -60,7 +62,7 @@ export default function FreshJuicePage({ freshjuice }) {
 
         <div className="row g-3">
           {postCards.map((radio) => (
-            <CardNoText key={radio.frontmatter.title} link={`/fresh-juice/${radio.slug}`} post={radio} />
+            <CardNoText key={radio.frontmatter.name} link={`/fresh-juice/${radio.slug}`} post={radio} />
           ))}
         </div>
 
