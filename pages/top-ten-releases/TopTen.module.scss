@@ -1,0 +1,33 @@
+@use "@/abstracts" as *;
+
+.outerSection {
+  background-color: $culturedWhite;
+}
+
+.topTenContent {
+  padding: 5% 15% 2% 15%;
+}
+
+.postTitle {
+  text-align: center;
+}
+
+@include breakpoint-below(md) {
+  .postTitle {
+    font-size: calc(1.3rem + 1.1vw);
+  }
+}
+
+@media (max-width: 768px) {
+  .topTenContent {
+    padding: 15% 10% 2% 10%;
+  }
+}
+
+.spotify {
+  color: $spotify;
+  &:hover {
+    color: $headerBlack;
+    background-color: $spotify;
+  }
+}

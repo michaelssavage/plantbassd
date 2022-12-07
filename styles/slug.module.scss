@@ -21,6 +21,12 @@
   padding: 0 0 0 4rem;
 }
 
+@include breakpoint-below(md) {
+  .postTitle {
+    font-size: calc(1.3rem + 1.1vw);
+  }
+}
+
 // @include breakpoint-below(sm) {
 @media (max-width: 768px) {
   .newsSection {
@@ -44,18 +50,4 @@
 
 .hoverLink:hover {
   color: $white !important;
-}
-
-.topTenContent {
-  padding: 0 3rem;
-}
-
-@include breakpoint-below(md) {
-  .topTenContent {
-    padding: 0 1rem;
-  }
-
-  .postTitle {
-    font-size: calc(1.3rem + 1.1vw);
-  }
 }

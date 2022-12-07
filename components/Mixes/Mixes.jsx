@@ -9,10 +9,10 @@ export default function Mixes() {
         <div className="col-lg-6 col-md-12">
           <div className={styles.mixImages}>
             <div className={styles.topImage}>
-              <Picture alt="michael radio" height={400} src="/mixes/michael.png" width={400} />
+              <Picture alt="michael radio" height={360} src="/mixes/michael.png" width={360} />
             </div>
             <div className={styles.bottomImage}>
-              <Image alt="oisin radio" height={400} src="/mixes/oisin.jpg" width={400} />
+              <Image alt="oisin radio" height={360} src="/mixes/oisin.jpg" width={360} />
             </div>
           </div>
         </div>

@@ -1,22 +1,21 @@
 ---
-title: "Peter’s Top 10 Dance Releases of 2021"
+title: "Top 10 Releases of 2021"
 name: "top 10 releases peter toal"
 date: "December 27, 2021"
 tags: "reviews"
 pic: "/top-ten-2021/peter.jpg"
-seeMore: "https://www.instagram.com/peter_toal/"
-postLink: "https://www.instagram.com/p/CX_N_xStcNu/"
+cover: "/top-ten-2021/peter.jpg"
 bio: "Peter goes through a massive year of heavy low-end energy on strong percussive releases..."
-path: "top-ten-2021"
+path: "top-ten-releases"
+header: "Peter"
+intro: "Peter has been listening to a massive year of heavy low-end energy on strong percussive releases. Leftfield Bass and the whole Breakbeat sound is seeing huge movement and Peter was treated to some lethal tunes. Here's his top 10:"
 ---
-
-I've been listening to a massive year of heavy low-end energy on strong percussive releases. Leftfield Bass and the whole Breakbeat sound is seeing huge movement and I was treated to some lethal tunes. Here's my top 10:
 
 ## 1. INGI - Wrestle (Fly By Night Recordings)
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/peter/ingi-wrestle.jpg" alt="INGI album cover art" width="60%" />
+<img src="/top-ten-2021/peter/ingi-wrestle.jpg" alt="INGI album cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -33,7 +32,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://f
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/peter/kempston_hardwick-mowbray_street.jpg" alt="Kempston Hardwick EP cover art" width="60%" />
+<img src="/top-ten-2021/peter/kempston_hardwick-mowbray_street.jpg" alt="Kempston Hardwick EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -50,7 +49,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://l
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/peter/jabberwocky-inner_space.jpg" alt="Jabberwocky EP cover art" width="60%" />
+<img src="/top-ten-2021/peter/jabberwocky-inner_space.jpg" alt="Jabberwocky EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -67,7 +66,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://f
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/peter/sofia_kourtesis-fresia_magdalena.jpg" alt="Sofia Kourtesis  EP cover art" width="60%" />
+<img src="/top-ten-2021/peter/sofia_kourtesis-fresia_magdalena.jpg" alt="Sofia Kourtesis  EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -84,7 +83,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://s
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/peter/logic1000-youve_got_the_whole_night_to_go.jpg" alt="logic1000 EP cover art" width="60%" />
+<img src="/top-ten-2021/peter/logic1000-youve_got_the_whole_night_to_go.jpg" alt="logic1000 EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -101,7 +100,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://l
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/peter/sputnik_one-love_from_above.jpg" alt="Sputnik One track cover art" width="60%" />
+<img src="/top-ten-2021/peter/sputnik_one-love_from_above.jpg" alt="Sputnik One track cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -118,7 +117,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://w
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/peter/tom_vr-please_keep_shimmering.jpg" alt="Tom VR cover art" width="60%" />
+<img src="/top-ten-2021/peter/tom_vr-please_keep_shimmering.jpg" alt="Tom VR cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -135,7 +134,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://t
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/peter/jack_ward-my_angel_rocks_4th_back.jpg" alt="Jack Ward cover art" width="60%" />
+<img src="/top-ten-2021/peter/jack_ward-my_angel_rocks_4th_back.jpg" alt="Jack Ward cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -150,7 +149,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://j
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/peter/nicolas_duque-breaks_n_pieces_vol6.jpg" alt="Nicolas Duque EP cover art" width="60%" />
+<img src="/top-ten-2021/peter/nicolas_duque-breaks_n_pieces_vol6.jpg" alt="Nicolas Duque EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -167,7 +166,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://c
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/peter/thugwindow-post_modern.jpg" alt="THUGWIDOW EP cover art" width="60%" />
+<img src="/top-ten-2021/peter/thugwindow-post_modern.jpg" alt="THUGWIDOW EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 

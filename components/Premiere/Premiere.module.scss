@@ -1,10 +1,14 @@
 @use "@/abstracts" as *;
 
 .content_bg {
-  background-image: url("../../public/various/background.png");
+  background-color: $culturedWhite;
   height: 50vh;
+}
+.bg_img {
+  background-image: url("../../public/various/background.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .frontText {
@@ -15,7 +19,7 @@
   overflow-y: hidden;
   flex-wrap: wrap;
   height: 50vh;
-  padding: 0 3.8rem;
+  padding: 0 10%;
 }
 
 .btns {

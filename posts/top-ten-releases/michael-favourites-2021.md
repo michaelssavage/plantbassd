@@ -1,22 +1,21 @@
 ---
-title: "Michael’s Top 10 Dance Releases of 2021"
+title: "Top 10 Releases of 2021"
 name: "top 10 releases michael savage"
 date: "December 22, 2021"
 tags: "reviews"
 pic: "/top-ten-2021/michael.jpg"
-seeMore: "https://www.instagram.com/michaelsaverage/"
-postLink: "https://www.instagram.com/p/CXyxuQStNo4/"
+cover: "/top-ten-2021/michael.jpg"
 bio: "Michael picks some feel-good house, breakbeats, and club music with some room for heavies along the way..."
-path: "top-ten-2021"
+path: "top-ten-releases"
+header: "Michael Savage"
+intro: "Lots of euphoric electronic sounds in Michael's top picks this year. He spent a lot of time with some feel-good house, breakbeats, and club music with some room for heavies along the way."
 ---
-
-Lots of euphoric electronic sounds in my top picks this year. Spent a lot of time with some feel-good house, breakbeats, and club music with some room for heavies along the way.
 
 ## 1. Shire T - Tomorrow’s People (Dama Dama Music)
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/shire_t-tomorrows_people.jpg" alt="Shire T album cover art" width="60%" />
+<img src="/top-ten-2021/michael/shire_t-tomorrows_people.jpg" alt="Shire T album cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -37,7 +36,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://n
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/eris_drew-quivering_in_time.jpg" alt="Eris Drew EP cover art" width="60%" />
+<img src="/top-ten-2021/michael/eris_drew-quivering_in_time.jpg" alt="Eris Drew EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -56,7 +55,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://e
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/laurence_guy-good_times.jpg" alt="Laurence Guy EP cover art" width="60%" />
+<img src="/top-ten-2021/michael/laurence_guy-good_times.jpg" alt="Laurence Guy EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -77,7 +76,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://l
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/lxury-smart_digital_life.jpg" alt="Lxury EP cover art" width="60%" />
+<img src="/top-ten-2021/michael/lxury-smart_digital_life.jpg" alt="Lxury EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -94,7 +93,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://l
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/blawan-woke_up_right_handed.jpg" alt="Blawan EP cover art" width="60%" />
+<img src="/top-ten-2021/michael/blawan-woke_up_right_handed.jpg" alt="Blawan EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -113,7 +112,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://b
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/roman_flugel-cluttered_homes.jpg" alt="Roman Flugel track cover art" width="60%" />
+<img src="/top-ten-2021/michael/roman_flugel-cluttered_homes.jpg" alt="Roman Flugel track cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -128,7 +127,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://r
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/george_fitzgerald-ultraviolet.png" alt="George Fitzgerald track cover art" width="60%" />
+<img src="/top-ten-2021/michael/george_fitzgerald-ultraviolet.png" alt="George Fitzgerald track cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -145,7 +144,7 @@ Read, Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="htt
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/model_men_lp.jpg" alt="Model Man LP cover art" width="60%" />
+<img src="/top-ten-2021/michael/model_men_lp.jpg" alt="Model Man LP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -166,7 +165,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://m
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/india_jordan-watch_out.jpg" alt="India Jordans EP cover art" width="60%" />
+<img src="/top-ten-2021/michael/india_jordan-watch_out.jpg" alt="India Jordans EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
@@ -183,7 +182,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://i
 
 <div class="row">
 <div class="col clubGuide">
-<img src="/top-ten-2021/michael/another_chemical_love_story.jpg" alt="ACLS EP cover art" width="60%" />
+<img src="/top-ten-2021/michael/another_chemical_love_story.jpg" alt="ACLS EP cover art" width="100%" />
 </div>
 <div class="col clubGuide">
 
