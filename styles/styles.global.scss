@@ -337,11 +337,6 @@ img {
   @extend .layout;
 }
 
-.errorBG {
-  height: 100vh;
-  @extend .layout;
-}
-
 .discoveryCards {
   background: linear-gradient(270deg, $lilac 20%, $opal 80%);
   padding-bottom: 2rem;
@@ -361,12 +356,4 @@ img {
   .radioSection {
     padding-left: 0;
   }
-}
-
-.errorPage {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
 }

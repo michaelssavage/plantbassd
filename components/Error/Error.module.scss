@@ -1,0 +1,23 @@
+.errorPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.errorBG {
+  height: 100vh;
+  padding: 0 10%;
+}
+
+@media (max-width: 376px) {
+  .errorBG {
+    padding: 0 14%;
+  }
+}
+
+.bottomBtn {
+  margin-top: 1rem;
+  text-align: left;
+}
