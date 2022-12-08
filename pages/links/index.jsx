@@ -1,33 +1,10 @@
-import { linkList } from "arrays/linktree";
+import { linkList, mainLinks } from "arrays/linktree";
 import socialIconList from "arrays/social-icons";
 import Head from "next/head";
 import Link from "next/link";
 import SocialIcon from "components/SocialIcon";
 import { Picture } from "components/Picture";
 import styles from "./links.module.scss";
-
-const mainLinks = [
-  {
-    title: "Plantbass'd & Friends Top Ten Releases 2022",
-    link: "https://open.spotify.com/playlist/3EV4meqUK8g5IEYGqxsvNf?si=0bc133bf8a90485b",
-    icon: "spotify",
-  },
-  {
-    title: "Plant Bass'd Soundcloud",
-    link: "https://soundcloud.com/plantbassddjs",
-    icon: "soundcloud",
-  },
-  {
-    title: "Get In Contact",
-    link: "/team#get-in-touch",
-    icon: "contact us",
-  },
-  {
-    title: "Plant Bass'd Home",
-    link: "/",
-    icon: "site",
-  },
-];
 
 export default function Links() {
   return (

@@ -115,3 +115,26 @@ export const linkList = [
     icon: "fresh juice",
   },
 ];
+
+export const mainLinks = [
+  {
+    title: "Plantbass'd & Friends Top Ten Releases 2022",
+    link: "https://open.spotify.com/playlist/3EV4meqUK8g5IEYGqxsvNf?si=0bc133bf8a90485b",
+    icon: "spotify",
+  },
+  {
+    title: "Plant Bass'd Soundcloud",
+    link: "https://soundcloud.com/plantbassddjs",
+    icon: "soundcloud",
+  },
+  {
+    title: "Get In Contact",
+    link: "/team#get-in-touch",
+    icon: "contact us",
+  },
+  {
+    title: "Plant Bass'd Home",
+    link: "/",
+    icon: "site",
+  },
+];
