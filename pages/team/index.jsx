@@ -32,13 +32,8 @@ export default function TeamPage() {
           {ourTeam.map((member) => (
             <div className="px-5 col-lg-4 col-md-4 col-sm-12" key={member.name}>
               <Link className="blackAnchor" href={member.link}>
-                <div className={`card imgContainer ${styles.cardStyle}`}>
+                <div className={`card ${styles.cardStyle}`}>
                   <Picture alt={member.name} height={300} src={`/news/${member.img}`} width={300} />
-                  <div className="guestOverlay">
-                    <div className="guestTextOverlay">
-                      {member.name} - {member.role}
-                    </div>
-                  </div>
                 </div>
               </Link>
               <p className="nameAnchor">{member.name}</p>
@@ -46,7 +41,9 @@ export default function TeamPage() {
           ))}
         </div>
 
-        <h2 className="text-center">Get In Touch</h2>
+        <h2 id="get-in-touch" className="text-center">
+          Get In Touch
+        </h2>
         <hr />
 
         <div className="row">

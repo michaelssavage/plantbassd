@@ -5,6 +5,11 @@ export const linkList = [
     icon: "tickets",
   },
   {
+    title: "Darkmavis - Top 10 Releases Of The Year",
+    link: "https://www.plantbassd.com/top-ten-releases/darkmavis-8-12-22",
+    icon: "news",
+  },
+  {
     title: "Prograsm by DJ Pacifier",
     link: "https://soundcloud.com/plantbassddjs/premiere-dj-pacifier-prograsm-1",
     icon: "premiere",
@@ -108,45 +113,5 @@ export const linkList = [
     title: "Luv 2 LUv U // Do It Right by Burnout",
     link: "https://www.plantbassd.com/fresh-juice/burnout-12-8-22",
     icon: "fresh juice",
-  },
-  {
-    title: "Rattle by Palidrone",
-    link: "https://www.plantbassd.com/fresh-juice/palidrone-9-8-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "Headbutt by Strick",
-    link: "https://www.plantbassd.com/fresh-juice/strick-7-7-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "PINS: A Compilation of Electronic Music From Glasgow",
-    link: "https://www.plantbassd.com/fresh-juice/pins-5-7-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "Life Simulator by POUCH ENVY",
-    link: "https://www.plantbassd.com/fresh-juice/pouch-envy-29-6-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "Bolt by HomeSick",
-    link: "https://www.plantbassd.com/fresh-juice/homesick-16-6-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "Plant Bass'd Picks",
-    link: "https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=611353a4ea0244d5",
-    icon: "spotify",
-  },
-  {
-    title: "Soundcloud",
-    link: "https://soundcloud.com/plantbassddjs",
-    icon: "soundcloud",
-  },
-  {
-    title: "Plant Bass'd",
-    link: "/",
-    icon: "site",
   },
 ];
