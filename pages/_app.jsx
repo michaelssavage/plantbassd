@@ -4,6 +4,7 @@ import { Analytics } from "@vercel/analytics/react";
 import Head from "next/head";
 import PropTypes from "prop-types";
 import Sidebar from "components/Sidebar";
+import { ErrorBoundary } from "components/Error";
 
 export default function MyApp({ Component, pageProps }) {
   return (
@@ -13,7 +14,9 @@ export default function MyApp({ Component, pageProps }) {
       </Head>
       <Sidebar />
       <Analytics />
-      <Component {...pageProps} />
+      <ErrorBoundary>
+        <Component {...pageProps} />
+      </ErrorBoundary>
     </>
   );
 }
