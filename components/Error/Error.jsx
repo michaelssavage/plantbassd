@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import Link from "next/link";
 import styles from "./Error.module.scss";
 import GoBack from "@/btns/GoBack";
 
@@ -11,9 +12,11 @@ export default function Error({ error }) {
 
         <div className="d-flex flex-row gap-2">
           <div className={styles.bottomBtn}>
-            <a className="btn btn-outline-dark" onClick={() => window.location.reload()} type="button">
-              Try Again
-            </a>
+            <Link href="/">
+              <a className="btn btn-outline-dark" type="button">
+                Home
+              </a>
+            </Link>
           </div>
           <GoBack />
         </div>

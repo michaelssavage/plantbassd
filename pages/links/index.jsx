@@ -1,4 +1,4 @@
-import { linkList } from "arrays/linktree";
+import { linkList, mainLinks } from "arrays/linktree";
 import socialIconList from "arrays/social-icons";
 import Head from "next/head";
 import Link from "next/link";
@@ -32,7 +32,26 @@ export default function Links() {
 
           <hr />
 
+          <h2 className="d-flex justify-content-end">Articles & Tracks</h2>
           {linkList.map((item) => (
+            <div className={`row ${styles.buttonStyle}`} key={item.title}>
+              <div className={styles.linkTitle}>
+                <SocialIcon icon={item.icon} styling={styles.linkIcon} />
+                <div>{item.icon.toUpperCase()}</div>
+              </div>
+              <a
+                className={`btn btn-outline-dark ${styles.btnText}`}
+                href={item.link}
+                rel="noopener noreferrer"
+                role="button"
+                target="_blank"
+              >
+                <div>{item.title}</div>
+              </a>
+            </div>
+          ))}
+          <h2 className="d-flex justify-content-end"> Main Links</h2>
+          {mainLinks.map((item) => (
             <div className={`row ${styles.buttonStyle}`} key={item.title}>
               <div className={styles.linkTitle}>
                 <SocialIcon icon={item.icon} styling={styles.linkIcon} />
