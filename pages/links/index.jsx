@@ -4,7 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 import SocialIcon from "components/SocialIcon";
 import { Picture } from "components/Picture";
-import styles from "./links.module.scss";
+import styles from "./Links.module.scss";
 
 export default function Links() {
   return (
