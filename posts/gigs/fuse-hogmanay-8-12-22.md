@@ -1,0 +1,70 @@
+---
+title: "FUSE x Plant Bass'd Hogmanay"
+name: "fuse plant bass'd hogmanay gig glasgow casement diessa dj fluffie inez iso yso marky marbles miss cabbage poog1rl oBrother oisin vaj.power"
+date: "December 8, 2022"
+pic: "/news/28-hogmanay.jpg"
+tickets: "https://ra.co/events/1628390"
+postLink: "https://www.instagram.com/p/Cl53wJOqsIm/"
+bio: "FUSE and Plant Bass'd are joining forces for one last throw-down into the calendar year for a full venue Hogmanay takeover of the Flying Duck!.."
+path: "gigs"
+tags: "gigs"
+city: "glasgow"
+anames:
+  [
+    "Casement",
+    "diessa",
+    "DJ FLUFFIE",
+    "Inez",
+    "ISO YSO",
+    "Marky Marbles",
+    "Miss Cabbage",
+    "poog1rl",
+    "oBrother",
+    "VAJ.Power",
+  ]
+alinks:
+  [
+    "https://www.instagram.com/case_ment/",
+    "https://www.instagram.com/diessa__/",
+    "https://www.instagram.com/djfluffie/",
+    "https://www.instagram.com/inez.gla/",
+    "https://www.instagram.com/iso.yso/",
+    "https://www.instagram.com/marky.marbles/",
+    "https://www.instagram.com/apieceofcabbage/",
+    "https://www.instagram.com/poog1rl/",
+    "https://www.instagram.com/inspectorcampbellbap/",
+    "https://www.instagram.com/vaj.power/",
+  ]
+apics:
+  [
+    "07-casement.jpg",
+    "28-diessa.jpg",
+    "28-fluffie.jpg",
+    "28-inez.jpg",
+    "07-iso-yso.jpg",
+    "28-marbles.jpg",
+    "20-cabbage.jpg",
+    "25-poog1rl.jpg",
+    "08-oisin.jpg",
+    "16-vaj-power.jpg",
+  ]
+---
+
+### FUSE and Plant Bass'd are joining forces for one last throw-down into the calendar year for a full venue Hogmanay takeover of the Flying Duck!
+
+Featuring some of brightest spinners in Glasgow City, we’re set to travel through all the realms of club land for the biggest celebration of the year with a hot 4am licence to boot. Expect sparklers, dancers, hostesses, heartbreakers, throwbacks, slowsets, fireworks, the lot!!!
+
+Join us at the Flying Duck on New Years Eve with (A-Z):
+
+- Casement
+- diessa
+- DJ FLUFFIE
+- Inez
+- ISO YSO
+- Marky Marbles
+- Miss Cabbage
+- oBrother
+- PooG1rl
+- VAJ.Power
+
+MORE TBA 🌱
