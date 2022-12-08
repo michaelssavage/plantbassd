@@ -1,5 +1,15 @@
 export const linkList = [
   {
+    title: "FUSE X Plant Bass'd Hogmanay",
+    link: "https://ra.co/events/1628390",
+    icon: "tickets",
+  },
+  {
+    title: "Prograsm by DJ Pacifier",
+    link: "https://soundcloud.com/plantbassddjs/premiere-dj-pacifier-prograsm-1",
+    icon: "premiere",
+  },
+  {
     title: "E.DN - Top 10 Releases Of The Year",
     link: "https://www.plantbassd.com/top-ten-releases/edn-7-12-22",
     icon: "news",
