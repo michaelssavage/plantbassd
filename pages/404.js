@@ -6,5 +6,5 @@ export default function Error404({ error }) {
 }
 
 Error404.propTypes = {
-  error: PropTypes.string.isRequired,
+  error: PropTypes.string,
 };
