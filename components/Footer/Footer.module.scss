@@ -1,7 +1,12 @@
 @use "@/abstracts" as *;
 
 .footerParagraph {
-  margin-right: 20%;
+  margin-right: 10%;
+}
+
+.justifyContent {
+  text-align: justify;
+  margin-top: 0.2rem;
 }
 
 .siteBy {
@@ -10,7 +15,7 @@
 
 @include breakpoint-below(md) {
   .footerParagraph {
-    margin-right: 10%;
+    margin-right: 5%;
   }
 }
 
@@ -18,17 +23,10 @@
   .footerParagraph {
     margin-right: 0;
   }
-  .siteBy {
-    margin-bottom: 1rem;
-  }
 }
 
 .footerColor {
   color: $headerBlack;
   padding-left: 0;
   list-style: none;
-}
-
-.justifyContent {
-  text-align: justify;
 }
