@@ -31,7 +31,7 @@ export default function TeamPage() {
         <div className="row d-flex flex-row">
           {ourTeam.map((member) => (
             <div className="px-5 col-lg-4 col-md-4 col-sm-12" key={member.name}>
-              <Link className="blackAnchor" href={member.link}>
+              <Link href={member.link} className="blackAnchor">
                 <div className={`card ${styles.cardStyle}`}>
                   <Picture alt={member.name} height={300} src={`/news/${member.img}`} width={300} />
                 </div>
@@ -48,15 +48,17 @@ export default function TeamPage() {
 
         <div className="row">
           {socialIconList.map((item) => (
-            <Link href={item.link} key={item.link}>
-              <a
-                className={`col-6 col-sm-6 col-md-4 blackAnchor ${styles.iconBox}`}
-                rel="noopener noreferrer"
-                target="_blank"
-              >
+            <Link
+              href={item.link}
+              key={item.link}
+              className={`col-6 col-sm-6 col-md-4 blackAnchor ${styles.iconBox}`}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <>
                 <SocialIcon icon={item.icon} styling={styles.socialIcon} />{" "}
                 <div className={styles.iconText}>{item.icon.toUpperCase()}</div>
-              </a>
+              </>
             </Link>
           ))}
         </div>

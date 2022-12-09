@@ -11,10 +11,8 @@ export default function Premiere() {
           <p className={styles.profileText}>Listen here first to organic music releases.</p>
 
           <div className="col-auto px-0">
-            <Link href="/premieres">
-              <a className="text-nowrap btn btn-lg btn-outline-dark" role="button">
-                Discover More
-              </a>
+            <Link href="/premieres" className="mt-2 text-nowrap btn btn-outline-dark" role="button">
+              Discover More
             </Link>
           </div>
         </div>

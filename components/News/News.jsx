@@ -9,11 +9,9 @@ export default function News({ news }) {
         <h1 className="col me-auto mb-0" name="news">
           Latest News
         </h1>
-        <div className="col-auto px-0">
-          <Link href="/news">
-            <a className="text-nowrap btn btn-outline-dark" role="button">
-              More
-            </a>
+        <div className="col-auto ps-0">
+          <Link href="/news" className="text-nowrap btn btn-outline-dark" role="button">
+            More
           </Link>
         </div>
       </div>

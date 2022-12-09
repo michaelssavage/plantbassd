@@ -12,10 +12,8 @@ export default function Error({ error }) {
 
         <div className="d-flex flex-row gap-2">
           <div className={styles.bottomBtn}>
-            <Link href="/">
-              <a className="btn btn-outline-dark" type="button">
-                Home
-              </a>
+            <Link href="/" className="btn btn-outline-dark" type="button">
+              Home
             </Link>
           </div>
           <GoBack />

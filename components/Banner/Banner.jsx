@@ -6,16 +6,19 @@ import styles from "./Banner.module.scss";
 export default function Banner() {
   useRellax();
 
+  const css = { objectFit: "cover" };
+
   return (
     <section>
       <div className={styles.bgWrap}>
         <Image
           alt="background image"
           blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(1080, 720))}`}
-          layout="fill"
-          objectFit="cover"
+          style={css}
           placeholder="blur"
           src="/various/collage.jpg"
+          fill
+          priority
         />
       </div>
 

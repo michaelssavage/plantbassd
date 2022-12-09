@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { Picture } from "components/Picture";
 import styles from "./Mixes.module.scss";
 

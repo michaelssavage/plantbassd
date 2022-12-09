@@ -3,6 +3,7 @@ import Image from "next/image";
 import PropTypes from "prop-types";
 
 export const Picture = ({ alt, height, src, width }) => {
+  const css = { maxWidth: "100%", height: "auto", objectFit: "contain" };
   return (
     <Image
       alt={alt}
@@ -11,6 +12,7 @@ export const Picture = ({ alt, height, src, width }) => {
       placeholder="blur"
       src={src}
       width={width}
+      style={css}
     />
   );
 };

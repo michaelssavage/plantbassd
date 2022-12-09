@@ -11,11 +11,9 @@ export default function FreshJuice({ freshjuice }) {
           Fresh Juice
         </h1>
 
-        <div className="col-auto px-0">
-          <Link href="/fresh-juice">
-            <a className="text-nowrap btn btn-outline-dark" role="button">
-              More
-            </a>
+        <div className="col-auto ps-0">
+          <Link href="/fresh-juice" className="text-nowrap btn btn-outline-dark" role="button">
+            More
           </Link>
         </div>
       </div>

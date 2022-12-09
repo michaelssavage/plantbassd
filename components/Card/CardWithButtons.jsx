@@ -10,28 +10,25 @@ export const CardWithButtons = ({ pic, title, artist, page, insta, link }) => {
         <Picture alt={title} height={500} src={pic} width={500} />
         <div className="row">
           <div className={`col ${news.button}`}>
-            <Link href={page}>
-              <a
-                className={`${news.hoverLink} text-nowrap btn btn-outline-dark`}
-                rel="noopener noreferrer"
-                role="button"
-                target="_blank"
-              >
-                {artist}
-              </a>
+            <Link
+              href={page}
+              className={`${news.hoverLink} text-nowrap btn btn-outline-dark`}
+              rel="noopener noreferrer"
+              role="button"
+              target="_blank"
+            >
+              {artist}
             </Link>
           </div>
           <div className={`col ${news.button}`}>
-            <Link href={page}>
-              <a
-                className={`${news.hoverLink} text-nowrap btn btn-outline-dark`}
-                href={link}
-                rel="noopener noreferrer"
-                role="button"
-                target="_blank"
-              >
-                {insta}
-              </a>
+            <Link
+              href={link}
+              className={`${news.hoverLink} text-nowrap btn btn-outline-dark`}
+              rel="noopener noreferrer"
+              role="button"
+              target="_blank"
+            >
+              {insta}
             </Link>
           </div>
         </div>

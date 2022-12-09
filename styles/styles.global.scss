@@ -70,13 +70,6 @@ p {
   font-size: $cardDate;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
 Link {
   color: inherit;
   text-decoration: none;
@@ -224,10 +217,6 @@ Link {
   @extend .imgTextOverlay;
 }
 
-img {
-  padding-bottom: 1rem;
-}
-
 .navIcon {
   font-size: $paragraph;
 }
@@ -326,6 +315,7 @@ img {
 .archiveBG {
   background-color: $rosyBrown;
   min-height: 100vh;
+  padding-bottom: 2rem;
   @extend .layout;
 }
 
@@ -352,8 +342,10 @@ img {
   }
   .takeoverSection {
     padding-right: 0;
+    padding-left: 0;
   }
   .radioSection {
     padding-left: 0;
+    padding-right: 0;
   }
 }

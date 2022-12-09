@@ -11,11 +11,9 @@ export default function Radio({ radios }) {
           Radios
         </h1>
 
-        <div className="col-auto px-0">
-          <Link href="/radios">
-            <a className="text-nowrap btn btn-outline-dark" role="button">
-              More
-            </a>
+        <div className="col-auto ps-0">
+          <Link href="/radios" className="text-nowrap btn btn-outline-dark" role="button">
+            More
           </Link>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import { shimmer, toBase64 } from "components/BlurImg";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 import PropTypes from "prop-types";
 import styles from "./Card.module.scss";
@@ -7,23 +7,21 @@ import styles from "./Card.module.scss";
 export const CardExternal = ({ guest }) => {
   return (
     <div className="col-4 col-md-4 col-lg-3 col-xl-2">
-      <Link href={guest.link}>
-        <a className="blackAnchor">
-          <div className={`card imgContainer ${styles.cardStyle}`}>
-            <Image
-              alt={guest.name}
-              blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(400, 400))}`}
-              height={200}
-              placeholder="blur"
-              src={`/news/${guest.img}`}
-              width={200}
-            />
-            <div className="guestOverlay">
-              <div className="guestTextOverlay">{guest.name}</div>
-            </div>
+      <Link href={guest.link} className="blackAnchor">
+        <div className={`card imgContainer ${styles.cardStyle}`}>
+          <Image
+            alt={guest.name}
+            blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(400, 400))}`}
+            height={200}
+            placeholder="blur"
+            src={`/news/${guest.img}`}
+            width={200}
+          />
+          <div className="guestOverlay">
+            <div className="guestTextOverlay">{guest.name}</div>
           </div>
-          <p className="nameAnchor">{guest.name}</p>
-        </a>
+        </div>
+        <p className="nameAnchor">{guest.name}</p>
       </Link>
     </div>
   );

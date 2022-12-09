@@ -37,10 +37,6 @@
   display: grid;
 }
 
-.guestPics {
-  padding: 2rem;
-}
-
 // @include breakpoint-below(xs) {
 @media (max-width: 768px) {
   .pageHeader {

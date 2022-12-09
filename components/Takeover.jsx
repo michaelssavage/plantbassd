@@ -10,11 +10,9 @@ export default function Takeover({ takeovers }) {
         <h1 className="col me-auto mb-0" name="takeovers">
           Takeovers
         </h1>
-        <div className="col-auto px-0">
-          <Link href="/takeovers">
-            <a className="text-nowrap btn btn-outline-dark" role="button">
-              More
-            </a>
+        <div className="col-auto ps-0">
+          <Link href="/takeovers" className="text-nowrap btn btn-outline-dark" role="button">
+            More
           </Link>
         </div>
       </div>

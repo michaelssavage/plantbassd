@@ -12,13 +12,11 @@ function Listing({ link, onClick, title }) {
   const router = useRouter();
   const className = router.pathname === `${link}` ? `${styles.activeLink}` : `${styles.navLink}`;
   return (
-    <Link href={link} passHref>
-      <a className="anchor">
-        <div className={className} onClick={onClick}>
-          <SocialIcon icon={title} styling={styles.navIcon} />
-          <span className={styles.navName}>{title}</span>
-        </div>
-      </a>
+    <Link href={link} className="anchor">
+      <div className={className} onClick={onClick}>
+        <SocialIcon icon={title} styling={styles.navIcon} />
+        <span className={styles.navName}>{title}</span>
+      </div>
     </Link>
   );
 }

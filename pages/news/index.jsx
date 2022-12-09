@@ -52,10 +52,8 @@ export default function NewsPage({ files }) {
         </div>
 
         <div className={styles.viewAllBtn}>
-          <Link href="/archive">
-            <a className="btn btn-dark btn-lg px-5 py-2" type="button">
-              View Archived Posts
-            </a>
+          <Link href="/archive" className="btn btn-dark btn-lg px-5 py-2" type="button">
+            View Archived Posts
           </Link>
         </div>
 

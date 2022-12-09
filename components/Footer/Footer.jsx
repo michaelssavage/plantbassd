@@ -35,8 +35,8 @@ export default function Footer() {
               <p>
                 {links.map((item, idx, arr) => (
                   <span key={item.title}>
-                    <Link href={item.link}>
-                      <a className="blackAnchor">{item.title}</a>
+                    <Link href={item.link} className="blackAnchor">
+                      {item.title}
                     </Link>
                     {idx + 1 === arr.length ? "" : " // "}
                   </span>
