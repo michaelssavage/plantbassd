@@ -1,5 +1,17 @@
 [
   {
+    "link": "/previous-guests",
+    "title": "Previous Guests"
+  },
+  {
+    "link": "/team",
+    "title": "The Team"
+  },
+  {
+    "link": "/archive",
+    "title": "Archive"
+  },
+  {
     "link": "/fresh-juice",
     "title": "Fresh Juice"
   },
@@ -16,23 +28,11 @@
     "title": "Takeovers"
   },
   {
-    "link": "/previous-guests",
-    "title": "Previous Guests"
-  },
-  {
     "link": "/links",
     "title": "Links"
   },
   {
-    "link": "/mixes",
-    "title": "Guest Mixes"
-  },
-  {
-    "link": "/team",
-    "title": "The Team"
-  },
-  {
-    "link": "/archive",
-    "title": "Archive"
+    "link": "/radios",
+    "title": "Radios"
   }
 ]

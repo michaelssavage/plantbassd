@@ -32,7 +32,7 @@ export default function Links() {
 
           <hr />
 
-          <h2 className="d-flex justify-content-end">Articles & Tracks</h2>
+          <h2 className="d-flex justify-content-end">Most Recent</h2>
           {linkList.map((item) => (
             <div className={`row ${styles.buttonStyle}`} key={item.title}>
               <div className={styles.linkTitle}>
@@ -50,7 +50,7 @@ export default function Links() {
               </a>
             </div>
           ))}
-          <h2 className="d-flex justify-content-end"> Main Links</h2>
+          <h2 className="d-flex justify-content-end">Discovery</h2>
           {mainLinks.map((item) => (
             <div className={`row ${styles.buttonStyle}`} key={item.title}>
               <div className={styles.linkTitle}>
