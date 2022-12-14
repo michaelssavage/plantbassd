@@ -1,4 +1,9 @@
 export const linkList = [
+   {
+    title: "PREMIERE: DROMEK - Mistura De Bossa",
+    link: "https://on.soundcloud.com/CDvzZ",
+    icon: "premiere",
+  },
   {
     title: "FUSE X Plant Bass'd Hogmanay",
     link: "https://ra.co/events/1628390",
