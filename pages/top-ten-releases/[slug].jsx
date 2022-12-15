@@ -13,7 +13,7 @@ export default function TopTenSlug({ title, date, cover, intro, header, insta, c
   return (
     <>
       <Head>
-        <title>Plant Bass'd Reviews</title>
+        <title>{header} - Plant Bass'd Reviews</title>
       </Head>
       <div className={styles.outerSection}>
         <div className="container">
