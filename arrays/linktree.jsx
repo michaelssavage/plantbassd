@@ -1,13 +1,23 @@
 export const linkList = [
-   {
-    title: "PREMIERE: DROMEK - Mistura De Bossa",
-    link: "https://on.soundcloud.com/CDvzZ",
-    icon: "premiere",
-  },
   {
     title: "FUSE X Plant Bass'd Hogmanay",
     link: "https://ra.co/events/1628390",
     icon: "tickets",
+  },
+  {
+    title: "J Wax - Top 10 Releases Of The Year",
+    link: "https://www.plantbassd.com/top-ten-releases/jwax-15-12.22",
+    icon: "news",
+  },
+  {
+    title: "DJ Bastard - Top 10 Releases Of The Year",
+    link: "https://www.plantbassd.com/top-ten-releases/dj-bastard-15-12-22",
+    icon: "news",
+  },
+  {
+    title: "PREMIERE: DROMEK - Mistura De Bossa",
+    link: "https://on.soundcloud.com/CDvzZ",
+    icon: "premiere",
   },
   {
     title: "Darkmavis - Top 10 Releases Of The Year",
@@ -123,6 +133,11 @@ export const linkList = [
 
 export const mainLinks = [
   {
+    title: "Plant Bass'd Home",
+    link: "/",
+    icon: "site",
+  },
+  {
     title: "Plantbass'd & Friends Top Ten Releases 2022",
     link: "https://open.spotify.com/playlist/3EV4meqUK8g5IEYGqxsvNf",
     icon: "spotify",
@@ -136,10 +151,5 @@ export const mainLinks = [
     title: "Get In Contact",
     link: "/team#get-in-touch",
     icon: "contact us",
-  },
-  {
-    title: "Plant Bass'd Home",
-    link: "/",
-    icon: "site",
   },
 ];
