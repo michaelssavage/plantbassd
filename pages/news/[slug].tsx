@@ -34,7 +34,7 @@ export default function NewsSlug({ content, frontmatter }: NewsSlugProps) {
   return (
     <>
       <Head>
-        <title>Plant Bass'd News</title>
+        <title>News</title>
       </Head>
       <div className={styles.newsSection}>
         <div className="container">

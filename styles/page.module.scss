@@ -2,8 +2,8 @@
 
 .pageHeader {
   text-align: center;
-  padding-top: 15vh;
-  font-size: $lgHeader;
+  padding-top: 10vh;
+  font-size: clamp(1.4rem, 10vw, 2.8rem);
 }
 
 .pageText {
@@ -39,11 +39,6 @@
 
 // @include breakpoint-below(xs) {
 @media (max-width: 768px) {
-  .pageHeader {
-    padding-top: 10vh;
-    font-size: $mdHeader;
-  }
-
   .searchFilter {
     width: 100%;
     order: 2;
@@ -54,18 +49,6 @@
 @media (max-width: 576px) {
   .spotify {
     order: 1;
-  }
-}
-
-@include breakpoint-below(xs) {
-  .pageHeader {
-    font-size: $smHeader;
-  }
-}
-
-@include breakpoint-below(xxs) {
-  .pageHeader {
-    font-size: $xsHeader;
   }
 }
 

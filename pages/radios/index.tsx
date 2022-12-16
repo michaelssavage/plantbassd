@@ -27,7 +27,7 @@ export default function RadioPage({ radios }: RadiosProps[]) {
   return (
     <>
       <Head>
-        <title>Plant Bass'd Mixes</title>
+        <title>Mixes</title>
       </Head>
 
       <div className="radioBG">

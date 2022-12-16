@@ -26,7 +26,7 @@ export default function RadioSlug({ content, frontmatter }: RadioSlugProps) {
   return (
     <>
       <Head>
-        <title>Plant Bass'd Mixes</title>
+        <title>Mixes</title>
       </Head>
       <div className={styles.newsSection}>
         <div className="container">

@@ -27,14 +27,15 @@ export default function PremieresPage({ premieres }: NewsProps[]) {
   return (
     <>
       <Head>
-        <title>Plant Bass'd Premieres</title>
+        <title>Premieres</title>
       </Head>
 
       <div className="radioBG">
         <h1 className={styles.pageHeader}>Plant Bass'd Premieres</h1>
 
         <p className={styles.pageText}>
-          New track premieres from around the world. Listen to the {premieres.length} tunes on our SoundCloud.
+          New track premieres from around the world. Listen to the {premieres.length} tunes on our
+          SoundCloud.
         </p>
         <div className="row align-items-center">
           <div className={`col-md-4 me-auto input-group ${styles.radioFilter}`}>
@@ -56,13 +57,17 @@ export default function PremieresPage({ premieres }: NewsProps[]) {
               role="button"
               target="_blank"
             >
-              <SocialIcon icon="soundcloud" /> Plant Bass'd Premieres
+              <SocialIcon icon="soundcloud" /> Premieres
             </a>
           </div>
         </div>
         <div className="row g-3">
           {postCards.map((premiere) => (
-            <CardNoText key={premiere.frontmatter.name} link={`/premieres/${premiere.slug}`} post={premiere} />
+            <CardNoText
+              key={premiere.frontmatter.name}
+              link={`/premieres/${premiere.slug}`}
+              post={premiere}
+            />
           ))}
         </div>
 

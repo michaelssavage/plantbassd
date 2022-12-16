@@ -7,7 +7,7 @@ export default function useRellax() {
       center: false,
       horizontal: false,
       round: true,
-      speed: -5,
+      speed: -7.5,
       vertical: true,
       wrapper: null,
     });

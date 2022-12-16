@@ -23,7 +23,11 @@ const newsTags = [
 ];
 
 export default function NewsPage({ files }: NewsProps[]) {
-  const { error, handleTags, hasErrored, newsStories, tagList } = useFilterTags(newsTags, "news", files);
+  const { error, handleTags, hasErrored, newsStories, tagList } = useFilterTags(
+    newsTags,
+    "news",
+    files
+  );
 
   if (hasErrored) {
     <Error error={error} />;
@@ -32,13 +36,14 @@ export default function NewsPage({ files }: NewsProps[]) {
   return (
     <>
       <Head>
-        <title>Plant Bass'd News</title>
+        <title>News</title>
       </Head>
       <div className="newsBG">
         <h1 className={styles.pageHeader}>Plant Bass'd News</h1>
 
         <p className={styles.pageText}>
-          News about club guides, gigs, and all things Plant Bass'd. Keep up to date on our Instagram,{" "}
+          News about club guides, gigs, and all things Plant Bass'd. Keep up to date on our
+          Instagram,{" "}
           <a className="blackAnchor" href="http://instagram.com/plantbassd___">
             @plantbassd___
           </a>
@@ -48,7 +53,11 @@ export default function NewsPage({ files }: NewsProps[]) {
 
         <div className="row g-3">
           {newsStories.map((story) => (
-            <CardWithText key={story.frontmatter.name} link={`/${story.frontmatter.path}/${story.slug}`} post={story} />
+            <CardWithText
+              key={story.frontmatter.name}
+              link={`/${story.frontmatter.path}/${story.slug}`}
+              post={story}
+            />
           ))}
         </div>
 

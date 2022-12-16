@@ -1,14 +1,13 @@
 import Link from "next/link";
 import { CardNoText } from "components/Card";
 import { FreshJuiceProps } from "types/frontmatter";
+import Header from "./Header";
 
 export default function FreshJuice({ freshjuice }: FreshJuiceProps[]) {
   return (
     <section className="freshSection">
       <div className="row mb-2 align-items-center">
-        <h1 className="col me-auto mb-0" name="fresh-juice">
-          Fresh Juice
-        </h1>
+        <Header name="fresh-juice" first="Fresh" second="Juice" />
 
         <div className="col-auto ps-0">
           <Link href="/fresh-juice" className="text-nowrap btn btn-outline-dark" role="button">
@@ -23,7 +22,11 @@ export default function FreshJuice({ freshjuice }: FreshJuiceProps[]) {
 
       <div className="row g-2">
         {freshjuice.map((artist) => (
-          <CardNoText key={artist.frontmatter.name} link={`/fresh-juice/${artist.slug}`} post={artist} />
+          <CardNoText
+            key={artist.frontmatter.name}
+            link={`/fresh-juice/${artist.slug}`}
+            post={artist}
+          />
         ))}
       </div>
     </section>

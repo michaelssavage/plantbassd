@@ -2,7 +2,7 @@
 title: "FUSE x Plant Bass'd Hogmanay"
 name: "fuse plant bass'd hogmanay gig glasgow casement diessa dj fluffie inez iso yso marky marbles miss cabbage poog1rl oBrother oisin vaj.power"
 date: "December 8, 2022"
-pic: "/news/28-hogmanay.jpg"
+pic: "/news/28-hog.jpg"
 tickets: "https://ra.co/events/1628390"
 postLink: "https://www.instagram.com/p/Cl53wJOqsIm/"
 bio: "FUSE and Plant Bass'd are joining forces for one last throw-down into the calendar year for a full venue Hogmanay takeover of the Flying Duck!.."

@@ -26,13 +26,14 @@ export default function FreshJuicePage({ freshjuice }: FreshJuiceProps[]) {
   return (
     <>
       <Head>
-        <title>Plant Bass'd Fresh Juice</title>
+        <title>Fresh Juice</title>
       </Head>
       <div className="freshjuiceBG">
         <h1 className={styles.pageHeader}>Fresh Juice</h1>
 
         <p className={styles.pageText}>
-          Listen to the {postCards.length} new music releases from around the world that we couldn't get enough of.
+          Listen to the {postCards.length} new music releases from around the world that we couldn't
+          get enough of.
         </p>
 
         <div className="row align-items-center">
@@ -50,20 +51,24 @@ export default function FreshJuicePage({ freshjuice }: FreshJuiceProps[]) {
 
           <div className={`col-auto ${styles.socialBtns}`}>
             <a
-              className={`${styles.bandcamp} text-nowrap btn btn-dark`}
+              className={`${styles.bandcamp} btn btn-dark`}
               href="https://bandcamp.com/oisincampbellbap"
               rel="noopener noreferrer"
               role="button"
               target="_blank"
             >
-              <SocialIcon icon="bandcamp" /> Our Bandcamp Collection
+              <SocialIcon icon="bandcamp" /> Bandcamp
             </a>
           </div>
         </div>
 
         <div className="row g-3">
           {postCards.map((radio) => (
-            <CardNoText key={radio.frontmatter.name} link={`/fresh-juice/${radio.slug}`} post={radio} />
+            <CardNoText
+              key={radio.frontmatter.name}
+              link={`/fresh-juice/${radio.slug}`}
+              post={radio}
+            />
           ))}
         </div>
 

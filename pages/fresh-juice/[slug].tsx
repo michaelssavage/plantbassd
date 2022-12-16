@@ -25,7 +25,7 @@ export default function FreshJuiceSlug({ frontmatter, content }: FreshJuiceSlugP
   return (
     <>
       <Head>
-        <title>Plant Bass'd Fresh Juice</title>
+        <title>Fresh Juice</title>
       </Head>
       <div className={styles.newsSection}>
         <div className="container">

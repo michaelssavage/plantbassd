@@ -8,16 +8,16 @@ import styles from "styles/slug.module.scss";
 import Footer from "components/Footer";
 import GoBack from "components/GoBack";
 
-interface TopTenSlugProps {
+interface GuidesProps {
   content: string;
   title: string;
 }
 
-export default function TopTenSlug({ title, content }: TopTenSlugProps) {
+export default function Guides({ title, content }: GuidesProps) {
   return (
     <>
       <Head>
-        <title>Plant Bass'd Reviews</title>
+        <title>Reviews</title>
       </Head>
       <div className={styles.newsSection}>
         <div className="container">

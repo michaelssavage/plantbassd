@@ -1,6 +1,5 @@
 import Link from "next/link";
 import links from "arrays/footer-links";
-
 import styles from "./Footer.module.scss";
 
 export default function Footer() {
@@ -8,7 +7,7 @@ export default function Footer() {
     <footer className="footerSection">
       <div className="row mb-0 pb-0">
         <div className="col-md-6 col-sm-12 col-12">
-          <h1 className="mb-0">Plant Bass'd</h1>
+          <h1 className={styles.sectionHeader}>Plant Bass'd</h1>
           <div className={styles.footerParagraph}>
             <p className={styles.justifyContent}>
               Profiling the experimental dance music world & throwing parties in between.
@@ -35,7 +34,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="row m-0 pb-2">
-        <div className="col px-0">
+        <div className={styles.siteBy}>
           <p className="small m-0">
             Site by{" "}
             <a
@@ -48,8 +47,8 @@ export default function Footer() {
             </a>
           </p>
         </div>
-        <div className="col ps-3 pe-0">
-          <p className="small m-0 text-end">
+        <div className={styles.allRights}>
+          <p className="small m-0">
             {"© "} {new Date().getFullYear()}
             {" Plant Bass'd. All rights reserved."}
           </p>

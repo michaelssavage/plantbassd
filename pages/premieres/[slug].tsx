@@ -25,7 +25,7 @@ export default function PremieresSlug({ content, frontmatter }: PremieresSlugPro
   return (
     <>
       <Head>
-        <title>Plant Bass'd News</title>
+        <title>Premieres</title>
       </Head>
       <div className={styles.newsSection}>
         <div className="container">

@@ -1,0 +1,163 @@
+---
+title: "Top 10 Releases Of The Year"
+name: "top 10 releases picks dj bastard"
+date: "December 15, 2022"
+tags: "reviews"
+pic: "/top-ten-releases/6-djBastard.png"
+cover: "/top-ten-releases/6-dj-bastard.jpg"
+bio: "One of Scotland’s most interesting producers of electro, footwork, speed baile and beyond, DJ Bastard shares his 10 favourite releases of the year..."
+path: "top-ten-releases"
+header: "DJ Bastard"
+insta: "https://www.instagram.com/dj_bastard/"
+intro: "One of Scotland’s most interesting producers of electro, footwork, speed baile and beyond, DJ Bastard shares his 10 favourite releases of the year ordered by his preference from 1 to 10."
+---
+
+## 1. Expiration - Wee DJs (Posh End Music) 
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/djbastard/1.jpg" alt="Expiration - Wee DJs (Posh End Music) " width="100%" />
+</div>
+<div class="col clubGuide">
+
+Expiration was released in August this year on Fear-E's label "Posh End Music"; this five-track ep by Wee DJs has been one of my favourite electro releases this year by far! Wee DJs expertly combines dark electro energy with bouncy rhythms to make an EP that will keep you on your toes and get any electro-head charged up!
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://fear-e.bandcamp.com/album/expiration" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+
+</div>
+</div>
+
+## 2. Two for tha five Vol.1 - Taso (Teklife)
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/djbastard/2.jpg" alt="Two for tha five Vol.1 - Taso (Teklife) cover art" width="100%" />
+</div>
+<div class="col clubGuide">
+
+Taso was one of the first members of Teklife that I really started digging when i discovered juke and footwork. This EP is testament to the skills of this don. Killing me (with your love) is a supercharged juke banger that is both vibey and hard; whilst one blunt is MAD! One blunt is one of those juke tracks that i LOVE - combining both high energy footwork with a trapped out drop - a must cop for any footwork heads.
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://tasoteklife.bandcamp.com/album/two-for-tha-five-vol-1" rel="noopener noreferrer" target="_blank">BandCamp</a>
+
+</div>
+</div>
+
+## 3. 0860 - Fracture (Astrophonica) 
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/djbastard/3.jpg" alt="0860 - Fracture (Astrophonica) " width="100%" />
+</div>
+<div class="col clubGuide">
+
+I've been a big fan of fracture for a long time and when i heard that he was releasing an all old-skool jungle LP (inspired by pirate radio) - I had to get it! This one is for the propa' junglists; 8 tracks exploring old-skool jungle make up this ripper of a release - with deep bass, vocals, rough n ready breaks and plenty a skankin material included!
+
+Listen here: <a class="btn btn-outline-dark" role="button" href="https://soundcloud.com/astrophonica/fracture-0860-mixtape" rel="noopener noreferrer" target="_blank">SoundCloud</a>
+
+</div>
+</div>
+
+## 4. Coming in hot - Morelia (Das Booty)
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/djbastard/4.jpg" alt="Coming in hot - Morelia (Das Booty)" width="100%" />
+</div>
+<div class="col clubGuide">
+
+This release came from Elastic Rhythms & Teethy boss Morelia, on my good pals' label Das Booty. Man, this one is sick! Combining acid, booty, 160 and breaks - this ep is loaded to the brim with bangers that are sure-fire dancefloor destroyers. Morelia really showed how capable he is with this one - and i'm very excited to see what he puts out in 2023!
+
+Listen here: <a class="btn btn-outline-dark" role="button" href="https://soundcloud.com/gimmeabreakrecords/premiere-morelia-coming-in-hot-das-booty" rel="noopener noreferrer" target="_blank">SoundCloud</a>
+
+</div>
+</div>
+
+## 5. Iced Out - Jetski & Samurai Breaks (Traxhaven)
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/djbastard/5.jpg" alt="Iced Out - Jetski & Samurai Breaks (Traxhaven)" width="100%" />
+</div>
+<div class="col clubGuide">
+
+For number 5; I've gone with a two track shredda from the dons that are Jetski and Samurai breaks. Samurai breaks has been one of my favourite artists since I started dj'ing and has continuously impressed me with his talent in production; likewise - I discovered Jetski a couple of years back and have really enjoyed what the guy's been putting out. This ep combines both my love of 160 / Footwok-Jungle with UK grimey sounds. Chaotic but ridiculously hard energy riddles this ep to the point that it should be illegal. If you don't have this yet - make sure ya get on it ASAP!
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://traxhaven.bandcamp.com/album/jetski-samurai-breaks-iced-out?from=hp" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+
+</div>
+</div>
+
+## 6. Missed Texts - Bastiengoat (Self-released)
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/djbastard/6.jpg" alt="Missed Texts - Bastiengoat (Self-released)" width="100%" />
+</div>
+<div class="col clubGuide">
+
+Bastiengoat is another producer that I've been digging since my introduction to dj'ing. Coming out of Oakland, U.S.A, Bastiengoat is one of the most versatile producers i've encountered. From jersey club to electro, to g-tech and footwork-jungle - Bastiengoat can do it!! This EP has something for everyone - atmospheric pads are bundled with big drops, heavy bass, and crunching breakbeats to make up a release that imma be playing for years to come!
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://bastiengoat.bandcamp.com/album/missed-texts" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+
+</div>
+</div>
+
+## 7. Tekno Sucks 100% - DJ Y (Myor)
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/djbastard/7.jpg" alt="Tekno Sucks 100% - DJ Y (Myor)" width="100%" />
+</div>
+<div class="col clubGuide">
+
+DJ Y (also known as Coco Bryce, among other aliases!) did it again this year with one hell of an ep. Relentless would be the best way to describe this one; out of the 4 tracks included in the ep - not a single one lets up for even one moment. DJ Y is an expert in bringing old skool hardcore energy into the modern age - this ep is no different and perfectly demonstrates a producer who knows how to make a collection of belters. I'd highly recommend checking out handle the presha - hardcore will never die!!
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://myor.bandcamp.com/album/tekno-sucks-100-dj-y" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+
+</div>
+</div>
+
+## 8. 0341 Gate - Cyan85 (Cutris Electronix)
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/djbastard/8.jpg" alt="0341 Gate - Cyan85 (Cutris Electronix)" width="100%" />
+</div>
+<div class="col clubGuide">
+
+This release came out all the way back in January 2022 from a producer that i really admire - Cyan85. Cyan takes a lot of his inspiration from old skool electro / g-tech and has consistently put out releases that turn heads. This LP really shows Cyan's influences, with old skool vocoded vocals accompanying squelchy basslines and 808 sounds galore - if you like electro this is a must buy!
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://curtiselectronix.bandcamp.com/album/0341-gate" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+
+</div>
+</div>
+
+## 9. SSBB003 - Audio Gutter ft Samurai Breaks & We Rob Rave
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/djbastard/9.jpg" alt="SSBB003 - Audio Gutter ft Samurai Breaks & We Rob Rave" width="100%" />
+</div>
+<div class="col clubGuide">
+
+Super Sonic Booty Bangers is the brainchild of D'tch and Samurai Breaks - first releasing in June 2021. Since then, they've put 4 HUGE releases and are fast becoming one of my favourite labels around. This release is a special one for me - back in May 2022 I was at bangface, and a track from this release (Insomniacs Anonymous - We Rob Rave remix) was spun by Tropical Selecta - man did I go nuts over this one being dropped!!! This led to me desperately trying to ID this number until it was FINALLY released in October. Not only is that track MAD (big ups WRR btw for being class producers - oh and keep an eye out for em on Hyperdome in 2023 😉), but the whole ep is absolute damage!! High energy and breaky as f\*ck perfectly describes this speedbass weapon of an ep and is one of my top recommendations for grabbing.
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://supersonicbootybangers.bandcamp.com/album/ssbb003" rel="noopener noreferrer" target="_blank">BandCamp</a>
+
+</div>
+</div>
+
+## 10. Welcome to the Hyperdome II - Various Artists (Hyperdome Records)
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/djbastard/10.jpg" alt="Welcome to the Hyperdome II - Various Artists (Hyperdome Records)" width="100%" />
+</div>
+<div class="col clubGuide">
+
+For my top release of the year - I might be a little bit biased.... as it's my label Hyperdome Records' second volume in our Welcome to the Hyperdome V/A series! The music that I release on Hyperdome has always been and will continue to be, from artists who really have something special and that can make quality music. I brought together 28 artists to make 26 dancefloor destroyers - exploring juke and footwork; Miami bass; electro; booty; techno; jungle; hardcore and 160. All the artists on this release put together top-quality productions and it makes me extremely proud to have em all on and see folks loving the music we put out. If you haven't already checked out the V/A, well... you really should (of course I'd say that 😉) - but seriously; no matter what your dance music taste is - I am confident that this compilation has something for you! This compilation epitomises what Hyperdome is all about and has been a great way to warm up what's looking to be a busy 2023 for the label!
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://hyperdomerecords.bandcamp.com/album/hyprecs-010-welcome-to-the-hyperdome-ii" rel="noopener noreferrer" target="_blank">BandCamp</a>
+
+</div>
+</div>

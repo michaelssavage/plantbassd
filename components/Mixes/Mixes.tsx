@@ -19,12 +19,13 @@ export default function Mixes() {
 
         <div className="col-lg-6 col-md-12">
           <div className={styles.clubDescriptor}>
-            <h1 className="header" name="mixes">
+            <h1 className={styles.sectionHeader} name="mixes">
               Mixes
             </h1>
             <p>
-              Serving up the hot club sounds of ballroom, US club, electro, ghetto tech, footwork, techno & more on
-              EHFM, ITSNOTRADIO, and Aurora. Also find some House, Disco, and Groovy numbers on SET RADIO.
+              Serving up the hot club sounds of ballroom, US club, electro, ghetto tech, footwork,
+              techno & more on EHFM, ITSNOTRADIO, and Aurora. Also find some House, Disco, and
+              Groovy numbers on SET RADIO.
             </p>
             <p>
               Listen to all on our{" "}

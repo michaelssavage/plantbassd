@@ -25,7 +25,7 @@ export default function TakeoverSlug({ content, frontmatter }: TakeoverSlugProps
   return (
     <>
       <Head>
-        <title>Plant Bass'd Takeovers</title>
+        <title>Takeovers</title>
       </Head>
       <div className={styles.newsSection}>
         <div className="container">

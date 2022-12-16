@@ -22,7 +22,7 @@ intro: "XX"
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">BandCamp</a>
 
 </div>
 </div>
@@ -37,7 +37,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 XX
 
-Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Spotify</a>
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Spotify</a>
 
 </div>
 </div>
@@ -52,7 +52,7 @@ Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopen
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">BandCamp</a>
 
 </div>
 </div>
@@ -67,7 +67,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">BandCamp</a>
 
 </div>
 </div>
@@ -82,7 +82,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">BandCamp</a>
 
 </div>
 </div>
@@ -97,7 +97,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">BandCamp</a>
 
 </div>
 </div>
@@ -112,7 +112,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">BandCamp</a>
 
 </div>
 </div>
@@ -127,7 +127,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Bandcamp</a>
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">BandCamp</a>
 
 </div>
 </div>
@@ -142,7 +142,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 XX
 
-Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">YouTube</a>
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">YouTube</a>
 
 </div>
 </div>
@@ -157,7 +157,7 @@ Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopen
 
 XX
 
-Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Spotify</a>
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Spotify</a>
 
 </div>
 </div>

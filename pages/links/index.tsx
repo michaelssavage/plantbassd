@@ -10,7 +10,7 @@ export default function Links() {
   return (
     <>
       <Head>
-        <title>Plant Bass'd Links</title>
+        <title>Links</title>
       </Head>
       <div className={styles.linkPage}>
         <div className={styles.pushSides}>

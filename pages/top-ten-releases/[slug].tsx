@@ -24,7 +24,7 @@ export default function TopTenSlug(props: TopTenSlugProps) {
   return (
     <>
       <Head>
-        <title>Plant Bass'd Reviews</title>
+        <title>{header} - Reviews</title>
       </Head>
       <div className={styles.outerSection}>
         <div className="container">
@@ -92,7 +92,10 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }): GetStaticProps {
-  const markdownWithMeta = fs.readFileSync(path.join("posts/top-ten-releases", `${slug}.md`), "utf-8");
+  const markdownWithMeta = fs.readFileSync(
+    path.join("posts/top-ten-releases", `${slug}.md`),
+    "utf-8"
+  );
   const { data: frontmatter, content } = matter(markdownWithMeta);
 
   return {

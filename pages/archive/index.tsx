@@ -26,7 +26,7 @@ export default function ArchivePage({ files }: NewsProps[]) {
   return (
     <>
       <Head>
-        <title>Plant Bass'd Archive</title>
+        <title>Archive</title>
       </Head>
       <div className="archiveBG">
         <h1 className={styles.pageHeader}>Plant Bass'd Archive</h1>

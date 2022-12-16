@@ -20,7 +20,11 @@ const gigsTags = [
 ];
 
 export default function GigsPage({ gigs }: GigProps[]) {
-  const { error, handleTags, hasErrored, newsStories, tagList } = useFilterTags(gigsTags, "gig", gigs);
+  const { error, handleTags, hasErrored, newsStories, tagList } = useFilterTags(
+    gigsTags,
+    "gig",
+    gigs
+  );
 
   if (hasErrored) {
     return <Error error={error} />;
@@ -28,7 +32,7 @@ export default function GigsPage({ gigs }: GigProps[]) {
   return (
     <>
       <Head>
-        <title>Plant Bass'd Gigs</title>
+        <title>Gigs</title>
       </Head>
       <div className="gigsBG">
         <h1 className={styles.pageHeader}>Plant Bass'd Gigs</h1>
@@ -41,7 +45,11 @@ export default function GigsPage({ gigs }: GigProps[]) {
 
         <div className="row g-3">
           {newsStories.map((gig) => (
-            <CardNoText key={gig.frontmatter.name} link={`/${gig.frontmatter.path}/${gig.slug}`} post={gig} />
+            <CardNoText
+              key={gig.frontmatter.name}
+              link={`/${gig.frontmatter.path}/${gig.slug}`}
+              post={gig}
+            />
           ))}
         </div>
 
