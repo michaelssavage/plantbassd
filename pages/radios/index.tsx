@@ -1,6 +1,7 @@
 import Head from "next/head";
-import { GetStaticProps } from "next";
+import { InferGetStaticPropsType } from "next";
 import matter from "gray-matter";
+import { ChangeEvent } from "react";
 import path from "path";
 import fs from "fs";
 import { sortByDate } from "components/Utilities";
@@ -11,12 +12,12 @@ import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import SocialIcon from "components/SocialIcon";
 import GoBack from "components/GoBack";
-import { RadiosProps } from "types/frontmatter";
+import { RadioProps } from "types/frontmatter";
 
-export default function RadioPage({ radios }: RadiosProps[]) {
+export default function RadioPage({ radios }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { error, filter, hasErrored, postCards, setFilter } = useFilter(radios);
 
-  const handleSearchChange = (event) => {
+  const handleSearchChange = (event: ChangeEvent<HTMLInputElement>) => {
     setFilter(event.target.value);
   };
 
@@ -62,7 +63,7 @@ export default function RadioPage({ radios }: RadiosProps[]) {
           </div>
         </div>
         <div className="row g-3">
-          {postCards.map((radio) => (
+          {postCards.map((radio: RadioProps) => (
             <CardNoText key={radio.frontmatter.name} link={`/radios/${radio.slug}`} post={radio} />
           ))}
         </div>
@@ -75,7 +76,7 @@ export default function RadioPage({ radios }: RadiosProps[]) {
   );
 }
 
-export async function getStaticProps(): GetStaticProps {
+export async function getStaticProps() {
   const files = fs.readdirSync(path.join("posts/radios"));
   const radios = files.map((filename) => {
     const markdownWithMeta = fs.readFileSync(path.join("posts/radios", filename), "utf-8");

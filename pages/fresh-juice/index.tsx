@@ -1,6 +1,7 @@
 import Head from "next/head";
-import { GetStaticProps } from "next";
+import { InferGetStaticPropsType } from "next";
 import matter from "gray-matter";
+import { ChangeEvent } from "react";
 import path from "path";
 import fs from "fs";
 import { sortByDate } from "components/Utilities";
@@ -11,12 +12,13 @@ import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import SocialIcon from "components/SocialIcon";
 import GoBack from "components/GoBack";
-import { FreshJuiceProps } from "types/frontmatter";
 
-export default function FreshJuicePage({ freshjuice }: FreshJuiceProps[]) {
+export default function FreshJuicePage({
+  freshjuice,
+}: InferGetStaticPropsType<typeof getStaticProps>) {
   const { error, filter, hasErrored, postCards, setFilter } = useFilter(freshjuice);
 
-  const handleSearchChange = (event) => {
+  const handleSearchChange = (event: ChangeEvent<HTMLInputElement>) => {
     setFilter(event.target.value);
   };
 
@@ -80,7 +82,7 @@ export default function FreshJuicePage({ freshjuice }: FreshJuiceProps[]) {
   );
 }
 
-export async function getStaticProps(): GetStaticProps {
+export async function getStaticProps() {
   // Get files from the takeover directory
   const files = fs.readdirSync(path.join("posts/fresh-juice"));
   const freshjuice = files.map((filename) => {

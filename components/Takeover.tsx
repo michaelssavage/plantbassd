@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { CardNoText } from "components/Card";
-import { TakeoversProps } from "types/frontmatter";
+import { TakeoverProps } from "types/frontmatter";
 import Header from "./Header";
 
-export default function Takeover({ takeovers }: TakeoversProps[]) {
+export default function Takeover({ takeovers }: TakeoverProps[]) {
   return (
     <section className="takeoverSection col-lg-6 col-md-12">
       <div className="row mb-2 align-items-center">

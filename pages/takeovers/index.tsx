@@ -1,6 +1,7 @@
 import Head from "next/head";
-import { GetStaticProps } from "next";
+import { InferGetStaticPropsType } from "next";
 import matter from "gray-matter";
+import { ChangeEvent } from "react";
 import path from "path";
 import fs from "fs";
 import { sortByDate } from "components/Utilities";
@@ -11,12 +12,14 @@ import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import SocialIcon from "components/SocialIcon";
 import GoBack from "components/GoBack";
-import { TakeoversProps } from "types/frontmatter";
+import { TakeoverProps } from "types/frontmatter";
 
-export default function TakeoverPage({ takeovers }: TakeoversProps[]) {
+export default function TakeoverPage({
+  takeovers,
+}: InferGetStaticPropsType<typeof getStaticProps>) {
   const { error, filter, hasErrored, postCards, setFilter } = useFilter(takeovers);
 
-  const handleSearchChange = (event) => {
+  const handleSearchChange = (event: ChangeEvent<HTMLInputElement>) => {
     setFilter(event.target.value);
   };
 
@@ -59,7 +62,7 @@ export default function TakeoverPage({ takeovers }: TakeoversProps[]) {
           </div>
         </div>
         <div className="row g-3">
-          {postCards.map((takeover) => (
+          {postCards.map((takeover: TakeoverProps) => (
             <CardNoText
               key={takeover.frontmatter.name}
               link={`/takeovers/${takeover.slug}`}
@@ -76,7 +79,7 @@ export default function TakeoverPage({ takeovers }: TakeoversProps[]) {
   );
 }
 
-export async function getStaticProps(): GetStaticProps {
+export async function getStaticProps() {
   const files = fs.readdirSync(path.join("posts/takeovers"));
   const takeovers = files.map((filename) => {
     const markdownWithMeta = fs.readFileSync(path.join("posts/takeovers", filename), "utf-8");

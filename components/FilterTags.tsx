@@ -3,11 +3,11 @@ import styles from "styles/page.module.scss";
 
 interface TagListProps {
   name: string;
-  value: bool;
+  value: boolean;
 }
 
 interface FilterTagsProps {
-  handleTags: (tag: string) => void;
+  handleTags: (tag: TagListProps) => void;
   tagList: TagListProps[];
 }
 

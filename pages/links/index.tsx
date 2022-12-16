@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { linkList, mainLinks } from "arrays/linktree";
-import socialIconList from "arrays/social-icons";
+import { socialIcons } from "arrays/social-icons";
 import SocialIcon from "components/SocialIcon";
 import { Picture } from "components/Picture";
 import styles from "./Links.module.scss";
@@ -19,7 +19,7 @@ export default function Links() {
           </div>
 
           <div className="row">
-            {socialIconList.map((item) => (
+            {socialIcons.map((item) => (
               <div className={`col ${styles.iconContainer}`} key={item.link}>
                 <Link href={item.link}>
                   <SocialIcon icon={item.icon} styling={styles.socialIcon} />

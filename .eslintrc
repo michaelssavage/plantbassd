@@ -11,7 +11,8 @@
     "plugin:import/typescript",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
   ],
   "settings": {
     "react": { "version": "detect" },
@@ -28,7 +29,6 @@
         "groups": ["external", "builtin", "internal", "sibling", "parent", "index"]
       }
     ],
-    "indent": ["error", 2, { "SwitchCase": 1 }],
     "linebreak-style": ["error", "windows"],
     "func-style": [2, "declaration", { "allowArrowFunctions": true }],
     "quotes": ["error", "double"],
@@ -37,7 +37,6 @@
     "react/react-in-jsx-scope": "off",
     "react/no-unescaped-entities": "off",
     "react/require-default-props": "off",
-    "semi": ["error", "always"],
     "sort-imports": ["error", { "ignoreCase": true, "ignoreDeclarationSort": true }]
   },
   "ignorePatterns": ["node_modules", ".next", "build", "dist", "public"]

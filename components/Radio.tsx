@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { CardNoText } from "components/Card";
-import { RadiosProps } from "types/frontmatter";
+import { RadioProps } from "types/frontmatter";
 import Header from "./Header";
 
-export default function Radio({ radios }: RadiosProps[]) {
+export default function Radio({ radios }: RadioProps[]) {
   return (
     <section className="radioSection col-lg-6 col-md-12">
       <div className="row mb-2 align-items-center">

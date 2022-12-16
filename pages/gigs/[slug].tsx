@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { GetStaticProps } from "next";
+import { InferGetStaticPropsType } from "next";
 import matter from "gray-matter";
 import path from "path";
 import fs from "fs";
@@ -7,20 +7,12 @@ import { CardWithButtons } from "components/Card";
 import styles from "styles/slug.module.scss";
 import GigPosts from "components/GigPosts";
 import Footer from "components/Footer";
+import { StaticProps } from "types/frontmatter";
 
-interface GigsSlugProps {
-  content: string;
-  frontmatter: {
-    title: string;
-    date: string;
-    pic: string;
-    tickets?: string;
-    seeMore: string;
-    postLink: string;
-  };
-}
-
-export default function GigsSlug({ content, frontmatter }: GigsSlugProps) {
+export default function GigsSlug({
+  content,
+  frontmatter,
+}: InferGetStaticPropsType<typeof getStaticProps>) {
   const { title, date, pic, tickets, seeMore, postLink, anames, alinks, apics } = frontmatter;
 
   let buyLink = seeMore,
@@ -39,7 +31,14 @@ export default function GigsSlug({ content, frontmatter }: GigsSlugProps) {
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            <GigPosts alinks={alinks} anames={anames} apics={apics} content={content} date={date} title={title} />
+            <GigPosts
+              alinks={alinks}
+              anames={anames}
+              apics={apics}
+              content={content}
+              date={date}
+              title={title}
+            />
             <CardWithButtons
               artist={buyText}
               insta="Instagram"
@@ -70,7 +69,7 @@ export function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params: { slug } }): GetStaticProps {
+export async function getStaticProps({ params: { slug } }: StaticProps) {
   const markdownWithMeta = fs.readFileSync(path.join("posts/gigs", `${slug}.md`), "utf-8");
   const { data: frontmatter, content } = matter(markdownWithMeta);
 

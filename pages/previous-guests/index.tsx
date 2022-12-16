@@ -1,5 +1,5 @@
 import Head from "next/head";
-import guestList from "arrays/previous-guests";
+import { guestList } from "arrays/previous-guests";
 import { CardExternal } from "components/Card";
 import Footer from "components/Footer";
 import styles from "./Previous.module.scss";

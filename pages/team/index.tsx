@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Link from "next/link";
-import socialIconList from "arrays/social-icons";
+import { socialIcons } from "arrays/social-icons";
 import Footer from "components/Footer";
 import SocialIcon from "components/SocialIcon";
 import { Picture } from "components/Picture";
 import styles from "styles/page.module.scss";
-import ourTeam from "arrays/our-team.json";
+import { ourTeam } from "arrays/our-team";
 
 export default function TeamPage() {
   return (
@@ -18,14 +18,14 @@ export default function TeamPage() {
         <h1 className={styles.pageHeader}>Our Team</h1>
 
         <p>
-          Plant Bass'd is spearheaded by Oisín Campbell, Michael Savage, and Peter Toal originating from Co. Monaghan,
-          Ireland. The collective was started in early 2020 with the intention of playing parties and sharing music
-          interests but quickly evolved into highlighting artists, releases, and club nights in the experimental dance
-          music world.
+          Plant Bass'd is spearheaded by Oisín Campbell, Michael Savage, and Peter Toal originating
+          from Co. Monaghan, Ireland. The collective was started in early 2020 with the intention of
+          playing parties and sharing music interests but quickly evolved into highlighting artists,
+          releases, and club nights in the experimental dance music world.
         </p>
         <p>
-          With shared interests and ambitions, the team looks towards creating unforgettable Plant Bass'd nights in
-          Ireland and the UK.
+          With shared interests and ambitions, the team looks towards creating unforgettable Plant
+          Bass'd nights in Ireland and the UK.
         </p>
 
         <div className="row d-flex flex-row">
@@ -47,7 +47,7 @@ export default function TeamPage() {
         <hr />
 
         <div className="row">
-          {socialIconList.map((item) => (
+          {socialIcons.map((item) => (
             <Link
               href={item.link}
               key={item.link}

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { GetStaticProps } from "next";
+import { InferGetStaticPropsType } from "next";
 import matter from "gray-matter";
 import path from "path";
 import fs from "fs";
@@ -64,7 +64,7 @@ const getPosts = (directory: string) => {
   });
 };
 
-export async function getStaticProps(): GetStaticProps {
+export async function getStaticProps() {
   const freshjuice = getPosts("posts/fresh-juice").sort(sortByDate).reverse().slice(0, 4);
   const gigs = getPosts("posts/gigs").sort(sortByDate).reverse().slice(0, 4);
   const guides = getPosts("posts/guides").sort(sortByDate).reverse().slice(0, 4);

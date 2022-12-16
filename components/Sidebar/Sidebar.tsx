@@ -2,7 +2,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import sidebarList from "arrays/sidebar-icons";
+import { sidebarList } from "arrays/sidebar-icons";
 import SocialIcon from "components/SocialIcon";
 import useClickLocation from "hooks/useClickLocation";
 import styles from "./Sidebar.module.scss";
@@ -41,7 +41,12 @@ export default function Sidebar() {
         <nav className={styles.navMenu}>
           <div className={styles.navList}>
             {sidebarList.map((item) => (
-              <Listing key={item.title} link={item.link} onClick={closeSidebar} title={item.title} />
+              <Listing
+                key={item.title}
+                link={item.link}
+                onClick={closeSidebar}
+                title={item.title}
+              />
             ))}
           </div>
         </nav>

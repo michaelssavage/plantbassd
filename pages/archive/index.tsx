@@ -1,6 +1,7 @@
 import Head from "next/head";
 import matter from "gray-matter";
-import { GetStaticProps } from "next";
+import { InferGetStaticPropsType } from "next";
+import { ChangeEvent } from "react";
 import path from "path";
 import fs from "fs";
 import { sortByDate } from "components/Utilities";
@@ -10,12 +11,11 @@ import useFilter from "hooks/useFilter";
 import { CardWithText } from "components/Card";
 import styles from "styles/page.module.scss";
 import GoBack from "components/GoBack";
-import { NewsProps } from "types/frontmatter";
 
-export default function ArchivePage({ files }: NewsProps[]) {
+export default function ArchivePage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { error, filter, hasErrored, postCards, setFilter } = useFilter(files);
 
-  const handleSearchChange = (event) => {
+  const handleSearchChange = (event: ChangeEvent<HTMLInputElement>) => {
     setFilter(event.target.value);
   };
 
@@ -63,7 +63,7 @@ export default function ArchivePage({ files }: NewsProps[]) {
   );
 }
 
-export async function getStaticProps(): GetStaticProps {
+export async function getStaticProps() {
   const getAllPosts = (dirPath, posts) => {
     const allPosts = posts || [];
     const folders = fs.readdirSync(dirPath);

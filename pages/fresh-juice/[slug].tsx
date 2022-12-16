@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { GetStaticProps } from "next";
+import { InferGetStaticPropsType } from "next";
 import matter from "gray-matter";
 import path from "path";
 import fs from "fs";
@@ -7,20 +7,12 @@ import { CardWithButtons } from "components/Card";
 import styles from "styles/slug.module.scss";
 import Footer from "components/Footer";
 import Content from "components/SlugContent";
+import { StaticProps } from "types/frontmatter";
 
-interface FreshJuiceSlugProps {
-  content: string;
-  frontmatter: {
-    title: string;
-    date: string;
-    pic: string;
-    tickets: string;
-    seeMore: string;
-    postLink: string;
-  };
-}
-
-export default function FreshJuiceSlug({ frontmatter, content }: FreshJuiceSlugProps) {
+export default function FreshJuiceSlug({
+  frontmatter,
+  content,
+}: InferGetStaticPropsType<typeof getStaticProps>) {
   const { artist = "Bandcamp", title, date, pic, bandcamp, postLink } = frontmatter;
   return (
     <>
@@ -62,7 +54,7 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params: { slug } }): GetStaticProps {
+export async function getStaticProps({ params: { slug } }: StaticProps) {
   const markdownWithMeta = fs.readFileSync(path.join("posts/fresh-juice", `${slug}.md`), "utf-8");
   const { data: frontmatter, content } = matter(markdownWithMeta);
 

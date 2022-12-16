@@ -1,4 +1,10 @@
-import { AiFillHome, AiOutlineFacebook, AiOutlineInstagram, AiOutlineLink, AiOutlineMail } from "react-icons/ai";
+import {
+  AiFillHome,
+  AiOutlineFacebook,
+  AiOutlineInstagram,
+  AiOutlineLink,
+  AiOutlineMail,
+} from "react-icons/ai";
 import { BiRadio } from "react-icons/bi";
 import { BsFillVolumeUpFill } from "react-icons/bs";
 import { FaSpotify } from "react-icons/fa";
@@ -16,7 +22,7 @@ interface SwitcherProps {
 
 interface SocialIconProps {
   icon: string;
-  styling: string;
+  styling?: string;
 }
 
 function Switcher({ icon }: SwitcherProps) {

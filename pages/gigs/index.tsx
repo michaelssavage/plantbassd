@@ -1,6 +1,6 @@
 import Head from "next/head";
 import matter from "gray-matter";
-import { GetStaticProps } from "next";
+import { InferGetStaticPropsType } from "next";
 import path from "path";
 import fs from "fs";
 import { sortByDate } from "components/Utilities";
@@ -11,7 +11,6 @@ import useFilterTags from "hooks/useFilterTags";
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import GoBack from "components/GoBack";
-import { GigProps } from "types/frontmatter";
 
 const gigsTags = [
   { name: "edinburgh", value: false },
@@ -19,7 +18,7 @@ const gigsTags = [
   { name: "dublin", value: false },
 ];
 
-export default function GigsPage({ gigs }: GigProps[]) {
+export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { error, handleTags, hasErrored, newsStories, tagList } = useFilterTags(
     gigsTags,
     "gig",
@@ -61,7 +60,7 @@ export default function GigsPage({ gigs }: GigProps[]) {
   );
 }
 
-export async function getStaticProps(): GetStaticProps {
+export async function getStaticProps() {
   // Get files from the takeover directory
   const files = fs.readdirSync(path.join("posts/gigs"));
   const gigs = files.map((filename) => {

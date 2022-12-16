@@ -1,26 +1,18 @@
 import Head from "next/head";
 import matter from "gray-matter";
-import { GetStaticProps } from "next";
+import { InferGetStaticPropsType } from "next";
 import path from "path";
 import fs from "fs";
 import { CardWithButtons } from "components/Card";
 import styles from "styles/slug.module.scss";
 import Footer from "components/Footer";
 import Content from "components/SlugContent";
+import { StaticProps } from "types/frontmatter";
 
-interface NewsSlugProps {
-  content: string;
-  frontmatter: {
-    title: string;
-    date: string;
-    pic: string;
-    tickets?: string;
-    seeMore: string;
-    postLink: string;
-  };
-}
-
-export default function NewsSlug({ content, frontmatter }: NewsSlugProps) {
+export default function NewsSlug({
+  content,
+  frontmatter,
+}: InferGetStaticPropsType<typeof getStaticProps>) {
   const { title, date, pic, tickets, seeMore, postLink } = frontmatter;
 
   let buyLink = seeMore,
@@ -69,7 +61,7 @@ export function getStaticPaths() {
     paths,
   };
 }
-export async function getStaticProps({ params: { slug } }): GetStaticProps {
+export async function getStaticProps({ params: { slug } }: StaticProps) {
   const markdownWithMeta = fs.readFileSync(path.join("posts/news", `${slug}.md`), "utf-8");
   const { data: frontmatter, content } = matter(markdownWithMeta);
 

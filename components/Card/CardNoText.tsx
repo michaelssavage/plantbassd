@@ -4,7 +4,7 @@ import { NewsProps } from "types/frontmatter";
 import styles from "./Card.module.scss";
 
 interface CardProps {
-  columns: string;
+  columns?: string;
   link: string;
   post: NewsProps;
 }
@@ -16,7 +16,12 @@ export const CardNoText = (props: CardProps) => {
     <div className={columns}>
       <Link href={link} className="anchorColor">
         <div className={`card ${styles.cardStyle}`}>
-          <Picture alt={post.frontmatter.title} height={500} src={post.frontmatter.pic} width={500} />
+          <Picture
+            alt={post.frontmatter.title}
+            height={500}
+            src={post.frontmatter.pic}
+            width={500}
+          />
         </div>
       </Link>
     </div>

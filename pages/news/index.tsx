@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import matter from "gray-matter";
-import { GetStaticProps } from "next";
+import { InferGetStaticPropsType } from "next";
 import path from "path";
 import fs from "fs";
 import { sortByDate } from "components/Utilities";
@@ -12,7 +12,6 @@ import useFilterTags from "hooks/useFilterTags";
 import { CardWithText } from "components/Card";
 import styles from "styles/page.module.scss";
 import GoBack from "components/GoBack";
-import { NewsProps } from "types/frontmatter";
 
 const newsTags = [
   { name: "fresh juice", value: false },
@@ -22,7 +21,7 @@ const newsTags = [
   { name: "reviews", value: false },
 ];
 
-export default function NewsPage({ files }: NewsProps[]) {
+export default function NewsPage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { error, handleTags, hasErrored, newsStories, tagList } = useFilterTags(
     newsTags,
     "news",
@@ -76,8 +75,8 @@ export default function NewsPage({ files }: NewsProps[]) {
 }
 
 /* eslint-disable */
-export async function getStaticProps(): GetStaticProps {
-  const getAllPosts = (dirPath, posts) => {
+export async function getStaticProps() {
+  const getAllPosts = (dirPath = "", posts) => {
     const allPosts = posts || [];
     const folders = fs.readdirSync(dirPath);
 

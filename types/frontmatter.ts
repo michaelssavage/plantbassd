@@ -49,7 +49,7 @@ export interface NewsProps {
   };
 }
 
-export interface RadiosProps {
+export interface RadioProps {
   slug?: string;
   frontmatter: {
     title: string;
@@ -64,7 +64,7 @@ export interface RadiosProps {
   };
 }
 
-export interface TakeoversProps {
+export interface TakeoverProps {
   slug?: string;
   frontmatter: {
     title: string;
@@ -92,5 +92,11 @@ export interface TopTenProps {
     header: string;
     insta: string;
     intro: string;
+  };
+}
+
+export interface StaticProps {
+  params: {
+    slug: string;
   };
 }

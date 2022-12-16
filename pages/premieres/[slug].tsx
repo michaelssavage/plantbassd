@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { GetStaticProps } from "next";
+import { InferGetStaticPropsType } from "next";
 import matter from "gray-matter";
 import path from "path";
 import fs from "fs";
@@ -7,19 +7,12 @@ import { CardWithButtons } from "components/Card";
 import styles from "styles/slug.module.scss";
 import Footer from "components/Footer";
 import Content from "components/SlugContent";
+import { StaticProps } from "types/frontmatter";
 
-interface PremieresSlugProps {
-  content: string;
-  frontmatter: {
-    title: string;
-    date: string;
-    pic: string;
-    seeMore: string;
-    postLink: string;
-  };
-}
-
-export default function PremieresSlug({ content, frontmatter }: PremieresSlugProps) {
+export default function PremieresSlug({
+  content,
+  frontmatter,
+}: InferGetStaticPropsType<typeof getStaticProps>) {
   const { title, date, pic, seeMore, postLink, youtube } = frontmatter;
 
   return (
@@ -75,7 +68,7 @@ export function getStaticPaths() {
     paths,
   };
 }
-export async function getStaticProps({ params: { slug } }): GetStaticProps {
+export async function getStaticProps({ params: { slug } }: StaticProps) {
   const markdownWithMeta = fs.readFileSync(path.join("posts/premieres", `${slug}.md`), "utf-8");
   const { data: frontmatter, content } = matter(markdownWithMeta);
 

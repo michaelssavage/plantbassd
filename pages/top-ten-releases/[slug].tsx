@@ -1,30 +1,31 @@
 import { marked } from "marked";
 import Head from "next/head";
-import { GetStaticProps } from "next";
 import matter from "gray-matter";
+import { InferGetStaticPropsType } from "next";
 import path from "path";
 import fs from "fs";
 import { Picture } from "components/Picture";
 import SocialIcon from "components/SocialIcon";
 import Footer from "components/Footer";
+import { StaticProps } from "types/frontmatter";
 import styles from "./TopTen.module.scss";
 
-interface TopTenSlugProps {
-  content: string;
-  title: string;
-  date: string;
-  cover: string;
-  intro: string;
-  header: string;
-  insta: string;
-}
+// interface TopTenSlugProps {
+//   content: string;
+//   title: string;
+//   date: string;
+//   cover: string;
+//   intro: string;
+//   header: string;
+//   insta: string;
+// }
 
-export default function TopTenSlug(props: TopTenSlugProps) {
+export default function TopTenSlug(props: InferGetStaticPropsType<typeof getStaticProps>) {
   const { title, date, cover, intro, header, insta, content } = props;
   return (
     <>
       <Head>
-        <title>{header} - Reviews</title>
+        <title>{`${header} - Reviews`}</title>
       </Head>
       <div className={styles.outerSection}>
         <div className="container">
@@ -91,7 +92,7 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params: { slug } }): GetStaticProps {
+export async function getStaticProps({ params: { slug } }: StaticProps) {
   const markdownWithMeta = fs.readFileSync(
     path.join("posts/top-ten-releases", `${slug}.md`),
     "utf-8"

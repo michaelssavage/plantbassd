@@ -32,11 +32,11 @@ define(["./workbox-588899ac"], function (e) {
     e.precacheAndRoute(
       [
         {
-          url: "/_next/static/JJ4bazFhj1c8yCDK3kg3f/_buildManifest.js",
-          revision: "f555454e92028fcfd3b28ad2e0a773e8",
+          url: "/_next/static/8L1VKtWgKpm9HLtjBEX7K/_buildManifest.js",
+          revision: "43898822c0393b425afa9eebe8fd88bd",
         },
         {
-          url: "/_next/static/JJ4bazFhj1c8yCDK3kg3f/_ssgManifest.js",
+          url: "/_next/static/8L1VKtWgKpm9HLtjBEX7K/_ssgManifest.js",
           revision: "b6652df95db52feb4daf4eca35380933",
         },
         { url: "/_next/static/chunks/441-19a33c84f536418b.js", revision: "19a33c84f536418b" },
@@ -82,8 +82,8 @@ define(["./workbox-588899ac"], function (e) {
           revision: "5ec33a22d71226ab",
         },
         {
-          url: "/_next/static/chunks/pages/links-04c8c609de06985e.js",
-          revision: "04c8c609de06985e",
+          url: "/_next/static/chunks/pages/links-e8b0bdb5b3ee00bd.js",
+          revision: "e8b0bdb5b3ee00bd",
         },
         {
           url: "/_next/static/chunks/pages/news-0b13484cf4cb5dcb.js",

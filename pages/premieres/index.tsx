@@ -1,6 +1,7 @@
 import Head from "next/head";
-import { GetStaticProps } from "next";
+import { InferGetStaticPropsType } from "next";
 import matter from "gray-matter";
+import { ChangeEvent } from "react";
 import path from "path";
 import fs from "fs";
 import { sortByDate } from "components/Utilities";
@@ -13,10 +14,12 @@ import SocialIcon from "components/SocialIcon";
 import GoBack from "components/GoBack";
 import { NewsProps } from "types/frontmatter";
 
-export default function PremieresPage({ premieres }: NewsProps[]) {
+export default function PremieresPage({
+  premieres,
+}: InferGetStaticPropsType<typeof getStaticProps>) {
   const { error, filter, hasErrored, postCards, setFilter } = useFilter(premieres);
 
-  const handleSearchChange = (event) => {
+  const handleSearchChange = (event: ChangeEvent<HTMLInputElement>) => {
     setFilter(event.target.value);
   };
 
@@ -62,7 +65,7 @@ export default function PremieresPage({ premieres }: NewsProps[]) {
           </div>
         </div>
         <div className="row g-3">
-          {postCards.map((premiere) => (
+          {postCards.map((premiere: NewsProps) => (
             <CardNoText
               key={premiere.frontmatter.name}
               link={`/premieres/${premiere.slug}`}
@@ -79,7 +82,7 @@ export default function PremieresPage({ premieres }: NewsProps[]) {
   );
 }
 
-export async function getStaticProps(): GetStaticProps {
+export async function getStaticProps() {
   const files = fs.readdirSync(path.join("posts/premieres"));
   const premieres = files.map((filename) => {
     const markdownWithMeta = fs.readFileSync(path.join("posts/premieres", filename), "utf-8");

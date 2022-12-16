@@ -1,4 +1,10 @@
-export const linkList = [
+interface LinkProps {
+  title: string;
+  link: string;
+  icon: string;
+}
+
+export const linkList: LinkProps[] = [
   {
     title: "FUSE X Plant Bass'd Hogmanay",
     link: "https://ra.co/events/1628390",
@@ -131,7 +137,7 @@ export const linkList = [
   },
 ];
 
-export const mainLinks = [
+export const mainLinks: LinkProps[] = [
   {
     title: "Plant Bass'd Home",
     link: "/",

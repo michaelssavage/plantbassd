@@ -1,26 +1,18 @@
 import { marked } from "marked";
 import Head from "next/head";
-import { GetStaticProps } from "next";
 import matter from "gray-matter";
+import { InferGetStaticPropsType } from "next";
 import path from "path";
 import fs from "fs";
 import { CardWithButtons } from "components/Card";
 import styles from "styles/slug.module.scss";
 import Footer from "components/Footer";
+import { StaticProps } from "types/frontmatter";
 
-interface TakeoverSlugProps {
-  content: string;
-  frontmatter: {
-    title: string;
-    date: string;
-    pic: string;
-    tickets: string;
-    seeMore: string;
-    postLink: string;
-  };
-}
-
-export default function TakeoverSlug({ content, frontmatter }: TakeoverSlugProps) {
+export default function TakeoverSlug({
+  content,
+  frontmatter,
+}: InferGetStaticPropsType<typeof getStaticProps>) {
   const { title, date, pic, artistPage, postLink } = frontmatter;
   return (
     <>
@@ -78,7 +70,7 @@ export async function getStaticPaths() {
   };
 }
 
-export async function getStaticProps({ params: { slug } }): GetStaticProps {
+export async function getStaticProps({ params: { slug } }: StaticProps) {
   const markdownWithMeta = fs.readFileSync(path.join("posts/takeovers", `${slug}.md`), "utf-8");
   const { data: frontmatter, content } = matter(markdownWithMeta);
 
