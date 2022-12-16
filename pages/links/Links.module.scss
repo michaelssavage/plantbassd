@@ -6,7 +6,7 @@
 
 .pbLogo {
   justify-content: center;
-  margin: 0 28%;
+  margin: 0 36%;
   padding: 0;
 }
 
@@ -103,10 +103,18 @@
   .socialIcon {
     margin: 0.5rem 1.25rem;
   }
+
+  .pbLogo {
+    margin: 0 30%;
+  }
 }
 
 @media (max-width: 352px) {
   .socialIcon {
     margin: 0.5rem 1rem;
+  }
+
+  .pbLogo {
+    margin: 0 25%;
   }
 }

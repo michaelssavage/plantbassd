@@ -11,7 +11,7 @@
   height: 50vh;
   width: 100%;
   z-index: -1;
-  background: linear-gradient(25deg, $white 40%, transparent 41%, transparent 59%, $white 60%),
+  background: linear-gradient(25deg, $skyBlue 40%, transparent 41%, transparent 59%, $skyBlue 60%),
     linear-gradient(
       55deg,
       transparent 45%,
@@ -25,8 +25,8 @@
     ),
     linear-gradient(90deg, $plantbassdGreen 9%, transparent 10%);
   background-size: 3em 3em;
-  background-color: $white;
-  opacity: 0.4;
+  background-color: $skyBlue;
+  opacity: 0.3;
 }
 
 .frontText {
