@@ -41,7 +41,7 @@ export default function PremieresSlug({
                 height={720}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowFullScreen
                 title={title}
               />
             ) : (
@@ -55,7 +55,7 @@ export default function PremieresSlug({
     </>
   );
 }
-export function getStaticPaths() {
+export async function getStaticPaths() {
   const files = fs.readdirSync(path.join("posts/premieres"));
   const paths = files.map((filename) => ({
     params: {

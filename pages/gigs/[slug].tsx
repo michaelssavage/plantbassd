@@ -55,7 +55,7 @@ export default function GigsSlug({
     </>
   );
 }
-export function getStaticPaths() {
+export async function getStaticPaths() {
   const files = fs.readdirSync(path.join("posts/gigs"));
   const paths = files.map((filename) => ({
     params: {

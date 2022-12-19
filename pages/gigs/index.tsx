@@ -11,6 +11,7 @@ import useFilterTags from "hooks/useFilterTags";
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import GoBack from "components/GoBack";
+import { NewsProps } from "types/frontmatter";
 
 const gigsTags = [
   { name: "edinburgh", value: false },
@@ -43,7 +44,7 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
         <FilterTags handleTags={handleTags} tagList={tagList} />
 
         <div className="row g-3">
-          {newsStories.map((gig) => (
+          {newsStories.map((gig: NewsProps) => (
             <CardNoText
               key={gig.frontmatter.name}
               link={`/${gig.frontmatter.path}/${gig.slug}`}

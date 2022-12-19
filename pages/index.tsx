@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { InferGetStaticPropsType } from "next";
 import matter from "gray-matter";
 import path from "path";
 import fs from "fs";
@@ -12,16 +11,9 @@ import Radio from "components/Radio";
 import Banner from "components/Banner";
 import Premiere from "components/Premiere";
 import Takeover from "components/Takeover";
-import { FreshJuiceProps, NewsProps, RadiosProps, TakeoversProps } from "types/frontmatter";
+import { NewsProps } from "types/frontmatter";
 
-interface HomeProps {
-  allPosts: NewsProps[];
-  freshjuice: FreshJuiceProps[];
-  radios: RadiosProps[];
-  takeovers: TakeoversProps[];
-}
-
-export default function Home(props: HomeProps) {
+export default function Home(props: NewsProps[]) {
   const { allPosts, takeovers, radios, freshjuice } = props;
   return (
     <main>
@@ -52,7 +44,7 @@ const getPosts = (directory: string) => {
   const files = fs.readdirSync(path.join(directory));
 
   // Return Slug and frontmatter from posts
-  return files.map((filename) => {
+  const posts = files.map((filename) => {
     const markdownWithMeta = fs.readFileSync(path.join(directory, filename), "utf-8");
     const { data: frontmatter } = matter(markdownWithMeta);
     const slug = filename.replace(".md", "");
@@ -62,17 +54,19 @@ const getPosts = (directory: string) => {
       slug,
     };
   });
+
+  return posts.sort(sortByDate).reverse().slice(0, 4);
 };
 
 export async function getStaticProps() {
-  const freshjuice = getPosts("posts/fresh-juice").sort(sortByDate).reverse().slice(0, 4);
-  const gigs = getPosts("posts/gigs").sort(sortByDate).reverse().slice(0, 4);
-  const guides = getPosts("posts/guides").sort(sortByDate).reverse().slice(0, 4);
-  const news = getPosts("posts/news").sort(sortByDate).reverse().slice(0, 4);
-  const radios = getPosts("posts/radios").sort(sortByDate).reverse().slice(0, 2);
-  const premieres = getPosts("posts/premieres").sort(sortByDate).reverse().slice(0, 4);
-  const takeovers = getPosts("posts/takeovers").sort(sortByDate).reverse().slice(0, 2);
-  const topTen = getPosts("posts/top-ten-releases").sort(sortByDate).reverse().slice(0, 4);
+  const freshjuice = getPosts("posts/fresh-juice");
+  const gigs = getPosts("posts/gigs");
+  const guides = getPosts("posts/guides");
+  const news = getPosts("posts/news");
+  const radios = getPosts("posts/radios");
+  const premieres = getPosts("posts/premieres");
+  const takeovers = getPosts("posts/takeovers");
+  const topTen = getPosts("posts/top-ten-releases");
   const allPosts = []
     .concat(freshjuice, gigs, guides, news, radios, premieres, takeovers, topTen)
     .sort(sortByDate)

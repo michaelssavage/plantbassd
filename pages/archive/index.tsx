@@ -64,7 +64,7 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
 }
 
 export async function getStaticProps() {
-  const getAllPosts = (dirPath, posts) => {
+  const getAllPosts = (dirPath: string, posts?: string) => {
     const allPosts = posts || [];
     const folders = fs.readdirSync(dirPath);
 
@@ -86,7 +86,7 @@ export async function getStaticProps() {
     return allPosts;
   };
 
-  const files = getAllPosts("posts").sort(sortByDate).reverse();
+  const files = getAllPosts("", "posts").sort(sortByDate).reverse();
 
   return {
     props: {

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { MouseEvent, useEffect, useRef, useState } from "react";
 
 export default function useClickLocation() {
   const [sidebar, setSidebar] = useState(false);
@@ -11,7 +11,7 @@ export default function useClickLocation() {
     setSidebar(!sidebar);
   };
   useEffect(() => {
-    const handler = (event) => {
+    const handler = (event: MouseEvent) => {
       if (!navMenu.current.contains(event.target) && sidebar) {
         closeSidebar();
       }

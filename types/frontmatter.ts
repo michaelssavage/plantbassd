@@ -39,8 +39,8 @@ export interface NewsProps {
     title: string;
     name: string;
     date: string;
-    tags: string;
     pic: string;
+    tags?: string;
     postLink: string;
     tickets?: string;
     seeMore?: string;
@@ -99,4 +99,9 @@ export interface StaticProps {
   params: {
     slug: string;
   };
+}
+
+export interface TagProps {
+  name: string;
+  value: boolean;
 }

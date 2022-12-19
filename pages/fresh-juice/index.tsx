@@ -12,6 +12,7 @@ import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import SocialIcon from "components/SocialIcon";
 import GoBack from "components/GoBack";
+import { NewsProps } from "types/frontmatter";
 
 export default function FreshJuicePage({
   freshjuice,
@@ -65,7 +66,7 @@ export default function FreshJuicePage({
         </div>
 
         <div className="row g-3">
-          {postCards.map((radio) => (
+          {postCards.map((radio: NewsProps) => (
             <CardNoText
               key={radio.frontmatter.name}
               link={`/fresh-juice/${radio.slug}`}

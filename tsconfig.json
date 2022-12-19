@@ -3,21 +3,13 @@
     "target": "es5",
     "baseUrl": ".",
     "paths": {
-      "@/forwards/*": [
-        "styles/abstracts/*"
-      ],
-      "@/abstracts": [
-        "styles/abstracts"
-      ]
+      "@/forwards/*": ["styles/abstracts/*"],
+      "@/abstracts": ["styles/abstracts"]
     },
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "strict": true,
+    "strict": false,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "incremental": true,
@@ -29,13 +21,6 @@
     "jsx": "preserve",
     "useDefineForClassFields": true
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    "pages/_document.js"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_document.js"],
+  "exclude": ["node_modules"]
 }

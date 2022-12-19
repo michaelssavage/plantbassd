@@ -12,6 +12,7 @@ import useFilterTags from "hooks/useFilterTags";
 import { CardWithText } from "components/Card";
 import styles from "styles/page.module.scss";
 import GoBack from "components/GoBack";
+import { NewsProps } from "types/frontmatter";
 
 const newsTags = [
   { name: "fresh juice", value: false },
@@ -51,7 +52,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
         <FilterTags handleTags={handleTags} tagList={tagList} />
 
         <div className="row g-3">
-          {newsStories.map((story) => (
+          {newsStories.map((story: NewsProps) => (
             <CardWithText
               key={story.frontmatter.name}
               link={`/${story.frontmatter.path}/${story.slug}`}
@@ -76,7 +77,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
 
 /* eslint-disable */
 export async function getStaticProps() {
-  const getAllPosts = (dirPath = "", posts) => {
+  const getAllPosts = (dirPath: string, posts?: string) => {
     const allPosts = posts || [];
     const folders = fs.readdirSync(dirPath);
 
@@ -98,7 +99,7 @@ export async function getStaticProps() {
     return allPosts;
   };
 
-  const files = getAllPosts("posts").sort(sortByDate).reverse().slice(0, 40);
+  const files = getAllPosts("", "posts").sort(sortByDate).reverse().slice(0, 40);
 
   return {
     props: {
