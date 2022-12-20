@@ -1,0 +1,44 @@
+@use "@/abstracts" as *;
+
+.pageHeader {
+  text-align: center;
+  padding-top: 15vh;
+  font-size: $lgHeader;
+}
+
+// @include breakpoint-below(xs) {
+@media (max-width: 768px) {
+  .pageHeader {
+    padding-top: 10vh;
+    font-size: $mdHeader;
+  }
+}
+
+@include breakpoint-below(xs) {
+  .pageHeader {
+    font-size: $smHeader;
+  }
+}
+
+@include breakpoint-below(xxs) {
+  .pageHeader {
+    font-size: $xsHeader;
+  }
+}
+
+.guestsBG {
+  background-color: $rosyBrown;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  padding: 0 10%;
+}
+
+@media (max-width: 376px) {
+  .guestsBG {
+    padding: 0 14%;
+  }
+}
+
+.guestPics {
+  padding: 2%;
+}

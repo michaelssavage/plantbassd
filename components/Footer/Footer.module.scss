@@ -1,25 +1,29 @@
 @use "@/abstracts" as *;
 
-.footerParagraph {
-  margin-right: 20%;
+.sectionHeader {
+  color: $headerBlack;
+  font-size: clamp(0.5rem, 8vw, 2.5rem);
+  margin-bottom: 0;
+  white-space: nowrap;
 }
 
-.siteBy {
-  margin-bottom: 0;
+.footerParagraph {
+  margin-right: 5%;
+}
+
+.bio {
+  margin-top: 0.2rem;
 }
 
 @include breakpoint-below(md) {
   .footerParagraph {
-    margin-right: 10%;
+    margin-right: 5%;
   }
 }
 
 @include breakpoint-below(sm) {
   .footerParagraph {
     margin-right: 0;
-  }
-  .siteBy {
-    margin-bottom: 1rem;
   }
 }
 
@@ -29,6 +33,25 @@
   list-style: none;
 }
 
-.justifyContent {
-  text-align: justify;
+.siteBy {
+  padding: 0;
+  flex: 1 0;
+}
+
+.allRights {
+  padding: 0 0 0 1rem;
+  flex: 1 0;
+  text-align: right;
+}
+
+@media (max-width: 360px) {
+  .siteBy {
+    flex: 0 1 auto;
+  }
+
+  .allRights {
+    padding: 0.5rem 0 0 0;
+    flex: 0 1 auto;
+    text-align: left;
+  }
 }

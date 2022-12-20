@@ -17,6 +17,11 @@
   padding-left: 2rem;
 }
 
+.sectionHeader {
+  color: $headerBlack;
+  font-size: clamp(0.5rem, 8vw, 2.5rem);
+}
+
 // @include breakpoint-below(sm) {
 @media (max-width: 768px) {
   .topImage {
@@ -43,12 +48,4 @@
   .clubDescriptor {
     padding-left: 0;
   }
-
-  .clubButton {
-    text-align: center;
-  }
-}
-
-.hoverBtn:hover {
-  color: $white !important;
 }

@@ -11,7 +11,7 @@ path: "takeovers"
 
 ### Returning to our playlist takeover series, we bring you Irish bass wiz Glimmerman who shares his 10 favourite club tracks of the moment and chats to us about his latest EP, the timely surge in bass music, and the recently re-opened Irish night scene.
 
-Listen to his playlist selections here: https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=b5c98ac9249d4e69
+Listen to his playlist selections here: https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf
 
 <img src="/takeovers/19_glimmerman/fire.jpg" alt="Glimmerman press pic" width="100%" />
 
@@ -46,4 +46,4 @@ Long may they last indeed!
 
 A big thank you to Ethan for taking the time out to chat to us and share some of his favourite sounds of the moment for our 19th edition of the Plant Bass’d Takeover!
 
-Spotify link: <a role="button" class="btn btn-dark" href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf">Plant Bass'd Picks.</a>
+Spotify link: <a role="button" class="btn btn-dark btn-sm" href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf">Plant Bass'd Picks</a>

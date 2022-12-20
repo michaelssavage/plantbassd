@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, { Head, Html, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -21,11 +21,14 @@ class MyDocument extends Document {
 					around the world through curated Spotify playlists, 
 					SoundCloud Mixes, and reviews of new releases."
           />
-          <link rel="manifest" href="/manifest.webmanifest" />
+          <link rel="manifest" href="/manifest.json" />
           <link rel="icon" href="/pb_favicon.ico" type="image/png" />
-          <link rel="apple-touch-icon" href="icons/icon-192x192.png" />
+          <link rel="apple-touch-icon" href="https://plantbassd.com/icons/icon-192x192.png" />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Plant Bass'd - Experimental dance music blog and party thrower" />
+          <meta
+            property="og:title"
+            content="Plant Bass'd - Experimental dance music blog and party thrower"
+          />
           <meta
             property="og:description"
             content="Profiling the experimental dance music world and

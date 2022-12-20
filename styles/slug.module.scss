@@ -25,21 +25,18 @@
   .postTitle {
     font-size: calc(1.3rem + 1.1vw);
   }
-}
-
-// @include breakpoint-below(sm) {
-@media (max-width: 768px) {
-  .newsSection {
-    margin-bottom: 2vh;
-  }
 
   .newsImage {
     margin: 2rem 2rem 0 2rem;
+    text-align: center;
   }
 
   .postContent {
     padding: 0 2rem;
     margin: 0;
+  }
+  .newsSection {
+    margin-bottom: 2vh;
   }
 }
 

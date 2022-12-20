@@ -1,10 +1,32 @@
 @use "@/abstracts" as *;
 
+.header {
+  color: $headerBlack;
+  font-size: clamp(1rem, 10vw, 4rem);
+  white-space: nowrap;
+}
+
 .bgWrap {
   position: fixed;
-  height: 100vh;
+  height: 50vh;
   width: 100%;
   z-index: -1;
+  background: linear-gradient(25deg, $skyBlue 40%, transparent 41%, transparent 59%, $skyBlue 60%),
+    linear-gradient(
+      55deg,
+      transparent 45%,
+      $plantbassdPink 45%,
+      $plantbassdPink 55%,
+      transparent 55%,
+      transparent 20%,
+      $plantbassdPink 20%,
+      $plantbassdPink 30%,
+      transparent 30%
+    ),
+    linear-gradient(90deg, $plantbassdGreen 9%, transparent 10%);
+  background-size: 3em 3em;
+  background-color: $skyBlue;
+  opacity: 0.3;
 }
 
 .frontText {

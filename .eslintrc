@@ -1,50 +1,43 @@
 {
-	"extends": [
-		"eslint:recommended",
-		"next/core-web-vitals",
-		"plugin:react/recommended",
-		"plugin:react-hooks/recommended",
-		"plugin:import/recommended"
-	],
-	"env": {
-		"browser": true,
-		"es2021": true,
-		"node": true
-	},
-	"rules": {
-		"id-length": ["error", { "exceptionPatterns": ["a|b"] }],
-		"import/no-named-as-default": "off",
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "plugins": ["react", "@typescript-eslint", "import"],
+  "extends": [
+    "eslint:recommended",
+    "next/core-web-vitals",
+    "plugin:import/recommended",
+    "plugin:import/typescript",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "settings": {
+    "react": { "version": "detect" },
+    "import/parsers": { "@typescript-eslint/parser": [".ts", ".tsx"] },
+    "import/resolver": { "typescript": { "alwaysTryTypes": true } }
+  },
+  "rules": {
+    "id-length": ["error", { "exceptionPatterns": ["a|b"] }],
+    "import/no-named-as-default": "off",
     "import/no-unresolved": 0,
-		"import/order": [1, { "groups": 
-      ["external", 
-      "builtin", 
-      "internal", 
-      "sibling", 
-      "parent", 
-      "index"
-    ]}],
+    "import/order": [
+      1,
+      {
+        "groups": ["external", "builtin", "internal", "sibling", "parent", "index"]
+      }
+    ],
     "linebreak-style": ["error", "windows"],
-		"func-style": [2, "declaration", { "allowArrowFunctions": true }],
-		"max-lines-per-function": ["error", 80],
-    "max-params": ["error", 4],
-		"no-magic-numbers": "off",
-    "no-new": 0,
-		"no-ternary": "off",
-    "one-var": "off",
-    "max-statements": ["error", 11],
+    "func-style": [2, "declaration", { "allowArrowFunctions": true }],
+    "quotes": ["error", "double"],
     "no-console": 1,
-		"react/jsx-max-depth": "off",
-		"react/jsx-no-literals": "off",
-		"react/jsx-no-bind": "off",
-		"react/jsx-props-no-spreading": "off",
-		"react/jsx-uses-react": "off",
-    "react/forbid-component-props": 0,
-		"react/no-unescaped-entities": "off",
-		"react/no-multi-comp": "off",
-		"react/no-danger": "off",
-		"react/react-in-jsx-scope": "off",
-		"react/require-default-props": "off",
-		"sort-imports": ["error", {"ignoreCase": true, "ignoreDeclarationSort": true}]
-	},
-	"ignorePatterns": ["node_modules/", ".next/", "build", "dist", "public"]
+    "react/no-danger": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/no-unescaped-entities": "off",
+    "react/require-default-props": "off",
+    "sort-imports": ["error", { "ignoreCase": true, "ignoreDeclarationSort": true }]
+  },
+  "ignorePatterns": ["node_modules", ".next", "build", "dist", "public"]
 }

@@ -26,6 +26,7 @@
 
 .spotify {
   color: $spotify;
+  transition: 0.25s ease;
   &:hover {
     color: $headerBlack;
     background-color: $spotify;
@@ -34,6 +35,7 @@
 
 .instagram {
   color: $instagram;
+  transition: 0.25s ease;
   &:hover {
     color: $headerBlack;
     background-color: $instagram;

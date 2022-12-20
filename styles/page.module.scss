@@ -2,8 +2,8 @@
 
 .pageHeader {
   text-align: center;
-  padding-top: 15vh;
-  font-size: $lgHeader;
+  padding-top: 10vh;
+  font-size: clamp(1.4rem, 8vw, 2.8rem);
 }
 
 .pageText {
@@ -37,17 +37,8 @@
   display: grid;
 }
 
-.guestPics {
-  padding: 2rem;
-}
-
 // @include breakpoint-below(xs) {
 @media (max-width: 768px) {
-  .pageHeader {
-    padding-top: 10vh;
-    font-size: $mdHeader;
-  }
-
   .searchFilter {
     width: 100%;
     order: 2;
@@ -58,18 +49,6 @@
 @media (max-width: 576px) {
   .spotify {
     order: 1;
-  }
-}
-
-@include breakpoint-below(xs) {
-  .pageHeader {
-    font-size: $smHeader;
-  }
-}
-
-@include breakpoint-below(xxs) {
-  .pageHeader {
-    font-size: $xsHeader;
   }
 }
 
@@ -91,6 +70,7 @@
 
 .spotify {
   color: $spotify;
+  transition: 0.25s ease;
   &:hover {
     color: $headerBlack;
     background-color: $spotify;
@@ -100,6 +80,7 @@
 .soundcloud {
   color: $white;
   background-color: $soundcloud;
+  transition: 0.25s ease;
   &:hover {
     color: $headerBlack;
     background-color: $soundcloud;
@@ -109,6 +90,7 @@
 .bandcamp {
   color: $white;
   background-color: $bandcamp;
+  transition: 0.25s ease;
   &:hover {
     color: $headerBlack;
     background-color: $bandcamp;
@@ -122,21 +104,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
   font-size: $cardDate;
 }
 
 .socialIcon {
   display: flex;
-  height: 3rem;
-  width: 3rem;
-  margin: 0.5rem 0;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin: 0.5rem;
   fill: $headerBlack;
   border-radius: 1em 0 1em 0;
-}
-
-.iconText {
-  padding-left: 0.5rem;
 }
 
 @include breakpoint-below(md) {
