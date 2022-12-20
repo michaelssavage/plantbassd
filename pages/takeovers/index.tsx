@@ -34,7 +34,8 @@ export default function TakeoverPage({
         <h1 className={styles.pageHeader}>Plant Bass'd Takeovers</h1>
 
         <p className={styles.pageText}>
-          Artists select and share their top tracks on Spotify. Check out the playlist below.
+          Artists, Friends, and Guests select and share their top tracks on Spotify. Check out the
+          playlist below.
         </p>
         <div className="row align-items-center">
           {/* SEARCH BOX */}

@@ -10,9 +10,9 @@ interface Props {
 export default function Takeover({ takeovers }: Props) {
   return (
     <section className="takeoverSection col-lg-6 col-md-12">
-      <div className="row mb-2 align-items-center">
+      <div className="row mb-2 justify-content-end align-items-center">
         <Header first="Takeovers" />
-        <div className="col-auto ps-0">
+        <div className="col-auto">
           <Link href="/takeovers" className="text-nowrap btn btn-outline-dark" role="button">
             More
           </Link>
@@ -20,7 +20,7 @@ export default function Takeover({ takeovers }: Props) {
       </div>
 
       <div className="row mb-2">
-        <p>Artists, Friends, and Guests pick their Top Selects</p>
+        <p>Artists, Friends, and Guests pick their Top Selects.</p>
       </div>
 
       <div className="row g-2">

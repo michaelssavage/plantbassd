@@ -32,7 +32,7 @@ export default function PremieresPage({
       </Head>
 
       <div className="radioBG">
-        <h1 className={styles.pageHeader}>Plant Bass'd Premieres</h1>
+        <h1 className={styles.pageHeader}>Premieres</h1>
 
         <p className={styles.pageText}>
           New track premieres from around the world. Listen to the {premieres.length} tunes on our

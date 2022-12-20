@@ -25,10 +25,6 @@ export const sidebarList: SidebarProps[] = [
     title: "Premieres",
   },
   {
-    link: "/takeovers",
-    title: "Takeovers",
-  },
-  {
     link: "/team",
     title: "Contact Us",
   },

@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="col-md-6 col-sm-12 col-12">
           <h1 className={styles.sectionHeader}>Plant Bass'd</h1>
           <div className={styles.footerParagraph}>
-            <p className={styles.justifyContent}>
+            <p className={styles.bio}>
               Profiling the experimental dance music world & throwing parties in between.
             </p>
           </div>

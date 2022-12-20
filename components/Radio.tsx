@@ -21,7 +21,7 @@ export default function Radio({ radios }: Props) {
       </div>
 
       <div className="row mb-2">
-        <p>Guest Radio Mixes from homegrown organic DJs</p>
+        <p>Organic Guest Mixes For Our Radio Series.</p>
       </div>
 
       <div className="row g-2">

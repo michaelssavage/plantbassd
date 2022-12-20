@@ -22,20 +22,19 @@ export default function Mixes() {
             <h1 className={styles.sectionHeader}>Mixes</h1>
             <p>
               Serving up the hot club sounds of ballroom, US club, electro, ghetto tech, footwork,
-              techno & more on EHFM, ITSNOTRADIO, and Aurora. Also find some House, Disco, and
+              techno & more on EHFM, ITSNOTRADIO, and Aurora, as well as some House, Disco, and
               Groovy numbers on SET RADIO.
             </p>
             <p>
               Listen to all on our{" "}
               <a
-                className="blackAnchor"
+                className="btn btn-outline-dark"
                 href="https://soundcloud.com/plantbassddjs"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 SoundCloud
               </a>
-              .
             </p>
           </div>
         </div>

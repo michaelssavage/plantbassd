@@ -23,7 +23,7 @@ export const CardWithButtons = (props: CardProps) => {
           <div className={`col ${styles.button}`}>
             <Link
               href={page}
-              className={`${styles.hoverLink} text-nowrap btn btn-outline-dark`}
+              className={`${styles.hoverLink} text-nowrap btn btn-outline-dark btn-sm`}
               rel="noopener noreferrer"
               role="button"
               target="_blank"
@@ -34,7 +34,7 @@ export const CardWithButtons = (props: CardProps) => {
           <div className={`col ${styles.button}`}>
             <Link
               href={link}
-              className={`${styles.hoverLink} text-nowrap btn btn-outline-dark`}
+              className={`${styles.hoverLink} text-nowrap btn btn-outline-dark btn-sm`}
               rel="noopener noreferrer"
               role="button"
               target="_blank"

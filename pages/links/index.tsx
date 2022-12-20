@@ -3,7 +3,7 @@ import Link from "next/link";
 import { linkList, mainLinks } from "arrays/linktree";
 import { socialIcons } from "arrays/social-icons";
 import SocialIcon from "components/SocialIcon";
-import { Picture } from "components/Picture";
+import Header from "components/Header";
 import styles from "./Links.module.scss";
 
 export default function Links() {
@@ -15,7 +15,7 @@ export default function Links() {
       <div className={styles.linkPage}>
         <div className={styles.pushSides}>
           <div className={`row ${styles.pbLogo}`}>
-            <Picture alt="plant bass'd logo" height={150} src="/various/pb_white.png" width={150} />
+            <Header first="Plant" second="Bass'd" />
           </div>
 
           <div className="row">

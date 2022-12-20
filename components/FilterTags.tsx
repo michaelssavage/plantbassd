@@ -15,7 +15,7 @@ export default function FilterTags({ tagList, handleTags }: FilterTagsProps) {
       {tagList
         ? tagList.map((tag) => (
             <button
-              className={`btn btn-outline-dark ${tag.value ? "active" : ""}`}
+              className={`btn btn-outline-dark btn-sm ${tag.value ? "active" : ""}`}
               key={tag.name}
               onClick={() => handleTags(tag)}
               type="button"

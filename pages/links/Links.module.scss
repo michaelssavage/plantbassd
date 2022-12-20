@@ -5,9 +5,8 @@
 }
 
 .pbLogo {
-  justify-content: center;
-  margin: 0 36%;
-  padding: 0;
+  text-align: center;
+  padding: 3rem 0;
 }
 
 .linkHeading {
@@ -103,19 +102,15 @@
 @media (max-width: 430px) {
   .socialIcon {
     margin: 0.5rem 1.25rem;
-  }
-
-  .pbLogo {
-    margin: 0 30%;
+    height: 2rem;
+    width: 2rem;
   }
 }
 
 @media (max-width: 352px) {
   .socialIcon {
     margin: 0.5rem 1rem;
-  }
-
-  .pbLogo {
-    margin: 0 25%;
+    height: 1.75rem;
+    width: 1.75rem;
   }
 }

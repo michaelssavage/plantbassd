@@ -21,7 +21,7 @@ export default function FreshJuice({ freshjuice }: Props) {
       </div>
 
       <div className="row mb-2">
-        <p>New Music Releases Around The World</p>
+        <p>Exploring New Music Releases From Around The World.</p>
       </div>
 
       <div className="row g-2">

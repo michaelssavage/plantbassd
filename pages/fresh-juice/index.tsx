@@ -34,8 +34,8 @@ export default function FreshJuicePage({
         <h1 className={styles.pageHeader}>Fresh Juice</h1>
 
         <p className={styles.pageText}>
-          Listen to the {postCards.length} new music releases from around the world that we couldn't
-          get enough of.
+          Read about the {postCards.length} new music releases from around the world that we
+          couldn't get enough of.
         </p>
 
         <div className="row align-items-center">
