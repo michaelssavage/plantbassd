@@ -57,7 +57,7 @@ export default function TeamPage() {
             >
               <>
                 <SocialIcon icon={item.icon} styling={styles.socialIcon} />{" "}
-                <div className={styles.iconText}>{item.icon.toUpperCase()}</div>
+                <>{item.icon.toUpperCase()}</>
               </>
             </Link>
           ))}

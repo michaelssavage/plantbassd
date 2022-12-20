@@ -1,13 +1,17 @@
 import Link from "next/link";
 import { CardNoText } from "components/Card";
-import { TakeoverProps } from "types/frontmatter";
+import { AllPostProps } from "types/frontmatter";
 import Header from "./Header";
 
-export default function Takeover({ takeovers }: TakeoverProps[]) {
+interface Props {
+  takeovers: AllPostProps[];
+}
+
+export default function Takeover({ takeovers }: Props) {
   return (
     <section className="takeoverSection col-lg-6 col-md-12">
       <div className="row mb-2 align-items-center">
-        <Header name="takeovers" first="Takeovers" />
+        <Header first="Takeovers" />
         <div className="col-auto ps-0">
           <Link href="/takeovers" className="text-nowrap btn btn-outline-dark" role="button">
             More

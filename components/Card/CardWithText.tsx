@@ -1,15 +1,15 @@
 import Link from "next/link";
-import { NewsProps } from "types/frontmatter";
+import { CardProps } from "types/frontmatter";
 import { Picture } from "components/Picture";
 import styles from "./Card.module.scss";
 
-interface CardProps {
+interface Props {
   columns?: string;
   link: string;
-  post: NewsProps;
+  post: CardProps;
 }
 
-export const CardWithText = (props: CardProps) => {
+export const CardWithText = (props: Props) => {
   const { post, link, columns = "col-6 col-sm-6 col-md-6 col-lg-3" } = props;
   return (
     <div className={columns}>

@@ -11,10 +11,16 @@ import Radio from "components/Radio";
 import Banner from "components/Banner";
 import Premiere from "components/Premiere";
 import Takeover from "components/Takeover";
-import { NewsProps } from "types/frontmatter";
+import { AllPostProps } from "types/frontmatter";
 
-export default function Home(props: NewsProps[]) {
-  const { allPosts, takeovers, radios, freshjuice } = props;
+interface HomeProps {
+  allPosts: AllPostProps[];
+  takeovers: AllPostProps[];
+  radios: AllPostProps[];
+  freshjuice: AllPostProps[];
+}
+
+export default function Home({ allPosts, takeovers, radios, freshjuice }: HomeProps) {
   return (
     <main>
       <Head>

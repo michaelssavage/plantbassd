@@ -1,7 +1,7 @@
 ---
 title: "Top 10 Releases Of The Year"
 name: "top 10 releases picks oBrother oisin OISÍN"
-date: "December 16, 2022"
+date: "December 19, 2022"
 tags: "reviews"
 pic: "/top-ten-releases/4-oBrother.jpg"
 cover: "/news/19-oisin.jpg"

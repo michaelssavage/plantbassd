@@ -5,6 +5,7 @@ import Head from "next/head";
 import type { AppProps } from "next/app";
 import { ErrorBoundary } from "react-error-boundary";
 import Sidebar from "components/Sidebar";
+import { ErrorFallback } from "components/Error";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -14,7 +15,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <Sidebar />
       <Analytics />
-      <ErrorBoundary>
+      <ErrorBoundary FallbackComponent={ErrorFallback}>
         <Component {...pageProps} />
       </ErrorBoundary>
     </>

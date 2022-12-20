@@ -12,7 +12,7 @@ import useFilterTags from "hooks/useFilterTags";
 import { CardWithText } from "components/Card";
 import styles from "styles/page.module.scss";
 import GoBack from "components/GoBack";
-import { NewsProps } from "types/frontmatter";
+import { AllPostProps } from "types/frontmatter";
 
 const newsTags = [
   { name: "fresh juice", value: false },
@@ -29,9 +29,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
     files
   );
 
-  if (hasErrored) {
-    <Error error={error} />;
-  }
+  if (hasErrored) return <Error error={error} />;
 
   return (
     <>
@@ -52,7 +50,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
         <FilterTags handleTags={handleTags} tagList={tagList} />
 
         <div className="row g-3">
-          {newsStories.map((story: NewsProps) => (
+          {newsStories.map((story: AllPostProps) => (
             <CardWithText
               key={story.frontmatter.name}
               link={`/${story.frontmatter.path}/${story.slug}`}
@@ -75,31 +73,30 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
   );
 }
 
-/* eslint-disable */
 export async function getStaticProps() {
-  const getAllPosts = (dirPath: string, posts?: string) => {
-    const allPosts = posts || [];
-    const folders = fs.readdirSync(dirPath);
+  const getAllPosts = (dirPath: string, arrFiles?) => {
+    const files = fs.readdirSync(dirPath);
+    let arrayOfFiles = arrFiles || [[] as AllPostProps[]];
 
-    folders.forEach((file) => {
+    files.forEach((file) => {
       if (fs.statSync(`${dirPath}/${file}`).isDirectory()) {
         // If this is a directory, then recursively call function
-        getAllPosts(`${dirPath}/${file}`, allPosts);
+        arrayOfFiles = getAllPosts(`${dirPath}/${file}`, arrayOfFiles);
       } else {
         const markdownWithMeta = fs.readFileSync(path.join(dirPath, file), "utf-8");
         const { data: frontmatter } = matter(markdownWithMeta);
         const slug = file.replace(".md", "");
-
-        allPosts.push({
+        const blogPost = {
           frontmatter,
           slug,
-        });
+        };
+        arrayOfFiles.push(blogPost);
       }
     });
-    return allPosts;
+    return arrayOfFiles;
   };
 
-  const files = getAllPosts("", "posts").sort(sortByDate).reverse().slice(0, 40);
+  const files = getAllPosts("posts").sort(sortByDate).reverse().slice(0, 40);
 
   return {
     props: {

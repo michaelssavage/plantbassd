@@ -12,7 +12,7 @@ import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import SocialIcon from "components/SocialIcon";
 import GoBack from "components/GoBack";
-import { RadioProps } from "types/frontmatter";
+import { AllPostProps } from "types/frontmatter";
 
 export default function RadioPage({ radios }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { error, filter, hasErrored, postCards, setFilter } = useFilter(radios);
@@ -21,9 +21,7 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
     setFilter(event.target.value);
   };
 
-  if (hasErrored) {
-    return <Error error={error} />;
-  }
+  if (hasErrored) return <Error error={error} />;
 
   return (
     <>
@@ -63,7 +61,7 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
           </div>
         </div>
         <div className="row g-3">
-          {postCards.map((radio: RadioProps) => (
+          {postCards.map((radio: AllPostProps) => (
             <CardNoText key={radio.frontmatter.name} link={`/radios/${radio.slug}`} post={radio} />
           ))}
         </div>

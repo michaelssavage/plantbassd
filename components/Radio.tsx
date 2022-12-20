@@ -1,13 +1,17 @@
 import Link from "next/link";
 import { CardNoText } from "components/Card";
-import { RadioProps } from "types/frontmatter";
+import { AllPostProps } from "types/frontmatter";
 import Header from "./Header";
 
-export default function Radio({ radios }: RadioProps[]) {
+interface Props {
+  radios: AllPostProps[];
+}
+
+export default function Radio({ radios }: Props) {
   return (
     <section className="radioSection col-lg-6 col-md-12">
       <div className="row mb-2 align-items-center">
-        <Header name="radios" first="Radios" />
+        <Header first="Radios" />
 
         <div className="col-auto ps-0">
           <Link href="/radios" className="text-nowrap btn btn-outline-dark" role="button">

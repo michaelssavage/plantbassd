@@ -12,7 +12,7 @@ import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import SocialIcon from "components/SocialIcon";
 import GoBack from "components/GoBack";
-import { TakeoverProps } from "types/frontmatter";
+import { AllPostProps } from "types/frontmatter";
 
 export default function TakeoverPage({
   takeovers,
@@ -23,9 +23,8 @@ export default function TakeoverPage({
     setFilter(event.target.value);
   };
 
-  if (hasErrored) {
-    return <Error error={error} />;
-  }
+  if (hasErrored) return <Error error={error} />;
+
   return (
     <>
       <Head>
@@ -62,7 +61,7 @@ export default function TakeoverPage({
           </div>
         </div>
         <div className="row g-3">
-          {postCards.map((takeover: TakeoverProps) => (
+          {postCards.map((takeover: AllPostProps) => (
             <CardNoText
               key={takeover.frontmatter.name}
               link={`/takeovers/${takeover.slug}`}

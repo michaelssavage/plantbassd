@@ -12,7 +12,7 @@ import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import SocialIcon from "components/SocialIcon";
 import GoBack from "components/GoBack";
-import { NewsProps } from "types/frontmatter";
+import { AllPostProps } from "types/frontmatter";
 
 export default function PremieresPage({
   premieres,
@@ -23,9 +23,7 @@ export default function PremieresPage({
     setFilter(event.target.value);
   };
 
-  if (hasErrored) {
-    return <Error error={error} />;
-  }
+  if (hasErrored) return <Error error={error} />;
 
   return (
     <>
@@ -65,7 +63,7 @@ export default function PremieresPage({
           </div>
         </div>
         <div className="row g-3">
-          {postCards.map((premiere: NewsProps) => (
+          {postCards.map((premiere: AllPostProps) => (
             <CardNoText
               key={premiere.frontmatter.name}
               link={`/premieres/${premiere.slug}`}

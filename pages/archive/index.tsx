@@ -11,6 +11,7 @@ import useFilter from "hooks/useFilter";
 import { CardWithText } from "components/Card";
 import styles from "styles/page.module.scss";
 import GoBack from "components/GoBack";
+import { AllPostProps } from "types/frontmatter";
 
 export default function ArchivePage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { error, filter, hasErrored, postCards, setFilter } = useFilter(files);
@@ -19,9 +20,7 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
     setFilter(event.target.value);
   };
 
-  if (hasErrored) {
-    return <Error error={error} />;
-  }
+  if (hasErrored) return <Error error={error} />;
 
   return (
     <>
@@ -64,29 +63,29 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
 }
 
 export async function getStaticProps() {
-  const getAllPosts = (dirPath: string, posts?: string) => {
-    const allPosts = posts || [];
-    const folders = fs.readdirSync(dirPath);
+  const getAllPosts = (dirPath: string, arrFiles?) => {
+    const files = fs.readdirSync(dirPath);
+    let arrayOfFiles = arrFiles || ([] as AllPostProps[]);
 
-    folders.forEach((file) => {
+    files.forEach((file) => {
       if (fs.statSync(`${dirPath}/${file}`).isDirectory()) {
         // If this is a directory, then recursively call function
-        getAllPosts(`${dirPath}/${file}`, allPosts);
+        arrayOfFiles = getAllPosts(`${dirPath}/${file}`, arrayOfFiles);
       } else {
         const markdownWithMeta = fs.readFileSync(path.join(dirPath, file), "utf-8");
         const { data: frontmatter } = matter(markdownWithMeta);
         const slug = file.replace(".md", "");
-
-        allPosts.push({
+        const blogPost = {
           frontmatter,
           slug,
-        });
+        };
+        arrayOfFiles.push(blogPost);
       }
     });
-    return allPosts;
+    return arrayOfFiles;
   };
 
-  const files = getAllPosts("", "posts").sort(sortByDate).reverse();
+  const files = getAllPosts("posts").sort(sortByDate).reverse();
 
   return {
     props: {

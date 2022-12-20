@@ -12,7 +12,7 @@ import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import SocialIcon from "components/SocialIcon";
 import GoBack from "components/GoBack";
-import { NewsProps } from "types/frontmatter";
+import { AllPostProps } from "types/frontmatter";
 
 export default function FreshJuicePage({
   freshjuice,
@@ -23,9 +23,8 @@ export default function FreshJuicePage({
     setFilter(event.target.value);
   };
 
-  if (hasErrored) {
-    return <Error error={error} />;
-  }
+  if (hasErrored) return <Error error={error} />;
+
   return (
     <>
       <Head>
@@ -66,11 +65,11 @@ export default function FreshJuicePage({
         </div>
 
         <div className="row g-3">
-          {postCards.map((radio: NewsProps) => (
+          {postCards.map((juice: AllPostProps) => (
             <CardNoText
-              key={radio.frontmatter.name}
-              link={`/fresh-juice/${radio.slug}`}
-              post={radio}
+              key={juice.frontmatter.name}
+              link={`/fresh-juice/${juice.slug}`}
+              post={juice}
             />
           ))}
         </div>

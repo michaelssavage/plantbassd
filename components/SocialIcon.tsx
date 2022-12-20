@@ -1,19 +1,14 @@
-import {
-  AiFillHome,
-  AiOutlineFacebook,
-  AiOutlineInstagram,
-  AiOutlineLink,
-  AiOutlineMail,
-} from "react-icons/ai";
+import { AiFillHome, AiOutlineLink } from "react-icons/ai";
 import { BiRadio } from "react-icons/bi";
-import { BsFillVolumeUpFill } from "react-icons/bs";
+import { BsFacebook, BsFillVolumeUpFill, BsInstagram, BsMailbox2, BsSpotify } from "react-icons/bs";
 import { FaSpotify } from "react-icons/fa";
 import { GiTicket } from "react-icons/gi";
+import { GrSoundcloud } from "react-icons/gr";
 import { IconContext } from "react-icons";
 import { ImNewspaper } from "react-icons/im";
-import { MdContacts, MdLocalDrink } from "react-icons/md";
-import { RiSoundcloudLine, RiSpotifyLine } from "react-icons/ri";
+import { MdLocalDrink } from "react-icons/md";
 import { SiBandcamp } from "react-icons/si";
+import { TiContacts } from "react-icons/ti";
 import { useMemo } from "react";
 
 interface SwitcherProps {
@@ -32,23 +27,23 @@ function Switcher({ icon }: SwitcherProps) {
     case "news":
       return <ImNewspaper />;
     case "mixes":
-      return <RiSoundcloudLine />;
+      return <GrSoundcloud />;
     case "takeovers":
       return <FaSpotify />;
     case "radio":
       return <BiRadio />;
     case "contact us":
-      return <MdContacts />;
+      return <TiContacts />;
     case "links":
       return <AiOutlineLink />;
     case "facebook":
-      return <AiOutlineFacebook />;
+      return <BsFacebook />;
     case "instagram":
-      return <AiOutlineInstagram />;
+      return <BsInstagram />;
     case "email":
-      return <AiOutlineMail />;
+      return <BsMailbox2 />;
     case "soundcloud":
-      return <RiSoundcloudLine />;
+      return <GrSoundcloud />;
     case "bandcamp":
       return <SiBandcamp />;
     case "fresh juice":
@@ -62,7 +57,7 @@ function Switcher({ icon }: SwitcherProps) {
     case "premieres":
       return <BsFillVolumeUpFill />;
     default:
-      return <RiSpotifyLine />;
+      return <BsSpotify />;
   }
 }
 

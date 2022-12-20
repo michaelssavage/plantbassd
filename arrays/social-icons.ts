@@ -18,7 +18,7 @@ export const socialIcons: IconsProps[] = [
   },
   {
     icon: "spotify",
-    link: "https://open.spotify.com/embed/playlist/5skAgzUfGmZLwrOPNLnGVf",
+    link: "https://open.spotify.com/playlist/3EV4meqUK8g5IEYGqxsvNf",
   },
   {
     icon: "soundcloud",

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { NewsProps } from "types/frontmatter";
+import { FilterProps, TagProps } from "types/frontmatter";
 
 export default function useFilterTags(initTagList: TagProps[], filterType: string, news = []) {
   const [hasErrored, setHasErrored] = useState(false);
@@ -39,7 +39,7 @@ export default function useFilterTags(initTagList: TagProps[], filterType: strin
       const filtered =
         tags.length === 0
           ? news
-          : news.filter((story: NewsProps) =>
+          : news.filter((story: FilterProps) =>
               filterType === "news"
                 ? tags.includes(story.frontmatter.tags)
                 : tags.includes(story.frontmatter.city)

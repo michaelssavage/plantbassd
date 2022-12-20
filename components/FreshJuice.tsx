@@ -1,13 +1,17 @@
 import Link from "next/link";
 import { CardNoText } from "components/Card";
-import { FreshJuiceProps } from "types/frontmatter";
+import { AllPostProps } from "types/frontmatter";
 import Header from "./Header";
 
-export default function FreshJuice({ freshjuice }: FreshJuiceProps[]) {
+interface Props {
+  freshjuice: AllPostProps[];
+}
+
+export default function FreshJuice({ freshjuice }: Props) {
   return (
     <section className="freshSection">
       <div className="row mb-2 align-items-center">
-        <Header name="fresh-juice" first="Fresh" second="Juice" />
+        <Header first="Fresh" second="Juice" />
 
         <div className="col-auto ps-0">
           <Link href="/fresh-juice" className="text-nowrap btn btn-outline-dark" role="button">
