@@ -21,8 +21,7 @@ export default function News({ news }: Props) {
 
       <div className="row mb-2">
         <p>
-          Catch the latest about club guides, upcoming gigs & events, and more. Keep up to date on
-          our{" "}
+          Catch the latest about new music, upcoming gigs & events, and more. Find more on our{" "}
           <a
             className="blackAnchor"
             href="http://instagram.com/plantbassd___"
