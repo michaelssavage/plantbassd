@@ -1,0 +1,163 @@
+---
+title: "Top 10 Releases Of The Year"
+name: "top 10 releases picks Taurean"
+date: "December 25, 2022"
+tags: "reviews"
+pic: "/top-ten-releases/10-taurean-post.png"
+cover: "/top-ten-releases/10-taurean.jpg"
+bio: "One of Cork’s emerging selectors, TAUREAN picks of the year travel through euphoric dance and deeper atmospheric cuts..."
+path: "top-ten-releases"
+header: "Taurean"
+insta: "https://www.instagram.com/taurean444/"
+intro: "One of Cork’s emerging selectors, TAUREAN picks of the year travel through euphoric dance and deeper atmospheric cuts"
+---
+
+## 1. DJ Dolphin – Grand V (DJ Heartstring Remix)
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/taurean/1.jpg" alt="DJ Dolphin – Grand V (DJ Heartstring Remix)" width="100%" />
+</div>
+<div class="col clubGuide">
+
+2022 was an amazing year for fast-paced, euphoric eurotrance and DJ Heartstring exemplified that with this remix of DJ Dolphin’s ‘Grand V’. Feels like driving along a motorway to the airport at 5am – full of possibility
+
+Listen here: <a class="btn btn-outline-dark" role="button" href="https://soundcloud.com/uniontrance/grand-v-dj-dolphin-dj" rel="noopener noreferrer" target="_blank">SoundCloud</a>
+
+</div>
+</div>
+
+## 2. Vladimir Dubyshkin – No Tell Motel
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/taurean/2.jpg" alt="Vladimir Dubyshkin – No Tell Motel cover art" width="100%" />
+</div>
+<div class="col clubGuide">
+
+We were blessed with the release of Dubyshkin’s ‘The Botox Queen’ EP in the summer of this year, but for me this track stands out among the rest. Crisp snares and dreamy vocals ensure that this goes down a treat on the dancefloor.
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://soundcloud.com/vladimirdubyshkin/no-tell-motel" rel="noopener noreferrer" target="_blank">SoundCloud</a>
+
+</div>
+</div>
+
+## 3. Charlie Murphy – Done Man Wrong
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/taurean/3.jpg" alt="Charlie Murphy – Done Man Wrong" width="100%" />
+</div>
+<div class="col clubGuide">
+
+The intersection of grime/drill with techno was one of my favourite things to come out of 2022, with artists like Skin on Skin taking the blending of these genres to a whole other level. This track by Irish producer Charlie Murphy takes Central Cee’s ‘Khabib’ and turns it into a club-ready anthem that is guaranteed to get you bouncing.
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">SoundCloud</a>
+
+</div>
+</div>
+
+## 4. Skin on Skin – Burn Dem Bridges (Nia Archives edit)
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/taurean/4.jpg" alt="Skin on Skin – Burn Dem Bridges (Nia Archives edit)" width="100%" />
+</div>
+<div class="col clubGuide">
+
+While we’re on the topic of blending genres, Nia Archives just treated us to this jungle edit of Skin on Skin’s viral track via Stay on Sight records, off the back of her stellar Boiler Room set in October, totally taking it to another level. Nia is without a doubt one of my standout artists this year and I can’t wait to see what else she brings to the table.
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://soundcloud.com/skin0nskin/burn-dem-bridges-nia-archives" rel="noopener noreferrer" target="_blank">SoundCloud</a>
+
+</div>
+</div>
+
+## 5. TAFKAMP – 2 The Club (Sloppy Edit)
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/taurean/5.jpg" alt="TAFKAMP – 2 The Club (Sloppy Edit)" width="100%" />
+</div>
+<div class="col clubGuide">
+
+Your favourite alias’ favourite alias released a string of groovy, ghetto house inspired tracks throughout 2022, with ‘2 The Club’ providing a gritty, hard-hitting stomper sure to make you shake your booty. Cannot get enough of this man’s productions.
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Spotify</a>
+
+</div>
+</div>
+
+## 6. Two Shell - Home
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/taurean/6.jpg" alt="Two Shell - Home" width="100%" />
+</div>
+<div class="col clubGuide">
+
+When I sat down to put this list together, I actually couldn’t believe that this track was only released this year, it feels like it’s been a part of me forever. Two Shell went above and beyond to mix vocals that sound like they’re straight from outer space with a snappy breakbeat and bubbly melody to make the pop-inspired uk dub tune of your dreams.
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://open.spotify.com/track/0fAuuR5hoWZtTMpuqqxAGy" rel="noopener noreferrer" target="_blank">Spotify</a>
+
+</div>
+</div>
+
+## 7. French Affair – Sexy (Nicolas Vogler x Slomo edit)
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/taurean/7.jpg" alt="French Affair – Sexy (Nicolas Vogler x Slomo edit)" width="100%" />
+</div>
+<div class="col clubGuide">
+
+Groove is the name of the game with this one, without a doubt one of my favourite tracks to play out at the moment. It’s sharp, it’s rhythmic, it’s all of the other adjectives that you want a groovy dance track to be <3 The perfect edit for building energy and suspense during a set, it's available as a free download on SoundCloud too which just makes it even sexy-er.
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://soundcloud.com/slomoo/french-affair-sexy-slomo-x-nicolas-vogler-edit-free-download" rel="noopener noreferrer" target="_blank">SoundCloud</a>
+
+</div>
+</div>
+
+## 8. Bicep, Clara La San - Water
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/taurean/8.jpg" alt="Bicep, Clara La San - Water" width="100%" />
+</div>
+<div class="col clubGuide">
+
+Anyone lucky enough to witness Bicep’s live show in person this year will appreciate the beauty of this track. Clara La San’s floaty, angelic vocals blend perfectly with the Belfast duo’s atmospheric sound, this one makes me feel like summer is only a second away.
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://open.spotify.com/track/09cgbbadzZSKFd1hGN23p5" rel="noopener noreferrer" target="_blank">Spotify</a>
+
+</div>
+</div>
+
+## 9. Infiltrator - Groovetracer
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/taurean/9.jpg" alt="Infiltrator - Groovetracer" width="100%" />
+</div>
+<div class="col clubGuide">
+
+Sonic Intel released the most perfect ‘Groove Infinity’ VA in the summer, featuring 5 hard-hitting tracks by some of Ireland’s most talented producers. Label curator Infiltrator takes the cake on this one, with his track Groovetracer bringing hypnotic beats and a dark, warpy vocal sample to the fore. This entire VA is absolutely worth checking out.
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://soundcloud.com/motztechno/motz-premiere-infiltrator-groovetracer" rel="noopener noreferrer" target="_blank">SoundCloud</a>
+
+</div>
+</div>
+
+## 10. Burial, Four Tet - Nova
+
+<div class="row display-flex align-items-center">
+<div class="col clubGuide">
+<img src="/top-ten-releases/taurean/10.jpg" alt="Burial, Four Tet - Nova" width="100%" />
+</div>
+<div class="col clubGuide">
+
+Not really sure if this last track counts because it’s been one of those elusive, ‘only found via a youtube bootleg’ tracks for the past 9 years, however Burial and Four Tet finally decided to release Nova across platforms in February, leading to its resurgence. This track is absolutely timeless, a dreamy journey with distinctive Four Tet-esque drum patterns combined with the atmospheric sounds intrinsic to Burial’s music. One of my favourites of all time and I’m delighted it’s been freed from the shackles of Youtube music!!
+
+Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://open.spotify.com/track/7dYjEwbLJ1B5reoz3lWra0" rel="noopener noreferrer" target="_blank">Spotify</a>
+
+</div>
+</div>
