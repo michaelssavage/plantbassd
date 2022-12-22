@@ -1,7 +1,7 @@
 ---
 title: "Top 10 Releases Of The Year"
 name: "top 10 releases picks Taurean"
-date: "December 25, 2022"
+date: "December 22, 2022"
 tags: "reviews"
 pic: "/top-ten-releases/10-taurean-post.png"
 cover: "/top-ten-releases/10-taurean.jpg"
