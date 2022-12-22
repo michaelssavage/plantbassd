@@ -3,13 +3,13 @@ title: "Top 10 Releases Of The Year"
 name: "top 10 releases picks michael savage"
 date: "December 22, 2022"
 tags: "reviews"
-pic: "/top-ten-releases/michael.png"
+pic: "/top-ten-releases/12-michael.png"
 cover: "/news/michael.jpg"
-bio: "XX..."
+bio: "Plant Bass'd co-founder, Michael, shares his 2022 roundup of leftfield bass, percussion, and more..."
 path: "top-ten-releases"
 header: "Michael Savage"
 insta: "https://www.instagram.com/michaelsaverage"
-intro: "XX"
+intro: "Plant Bass'd co-founder, Michael, shares his 2022 roundup of leftfield bass, percussion, and more"
 ---
 
 ## 1. LWS - Corrupt/ Brewing

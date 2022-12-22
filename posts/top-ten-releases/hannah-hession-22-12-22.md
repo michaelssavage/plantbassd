@@ -5,11 +5,11 @@ date: "December 22, 2022"
 tags: "reviews"
 pic: "/top-ten-releases/13-hannahHession.jpg"
 cover: "/top-ten-releases/13-hession.jpg"
-bio: "XX..."
+bio: "A growing figure on the Galway circuit, Hannah Hession shares her  favourite cuts of UKG, Irish hip-hop, bass & more..."
 path: "top-ten-releases"
 header: "Hannah Hession"
 insta: "https://www.instagram.com/hannahhession"
-intro: "XX"
+intro: "A growing figure on the Galway circuit, Hannah Hession shares her  favourite cuts of UKG, Irish hip-hop, bass & more"
 ---
 
 ## 1. Oldboy - RING RING EP
