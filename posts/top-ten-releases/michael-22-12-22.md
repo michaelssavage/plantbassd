@@ -1,7 +1,7 @@
 ---
 title: "Top 10 Releases Of The Year"
 name: "top 10 releases picks michael savage"
-date: "December 19, 2022"
+date: "December 22, 2022"
 tags: "reviews"
 pic: "/top-ten-releases/michael.png"
 cover: "/news/michael.jpg"
@@ -50,7 +50,7 @@ Listen to the full mix here: <a class="btn btn-outline-dark" role="button" href=
 </div>
 <div class="col clubGuide">
 
-We don’t know much about Protect Ryan other than they’re composed of three veteran producers that “came together through their shared love of '90s rave culture” that don’t really take themselves too seriously. The whole EP is primed for dark sweaty parties, but ‘DJ Weddings and Receptions’ stands out as the club-ready banger I need. The sample used is an odd one (https://www.instagram.com/p/CbhpZdsgntg/).
+We don’t know much about Protect Ryan other than they’re composed of three veteran producers that “came together through their shared love of '90s rave culture” that don’t really take themselves too seriously. The whole EP is primed for dark sweaty parties, but ‘DJ Weddings and Receptions’ stands out as the club-ready banger I need. The sample used adds to the goofyness (https://www.instagram.com/p/CbhpZdsgntg/).
 
 Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://gutterfunkuk.bandcamp.com/album/protect-ryan-party-tracks-for-horse-girls-ep" rel="noopener noreferrer" target="_blank">BandCamp</a>
 
@@ -95,7 +95,7 @@ Listen here: <a class="btn btn-outline-dark" role="button" href="https://www.you
 </div>
 <div class="col clubGuide">
 
-This album “is essentially about the desire for hedonism and excess being amplified when faced with apocalyptic omens and the annihilation of the familiar.” The themes are sex heavy but I think it works perfectly as the soundtrack for the first-person shooter DOOM. An intoxicating dark techno ride (ha), ‘Miasma Of Filth’ is my no.1.
+This album “is essentially about the desire for hedonism and excess being amplified when faced with apocalyptic omens and the annihilation of the familiar.” Sex heavy themes portrayed by the sounds and artwork but I think it works perfectly as the soundtrack for first-person shooters like DOOM. An intoxicating dark techno ride (ha), ‘Miasma Of Filth’ is my no.1.
 
 Listen here: <a class="btn btn-outline-dark" role="button" href="https://open.spotify.com/album/0C9ABNbjiWHQsbgOoqNqnW" rel="noopener noreferrer" target="_blank">Spotify</a>
 
@@ -110,7 +110,7 @@ Listen here: <a class="btn btn-outline-dark" role="button" href="https://open.sp
 </div>
 <div class="col clubGuide">
 
-Light and easy on the ears, Hotel Koko is a fun mix of floating house music. Big fan of ‘Usch’, a dreamy tune with luscious bells, delays, and flangers, and ‘Get Goofy’ which is a breakbeat remake of the pop track by MishCatt. My favourite listen on the album is ‘Follow You’ featuring Aluna with the rich rhodes keys and vocals.
+Light and easy on the ears, Hotel Koko is a fun mix of floating house music. Big fan of ‘Usch’, a dreamy tune with luscious bells, delays, and flangers, and ‘Get Goofy’ which is a breakbeat remake of the pop track by MishCatt. My favourite listen on the album is ‘Follow You’ featuring Aluna with her comfy vocals and the rich Rhodes Keys.
 
 Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="https://kornelkovacs.bandcamp.com/album/hotel-koko" rel="noopener noreferrer" target="_blank">BandCamp</a>
 
