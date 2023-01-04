@@ -6,7 +6,7 @@ tags: "premieres"
 pic: "/premieres/XX"
 seeMore: "XX"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: XX..."
+bio: XX"
 path: "premieres"
 ---
 

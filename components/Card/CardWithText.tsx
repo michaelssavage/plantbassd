@@ -23,7 +23,7 @@ export const CardWithText = (props: Props) => {
           />
           <div className={`${styles.cardBody} card-body`}>
             <p className={styles.cardDate}>{post.frontmatter.date}</p>
-            <p className={styles.cardTitle}>{post.frontmatter.bio}</p>
+            <p className={styles.cardTitle}>{post.frontmatter.bio}...</p>
           </div>
         </div>
       </Link>

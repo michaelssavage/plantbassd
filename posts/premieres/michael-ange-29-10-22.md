@@ -6,7 +6,7 @@ tags: "premieres"
 pic: "/premieres/26-ange.png"
 seeMore: "https://soundcloud.com/plantbassddjs/premiere-michel-ange-nineteen-ninety-one"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: A Breaking Concept (@abcrecordings) land their first release on their imprint with Rave Factory..."
+bio: A Breaking Concept (@abcrecordings) land their first release on their imprint with Rave Factory"
 path: "premieres"
 ---
 

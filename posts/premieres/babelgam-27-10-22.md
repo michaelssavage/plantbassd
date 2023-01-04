@@ -6,7 +6,7 @@ tags: "premieres"
 pic: "/premieres/26-klan-destino.png"
 seeMore: "https://soundcloud.com/plantbassddjs/klan-destino-2at-remix"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: MUAKK presents an experiment with BABELGAM, a post punk glitch and pop band from Bogota..."
+bio: MUAKK presents an experiment with BABELGAM, a post punk glitch and pop band from Bogota"
 path: "premieres"
 ---
 

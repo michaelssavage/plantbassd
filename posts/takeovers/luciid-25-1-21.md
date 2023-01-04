@@ -5,7 +5,7 @@ date: "January 25, 2021"
 pic: "/takeovers/01_Luciid.jpg"
 artistPage: "https://www.instagram.com/luciidmusic/"
 postLink: "https://www.instagram.com/p/CKeA4l-HEnj/"
-bio: "Our good friend and fellow Monaghan native Luciid is first up sharing the 10 tunes he’s patiently waiting to play out once the gigging renaissance commences..."
+bio: "Our good friend and fellow Monaghan native Luciid is first up sharing the 10 tunes he’s patiently waiting to play out once the gigging renaissance commences"
 path: "takeovers"
 ---
 

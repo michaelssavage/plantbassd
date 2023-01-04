@@ -6,7 +6,7 @@ tags: "premieres"
 pic: "/premieres/22-crrdr.png"
 seeMore: "https://soundcloud.com/plantbassddjs/plant-bassd-premiere-sonale-los-bajos-by-crrdr"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: Multi-layered club experimentalist CRRDR joins in on fellow Colombian imprint Muakk's first V/A 'Muakk Besitos Bailables'..."
+bio: Multi-layered club experimentalist CRRDR joins in on fellow Colombian imprint Muakk's first V/A 'Muakk Besitos Bailables'"
 path: "premieres"
 ---
 

@@ -6,7 +6,7 @@ tags: "premieres"
 pic: "/premieres/30-shroom-talk.png"
 seeMore: "https://soundcloud.com/plantbassddjs/premiere-shroom-talk-curtisy-x-owin"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: Rising stars within the Dublin hip-hop sphere, Curtisy and owin lock horns..."
+bio: Rising stars within the Dublin hip-hop sphere, Curtisy and owin lock horns"
 path: "premieres"
 ---
 

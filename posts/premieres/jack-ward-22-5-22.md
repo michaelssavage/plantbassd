@@ -6,7 +6,7 @@ tags: "premieres"
 pic: "/premieres/13-jack-ward-premiere.png"
 seeMore: "https://soundcloud.com/plantbassddjs/plant-bassd-premiere-jack-ward-baby-gay-track"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Part of the Club Comfort trifecta, Selky lands with the first of a new edits series with 'The Bumps'. 4 Baltimore club and breakbeat fusions of classic hits..."
+bio: "Part of the Club Comfort trifecta, Selky lands with the first of a new edits series with 'The Bumps'. 4 Baltimore club and breakbeat fusions of classic hits"
 path: "premieres"
 ---
 

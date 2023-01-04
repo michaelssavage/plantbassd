@@ -5,7 +5,7 @@ date: "April 17, 2022"
 pic: "/news/10-plantbassd-wigwam.jpg"
 tickets: "https://ra.co/events/1523165"
 postLink: "https://www.instagram.com/p/CcX2FJNMvLt/"
-bio: "Plant Bass'd return home for their first show on Irish soil with an ensemble featuring some of the most exciting electronic talent..."
+bio: "Plant Bass'd return home for their first show on Irish soil with an ensemble featuring some of the most exciting electronic talent"
 path: "gigs"
 tags: "gigs"
 city: "dublin"
@@ -17,13 +17,7 @@ alinks:
     "https://www.instagram.com/glimmerman/",
     "https://www.instagram.com/ayolxi/",
   ]
-apics:
-  [
-    "10-sweeney.jpg",
-    "10-sohotsospicy.jpg",
-    "10-glimmerman.jpg",
-    "10-ayolxi.jpg",
-  ]
+apics: ["10-sweeney.jpg", "10-sohotsospicy.jpg", "10-glimmerman.jpg", "10-ayolxi.jpg"]
 ---
 
 ## Plant Bass'd return home for their first show on Irish soil with an ensemble featuring some of the most exciting electronic talent on the Isle in the notorious Wigwam basement.

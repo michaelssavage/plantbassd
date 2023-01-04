@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/39-homesick-bolt.jpg"
 bandcamp: "https://homesick89.bandcamp.com/album/bolt-ep"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Configured by means of AI, HomeSick’s Bolt EP bends searing bass lines and drum programming resulting in three high voltage dubstep and hip-hop hybrids on Leipzig’s fearsome Defrostatica Records..."
+bio: "Configured by means of AI, HomeSick’s Bolt EP bends searing bass lines and drum programming resulting in three high voltage dubstep and hip-hop hybrids on Leipzig’s fearsome Defrostatica Records"
 path: "fresh-juice"
 ---
 

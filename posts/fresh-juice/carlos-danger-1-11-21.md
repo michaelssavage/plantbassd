@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/03_Carlos-Danger.jpg"
 bandcamp: "https://rory2.bandcamp.com/album/carlos-dangers-summer-sound"
 postLink: "https://www.instagram.com/p/CVv58lwszNl/"
-bio: "Rory Sweeney recently dropped his new body of work under the Carlos Danger alias..."
+bio: "Rory Sweeney recently dropped his new body of work under the Carlos Danger alias"
 path: "fresh-juice"
 ---
 

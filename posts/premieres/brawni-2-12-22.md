@@ -6,7 +6,7 @@ tags: "premieres"
 pic: "/premieres/29-brawni-premiere.png"
 seeMore: "https://soundcloud.com/plantbassddjs/i-do-my-own-stunts"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Brawni drops the third release from his Golden Dawn EP courtesy of Cabal with the shifting electro of 'I Do My Own Stunts'..."
+bio: "Brawni drops the third release from his Golden Dawn EP courtesy of Cabal with the shifting electro of 'I Do My Own Stunts'"
 path: "premieres"
 ---
 

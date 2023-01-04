@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/41-pouch-envy.jpg"
 bandcamp: "https://pouch-envy.bandcamp.com/album/life-simulator-ep"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "New York based club experimentalist POUCH ENVY blends through neat breakbeats, Baltimore patterns, booty bass, & more alongside some complimentary edits on the concept EP that is ‘Life Simulator’..."
+bio: "New York based club experimentalist POUCH ENVY blends through neat breakbeats, Baltimore patterns, booty bass, & more alongside some complimentary edits on the concept EP that is ‘Life Simulator’"
 path: "fresh-juice"
 ---
 

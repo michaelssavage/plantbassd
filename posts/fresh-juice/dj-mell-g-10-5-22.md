@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/30-juicy-class.jpg"
 bandcamp: "https://juicygangrecords.bandcamp.com/album/juicy-class"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "The third entry in quick succession from the thwarting DJ MELL G founded Juicy Gang Records lands with another joint effort, this time featuring the razor sharp aggressor that is DJ Fuckoff..."
+bio: "The third entry in quick succession from the thwarting DJ MELL G founded Juicy Gang Records lands with another joint effort, this time featuring the razor sharp aggressor that is DJ Fuckoff"
 path: "fresh-juice"
 ---
 

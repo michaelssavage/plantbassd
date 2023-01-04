@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/28_plus-one.jpg"
 bandcamp: "https://mattfinneganplusone.bandcamp.com/album/midnight-dub-vol-1"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "PLUS ONE (Matt Finnegan) delivers on this name-your-price EP of move bustin’ reworkings of four of the industry's finest R&B stars..."
+bio: "PLUS ONE (Matt Finnegan) delivers on this name-your-price EP of move bustin’ reworkings of four of the industry's finest R&B stars"
 path: "fresh-juice"
 ---
 

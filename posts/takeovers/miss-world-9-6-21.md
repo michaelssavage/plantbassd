@@ -5,7 +5,7 @@ date: "June 9, 2021"
 pic: "/takeovers/15_Miss-World.jpg"
 artistPage: "https://www.instagram.com/missworldedinburgh/"
 postLink: "https://www.instagram.com/p/CP6XyrontQd/"
-bio: "All-woman DJ collective based in Edinburgh, dedicated to uplifting women in electronic music, and making clubs more safe and welcoming spaces for all..."
+bio: "All-woman DJ collective based in Edinburgh, dedicated to uplifting women in electronic music, and making clubs more safe and welcoming spaces for all"
 path: "takeovers"
 ---
 

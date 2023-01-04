@@ -5,7 +5,7 @@ date: "March 15, 2021"
 pic: "/takeovers/07_Dar-Disku.jpg"
 artistPage: "https://www.instagram.com/dardisku_records/"
 postLink: "https://www.instagram.com/p/CMdCZAJn20J/"
-bio: "The duo behind Bahrain born Dar Disku Records takeover the playlist this week for a very exciting feature..."
+bio: "The duo behind Bahrain born Dar Disku Records takeover the playlist this week for a very exciting feature"
 path: "takeovers"
 ---
 

@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/46-rattle.jpg"
 bandcamp: "https://palidrone.bandcamp.com/album/rattle"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "One of Edinburgh’s most formidable party collectives, Palidrone bolster to record label heights with their debut release ‘Rattle’ featuring contributions from founders Dansa, J Wax, Provost, alongside a strong remixing effort from Scottish Football..."
+bio: "One of Edinburgh’s most formidable party collectives, Palidrone bolster to record label heights with their debut release ‘Rattle’ featuring contributions from founders Dansa, J Wax, Provost, alongside a strong remixing effort from Scottish Football"
 path: "fresh-juice"
 ---
 

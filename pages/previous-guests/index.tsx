@@ -2,6 +2,7 @@ import Head from "next/head";
 import { guestList } from "arrays/previous-guests";
 import { CardExternal } from "components/Card";
 import Footer from "components/Footer";
+import { sortAlphabetically } from "components/Utilities";
 import styles from "./Previous.module.scss";
 
 export default function PreviousGuestsPage() {
@@ -15,7 +16,7 @@ export default function PreviousGuestsPage() {
 
         <div className={`${styles.guestPics} container`}>
           <div className="row g-1">
-            {guestList.map((guest) => (
+            {guestList.sort(sortAlphabetically).map((guest) => (
               <CardExternal guest={guest} key={guest.name} />
             ))}
           </div>

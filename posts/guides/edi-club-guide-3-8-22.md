@@ -5,7 +5,7 @@ date: "August 3, 2022"
 pic: "/news/11-edinburgh-club-guide.jpg"
 seeMore: "https://ra.co/events/uk/edinburgh?week=2022-08-03"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "EDINBURGH WEEKLY CLUB GUIDE: Fringe Special.."
+bio: "EDINBURGH WEEKLY CLUB GUIDE: Fringe Special"
 tags: "guides"
 path: "guides"
 ---

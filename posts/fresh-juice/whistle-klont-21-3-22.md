@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/23-whistle-klont_double-knee.jpg"
 bandcamp: "https://anusrecords.bandcamp.com/album/double-knee-ep"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "German imprint ANUS Records return from their brief hiatus with a thundering release from Dutch duo Whistle & Klont..."
+bio: "German imprint ANUS Records return from their brief hiatus with a thundering release from Dutch duo Whistle & Klont"
 path: "fresh-juice"
 ---
 

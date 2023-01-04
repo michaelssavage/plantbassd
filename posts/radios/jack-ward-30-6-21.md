@@ -6,7 +6,7 @@ pic: "/radios/01_jack-ward.jpg"
 tracklist: "/radios/01_tracklist.jpg"
 artistPage: "https://www.instagram.com/jack________ward/"
 mixLink: "https://soundcloud.com/plantbassddjs/plant-bassd-pride-mix?in=plantbassddjs/sets/plant-bassd-radio"
-bio: "Jack is Back! and just in time to kick off our radio series as Pride Month closes out..."
+bio: "Jack is Back! and just in time to kick off our radio series as Pride Month closes out"
 path: "radios"
 ---
 

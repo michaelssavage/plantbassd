@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/37-offtrack.jpg"
 bandcamp: "https://offtrack.bandcamp.com/releases"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Mullingar native Offtrack sets off with his debut LP spanning 8 hypnotic techno and rave ready tracks..."
+bio: "Mullingar native Offtrack sets off with his debut LP spanning 8 hypnotic techno and rave ready tracks"
 path: "fresh-juice"
 ---
 

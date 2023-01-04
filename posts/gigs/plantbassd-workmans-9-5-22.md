@@ -5,7 +5,7 @@ date: "May 9, 2022"
 pic: "/news/11-workmans.jpg"
 tickets: "https://ra.co/events/1533360"
 postLink: "https://www.instagram.com/p/CdQjEtls504/"
-bio: "Plant Bass'd returns to Dublin, this time to Workman’s Club with the launch of our new Organica series!.."
+bio: "Plant Bass'd returns to Dublin, this time to Workman’s Club with the launch of our new Organica series!"
 path: "gigs"
 tags: "gigs"
 city: "dublin"
@@ -17,13 +17,7 @@ alinks:
     "https://www.instagram.com/silkyklub/",
     "https://www.instagram.com/phillyholmes_/",
   ]
-apics:
-  [
-    "11-e-artist.jpg",
-    "11-jenn-hession.jpg",
-    "11-silky.jpg",
-    "05-sweet-philly.jpg",
-  ]
+apics: ["11-e-artist.jpg", "11-jenn-hession.jpg", "11-silky.jpg", "05-sweet-philly.jpg"]
 ---
 
 Plant Bass'd returns to Dublin, this time to Workman’s Club with the launch of our new Organica series!
