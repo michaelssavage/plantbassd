@@ -13,7 +13,7 @@ interface CardProps {
 export const CardExternal = ({ guest }: CardProps) => {
   return (
     <div className="col-4 col-md-4 col-lg-3 col-xl-2">
-      <Link href={guest.link} className="blackAnchor">
+      <Link href={guest.link} className="pinkUnderline">
         <div className={`card imgContainer ${styles.cardStyle}`}>
           <Picture alt={guest.name} height={200} src={`/news/${guest.img}`} width={200} />
           <div className="guestOverlay">

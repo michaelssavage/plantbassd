@@ -35,9 +35,14 @@ export default function GigPosts(props: GigPostsProps) {
           <div className="row">
             {anames.map((name, idx) => (
               <div className="col-6 col-lg-6 col-md-6 col-6" key={name}>
-                <Picture alt={`${name} press pic`} height={300} src={`/news/${apics[idx]}`} width={300} />
+                <Picture
+                  alt={`${name} press pic`}
+                  height={300}
+                  src={`/news/${apics[idx]}`}
+                  width={300}
+                />
 
-                <a className="blackAnchor px-1 py-2" href={alinks[idx]}>
+                <a className="pinkUnderline px-1 py-2" href={alinks[idx]}>
                   {name}
                 </a>
               </div>

@@ -62,17 +62,8 @@ p {
   font-size: $paragraph;
 }
 
-.messinaFont {
-  font-family: "Messina";
-}
-
 .smallText {
   font-size: $cardDate;
-}
-
-Link {
-  color: inherit;
-  text-decoration: none;
 }
 
 .anchor {
@@ -80,7 +71,8 @@ Link {
   transition: 0.25s ease;
 }
 
-.anchorHover {
+.anchorColor {
+  color: inherit;
   @extend .anchor;
   &:hover {
     color: $black;
@@ -88,17 +80,7 @@ Link {
   }
 }
 
-.anchorColor {
-  color: inherit;
-  @extend .anchorHover;
-}
-
-.newsPreview {
-  color: $black;
-  @extend .anchorHover;
-}
-
-.blackAnchor {
+.pinkUnderline {
   color: inherit;
   text-decoration: underline;
   text-decoration-color: rgba(240, 60, 160);
@@ -125,22 +107,6 @@ Link {
 .globalBottomBtn {
   margin-top: 1rem;
   text-align: left;
-}
-
-.showMoreBtn {
-  margin-top: -1rem;
-  text-align: center;
-  position: relative;
-  z-index: 100;
-}
-
-.showBtn {
-  border-radius: 3rem;
-  padding: 1rem 2rem;
-  text-decoration: none;
-  font-size: 1.25rem;
-  color: $white;
-  background-color: $navBlue;
 }
 
 .header {

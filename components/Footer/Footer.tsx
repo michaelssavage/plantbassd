@@ -22,7 +22,7 @@ export default function Footer() {
               <p>
                 {links.map((item, idx, arr) => (
                   <span key={item.title}>
-                    <Link href={item.link} className="blackAnchor">
+                    <Link href={item.link} className="pinkUnderline">
                       {item.title}
                     </Link>
                     {idx + 1 === arr.length ? "" : " // "}
@@ -38,7 +38,7 @@ export default function Footer() {
           <p className="small m-0">
             Site by{" "}
             <a
-              className="blackAnchor"
+              className="pinkUnderline"
               href="https://www.instagram.com/michaelsaverage/"
               rel="noopener noreferrer"
               target="_blank"

@@ -14,4 +14,4 @@ path: "news"
 
 ## A big thank you to everyone who helped shape our 2022.
 
-Take a look back at all the amazing DJs that have partied with us on our <a class="blackAnchor" href="/previous-guests">Previous Guests</a> page as well as the 24 shows that showcased local and international talent in <a class="blackAnchor" href="/gigs">Gigs</a> in Dublin, Edinburgh, and Glasgow.
+Take a look back at all the amazing DJs that have partied with us on our <a class="pinkUnderline" href="/previous-guests">Previous Guests</a> page as well as the 24 shows that showcased local and international talent in <a class="pinkUnderline" href="/gigs">Gigs</a> in Dublin, Edinburgh, and Glasgow.

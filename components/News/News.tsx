@@ -23,7 +23,7 @@ export default function News({ news }: Props) {
         <p>
           Catch the latest about new music, upcoming gigs & events, and more. Find more on our{" "}
           <a
-            className="blackAnchor"
+            className="pinkUnderline"
             href="http://instagram.com/plantbassd___"
             rel="noopener noreferrer"
             target="_blank"

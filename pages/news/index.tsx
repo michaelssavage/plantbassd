@@ -42,7 +42,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
         <p className={styles.pageText}>
           News about club guides, gigs, and all things Plant Bass'd. Keep up to date on our
           Instagram,{" "}
-          <a className="blackAnchor" href="http://instagram.com/plantbassd___">
+          <a className="pinkUnderline" href="http://instagram.com/plantbassd___">
             @plantbassd___
           </a>
         </p>
