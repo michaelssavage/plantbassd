@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/16-tooftrax202.jpg"
 bandcamp: "https://tooflezmuzik.bandcamp.com/album/tooftrax202-sonic-transmissions-for-the-resistance"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Berlin’s Tooflez Muzik land the next installment of their All Stars series, TOOFTRAX202 - Sonic Transmissions for the Resistance..."
+bio: "Berlin’s Tooflez Muzik land the next installment of their All Stars series, TOOFTRAX202 - Sonic Transmissions for the Resistance"
 path: "fresh-juice"
 ---
 

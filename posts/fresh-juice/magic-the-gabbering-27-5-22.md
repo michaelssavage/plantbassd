@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/36-magic.jpg"
 bandcamp: "https://bittentwicecollective.bandcamp.com/album/magic-the-gabbering"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Dublin-based hardcore experimental contingent Bitten Twice cough up their next manic episode on the full throttle Magic the Gabbering..."
+bio: "Dublin-based hardcore experimental contingent Bitten Twice cough up their next manic episode on the full throttle Magic the Gabbering"
 path: "fresh-juice"
 ---
 

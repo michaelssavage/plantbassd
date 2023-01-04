@@ -6,7 +6,7 @@ tags: "reviews"
 pic: "/news/17-als.png"
 seeMore: "https://www.instagram.com/anotherlovestoryfest/"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Plant Bass'd attended Another Love Story Festival 2022.."
+bio: "Plant Bass'd attended Another Love Story Festival 2022"
 path: "news"
 ---
 

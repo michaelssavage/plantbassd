@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/10_jason-code.jpg"
 bandcamp: "https://jasoncode.bandcamp.com/album/jc01-2"
 postLink: "https://www.instagram.com/p/CY1jNXaNqMS/"
-bio: "Jason Code returns with more kamikaze breaks and dubs on his self-released ‘JCO1’ effort..."
+bio: "Jason Code returns with more kamikaze breaks and dubs on his self-released ‘JCO1’ effort"
 path: "fresh-juice"
 ---
 

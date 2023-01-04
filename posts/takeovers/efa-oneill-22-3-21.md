@@ -5,7 +5,7 @@ date: "March 22, 2021"
 pic: "/takeovers/08_Efa-Oneill.jpg"
 artistPage: "https://www.instagram.com/efa_o_neill/"
 postLink: "https://www.instagram.com/p/CMvGowInev9/"
-bio: "Cork’s very own Aoife O’Neill offers up this week’s selekts as we reach week 8 of the Spotify Takeover..."
+bio: "Cork’s very own Aoife O’Neill offers up this week’s selekts as we reach week 8 of the Spotify Takeover"
 path: "takeovers"
 ---
 

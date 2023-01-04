@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/08_oldboy-grimey-ones.jpg"
 bandcamp: "https://oldboytrax.bandcamp.com/album/grimey-ones-part-ii"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Sheffield’s Oldboy arrives with another quadruplet of grime laced breaks, dubstep, and garage instrumentals..."
+bio: "Sheffield’s Oldboy arrives with another quadruplet of grime laced breaks, dubstep, and garage instrumentals"
 path: "fresh-juice"
 ---
 

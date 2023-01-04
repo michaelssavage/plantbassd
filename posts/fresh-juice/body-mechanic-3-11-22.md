@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/49-body-mechanic.jpg"
 bandcamp: "https://bit.ly/3Sd14Pm"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "One of the Detroit forefathers, the Body Mechanic returns with a super rare electro funk 12” on High Octane, courtesy of definitive electro label Philthtrax..."
+bio: "One of the Detroit forefathers, the Body Mechanic returns with a super rare electro funk 12” on High Octane, courtesy of definitive electro label Philthtrax"
 path: "fresh-juice"
 artist: "Juno"
 ---

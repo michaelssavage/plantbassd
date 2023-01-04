@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/50-hold_it_down.png"
 bandcamp: "https://distrokid.com/hyperfollow/sloucho/hold-it-down"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Cabal co-founder & Director Cóilín Phelan debuts his first release under new moniker Sloucho with ‘Hold It Down’..."
+bio: "Cabal co-founder & Director Cóilín Phelan debuts his first release under new moniker Sloucho with ‘Hold It Down’"
 path: "fresh-juice"
 artist: "Distrokid"
 ---

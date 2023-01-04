@@ -6,7 +6,7 @@ pic: "/radios/05_sweet-philly.jpg"
 tracklist: "/radios/05_sweey-philly-setlist.jpg"
 artistPage: "https://www.instagram.com/phillyholmes_/"
 mixLink: "https://soundcloud.com/plantbassddjs/plant-bassd-radio-sweet-philly-raunchy-mix"
-bio: "Sweet Philly shares an appetising mix for us bending electro, ballroom, breaks & techno.."
+bio: "Sweet Philly shares an appetising mix for us bending electro, ballroom, breaks & techno"
 path: "radios"
 ---
 

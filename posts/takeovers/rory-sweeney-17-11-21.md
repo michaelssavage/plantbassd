@@ -5,7 +5,7 @@ date: "November 17, 2021"
 pic: "/takeovers/18_Rory_Sweeney.jpg"
 artistPage: "https://www.instagram.com/rory_sweeney123/"
 postLink: "https://www.instagram.com/p/CWY7FF3sNxn/"
-bio: "A seemingly constant releaser, Rory is known to dip between the realms of jungle, trap, hip-hop, Garage & more..."
+bio: "A seemingly constant releaser, Rory is known to dip between the realms of jungle, trap, hip-hop, Garage & more"
 path: "takeovers"
 ---
 

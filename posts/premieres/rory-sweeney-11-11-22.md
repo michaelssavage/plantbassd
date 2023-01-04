@@ -6,7 +6,7 @@ tags: "premieres"
 pic: "/premieres/27-trash.jpg"
 seeMore: "https://soundcloud.com/plantbassddjs/premiere-rory-sweeney-veggies-ft-curtisy"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: Rory Sweeney drops the second single from his forthcoming debut album with a jungle/ hip hop hybrid..."
+bio: Rory Sweeney drops the second single from his forthcoming debut album with a jungle/ hip hop hybrid"
 path: "premieres"
 youtube: "https://www.youtube.com/embed/QSDejYMKeDE"
 ---

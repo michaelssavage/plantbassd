@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/47-fj.jpg"
 bandcamp: "https://woozydublin.bandcamp.com/"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Champions of the Irish bass sound, Woozy returns with its second V/A installation featuring 8 tracks of bass, dubstep and hard drum with entrants from Ireland and beyond..."
+bio: "Champions of the Irish bass sound, Woozy returns with its second V/A installation featuring 8 tracks of bass, dubstep and hard drum with entrants from Ireland and beyond"
 path: "fresh-juice"
 ---
 

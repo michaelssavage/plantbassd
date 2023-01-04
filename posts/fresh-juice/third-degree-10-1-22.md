@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/09_third-degree.jpg"
 bandcamp: "https://thirddegreerecords.bandcamp.com/album/hazmat-compilation-hazardous-materials-vol-001"
 postLink: "https://www.instagram.com/p/CYjXaznNwDz/"
-bio: "Next up under the Plant Bass’d microscope is a riveting compilation from Australian label, Third Degree Records...."
+bio: "Next up under the Plant Bass’d microscope is a riveting compilation from Australian label, Third Degree Records."
 path: "fresh-juice"
 ---
 

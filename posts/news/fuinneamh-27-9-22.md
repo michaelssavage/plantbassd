@@ -6,7 +6,7 @@ tags: "reviews"
 pic: "/news/23-fuinneamh.png"
 seeMore: "https://www.instagram.com/fuinneamh_festival/"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Plant Bass'd attended Fuinneamh Festival 2022.."
+bio: "Plant Bass'd attended Fuinneamh Festival 2022"
 path: "news"
 ---
 

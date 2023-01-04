@@ -23,7 +23,7 @@ export const linkList: LinkProps[] = [
   {
     title: "PREMIERE: DROMEK - Mistura De Bossa",
     link: "https://on.soundcloud.com/CDvzZ",
-    icon: "premiere",
+    icon: "premieres",
   },
   {
     title: "Darkmavis - Top 10 Releases Of The Year",
@@ -33,7 +33,7 @@ export const linkList: LinkProps[] = [
   {
     title: "Prograsm by DJ Pacifier",
     link: "https://soundcloud.com/plantbassddjs/premiere-dj-pacifier-prograsm-1",
-    icon: "premiere",
+    icon: "premieres",
   },
   {
     title: "E.DN - Top 10 Releases Of The Year",
@@ -43,17 +43,17 @@ export const linkList: LinkProps[] = [
   {
     title: "Switch by Stephen Mahoney",
     link: "https://soundcloud.com/plantbassddjs/premiere-stephen-mahoney-switch/s-xe0BERPKLDC?si=212429fff75b4bb199d112773e37d925&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-    icon: "premiere",
+    icon: "premieres",
   },
   {
     title: "Shroom Talk by Curtisy x owin",
     link: "https://on.soundcloud.com/RDnsU",
-    icon: "premiere",
+    icon: "premieres",
   },
   {
     title: "I Do My Own Stunts by Brawni",
     link: "https://on.soundcloud.com/eTmNw",
-    icon: "premiere",
+    icon: "premieres",
   },
   {
     title: "HEADSET002 - Capricorn One",
@@ -68,7 +68,7 @@ export const linkList: LinkProps[] = [
   {
     title: "Verbal Groove by SMIFF",
     link: "https://soundcloud.com/plantbassddjs/premiere-verbal-groove-by-smiff",
-    icon: "premiere",
+    icon: "premieres",
   },
   {
     title: "Trash Catalogue Pt.1 by Rory Sweeney",
@@ -78,7 +78,7 @@ export const linkList: LinkProps[] = [
   {
     title: "Rory Sweeney feat. Curtisy 'Veggies'",
     link: "https://soundcloud.com/plantbassddjs/premiere-rory-sweeney-veggies-ft-curtisy",
-    icon: "premiere",
+    icon: "premieres",
   },
   {
     title: "Sloucho - Hold It Down",
@@ -93,12 +93,12 @@ export const linkList: LinkProps[] = [
   {
     title: "Michel Ange - Nineteen Ninety One",
     link: "https://soundcloud.com/plantbassddjs/premiere-michel-ange-nineteen-ninety-one",
-    icon: "premiere",
+    icon: "premieres",
   },
   {
     title: "BABELGAM - KLAN DESTINO (2AT REMIX)",
     link: "https://soundcloud.com/plantbassddjs/klan-destino-2at-remix",
-    icon: "premiere",
+    icon: "premieres",
   },
   {
     title: "On Site at Fuinneamh Festival",
@@ -113,7 +113,7 @@ export const linkList: LinkProps[] = [
   {
     title: "'Sonale Los Bajos' by CRRDR",
     link: "https://soundcloud.com/plantbassddjs/plant-bassd-premiere-sonale-los-bajos-by-crrdr",
-    icon: "premiere",
+    icon: "premieres",
   },
   {
     title: "WZY 2.5 by Woozy",
@@ -128,7 +128,7 @@ export const linkList: LinkProps[] = [
   {
     title: "'LETS GET IT' by Fourtwenty Sound",
     link: "https://soundcloud.com/plantbassddjs/fourtwenty-sound-lets-get-it",
-    icon: "premiere",
+    icon: "premieres",
   },
   {
     title: "Luv 2 LUv U // Do It Right by Burnout",

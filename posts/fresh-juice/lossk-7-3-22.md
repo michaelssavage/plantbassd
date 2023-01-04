@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/22-electrophile.jpg"
 bandcamp: "https://hyperdomerecords.bandcamp.com/album/hyprecs-008-electrophile"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Brighton born and raised, Lossk offers up a spillage of electro and bass on the expansive Glasgow based Hyperdome Records..."
+bio: "Brighton born and raised, Lossk offers up a spillage of electro and bass on the expansive Glasgow based Hyperdome Records"
 path: "fresh-juice"
 ---
 

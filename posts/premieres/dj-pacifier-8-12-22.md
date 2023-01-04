@@ -6,7 +6,7 @@ tags: "premieres"
 pic: "/premieres/32-dj-pacifier-prograsm.png"
 seeMore: "https://soundcloud.com/plantbassddjs/premiere-dj-pacifier-prograsm-1"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: Friends of Plant Bass’d, @failed_units kick off their new Fusion Tank collaborative series with Montreal’s DJ Pacifier and New Yorker Folded Voices..."
+bio: Friends of Plant Bass’d, @failed_units kick off their new Fusion Tank collaborative series with Montreal’s DJ Pacifier and New Yorker Folded Voices"
 path: "premieres"
 ---
 

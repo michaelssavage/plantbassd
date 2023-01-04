@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/19-city-stars.jpg"
 bandcamp: "https://djhank.bandcamp.com/album/city-stars"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Seminal Chicago footwork from DJ HANK, blended effortlessly with the influences of UK garage, ambient, and RnB on City Stars..."
+bio: "Seminal Chicago footwork from DJ HANK, blended effortlessly with the influences of UK garage, ambient, and RnB on City Stars"
 path: "fresh-juice"
 ---
 

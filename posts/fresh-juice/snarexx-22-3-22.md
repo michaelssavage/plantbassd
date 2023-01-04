@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/24-snarexx-dancetrumentals.jpg"
 bandcamp: "https://urbanstghetto.bandcamp.com/album/dancetrumentals"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Snarexx reappears on the St. Petersburg based, electro connoisseuring Urban, this time with an EP of his own..."
+bio: "Snarexx reappears on the St. Petersburg based, electro connoisseuring Urban, this time with an EP of his own"
 path: "fresh-juice"
 ---
 

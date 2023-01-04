@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/29_Viikatory.jpg"
 bandcamp: "https://raiders.bandcamp.com/album/viikatory-based-on-your-listening-history"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "International Chrome mainstay and master of the electro dark arts, Viikatory continues to rampage on ‘Based On Your Listening History’..."
+bio: "International Chrome mainstay and master of the electro dark arts, Viikatory continues to rampage on ‘Based On Your Listening History’"
 path: "fresh-juice"
 ---
 

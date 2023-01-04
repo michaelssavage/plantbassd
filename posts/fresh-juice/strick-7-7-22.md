@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/42-strick-headbutt.jpg"
 bandcamp: "https://eventhestrong.bandcamp.com/album/headbutt"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Long time supporter and now contributor, Strick arrives on London hard-drum label Even The Strong with 4 percussive tribalistic weapons all equipped for club scenarios...."
+bio: "Long time supporter and now contributor, Strick arrives on London hard-drum label Even The Strong with 4 percussive tribalistic weapons all equipped for club scenarios."
 path: "fresh-juice"
 ---
 

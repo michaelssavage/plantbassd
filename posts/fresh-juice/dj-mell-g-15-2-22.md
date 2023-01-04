@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/13-mell-g_pussy-galore.jpg"
 bandcamp: "https://juicygangrecords.bandcamp.com/album/pu-y-galore"
 postLink: "https://www.instagram.com/p/CZ_9pGRNehW/"
-bio: "DJ MELL G spanks back once more with a second balls to the wall installment on her recently ignited Juicy Gang Records..."
+bio: "DJ MELL G spanks back once more with a second balls to the wall installment on her recently ignited Juicy Gang Records"
 path: "fresh-juice"
 ---
 

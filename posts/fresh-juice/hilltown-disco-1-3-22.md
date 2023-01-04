@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/18-hilltown-disco.jpg"
 bandcamp: "https://hilltowndiscouk.bandcamp.com/album/raziel"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Dundonian purveyors of electro, Hilltown Disco continue their now longstanding V/A collaboration with Art Angel.."
+bio: "Dundonian purveyors of electro, Hilltown Disco continue their now longstanding V/A collaboration with Art Angel"
 path: "fresh-juice"
 ---
 

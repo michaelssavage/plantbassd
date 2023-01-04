@@ -6,7 +6,7 @@ tags: "fresh juice"
 pic: "/fresh-juice/33-headset.jpg"
 bandcamp: "https://headset-scotland.bandcamp.com/album/headset001"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "The notorious Edinburgh based party series Headset expands to record label heights with its first release coming from regular affiliate, Creep Woland..."
+bio: "The notorious Edinburgh based party series Headset expands to record label heights with its first release coming from regular affiliate, Creep Woland"
 path: "fresh-juice"
 ---
 

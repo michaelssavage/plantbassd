@@ -6,7 +6,7 @@ tags: "reviews"
 pic: "/news/05_celtronic.jpg"
 seeMore: "https://www.instagram.com/celtronic"
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "Plant Bass'd attended Derry's biggest electronic music festival from 9th - 12th December.."
+bio: "Plant Bass'd attended Derry's biggest electronic music festival from 9th - 12th December"
 path: "news"
 ---
 
@@ -37,7 +37,7 @@ Gentleman of the weekend, Jordan Villa, opened up Friday night with some well kn
 
 We got talking to the two lads from SETS before the weekend so we were excited to see how their live performance held up after enjoying their release just that morning. Needless to say they smashed it! Their own productions went down very well with the crowd. These lads should be on everyone's radar in 2022.
 
-Friend of the page, Cartin, interweaved live guitar between spacey grooves to keep us in a blissful trance. His live setup was impressive to watch, himself locked in to keeping the energy above and beyond. Carrying the momentum from Lorraine James, these live shows we experienced would continue to blow our minds. And none other to keep that flow going than...
+Friend of the page, Cartin, interweaved live guitar between spacey grooves to keep us in a blissful trance. His live setup was impressive to watch, himself locked in to keeping the energy above and beyond. Carrying the momentum from Lorraine James, these live shows we experienced would continue to blow our minds. And none other to keep that flow going than
 
 KiNK! Ahhh KiNK, what a gig. We’ll remember that one for a long time. His ability to work with the crowd live, fix any hiccups swiftly, and put on a show is like nothing we could compare to. His energy was through the roof!
 
