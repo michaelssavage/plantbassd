@@ -6,19 +6,9 @@ interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "FUSE X Plant Bass'd Hogmanay",
-    link: "https://ra.co/events/1628390",
+    title: "SweatBox : HYPERVERSE",
+    link: "https://ra.co/events/1636490",
     icon: "tickets",
-  },
-  {
-    title: "J Wax - Top 10 Releases Of The Year",
-    link: "https://www.plantbassd.com/top-ten-releases/jwax-15-12.22",
-    icon: "news",
-  },
-  {
-    title: "DJ Bastard - Top 10 Releases Of The Year",
-    link: "https://www.plantbassd.com/top-ten-releases/dj-bastard-15-12-22",
-    icon: "news",
   },
   {
     title: "PREMIERE: DROMEK - Mistura De Bossa",
@@ -26,19 +16,9 @@ export const linkList: LinkProps[] = [
     icon: "premieres",
   },
   {
-    title: "Darkmavis - Top 10 Releases Of The Year",
-    link: "https://www.plantbassd.com/top-ten-releases/darkmavis-8-12-22",
-    icon: "news",
-  },
-  {
     title: "Prograsm by DJ Pacifier",
     link: "https://soundcloud.com/plantbassddjs/premiere-dj-pacifier-prograsm-1",
     icon: "premieres",
-  },
-  {
-    title: "E.DN - Top 10 Releases Of The Year",
-    link: "https://www.plantbassd.com/top-ten-releases/edn-7-12-22",
-    icon: "news",
   },
   {
     title: "Switch by Stephen Mahoney",
@@ -99,41 +79,6 @@ export const linkList: LinkProps[] = [
     title: "BABELGAM - KLAN DESTINO (2AT REMIX)",
     link: "https://soundcloud.com/plantbassddjs/klan-destino-2at-remix",
     icon: "premieres",
-  },
-  {
-    title: "On Site at Fuinneamh Festival",
-    link: "https://www.plantbassd.com/news/fuinneamh-27-9-22",
-    icon: "news",
-  },
-  {
-    title: "'For Sure' by Sweet Philly",
-    link: "https://www.plantbassd.com/fresh-juice/sweet-philly-3-9-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "'Sonale Los Bajos' by CRRDR",
-    link: "https://soundcloud.com/plantbassddjs/plant-bassd-premiere-sonale-los-bajos-by-crrdr",
-    icon: "premieres",
-  },
-  {
-    title: "WZY 2.5 by Woozy",
-    link: "https://www.plantbassd.com/fresh-juice/woozy-2-9-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "On Site at Another Love Story",
-    link: "https://www.plantbassd.com/news/another-love-story-26-8-22",
-    icon: "news",
-  },
-  {
-    title: "'LETS GET IT' by Fourtwenty Sound",
-    link: "https://soundcloud.com/plantbassddjs/fourtwenty-sound-lets-get-it",
-    icon: "premieres",
-  },
-  {
-    title: "Luv 2 LUv U // Do It Right by Burnout",
-    link: "https://www.plantbassd.com/fresh-juice/burnout-12-8-22",
-    icon: "fresh juice",
   },
 ];
 
