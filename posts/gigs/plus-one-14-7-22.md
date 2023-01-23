@@ -9,15 +9,7 @@ bio: "Plant Bass'd return to the Wigwam basement for another night displaying so
 path: "gigs"
 tags: "gigs"
 city: "dublin"
-anames: ["Plus One", "E The Artist", "Lychee", "OISÍN"]
-alinks:
-  [
-    "https://www.instagram.com/__plus__one__/",
-    "https://www.instagram.com/etheartistdublin/",
-    "https://www.instagram.com/lychee800/",
-    "https://www.instagram.com/inspectorcampbellbap/",
-  ]
-apics: ["15-plus-one.jpg", "15-e.jpg", "15-lychee.jpg", "12-oisin.jpg"]
+anames: ["Plus One", "E The Artist", "Lychee", "oBrother"]
 ---
 
 ### Plant Bass'd return to the Wigwam basement for another night displaying some of the city's finest talents in Plus One, E the Artist & Lychee

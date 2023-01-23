@@ -9,14 +9,7 @@ bio: "Plant Bass'd return for the next edition of SweatBox, this time inviting D
 path: "gigs"
 tags: "gigs"
 city: "edinburgh"
-anames: ["Rory Sweeney", "Julia Louise KnifeFist", "OISÍN"]
-alinks:
-  [
-    "https://www.instagram.com/rory_sweeney123/",
-    "https://www.instagram.com/julialouiseknifefist/",
-    "https://www.instagram.com/inspectorcampbellbap/",
-  ]
-apics: ["10-sweeney.jpg", "13-julia.jpg", "08-oisin.jpg"]
+anames: ["Rory Sweeney", "Julia Louise KnifeFist", "oBrother"]
 ---
 
 ### Plant Bass'd return for the next edition of SweatBox, this time inviting Dublin hardcore contingent Bitten Twice to the capital for a UK debut!

@@ -9,15 +9,7 @@ bio: "Our next Glasgow SweatBox is ready for Martyn Bootyspoon at the Flying Duc
 path: "gigs"
 tags: "gigs"
 city: "glasgow"
-anames: ["Martyn Bootyspoon", "H3L3NA", "Sweet Philly", "OISÍN"]
-alinks:
-  [
-    "https://www.instagram.com/mbootyspoon/",
-    "https://www.instagram.com/helena_h3l3na/",
-    "https://www.instagram.com/phillyholmes_/",
-    "https://www.instagram.com/inspectorcampbellbap/",
-  ]
-apics: ["08-martyn.jpg", "08-helena.jpg", "05-sweet-philly.jpg", "08-oisin.jpg"]
+anames: ["Martyn Bootyspoon", "H3L3NA", "Sweet Philly", "oBrother"]
 ---
 
 ### Our next Glasgow SweatBox is ready for Martyn Bootyspoon at the Flying Duck Club with support from H3L3NA, Sweet Philly and OISÍN!

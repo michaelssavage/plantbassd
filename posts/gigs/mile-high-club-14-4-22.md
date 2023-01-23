@@ -9,15 +9,7 @@ bio: "Plant Bass'd and Mile High Club join forces for a very special show welcom
 path: "gigs"
 tags: "gigs"
 city: "edinburgh"
-anames: ["Two Shell", "b3hra", "Sosi", "OISÍN"]
-alinks:
-  [
-    "https://www.instagram.com/twoshell/",
-    "https://www.instagram.com/b3hra/",
-    "https://www.instagram.com/itsjustsosi/",
-    "https://www.instagram.com/inspectorcampbellbap/",
-  ]
-apics: ["09-2-shell.jpg", "09-behra.jpg", "09-sosi.jpg", "08-oisin.jpg"]
+anames: ["Two Shell", "b3hra", "Sosi", "oBrother"]
 ---
 
 ### Plant Bass'd and Mile High Club join forces for a very special show welcoming UK underground heavyweights Two Shell to the capital!

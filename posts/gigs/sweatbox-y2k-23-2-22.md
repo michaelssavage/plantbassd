@@ -10,14 +10,6 @@ path: "gigs"
 tags: "gigs"
 city: "glasgow"
 anames: ["Roo Honeychild", "Casement", "Iso Yso", "Lucky Dip"]
-alinks:
-  [
-    "https://www.instagram.com/roohoneychild/",
-    "https://www.instagram.com/case_ment/",
-    "https://www.instagram.com/iso.yso/",
-    "https://www.instagram.com/_luckydip_/",
-  ]
-apics: ["07-roo.jpg", "07-casement.jpg", "07-iso-yso.jpg", "05-lucky-dip.jpg"]
 ---
 
 ### Noughties delights spinned inna footwork, jungle, electro styles & more with @roohoneychild, @case_ment, @iso.yso, and Lucky Dip!

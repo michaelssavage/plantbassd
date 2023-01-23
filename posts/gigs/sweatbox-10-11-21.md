@@ -9,14 +9,7 @@ bio: "We are back with another SweatBox party! This time across the road to @bon
 path: "gigs"
 tags: "gigs"
 city: "edinburgh"
-anames: ["Fio Fa", "Feena", "OISÍN"]
-alinks:
-  [
-    "https://www.instagram.com/fiofa__/",
-    "https://www.instagram.com/feena_mmm/",
-    "https://www.instagram.com/inspectorcampbellbap/",
-  ]
-apics: ["02-fio-fa.jpg", "02-feena.jpg", "08-oisin.jpg"]
+anames: ["Fio Fa", "Feena", "oBrother"]
 ---
 
 ### We are back with another SweatBox party! This time across the road to @bongoclub.edinburgh.

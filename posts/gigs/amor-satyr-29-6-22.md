@@ -10,13 +10,6 @@ path: "gigs"
 tags: "gigs"
 city: "glasgow"
 anames: ["Amor Satyr", "Skillis", "Doubt"]
-alinks:
-  [
-    "https://www.instagram.com/amorsatyr/",
-    "https://www.instagram.com/skillis___/",
-    "https://www.instagram.com/doubt_fld/",
-  ]
-apics: ["14-satyr.jpg", "14-skillis.jpg", "14-doubt.jpg"]
 ---
 
 ### Expect breaks, bass and more from Parisian DJ and producer Amor Satyr as they make their Glasgow debut.

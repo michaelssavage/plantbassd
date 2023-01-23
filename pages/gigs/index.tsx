@@ -7,7 +7,7 @@ import { sortByDate } from "components/Utilities";
 import Error from "components/Error";
 import FilterTags from "components/FilterTags";
 import Footer from "components/Footer";
-import useFilterTags from "hooks/useFilterTags";
+import { useFilter }Tags from "hooks/useFilterTags";
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import GoBack from "components/GoBack";

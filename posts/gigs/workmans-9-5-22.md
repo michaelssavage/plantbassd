@@ -10,14 +10,6 @@ path: "gigs"
 tags: "gigs"
 city: "dublin"
 anames: ["E The Artist", "Jenn Hession", "Silky Klub", "Sweet Philly"]
-alinks:
-  [
-    "https://www.instagram.com/etheartistdublin/",
-    "https://www.instagram.com/jennhession/",
-    "https://www.instagram.com/silkyklub/",
-    "https://www.instagram.com/phillyholmes_/",
-  ]
-apics: ["11-e-artist.jpg", "11-jenn-hession.jpg", "11-silky.jpg", "05-sweet-philly.jpg"]
 ---
 
 Plant Bass'd returns to Dublin, this time to Workman’s Club with the launch of our new Organica series!

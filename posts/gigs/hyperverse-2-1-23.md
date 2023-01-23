@@ -10,14 +10,6 @@ path: "gigs"
 tags: "gigs"
 city: "edinburgh"
 anames: ["ELFZ", "Danyo", "SeaUrchin", "MIA"]
-alinks:
-  [
-    "https://www.instagram.com/matt_.elfz/",
-    "https://www.instagram.com/danielmaherr/",
-    "https://www.instagram.com/seaurch1n/",
-    "https://www.instagram.com/fatbogwalrus/",
-  ]
-apics: ["29-elfz.jpg", "29-danyo.jpg", "29-sea.jpg", "29-mia.jpg"]
 ---
 
 ### Plant Bass'd takes SweatBox into the Hyperverse dimension

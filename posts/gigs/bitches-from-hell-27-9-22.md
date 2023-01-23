@@ -10,13 +10,6 @@ path: "gigs"
 tags: "gigs"
 city: "edinburgh"
 anames: ["PooG1rl", "KateLate", "Mackerelsky"]
-alinks:
-  [
-    "https://www.instagram.com/poog1rl/",
-    "https://www.instagram.com/katelate.dj/",
-    "https://www.instagram.com/rowanmcilvride/",
-  ]
-apics: ["25-poog1rl.jpg", "19-katelate.jpg", "25-sky.jpg"]
 ---
 
 ### Bringing mystical hard traxxx on the 27th October

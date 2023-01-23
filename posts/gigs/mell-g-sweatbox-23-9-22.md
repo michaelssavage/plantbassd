@@ -9,14 +9,7 @@ bio: "Plant Bass'd return with their SweatBox series to Stereo Club with Hamburg
 path: "gigs"
 tags: "gigs"
 city: "glasgow"
-anames: ["Mell G", "Nyla", "KOPI O"]
-alinks:
-  [
-    "https://www.instagram.com/dj_mellg/",
-    "https://www.instagram.com/dylanyla/",
-    "https://www.instagram.com/kopi___o/",
-  ]
-apics: ["24-mell.jpg", "24-nyla.jpg", "24-kopi.jpg"]
+anames: ["DJ Mell G", "Nyla", "KOPI O"]
 ---
 
 ### Plant Bass'd return with their SweatBox series to Stereo Club with Hamburg ghetto tech and electro stalwart DJ MELL G

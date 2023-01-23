@@ -1,0 +1,23 @@
+---
+title: "SweatBox: Kessler"
+name: "kessler sweatbox stereo h3l3na oisin obrother"
+date: "January 20, 2023"
+pic: "/news/30-kessler.jpg"
+tickets: "https://ra.co/events/1640764"
+postLink: "https://www.instagram.com/p/CnfLcLcs7Ia/"
+bio: "Plant Bass'd return to Glasgow with the SweatBox series for the first outing of 2023"
+path: "gigs"
+tags: "gigs"
+city: "glasgow"
+anames: ["Kessler", "Bleen", "H3L3NA", "oBrother"]
+---
+
+### Plant Bass'd return to Glasgow with the SweatBox series for the first outing of 2023
+
+Offering up a blitzing session, Belfast native and breakbeat lord Kessler headlines Stereo!
+
+Emerging in the last couple of years with break out releases on the likes of Club Glow, Shall Not Fade, and Holding Hands, Kessler is crafting a sound to be reckoned with combining hard jungle and breakcore cuts that have pushed his status worldwide. 2022 alone seen the Rotterdam based act feature on Boiler Room, Mixmag's the LAB series, as well as nailing down a residency on Rinse FM.
+
+Alongside on the night will be Clyde Built resident H3L3NA, no stranger to Plant Bass'd after a number of performances including our headline show with Martyn Bootyspoon last year, and she will be sharing the booth with our own oBrother on the night.
+
+Artwork: @vnc.ptk

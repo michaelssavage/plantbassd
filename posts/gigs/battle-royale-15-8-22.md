@@ -9,25 +9,7 @@ bio: "Plant Bass'd invite once allies Roo Honeychild, DJ Egg, Vaj Power, Casemen
 path: "gigs"
 tags: "gigs"
 city: "glasgow"
-anames: ["Roo Honeychild", "DJ Egg", "Vaj Power", "Casement", "Doubt", "OISÍN"]
-alinks:
-  [
-    "https://www.instagram.com/roohoneychild/",
-    "https://www.instagram.com/dj__egg/",
-    "https://www.instagram.com/vaj.power/",
-    "https://www.instagram.com/case_ment/",
-    https://www.instagram.com/doubt_fld/,
-    "https://www.instagram.com/inspectorcampbellbap/",
-  ]
-apics:
-  [
-    "07-roo.jpg",
-    "16-dj-egg.jpg",
-    "16-vaj-power.jpg",
-    "07-casement.jpg",
-    "14-doubt.jpg",
-    "08-oisin.jpg",
-  ]
+anames: ["Roo Honeychild", "DJ Egg", "VAJ.Power", "Casement", "Doubt", "oBrother"]
 ---
 
 ### Plant Bass'd invite once allies Roo Honeychild, DJ Egg, Vaj Power, Casement, and Doubt to Stereo Club for a blitzing booty to booty Battle Royale bonanza!

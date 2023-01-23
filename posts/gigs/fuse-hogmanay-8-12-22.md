@@ -20,33 +20,7 @@ anames:
     "Miss Cabbage",
     "poog1rl",
     "oBrother",
-    "VAJ.Power",
-  ]
-alinks:
-  [
-    "https://www.instagram.com/case_ment/",
-    "https://www.instagram.com/diessa__/",
-    "https://www.instagram.com/djfluffie/",
-    "https://www.instagram.com/inez.gla/",
-    "https://www.instagram.com/iso.yso/",
-    "https://www.instagram.com/marky.marbles/",
-    "https://www.instagram.com/apieceofcabbage/",
-    "https://www.instagram.com/poog1rl/",
-    "https://www.instagram.com/inspectorcampbellbap/",
-    "https://www.instagram.com/vaj.power/",
-  ]
-apics:
-  [
-    "07-casement.jpg",
-    "28-diessa.jpg",
-    "28-fluffie.jpg",
-    "28-inez.jpg",
-    "07-iso-yso.jpg",
-    "28-marbles.jpg",
-    "20-cabbage.jpg",
-    "25-poog1rl.jpg",
-    "08-oisin.jpg",
-    "16-vaj-power.jpg",
+    "",
   ]
 ---
 

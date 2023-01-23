@@ -9,6 +9,7 @@ bio: "We are back at @sneakypetesclub at the end of the month for a SweatBox 5am
 path: "gigs"
 tags: "gigs"
 city: "edinburgh"
+anames: ["smiff", "oBrother", "skillis", "Nina Stanger"]
 ---
 
 ### We are back at @sneakypetesclub at the end of the month for a SweatBox 5amer!

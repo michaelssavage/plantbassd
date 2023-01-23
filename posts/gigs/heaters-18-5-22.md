@@ -9,15 +9,7 @@ bio: "Back at the Sneaky Pete’s club for another night of insatiable hot trax 
 path: "gigs"
 tags: "gigs"
 city: "edinburgh"
-anames: ["Sarra Wild", "Miss Cabbage", "DJ Petfood", "OISÍN"]
-alinks:
-  [
-    "https://www.instagram.com/sarrawild/",
-    "https://www.instagram.com/apieceofcabbage/",
-    "https://www.instagram.com/petfoodbaby/",
-    "https://www.instagram.com/inspectorcampbellbap/",
-  ]
-apics: ["12-sara.jpg", "12-cabbage.jpg", "12-petfood.jpg", "12-oisin.jpg"]
+anames: ["Sarra Wild", "Miss Cabbage", "DJ Petfood", "oBrother"]
 ---
 
 ### Back at the Sneaky Pete’s club for another night of insatiable hot trax in the next edition of our SweatBox series 💦

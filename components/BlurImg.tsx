@@ -1,5 +1,5 @@
 export const toBase64 = (str: string) =>
-  typeof window === "undefined" ? Buffer.from(str).toString("base64") : window.btoa(str);
+  typeof window !== "undefined" ? window.btoa(str) : Buffer.from(str).toString("base64");
 
 export const shimmer = (width: number, height: number) => `
   <svg width="${width}" height="${height}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

@@ -9,14 +9,7 @@ bio: "Celebrating a year of parties on Edinburgh’s Cowgate and beyond with spe
 path: "gigs"
 tags: "gigs"
 city: "edinburgh"
-anames: ["DJ Pacifier", "KateLate", "OISÍN"]
-alinks:
-  [
-    "https://www.instagram.com/dj_pacifier/",
-    "https://www.instagram.com/katelate.dj/",
-    "https://www.instagram.com/inspectorcampbellbap/",
-  ]
-apics: ["19-dj-pacifier.jpg", "19-katelate.jpg", "19-oisin.jpg"]
+anames: ["DJ Pacifier", "KateLate", "oBrother"]
 ---
 
 ### Celebrating a year of parties on Edinburgh’s Cowgate and beyond with special guest DJ Pacifier

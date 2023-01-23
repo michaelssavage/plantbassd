@@ -10,14 +10,6 @@ path: "gigs"
 tags: "gigs"
 city: "edinburgh"
 anames: ["Joey Mousepads", "Miss Cabbage", "Melly", "Lucky Dip"]
-alinks:
-  [
-    "https://www.instagram.com/joeymousepads/",
-    "https://www.instagram.com/apieceofcabbage/",
-    "https://www.instagram.com/sssmmeelllyyy/",
-    "https://www.instagram.com/_luckydip_/",
-  ]
-apics: ["20-joey.jpg", "20-cabbage.jpg", "20-melly.jpg", "20-lucky-dip.jpg"]
 ---
 
 ### Plant Bass’d and Lucky Dip combine to bring you a night of all-femme hard dance at the Bongo Club

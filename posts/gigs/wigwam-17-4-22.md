@@ -10,14 +10,6 @@ path: "gigs"
 tags: "gigs"
 city: "dublin"
 anames: ["Rory Sweeney", "Sohotsospicy", "Glimmerman", "Ayolxi"]
-alinks:
-  [
-    "https://www.instagram.com/rory_sweeney123/",
-    "https://www.instagram.com/sohotsospicy/",
-    "https://www.instagram.com/glimmerman/",
-    "https://www.instagram.com/ayolxi/",
-  ]
-apics: ["10-sweeney.jpg", "10-sohotsospicy.jpg", "10-glimmerman.jpg", "10-ayolxi.jpg"]
 ---
 
 ## Plant Bass'd return home for their first show on Irish soil with an ensemble featuring some of the most exciting electronic talent on the Isle in the notorious Wigwam basement.
