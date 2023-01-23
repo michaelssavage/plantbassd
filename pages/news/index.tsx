@@ -8,11 +8,11 @@ import { sortByDate } from "components/Utilities";
 import Error from "components/Error";
 import FilterTags from "components/FilterTags";
 import Footer from "components/Footer";
-import { useFilter }Tags from "hooks/useFilterTags";
 import { CardWithText } from "components/Card";
 import styles from "styles/page.module.scss";
 import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
+import { useTags } from "hooks";
 
 const newsTags = [
   { name: "fresh juice", value: false },
@@ -23,11 +23,7 @@ const newsTags = [
 ];
 
 export default function NewsPage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { error, handleTags, hasErrored, newsStories, tagList } = useFilterTags(
-    newsTags,
-    "news",
-    files
-  );
+  const { error, handleTags, hasErrored, newsStories, tagList } = useTags(newsTags, "news", files);
 
   if (hasErrored) return <Error error={error} />;
 

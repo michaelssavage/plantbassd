@@ -3,11 +3,11 @@ import matter from "gray-matter";
 import { InferGetStaticPropsType } from "next";
 import path from "path";
 import fs from "fs";
+import { useTags } from "hooks";
 import { sortByDate } from "components/Utilities";
 import Error from "components/Error";
 import FilterTags from "components/FilterTags";
 import Footer from "components/Footer";
-import { useFilter }Tags from "hooks/useFilterTags";
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import GoBack from "components/GoBack";
@@ -20,11 +20,7 @@ const gigsTags = [
 ];
 
 export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { error, handleTags, hasErrored, newsStories, tagList } = useFilterTags(
-    gigsTags,
-    "gig",
-    gigs
-  );
+  const { error, handleTags, hasErrored, newsStories, tagList } = useTags(gigsTags, "gig", gigs);
 
   if (hasErrored) return <Error error={error} />;
 

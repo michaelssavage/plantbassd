@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { FilterProps, TagProps } from "types/frontmatter";
 
-export default function useFilterTags(initTagList: TagProps[], filterType: string, news = []) {
+export const useTags = (initTagList: TagProps[], filterType: string, news = []) => {
   const [hasErrored, setHasErrored] = useState(false);
   const [error, setError] = useState("");
   const [tags, setTags] = useState([]);
@@ -52,4 +52,4 @@ export default function useFilterTags(initTagList: TagProps[], filterType: strin
   }, [tags, news, filterType]);
 
   return { error, handleTags, hasErrored, newsStories, tagList };
-}
+};

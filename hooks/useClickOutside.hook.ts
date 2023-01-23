@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-export default function useClickLocation() {
+export const useClickOutside = () => {
   const [sidebar, setSidebar] = useState(false);
   const closeSidebar = () => {
     setSidebar(false);
@@ -11,9 +11,14 @@ export default function useClickLocation() {
     setSidebar(!sidebar);
   };
   useEffect(() => {
-    const handler = (event) => {
+    const handler = (event: MouseEvent): void => {
       const navArea = navMenu.current;
-      if (navArea && !navArea.contains(event.target) && sidebar) {
+      if (
+        navArea &&
+        sidebar &&
+        event.target instanceof HTMLElement &&
+        !navArea.contains(event.target)
+      ) {
         closeSidebar();
       }
     };
@@ -26,4 +31,4 @@ export default function useClickLocation() {
   });
 
   return { closeSidebar, navMenu, showSidebar, sidebar };
-}
+};

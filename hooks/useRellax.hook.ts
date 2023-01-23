@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Rellax from "rellax";
 
-export default function useRellax() {
+export const useRellax = () => {
   useEffect(() => {
     new Rellax(".animate", {
       center: false,
@@ -12,4 +12,4 @@ export default function useRellax() {
       wrapper: null,
     });
   }, []);
-}
+};
