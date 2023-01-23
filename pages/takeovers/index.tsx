@@ -3,13 +3,13 @@ import { InferGetStaticPropsType } from "next";
 import matter from "gray-matter";
 import path from "path";
 import fs from "fs";
-import { sortByDate } from "components/Utilities";
+import { sortByDate } from "utils";
 import Error from "components/Error";
 import Footer from "components/Footer";
 import { useFilter } from "hooks/useFilter.hook";
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
-import SocialIcon from "components/SocialIcon";
+import { SocialButton } from "components/Icon";
 import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
@@ -44,17 +44,12 @@ export default function TakeoverPage({
             text="artists by name"
           />
 
-          <div className={`col-auto ${styles.socialBtns}`}>
-            <a
-              className={`${styles.spotify} text-nowrap btn btn-dark`}
-              href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
-              rel="noopener noreferrer"
-              role="button"
-              target="_blank"
-            >
-              <SocialIcon icon="spotify" /> Plant Bass'd Picks
-            </a>
-          </div>
+          <SocialButton
+            name="Plant Bass'd Picks"
+            icon="spotify"
+            url="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
+            style={`${styles.spotify} text-nowrap btn btn-dark`}
+          />
         </div>
         <div className="row g-3">
           {postCards.map((takeover: AllPostProps) => (

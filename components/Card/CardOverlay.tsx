@@ -14,15 +14,15 @@ export const CardOverlay = (cards: CardProps[]) => {
       <div className="row g-1">
         {cards.map((guest: CardProps) => (
           <div key={guest.name} className="col-4 col-md-4 col-lg-3 col-xl-2">
-            <Link href={`https://instagram.com/${guest.link}`} className="pinkUnderline">
+            <Link href={`https://instagram.com/${guest.link}`}>
               <div className={`card imgContainer ${styles.cardStyle}`}>
-                <Picture alt={guest.name} height={300} src={`/news/${guest.img}`} width={300} />
+                <Picture alt={guest.name} size={300} src={`/news/${guest.img}`} />
                 <div className="guestOverlay">
                   <div className="guestTextOverlay">{guest.name}</div>
                 </div>
               </div>
-              <p className="nameAnchor">{guest.name}</p>
             </Link>
+            <p className="nameAnchor">{guest.name}</p>
           </div>
         ))}
       </div>

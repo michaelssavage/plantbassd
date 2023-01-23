@@ -3,7 +3,7 @@ import matter from "gray-matter";
 import { InferGetStaticPropsType } from "next";
 import path from "path";
 import fs from "fs";
-import { sortByDate } from "components/Utilities";
+import { sortByDate } from "utils";
 import Error from "components/Error";
 import Footer from "components/Footer";
 import { useFilter } from "hooks/useFilter.hook";

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import styles from "./Premiere.module.scss";
 
-export default function Premiere() {
+export const Premiere = () => {
   return (
     <section className={styles.content_bg}>
       <div className={styles.bg_img}>
@@ -17,4 +17,4 @@ export default function Premiere() {
       </div>
     </section>
   );
-}
+};

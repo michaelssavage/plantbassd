@@ -3,16 +3,16 @@ import { InferGetStaticPropsType } from "next";
 import matter from "gray-matter";
 import path from "path";
 import fs from "fs";
-import { sortByDate } from "components/Utilities";
+import { sortByDate } from "utils";
 import Error from "components/Error";
 import Footer from "components/Footer";
 import { useFilter } from "hooks/useFilter.hook";
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
-import SocialIcon from "components/SocialIcon";
 import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
+import { SocialButton } from "components/Icon";
 
 export default function RadioPage({ radios }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { error, filter, hasErrored, postCards, handleSearchChange } = useFilter(radios, "posts");
@@ -39,17 +39,12 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
             text="artists by name"
           />
 
-          <div className={`col-auto ${styles.socialBtns}`}>
-            <a
-              className={`${styles.soundcloud} text-nowrap btn btn-dark`}
-              href="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
-              rel="noopener noreferrer"
-              role="button"
-              target="_blank"
-            >
-              <SocialIcon icon="radio" /> Plant Bass'd Radio
-            </a>
-          </div>
+          <SocialButton
+            name="Plant Bass'd Radio"
+            icon="radio"
+            url="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
+            style={`${styles.soundcloud} text-nowrap btn btn-dark`}
+          />
         </div>
         <div className="row g-3">
           {postCards.map((radio: AllPostProps) => (

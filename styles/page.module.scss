@@ -63,11 +63,6 @@
   gap: 0.5rem 0.5rem;
 }
 
-.socialBtns {
-  margin-bottom: 1rem;
-  order: 2;
-}
-
 .spotify {
   color: $spotify;
   transition: 0.25s ease;
@@ -105,6 +100,10 @@
   align-items: center;
   justify-content: center;
   font-size: $cardDate;
+  color: $black;
+  &:hover {
+    color: $headerBlack;
+  }
 }
 
 .socialIcon {

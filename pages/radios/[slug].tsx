@@ -39,7 +39,7 @@ export default function RadioSlug({
                 />
               </div>
               <div className={styles.imgWrapper}>
-                <Picture alt="artist tracklist" height={600} src={tracklist} width={600} />
+                <Picture alt="artist tracklist" size={600} src={tracklist} />
               </div>
             </div>
 

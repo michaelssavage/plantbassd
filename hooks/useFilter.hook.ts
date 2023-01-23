@@ -1,4 +1,5 @@
 import { ChangeEvent, useEffect, useState } from "react";
+import { sortAlphabetically } from "utils";
 
 export const useFilter = (posts = [], type: string) => {
   const [hasErrored, setHasErrored] = useState(false);
@@ -18,7 +19,9 @@ export const useFilter = (posts = [], type: string) => {
         );
       } else if (filter && type == "array") {
         setPostCards(
-          posts.filter((post) => post.name.toLowerCase().includes(filter.toLowerCase()))
+          posts
+            .filter((post) => post.name.toLowerCase().includes(filter.toLowerCase()))
+            .sort(sortAlphabetically)
         );
       } else {
         setPostCards(posts);

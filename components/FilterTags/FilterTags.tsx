@@ -7,7 +7,7 @@ interface FilterTagsProps {
   tagList: TagProps[];
 }
 
-export default function FilterTags({ tagList, handleTags }: FilterTagsProps) {
+export const FilterTags = ({ tagList, handleTags }: FilterTagsProps) => {
   return (
     <div className={styles.btnGroup} role="group">
       <div>Filters:</div>
@@ -27,4 +27,4 @@ export default function FilterTags({ tagList, handleTags }: FilterTagsProps) {
         : null}
     </div>
   );
-}
+};

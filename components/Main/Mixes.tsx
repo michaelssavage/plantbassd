@@ -2,14 +2,14 @@ import Image from "next/legacy/image";
 import { Picture } from "components/Picture";
 import styles from "./Mixes.module.scss";
 
-export default function Mixes() {
+export const Mixes = () => {
   return (
     <section className="mixSection">
       <div className="row align-items-center">
         <div className="col-lg-6 col-md-12">
           <div className={styles.mixImages}>
             <div className={styles.topImage}>
-              <Picture alt="michael radio" height={360} src="/mixes/michael.png" width={360} />
+              <Picture alt="michael radio" size={360} src="/mixes/michael.png" />
             </div>
             <div className={styles.bottomImage}>
               <Image alt="oisin radio" height={360} src="/mixes/oisin.jpg" width={360} />
@@ -41,4 +41,4 @@ export default function Mixes() {
       </div>
     </section>
   );
-}
+};

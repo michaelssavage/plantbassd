@@ -1,20 +1,19 @@
 import { marked } from "marked";
+import { guestList, headliners } from "arrays/previous-guests";
 import styles from "styles/slug.module.scss";
+import { ArtistLookUp } from "./ArtistLookUp";
 
-interface ContentProps {
-  content: string;
-  date: string;
-  title: string;
-}
+const djs = guestList.concat(headliners);
+const len = djs.length;
 
-export default function Content({ date, title, content }: ContentProps) {
+export const Gigs = (anames: string[], content: string, date: string, title: string) => {
   return (
     <div
       className={`
 				${styles.postContent}
-				col-lg-7
+				col-lg-6
 				col-md-12
-				col-xl-7 
+				col-xl-6 
 				`}
     >
       <p className={styles.postDate}>Posted on {date}</p>
@@ -25,7 +24,10 @@ export default function Content({ date, title, content }: ContentProps) {
             __html: marked(content),
           }}
         />
+        <div className="container">
+          <div className="row">{anames.map((name) => ArtistLookUp(name, len, djs))}</div>
+        </div>
       </div>
     </div>
   );
-}
+};

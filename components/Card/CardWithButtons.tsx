@@ -18,7 +18,7 @@ export const CardWithButtons = (props: CardProps) => {
   return (
     <div className="col">
       <div className={styles.newsImage}>
-        <Picture alt={title} height={500} src={pic} width={500} />
+        <Picture alt={title} size={500} src={pic} />
         <div className="row">
           <div className={`col ${styles.button}`}>
             <Link

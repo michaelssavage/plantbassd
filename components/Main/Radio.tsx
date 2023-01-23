@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { CardNoText } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
-import Header from "./Header";
+import Header from "../Header";
 
 interface Props {
   radios: AllPostProps[];
 }
 
-export default function Radio({ radios }: Props) {
+export const Radio = ({ radios }: Props) => {
   return (
     <section className="radioSection col-lg-6 col-md-12">
       <div className="row mb-2 align-items-center">
@@ -36,4 +36,4 @@ export default function Radio({ radios }: Props) {
       </div>
     </section>
   );
-}
+};

@@ -3,13 +3,13 @@ import { InferGetStaticPropsType } from "next";
 import matter from "gray-matter";
 import path from "path";
 import fs from "fs";
-import { sortByDate } from "components/Utilities";
+import { sortByDate } from "utils";
 import Error from "components/Error";
 import Footer from "components/Footer";
 import { useFilter } from "hooks/useFilter.hook";
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
-import SocialIcon from "components/SocialIcon";
+import { SocialButton } from "components/Icon";
 import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
@@ -44,18 +44,11 @@ export default function FreshJuicePage({
             style={`col-md-4 me-auto input-group ${styles.radioFilter}`}
             text="artists by name"
           />
-
-          <div className={`col-auto ${styles.socialBtns}`}>
-            <a
-              className={`${styles.bandcamp} btn btn-dark`}
-              href="https://bandcamp.com/oisincampbellbap"
-              rel="noopener noreferrer"
-              role="button"
-              target="_blank"
-            >
-              <SocialIcon icon="bandcamp" /> Bandcamp
-            </a>
-          </div>
+          <SocialButton
+            name="Bandcamp"
+            url="https://bandcamp.com/oisincampbellbap"
+            style={`${styles.bandcamp} btn btn-dark`}
+          />
         </div>
 
         <div className="row g-3">

@@ -2,15 +2,10 @@ import Head from "next/head";
 import matter from "gray-matter";
 import path from "path";
 import fs from "fs";
-import { sortByDate } from "components/Utilities";
+import { FreshJuice, Mixes, News, Premiere, Radio, Takeover } from "components/Main";
+import { sortByDate } from "utils";
 import Footer from "components/Footer";
-import FreshJuice from "components/FreshJuice";
-import Mixes from "components/Mixes";
-import News from "components/News";
-import Radio from "components/Radio";
 import Banner from "components/Banner";
-import Premiere from "components/Premiere";
-import Takeover from "components/Takeover";
 import { AllPostProps } from "types/frontmatter";
 
 interface HomeProps {

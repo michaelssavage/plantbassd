@@ -4,15 +4,16 @@ import matter from "gray-matter";
 import { InferGetStaticPropsType } from "next";
 import path from "path";
 import fs from "fs";
-import { sortByDate } from "components/Utilities";
+import { sortByDate } from "utils";
 import Error from "components/Error";
-import FilterTags from "components/FilterTags";
+import { FilterTags } from "components/FilterTags";
 import Footer from "components/Footer";
 import { CardWithText } from "components/Card";
 import styles from "styles/page.module.scss";
 import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
 import { useTags } from "hooks";
+import { HoverLink } from "components/HoverLink";
 
 const newsTags = [
   { name: "fresh juice", value: false },
@@ -38,9 +39,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
         <p className={styles.pageText}>
           News about club guides, gigs, and all things Plant Bass'd. Keep up to date on our
           Instagram,{" "}
-          <a className="pinkUnderline" href="http://instagram.com/plantbassd___">
-            @plantbassd___
-          </a>
+          <HoverLink url="instagram.com/plantbassd___" name="@plantbassd___" inline external />
         </p>
 
         <FilterTags handleTags={handleTags} tagList={tagList} />

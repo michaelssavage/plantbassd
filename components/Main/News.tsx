@@ -2,12 +2,13 @@ import Link from "next/link";
 import { CardWithText } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
 import Header from "components/Header";
+import { HoverLink } from "components/HoverLink";
 
 interface Props {
   news: AllPostProps[];
 }
 
-export default function News({ news }: Props) {
+export const News = ({ news }: Props) => {
   return (
     <section className="newsSection">
       <div className="row mb-2 align-items-center">
@@ -21,16 +22,9 @@ export default function News({ news }: Props) {
 
       <div className="row mb-2">
         <p>
-          Catch the latest about new music, upcoming gigs & events, and more. Find more on our{" "}
-          <a
-            className="pinkUnderline"
-            href="http://instagram.com/plantbassd___"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            Instagram
-          </a>
-          .
+          Catch the latest about new music, upcoming gigs & events, and more. Find more on our
+          Instagram,{" "}
+          <HoverLink url="instagram.com/plantbassd___" name="@plantbassd___" inline external />
         </p>
       </div>
 
@@ -45,4 +39,4 @@ export default function News({ news }: Props) {
       </div>
     </section>
   );
-}
+};

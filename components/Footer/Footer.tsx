@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { links } from "arrays/footer-links";
+import { HoverLink } from "components/HoverLink";
 import styles from "./Footer.module.scss";
 
 export default function Footer() {
@@ -22,9 +22,8 @@ export default function Footer() {
               <p>
                 {links.map((item, idx, arr) => (
                   <span key={item.title}>
-                    <Link href={item.link} className="pinkUnderline">
-                      {item.title}
-                    </Link>
+                    <HoverLink url={item.link} name={item.title} inline />
+
                     {idx + 1 === arr.length ? "" : " // "}
                   </span>
                 ))}
@@ -37,14 +36,7 @@ export default function Footer() {
         <div className={styles.siteBy}>
           <p className="small m-0">
             Site by{" "}
-            <a
-              className="pinkUnderline"
-              href="https://www.instagram.com/michaelsaverage/"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Michael.
-            </a>
+            <HoverLink url="www.instagram.com/michaelsaverage/" name="Michael." inline external />
           </p>
         </div>
         <div className={styles.allRights}>

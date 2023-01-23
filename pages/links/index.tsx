@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { linkList, mainLinks } from "arrays/linktree";
 import { socialIcons } from "arrays/social-icons";
-import SocialIcon from "components/SocialIcon";
+import { Icon } from "components/Icon";
 import Header from "components/Header";
 import styles from "./Links.module.scss";
 
@@ -22,7 +22,7 @@ export default function Links() {
             {socialIcons.map((item) => (
               <div className={`col ${styles.iconContainer}`} key={item.link}>
                 <Link href={item.link}>
-                  <SocialIcon icon={item.icon} styling={styles.socialIcon} />
+                  <Icon icon={item.icon} styling={styles.socialIcon} />
                 </Link>
               </div>
             ))}
@@ -34,7 +34,7 @@ export default function Links() {
           {linkList.map((item) => (
             <div className={`row ${styles.buttonStyle}`} key={item.title}>
               <div className={styles.linkTitle}>
-                <SocialIcon icon={item.icon} styling={styles.linkIcon} />
+                <Icon icon={item.icon} styling={styles.linkIcon} />
                 <div>{item.icon.toUpperCase()}</div>
               </div>
               <a
@@ -52,7 +52,7 @@ export default function Links() {
           {mainLinks.map((item) => (
             <div className={`row ${styles.buttonStyle}`} key={item.title}>
               <div className={styles.linkTitle}>
-                <SocialIcon icon={item.icon} styling={styles.linkIcon} />
+                <Icon icon={item.icon} styling={styles.linkIcon} />
                 <div>{item.icon.toUpperCase()}</div>
               </div>
               <a

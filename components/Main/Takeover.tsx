@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { CardNoText } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
-import Header from "./Header";
+import Header from "../Header";
 
 interface Props {
   takeovers: AllPostProps[];
 }
 
-export default function Takeover({ takeovers }: Props) {
+export const Takeover = ({ takeovers }: Props) => {
   return (
     <section className="takeoverSection col-lg-6 col-md-12">
       <div className="row mb-2 justify-content-end align-items-center">
@@ -35,4 +35,4 @@ export default function Takeover({ takeovers }: Props) {
       </div>
     </section>
   );
-}
+};

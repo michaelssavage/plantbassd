@@ -3,13 +3,13 @@ import { InferGetStaticPropsType } from "next";
 import matter from "gray-matter";
 import path from "path";
 import fs from "fs";
-import { sortByDate } from "components/Utilities";
+import { sortByDate } from "utils";
 import Error from "components/Error";
 import Footer from "components/Footer";
 import { useFilter } from "hooks/useFilter.hook";
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
-import SocialIcon from "components/SocialIcon";
+import { SocialButton } from "components/Icon";
 import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
@@ -45,17 +45,11 @@ export default function PremieresPage({
             text="artists by name"
           />
 
-          <div className={`col-auto ${styles.socialBtns}`}>
-            <a
-              className={`${styles.soundcloud} text-nowrap btn btn-dark`}
-              href="https://soundcloud.com/plantbassddjs/sets/plant-bassd-premieres"
-              rel="noopener noreferrer"
-              role="button"
-              target="_blank"
-            >
-              <SocialIcon icon="soundcloud" /> Premieres
-            </a>
-          </div>
+          <SocialButton
+            name="Premieres"
+            url="https://soundcloud.com/plantbassddjs/sets/plant-bassd-premieres"
+            style={`${styles.soundcloud} text-nowrap btn btn-dark`}
+          />
         </div>
         <div className="row g-3">
           {postCards.map((premiere: AllPostProps) => (

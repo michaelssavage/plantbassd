@@ -6,7 +6,7 @@ import fs from "fs";
 import { CardWithButtons } from "components/Card";
 import styles from "styles/slug.module.scss";
 import Footer from "components/Footer";
-import Content from "components/SlugContent";
+import { Slug } from "components/Slug";
 import { StaticProps } from "types/frontmatter";
 
 export default function PremieresSlug({
@@ -23,7 +23,7 @@ export default function PremieresSlug({
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            <Content content={content} date={date} title={title} />
+            {Slug(content, date, title)}
             <CardWithButtons
               artist="See More"
               insta="Instagram"

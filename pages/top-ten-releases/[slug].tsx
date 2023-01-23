@@ -5,20 +5,10 @@ import { InferGetStaticPropsType } from "next";
 import path from "path";
 import fs from "fs";
 import { Picture } from "components/Picture";
-import SocialIcon from "components/SocialIcon";
+import { Icon } from "components/Icon";
 import Footer from "components/Footer";
 import { StaticProps } from "types/frontmatter";
 import styles from "./TopTen.module.scss";
-
-// interface TopTenSlugProps {
-//   content: string;
-//   title: string;
-//   date: string;
-//   cover: string;
-//   intro: string;
-//   header: string;
-//   insta: string;
-// }
 
 export default function TopTenSlug(props: InferGetStaticPropsType<typeof getStaticProps>) {
   const { title, date, cover, intro, header, insta, content } = props;
@@ -31,7 +21,7 @@ export default function TopTenSlug(props: InferGetStaticPropsType<typeof getStat
         <div className="container">
           <div className={`col ${styles.topTenContent}`}>
             <p className={styles.postDate}>Posted on {date}</p>
-            <Picture alt="artist press pic" height={1200} src={cover} width={1200} />
+            <Picture alt="artist press pic" size={1200} src={cover} />
             <p className="smallText text-center">(Pictured: {header})</p>
 
             <h1 className={styles.postTitle}>{title}</h1>
@@ -46,7 +36,7 @@ export default function TopTenSlug(props: InferGetStaticPropsType<typeof getStat
                 role="button"
                 target="_blank"
               >
-                <SocialIcon icon="instagram" /> {header}
+                <Icon icon="instagram" /> {header}
               </a>
 
               <a
@@ -56,7 +46,7 @@ export default function TopTenSlug(props: InferGetStaticPropsType<typeof getStat
                 role="button"
                 target="_blank"
               >
-                <SocialIcon icon="spotify" /> Top Picks 2022
+                <Icon icon="spotify" /> Top Picks 2022
               </a>
             </div>
 

@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { CardNoText } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
-import Header from "./Header";
+import Header from "../Header";
 
 interface Props {
   freshjuice: AllPostProps[];
 }
 
-export default function FreshJuice({ freshjuice }: Props) {
+export const FreshJuice = ({ freshjuice }: Props) => {
   return (
     <section className="freshSection">
       <div className="row mb-2 align-items-center">
@@ -35,4 +35,4 @@ export default function FreshJuice({ freshjuice }: Props) {
       </div>
     </section>
   );
-}
+};
