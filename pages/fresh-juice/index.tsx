@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
 import matter from "gray-matter";
+import { GetStaticProps } from "next/types";
 import path from "path";
 import fs from "fs";
 import { sortByDate } from "utils";
@@ -69,7 +70,7 @@ export default function FreshJuicePage({
   );
 }
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async () => {
   // Get files from the takeover directory
   const files = fs.readdirSync(path.join("posts/fresh-juice"));
   const freshjuice = files.map((filename) => {
@@ -88,4 +89,4 @@ export async function getStaticProps() {
       freshjuice: freshjuice.sort(sortByDate).reverse(),
     },
   };
-}
+};

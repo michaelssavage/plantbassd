@@ -7,7 +7,7 @@ interface CardProps {
   pic: string;
   title: string;
   artist: string;
-  page: string; // page links to artistW
+  page: string; // page links to artist
   insta: string;
   link: string; // link is to instagram
 }

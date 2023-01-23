@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
 import matter from "gray-matter";
+import { GetStaticProps } from "next/types";
 import path from "path";
 import fs from "fs";
 import { sortByDate } from "utils";
@@ -60,7 +61,7 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
   );
 }
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async () => {
   const files = fs.readdirSync(path.join("posts/radios"));
   const radios = files.map((filename) => {
     const markdownWithMeta = fs.readFileSync(path.join("posts/radios", filename), "utf-8");
@@ -78,4 +79,4 @@ export async function getStaticProps() {
       radios: radios.sort(sortByDate).reverse(),
     },
   };
-}
+};

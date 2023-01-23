@@ -1,6 +1,7 @@
 import Head from "next/head";
 import matter from "gray-matter";
 import { InferGetStaticPropsType } from "next";
+import { GetStaticProps } from "next/types";
 import path from "path";
 import fs from "fs";
 import { sortByDate } from "utils";
@@ -34,7 +35,7 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
         />
 
         <div className="row g-3">
-          {postCards.map((story) => (
+          {postCards.map((story: AllPostProps) => (
             <CardWithText
               columns="col-4 col-sm-4 col-md-4 col-lg-2"
               key={story.frontmatter.name}
@@ -52,8 +53,8 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
   );
 }
 
-export async function getStaticProps() {
-  const getAllPosts = (dirPath: string, arrFiles?) => {
+export const getStaticProps: GetStaticProps = async () => {
+  const getAllPosts = (dirPath: string, arrFiles?: AllPostProps[]) => {
     const files = fs.readdirSync(dirPath);
     let arrayOfFiles = arrFiles || ([] as AllPostProps[]);
 
@@ -82,4 +83,4 @@ export async function getStaticProps() {
       files,
     },
   };
-}
+};

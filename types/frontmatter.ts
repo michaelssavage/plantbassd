@@ -1,9 +1,9 @@
 export interface AllPostProps {
   slug?: string;
-  frontmatter: Gigs | FreshJuice | News | Radio | TakeOver | TopTen;
+  frontmatter: IGigs | IFreshJuice | INews | IRadio | ITakeover | ITopTen;
 }
 
-interface Gigs {
+export interface IGigs {
   title: string;
   name: string;
   date: string;
@@ -19,7 +19,7 @@ interface Gigs {
   tickets?: string;
 }
 
-interface FreshJuice {
+export interface IFreshJuice {
   title: string;
   name: string;
   date: string;
@@ -32,7 +32,7 @@ interface FreshJuice {
   path: string;
 }
 
-interface News {
+export interface INews {
   title: string;
   name: string;
   date: string;
@@ -45,7 +45,7 @@ interface News {
   path: string;
 }
 
-interface Radio {
+export interface IRadio {
   title: string;
   name: string;
   date: string;
@@ -57,7 +57,7 @@ interface Radio {
   path: string;
 }
 
-interface TakeOver {
+export interface ITakeover {
   title: string;
   name: string;
   date: string;
@@ -68,7 +68,7 @@ interface TakeOver {
   path: string;
 }
 
-interface TopTen {
+export interface ITopTen {
   title: string;
   name: string;
   date: string;

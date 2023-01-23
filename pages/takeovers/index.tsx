@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
 import matter from "gray-matter";
+import { GetStaticProps } from "next/types";
 import path from "path";
 import fs from "fs";
 import { sortByDate } from "utils";
@@ -69,7 +70,7 @@ export default function TakeoverPage({
   );
 }
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async () => {
   const files = fs.readdirSync(path.join("posts/takeovers"));
   const takeovers = files.map((filename) => {
     const markdownWithMeta = fs.readFileSync(path.join("posts/takeovers", filename), "utf-8");
@@ -86,4 +87,4 @@ export async function getStaticProps() {
       takeovers: takeovers.sort(sortByDate).reverse(),
     },
   };
-}
+};

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import matter from "gray-matter";
 import { InferGetStaticPropsType } from "next";
+import { GetStaticProps } from "next/types";
 import path from "path";
 import fs from "fs";
 import { useTags } from "hooks";
@@ -56,8 +57,7 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
   );
 }
 
-export async function getStaticProps() {
-  // Get files from the takeover directory
+export const getStaticProps: GetStaticProps = async () => {
   const files = fs.readdirSync(path.join("posts/gigs"));
   const gigs = files.map((filename) => {
     const markdownWithMeta = fs.readFileSync(path.join("posts/gigs", filename), "utf-8");
@@ -75,4 +75,4 @@ export async function getStaticProps() {
       gigs: gigs.sort(sortByDate).reverse(),
     },
   };
-}
+};

@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import matter from "gray-matter";
 import { InferGetStaticPropsType } from "next";
+import { GetStaticProps } from "next/types";
 import path from "path";
 import fs from "fs";
 import { sortByDate } from "utils";
@@ -68,7 +69,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
   );
 }
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = async () => {
   const getAllPosts = (dirPath: string, arrFiles?) => {
     const files = fs.readdirSync(dirPath);
     let arrayOfFiles = arrFiles || [[] as AllPostProps[]];
@@ -98,4 +99,4 @@ export async function getStaticProps() {
       files,
     },
   };
-}
+};
