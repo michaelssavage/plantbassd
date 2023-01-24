@@ -1,12 +1,8 @@
 import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
-import matter from "gray-matter";
 import { GetStaticProps } from "next/types";
-import path from "path";
-import fs from "fs";
 import { sortByDate } from "utils";
 import Error from "components/Error";
-import Footer from "components/Footer";
 import { useFilter } from "hooks/useFilter.hook";
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
@@ -14,6 +10,7 @@ import { SocialButton } from "components/Icon";
 import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
+import { getPosts } from "utils/getPosts";
 
 export default function PremieresPage({
   premieres,
@@ -64,24 +61,12 @@ export default function PremieresPage({
 
         <GoBack />
       </div>
-
-      <Footer />
     </>
   );
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const files = fs.readdirSync(path.join("posts/premieres"));
-  const premieres = files.map((filename) => {
-    const markdownWithMeta = fs.readFileSync(path.join("posts/premieres", filename), "utf-8");
-    const { data: frontmatter } = matter(markdownWithMeta);
-    const slug = filename.replace(".md", "");
-
-    return {
-      frontmatter,
-      slug,
-    };
-  });
+  const premieres = await getPosts("posts/premieres");
 
   return {
     props: {

@@ -6,7 +6,7 @@ import path from "path";
 import fs from "fs";
 import { CardWithButtons } from "components/Card";
 import styles from "styles/slug.module.scss";
-import Footer from "components/Footer";
+
 import { StaticProps } from "types/frontmatter";
 
 export default function TakeoverSlug({
@@ -50,8 +50,6 @@ export default function TakeoverSlug({
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }

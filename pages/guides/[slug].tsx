@@ -5,7 +5,7 @@ import { InferGetStaticPropsType } from "next";
 import fs from "fs";
 import path from "path";
 import styles from "styles/slug.module.scss";
-import Footer from "components/Footer";
+
 import GoBack from "components/GoBack";
 import { StaticProps } from "types/frontmatter";
 
@@ -30,8 +30,6 @@ export default function Guides({ title, content }: InferGetStaticPropsType<typeo
           <GoBack />
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }

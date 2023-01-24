@@ -1,18 +1,16 @@
 import Head from "next/head";
-import matter from "gray-matter";
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import path from "path";
-import fs from "fs";
 import { useTags } from "hooks";
 import { sortByDate } from "utils";
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
-import Footer from "components/Footer";
+
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
+import { getPosts } from "utils/getPosts";
 
 const gigsTags = [
   { name: "edinburgh", value: false },
@@ -51,24 +49,12 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
 
         <GoBack />
       </div>
-
-      <Footer />
     </>
   );
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const files = fs.readdirSync(path.join("posts/gigs"));
-  const gigs = files.map((filename) => {
-    const markdownWithMeta = fs.readFileSync(path.join("posts/gigs", filename), "utf-8");
-    const { data: frontmatter } = matter(markdownWithMeta);
-    const slug = filename.replace(".md", "");
-
-    return {
-      frontmatter,
-      slug,
-    };
-  });
+  const gigs = await getPosts("posts/gigs");
 
   return {
     props: {

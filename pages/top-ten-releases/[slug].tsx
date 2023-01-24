@@ -6,7 +6,7 @@ import path from "path";
 import fs from "fs";
 import { Picture } from "components/Picture";
 import { Icon } from "components/Icon";
-import Footer from "components/Footer";
+
 import { StaticProps } from "types/frontmatter";
 import styles from "./TopTen.module.scss";
 
@@ -62,8 +62,6 @@ export default function TopTenSlug(props: InferGetStaticPropsType<typeof getStat
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }

@@ -1,20 +1,17 @@
 import Head from "next/head";
 import Link from "next/link";
-import matter from "gray-matter";
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import path from "path";
-import fs from "fs";
 import { sortByDate } from "utils";
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
-import Footer from "components/Footer";
 import { CardWithText } from "components/Card";
 import styles from "styles/page.module.scss";
 import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
 import { useTags } from "hooks";
 import { HoverLink } from "components/HoverLink";
+import { getAllPosts } from "utils/getAllPosts";
 
 const newsTags = [
   { name: "fresh juice", value: false },
@@ -63,40 +60,16 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
 
         <GoBack />
       </div>
-
-      <Footer />
     </>
   );
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const getAllPosts = (dirPath: string, arrFiles?) => {
-    const files = fs.readdirSync(dirPath);
-    let arrayOfFiles = arrFiles || [[] as AllPostProps[]];
-
-    files.forEach((file) => {
-      if (fs.statSync(`${dirPath}/${file}`).isDirectory()) {
-        // If this is a directory, then recursively call function
-        arrayOfFiles = getAllPosts(`${dirPath}/${file}`, arrayOfFiles);
-      } else {
-        const markdownWithMeta = fs.readFileSync(path.join(dirPath, file), "utf-8");
-        const { data: frontmatter } = matter(markdownWithMeta);
-        const slug = file.replace(".md", "");
-        const blogPost = {
-          frontmatter,
-          slug,
-        };
-        arrayOfFiles.push(blogPost);
-      }
-    });
-    return arrayOfFiles;
-  };
-
-  const files = getAllPosts("posts").sort(sortByDate).reverse().slice(0, 40);
+  const files = await getAllPosts();
 
   return {
     props: {
-      files,
+      files: files.sort(sortByDate).reverse().slice(0, 24),
     },
   };
 };

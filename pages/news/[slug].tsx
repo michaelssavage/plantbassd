@@ -5,7 +5,7 @@ import path from "path";
 import fs from "fs";
 import { CardWithButtons } from "components/Card";
 import styles from "styles/slug.module.scss";
-import Footer from "components/Footer";
+
 import { Slug } from "components/Slug";
 import { StaticProps } from "types/frontmatter";
 
@@ -43,8 +43,6 @@ export default function NewsSlug({
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }

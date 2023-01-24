@@ -5,7 +5,7 @@ import path from "path";
 import fs from "fs";
 import { CardWithButtons } from "components/Card";
 import styles from "styles/slug.module.scss";
-import Footer from "components/Footer";
+
 import { StaticProps } from "types/frontmatter";
 import { Gigs } from "components/Gigs";
 
@@ -43,8 +43,6 @@ export default function GigsSlug({
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }

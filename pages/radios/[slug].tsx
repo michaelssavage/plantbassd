@@ -7,7 +7,7 @@ import fs from "fs";
 import { CardWithButtons } from "components/Card";
 import { Picture } from "components/Picture";
 import styles from "styles/slug.module.scss";
-import Footer from "components/Footer";
+
 import { StaticProps } from "types/frontmatter";
 
 export default function RadioSlug({
@@ -54,8 +54,6 @@ export default function RadioSlug({
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }

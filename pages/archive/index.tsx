@@ -1,18 +1,16 @@
 import Head from "next/head";
-import matter from "gray-matter";
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import path from "path";
-import fs from "fs";
 import { sortByDate } from "utils";
 import Error from "components/Error";
-import Footer from "components/Footer";
+
 import { useFilter } from "hooks/useFilter.hook";
 import { CardWithText } from "components/Card";
 import styles from "styles/page.module.scss";
 import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
+import { getAllPosts } from "utils/getAllPosts";
 
 export default function ArchivePage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { error, filter, hasErrored, postCards, handleSearchChange } = useFilter(files, "posts");
@@ -47,40 +45,16 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
 
         <GoBack />
       </div>
-
-      <Footer />
     </>
   );
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const getAllPosts = (dirPath: string, arrFiles?: AllPostProps[]) => {
-    const files = fs.readdirSync(dirPath);
-    let arrayOfFiles = arrFiles || ([] as AllPostProps[]);
-
-    files.forEach((file) => {
-      if (fs.statSync(`${dirPath}/${file}`).isDirectory()) {
-        // If this is a directory, then recursively call function
-        arrayOfFiles = getAllPosts(`${dirPath}/${file}`, arrayOfFiles);
-      } else {
-        const markdownWithMeta = fs.readFileSync(path.join(dirPath, file), "utf-8");
-        const { data: frontmatter } = matter(markdownWithMeta);
-        const slug = file.replace(".md", "");
-        const blogPost = {
-          frontmatter,
-          slug,
-        };
-        arrayOfFiles.push(blogPost);
-      }
-    });
-    return arrayOfFiles;
-  };
-
-  const files = getAllPosts("posts").sort(sortByDate).reverse();
+  const files = await getAllPosts();
 
   return {
     props: {
-      files,
+      files: files.sort(sortByDate).reverse(),
     },
   };
 };

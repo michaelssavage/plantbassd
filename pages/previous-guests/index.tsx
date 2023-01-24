@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { guestList, headliners } from "arrays/previous-guests";
 import { CardOverlay } from "components/Card";
-import Footer from "components/Footer";
+
 import Error from "components/Error";
 import { SearchBox } from "components/SearchBox";
 import { useFilter } from "hooks/useFilter.hook";
@@ -40,8 +40,6 @@ export default function PreviousGuestsPage() {
           </>
         )}
       </div>
-
-      <Footer />
     </>
   );
 }

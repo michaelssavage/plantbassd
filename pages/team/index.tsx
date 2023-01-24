@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { socialIcons } from "arrays/social-icons";
-import Footer from "components/Footer";
+
 import { Icon } from "components/Icon";
 import { Picture } from "components/Picture";
 import styles from "styles/page.module.scss";
@@ -65,8 +65,6 @@ export default function TeamPage() {
           ))}
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }

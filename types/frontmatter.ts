@@ -1,85 +1,51 @@
 export interface AllPostProps {
-  slug?: string;
-  frontmatter: IGigs | IFreshJuice | INews | IRadio | ITakeover | ITopTen;
+  slug: string;
+  frontmatter: IGigs | IFreshJuice | INews | ITakeover | IRadio | ITopTen;
 }
 
-export interface IGigs {
+interface Frontmatter {
   title: string;
   name: string;
   date: string;
   pic: string;
-  tags: string;
   path: string;
-  postLink: string;
   bio: string;
+  postLink: string;
+}
+
+interface IGigs extends Frontmatter {
+  tags: string;
   city: string;
   anames: string[];
-  alinks: string[];
-  apics: string[];
-  tickets?: string;
+  tickets: string;
 }
 
-export interface IFreshJuice {
-  title: string;
-  name: string;
-  date: string;
+interface IFreshJuice extends Frontmatter {
   tags: string;
-  pic: string;
-  postLink: string;
-  artist?: string;
-  bandcamp?: string;
-  bio: string;
-  path: string;
+  bandcamp: string;
 }
 
-export interface INews {
-  title: string;
-  name: string;
-  date: string;
-  pic: string;
-  tags?: string;
-  postLink: string;
+interface INews extends Frontmatter {
+  tags: string;
   tickets?: string;
   seeMore?: string;
-  bio: string;
-  path: string;
 }
 
-export interface IRadio {
-  title: string;
-  name: string;
-  date: string;
-  pic: string;
+interface ITakeover extends Frontmatter {
+  artistPage: string;
+}
+
+interface IRadio extends Omit<Frontmatter, "postLink"> {
   tracklist: string;
   artistPage: string;
   mixLink: string;
-  bio: string;
-  path: string;
 }
 
-export interface ITakeover {
-  title: string;
-  name: string;
-  date: string;
-  pic: string;
-  artistPage: string;
-  postLink: string;
-  bio: string;
-  path: string;
-}
-
-export interface ITopTen {
-  title: string;
-  name: string;
-  date: string;
+interface ITopTen extends Omit<Frontmatter, "postLink"> {
   tags: string;
-  pic: string;
   cover: string;
-  bio: string;
-  path: string;
   header: string;
   insta: string;
-  intro: string;
 }
 
 export interface CardProps {

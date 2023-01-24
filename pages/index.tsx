@@ -4,7 +4,7 @@ import path from "path";
 import fs from "fs";
 import { FreshJuice, Mixes, News, Premiere, Radio, Takeover } from "components/Main";
 import { sortByDate } from "utils";
-import Footer from "components/Footer";
+
 import Banner from "components/Banner";
 import { AllPostProps } from "types/frontmatter";
 
@@ -35,8 +35,6 @@ export default function Home({ allPosts, takeovers, radios, freshjuice }: HomePr
         <Takeover takeovers={takeovers} />
         <Radio radios={radios} />
       </div>
-
-      <Footer />
     </main>
   );
 }
