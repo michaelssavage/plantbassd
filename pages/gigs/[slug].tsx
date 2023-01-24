@@ -1,13 +1,10 @@
 import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
-import matter from "gray-matter";
-import path from "path";
-import fs from "fs";
 import { CardWithButtons } from "components/Card";
 import styles from "styles/slug.module.scss";
-
 import { StaticProps } from "types/frontmatter";
 import { Gigs } from "components/Gigs";
+import { getSlugContent, getSlugPath } from "utils/getSlug";
 
 export default function GigsSlug({
   content,
@@ -47,12 +44,7 @@ export default function GigsSlug({
   );
 }
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/gigs"));
-  const paths = files.map((filename) => ({
-    params: {
-      slug: filename.replace(".md", ""),
-    },
-  }));
+  const paths = await getSlugPath("gigs");
 
   return {
     fallback: false,
@@ -61,8 +53,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }: StaticProps) {
-  const markdownWithMeta = fs.readFileSync(path.join("posts/gigs", `${slug}.md`), "utf-8");
-  const { data: frontmatter, content } = matter(markdownWithMeta);
+  const { frontmatter, content } = await getSlugContent("gigs", slug);
 
   return {
     props: {

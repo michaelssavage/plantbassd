@@ -67,7 +67,7 @@ export default function TakeoverPage({
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const takeovers = await getPosts("posts/takeovers");
+  const takeovers = await getPosts("takeovers");
 
   return {
     props: {

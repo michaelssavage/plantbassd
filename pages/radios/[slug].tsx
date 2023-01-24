@@ -1,14 +1,11 @@
 import { marked } from "marked";
 import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
-import matter from "gray-matter";
-import path from "path";
-import fs from "fs";
 import { CardWithButtons } from "components/Card";
 import { Picture } from "components/Picture";
 import styles from "styles/slug.module.scss";
-
 import { StaticProps } from "types/frontmatter";
+import { getSlugContent, getSlugPath } from "utils/getSlug";
 
 export default function RadioSlug({
   content,
@@ -59,12 +56,7 @@ export default function RadioSlug({
 }
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/radios"));
-  const paths = files.map((filename) => ({
-    params: {
-      slug: filename.replace(".md", ""),
-    },
-  }));
+  const paths = await getSlugPath("radios");
 
   return {
     fallback: false,
@@ -73,8 +65,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }: StaticProps) {
-  const markdownWithMeta = fs.readFileSync(path.join("posts/radios", `${slug}.md`), "utf-8");
-  const { data: frontmatter, content } = matter(markdownWithMeta);
+  const { frontmatter, content } = await getSlugContent("radios", slug);
 
   return {
     props: {

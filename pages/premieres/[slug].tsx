@@ -1,13 +1,10 @@
 import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
-import matter from "gray-matter";
-import path from "path";
-import fs from "fs";
 import { CardWithButtons } from "components/Card";
 import styles from "styles/slug.module.scss";
-
 import { Slug } from "components/Slug";
 import { StaticProps } from "types/frontmatter";
+import { getSlugContent, getSlugPath } from "utils/getSlug";
 
 export default function PremieresSlug({
   content,
@@ -23,7 +20,7 @@ export default function PremieresSlug({
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            {Slug(content, date, title)}
+            {Slug(date, title, content)}
             <CardWithButtons
               artist="See More"
               insta="Instagram"
@@ -54,12 +51,7 @@ export default function PremieresSlug({
   );
 }
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/premieres"));
-  const paths = files.map((filename) => ({
-    params: {
-      slug: filename.replace(".md", ""),
-    },
-  }));
+  const paths = await getSlugPath("premieres");
 
   return {
     fallback: false,
@@ -67,8 +59,7 @@ export async function getStaticPaths() {
   };
 }
 export async function getStaticProps({ params: { slug } }: StaticProps) {
-  const markdownWithMeta = fs.readFileSync(path.join("posts/premieres", `${slug}.md`), "utf-8");
-  const { data: frontmatter, content } = matter(markdownWithMeta);
+  const { frontmatter, content } = await getSlugContent("premieres", slug);
 
   return {
     props: {

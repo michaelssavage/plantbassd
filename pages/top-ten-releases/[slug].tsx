@@ -1,13 +1,10 @@
 import { marked } from "marked";
 import Head from "next/head";
-import matter from "gray-matter";
 import { InferGetStaticPropsType } from "next";
-import path from "path";
-import fs from "fs";
 import { Picture } from "components/Picture";
 import { Icon } from "components/Icon";
-
 import { StaticProps } from "types/frontmatter";
+import { getSlugContent, getSlugPath } from "utils/getSlug";
 import styles from "./TopTen.module.scss";
 
 export default function TopTenSlug(props: InferGetStaticPropsType<typeof getStaticProps>) {
@@ -67,12 +64,7 @@ export default function TopTenSlug(props: InferGetStaticPropsType<typeof getStat
 }
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/top-ten-releases"));
-  const paths = files.map((filename) => ({
-    params: {
-      slug: filename.replace(".md", ""),
-    },
-  }));
+  const paths = await getSlugPath("top-ten-releases");
 
   return {
     fallback: false,
@@ -81,11 +73,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }: StaticProps) {
-  const markdownWithMeta = fs.readFileSync(
-    path.join("posts/top-ten-releases", `${slug}.md`),
-    "utf-8"
-  );
-  const { data: frontmatter, content } = matter(markdownWithMeta);
+  const { frontmatter, content } = await getSlugContent("top-ten-releases", slug);
 
   return {
     props: {

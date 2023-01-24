@@ -67,7 +67,7 @@ export default function FreshJuicePage({
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const freshjuice = await getPosts("posts/fresh-juice");
+  const freshjuice = await getPosts("fresh-juice");
 
   return {
     props: {

@@ -54,7 +54,7 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const gigs = await getPosts("posts/gigs");
+  const gigs = await getPosts("gigs");
 
   return {
     props: {

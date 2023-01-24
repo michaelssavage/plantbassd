@@ -66,7 +66,7 @@ export default function PremieresPage({
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const premieres = await getPosts("posts/premieres");
+  const premieres = await getPosts("premieres");
 
   return {
     props: {

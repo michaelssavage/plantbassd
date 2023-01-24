@@ -1,13 +1,10 @@
 import { marked } from "marked";
 import Head from "next/head";
-import matter from "gray-matter";
 import { InferGetStaticPropsType } from "next";
-import path from "path";
-import fs from "fs";
 import { CardWithButtons } from "components/Card";
 import styles from "styles/slug.module.scss";
-
 import { StaticProps } from "types/frontmatter";
+import { getSlugContent, getSlugPath } from "utils/getSlug";
 
 export default function TakeoverSlug({
   content,
@@ -55,12 +52,7 @@ export default function TakeoverSlug({
 }
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/takeovers"));
-  const paths = files.map((filename) => ({
-    params: {
-      slug: filename.replace(".md", ""),
-    },
-  }));
+  const paths = await getSlugPath("takeovers");
 
   return {
     fallback: false,
@@ -69,8 +61,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }: StaticProps) {
-  const markdownWithMeta = fs.readFileSync(path.join("posts/takeovers", `${slug}.md`), "utf-8");
-  const { data: frontmatter, content } = matter(markdownWithMeta);
+  const { frontmatter, content } = await getSlugContent("takeovers", slug);
 
   return {
     props: {

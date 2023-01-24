@@ -58,7 +58,7 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const radios = await getPosts("posts/radios");
+  const radios = await getPosts("radios");
 
   return {
     props: {

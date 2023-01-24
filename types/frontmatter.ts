@@ -23,6 +23,7 @@ interface IGigs extends Frontmatter {
 interface IFreshJuice extends Frontmatter {
   tags: string;
   bandcamp: string;
+  artist?: string;
 }
 
 interface INews extends Frontmatter {
