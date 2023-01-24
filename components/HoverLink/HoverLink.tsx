@@ -1,5 +1,3 @@
-import styles from "./hoverlink.module.scss";
-
 interface LinkProps {
   url: string;
   name?: string;
@@ -10,7 +8,7 @@ interface LinkProps {
 export const HoverLink = ({ url, name, inline, external }: LinkProps) => {
   return (
     <a
-      className={inline ? styles.inlineLink : styles.hoverLink}
+      className={inline ? "inlineLink" : "hoverLink"}
       data-replace={name ? name : url}
       href={external ? `https://${url}` : url}
       rel={external ? "noopener noreferrer" : ""}
