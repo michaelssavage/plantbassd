@@ -1,6 +1,6 @@
 export interface AllPostProps {
   slug: string;
-  frontmatter: IGigs | IFreshJuice | INews | ITakeover | IRadio | ITopTen;
+  frontmatter: IGigs | IFreshJuice | INews | ITakeover | IRadio | ITopTen | IPremiere;
 }
 
 interface Frontmatter {
@@ -30,6 +30,10 @@ interface INews extends Frontmatter {
   tags: string;
   tickets?: string;
   seeMore?: string;
+}
+
+interface IPremiere extends Frontmatter {
+  listen: string;
 }
 
 interface ITakeover extends Frontmatter {

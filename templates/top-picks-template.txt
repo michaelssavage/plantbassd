@@ -1,7 +1,7 @@
 ---
 title: "Top 10 Releases Of The Year"
 name: "top 10 releases picks XX"
-date: "XX, 2022"
+date: "XX, 2023"
 tags: "reviews"
 pic: "/top-ten-releases/XX.jpg"
 cover: "/top-ten-releases/XX.jpg"

@@ -10,7 +10,7 @@ export default function PremieresSlug({
   content,
   frontmatter,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { title, date, pic, seeMore, postLink, youtube } = frontmatter;
+  const { title, date, pic, seeMore, listen, postLink, youtube } = frontmatter;
 
   return (
     <>
@@ -22,7 +22,7 @@ export default function PremieresSlug({
           <div className="row">
             {Slug(date, title, content)}
             <CardWithButtons
-              artist="See More"
+              artist={listen}
               insta="Instagram"
               link={postLink}
               page={seeMore}
@@ -36,7 +36,6 @@ export default function PremieresSlug({
                 src={youtube}
                 width={560}
                 height={720}
-                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
                 title={title}
