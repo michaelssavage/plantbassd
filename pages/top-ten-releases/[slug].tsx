@@ -6,7 +6,7 @@ import { Icon } from "components/Icon";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { HoverLink } from "components/HoverLink";
-import styles from "./TopTen.module.scss";
+import styles from "styles/top-ten.module.scss";
 
 const components = { HoverLink, Picture };
 

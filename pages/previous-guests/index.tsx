@@ -1,11 +1,10 @@
 import Head from "next/head";
 import { guestList, headliners } from "arrays/previous-guests";
 import { CardOverlay } from "components/Card";
-
 import Error from "components/Error";
 import { SearchBox } from "components/SearchBox";
 import { useFilter } from "hooks/useFilter.hook";
-import styles from "./previous-guests.module.scss";
+import styles from "styles/previous-guests.module.scss";
 
 const djs = guestList.concat(headliners);
 

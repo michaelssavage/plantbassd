@@ -4,7 +4,7 @@ import { linkList, mainLinks } from "arrays/linktree";
 import { socialIcons } from "arrays/social-icons";
 import { Icon } from "components/Icon";
 import Header from "components/Header";
-import styles from "./links.module.scss";
+import styles from "styles/links.module.scss";
 
 export default function Links() {
   return (
