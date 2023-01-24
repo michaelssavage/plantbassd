@@ -11,7 +11,7 @@ export default function Error({ error }: ErrorProps) {
     <div className={styles.errorBG}>
       <div className={styles.errorPage}>
         <h1>OOPS! You've encountered an error</h1>
-        {error !== undefined ?? <p>{`${error}`}</p>}
+        {error !== undefined ? <p>{error}</p> : null}
 
         <div className="d-flex flex-row gap-2">
           <div className={styles.bottomBtn}>

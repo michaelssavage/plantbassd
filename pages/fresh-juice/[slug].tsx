@@ -8,7 +8,7 @@ import { getSlugContent, getSlugPath } from "utils/getSlug";
 
 export default function FreshJuiceSlug({
   frontmatter,
-  content,
+  mdxSource,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { artist = "Bandcamp", title, date, pic, bandcamp, postLink } = frontmatter;
   return (
@@ -19,7 +19,7 @@ export default function FreshJuiceSlug({
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            {Slug(date, title, content)}
+            {Slug(date, title, mdxSource)}
             <CardWithButtons
               artist={artist}
               insta="Instagram"
@@ -45,12 +45,11 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }: StaticProps) {
-  const { frontmatter, content } = await getSlugContent("fresh-juice", slug);
-
+  const { frontmatter, mdxSource } = await getSlugContent("fresh-juice", slug);
   return {
     props: {
-      content,
       frontmatter,
+      mdxSource,
     },
   };
 }
