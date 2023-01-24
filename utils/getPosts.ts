@@ -10,7 +10,7 @@ export const getPosts = async (dir: string) => {
     const res = resolve("posts", dir, dirPath.name);
     const fileContents = await fs.readFile(res, "utf8");
     const { data: frontmatter } = matter(fileContents);
-    const slug = dirPath.name.replace(".md", "");
+    const slug = dirPath.name.replace(".mdx", "");
     posts.push({ frontmatter, slug });
   }
   return posts;

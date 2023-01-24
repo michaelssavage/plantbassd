@@ -14,14 +14,14 @@ path: "fresh-juice"
 
 Buy/ Stream here: []()
 
-<img src="/fresh-juice/XXX.jpg" alt="XXX album art" width="100%" />
+<Image src="/fresh-juice/XXX.jpg" alt="XXX album art" size={1200} />
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
 <hr/>
 
 _XXX_
 
-<img src="/fresh-juice/XXX.jpg" alt="XXX cover pic" width="100%" />
+<Image src="/fresh-juice/XXX.jpg" alt="XXX cover pic" size={1200} />
 <p class="smallText"><i>XXX</i></p>
 
 _XXX_

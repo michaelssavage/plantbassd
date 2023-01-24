@@ -10,7 +10,7 @@ bio: XX"
 path: "premieres"
 ---
 
-<img src="/premieres/XX.jpg" alt="XX" width="100%" />
+<Image src="/premieres/XX.jpg" alt="XX" size={1200} />
 <p class="smallText"><i>XXX</i></p>
 
 <hr/>

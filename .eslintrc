@@ -31,7 +31,6 @@
         "groups": ["external", "builtin", "internal", "sibling", "parent", "index"]
       }
     ],
-    "linebreak-style": ["error", "windows"],
     "func-style": [2, "declaration", { "allowArrowFunctions": true }],
     "quotes": ["error", "double"],
     "no-console": 1,

@@ -1,14 +1,17 @@
-import { marked } from "marked";
 import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
+import { MDXRemote } from "next-mdx-remote";
 import { Picture } from "components/Picture";
 import { Icon } from "components/Icon";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
+import { HoverLink } from "components/HoverLink";
 import styles from "./TopTen.module.scss";
 
+const components = { HoverLink, Picture };
+
 export default function TopTenSlug(props: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { title, date, cover, intro, header, insta, content } = props;
+  const { title, date, cover, intro, header, insta, mdxSource } = props;
   return (
     <>
       <Head>
@@ -50,11 +53,7 @@ export default function TopTenSlug(props: InferGetStaticPropsType<typeof getStat
             <hr />
 
             <div className={styles.postBody}>
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: marked(content),
-                }}
-              />
+              <MDXRemote {...mdxSource} components={components} />
             </div>
           </div>
         </div>
@@ -73,11 +72,11 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }: StaticProps) {
-  const { frontmatter, content } = await getSlugContent("top-ten-releases", slug);
+  const { frontmatter, mdxSource } = await getSlugContent("top-ten-releases", slug);
 
   return {
     props: {
-      content,
+      mdxSource,
       title: frontmatter.title,
       date: frontmatter.date,
       cover: frontmatter.cover,

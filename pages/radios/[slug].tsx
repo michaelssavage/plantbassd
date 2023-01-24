@@ -1,14 +1,17 @@
-import { marked } from "marked";
 import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
+import { MDXRemote } from "next-mdx-remote";
 import { CardWithButtons } from "components/Card";
 import { Picture } from "components/Picture";
 import styles from "styles/slug.module.scss";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
+import { HoverLink } from "components/HoverLink";
+
+const components = { HoverLink, Picture };
 
 export default function RadioSlug({
-  content,
+  mdxSource,
   frontmatter,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { title, date, pic, tracklist, artistPage, mixLink } = frontmatter;
@@ -29,11 +32,7 @@ export default function RadioSlug({
               <p className={styles.postDate}>Posted on {date}</p>
               <h1 className={styles.postTitle}>{title}</h1>
               <div className={styles.postBody}>
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: marked(content),
-                  }}
-                />
+                <MDXRemote {...mdxSource} components={components} />
               </div>
               <div className={styles.imgWrapper}>
                 <Picture alt="artist tracklist" size={600} src={tracklist} />
@@ -65,11 +64,11 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }: StaticProps) {
-  const { frontmatter, content } = await getSlugContent("radios", slug);
+  const { frontmatter, mdxSource } = await getSlugContent("radios", slug);
 
   return {
     props: {
-      content,
+      mdxSource,
       frontmatter,
     },
   };

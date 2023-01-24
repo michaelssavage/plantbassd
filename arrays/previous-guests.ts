@@ -74,6 +74,16 @@ export const guestList: GuestProps[] = [
     name: "SMIFF",
   },
   {
+    img: "3-jackjosh.jpg",
+    link: "jackjoshualindsay/",
+    name: "JackJosh",
+  },
+  {
+    img: "03-cleanup-crew.jpg",
+    link: "cleanupedi/",
+    name: "Cleanup Edi",
+  },
+  {
     img: "02-stanger.jpg",
     link: "nina_stanger",
     name: "Nina Stanger",

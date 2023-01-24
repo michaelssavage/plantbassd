@@ -16,7 +16,7 @@ intro: "XX"
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-releases/XX/1.jpg" alt="XX" width="100%" />
+<Image src="/top-ten-releases/XX/1.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
@@ -31,7 +31,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-releases/XX/2.jpg" alt="XX cover art" width="100%" />
+<Image src="/top-ten-releases/XX/2.jpg" alt="XX cover art" size={1200} />
 </div>
 <div class="col clubGuide">
 
@@ -46,7 +46,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-releases/XX/3.jpg" alt="XX" width="100%" />
+<Image src="/top-ten-releases/XX/3.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
@@ -61,7 +61,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-releases/XX/4.jpg" alt="XX" width="100%" />
+<Image src="/top-ten-releases/XX/4.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
@@ -76,7 +76,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-releases/XX/5.jpg" alt="XX" width="100%" />
+<Image src="/top-ten-releases/XX/5.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
@@ -91,7 +91,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-releases/XX/6.jpg" alt="XX" width="100%" />
+<Image src="/top-ten-releases/XX/6.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
@@ -106,7 +106,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-releases/XX/7.jpg" alt="XX" width="100%" />
+<Image src="/top-ten-releases/XX/7.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
@@ -121,7 +121,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-releases/XX/8.jpg" alt="XX" width="100%" />
+<Image src="/top-ten-releases/XX/8.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
@@ -136,7 +136,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-releases/XX/9.jpg" alt="XX" width="100%" />
+<Image src="/top-ten-releases/XX/9.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
@@ -151,7 +151,7 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<img src="/top-ten-releases/XX/10.jpg" alt="XX" width="100%" />
+<Image src="/top-ten-releases/XX/10.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 

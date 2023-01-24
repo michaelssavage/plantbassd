@@ -7,7 +7,7 @@ import { Gigs } from "components/Gigs";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 
 export default function GigsSlug({
-  content,
+  mdxSource,
   frontmatter,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { title, date, pic, tickets, seeMore, postLink, anames } = frontmatter;
@@ -28,7 +28,7 @@ export default function GigsSlug({
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            {Gigs(anames, content, date, title)}
+            {Gigs(anames, mdxSource, date, title)}
             <CardWithButtons
               artist={buyText}
               insta="Instagram"
@@ -53,12 +53,12 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }: StaticProps) {
-  const { frontmatter, content } = await getSlugContent("gigs", slug);
+  const { frontmatter, mdxSource } = await getSlugContent("gigs", slug);
 
   return {
     props: {
-      content,
       frontmatter,
+      mdxSource,
     },
   };
 }

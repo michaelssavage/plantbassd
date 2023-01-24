@@ -7,7 +7,7 @@ import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 
 export default function NewsSlug({
-  content,
+  mdxSource,
   frontmatter,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { title, date, pic, tickets, seeMore, postLink } = frontmatter;
@@ -28,7 +28,7 @@ export default function NewsSlug({
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            {Slug(date, title, content)}
+            {Slug(date, title, mdxSource)}
             <CardWithButtons
               artist={buyText}
               insta="Instagram"
@@ -52,11 +52,11 @@ export async function getStaticPaths() {
   };
 }
 export async function getStaticProps({ params: { slug } }: StaticProps) {
-  const { frontmatter, content } = await getSlugContent("news", slug);
+  const { frontmatter, mdxSource } = await getSlugContent("news", slug);
 
   return {
     props: {
-      content,
+      mdxSource,
       frontmatter,
     },
   };
