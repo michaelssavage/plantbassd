@@ -10,9 +10,9 @@ export const Slug = (date: string, title: string, mdxSource: MDXRemoteSerializeR
     <div
       className={`
 				${styles.postContent}
-				col-lg-7
+				col-lg-8
 				col-md-12
-				col-xl-7 
+				col-xl-8 
 				`}
     >
       <p className={styles.postDate}>Posted on {date}</p>

@@ -12,16 +12,16 @@ path: "fresh-juice"
 
 ### XXX
 
-Buy/ Stream here: []()
+Buy/ Stream here: <HoverLink url="XX" inline external />
 
-<Image src="/fresh-juice/XXX.jpg" alt="XXX album art" size={1200} />
+<Picture src="/fresh-juice/XXX.jpg" alt="XXX album art" size={1200} />
 <p class="smallText"><i>Words by Oisín Campbell/ Design by Michael Savage</i></p>
 
 <hr/>
 
 _XXX_
 
-<Image src="/fresh-juice/XXX.jpg" alt="XXX cover pic" size={1200} />
+<Picture src="/fresh-juice/XX.jpg" alt="XXX cover pic" size={1200} />
 <p class="smallText"><i>XXX</i></p>
 
 _XXX_

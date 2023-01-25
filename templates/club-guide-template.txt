@@ -1,8 +1,8 @@
 ---
-title: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending XXX"
+title: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending XX"
 name: "XX"
-date: "XXX, 2023"
-pic: "/news/XXX-edinburgh-club-guide.jpg"
+date: "XX, 2023"
+pic: "/news/XX-edinburgh-club-guide.jpg"
 seeMore: "https://ra.co/events/uk/edinburgh?week=2022-0X-XX"
 postLink: "https://www.instagram.com/plantbassd___"
 bio: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending XXX.."
@@ -14,7 +14,7 @@ path: "guides"
 
 -   <p> TITLE </p>
 
-[<Image src="/news/club-guide/IMG.jpg" alt="TITLE" size={1200} />](LINK)
+[<Picture src="/news/club-guide/XX.jpg" alt="XX" size={1200} />](XX)
 
 TEXT
 
@@ -22,12 +22,12 @@ TEXT
 
 <div class="row"><div class="col clubGuide">
 
-[<Image src="/news/club-guide/IMG.jpg" alt="TITLE" size={1200} />](https://ra.co/events/1505083)
+[<Picture src="/news/club-guide/XX.jpg" alt="TITLE" size={1200} />](XX)
 
 </div><div class="col clubGuide">
 
-### TITLE
+### XX
 
-TEXT
+XX
 
 </div></div><hr/>

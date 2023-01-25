@@ -10,14 +10,6 @@ path: "gigs"
 tags: "gigs"
 city: "XX"
 anames: ["XX", "XX", "XX", "XX"]
-alinks:
-  [
-    "XX",
-    "XX",
-    "XX",
-    "XX",
-  ]
-apics: ["XX", "XX", "XX", "XX"]
 ---
 
 ### XX

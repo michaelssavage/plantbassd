@@ -10,13 +10,13 @@ bio: XX"
 path: "premieres"
 ---
 
-<Image src="/premieres/XX.jpg" alt="XX" size={1200} />
+<Picture src="/premieres/XX.jpg" alt="XX" size={1200} />
 <p class="smallText"><i>XXX</i></p>
 
 <hr/>
 
-Stream <a href="XX" rel="noopener noreferrer" target="_blank">XX</a> on SoundCloud
+Stream <HoverLink url="XX" name="XX" inline external /> on SoundCloud
 
 XX
 
-Support <a href="XX" rel="noopener noreferrer" target="_blank">XX</a> on Bandcamp 🌱
+Support <HoverLink url="XX" name="XX" inline external /> on Bandcamp 🌱

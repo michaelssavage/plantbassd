@@ -26,7 +26,6 @@ export default function PreviousGuestsPage() {
             handleSearchChange={handleSearchChange}
             filter={filter}
             amount={postCards.length}
-            placeholder="an artist's name"
             style={`input-group ${styles.filter}`}
             text="DJs"
           />

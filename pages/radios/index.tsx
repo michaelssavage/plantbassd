@@ -35,7 +35,6 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
             handleSearchChange={handleSearchChange}
             filter={filter}
             style={`col-md-4 me-auto input-group ${styles.radioFilter}`}
-            text="artists by name"
           />
 
           <SocialButton
