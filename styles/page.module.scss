@@ -14,12 +14,12 @@
 }
 
 .searchFilter {
-  width: 40%;
+  width: 50%;
 }
 
 .radioFilter {
   margin: 0 1rem 1rem 0;
-  order: 1;
+  flex-grow: 0;
   @extend .searchFilter;
 }
 
@@ -41,7 +41,10 @@
 @media (max-width: 768px) {
   .searchFilter {
     width: 100%;
-    order: 2;
+  }
+  .radioFilter {
+    width: auto;
+    flex-grow: 2;
   }
 }
 

@@ -14,7 +14,11 @@ export const CardOverlay = (cards: CardProps[]) => {
       <div className="row g-1">
         {cards.map((guest: CardProps) => (
           <div key={guest.name} className="col-4 col-md-4 col-lg-3 col-xl-2">
-            <Link href={`https://instagram.com/${guest.link}`}>
+            <Link
+              href={`https://instagram.com/${guest.link}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div className={`card imgContainer ${styles.cardStyle}`}>
                 <Picture alt={guest.name} size={300} src={`/news/${guest.img}`} />
                 <div className="guestOverlay">

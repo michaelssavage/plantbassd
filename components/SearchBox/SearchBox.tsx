@@ -13,7 +13,7 @@ export const SearchBox = ({
   handleSearchChange,
   filter,
   amount,
-  placeholder = "a search query",
+  placeholder = "artist name",
   style,
   text = "Posts",
 }: SearchBoxProps) => {
@@ -23,7 +23,7 @@ export const SearchBox = ({
         aria-label="Filter"
         className="form-control"
         onChange={handleSearchChange}
-        placeholder={`Enter ${placeholder}...`}
+        placeholder={`Filter by ${placeholder}...`}
         type="text"
         value={filter}
       />

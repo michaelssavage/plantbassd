@@ -40,7 +40,6 @@ export default function PremieresPage({
             handleSearchChange={handleSearchChange}
             filter={filter}
             style={`col-md-4 me-auto input-group ${styles.radioFilter}`}
-            text="artists by name"
           />
 
           <SocialButton

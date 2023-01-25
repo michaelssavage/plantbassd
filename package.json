@@ -24,6 +24,7 @@
     "react-dom": "^18.2.0",
     "react-error-boundary": "^3.1.4",
     "react-icons": "^4.7.1",
+    "react-lite-youtube-embed": "^2.3.52",
     "rellax": "^1.12.1",
     "sharp": "^0.31.2"
   },

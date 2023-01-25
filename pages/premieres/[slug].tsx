@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import { CardWithButtons } from "components/Card";
 import styles from "styles/slug.module.scss";
 import { Slug } from "components/Slug";
@@ -30,20 +31,11 @@ export default function PremieresSlug({
               title={title}
             />
           </div>
-          <div className="row mt-5">
-            {youtube ? (
-              <iframe
-                src={youtube}
-                width={560}
-                height={720}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title={title}
-              />
-            ) : (
-              <></>
-            )}
-          </div>
+          {youtube ? (
+            <div className="row mt-5">
+              <LiteYouTubeEmbed id={youtube} title={title} />
+            </div>
+          ) : null}
         </div>
       </div>
     </>

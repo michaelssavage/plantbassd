@@ -16,13 +16,13 @@ intro: "XX"
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<Image src="/top-ten-releases/XX/1.jpg" alt="XX" size={1200} />
+<Picture src="/top-ten-releases/XX/1.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">BandCamp</a>
+Buy & Listen here: <HoverLink url="XX" name="Bandcamp" inline external />
 
 </div>
 </div>
@@ -31,13 +31,13 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<Image src="/top-ten-releases/XX/2.jpg" alt="XX cover art" size={1200} />
+<Picture src="/top-ten-releases/XX/2.jpg" alt="XX cover art" size={1200} />
 </div>
 <div class="col clubGuide">
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Spotify</a>
+Buy & Listen here: <HoverLink url="XX" name="Bandcamp" inline external />
 
 </div>
 </div>
@@ -46,13 +46,13 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<Image src="/top-ten-releases/XX/3.jpg" alt="XX" size={1200} />
+<Picture src="/top-ten-releases/XX/3.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">BandCamp</a>
+Buy & Listen here: <HoverLink url="XX" name="Bandcamp" inline external />
 
 </div>
 </div>
@@ -61,13 +61,13 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<Image src="/top-ten-releases/XX/4.jpg" alt="XX" size={1200} />
+<Picture src="/top-ten-releases/XX/4.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">BandCamp</a>
+Buy & Listen here: <HoverLink url="XX" name="Bandcamp" inline external />
 
 </div>
 </div>
@@ -76,13 +76,13 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<Image src="/top-ten-releases/XX/5.jpg" alt="XX" size={1200} />
+<Picture src="/top-ten-releases/XX/5.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">BandCamp</a>
+Buy & Listen here: <HoverLink url="XX" name="Bandcamp" inline external />
 
 </div>
 </div>
@@ -91,13 +91,13 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<Image src="/top-ten-releases/XX/6.jpg" alt="XX" size={1200} />
+<Picture src="/top-ten-releases/XX/6.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">BandCamp</a>
+Buy & Listen here: <HoverLink url="XX" name="Bandcamp" inline external />
 
 </div>
 </div>
@@ -106,13 +106,13 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<Image src="/top-ten-releases/XX/7.jpg" alt="XX" size={1200} />
+<Picture src="/top-ten-releases/XX/7.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">BandCamp</a>
+Buy & Listen here: <HoverLink url="XX" name="Bandcamp" inline external />
 
 </div>
 </div>
@@ -121,13 +121,13 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<Image src="/top-ten-releases/XX/8.jpg" alt="XX" size={1200} />
+<Picture src="/top-ten-releases/XX/8.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">BandCamp</a>
+Buy & Listen here: <HoverLink url="XX" name="Bandcamp" inline external />
 
 </div>
 </div>
@@ -136,13 +136,13 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<Image src="/top-ten-releases/XX/9.jpg" alt="XX" size={1200} />
+<Picture src="/top-ten-releases/XX/9.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">YouTube</a>
+Buy & Listen here: <HoverLink url="XX" name="Bandcamp" inline external />
 
 </div>
 </div>
@@ -151,13 +151,13 @@ Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="
 
 <div class="row display-flex align-items-center">
 <div class="col clubGuide">
-<Image src="/top-ten-releases/XX/10.jpg" alt="XX" size={1200} />
+<Picture src="/top-ten-releases/XX/10.jpg" alt="XX" size={1200} />
 </div>
 <div class="col clubGuide">
 
 XX
 
-Buy & Listen here: <a class="btn btn-outline-dark" role="button" href="XX" rel="noopener noreferrer" target="_blank">Spotify</a>
+Buy & Listen here: <HoverLink url="XX" name="Bandcamp" inline external />
 
 </div>
 </div>

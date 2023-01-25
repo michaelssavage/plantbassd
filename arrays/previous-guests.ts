@@ -22,7 +22,7 @@ export const headliners: GuestProps[] = [
   },
   {
     img: "10-glimmerman.jpg",
-    link: "glimmerman/",
+    link: "_glimmerman_/",
     name: "Glimmerman",
   },
   {

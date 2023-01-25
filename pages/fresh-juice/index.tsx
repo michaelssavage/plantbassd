@@ -41,12 +41,11 @@ export default function FreshJuicePage({
             handleSearchChange={handleSearchChange}
             filter={filter}
             style={`col-md-4 me-auto input-group ${styles.radioFilter}`}
-            text="artists by name"
           />
           <SocialButton
             name="Bandcamp"
             url="https://bandcamp.com/oisincampbellbap"
-            style={`${styles.bandcamp} btn btn-dark`}
+            style={`btn btn-dark ${styles.bandcamp} `}
           />
         </div>
 

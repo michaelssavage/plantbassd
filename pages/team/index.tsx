@@ -18,7 +18,7 @@ export default function TeamPage() {
         <h1 className={styles.pageHeader}>Our Team</h1>
 
         <p>
-          Plant Bass'd is spearheaded by Oisín Campbell, Michael Savage, and Peter Toal originating
+          Plant Bass'd was spearheaded by Oisín Campbell, Michael Savage, and Peter Toal originating
           from Co. Monaghan, Ireland. The collective was started in early 2020 with the intention of
           playing parties and sharing music interests but quickly evolved into highlighting artists,
           releases, and club nights in the experimental dance music world.
@@ -30,13 +30,15 @@ export default function TeamPage() {
 
         <div className="row d-flex flex-row">
           {ourTeam.map((member) => (
-            <div className="px-5 col-lg-4 col-md-4 col-sm-12" key={member.name}>
+            <div className="px-5 col-lg-6 col-md-6 col-sm-12" key={member.name}>
               <Link href={member.link}>
                 <div className={`card ${styles.cardStyle}`}>
                   <Picture alt={member.name} size={1000} src={`/news/${member.img}`} />
                 </div>
               </Link>
-              <p className="nameAnchor">{member.name}</p>
+              <p className="nameAnchor">
+                {member.name} - {member.role}
+              </p>
             </div>
           ))}
         </div>
