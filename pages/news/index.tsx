@@ -1,18 +1,17 @@
 import Head from "next/head";
 import Link from "next/link";
-import matter from "gray-matter";
 import { InferGetStaticPropsType } from "next";
-import path from "path";
-import fs from "fs";
-import { sortByDate } from "components/Utilities";
+import { GetStaticProps } from "next/types";
+import { sortByDate } from "utils";
 import Error from "components/Error";
-import FilterTags from "components/FilterTags";
-import Footer from "components/Footer";
-import useFilterTags from "hooks/useFilterTags";
+import { FilterTags } from "components/FilterTags";
 import { CardWithText } from "components/Card";
 import styles from "styles/page.module.scss";
 import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
+import { useTags } from "hooks";
+import { HoverLink } from "components/HoverLink";
+import { getAllPosts } from "utils/getAllPosts";
 
 const newsTags = [
   { name: "fresh juice", value: false },
@@ -23,11 +22,7 @@ const newsTags = [
 ];
 
 export default function NewsPage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { error, handleTags, hasErrored, newsStories, tagList } = useFilterTags(
-    newsTags,
-    "news",
-    files
-  );
+  const { error, handleTags, hasErrored, newsStories, tagList } = useTags(newsTags, "news", files);
 
   if (hasErrored) return <Error error={error} />;
 
@@ -42,9 +37,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
         <p className={styles.pageText}>
           News about club guides, gigs, and all things Plant Bass'd. Keep up to date on our
           Instagram,{" "}
-          <a className="blackAnchor" href="http://instagram.com/plantbassd___">
-            @plantbassd___
-          </a>
+          <HoverLink url="instagram.com/plantbassd___" name="@plantbassd___" inline external />
         </p>
 
         <FilterTags handleTags={handleTags} tagList={tagList} />
@@ -67,40 +60,16 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
 
         <GoBack />
       </div>
-
-      <Footer />
     </>
   );
 }
 
-export async function getStaticProps() {
-  const getAllPosts = (dirPath: string, arrFiles?) => {
-    const files = fs.readdirSync(dirPath);
-    let arrayOfFiles = arrFiles || [[] as AllPostProps[]];
-
-    files.forEach((file) => {
-      if (fs.statSync(`${dirPath}/${file}`).isDirectory()) {
-        // If this is a directory, then recursively call function
-        arrayOfFiles = getAllPosts(`${dirPath}/${file}`, arrayOfFiles);
-      } else {
-        const markdownWithMeta = fs.readFileSync(path.join(dirPath, file), "utf-8");
-        const { data: frontmatter } = matter(markdownWithMeta);
-        const slug = file.replace(".md", "");
-        const blogPost = {
-          frontmatter,
-          slug,
-        };
-        arrayOfFiles.push(blogPost);
-      }
-    });
-    return arrayOfFiles;
-  };
-
-  const files = getAllPosts("posts").sort(sortByDate).reverse().slice(0, 40);
+export const getStaticProps: GetStaticProps = async () => {
+  const files = await getAllPosts();
 
   return {
     props: {
-      files,
+      files: files.sort(sortByDate).reverse().slice(0, 24),
     },
   };
-}
+};

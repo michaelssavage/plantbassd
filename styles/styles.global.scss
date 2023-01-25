@@ -62,17 +62,8 @@ p {
   font-size: $paragraph;
 }
 
-.messinaFont {
-  font-family: "Messina";
-}
-
 .smallText {
   font-size: $cardDate;
-}
-
-Link {
-  color: inherit;
-  text-decoration: none;
 }
 
 .anchor {
@@ -80,7 +71,8 @@ Link {
   transition: 0.25s ease;
 }
 
-.anchorHover {
+.anchorColor {
+  color: inherit;
   @extend .anchor;
   &:hover {
     color: $black;
@@ -88,17 +80,7 @@ Link {
   }
 }
 
-.anchorColor {
-  color: inherit;
-  @extend .anchorHover;
-}
-
-.newsPreview {
-  color: $black;
-  @extend .anchorHover;
-}
-
-.blackAnchor {
+.pinkUnderline {
   color: inherit;
   text-decoration: underline;
   text-decoration-color: rgba(240, 60, 160);
@@ -116,6 +98,60 @@ Link {
   }
 }
 
+.inlineLink {
+  margin-bottom: -0.4rem;
+  @extend .hoverLink;
+}
+
+.hoverLink {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  color: $plantbassdPink;
+  text-decoration-line: underline;
+  text-decoration-color: $plantbassdPink;
+  font-weight: normal;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background-color: $plantbassdPink;
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: $plantbassdPink;
+  }
+  &:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+  }
+  &:hover::after {
+    transform: translate3d(0, 0, 0);
+  }
+  span {
+    display: inline-block;
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  &:hover span {
+    transform: translate3d(-200%, 0, 0);
+  }
+}
+
 .nameAnchor {
   white-space: nowrap;
   overflow: hidden;
@@ -125,22 +161,6 @@ Link {
 .globalBottomBtn {
   margin-top: 1rem;
   text-align: left;
-}
-
-.showMoreBtn {
-  margin-top: -1rem;
-  text-align: center;
-  position: relative;
-  z-index: 100;
-}
-
-.showBtn {
-  border-radius: 3rem;
-  padding: 1rem 2rem;
-  text-decoration: none;
-  font-size: 1.25rem;
-  color: $white;
-  background-color: $navBlue;
 }
 
 .header {
@@ -348,5 +368,59 @@ Link {
   .radioSection {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+
+.inlineLink {
+  margin-bottom: -0.4rem;
+  @extend .hoverLink;
+}
+
+.hoverLink {
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  color: $plantbassdPink;
+  text-decoration-line: underline;
+  text-decoration-color: $plantbassdPink;
+  font-weight: normal;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background-color: $plantbassdPink;
+    height: 2px;
+    bottom: 0;
+    transform-origin: 100% 50%;
+    transform: scaleX(0);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    content: attr(data-replace);
+    height: 100%;
+    top: 0;
+    transform-origin: 100% 50%;
+    transform: translate3d(200%, 0, 0);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+    color: $plantbassdPink;
+  }
+  &:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+  }
+  &:hover::after {
+    transform: translate3d(0, 0, 0);
+  }
+  span {
+    display: inline-block;
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
+  }
+  &:hover span {
+    transform: translate3d(-200%, 0, 0);
   }
 }

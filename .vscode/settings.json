@@ -11,6 +11,9 @@
   "prettier.printWidth": 100,
   "eslint.enable": true,
   "eslint.format.enable": true,
-  "eslint.validate": ["javascript", "typescript", "typescriptreact"],
+  "eslint.options": {
+    "extensions": [".js", ".jsx", ".md", ".mdx", ".ts", ".tsx"]
+  },
+  "eslint.validate": ["markdown", "mdx", "javascript", "typescript", "typescriptreact"],
   "files.eol": "\r\n"
 }

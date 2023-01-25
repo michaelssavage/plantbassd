@@ -1,17 +1,17 @@
-import { marked } from "marked";
 import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
-import matter from "gray-matter";
-import path from "path";
-import fs from "fs";
+import { MDXRemote } from "next-mdx-remote";
 import { CardWithButtons } from "components/Card";
 import { Picture } from "components/Picture";
 import styles from "styles/slug.module.scss";
-import Footer from "components/Footer";
 import { StaticProps } from "types/frontmatter";
+import { getSlugContent, getSlugPath } from "utils/getSlug";
+import { HoverLink } from "components/HoverLink";
+
+const components = { HoverLink, Picture };
 
 export default function RadioSlug({
-  content,
+  mdxSource,
   frontmatter,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { title, date, pic, tracklist, artistPage, mixLink } = frontmatter;
@@ -32,14 +32,10 @@ export default function RadioSlug({
               <p className={styles.postDate}>Posted on {date}</p>
               <h1 className={styles.postTitle}>{title}</h1>
               <div className={styles.postBody}>
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: marked(content),
-                  }}
-                />
+                <MDXRemote {...mdxSource} components={components} />
               </div>
               <div className={styles.imgWrapper}>
-                <Picture alt="artist tracklist" height={600} src={tracklist} width={600} />
+                <Picture alt="artist tracklist" size={600} src={tracklist} />
               </div>
             </div>
 
@@ -54,19 +50,12 @@ export default function RadioSlug({
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/radios"));
-  const paths = files.map((filename) => ({
-    params: {
-      slug: filename.replace(".md", ""),
-    },
-  }));
+  const paths = await getSlugPath("radios");
 
   return {
     fallback: false,
@@ -75,12 +64,11 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }: StaticProps) {
-  const markdownWithMeta = fs.readFileSync(path.join("posts/radios", `${slug}.md`), "utf-8");
-  const { data: frontmatter, content } = matter(markdownWithMeta);
+  const { frontmatter, mdxSource } = await getSlugContent("radios", slug);
 
   return {
     props: {
-      content,
+      mdxSource,
       frontmatter,
     },
   };

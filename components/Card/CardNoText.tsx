@@ -16,12 +16,7 @@ export const CardNoText = (props: Props) => {
     <div className={columns}>
       <Link href={link} className="anchorColor">
         <div className={`card ${styles.cardStyle}`}>
-          <Picture
-            alt={post.frontmatter.title}
-            height={500}
-            src={post.frontmatter.pic}
-            width={500}
-          />
+          <Picture alt={post.frontmatter.title} size={500} src={post.frontmatter.pic} />
         </div>
       </Link>
     </div>

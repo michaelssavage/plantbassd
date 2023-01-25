@@ -1,17 +1,16 @@
 import Head from "next/head";
-import matter from "gray-matter";
 import { InferGetStaticPropsType } from "next";
-import path from "path";
-import fs from "fs";
-import { sortByDate } from "components/Utilities";
+import { GetStaticProps } from "next/types";
+import { useTags } from "hooks";
+import { sortByDate } from "utils";
 import Error from "components/Error";
-import FilterTags from "components/FilterTags";
-import Footer from "components/Footer";
-import useFilterTags from "hooks/useFilterTags";
+import { FilterTags } from "components/FilterTags";
+
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
+import { getPosts } from "utils/getPosts";
 
 const gigsTags = [
   { name: "edinburgh", value: false },
@@ -20,11 +19,7 @@ const gigsTags = [
 ];
 
 export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { error, handleTags, hasErrored, newsStories, tagList } = useFilterTags(
-    gigsTags,
-    "gig",
-    gigs
-  );
+  const { error, handleTags, hasErrored, newsStories, tagList } = useTags(gigsTags, "gig", gigs);
 
   if (hasErrored) return <Error error={error} />;
 
@@ -54,29 +49,16 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
 
         <GoBack />
       </div>
-
-      <Footer />
     </>
   );
 }
 
-export async function getStaticProps() {
-  // Get files from the takeover directory
-  const files = fs.readdirSync(path.join("posts/gigs"));
-  const gigs = files.map((filename) => {
-    const markdownWithMeta = fs.readFileSync(path.join("posts/gigs", filename), "utf-8");
-    const { data: frontmatter } = matter(markdownWithMeta);
-    const slug = filename.replace(".md", "");
-
-    return {
-      frontmatter,
-      slug,
-    };
-  });
+export const getStaticProps: GetStaticProps = async () => {
+  const gigs = await getPosts("gigs");
 
   return {
     props: {
       gigs: gigs.sort(sortByDate).reverse(),
     },
   };
-}
+};

@@ -1,25 +1,20 @@
 import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
-import matter from "gray-matter";
-import { ChangeEvent } from "react";
-import path from "path";
-import fs from "fs";
-import { sortByDate } from "components/Utilities";
+import { GetStaticProps } from "next/types";
+import { sortByDate } from "utils";
 import Error from "components/Error";
-import Footer from "components/Footer";
-import useFilter from "hooks/useFilter";
+
+import { useFilter } from "hooks/useFilter.hook";
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
-import SocialIcon from "components/SocialIcon";
 import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
+import { SearchBox } from "components/SearchBox";
+import { SocialButton } from "components/Icon";
+import { getPosts } from "utils/getPosts";
 
 export default function RadioPage({ radios }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { error, filter, hasErrored, postCards, setFilter } = useFilter(radios);
-
-  const handleSearchChange = (event: ChangeEvent<HTMLInputElement>) => {
-    setFilter(event.target.value);
-  };
+  const { error, filter, hasErrored, postCards, handleSearchChange } = useFilter(radios, "posts");
 
   if (hasErrored) return <Error error={error} />;
 
@@ -36,29 +31,19 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
           Guest mixes from homegrown and international artists. Check them out on our SoundCloud.
         </p>
         <div className="row align-items-center">
-          {/* SEARCH BOX */}
-          <div className={`col-md-4 me-auto input-group ${styles.radioFilter}`}>
-            <input
-              aria-label="Filter"
-              className="form-control"
-              onChange={handleSearchChange}
-              placeholder="Filter Artists By Name..."
-              type="text"
-              value={filter}
-            />
-          </div>
+          <SearchBox
+            handleSearchChange={handleSearchChange}
+            filter={filter}
+            style={`col-md-4 me-auto input-group ${styles.radioFilter}`}
+            text="artists by name"
+          />
 
-          <div className={`col-auto ${styles.socialBtns}`}>
-            <a
-              className={`${styles.soundcloud} text-nowrap btn btn-dark`}
-              href="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
-              rel="noopener noreferrer"
-              role="button"
-              target="_blank"
-            >
-              <SocialIcon icon="radio" /> Plant Bass'd Radio
-            </a>
-          </div>
+          <SocialButton
+            name="Plant Bass'd Radio"
+            icon="radio"
+            url="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
+            style={`${styles.soundcloud} text-nowrap btn btn-dark`}
+          />
         </div>
         <div className="row g-3">
           {postCards.map((radio: AllPostProps) => (
@@ -68,28 +53,16 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
 
         <GoBack />
       </div>
-
-      <Footer />
     </>
   );
 }
 
-export async function getStaticProps() {
-  const files = fs.readdirSync(path.join("posts/radios"));
-  const radios = files.map((filename) => {
-    const markdownWithMeta = fs.readFileSync(path.join("posts/radios", filename), "utf-8");
-    const { data: frontmatter } = matter(markdownWithMeta);
-    const slug = filename.replace(".md", "");
-
-    return {
-      frontmatter,
-      slug,
-    };
-  });
+export const getStaticProps: GetStaticProps = async () => {
+  const radios = await getPosts("radios");
 
   return {
     props: {
       radios: radios.sort(sortByDate).reverse(),
     },
   };
-}
+};

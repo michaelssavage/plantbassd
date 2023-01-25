@@ -1,17 +1,14 @@
 import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
-import matter from "gray-matter";
-import path from "path";
-import fs from "fs";
 import { CardWithButtons } from "components/Card";
 import styles from "styles/slug.module.scss";
-import Footer from "components/Footer";
-import Content from "components/SlugContent";
+import { Slug } from "components/Slug";
 import { StaticProps } from "types/frontmatter";
+import { getSlugContent, getSlugPath } from "utils/getSlug";
 
 export default function FreshJuiceSlug({
   frontmatter,
-  content,
+  mdxSource,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { artist = "Bandcamp", title, date, pic, bandcamp, postLink } = frontmatter;
   return (
@@ -22,7 +19,7 @@ export default function FreshJuiceSlug({
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            <Content content={content} date={date} title={title} />
+            {Slug(date, title, mdxSource)}
             <CardWithButtons
               artist={artist}
               insta="Instagram"
@@ -34,19 +31,12 @@ export default function FreshJuiceSlug({
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/fresh-juice"));
-  const paths = files.map((filename) => ({
-    params: {
-      slug: filename.replace(".md", ""),
-    },
-  }));
+  const paths = await getSlugPath("fresh-juice");
 
   return {
     fallback: false,
@@ -55,13 +45,11 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }: StaticProps) {
-  const markdownWithMeta = fs.readFileSync(path.join("posts/fresh-juice", `${slug}.md`), "utf-8");
-  const { data: frontmatter, content } = matter(markdownWithMeta);
-
+  const { frontmatter, mdxSource } = await getSlugContent("fresh-juice", slug);
   return {
     props: {
-      content,
       frontmatter,
+      mdxSource,
     },
   };
 }

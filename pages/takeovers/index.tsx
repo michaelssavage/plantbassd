@@ -1,27 +1,25 @@
 import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
-import matter from "gray-matter";
-import { ChangeEvent } from "react";
-import path from "path";
-import fs from "fs";
-import { sortByDate } from "components/Utilities";
+import { GetStaticProps } from "next/types";
+import { sortByDate } from "utils";
 import Error from "components/Error";
-import Footer from "components/Footer";
-import useFilter from "hooks/useFilter";
+
+import { useFilter } from "hooks/useFilter.hook";
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
-import SocialIcon from "components/SocialIcon";
+import { SocialButton } from "components/Icon";
 import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
+import { SearchBox } from "components/SearchBox";
+import { getPosts } from "utils/getPosts";
 
 export default function TakeoverPage({
   takeovers,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { error, filter, hasErrored, postCards, setFilter } = useFilter(takeovers);
-
-  const handleSearchChange = (event: ChangeEvent<HTMLInputElement>) => {
-    setFilter(event.target.value);
-  };
+  const { error, filter, hasErrored, postCards, handleSearchChange } = useFilter(
+    takeovers,
+    "posts"
+  );
 
   if (hasErrored) return <Error error={error} />;
 
@@ -38,28 +36,19 @@ export default function TakeoverPage({
           playlist below.
         </p>
         <div className="row align-items-center">
-          {/* SEARCH BOX */}
-          <div className={`col-md-4 me-auto input-group ${styles.radioFilter}`}>
-            <input
-              aria-label="Filter"
-              className="form-control"
-              onChange={handleSearchChange}
-              placeholder="Filter Artists By Name..."
-              type="text"
-              value={filter}
-            />
-          </div>
-          <div className={`col-auto ${styles.socialBtns}`}>
-            <a
-              className={`${styles.spotify} text-nowrap btn btn-dark`}
-              href="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
-              rel="noopener noreferrer"
-              role="button"
-              target="_blank"
-            >
-              <SocialIcon icon="spotify" /> Plant Bass'd Picks
-            </a>
-          </div>
+          <SearchBox
+            handleSearchChange={handleSearchChange}
+            filter={filter}
+            style={`col-md-4 me-auto input-group ${styles.radioFilter}`}
+            text="artists by name"
+          />
+
+          <SocialButton
+            name="Plant Bass'd Picks"
+            icon="spotify"
+            url="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
+            style={`${styles.spotify} text-nowrap btn btn-dark`}
+          />
         </div>
         <div className="row g-3">
           {postCards.map((takeover: AllPostProps) => (
@@ -73,27 +62,16 @@ export default function TakeoverPage({
 
         <GoBack />
       </div>
-
-      <Footer />
     </>
   );
 }
 
-export async function getStaticProps() {
-  const files = fs.readdirSync(path.join("posts/takeovers"));
-  const takeovers = files.map((filename) => {
-    const markdownWithMeta = fs.readFileSync(path.join("posts/takeovers", filename), "utf-8");
-    const { data: frontmatter } = matter(markdownWithMeta);
-    const slug = filename.replace(".md", "");
-    return {
-      frontmatter,
-      slug,
-    };
-  });
+export const getStaticProps: GetStaticProps = async () => {
+  const takeovers = await getPosts("takeovers");
 
   return {
     props: {
       takeovers: takeovers.sort(sortByDate).reverse(),
     },
   };
-}
+};

@@ -7,7 +7,7 @@ interface CardProps {
   pic: string;
   title: string;
   artist: string;
-  page: string; // page links to artistW
+  page: string; // page links to artist
   insta: string;
   link: string; // link is to instagram
 }
@@ -18,12 +18,12 @@ export const CardWithButtons = (props: CardProps) => {
   return (
     <div className="col">
       <div className={styles.newsImage}>
-        <Picture alt={title} height={500} src={pic} width={500} />
+        <Picture alt={title} size={500} src={pic} />
         <div className="row">
           <div className={`col ${styles.button}`}>
             <Link
               href={page}
-              className={`${styles.hoverLink} text-nowrap btn btn-outline-dark btn-sm`}
+              className="text-nowrap btn btn-outline-dark btn-sm"
               rel="noopener noreferrer"
               role="button"
               target="_blank"
@@ -34,7 +34,7 @@ export const CardWithButtons = (props: CardProps) => {
           <div className={`col ${styles.button}`}>
             <Link
               href={link}
-              className={`${styles.hoverLink} text-nowrap btn btn-outline-dark btn-sm`}
+              className="text-nowrap btn btn-outline-dark btn-sm"
               rel="noopener noreferrer"
               role="button"
               target="_blank"

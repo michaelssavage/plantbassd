@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import { socialIcons } from "arrays/social-icons";
-import Footer from "components/Footer";
-import SocialIcon from "components/SocialIcon";
+
+import { Icon } from "components/Icon";
 import { Picture } from "components/Picture";
 import styles from "styles/page.module.scss";
 import { ourTeam } from "arrays/our-team";
@@ -31,9 +31,9 @@ export default function TeamPage() {
         <div className="row d-flex flex-row">
           {ourTeam.map((member) => (
             <div className="px-5 col-lg-4 col-md-4 col-sm-12" key={member.name}>
-              <Link href={member.link} className="blackAnchor">
+              <Link href={member.link}>
                 <div className={`card ${styles.cardStyle}`}>
-                  <Picture alt={member.name} height={300} src={`/news/${member.img}`} width={300} />
+                  <Picture alt={member.name} size={1000} src={`/news/${member.img}`} />
                 </div>
               </Link>
               <p className="nameAnchor">{member.name}</p>
@@ -48,23 +48,23 @@ export default function TeamPage() {
 
         <div className="row">
           {socialIcons.map((item) => (
-            <Link
-              href={item.link}
-              key={item.link}
-              className={`col-6 col-sm-6 col-md-4 blackAnchor ${styles.iconBox}`}
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <>
-                <SocialIcon icon={item.icon} styling={styles.socialIcon} />{" "}
-                <>{item.icon.toUpperCase()}</>
-              </>
-            </Link>
+            <>
+              <Link
+                href={item.link}
+                key={item.link}
+                className={`col-6 col-sm-6 col-md-4 ${styles.iconBox}`}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <>
+                  <Icon icon={item.icon} styling={styles.socialIcon} />
+                  {item.icon.toUpperCase()}
+                </>
+              </Link>
+            </>
           ))}
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }

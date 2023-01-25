@@ -1,15 +1,20 @@
-import { marked } from "marked";
+import { MDXRemote } from "next-mdx-remote";
+
 import Head from "next/head";
-import matter from "gray-matter";
 import { InferGetStaticPropsType } from "next";
-import fs from "fs";
-import path from "path";
 import styles from "styles/slug.module.scss";
-import Footer from "components/Footer";
 import GoBack from "components/GoBack";
 import { StaticProps } from "types/frontmatter";
+import { getSlugContent, getSlugPath } from "utils/getSlug";
+import { HoverLink } from "components/HoverLink";
+import { Picture } from "components/Picture";
 
-export default function Guides({ title, content }: InferGetStaticPropsType<typeof getStaticProps>) {
+const components = { HoverLink, Picture };
+
+export default function Guides({
+  title,
+  mdxSource,
+}: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <>
       <Head>
@@ -20,29 +25,18 @@ export default function Guides({ title, content }: InferGetStaticPropsType<typeo
           <div className={`col ${styles.topTenContent}`}>
             <h1 className={styles.postTitle}>{title}</h1>
             <div className={styles.postBody}>
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: marked(content),
-                }}
-              />
+              <MDXRemote {...mdxSource} components={components} />
             </div>
           </div>
           <GoBack />
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/guides"));
-  const paths = files.map((filename) => ({
-    params: {
-      slug: filename.replace(".md", ""),
-    },
-  }));
+  const paths = await getSlugPath("guides");
 
   return {
     fallback: false,
@@ -51,12 +45,11 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }: StaticProps) {
-  const markdownWithMeta = fs.readFileSync(path.join("posts/guides", `${slug}.md`), "utf-8");
-  const { data: frontmatter, content } = matter(markdownWithMeta);
+  const { frontmatter, mdxSource } = await getSlugContent("guides", slug);
 
   return {
     props: {
-      content,
+      mdxSource,
       title: frontmatter.title,
     },
   };

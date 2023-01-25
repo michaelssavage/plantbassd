@@ -3,8 +3,8 @@ import { FaBars } from "react-icons/fa";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import { sidebarList } from "arrays/sidebar-icons";
-import SocialIcon from "components/SocialIcon";
-import useClickLocation from "hooks/useClickLocation";
+import { Icon } from "components/Icon";
+import { useClickOutside } from "hooks";
 import styles from "./Sidebar.module.scss";
 
 interface ListingProps {
@@ -19,7 +19,7 @@ function Listing({ link, onClick, title }: ListingProps) {
   return (
     <Link href={link} className="anchor">
       <div className={className} onClick={onClick}>
-        <SocialIcon icon={title} styling={styles.navIcon} />
+        <Icon icon={title} styling={styles.navIcon} />
         <span className={styles.navName}>{title}</span>
       </div>
     </Link>
@@ -27,7 +27,7 @@ function Listing({ link, onClick, title }: ListingProps) {
 }
 
 export default function Sidebar() {
-  const { closeSidebar, navMenu, showSidebar, sidebar } = useClickLocation();
+  const { closeSidebar, navMenu, showSidebar, sidebar } = useClickOutside();
 
   return (
     <div ref={navMenu}>

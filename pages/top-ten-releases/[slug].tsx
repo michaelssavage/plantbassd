@@ -1,27 +1,17 @@
-import { marked } from "marked";
 import Head from "next/head";
-import matter from "gray-matter";
 import { InferGetStaticPropsType } from "next";
-import path from "path";
-import fs from "fs";
+import { MDXRemote } from "next-mdx-remote";
 import { Picture } from "components/Picture";
-import SocialIcon from "components/SocialIcon";
-import Footer from "components/Footer";
+import { Icon } from "components/Icon";
 import { StaticProps } from "types/frontmatter";
-import styles from "./TopTen.module.scss";
+import { getSlugContent, getSlugPath } from "utils/getSlug";
+import { HoverLink } from "components/HoverLink";
+import styles from "styles/top-ten.module.scss";
 
-// interface TopTenSlugProps {
-//   content: string;
-//   title: string;
-//   date: string;
-//   cover: string;
-//   intro: string;
-//   header: string;
-//   insta: string;
-// }
+const components = { HoverLink, Picture };
 
 export default function TopTenSlug(props: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { title, date, cover, intro, header, insta, content } = props;
+  const { title, date, cover, intro, header, insta, mdxSource } = props;
   return (
     <>
       <Head>
@@ -31,7 +21,7 @@ export default function TopTenSlug(props: InferGetStaticPropsType<typeof getStat
         <div className="container">
           <div className={`col ${styles.topTenContent}`}>
             <p className={styles.postDate}>Posted on {date}</p>
-            <Picture alt="artist press pic" height={1200} src={cover} width={1200} />
+            <Picture alt="artist press pic" size={1200} src={cover} />
             <p className="smallText text-center">(Pictured: {header})</p>
 
             <h1 className={styles.postTitle}>{title}</h1>
@@ -46,7 +36,7 @@ export default function TopTenSlug(props: InferGetStaticPropsType<typeof getStat
                 role="button"
                 target="_blank"
               >
-                <SocialIcon icon="instagram" /> {header}
+                <Icon icon="instagram" /> {header}
               </a>
 
               <a
@@ -56,35 +46,24 @@ export default function TopTenSlug(props: InferGetStaticPropsType<typeof getStat
                 role="button"
                 target="_blank"
               >
-                <SocialIcon icon="spotify" /> Top Picks 2022
+                <Icon icon="spotify" /> Top Picks 2022
               </a>
             </div>
 
             <hr />
 
             <div className={styles.postBody}>
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: marked(content),
-                }}
-              />
+              <MDXRemote {...mdxSource} components={components} />
             </div>
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }
 
 export async function getStaticPaths() {
-  const files = fs.readdirSync(path.join("posts/top-ten-releases"));
-  const paths = files.map((filename) => ({
-    params: {
-      slug: filename.replace(".md", ""),
-    },
-  }));
+  const paths = await getSlugPath("top-ten-releases");
 
   return {
     fallback: false,
@@ -93,15 +72,11 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }: StaticProps) {
-  const markdownWithMeta = fs.readFileSync(
-    path.join("posts/top-ten-releases", `${slug}.md`),
-    "utf-8"
-  );
-  const { data: frontmatter, content } = matter(markdownWithMeta);
+  const { frontmatter, mdxSource } = await getSlugContent("top-ten-releases", slug);
 
   return {
     props: {
-      content,
+      mdxSource,
       title: frontmatter.title,
       date: frontmatter.date,
       cover: frontmatter.cover,

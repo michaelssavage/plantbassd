@@ -1,4 +1,4 @@
-import useRellax from "hooks/useRellax";
+import { useRellax } from "hooks";
 import styles from "./Banner.module.scss";
 
 export default function Banner() {
