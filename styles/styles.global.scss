@@ -80,24 +80,6 @@ p {
   }
 }
 
-.pinkUnderline {
-  color: inherit;
-  text-decoration: underline;
-  text-decoration-color: rgba(240, 60, 160);
-  @extend .anchor;
-  border-radius: 1em 0 1em 0;
-  &:hover {
-    background-image: linear-gradient(
-      -100deg,
-      rgba(240, 60, 160, 0.2),
-      rgba(240, 60, 160, 0.6) 95%,
-      rgba(240, 60, 160, 0.1)
-    );
-    color: inherit;
-    text-decoration: none;
-  }
-}
-
 .inlineLink {
   margin-bottom: -0.4rem;
   @extend .hoverLink;
@@ -111,6 +93,9 @@ p {
   text-decoration-line: underline;
   text-decoration-color: $plantbassdPink;
   font-weight: normal;
+  &:hover {
+    color: $plantbassdPink;
+  }
   &::before {
     content: "";
     position: absolute;
