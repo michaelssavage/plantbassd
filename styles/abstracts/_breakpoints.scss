@@ -1,11 +1,12 @@
 $breakpoints: (
-	xxs: 376px,
-	xs: 576px,
-	sm: 768px,
-	md: 992px,
-	xm: 1100px,
-	lg: 1200px,
-	xl: 1400px,
+  xxs: 376px,
+  xss: 442px,
+  xs: 576px,
+  sm: 768px,
+  md: 992px,
+  xm: 1100px,
+  lg: 1200px,
+  xl: 1400px,
 );
 
 //
@@ -14,21 +15,21 @@ $breakpoints: (
 
 // @include respond-above(sm) {}
 @mixin breakpoint-above($breakpoint) {
-	// If the breakpoint exists in the map.
-	@if map-has-key($breakpoints, $breakpoint) {
-		// Get the breakpoint value.
-		$breakpoint-value: map-get($breakpoints, $breakpoint);
+  // If the breakpoint exists in the map.
+  @if map-has-key($breakpoints, $breakpoint) {
+    // Get the breakpoint value.
+    $breakpoint-value: map-get($breakpoints, $breakpoint);
 
-		// Write the media query.
-		@media (min-width: $breakpoint-value) {
-			@content;
-		}
+    // Write the media query.
+    @media (min-width: $breakpoint-value) {
+      @content;
+    }
 
-		// If the breakpoint doesn't exist in the map.
-	} @else {
-		// Log a warning.
-		@warn 'Invalid breakpoint: #{$breakpoint}.';
-	}
+    // If the breakpoint doesn't exist in the map.
+  } @else {
+    // Log a warning.
+    @warn 'Invalid breakpoint: #{$breakpoint}.';
+  }
 }
 
 //
@@ -37,19 +38,19 @@ $breakpoints: (
 
 // @include respond-below(sm) {}
 @mixin breakpoint-below($breakpoint) {
-	// If the breakpoint exists in the map.
-	@if map-has-key($breakpoints, $breakpoint) {
-		// Get the breakpoint value.
-		$breakpoint-value: map-get($breakpoints, $breakpoint);
+  // If the breakpoint exists in the map.
+  @if map-has-key($breakpoints, $breakpoint) {
+    // Get the breakpoint value.
+    $breakpoint-value: map-get($breakpoints, $breakpoint);
 
-		// Write the media query.
-		@media (max-width: ($breakpoint-value - 1)) {
-			@content;
-		}
+    // Write the media query.
+    @media (max-width: ($breakpoint-value - 1)) {
+      @content;
+    }
 
-		// If the breakpoint doesn't exist in the map.
-	} @else {
-		// Log a warning.
-		@warn 'Invalid breakpoint: #{$breakpoint}.';
-	}
+    // If the breakpoint doesn't exist in the map.
+  } @else {
+    // Log a warning.
+    @warn 'Invalid breakpoint: #{$breakpoint}.';
+  }
 }

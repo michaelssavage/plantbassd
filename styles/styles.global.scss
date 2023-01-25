@@ -293,6 +293,13 @@ p {
   @extend .layout;
 }
 
+.guestsBG {
+  background-color: $rosyBrown;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
 .freshjuiceBG {
   background-color: $culturedWhite;
   min-height: 100vh;

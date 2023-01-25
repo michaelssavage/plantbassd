@@ -3,7 +3,6 @@ import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
-
 import { useFilter } from "hooks/useFilter.hook";
 import { CardWithText } from "components/Card";
 import styles from "styles/page.module.scss";

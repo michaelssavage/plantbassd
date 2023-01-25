@@ -2,10 +2,15 @@
 
 .socialBtns {
   margin-bottom: 1rem;
-  order: 2;
 }
 
 @include breakpoint-below(sm) {
+  .socialBtns {
+    margin-left: auto;
+  }
+}
+
+@include breakpoint-below(xss) {
   .socialBtns {
     margin-left: auto;
     margin-right: auto;

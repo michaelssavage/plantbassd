@@ -46,7 +46,7 @@ export default function FreshJuicePage({
           <SocialButton
             name="Bandcamp"
             url="https://bandcamp.com/oisincampbellbap"
-            style={`${styles.bandcamp} btn btn-dark`}
+            style={`btn btn-dark ${styles.bandcamp} `}
           />
         </div>
 

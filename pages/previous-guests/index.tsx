@@ -5,6 +5,7 @@ import Error from "components/Error";
 import { SearchBox } from "components/SearchBox";
 import { useFilter } from "hooks/useFilter.hook";
 import styles from "styles/previous-guests.module.scss";
+import { sortAlphabetically } from "utils";
 
 const djs = guestList.concat(headliners);
 
@@ -17,25 +18,26 @@ export default function PreviousGuestsPage() {
       <Head>
         <title>Previous Guests</title>
       </Head>
-      <div className={styles.guestsBG}>
+      <div className="guestsBG">
         <h1 className={styles.pageHeader}>Previous Guests (A-Z)</h1>
 
-        <SearchBox
-          handleSearchChange={handleSearchChange}
-          filter={filter}
-          amount={postCards.length}
-          placeholder="an artist's name"
-          style={`input-group ${styles.filter}`}
-          text="DJs"
-        />
-
+        <div className="container">
+          <SearchBox
+            handleSearchChange={handleSearchChange}
+            filter={filter}
+            amount={postCards.length}
+            placeholder="an artist's name"
+            style={`input-group ${styles.filter}`}
+            text="DJs"
+          />
+        </div>
         {filter ? (
-          CardOverlay(postCards)
+          CardOverlay(postCards.sort(sortAlphabetically))
         ) : (
           <>
-            {CardOverlay(headliners)}
+            {CardOverlay(headliners.sort(sortAlphabetically))}
             <hr />
-            {CardOverlay(guestList)}
+            {CardOverlay(guestList.sort(sortAlphabetically))}
           </>
         )}
       </div>
