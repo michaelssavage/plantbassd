@@ -16,6 +16,11 @@ export const linkList: LinkProps[] = [
     icon: "tickets",
   },
   {
+    title: "Hannah Lee - B B B",
+    link: "https://soundcloud.com/plantbassddjs/premiere-hannah-lee-b-b-b",
+    icon: "premieres",
+  },
+  {
     title: "'SLAVES' by AKSENT",
     link: "https://www.plantbassd.com/fresh-juice/aksent-25-1-23",
     icon: "fresh juice",
