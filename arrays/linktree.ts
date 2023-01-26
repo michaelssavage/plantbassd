@@ -28,7 +28,7 @@ export const linkList: LinkProps[] = [
   {
     title: "SDLR - RUDEBOI (Jamzigg Remix)",
     link: "https://on.soundcloud.com/6sDYZ",
-    icon: "premiere",
+    icon: "premieres",
   },
   {
     title: "DROMEK - Mistura De Bossa",
