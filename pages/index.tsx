@@ -45,6 +45,7 @@ const folders = [
   "premieres",
   "takeovers",
   "top-ten-releases",
+  "under-the-radar",
 ];
 
 export async function getStaticProps() {

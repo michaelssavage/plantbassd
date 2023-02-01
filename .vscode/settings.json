@@ -15,5 +15,8 @@
     "extensions": [".js", ".jsx", ".md", ".mdx", ".ts", ".tsx"]
   },
   "eslint.validate": ["markdown", "mdx", "javascript", "typescript", "typescriptreact"],
-  "files.eol": "\r\n"
+  "files.eol": "\r\n",
+  "files.associations": {
+    "*.mdx": "markdown"
+  }
 }
