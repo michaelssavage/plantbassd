@@ -22,13 +22,23 @@ export const Content = ({ title, pic, link, description, standout, tags }: Conte
           <div>
             {description}
             <br />
+            {standout ? (
+              <>
+                <br />
+                <strong>Standout Track: {standout}</strong>
+              </>
+            ) : null}
             <br />
-            <strong>{standout}</strong>
-            <br />
-            {tags}
+            Bandcamp:{" "}
+            <HoverLink
+              url={link}
+              name={title.length > 60 ? `${title.slice(0, 50)}...` : title}
+              external
+              inline
+            />
           </div>
           <br />
-          Bandcamp: <HoverLink url={link} name={title} external inline />
+          {tags}
         </div>
       </div>
     </>
