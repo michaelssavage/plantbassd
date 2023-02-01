@@ -16,6 +16,11 @@ export const linkList: LinkProps[] = [
     icon: "tickets",
   },
   {
+    title: "Under the Radar: January",
+    link: "https://www.plantbassd.com/under-the-radar/january-23",
+    icon: "news",
+  },
+  {
     title: "Hannah Lee - B B B",
     link: "https://soundcloud.com/plantbassddjs/premiere-hannah-lee-b-b-b",
     icon: "premieres",
