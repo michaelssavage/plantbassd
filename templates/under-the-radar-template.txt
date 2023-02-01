@@ -1,0 +1,18 @@
+---
+month: "XX"
+name: "bandcamp under the radar XX"
+date: "XX, 2023"
+tags: "XX"
+cover: "XX.jpg"
+bio: "XX"
+path: "under-the-radar"
+---
+
+<Content
+  pic="/under-the-radar/XX/XX"
+  title="XX"
+  link="XX"
+  description="XX"
+  standout="XX"
+  tags="XX"
+/>

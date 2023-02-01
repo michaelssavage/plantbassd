@@ -4,6 +4,7 @@ name: "XX"
 date: "XX, 2023"
 tags: "premieres"
 pic: "/premieres/XX"
+listen: "Listen"
 seeMore: "XX"
 postLink: "https://www.instagram.com/plantbassd___"
 bio: XX"
@@ -11,7 +12,7 @@ path: "premieres"
 ---
 
 <Picture src="/premieres/XX.jpg" alt="XX" size={1200} />
-<p class="smallText"><i>XXX</i></p>
+<p className="smallText"><i>XXX</i></p>
 
 <hr/>
 
