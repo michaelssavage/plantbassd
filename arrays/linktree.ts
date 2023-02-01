@@ -21,6 +21,11 @@ export const linkList: LinkProps[] = [
     icon: "news",
   },
   {
+    title: "ERAM - Feet Up Tech",
+    link: "https://soundcloud.com/plantbassddjs/premiere-eram-feet-up-tech",
+    icon: "premiere",
+  },
+  {
     title: "Hannah Lee - B B B",
     link: "https://soundcloud.com/plantbassddjs/premiere-hannah-lee-b-b-b",
     icon: "premieres",
