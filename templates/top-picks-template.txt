@@ -14,11 +14,11 @@ intro: "XX"
 
 ## 1. XX
 
-<div class="row display-flex align-items-center">
-<div class="col clubGuide">
+<div className="row display-flex align-items-center">
+<div className="col clubGuide">
 <Picture src="/top-ten-releases/XX/1.jpg" alt="XX" size={1200} />
 </div>
-<div class="col clubGuide">
+<div className="col clubGuide">
 
 XX
 
@@ -29,11 +29,11 @@ Buy & Listen here: <HoverLink url="XX" name="Bandcamp" inline external />
 
 ## 2. XX
 
-<div class="row display-flex align-items-center">
-<div class="col clubGuide">
+<div className="row display-flex align-items-center">
+<div className="col clubGuide">
 <Picture src="/top-ten-releases/XX/2.jpg" alt="XX cover art" size={1200} />
 </div>
-<div class="col clubGuide">
+<div className="col clubGuide">
 
 XX
 
@@ -44,11 +44,11 @@ Buy & Listen here: <HoverLink url="XX" name="Bandcamp" inline external />
 
 ## 3. XX
 
-<div class="row display-flex align-items-center">
-<div class="col clubGuide">
+<div className="row display-flex align-items-center">
+<div className="col clubGuide">
 <Picture src="/top-ten-releases/XX/3.jpg" alt="XX" size={1200} />
 </div>
-<div class="col clubGuide">
+<div className="col clubGuide">
 
 XX
 
@@ -59,11 +59,11 @@ Buy & Listen here: <HoverLink url="XX" name="Bandcamp" inline external />
 
 ## 4. XX
 
-<div class="row display-flex align-items-center">
-<div class="col clubGuide">
+<div className="row display-flex align-items-center">
+<div className="col clubGuide">
 <Picture src="/top-ten-releases/XX/4.jpg" alt="XX" size={1200} />
 </div>
-<div class="col clubGuide">
+<div className="col clubGuide">
 
 XX
 
