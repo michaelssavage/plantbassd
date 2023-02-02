@@ -2,8 +2,9 @@ import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import styles from "styles/slug.module.scss";
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
+import { SoundCloud } from "components/SoundCloud";
 
-const components = { HoverLink, Picture };
+const components = { HoverLink, Picture, SoundCloud };
 
 export const Slug = (date: string, title: string, mdxSource: MDXRemoteSerializeResult) => {
   return (

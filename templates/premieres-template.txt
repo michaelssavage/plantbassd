@@ -11,13 +11,18 @@ bio: XX"
 path: "premieres"
 ---
 
-<Picture src="/premieres/XX.jpg" alt="XX" size={1200} />
-<p className="smallText"><i>XXX</i></p>
+
+<SoundCloud
+  src="XX"
+  url="XX"
+  name="XX"
+/>
 
 <hr/>
-
-Stream <HoverLink url="XX" name="XX" inline external /> on SoundCloud
 
 XX
 
 Support <HoverLink url="XX" name="XX" inline external /> on Bandcamp 🌱
+
+<Picture src="/premieres/XX.jpg" alt="XX" size={1200} />
+<p className="smallText"><i>XXX</i></p>
