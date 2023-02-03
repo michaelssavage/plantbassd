@@ -16,6 +16,11 @@ export const linkList: LinkProps[] = [
     icon: "tickets",
   },
   {
+    title: "Degrees of Freedom by Ozwald",
+    link: "https://www.plantbassd.com/fresh-juice/ozwald-3-2-23",
+    icon: "fresh juice",
+  },
+  {
     title: "Under the Radar: January",
     link: "https://www.plantbassd.com/under-the-radar/january-23",
     icon: "news",
