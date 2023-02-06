@@ -16,6 +16,11 @@ export const linkList: LinkProps[] = [
     icon: "tickets",
   },
   {
+    title: "Mechanicus by HARD FANTASY (All Centre)",
+    link: "https://www.plantbassd.com/fresh-juice/hard-fantasy-6-2-23",
+    icon: "fresh juice",
+  },
+  {
     title: "Degrees of Freedom by Ozwald",
     link: "https://www.plantbassd.com/fresh-juice/ozwald-3-2-23",
     icon: "fresh juice",
