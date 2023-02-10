@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { CSSProperties } from "react";
-import { shimmer, toBase64 } from "utils";
+import { blurImgUrl } from "utils/blurImage";
 
 interface PictureProps {
   alt: string;
@@ -14,7 +14,7 @@ export const Picture = ({ alt, size, src }: PictureProps) => {
   return (
     <Image
       alt={alt}
-      blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(size, size))}`}
+      blurDataURL={blurImgUrl(size)}
       height={size}
       placeholder="blur"
       src={src}
