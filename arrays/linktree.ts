@@ -16,7 +16,7 @@ export const linkList: LinkProps[] = [
     icon: "tickets",
   },
   {
-    title: "'4EVER' by Riot Code"
+    title: "'4EVER' by Riot Code",
     link: "https://www.plantbassd.com/fresh-juice/riot-code-10-2-23",
     icon: "fresh juice",
   },
