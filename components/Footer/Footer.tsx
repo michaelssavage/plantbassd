@@ -1,5 +1,6 @@
 import { links } from "arrays/footer-links";
 import { HoverLink } from "components/HoverLink";
+import { sortAlphabetically } from "utils";
 import styles from "./Footer.module.scss";
 
 export default function Footer() {
@@ -20,9 +21,9 @@ export default function Footer() {
             <div className="col">
               <h3>Quick Links</h3>
               <p>
-                {links.map((item, idx, arr) => (
-                  <span key={item.title}>
-                    <HoverLink url={item.link} name={item.title} inline />
+                {links.sort(sortAlphabetically).map((item, idx, arr) => (
+                  <span key={item.name}>
+                    <HoverLink url={item.link} name={item.name} inline />
 
                     {idx + 1 === arr.length ? "" : " // "}
                   </span>
