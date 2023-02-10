@@ -27,7 +27,7 @@ export default function GigsSlug({
   return (
     <>
       <Head>
-        <title>Plant Bass'd Gigs</title>
+        <title>{title}</title>
       </Head>
       <div className={styles.newsSection}>
         <div className="container">

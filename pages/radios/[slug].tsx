@@ -15,7 +15,7 @@ export default function RadioSlug({
   return (
     <>
       <Head>
-        <title>Mixes</title>
+        <title>{title}</title>
       </Head>
       <div className={styles.newsSection}>
         <div className="container">

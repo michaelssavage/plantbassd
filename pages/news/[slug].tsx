@@ -23,7 +23,7 @@ export default function NewsSlug({
   return (
     <>
       <Head>
-        <title>News</title>
+        <title>{title}</title>
       </Head>
       <div className={styles.newsSection}>
         <div className="container">
