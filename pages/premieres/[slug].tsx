@@ -21,7 +21,7 @@ export default function PremieresSlug({
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            {Slug(date, title, mdxSource)}
+            {Slug({ date, title, mdxSource })}
             <CardWithButtons
               artist={listen}
               insta="Instagram"

@@ -3,8 +3,12 @@ import { InferGetStaticPropsType } from "next";
 import { CardWithButtons } from "components/Card";
 import styles from "styles/slug.module.scss";
 import { StaticProps } from "types/frontmatter";
-import { Gigs } from "components/Gigs";
+import { guestList, headliners } from "arrays/previous-guests";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
+import { Slug } from "components/Slug";
+import { ArtistLookUp } from "components/ArtistLookUp";
+
+const djs = guestList.concat(headliners);
 
 export default function GigsSlug({
   mdxSource,
@@ -28,7 +32,11 @@ export default function GigsSlug({
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            {Gigs(anames, mdxSource, date, title)}
+            {
+              <Slug date={date} title={title} mdxSource={mdxSource}>
+                {ArtistLookUp(anames, djs)}
+              </Slug>
+            }
             <CardWithButtons
               artist={buyText}
               insta="Instagram"

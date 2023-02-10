@@ -1,14 +1,11 @@
 import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
-import { MDXRemote } from "next-mdx-remote";
 import { CardWithButtons } from "components/Card";
 import { Picture } from "components/Picture";
 import styles from "styles/slug.module.scss";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
-import { HoverLink } from "components/HoverLink";
-
-const components = { HoverLink, Picture };
+import { Slug } from "components/Slug";
 
 export default function RadioSlug({
   mdxSource,
@@ -23,21 +20,13 @@ export default function RadioSlug({
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            <div
-              className={`${styles.postContent}
-							col-lg-6
-							col-md-12
-							col-xl-6`}
-            >
-              <p className={styles.postDate}>Posted on {date}</p>
-              <h1 className={styles.postTitle}>{title}</h1>
-              <div className={styles.postBody}>
-                <MDXRemote {...mdxSource} components={components} />
-              </div>
-              <div className={styles.imgWrapper}>
-                <Picture alt="artist tracklist" size={600} src={tracklist} />
-              </div>
-            </div>
+            {
+              <Slug date={date} title={title} mdxSource={mdxSource}>
+                <div className={styles.imgWrapper}>
+                  <Picture alt="artist tracklist" size={600} src={tracklist} />
+                </div>
+              </Slug>
+            }
 
             <CardWithButtons
               artist="Artist's Insta"
