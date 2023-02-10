@@ -1,43 +1,43 @@
 interface FooterProps {
   link: string;
-  title: string;
+  name: string;
 }
 
 export const links: FooterProps[] = [
   {
     link: "/previous-guests",
-    title: "Previous Guests",
+    name: "Previous Guests",
   },
   {
     link: "/team",
-    title: "The Team",
+    name: "Our Team",
   },
   {
     link: "/archive",
-    title: "Archive",
+    name: "Archive",
   },
   {
     link: "/fresh-juice",
-    title: "Fresh Juice",
+    name: "Fresh Juice",
   },
   {
     link: "/news",
-    title: "News",
+    name: "News",
   },
   {
     link: "/gigs",
-    title: "Gigs",
+    name: "Gigs",
   },
   {
     link: "/takeovers",
-    title: "Takeovers",
+    name: "Takeovers",
   },
   {
     link: "/links",
-    title: "Links",
+    name: "Links",
   },
   {
     link: "/radios",
-    title: "Radios",
+    name: "Radios",
   },
 ];

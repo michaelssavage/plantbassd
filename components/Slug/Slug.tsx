@@ -1,12 +1,21 @@
 import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
+import { ReactNode } from "react";
 import styles from "styles/slug.module.scss";
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
 import { SoundCloud } from "components/SoundCloud";
 
+interface SlugProps {
+  date: string;
+  title: string;
+  mdxSource: MDXRemoteSerializeResult;
+  children?: ReactNode;
+}
+
 const components = { HoverLink, Picture, SoundCloud };
 
-export const Slug = (date: string, title: string, mdxSource: MDXRemoteSerializeResult) => {
+export const Slug = (props: SlugProps) => {
+  const { date, title, mdxSource, children } = props;
   return (
     <div
       className={`
@@ -20,6 +29,7 @@ export const Slug = (date: string, title: string, mdxSource: MDXRemoteSerializeR
       <h1 className={styles.postTitle}>{title}</h1>
       <div className={styles.postBody}>
         <MDXRemote {...mdxSource} components={components} />
+        {children}
       </div>
     </div>
   );

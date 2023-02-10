@@ -20,7 +20,7 @@ export default function FreshJuiceSlug({
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            {Slug(date, title, mdxSource)}
+            {Slug({ date, title, mdxSource })}
             <CardWithButtons
               artist={artist}
               insta="Instagram"

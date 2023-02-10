@@ -1,1 +1,0 @@
-export { Gigs } from "./Gigs";
