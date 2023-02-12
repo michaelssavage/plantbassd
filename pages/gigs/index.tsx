@@ -8,7 +8,7 @@ import { FilterTags } from "components/FilterTags";
 
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
-import GoBack from "components/GoBack";
+
 import { AllPostProps } from "types/frontmatter";
 import { getPosts } from "utils/getPosts";
 
@@ -46,8 +46,6 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
             />
           ))}
         </div>
-
-        <GoBack />
       </div>
     </>
   );

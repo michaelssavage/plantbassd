@@ -3,12 +3,10 @@ import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
-
 import { useFilter } from "hooks/useFilter.hook";
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import { SocialButton } from "components/Icon";
-import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
@@ -58,8 +56,7 @@ export default function TakeoverPage({
             />
           ))}
         </div>
-
-        <GoBack />
+        <div className="mt-2 text-end">{postCards.length} cards.</div>
       </div>
     </>
   );

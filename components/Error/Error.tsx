@@ -1,5 +1,5 @@
 import Link from "next/link";
-import GoBack from "components/GoBack";
+
 import styles from "./Error.module.scss";
 
 interface ErrorProps {
@@ -19,7 +19,6 @@ export default function Error({ error }: ErrorProps) {
               Home
             </Link>
           </div>
-          <GoBack />
         </div>
       </div>
     </div>

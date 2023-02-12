@@ -3,11 +3,9 @@ import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
-
 import { useFilter } from "hooks/useFilter.hook";
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
-import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { SocialButton } from "components/Icon";
@@ -49,8 +47,7 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
             <CardNoText key={radio.frontmatter.name} link={`/radios/${radio.slug}`} post={radio} />
           ))}
         </div>
-
-        <GoBack />
+        <div className="mt-2 text-end">{postCards.length} cards.</div>
       </div>
     </>
   );
