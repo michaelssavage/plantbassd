@@ -10,7 +10,7 @@ export const Newsletter = () => {
   const subscribe = () => {
     if (/^.+@.+\..+/.test(mail)) {
       setError(false);
-      console.log(mail);
+      // console.log(mail);
       setComplete(true);
     }
     if (!mail) {

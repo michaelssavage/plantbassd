@@ -1,6 +1,6 @@
 import { links } from "arrays/footer-links";
 import { HoverLink } from "components/HoverLink";
-import { Newsletter } from "components/Newsletter";
+// import { Newsletter } from "components/Newsletter";
 import { sortAlphabetically } from "utils";
 import styles from "./Footer.module.scss";
 
