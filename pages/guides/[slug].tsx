@@ -3,7 +3,7 @@ import { MDXRemote } from "next-mdx-remote";
 import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
 import styles from "styles/slug.module.scss";
-import GoBack from "components/GoBack";
+
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { HoverLink } from "components/HoverLink";
@@ -28,7 +28,6 @@ export default function Guides({
               <MDXRemote {...mdxSource} components={components} />
             </div>
           </div>
-          <GoBack />
         </div>
       </div>
     </>

@@ -15,7 +15,7 @@ export default function FreshJuiceSlug({
   return (
     <>
       <Head>
-        <title>Fresh Juice</title>
+        <title>{title}</title>
       </Head>
       <div className={styles.newsSection}>
         <div className="container">

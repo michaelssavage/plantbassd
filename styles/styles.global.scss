@@ -145,7 +145,7 @@ p {
 
 .globalBottomBtn {
   margin-top: 1rem;
-  text-align: left;
+  text-align: end;
 }
 
 .header {
@@ -322,6 +322,7 @@ p {
 .takeoverBG {
   background-color: $lilac;
   min-height: 100vh;
+  padding-bottom: 2rem;
   @extend .layout;
 }
 

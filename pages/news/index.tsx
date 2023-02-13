@@ -7,7 +7,7 @@ import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
 import { CardWithText } from "components/Card";
 import styles from "styles/page.module.scss";
-import GoBack from "components/GoBack";
+
 import { AllPostProps } from "types/frontmatter";
 import { useTags } from "hooks";
 import { HoverLink } from "components/HoverLink";
@@ -57,8 +57,6 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
             View Archived Posts
           </Link>
         </div>
-
-        <GoBack />
       </div>
     </>
   );

@@ -7,7 +7,6 @@ import { useFilter } from "hooks/useFilter.hook";
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import { SocialButton } from "components/Icon";
-import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
@@ -32,8 +31,7 @@ export default function PremieresPage({
         <h1 className={styles.pageHeader}>Premieres</h1>
 
         <p className={styles.pageText}>
-          New track premieres from around the world. Listen to the {premieres.length} tunes on our
-          SoundCloud.
+          Listen to new track premieres from around the world on our SoundCloud.
         </p>
         <div className="row align-items-center">
           <SearchBox
@@ -58,7 +56,7 @@ export default function PremieresPage({
           ))}
         </div>
 
-        <GoBack />
+        <div className="mt-2 text-end">{premieres.length} cards.</div>
       </div>
     </>
   );

@@ -3,12 +3,10 @@ import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
-
 import { useFilter } from "hooks/useFilter.hook";
 import { CardNoText } from "components/Card";
 import styles from "styles/page.module.scss";
 import { SocialButton } from "components/Icon";
-import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
@@ -30,12 +28,10 @@ export default function FreshJuicePage({
       </Head>
       <div className="freshjuiceBG">
         <h1 className={styles.pageHeader}>Fresh Juice</h1>
-
         <p className={styles.pageText}>
           Read our reviews of new music releases from around the world that we couldn't get enough
-          of. ({postCards.length} releases).
+          of.
         </p>
-
         <div className="row align-items-center">
           <SearchBox
             handleSearchChange={handleSearchChange}
@@ -48,7 +44,6 @@ export default function FreshJuicePage({
             style={`btn btn-dark ${styles.bandcamp} `}
           />
         </div>
-
         <div className="row g-3">
           {postCards.map((juice: AllPostProps) => (
             <CardNoText
@@ -58,8 +53,7 @@ export default function FreshJuicePage({
             />
           ))}
         </div>
-
-        <GoBack />
+        <div className="mt-2 text-end">{postCards.length} cards.</div>
       </div>
     </>
   );

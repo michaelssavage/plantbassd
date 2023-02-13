@@ -1,0 +1,8 @@
+@use "@/abstracts" as *;
+
+.errorText {
+  margin: 0;
+  padding: 0;
+  color: $errorRed;
+  font-size: $cardDate;
+}

@@ -6,7 +6,6 @@ import Error from "components/Error";
 import { useFilter } from "hooks/useFilter.hook";
 import { CardWithText } from "components/Card";
 import styles from "styles/page.module.scss";
-import GoBack from "components/GoBack";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getAllPosts } from "utils/getAllPosts";
@@ -42,8 +41,6 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
             />
           ))}
         </div>
-
-        <GoBack />
       </div>
     </>
   );

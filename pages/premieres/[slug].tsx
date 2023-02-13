@@ -16,7 +16,7 @@ export default function PremieresSlug({
   return (
     <>
       <Head>
-        <title>Premieres</title>
+        <title>{title}</title>
       </Head>
       <div className={styles.newsSection}>
         <div className="container">
