@@ -4,7 +4,6 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "tsc --noEmit && next lint --cache --ext md,mdx,ts,tsx",
     "lint.fix": "next lint --fix --ext md,mdx,ts,tsx",
