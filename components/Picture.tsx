@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import { CSSProperties } from "react";
-import { blurImgUrl } from "utils/blurImage";
+import { blurImgUrl } from "utils";
 
 interface PictureProps {
   alt: string;
