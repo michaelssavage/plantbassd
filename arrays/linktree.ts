@@ -16,6 +16,11 @@ export const linkList: LinkProps[] = [
     icon: "tickets",
   },
   {
+    title: "'Haunted by You' by REYKA",
+    link: "https://www.plantbassd.com/fresh-juice/reyka-15-2-23",
+    icon: "fresh juice",
+  },
+  {
     title: "'Cleansed' by HESK (Low Key Recs)",
     link: "https://www.plantbassd.com/fresh-juice/hesk-13-2-23",
     icon: "fresh juice",
