@@ -16,6 +16,11 @@ export const linkList: LinkProps[] = [
     icon: "tickets",
   },
   {
+    title: "'Intelligent Jump Rope Music' by Sarayu",
+    link: "https://www.plantbassd.com/fresh-juice/sarayu-17-2-23",
+    icon: "fresh juice",
+  },
+  {
     title: "'Haunted by You' by REYKA",
     link: "https://www.plantbassd.com/fresh-juice/reyka-15-2-23",
     icon: "fresh juice",
@@ -119,21 +124,6 @@ export const linkList: LinkProps[] = [
     title: "Sloucho - Hold It Down",
     link: "https://www.plantbassd.com/fresh-juice/sloucho-4-11-22",
     icon: "fresh juice",
-  },
-  {
-    title: "Body Mechanic - High Octane",
-    link: "https://www.plantbassd.com/fresh-juice/body-mechanic-3-11-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "Michel Ange - Nineteen Ninety One",
-    link: "https://soundcloud.com/plantbassddjs/premiere-michel-ange-nineteen-ninety-one",
-    icon: "premieres",
-  },
-  {
-    title: "BABELGAM - KLAN DESTINO (2AT REMIX)",
-    link: "https://soundcloud.com/plantbassddjs/klan-destino-2at-remix",
-    icon: "premieres",
   },
 ];
 
