@@ -16,6 +16,11 @@ export const linkList: LinkProps[] = [
     icon: "tickets",
   },
   {
+    title: "'Marejada' by Rodman",
+    link: "https://soundcloud.com/plantbassddjs/premiere-rodman-marejada-original-mix",
+    icon: "premiere",
+  },
+  {
     title: "'Intelligent Jump Rope Music' by Sarayu",
     link: "https://www.plantbassd.com/fresh-juice/sarayu-17-2-23",
     icon: "fresh juice",
