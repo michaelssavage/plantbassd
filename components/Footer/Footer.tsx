@@ -1,6 +1,5 @@
 import { links } from "arrays/footer-links";
 import { HoverLink } from "components/HoverLink";
-// import { Newsletter } from "components/Newsletter";
 import { sortAlphabetically } from "utils";
 import styles from "./Footer.module.scss";
 
@@ -14,8 +13,6 @@ export default function Footer() {
             <p className={styles.bio}>
               Profiling the experimental dance music world & throwing parties in between.
             </p>
-
-            {/* <Newsletter /> */}
           </div>
         </div>
 
