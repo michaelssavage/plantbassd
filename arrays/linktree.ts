@@ -6,11 +6,6 @@ interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "SweatBox: Kessler",
-    link: "https://ra.co/events/1640764",
-    icon: "tickets",
-  },
-  {
     title: "Bok Bok @ Sneaky Pete's",
     link: "https://ra.co/events/1639467",
     icon: "tickets",
