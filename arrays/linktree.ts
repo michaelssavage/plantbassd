@@ -11,6 +11,11 @@ export const linkList: LinkProps[] = [
     icon: "tickets",
   },
   {
+    title: "'Delphinine Capriole' by Matteo Coffetti',
+    link: "https://www.plantbassd.com/fresh-juice/matteo-coffetti-20-2-23",
+    icon: "fresh juice",
+  },
+  {
     title: "'Marejada' by Rodman",
     link: "https://soundcloud.com/plantbassddjs/premiere-rodman-marejada-original-mix",
     icon: "premiere",
