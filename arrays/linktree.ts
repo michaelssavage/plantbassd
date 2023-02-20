@@ -11,7 +11,7 @@ export const linkList: LinkProps[] = [
     icon: "tickets",
   },
   {
-    title: "'Delphinine Capriole' by Matteo Coffetti',
+    title: "'Delphinine Capriole' by Matteo Coffetti",
     link: "https://www.plantbassd.com/fresh-juice/matteo-coffetti-20-2-23",
     icon: "fresh juice",
   },
