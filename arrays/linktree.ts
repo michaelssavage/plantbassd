@@ -11,6 +11,11 @@ export const linkList: LinkProps[] = [
     icon: "tickets",
   },
   {
+    title: "NEW: Video for Rory Sweeney's 'Image Wavering'",
+    link: "https://www.youtube.com/watch?v=_aVHNeJbvf8", 
+    icon: "news",
+  },
+  {
     title: "'Delphinine Capriole' by Matteo Coffetti",
     link: "https://www.plantbassd.com/fresh-juice/matteo-coffetti-20-2-23",
     icon: "fresh juice",
