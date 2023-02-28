@@ -2,13 +2,13 @@
 
 .floating {
   position: fixed;
-  bottom: 1rem;
-  right: 1rem;
+  bottom: 0.5rem;
+  right: 0.5rem;
   z-index: 200;
 }
 .base {
   position: fixed;
-  bottom: 1rem;
+  bottom: 0.5rem;
   right: 0;
   color: $white;
   background-color: $navBlue;
@@ -41,7 +41,6 @@
   padding: 0;
   color: $errorRed;
   font-size: $cardDate;
-  border-radius: 25%;
 }
 
 .form {
@@ -68,4 +67,11 @@
   }
   transition: 0.5s;
   @extend .floating;
+}
+
+.svg {
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }

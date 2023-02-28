@@ -1,43 +1,53 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import { TiTick } from "react-icons/ti";
+import { format as formatDate } from "date-fns";
 import styles from "./Newsletter.module.scss";
 
 interface SignupProps {
   setEmail: (val: string) => void;
   setName: (val: string) => void;
-  setComplete: (val: boolean) => void;
   setShowNewsletter: (val: boolean) => void;
   name: string;
   email: string;
-  complete: boolean;
 }
 
 export const Signup = (props: SignupProps) => {
-  const { setEmail, setName, setComplete, setShowNewsletter, name, email, complete } = props;
+  const { setEmail, setName, setShowNewsletter, name, email } = props;
 
-  const [error, setError] = useState(false);
-
-  const validateEmail = () => {
-    if (!/^.+@.+\..+/.test(email) || !email) {
-      setError(true);
-    }
-  };
+  const [complete, setComplete] = useState(false);
+  const [error, setError] = useState("");
 
   const handleSubmit = async (event: FormEvent) => {
     event.preventDefault();
-    validateEmail();
     setComplete(true);
-    // console.log(email, name);
+    // console.log({
+    //   name: name,
+    //   email: email,
+    //   date: formatDate(new Date(), "dd/MM/yyyy HH:mm:ss"),
+    // });
+    setTimeout(() => {
+      setShowNewsletter(false);
+    }, 3000);
     // send data to a google spreadsheet or doc
   };
 
   const handleEmailChange = (event: ChangeEvent<HTMLInputElement>) => {
     const { value } = event.target;
+    if (!/^.+@.+\..+/.test(value) || !value) {
+      setError("Enter a valid email");
+    } else {
+      setError("");
+    }
     setEmail(value);
   };
 
   const handleNameChange = (event: ChangeEvent<HTMLInputElement>) => {
     const { value } = event.target;
+    if (value.length <= 1 || value.length > 50) {
+      setError("Enter a valid name");
+    } else {
+      setError("");
+    }
     setName(value);
   };
 
@@ -50,6 +60,7 @@ export const Signup = (props: SignupProps) => {
         onChange={handleNameChange}
         className="form-control mb-1"
         placeholder="Your first name"
+        disabled={complete ? true : false}
         value={name}
       />
       <input
@@ -57,8 +68,10 @@ export const Signup = (props: SignupProps) => {
         onChange={handleEmailChange}
         className="form-control mb-1"
         placeholder="Your email"
+        disabled={complete ? true : false}
         value={email}
       />
+      {error && <p className={styles.errorText}>{error}</p>}
       <div
         style={{
           display: "flex",
@@ -67,13 +80,17 @@ export const Signup = (props: SignupProps) => {
           marginTop: "1rem",
         }}
       >
-        <button
-          className={`btn ${complete ? "btn-outline-success" : "btn-outline-dark"}`}
-          type="button"
-          disabled={complete ? true : false}
-        >
-          {complete ? <TiTick /> : "I'm in!"}
-        </button>
+        {complete ? (
+          <button className="btn btn-outline-success shake" disabled>
+            <div className={styles.svg}>
+              <TiTick />
+            </div>
+          </button>
+        ) : (
+          <button className="btn btn-outline-dark" type="submit" disabled={error ? true : false}>
+            I'm in!
+          </button>
+        )}
         <button
           className="btn btn-outline-dark"
           type="button"
@@ -82,7 +99,6 @@ export const Signup = (props: SignupProps) => {
           Close
         </button>
       </div>
-      {error ? <p className={styles.errorText}>Enter a valid email</p> : null}
     </form>
   );
 };

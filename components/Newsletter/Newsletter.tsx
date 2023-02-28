@@ -7,9 +7,8 @@ import { Sticky } from "./Sticky";
 export const Newsletter = () => {
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
-  const [complete, setComplete] = useState(false);
   const [showNewsletter, setShowNewsletter] = useState(false);
-  const [showSticky, setShowSticky] = useState(false);
+  const [showSticky, setShowSticky] = useState(true);
 
   const handleButtonClick = () => {
     setShowSticky(!showSticky);
@@ -41,11 +40,9 @@ export const Newsletter = () => {
           <Signup
             setEmail={setEmail}
             setName={setName}
-            setComplete={setComplete}
             setShowNewsletter={setShowNewsletter}
             name={name}
             email={email}
-            complete={complete}
           />
         )}
       </div>
