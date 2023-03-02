@@ -16,6 +16,16 @@ export const linkList: LinkProps[] = [
     icon: "news",
   },
   {
+    title: "PREMIERE: 'Transoceanic' by Noroi (Rua Sound)",
+    link: "https://on.soundcloud.com/bKzHX",
+    icon: "premiere",
+  },
+  {
+    title: "EXCLUSIVE: Nicole Holbrook X Rory Sweeney on 'Image Wavering'",
+    link: "https://www.youtube.com/watch?v=_aVHNeJbvf8",
+    icon: "news",
+  },
+  {
     title: "'Delphinine Capriole' by Matteo Coffetti",
     link: "https://www.plantbassd.com/fresh-juice/matteo-coffetti-20-2-23",
     icon: "fresh juice",
