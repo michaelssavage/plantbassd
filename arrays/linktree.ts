@@ -11,6 +11,11 @@ export const linkList: LinkProps[] = [
     icon: "tickets",
   },
   {
+    title: "Under the Radar: February",
+    link: "https://www.plantbassd.com/under-the-radar/february-23",
+    icon: "news",
+  },
+  {
     title: "'Delphinine Capriole' by Matteo Coffetti",
     link: "https://www.plantbassd.com/fresh-juice/matteo-coffetti-20-2-23",
     icon: "fresh juice",

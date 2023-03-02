@@ -7,6 +7,12 @@ import Header from "components/Header";
 import styles from "styles/links.module.scss";
 
 export default function Links() {
+  // const intenalLink = (link: string) => {
+  //   if (link.includes("www.plantbassd.com")) {
+  //     return link.split(/\/(.*)/s)[1];
+  //   }
+  //   return link;
+  // };
   return (
     <>
       <Head>
@@ -37,6 +43,15 @@ export default function Links() {
                 <Icon icon={item.icon} styling={styles.linkIcon} />
                 <div>{item.icon.toUpperCase()}</div>
               </div>
+              {/* {item.link.includes("www.plantbassd.com") ? (
+                <Link
+                  href={intenalLink(item.link)}
+                  className={`btn btn-outline-dark ${styles.btnText}`}
+                  role="button"
+                >
+                  {item.title}
+                </Link>
+              ) : ( */}
               <a
                 className={`btn btn-outline-dark ${styles.btnText}`}
                 href={item.link}
@@ -46,6 +61,7 @@ export default function Links() {
               >
                 <div>{item.title}</div>
               </a>
+              {/* )} */}
             </div>
           ))}
           <h2 className="d-flex justify-content-end">Discovery</h2>

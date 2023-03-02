@@ -15,7 +15,7 @@ export default function Error({ error }: ErrorProps) {
 
         <div className="d-flex flex-row gap-2">
           <div className={styles.bottomBtn}>
-            <Link href="/" className="btn btn-outline-dark" type="button">
+            <Link href="/" className="btn btn-outline-dark" role="button">
               Home
             </Link>
           </div>
