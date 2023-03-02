@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { FreshJuice, Mixes, News, Premiere, Radio, Takeover } from "components/Main";
+import { FreshJuice, Gigs, News, Premiere, Radio, Takeover } from "components/Main";
 import { sortByDate } from "utils";
 import Banner from "components/Banner";
 import { AllPostProps } from "types/frontmatter";
@@ -26,7 +26,7 @@ export default function Home({ allPosts, takeovers, radios, freshjuice }: HomePr
 
       <FreshJuice freshjuice={freshjuice} />
 
-      <Mixes />
+      <Gigs />
 
       <div className="discoveryCards">
         <Takeover takeovers={takeovers} />

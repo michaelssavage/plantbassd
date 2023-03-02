@@ -2,8 +2,8 @@
 month: "XX"
 name: "bandcamp under the radar XX"
 date: "XX, 2023"
-tags: "XX"
-cover: "XX.jpg"
+tags: "reviews"
+pic: "XX.jpg"
 bio: "XX"
 path: "under-the-radar"
 ---

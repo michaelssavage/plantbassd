@@ -65,6 +65,11 @@ export const headliners: GuestProps[] = [
     link: "____kessler/",
     name: "Kessler",
   },
+  {
+    img: "31-dj-bok.jpg",
+    link: "dj__bok/",
+    name: "Bok Bok",
+  },
 ];
 
 export const guestList: GuestProps[] = [
@@ -317,5 +322,15 @@ export const guestList: GuestProps[] = [
     img: "30-bleen.jpg",
     link: "fionnblaney/",
     name: "Bleen",
+  },
+  {
+    img: "31-elanda.jpg",
+    link: "elanda111/",
+    name: "Elanda",
+  },
+  {
+    img: "31-daksh.jpg",
+    link: "slibbiibaby/",
+    name: "Daksh",
   },
 ];

@@ -11,13 +11,18 @@ export const linkList: LinkProps[] = [
     icon: "tickets",
   },
   {
+    title: "Under the Radar: February",
+    link: "https://www.plantbassd.com/under-the-radar/february-23",
+    icon: "news",
+  },
+  {
     title: "PREMIERE: 'Transoceanic' by Noroi (Rua Sound)",
     link: "https://on.soundcloud.com/bKzHX",
     icon: "premiere",
   },
   {
     title: "EXCLUSIVE: Nicole Holbrook X Rory Sweeney on 'Image Wavering'",
-    link: "https://www.youtube.com/watch?v=_aVHNeJbvf8", 
+    link: "https://www.youtube.com/watch?v=_aVHNeJbvf8",
     icon: "news",
   },
   {

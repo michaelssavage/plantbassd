@@ -1,8 +1,77 @@
 @use "@/abstracts" as *;
 
+.floating {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  z-index: 200;
+}
+.base {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0;
+  color: $white;
+  background-color: $navBlue;
+  z-index: 200;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+.sticky {
+  height: 3rem;
+  width: 6rem;
+  @extend .base;
+  :hover {
+    opacity: 0.8;
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+  }
+}
+.newsletter {
+  width: 10rem;
+  @extend .base;
+}
+.text {
+  padding-left: 0.5rem;
+  cursor: pointer;
+}
 .errorText {
   margin: 0;
   padding: 0;
   color: $errorRed;
   font-size: $cardDate;
+}
+
+.form {
+  color: $black;
+  background-color: $culturedWhite;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid $black;
+}
+
+// ICON //////////////
+
+.showSticky {
+  right: 6rem;
+  transition: 0.5s;
+  @extend .icon;
+  @extend .floating;
+}
+.icon {
+  svg {
+    color: $navBlue;
+    width: 3rem;
+    height: 3rem;
+  }
+  transition: 0.5s;
+  @extend .floating;
+}
+
+.svg {
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }
