@@ -11,7 +11,7 @@ import Sidebar from "components/Sidebar";
 import { ErrorFallback } from "components/Error";
 import Footer from "components/Footer";
 import { Loading } from "components/Loading";
-// import { Newsletter } from "components/Newsletter";
+import { Newsletter } from "components/Newsletter";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   const [loading, setLoading] = useState(false);
@@ -37,7 +37,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
       <Sidebar />
-      {/* <Newsletter /> */}
+      <Newsletter />
       <Analytics />
       <ErrorBoundary FallbackComponent={ErrorFallback}>
         {loading ? <Loading /> : <Component {...pageProps} />}

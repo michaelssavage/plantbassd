@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { BiLeftArrowCircle, BiRightArrowCircle } from "react-icons/bi";
+import { BiLeftArrowCircle } from "react-icons/bi";
+import { AiOutlineCloseCircle } from "react-icons/ai";
 import styles from "./Newsletter.module.scss";
 import { Signup } from "./Signup";
 import { Sticky } from "./Sticky";
@@ -21,7 +22,7 @@ export const Newsletter = () => {
 
   const showButton = () => {
     if (showNewsletter) return null;
-    if (showSticky) return <BiRightArrowCircle />;
+    if (showSticky) return <AiOutlineCloseCircle />;
     else return <BiLeftArrowCircle />;
   };
 

@@ -1,6 +1,7 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import { TiTick } from "react-icons/ti";
 import { format as formatDate } from "date-fns";
+import { Loading } from "components/Loading";
 import styles from "./Newsletter.module.scss";
 
 interface SignupProps {
@@ -14,21 +15,40 @@ interface SignupProps {
 export const Signup = (props: SignupProps) => {
   const { setEmail, setName, setShowNewsletter, name, email } = props;
 
+  const [loading, setLoading] = useState(false);
   const [complete, setComplete] = useState(false);
   const [error, setError] = useState("");
 
   const handleSubmit = async (event: FormEvent) => {
     event.preventDefault();
-    setComplete(true);
-    // console.log({
-    //   name: name,
-    //   email: email,
-    //   date: formatDate(new Date(), "dd/MM/yyyy HH:mm:ss"),
-    // });
-    setTimeout(() => {
-      setShowNewsletter(false);
-    }, 3000);
-    // send data to a google spreadsheet or doc
+
+    if (!email || !name) {
+      setError("Enter all details");
+      return;
+    }
+
+    setLoading(true);
+
+    const res = await fetch("/api/newsletter", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: name,
+        email: email,
+        createdDate: formatDate(new Date(), "dd/MM/yyyy HH:mm:ss"),
+      }),
+    });
+    if (res.status === 201) {
+      setLoading(false);
+      setComplete(true);
+      setTimeout(() => {
+        setShowNewsletter(false);
+      }, 3000);
+    } else {
+      setLoading(false);
+      setError("Error signing up");
+      setComplete(false);
+    }
   };
 
   const handleEmailChange = (event: ChangeEvent<HTMLInputElement>) => {
@@ -51,6 +71,24 @@ export const Signup = (props: SignupProps) => {
     setName(value);
   };
 
+  const handleButtonView = () => {
+    if (loading) return <Loading button />;
+    if (complete) {
+      return (
+        <button className="btn btn-outline-success shake" disabled>
+          <div className={styles.svg}>
+            <TiTick />
+          </div>
+        </button>
+      );
+    }
+    return (
+      <button className="btn btn-outline-dark" type="submit" disabled={error ? true : false}>
+        I'm in!
+      </button>
+    );
+  };
+
   return (
     <form onSubmit={handleSubmit} className={styles.form}>
       <p>Want to know when we post? Sign up for the newsletter!</p>
@@ -71,7 +109,7 @@ export const Signup = (props: SignupProps) => {
         disabled={complete ? true : false}
         value={email}
       />
-      {error && <p className={styles.errorText}>{error}</p>}
+      {error && <p className="errorText">{error}</p>}
       <div
         style={{
           display: "flex",
@@ -80,17 +118,7 @@ export const Signup = (props: SignupProps) => {
           marginTop: "1rem",
         }}
       >
-        {complete ? (
-          <button className="btn btn-outline-success shake" disabled>
-            <div className={styles.svg}>
-              <TiTick />
-            </div>
-          </button>
-        ) : (
-          <button className="btn btn-outline-dark" type="submit" disabled={error ? true : false}>
-            I'm in!
-          </button>
-        )}
+        {handleButtonView()}
         <button
           className="btn btn-outline-dark"
           type="button"

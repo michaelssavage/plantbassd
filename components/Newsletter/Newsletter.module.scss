@@ -17,11 +17,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
 }
 .sticky {
   height: 3rem;
-  width: 6rem;
+  width: 12rem;
   @extend .base;
   :hover {
     opacity: 0.8;
@@ -29,18 +29,12 @@
   }
 }
 .newsletter {
-  width: 10rem;
+  width: 11rem;
   @extend .base;
 }
 .text {
   padding-left: 0.5rem;
   cursor: pointer;
-}
-.errorText {
-  margin: 0;
-  padding: 0;
-  color: $errorRed;
-  font-size: $cardDate;
 }
 
 .form {
@@ -54,7 +48,7 @@
 // ICON //////////////
 
 .showSticky {
-  right: 6rem;
+  right: 12rem;
   transition: 0.5s;
   @extend .icon;
   @extend .floating;
@@ -73,5 +67,12 @@
   svg {
     width: 1.5rem;
     height: 1.5rem;
+  }
+}
+
+.deleteSVG {
+  svg {
+    width: 4rem;
+    height: 4rem;
   }
 }
