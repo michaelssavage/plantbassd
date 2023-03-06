@@ -1,5 +1,5 @@
 import type { NextApiRequest, NextApiResponse } from "next";
-import { GoogleSpreadsheet, GoogleSpreadsheetWorksheet } from "google-spreadsheet";
+import { GoogleSpreadsheet } from "google-spreadsheet";
 
 const SPREADSHEET_ID = process.env.SPREADSHEET_ID;
 const CLIENT_EMAIL = process.env.CLIENT_EMAIL;
@@ -18,16 +18,12 @@ const initSheet = async () => {
   return sheet;
 };
 
-const checkIfEmailExists = async (sheet: GoogleSpreadsheetWorksheet, email: string) => {
-  const rows = await sheet.getRows();
-  return rows.some((row) => row.email === email);
-};
-
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === "POST") {
     try {
       const sheet = await initSheet();
-      if (checkIfEmailExists(sheet, req.body.email)) {
+      const rows = await sheet.getRows();
+      if (rows.some((row) => row.email === req.body.email)) {
         res.status(204).json({ message: "Email already exists" });
       } else {
         await sheet.addRow(req.body);
