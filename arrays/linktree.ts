@@ -1,4 +1,4 @@
-interface LinkProps {
+export interface LinkProps {
   title: string;
   link: string;
   icon: string;

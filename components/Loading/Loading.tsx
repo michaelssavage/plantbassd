@@ -1,9 +1,9 @@
 import styles from "./loading.module.scss";
 
-export const Loading = () => {
+export const Loading = ({ button }: { button?: boolean }) => {
   return (
-    <div className={styles.loading}>
-      <div className={styles.border}>
+    <div className={button ? styles.button : styles.loading}>
+      <div className={button ? styles.btnBorder : styles.border}>
         <span className={styles.hidden}>Loading...</span>
       </div>
     </div>

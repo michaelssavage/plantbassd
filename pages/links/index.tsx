@@ -1,18 +1,36 @@
 import Head from "next/head";
 import Link from "next/link";
-import { linkList, mainLinks } from "arrays/linktree";
+import { linkList, LinkProps, mainLinks } from "arrays/linktree";
 import { socialIcons } from "arrays/social-icons";
 import { Icon } from "components/Icon";
 import Header from "components/Header";
 import styles from "styles/links.module.scss";
 
 export default function Links() {
-  // const intenalLink = (link: string) => {
-  //   if (link.includes("www.plantbassd.com")) {
-  //     return link.split(/\/(.*)/s)[1];
-  //   }
-  //   return link;
-  // };
+  const renderLink = (item: LinkProps) => {
+    if (item.link.includes("www.plantbassd.com")) {
+      return (
+        <Link
+          href={new URL(item.link).pathname}
+          className={`btn btn-outline-dark ${styles.btnText}`}
+          role="button"
+        >
+          {item.title}
+        </Link>
+      );
+    }
+    return (
+      <a
+        className={`btn btn-outline-dark ${styles.btnText}`}
+        href={item.link}
+        rel="noopener noreferrer"
+        role="button"
+        target="_blank"
+      >
+        <div>{item.title}</div>
+      </a>
+    );
+  };
   return (
     <>
       <Head>
@@ -43,25 +61,7 @@ export default function Links() {
                 <Icon icon={item.icon} styling={styles.linkIcon} />
                 <div>{item.icon.toUpperCase()}</div>
               </div>
-              {/* {item.link.includes("www.plantbassd.com") ? (
-                <Link
-                  href={intenalLink(item.link)}
-                  className={`btn btn-outline-dark ${styles.btnText}`}
-                  role="button"
-                >
-                  {item.title}
-                </Link>
-              ) : ( */}
-              <a
-                className={`btn btn-outline-dark ${styles.btnText}`}
-                href={item.link}
-                rel="noopener noreferrer"
-                role="button"
-                target="_blank"
-              >
-                <div>{item.title}</div>
-              </a>
-              {/* )} */}
+              {renderLink(item)}
             </div>
           ))}
           <h2 className="d-flex justify-content-end">Discovery</h2>
