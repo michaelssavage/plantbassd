@@ -3,6 +3,7 @@ import { TiTick } from "react-icons/ti";
 import { format as formatDate } from "date-fns";
 import { Loading } from "components/Loading";
 import { NewsletterContext } from "context/newsletter.context";
+import { HoverLink } from "components/HoverLink";
 import styles from "./Newsletter.module.scss";
 
 interface SignupProps {
@@ -19,6 +20,7 @@ export const Signup = (props: SignupProps) => {
 
   const [loading, setLoading] = useState(false);
   const [complete, setComplete] = useState(false);
+  const [checkBox, setCheckBox] = useState(false);
   const [error, setError] = useState("");
 
   const handleSubmit = async (event: FormEvent) => {
@@ -26,6 +28,11 @@ export const Signup = (props: SignupProps) => {
 
     if (!email || !name) {
       setError("Enter all details");
+      return;
+    }
+
+    if (!checkBox) {
+      setError("Agree to T&Cs and Privacy Policy");
       return;
     }
 
@@ -98,7 +105,33 @@ export const Signup = (props: SignupProps) => {
   return (
     <form onSubmit={handleSubmit} className={styles.form}>
       <h3>Want to know when we post?</h3>
-      <p>Sign up to our newsletter to keep up to date</p>
+      <p className={styles.signUpText}>Sign up to our newsletter to keep up to date!</p>
+
+      <div className={styles.checkBox}>
+        <input
+          className="form-check-input"
+          type="checkbox"
+          checked={checkBox}
+          onClick={() => setCheckBox(!checkBox)}
+          id="flexCheckbox"
+        />
+        <label className={styles.agreeTermsText} htmlFor="flexCheckbox">
+          I agree to the{" "}
+          <HoverLink
+            url="terms-and-conditions"
+            name="T&Cs"
+            inline
+            inlineCSS={{ marginBottom: "-0.3rem" }}
+          />{" "}
+          and{" "}
+          <HoverLink
+            url="privacy-policy"
+            name="Privacy Policy"
+            inline
+            inlineCSS={{ marginBottom: "-0.3rem" }}
+          />
+        </label>
+      </div>
 
       <input
         type="text"
