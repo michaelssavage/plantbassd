@@ -45,7 +45,7 @@ export default function DeleteEmail() {
     if (loading) return <Loading button />;
     return (
       <button className="btn btn-outline-dark" type="submit" disabled={error ? true : false}>
-        Submit
+        Update
       </button>
     );
   };

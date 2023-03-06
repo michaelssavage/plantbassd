@@ -1,13 +1,19 @@
+import { useContext } from "react";
+import { NewsletterContext } from "context/newsletter.context";
 import styles from "./Newsletter.module.scss";
 
-interface StickyProps {
-  handleStickyClick: () => void;
-}
+export const Sticky = () => {
+  const { showSticky, showNewsletter, setShowSticky, setShowNewsletter } =
+    useContext(NewsletterContext);
 
-export const Sticky = ({ handleStickyClick }: StickyProps) => {
+  const handleOpenNewsletter = () => {
+    setShowSticky(!showSticky);
+    setShowNewsletter(!showNewsletter);
+  };
+
   return (
-    <div className={styles.sticky} onClick={() => handleStickyClick()}>
-      <span className={styles.text}>Sign up to Newsletter?</span>
+    <div className={styles.sticky} onClick={() => handleOpenNewsletter()}>
+      <span className={styles.text}>Sign up to our newsletter?</span>
     </div>
   );
 };
