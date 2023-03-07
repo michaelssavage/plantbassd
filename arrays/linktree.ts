@@ -11,6 +11,11 @@ export const linkList: LinkProps[] = [
     icon: "tickets",
   },
   {
+    title: "‘Kairos’ by HhÉiR",
+    link: "https://www.plantbassd.com/fresh-juice/hheir-7-3-23",
+    icon: "fresh juice",
+  },
+  {
     title: "Under the Radar: February",
     link: "https://www.plantbassd.com/under-the-radar/february-23",
     icon: "news",
@@ -133,16 +138,6 @@ export const linkList: LinkProps[] = [
   {
     title: "Trash Catalogue Pt.1 by Rory Sweeney",
     link: "https://www.plantbassd.com/fresh-juice/rory-sweeney-15-11-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "Rory Sweeney feat. Curtisy 'Veggies'",
-    link: "https://soundcloud.com/plantbassddjs/premiere-rory-sweeney-veggies-ft-curtisy",
-    icon: "premieres",
-  },
-  {
-    title: "Sloucho - Hold It Down",
-    link: "https://www.plantbassd.com/fresh-juice/sloucho-4-11-22",
     icon: "fresh juice",
   },
 ];
