@@ -80,11 +80,6 @@ p {
   }
 }
 
-.inlineLink {
-  margin-bottom: -0.4rem;
-  @extend .hoverLink;
-}
-
 .hoverLink {
   overflow: hidden;
   position: relative;
