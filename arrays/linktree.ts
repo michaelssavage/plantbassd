@@ -6,11 +6,6 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "Bok Bok @ Sneaky Pete's",
-    link: "https://ra.co/events/1639467",
-    icon: "tickets",
-  },
-  {
     title: "'ALTO' by AKSENT & Prince Prada",
     link: "https://www.plantbassd.com/fresh-juice/aksent-prince-prada-14-3-23",
     icon: "fresh juice",
