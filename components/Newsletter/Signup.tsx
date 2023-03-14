@@ -1,88 +1,26 @@
-import { ChangeEvent, FormEvent, useContext, useState } from "react";
+import { useContext } from "react";
 import { TiTick } from "react-icons/ti";
-import { format as formatDate } from "date-fns";
 import { Loading } from "components/Loading";
 import { NewsletterContext } from "context/newsletter.context";
 import { HoverLink } from "components/HoverLink";
+import { useNewsletter } from "hooks/useNewsletter.hook";
 import styles from "./Newsletter.module.scss";
 
-interface SignupProps {
-  setEmail: (val: string) => void;
-  setName: (val: string) => void;
-  name: string;
-  email: string;
-}
-
-export const Signup = (props: SignupProps) => {
-  const { setEmail, setName, name, email } = props;
-
+export const Signup = ({ linktree }: { linktree?: boolean }) => {
   const { setShowNewsletter } = useContext(NewsletterContext);
 
-  const [loading, setLoading] = useState(false);
-  const [complete, setComplete] = useState(false);
-  const [checkBox, setCheckBox] = useState(false);
-  const [error, setError] = useState("");
-
-  const handleSubmit = async (event: FormEvent) => {
-    event.preventDefault();
-
-    if (!email || !name) {
-      setError("Enter all details");
-      return;
-    }
-
-    if (!checkBox) {
-      setError("Agree to T&Cs and Privacy Policy");
-      return;
-    }
-
-    setLoading(true);
-
-    const res = await fetch("/api/newsletter", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        name: name,
-        email: email,
-        createdDate: formatDate(new Date(), "dd/MM/yyyy HH:mm:ss"),
-      }),
-    });
-    if (res.status === 201) {
-      setLoading(false);
-      setComplete(true);
-      setTimeout(() => {
-        setShowNewsletter(false);
-      }, 3000);
-    } else if (res.status === 204) {
-      setLoading(false);
-      setError("Email already exists");
-      setComplete(false);
-    } else {
-      setLoading(false);
-      setError("Error signing up");
-      setComplete(false);
-    }
-  };
-
-  const handleEmailChange = (event: ChangeEvent<HTMLInputElement>) => {
-    const { value } = event.target;
-    if (!/^.+@.+\..+/.test(value) || !value) {
-      setError("Enter a valid email");
-    } else {
-      setError("");
-    }
-    setEmail(value);
-  };
-
-  const handleNameChange = (event: ChangeEvent<HTMLInputElement>) => {
-    const { value } = event.target;
-    if (value.length <= 1 || value.length > 50) {
-      setError("Enter a valid name");
-    } else {
-      setError("");
-    }
-    setName(value);
-  };
+  const {
+    name,
+    email,
+    loading,
+    complete,
+    error,
+    checkBox,
+    setCheckBox,
+    handleSubmit,
+    handleEmailChange,
+    handleNameChange,
+  } = useNewsletter();
 
   const handleButtonView = () => {
     if (loading) return <Loading button />;
@@ -103,16 +41,32 @@ export const Signup = (props: SignupProps) => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className={styles.form}>
-      <h3>Want to know when we post?</h3>
+    <form onSubmit={handleSubmit} className={linktree ? styles.formLinktree : styles.form}>
+      {!linktree && <h3>Want to know when we post?</h3>}
       <p className={styles.signUpText}>Sign up to our newsletter to keep up to date!</p>
 
+      <input
+        type="text"
+        onChange={handleNameChange}
+        className="form-control mb-1"
+        placeholder="Your first name"
+        disabled={complete ? true : false}
+        value={name}
+      />
+      <input
+        type="email"
+        onChange={handleEmailChange}
+        className="form-control mb-1"
+        placeholder="Your email"
+        disabled={complete ? true : false}
+        value={email}
+      />
       <div className={styles.checkBox}>
         <input
           className="form-check-input"
           type="checkbox"
           checked={checkBox}
-          onClick={() => setCheckBox(!checkBox)}
+          onChange={() => setCheckBox(!checkBox)}
           id="flexCheckbox"
         />
         <label className={styles.agreeTermsText} htmlFor="flexCheckbox">
@@ -132,33 +86,18 @@ export const Signup = (props: SignupProps) => {
           />
         </label>
       </div>
-
-      <input
-        type="text"
-        onChange={handleNameChange}
-        className="form-control mb-1"
-        placeholder="Your first name"
-        disabled={complete ? true : false}
-        value={name}
-      />
-      <input
-        type="email"
-        onChange={handleEmailChange}
-        className="form-control mb-1"
-        placeholder="Your email"
-        disabled={complete ? true : false}
-        value={email}
-      />
       {error && <p className="errorText">{error}</p>}
       <div className={styles.formButtons}>
         {handleButtonView()}
-        <button
-          className="btn btn-outline-dark"
-          type="button"
-          onClick={() => setShowNewsletter(false)}
-        >
-          Close
-        </button>
+        {!linktree && (
+          <button
+            className="btn btn-outline-dark"
+            type="button"
+            onClick={() => setShowNewsletter(false)}
+          >
+            Close
+          </button>
+        )}
       </div>
     </form>
   );

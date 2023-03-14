@@ -5,32 +5,34 @@ import { socialIcons } from "arrays/social-icons";
 import { Icon } from "components/Icon";
 import Header from "components/Header";
 import styles from "styles/links.module.scss";
+import { Signup } from "components/Newsletter/Signup";
+
+const renderLink = (item: LinkProps) => {
+  if (item.link.includes("www.plantbassd.com")) {
+    return (
+      <Link
+        href={new URL(item.link).pathname}
+        className={`btn btn-outline-dark ${styles.btnText}`}
+        role="button"
+      >
+        {item.title}
+      </Link>
+    );
+  }
+  return (
+    <a
+      className={`btn btn-outline-dark ${styles.btnText}`}
+      href={item.link}
+      rel="noopener noreferrer"
+      role="button"
+      target="_blank"
+    >
+      <div>{item.title}</div>
+    </a>
+  );
+};
 
 export default function Links() {
-  const renderLink = (item: LinkProps) => {
-    if (item.link.includes("www.plantbassd.com")) {
-      return (
-        <Link
-          href={new URL(item.link).pathname}
-          className={`btn btn-outline-dark ${styles.btnText}`}
-          role="button"
-        >
-          {item.title}
-        </Link>
-      );
-    }
-    return (
-      <a
-        className={`btn btn-outline-dark ${styles.btnText}`}
-        href={item.link}
-        rel="noopener noreferrer"
-        role="button"
-        target="_blank"
-      >
-        <div>{item.title}</div>
-      </a>
-    );
-  };
   return (
     <>
       <Head>
@@ -64,6 +66,7 @@ export default function Links() {
               {renderLink(item)}
             </div>
           ))}
+
           <h2 className="d-flex justify-content-end">Discovery</h2>
           {mainLinks.map((item) => (
             <div className={`row ${styles.buttonStyle}`} key={item.title}>
@@ -71,17 +74,12 @@ export default function Links() {
                 <Icon icon={item.icon} styling={styles.linkIcon} />
                 <div>{item.icon.toUpperCase()}</div>
               </div>
-              <a
-                className={`btn btn-outline-dark ${styles.btnText}`}
-                href={item.link}
-                rel="noopener noreferrer"
-                role="button"
-                target="_blank"
-              >
-                <div>{item.title}</div>
-              </a>
+              {renderLink(item)}
             </div>
           ))}
+
+          <h2 className="d-flex justify-content-end">Newsletter</h2>
+          <Signup linktree />
         </div>
       </div>
     </>

@@ -344,6 +344,14 @@ p {
   @extend .layout;
 }
 
+.signupBG {
+  background-color: $opal;
+  min-height: 80vh;
+  padding-top: 20vh;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
 .discoveryCards {
   background: linear-gradient(270deg, $lilac 20%, $opal 80%);
   padding-bottom: 2rem;

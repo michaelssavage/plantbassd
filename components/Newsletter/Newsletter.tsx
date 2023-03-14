@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { BiLeftArrowCircle } from "react-icons/bi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 import { NewsletterContext } from "context/newsletter.context";
@@ -7,9 +7,6 @@ import { Signup } from "./Signup";
 import { Sticky } from "./Sticky";
 
 export const Newsletter = () => {
-  const [email, setEmail] = useState("");
-  const [name, setName] = useState("");
-
   const { showNewsletter, showSticky, setShowSticky } = useContext(NewsletterContext);
 
   const handleOpenSticky = () => {
@@ -33,9 +30,7 @@ export const Newsletter = () => {
       </div>
       <div className={styles.floating}>
         {showSticky && <Sticky />}
-        {showNewsletter && (
-          <Signup setEmail={setEmail} setName={setName} name={name} email={email} />
-        )}
+        {showNewsletter && <Signup />}
       </div>
     </>
   );

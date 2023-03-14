@@ -64,6 +64,16 @@
   margin-left: 0.5rem;
 }
 
+.formLinktree {
+  color: $black;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid $black;
+  border-top: 3px solid $black;
+  width: 100%;
+  margin: 0;
+}
+
 .formButtons {
   display: flex;
   flex-direction: row;

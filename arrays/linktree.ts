@@ -2,6 +2,7 @@ export interface LinkProps {
   title: string;
   link: string;
   icon: string;
+  img?: string;
 }
 
 export const linkList: LinkProps[] = [
@@ -9,6 +10,7 @@ export const linkList: LinkProps[] = [
     title: "'ALTO' by AKSENT & Prince Prada",
     link: "https://www.plantbassd.com/fresh-juice/aksent-prince-prada-14-3-23",
     icon: "fresh juice",
+    img: "/fresh-juice/63-aksent.jpg",
   },
   {
     title: "'Kairos' by HhÉiR",
@@ -145,7 +147,7 @@ export const linkList: LinkProps[] = [
 export const mainLinks: LinkProps[] = [
   {
     title: "Plant Bass'd Home",
-    link: "/",
+    link: "https://www.plantbassd.com",
     icon: "site",
   },
   {
@@ -160,7 +162,7 @@ export const mainLinks: LinkProps[] = [
   },
   {
     title: "Get In Contact",
-    link: "/team#get-in-touch",
+    link: "https://www.plantbassd.com/team#get-in-touch",
     icon: "contact us",
   },
 ];
