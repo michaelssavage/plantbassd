@@ -11,7 +11,12 @@ export const linkList: LinkProps[] = [
     icon: "tickets",
   },
   {
-    title: "‘Kairos’ by HhÉiR",
+    title: "'ALTO' by AKSENT & Prince Prada",
+    link: "https://www.plantbassd.com/fresh-juice/aksent-prince-prada-14-3-23",
+    icon: "fresh juice",
+  },
+  {
+    title: "'Kairos' by HhÉiR",
     link: "https://www.plantbassd.com/fresh-juice/hheir-7-3-23",
     icon: "fresh juice",
   },
