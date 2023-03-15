@@ -6,6 +6,11 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "'Algae' by Dansa'",
+    link: "https://soundcloud.com/plantbassddjs/premiere-dansa-algae/s-gpHnzicEi6t?si=bdde6e82fe604883a45508473b02401d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+    icon: "premiere",
+  },
+  {
     title: "'ALTO' by AKSENT & Prince Prada",
     link: "https://www.plantbassd.com/fresh-juice/aksent-prince-prada-14-3-23",
     icon: "fresh juice",
