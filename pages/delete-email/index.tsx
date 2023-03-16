@@ -20,7 +20,7 @@ export default function DeleteEmail() {
     setLoading(true);
 
     await fetch("/api/newsletter/", {
-      method: "DELETE",
+      method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         email: email,

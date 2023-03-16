@@ -40,4 +40,8 @@ export const links: FooterProps[] = [
     link: "/radios",
     name: "Radios",
   },
+  {
+    link: "/newsletter",
+    name: "Newsletter",
+  },
 ];

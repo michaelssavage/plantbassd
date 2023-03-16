@@ -23,8 +23,12 @@
 // Sticky //////////////
 
 .sticky {
+  @include slide-in-animation($from: 100px, $direction: "horizontal");
   height: 3rem;
   width: 14em;
+  border-radius: 100px 0px 10px 100px;
+  -webkit-border-radius: 100px 0px 10px 100px;
+  -moz-border-radius: 100px 0px 10px 100px;
   @extend .base;
   :hover {
     opacity: 0.8;
@@ -62,6 +66,16 @@
   border-radius: 1rem;
   border: 1px solid $black;
   margin-left: 0.5rem;
+}
+
+.formLinktree {
+  color: $black;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid $black;
+  border-top: 3px solid $black;
+  width: 100%;
+  margin: 0;
 }
 
 .formButtons {

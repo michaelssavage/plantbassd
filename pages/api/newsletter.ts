@@ -32,13 +32,14 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     } catch (error) {
       res.status(400).json({ message: error });
     }
-  } else if (req.method == "DELETE") {
+  } else if (req.method == "PUT") {
     try {
       const sheet = await initSheet();
       const rows = await sheet.getRows();
       for (let idx = 0; idx < rows.length; idx++) {
         if (rows[idx].email === req.body.email) {
-          rows[idx].delete();
+          rows[idx].action = "DELETE";
+          await rows[idx].save();
         }
       }
       res.status(200).json({ message: "Email removed successfully" });
