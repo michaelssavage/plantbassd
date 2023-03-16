@@ -23,8 +23,12 @@
 // Sticky //////////////
 
 .sticky {
+  @include slide-in-animation($from: 100px, $direction: "horizontal");
   height: 3rem;
   width: 14em;
+  border-radius: 100px 0px 10px 100px;
+  -webkit-border-radius: 100px 0px 10px 100px;
+  -moz-border-radius: 100px 0px 10px 100px;
   @extend .base;
   :hover {
     opacity: 0.8;
