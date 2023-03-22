@@ -7,6 +7,11 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "'Rave Auld Times' by Breen",
+    link: "https://soundcloud.com/plantbassddjs/premiere-breen-rave-auld-times",
+    icon: "premiere",
+  },
+  {
     title: "'Backroads' by Oliver Twist",
     link: "https://soundcloud.com/plantbassddjs/premiere-oliver-twist-backroads",
     icon: "premiere",
