@@ -7,6 +7,11 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Under the Radar: March",
+    link: "https://www.plantbassd.com/under-the-radar/march-23",
+    icon: "news",
+  },
+  {
     title: "'Rave Auld Times' by Breen",
     link: "https://soundcloud.com/plantbassddjs/premiere-breen-rave-auld-times",
     icon: "premiere",
@@ -25,7 +30,6 @@ export const linkList: LinkProps[] = [
     title: "'ALTO' by AKSENT & Prince Prada",
     link: "https://www.plantbassd.com/fresh-juice/aksent-prince-prada-14-3-23",
     icon: "fresh juice",
-    img: "/fresh-juice/63-aksent.jpg",
   },
   {
     title: "'Kairos' by HhÉiR",
