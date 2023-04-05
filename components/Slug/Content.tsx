@@ -29,7 +29,7 @@ export const Content = ({ title, pic, link, description, standout, tags }: Conte
               </>
             ) : null}
             <br />
-            Bandcamp:{" "}
+            Listen here:{" "}
             <HoverLink
               url={link}
               name={title.length > 60 ? `${title.slice(0, 50)}...` : title}
