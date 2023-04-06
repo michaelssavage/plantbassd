@@ -7,6 +7,11 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "'Preset Resets' by Various Artists (Tobago Tracks)",
+    link: "https://www.plantbassd.com/fresh-juice/preset-resets-6-4-23",
+    icon: "fresh juice",
+  },
+  {
     title: "Under the Radar: March",
     link: "https://www.plantbassd.com/under-the-radar/march-23",
     icon: "news",
