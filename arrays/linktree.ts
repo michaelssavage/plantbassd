@@ -7,6 +7,11 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "'Where'd It Go' by HEADSGONE",
+    link: "https://www.plantbassd.com/fresh-juice/headsgone-7-4-23",
+    icon: "fresh juice",
+  },
+  {
     title: "'Preset Resets' by Various Artists (Tobago Tracks)",
     link: "https://www.plantbassd.com/fresh-juice/preset-resets-6-4-23",
     icon: "fresh juice",
