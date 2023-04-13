@@ -7,6 +7,11 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "SweatBox: DOOM @ Stereo",
+    link: "https://ra.co/events/1685076",
+    icon: "tickets",
+  },
+  {
     title: "'Prism' by Silky Klub",
     link: "https://soundcloud.com/plantbassddjs/premiere-silky-klub-prism",
     icon: "premiere",
