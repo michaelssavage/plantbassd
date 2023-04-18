@@ -10,7 +10,7 @@ export default function TakeoverSlug({
   mdxSource,
   frontmatter,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { title, date, pic, artistPage, postLink } = frontmatter;
+  const { title, date, pic, artistPage, path, postLink } = frontmatter;
   return (
     <>
       <Head>
@@ -19,7 +19,7 @@ export default function TakeoverSlug({
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            {Slug({ date, title, mdxSource })}
+            {Slug({ path, date, title, mdxSource })}
 
             <CardWithButtons
               artist="Artist's Insta"

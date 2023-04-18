@@ -11,7 +11,7 @@ export default function RadioSlug({
   mdxSource,
   frontmatter,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { title, date, pic, tracklist, artistPage, mixLink } = frontmatter;
+  const { title, date, pic, tracklist, artistPage, mixLink, path } = frontmatter;
   return (
     <>
       <Head>
@@ -21,7 +21,7 @@ export default function RadioSlug({
         <div className="container">
           <div className="row">
             {
-              <Slug date={date} title={title} mdxSource={mdxSource}>
+              <Slug path={path} date={date} title={title} mdxSource={mdxSource}>
                 <div className={styles.imgWrapper}>
                   <Picture alt="artist tracklist" size={600} src={tracklist} />
                 </div>

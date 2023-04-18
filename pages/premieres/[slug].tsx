@@ -11,7 +11,7 @@ export default function PremieresSlug({
   mdxSource,
   frontmatter,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { title, date, pic, seeMore, listen, postLink, youtube } = frontmatter;
+  const { title, date, pic, seeMore, listen, postLink, path, youtube } = frontmatter;
 
   return (
     <>
@@ -21,7 +21,7 @@ export default function PremieresSlug({
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            {Slug({ date, title, mdxSource })}
+            {Slug({ path, date, title, mdxSource })}
             <CardWithButtons
               artist={listen}
               insta="Instagram"

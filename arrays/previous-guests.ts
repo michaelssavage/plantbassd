@@ -31,11 +31,6 @@ export const headliners: GuestProps[] = [
     name: "Rory Sweeney",
   },
   {
-    img: "13-julia.jpg",
-    link: "julialouiseknifefist/",
-    name: "Julia Louise KnifeFist",
-  },
-  {
     img: "14-satyr.jpg",
     link: "amorsatyr/",
     name: "Amor Satyr",
@@ -192,6 +187,11 @@ export const guestList: GuestProps[] = [
     img: "12-sara.jpg",
     link: "sarrawild/",
     name: "Sarra Wild",
+  },
+  {
+    img: "13-julia.jpg",
+    link: "julialouiseknifefist/",
+    name: "Julia Louise KnifeFist",
   },
   {
     img: "14-doubt.jpg",
