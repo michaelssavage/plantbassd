@@ -333,4 +333,19 @@ export const guestList: GuestProps[] = [
     link: "slibbiibaby/",
     name: "Daksh",
   },
+  // {
+  //   img: "32-kavari.jpg",
+  //   link: "kavari_____/",
+  //   name: "Kavari",
+  // },
+  // {
+  //   img: "32-mm.jpg",
+  //   link: "max_filesize/",
+  //   name: "MM",
+  // },
+  // {
+  //   img: "32-akumu.jpg",
+  //   link: "a.ku.mu/",
+  //   name: "Akumu",
+  // },
 ];

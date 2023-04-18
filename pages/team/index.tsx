@@ -1,21 +1,13 @@
 import Head from "next/head";
 import Link from "next/link";
-import { useContext } from "react";
 import { socialIcons } from "arrays/social-icons";
 
 import { Icon } from "components/Icon";
 import { Picture } from "components/Picture";
 import styles from "styles/page.module.scss";
 import { ourTeam } from "arrays/our-team";
-import { NewsletterContext } from "context/newsletter.context";
 
 export default function TeamPage() {
-  const { setShowNewsletter, setShowSticky } = useContext(NewsletterContext);
-
-  const handleOpenNewsletter = () => {
-    setShowNewsletter(true);
-    setShowSticky(false);
-  };
   return (
     <>
       <Head>
@@ -35,15 +27,6 @@ export default function TeamPage() {
           With shared interests and ambitions, the team looks towards creating unforgettable Plant
           Bass'd nights in Ireland and the UK.
         </p>
-        <a
-          role="button"
-          href="#"
-          className="inlineLink mb-2"
-          onClick={handleOpenNewsletter}
-          data-replace="Sign up to our newsletter to keep up to date!"
-        >
-          <span>Sign up to our newsletter to keep up to date!</span>
-        </a>
 
         <div className="row d-flex flex-row">
           {ourTeam.map((member) => (
