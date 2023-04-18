@@ -321,6 +321,13 @@ p {
   @extend .layout;
 }
 
+.radarBG {
+  background-color: rgba($plantbassdBlue, 0.25);
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
 .archiveBG {
   background-color: $rosyBrown;
   min-height: 100vh;

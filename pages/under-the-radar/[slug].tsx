@@ -6,11 +6,12 @@ import { getSlugContent, getSlugPath } from "utils/getSlug";
 import styles from "styles/top-ten.module.scss";
 import { Content } from "components/Slug";
 import { Picture } from "components/Picture";
+import { HoverLink } from "components/HoverLink";
 
 const components = { Content };
 
 export default function UnderTheRadarSlug(props: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { month, date, bio, pic, mdxSource } = props;
+  const { month, date, bio, pic, mdxSource, path } = props;
   return (
     <>
       <Head>
@@ -19,6 +20,10 @@ export default function UnderTheRadarSlug(props: InferGetStaticPropsType<typeof 
       <div className={styles.outerSection}>
         <div className="container">
           <div className={`col ${styles.topTenContent}`}>
+            <p>
+              {<HoverLink url="/" name="home" inline />} /{" "}
+              {<HoverLink url={`/${path}`} name={path} inline />} /
+            </p>
             <p className={styles.postDate}>Posted on {date}</p>
             <Picture alt="cover pic" size={1200} src={pic} />
 
@@ -59,6 +64,7 @@ export async function getStaticProps({ params: { slug } }: StaticProps) {
       date: frontmatter.date,
       bio: frontmatter.bio,
       pic: frontmatter.pic,
+      path: frontmatter.path,
     },
   };
 }
