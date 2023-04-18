@@ -67,7 +67,10 @@ export default function Links() {
             <div className={`row ${styles.buttonStyle}`} key={item.title}>
               <div className={styles.linkTitle}>
                 <Icon icon={item.icon} styling={styles.linkIcon} />
-                <HoverLink url={`/${item.icon}`} name={item.icon.toUpperCase()} />
+                <HoverLink
+                  url={item.icon === "tickets" ? "/gigs" : `/${item.icon}`}
+                  name={item.icon.toUpperCase()}
+                />
               </div>
               <RenderLink item={item}>
                 <div className={item.img && styles.imageAndText}>
