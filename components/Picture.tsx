@@ -7,10 +7,12 @@ interface PictureProps {
   alt: string;
   size: number;
   src: string;
+  style?: CSSProperties;
 }
 
-export const Picture = ({ alt, size, src }: PictureProps) => {
+export const Picture = ({ alt, size, src, style }: PictureProps) => {
   const css: CSSProperties = { maxWidth: "100%", height: "auto", objectFit: "contain" };
+  const myStyle = { ...css, ...style };
   return (
     <Image
       alt={alt}
@@ -19,7 +21,7 @@ export const Picture = ({ alt, size, src }: PictureProps) => {
       placeholder="blur"
       src={src}
       width={size}
-      style={css}
+      style={myStyle}
     />
   );
 };

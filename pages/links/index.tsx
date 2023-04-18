@@ -1,33 +1,39 @@
 import Head from "next/head";
 import Link from "next/link";
+import { ReactNode } from "react";
 import { linkList, LinkProps, mainLinks } from "arrays/linktree";
 import { socialIcons } from "arrays/social-icons";
 import { Icon } from "components/Icon";
 import Header from "components/Header";
 import styles from "styles/links.module.scss";
 import { Signup } from "components/Newsletter/Signup";
+import { Picture } from "components/Picture";
+import { HoverLink } from "components/HoverLink";
 
-const renderLink = (item: LinkProps) => {
+interface RenderLinkProps {
+  item: LinkProps;
+  children: ReactNode;
+}
+
+const RenderLink = ({ item, children }: RenderLinkProps) => {
+  const classname = `btn btn-outline-dark ${styles.btnText} ${item.img && styles.btnIfImage}`;
+
   if (item.link.includes("www.plantbassd.com")) {
     return (
-      <Link
-        href={new URL(item.link).pathname}
-        className={`btn btn-outline-dark ${styles.btnText}`}
-        role="button"
-      >
-        {item.title}
+      <Link href={new URL(item.link).pathname} className={classname} role="button">
+        {children}
       </Link>
     );
   }
   return (
     <a
-      className={`btn btn-outline-dark ${styles.btnText}`}
       href={item.link}
+      className={classname}
       rel="noopener noreferrer"
       role="button"
       target="_blank"
     >
-      <div>{item.title}</div>
+      {children}
     </a>
   );
 };
@@ -61,9 +67,24 @@ export default function Links() {
             <div className={`row ${styles.buttonStyle}`} key={item.title}>
               <div className={styles.linkTitle}>
                 <Icon icon={item.icon} styling={styles.linkIcon} />
-                <div>{item.icon.toUpperCase()}</div>
+                <HoverLink url={`/${item.icon}`} name={item.icon.toUpperCase()} />
               </div>
-              {renderLink(item)}
+              <RenderLink item={item}>
+                <div className={item.img && styles.imageAndText}>
+                  {item.img && (
+                    <Picture
+                      src={item.img}
+                      alt={`pic of ${item.title}`}
+                      size={150}
+                      style={{ borderRadius: "0.275rem" }}
+                    />
+                  )}
+                  <div>
+                    <div className={item.description && "fw-bold"}>{item.title}</div>
+                    {item.description && <div>{item.description}</div>}
+                  </div>
+                </div>
+              </RenderLink>
             </div>
           ))}
 
@@ -74,12 +95,12 @@ export default function Links() {
                 <Icon icon={item.icon} styling={styles.linkIcon} />
                 <div>{item.icon.toUpperCase()}</div>
               </div>
-              {renderLink(item)}
+              <RenderLink item={item}>{item.title}</RenderLink>
             </div>
           ))}
-
-          <h2 className="d-flex justify-content-end">Newsletter</h2>
-          <Signup linktree />
+          <div className="row my-4">
+            <Signup linktree />
+          </div>
         </div>
       </div>
     </>
