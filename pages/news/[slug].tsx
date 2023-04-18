@@ -10,7 +10,7 @@ export default function NewsSlug({
   mdxSource,
   frontmatter,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { title, date, pic, tickets, seeMore, postLink } = frontmatter;
+  const { title, date, pic, tickets, seeMore, path, postLink } = frontmatter;
 
   let buyLink = seeMore,
     buyText = "See More";
@@ -28,7 +28,7 @@ export default function NewsSlug({
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            {Slug({ date, title, mdxSource })}
+            {Slug({ path, date, title, mdxSource })}
             <CardWithButtons
               artist={buyText}
               insta="Instagram"

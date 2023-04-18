@@ -2,184 +2,66 @@ export interface LinkProps {
   title: string;
   link: string;
   icon: string;
+  description?: string;
   img?: string;
 }
 
 export const linkList: LinkProps[] = [
   {
-    title: "SweatBox: DOOM @ Stereo",
+    title: "SweatBox: DOOM @ Stereo (Sat, 6th May)",
     link: "https://ra.co/events/1685076",
     icon: "tickets",
+    description:
+      "Plant Bass'd takes the SweatBox series for an exploration through the theme of DOOM..",
+    img: "/news/32-de-grandi.jpg",
   },
   {
     title: "'Prism' by Silky Klub",
     link: "https://soundcloud.com/plantbassddjs/premiere-silky-klub-prism",
-    icon: "premiere",
+    icon: "premieres",
+    img: "/premieres/43-silky.jpg",
   },
   {
     title: "'Where'd It Go' by HEADSGONE",
     link: "https://www.plantbassd.com/fresh-juice/headsgone-7-4-23",
     icon: "fresh juice",
+    img: "/fresh-juice/65-cork.jpg",
   },
   {
     title: "'Preset Resets' by Various Artists (Tobago Tracks)",
     link: "https://www.plantbassd.com/fresh-juice/preset-resets-6-4-23",
     icon: "fresh juice",
+    img: "/fresh-juice/64-oliver.png",
   },
   {
     title: "Under the Radar: March",
     link: "https://www.plantbassd.com/under-the-radar/march-23",
     icon: "news",
+    img: "/under-the-radar/march/9.png",
   },
   {
     title: "'Rave Auld Times' by Breen",
     link: "https://soundcloud.com/plantbassddjs/premiere-breen-rave-auld-times",
-    icon: "premiere",
+    icon: "premieres",
+    img: "/premieres/42-breen.jpg",
   },
   {
     title: "'Backroads' by Oliver Twist",
     link: "https://soundcloud.com/plantbassddjs/premiere-oliver-twist-backroads",
-    icon: "premiere",
+    icon: "premieres",
+    img: "/premieres/40-oliver.jpg",
   },
   {
     title: "'Algae' by Dansa",
     link: "https://soundcloud.com/plantbassddjs/premiere-dansa-algae",
-    icon: "premiere",
+    icon: "premieres",
+    img: "/premieres/39-dansa.jpg",
   },
   {
     title: "'ALTO' by AKSENT & Prince Prada",
     link: "https://www.plantbassd.com/fresh-juice/aksent-prince-prada-14-3-23",
     icon: "fresh juice",
-  },
-  {
-    title: "'Kairos' by HhÉiR",
-    link: "https://www.plantbassd.com/fresh-juice/hheir-7-3-23",
-    icon: "fresh juice",
-  },
-  {
-    title: "Under the Radar: February",
-    link: "https://www.plantbassd.com/under-the-radar/february-23",
-    icon: "news",
-  },
-  {
-    title: "PREMIERE: 'Transoceanic' by Noroi (Rua Sound)",
-    link: "https://on.soundcloud.com/bKzHX",
-    icon: "premiere",
-  },
-  {
-    title: "EXCLUSIVE: Nicole Holbrook X Rory Sweeney on 'Image Wavering'",
-    link: "https://www.youtube.com/watch?v=_aVHNeJbvf8",
-    icon: "news",
-  },
-  {
-    title: "'Delphinine Capriole' by Matteo Coffetti",
-    link: "https://www.plantbassd.com/fresh-juice/matteo-coffetti-20-2-23",
-    icon: "fresh juice",
-  },
-  {
-    title: "'Marejada' by Rodman",
-    link: "https://soundcloud.com/plantbassddjs/premiere-rodman-marejada-original-mix",
-    icon: "premiere",
-  },
-  {
-    title: "'Intelligent Jump Rope Music' by Sarayu",
-    link: "https://www.plantbassd.com/fresh-juice/sarayu-17-2-23",
-    icon: "fresh juice",
-  },
-  {
-    title: "'Haunted by You' by REYKA",
-    link: "https://www.plantbassd.com/fresh-juice/reyka-15-2-23",
-    icon: "fresh juice",
-  },
-  {
-    title: "'Cleansed' by HESK (Low Key Recs)",
-    link: "https://www.plantbassd.com/fresh-juice/hesk-13-2-23",
-    icon: "fresh juice",
-  },
-  {
-    title: "'4EVER' by Riot Code",
-    link: "https://www.plantbassd.com/fresh-juice/riot-code-10-2-23",
-    icon: "fresh juice",
-  },
-  {
-    title: "Mechanicus by HARD FANTASY (All Centre)",
-    link: "https://www.plantbassd.com/fresh-juice/hard-fantasy-6-2-23",
-    icon: "fresh juice",
-  },
-  {
-    title: "Degrees of Freedom by Ozwald",
-    link: "https://www.plantbassd.com/fresh-juice/ozwald-3-2-23",
-    icon: "fresh juice",
-  },
-  {
-    title: "Under the Radar: January",
-    link: "https://www.plantbassd.com/under-the-radar/january-23",
-    icon: "news",
-  },
-  {
-    title: "ERAM - Feet Up Tech",
-    link: "https://soundcloud.com/plantbassddjs/premiere-eram-feet-up-tech",
-    icon: "premieres",
-  },
-  {
-    title: "Hannah Lee - B B B",
-    link: "https://soundcloud.com/plantbassddjs/premiere-hannah-lee-b-b-b",
-    icon: "premieres",
-  },
-  {
-    title: "'SLAVES' by AKSENT",
-    link: "https://www.plantbassd.com/fresh-juice/aksent-25-1-23",
-    icon: "fresh juice",
-  },
-  {
-    title: "SDLR - RUDEBOI (Jamzigg Remix)",
-    link: "https://on.soundcloud.com/6sDYZ",
-    icon: "premieres",
-  },
-  {
-    title: "DROMEK - Mistura De Bossa",
-    link: "https://on.soundcloud.com/CDvzZ",
-    icon: "premieres",
-  },
-  {
-    title: "Prograsm by DJ Pacifier",
-    link: "https://soundcloud.com/plantbassddjs/premiere-dj-pacifier-prograsm-1",
-    icon: "premieres",
-  },
-  {
-    title: "Switch by Stephen Mahoney",
-    link: "https://soundcloud.com/plantbassddjs/premiere-stephen-mahoney-switch/s-xe0BERPKLDC?si=212429fff75b4bb199d112773e37d925&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
-    icon: "premieres",
-  },
-  {
-    title: "Shroom Talk by Curtisy x owin",
-    link: "https://on.soundcloud.com/RDnsU",
-    icon: "premieres",
-  },
-  {
-    title: "I Do My Own Stunts by Brawni",
-    link: "https://on.soundcloud.com/eTmNw",
-    icon: "premieres",
-  },
-  {
-    title: "HEADSET002 - Capricorn One",
-    link: "https://www.plantbassd.com/fresh-juice/headset002-28-11-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "Verbal Groove EP - SMIFF",
-    link: "https://www.plantbassd.com/fresh-juice/smiff-25-11-22",
-    icon: "fresh juice",
-  },
-  {
-    title: "Verbal Groove by SMIFF",
-    link: "https://soundcloud.com/plantbassddjs/premiere-verbal-groove-by-smiff",
-    icon: "premieres",
-  },
-  {
-    title: "Trash Catalogue Pt.1 by Rory Sweeney",
-    link: "https://www.plantbassd.com/fresh-juice/rory-sweeney-15-11-22",
-    icon: "fresh juice",
+    img: "/fresh-juice/63-aksent-standing.png",
   },
 ];
 

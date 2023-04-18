@@ -14,7 +14,7 @@ export default function GigsSlug({
   mdxSource,
   frontmatter,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { title, date, pic, tickets, seeMore, postLink, anames } = frontmatter;
+  const { title, date, pic, tickets, seeMore, postLink, path, anames } = frontmatter;
 
   let buyLink = seeMore,
     buyText = "See More";
@@ -33,7 +33,7 @@ export default function GigsSlug({
         <div className="container">
           <div className="row">
             {
-              <Slug date={date} title={title} mdxSource={mdxSource}>
+              <Slug path={path} date={date} title={title} mdxSource={mdxSource}>
                 {ArtistLookUp(anames, djs)}
               </Slug>
             }

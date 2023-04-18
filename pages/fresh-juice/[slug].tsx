@@ -11,7 +11,7 @@ export default function FreshJuiceSlug({
   frontmatter,
   mdxSource,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { artist = "Bandcamp", youtube, title, date, pic, bandcamp, postLink } = frontmatter;
+  const { artist = "Bandcamp", youtube, title, date, pic, bandcamp, path, postLink } = frontmatter;
   return (
     <>
       <Head>
@@ -20,7 +20,7 @@ export default function FreshJuiceSlug({
       <div className={styles.newsSection}>
         <div className="container">
           <div className="row">
-            {Slug({ date, title, mdxSource })}
+            {Slug({ path, date, title, mdxSource })}
             <CardWithButtons
               artist={artist}
               insta="Instagram"

@@ -6,6 +6,7 @@ import { Picture } from "components/Picture";
 import { SoundCloud } from "components/SoundCloud";
 
 interface SlugProps {
+  path: string;
   date: string;
   title: string;
   mdxSource: MDXRemoteSerializeResult;
@@ -15,7 +16,7 @@ interface SlugProps {
 const components = { HoverLink, Picture, SoundCloud };
 
 export const Slug = (props: SlugProps) => {
-  const { date, title, mdxSource, children } = props;
+  const { path, date, title, mdxSource, children } = props;
   return (
     <div
       className={`
@@ -25,6 +26,10 @@ export const Slug = (props: SlugProps) => {
 				col-xl-8 
 				`}
     >
+      <p>
+        {<HoverLink url="/" name="home" inline />} /{" "}
+        {<HoverLink url={`/${path}`} name={path} inline />} /
+      </p>
       <p className={styles.postDate}>Posted on {date}</p>
       <h1 className={styles.postTitle}>{title}</h1>
       <div className={styles.postBody}>
