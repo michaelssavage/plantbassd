@@ -11,7 +11,6 @@ import Sidebar from "components/Sidebar";
 import { ErrorFallback } from "components/Error";
 import Footer from "components/Footer";
 import { Loading } from "components/Loading";
-import { Newsletter } from "components/Newsletter";
 import { NewsletterContextProvider } from "context/newsletter.context";
 
 export default function MyApp({ Component, pageProps, ...appProps }: AppProps) {
@@ -38,12 +37,11 @@ export default function MyApp({ Component, pageProps, ...appProps }: AppProps) {
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
       <Sidebar />
-      {["/newsletter", "/links"].includes(appProps.router.pathname) ? <></> : <Newsletter />}
       <Analytics />
       <ErrorBoundary FallbackComponent={ErrorFallback}>
         {loading ? <Loading /> : <Component {...pageProps} />}
       </ErrorBoundary>
-      <Footer />
+      {["/links"].includes(appProps.router.pathname) ? <></> : <Footer />}
     </NewsletterContextProvider>
   );
 }

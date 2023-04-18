@@ -1,6 +1,7 @@
 import { links } from "arrays/footer-links";
 import { HoverLink } from "components/HoverLink";
 import { sortAlphabetically } from "utils";
+import { Signup } from "components/Newsletter/Signup";
 import styles from "./Footer.module.scss";
 
 export default function Footer() {
@@ -14,23 +15,23 @@ export default function Footer() {
               Profiling the experimental dance music world & throwing parties in between.
             </p>
           </div>
+
+          <div className="col">
+            <h3>Quick Links</h3>
+            <p>
+              {links.sort(sortAlphabetically).map((item, idx, arr) => (
+                <span key={item.name}>
+                  <HoverLink url={item.link} name={item.name} inline />
+
+                  {idx + 1 === arr.length ? "" : " // "}
+                </span>
+              ))}
+            </p>
+          </div>
         </div>
 
-        <div className="col-md-6 col-sm-12 col-12">
-          <div className="row justify-content-between">
-            <div className="col">
-              <h3>Quick Links</h3>
-              <p>
-                {links.sort(sortAlphabetically).map((item, idx, arr) => (
-                  <span key={item.name}>
-                    <HoverLink url={item.link} name={item.name} inline />
-
-                    {idx + 1 === arr.length ? "" : " // "}
-                  </span>
-                ))}
-              </p>
-            </div>
-          </div>
+        <div className="mb-2 col-md-6 col-sm-12 col-12">
+          <Signup linktree />
         </div>
       </div>
       <div className="row m-0 pb-2">
