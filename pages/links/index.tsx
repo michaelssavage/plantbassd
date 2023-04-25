@@ -79,7 +79,7 @@ export default function Links() {
                       src={item.img}
                       alt={`pic of ${item.title}`}
                       size={150}
-                      style={{ borderRadius: "0.275rem" }}
+                      style={{ borderRadius: "0.25rem" }}
                     />
                   )}
                   <div>
