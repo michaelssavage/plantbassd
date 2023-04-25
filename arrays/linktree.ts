@@ -16,6 +16,11 @@ export const linkList: LinkProps[] = [
     img: "/news/32-de-grandi.jpg",
   },
   {
+    title: "Gang of Bitches From Hell: WILD WEST",
+    link: "https://ra.co/events/1694179",
+    icon: "tickets",
+  },
+  {
     title: "'Prism' by Silky Klub",
     link: "https://soundcloud.com/plantbassddjs/premiere-silky-klub-prism",
     icon: "premieres",
