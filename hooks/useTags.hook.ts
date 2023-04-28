@@ -1,11 +1,24 @@
 import { useEffect, useState } from "react";
-import { FilterProps, TagProps } from "types/frontmatter";
+import { FilterProps } from "types/frontmatter";
 
-export const useTags = (initTagList: TagProps[], filterType: string, news = []) => {
+interface TagProps {
+  name: string;
+  value: boolean;
+}
+
+type FilterTypeProps = "tags" | "city" | "name";
+
+/**
+ *
+ * @param initTagList - array of name and value
+ * @param filterType - String of either city (gigs), tags, or name (links)
+ * @param files = array of incoming data
+ */
+export const useTags = (initTagList: TagProps[], files = [], filterType?: FilterTypeProps) => {
   const [hasErrored, setHasErrored] = useState(false);
   const [error, setError] = useState("");
   const [tags, setTags] = useState([]);
-  const [newsStories, setNewsStories] = useState(news);
+  const [newsStories, setNewsStories] = useState(files);
   const [tagList, setTagList] = useState(initTagList);
 
   const addTag = (tag: TagProps) => {
@@ -18,8 +31,8 @@ export const useTags = (initTagList: TagProps[], filterType: string, news = []) 
   };
 
   const updateTagList = (tag: TagProps) => {
-    const idx = tagList.findIndex((event: TagProps) => event === tag),
-      newTagList = [...tagList];
+    const idx = tagList.findIndex((event: TagProps) => event === tag);
+    const newTagList = [...tagList];
     newTagList[idx].value = !tag.value;
     setTagList(newTagList);
   };
@@ -36,20 +49,24 @@ export const useTags = (initTagList: TagProps[], filterType: string, news = []) 
 
   useEffect(() => {
     try {
-      const filtered =
-        tags.length === 0
-          ? news
-          : news.filter((story: FilterProps) =>
-              filterType === "news"
-                ? tags.includes(story.frontmatter.tags)
-                : tags.includes(story.frontmatter.city)
-            );
+      let filtered = [];
+      if (!filterType) {
+        filtered =
+          tags.length === 0
+            ? files
+            : files.filter(({ name }: { name: string }) => tags.includes(name));
+      } else {
+        filtered =
+          tags.length === 0
+            ? files
+            : files.filter((item: FilterProps) => tags.includes(item.frontmatter[filterType]));
+      }
       setNewsStories(filtered);
     } catch (event) {
       setHasErrored(true);
       setError(event);
     }
-  }, [tags, news, filterType]);
+  }, [tags, files, filterType]);
 
   return { error, handleTags, hasErrored, newsStories, tagList };
 };

@@ -1,44 +1,53 @@
 import Head from "next/head";
 import Link from "next/link";
 import { ReactNode } from "react";
-import { linkList, LinkProps, mainLinks } from "arrays/linktree";
+import { linkList, mainLinks } from "arrays/linktree";
 import { socialIcons } from "arrays/social-icons";
 import { Icon } from "components/Icon";
 import Header from "components/Header";
 import styles from "styles/links.module.scss";
+import Error from "components/Error";
 import { Signup } from "components/Newsletter/Signup";
 import { Picture } from "components/Picture";
 import { HoverLink } from "components/HoverLink";
+import { useTags } from "hooks";
+import { FilterTags } from "components/FilterTags";
 
 interface RenderLinkProps {
-  item: LinkProps;
+  link: string;
+  img: string;
   children: ReactNode;
 }
 
-const RenderLink = ({ item, children }: RenderLinkProps) => {
-  const classname = `btn btn-outline-dark ${styles.btnText} ${item.img && styles.btnIfImage}`;
+const linkTags = [
+  { name: "tickets", value: false },
+  { name: "fresh juice", value: false },
+  { name: "premieres", value: false },
+  { name: "news", value: false },
+];
 
-  if (item.link.includes("www.plantbassd.com")) {
+const RenderLink = ({ link, img, children }: RenderLinkProps) => {
+  const classname = `btn btn-outline-dark ${styles.btnText} ${img && styles.btnIfImage}`;
+
+  if (link.includes("www.plantbassd.com")) {
     return (
-      <Link href={new URL(item.link).pathname} className={classname} role="button">
+      <Link href={new URL(link).pathname} className={classname} role="button">
         {children}
       </Link>
     );
   }
   return (
-    <a
-      href={item.link}
-      className={classname}
-      rel="noopener noreferrer"
-      role="button"
-      target="_blank"
-    >
+    <a href={link} className={classname} rel="noopener noreferrer" role="button" target="_blank">
       {children}
     </a>
   );
 };
 
 export default function Links() {
+  const { error, handleTags, hasErrored, newsStories, tagList } = useTags(linkTags, linkList);
+
+  if (hasErrored) return <Error error={error} />;
+
   return (
     <>
       <Head>
@@ -51,10 +60,10 @@ export default function Links() {
           </div>
 
           <div className="row">
-            {socialIcons.map((item) => (
-              <div className={`col ${styles.iconContainer}`} key={item.link}>
-                <Link href={item.link}>
-                  <Icon icon={item.icon} styling={styles.socialIcon} />
+            {socialIcons.map(({ link, name }) => (
+              <div className={`col ${styles.iconContainer}`} key={link}>
+                <Link href={link}>
+                  <Icon icon={name} styling={styles.socialIcon} />
                 </Link>
               </div>
             ))}
@@ -63,28 +72,31 @@ export default function Links() {
           <hr />
 
           <h2 className="d-flex justify-content-end">Most Recent</h2>
-          {linkList.map((item) => (
-            <div className={`row ${styles.buttonStyle}`} key={item.title}>
+
+          <FilterTags handleTags={handleTags} tagList={tagList} />
+
+          {newsStories.map(({ link, name, img, description, title }) => (
+            <div className={`row ${styles.buttonStyle}`} key={title}>
               <div className={styles.linkTitle}>
-                <Icon icon={item.icon} styling={styles.linkIcon} />
+                <Icon icon={name} styling={styles.linkIcon} />
                 <HoverLink
-                  url={item.icon === "tickets" ? "/gigs" : `/${item.icon}`}
-                  name={item.icon.toUpperCase()}
+                  url={name === "tickets" ? "/gigs" : `/${name}`}
+                  name={name.toUpperCase()}
                 />
               </div>
-              <RenderLink item={item}>
-                <div className={item.img && styles.imageAndText}>
-                  {item.img && (
+              <RenderLink link={link} img={img}>
+                <div className={img && styles.imageAndText}>
+                  {img && (
                     <Picture
-                      src={item.img}
-                      alt={`pic of ${item.title}`}
+                      src={img}
+                      alt={`pic of ${title}`}
                       size={150}
                       style={{ borderRadius: "0.275rem" }}
                     />
                   )}
                   <div>
-                    <div className={item.description && "fw-bold"}>{item.title}</div>
-                    {item.description && <div>{item.description}</div>}
+                    <div className={description && "fw-bold"}>{title}</div>
+                    {description && <div>{description}</div>}
                   </div>
                 </div>
               </RenderLink>
@@ -92,13 +104,15 @@ export default function Links() {
           ))}
 
           <h2 className="d-flex justify-content-end">Discovery</h2>
-          {mainLinks.map((item) => (
-            <div className={`row ${styles.buttonStyle}`} key={item.title}>
+          {mainLinks.map(({ link, name, img, title }) => (
+            <div className={`row ${styles.buttonStyle}`} key={title}>
               <div className={styles.linkTitle}>
-                <Icon icon={item.icon} styling={styles.linkIcon} />
-                <div>{item.icon.toUpperCase()}</div>
+                <Icon icon={name} styling={styles.linkIcon} />
+                <div>{name.toUpperCase()}</div>
               </div>
-              <RenderLink item={item}>{item.title}</RenderLink>
+              <RenderLink link={link} img={img}>
+                {title}
+              </RenderLink>
             </div>
           ))}
           <div className="row my-4">

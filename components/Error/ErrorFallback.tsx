@@ -15,7 +15,16 @@ export const ErrorFallback = ({ resetErrorBoundary, error }: FallbackProps) => {
               Home
             </Link>
           </div>
-          <button onClick={resetErrorBoundary}>Try again</button>
+          <div className={styles.bottomBtn}>
+            <Link
+              href="#"
+              className="btn btn-outline-dark"
+              role="button"
+              onClick={resetErrorBoundary}
+            >
+              Try again
+            </Link>
+          </div>
         </div>
       </div>
     </div>

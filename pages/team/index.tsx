@@ -49,18 +49,18 @@ export default function TeamPage() {
         <hr />
 
         <div className="row">
-          {socialIcons.map((item) => (
+          {socialIcons.map(({ link, name }) => (
             <>
               <Link
-                href={item.link}
-                key={item.link}
+                href={link}
+                key={link}
                 className={`col-6 col-sm-6 col-md-4 ${styles.iconBox}`}
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 <>
-                  <Icon icon={item.icon} styling={styles.socialIcon} />
-                  {item.icon.toUpperCase()}
+                  <Icon icon={name} styling={styles.socialIcon} />
+                  {name.toUpperCase()}
                 </>
               </Link>
             </>

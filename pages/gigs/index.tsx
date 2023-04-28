@@ -19,7 +19,7 @@ const gigsTags = [
 ];
 
 export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { error, handleTags, hasErrored, newsStories, tagList } = useTags(gigsTags, "gig", gigs);
+  const { error, handleTags, hasErrored, newsStories, tagList } = useTags(gigsTags, gigs, "city");
 
   if (hasErrored) return <Error error={error} />;
 

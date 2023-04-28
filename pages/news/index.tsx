@@ -7,7 +7,6 @@ import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
 import { CardWithText } from "components/Card";
 import styles from "styles/page.module.scss";
-
 import { AllPostProps } from "types/frontmatter";
 import { useTags } from "hooks";
 import { HoverLink } from "components/HoverLink";
@@ -22,7 +21,7 @@ const newsTags = [
 ];
 
 export default function NewsPage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { error, handleTags, hasErrored, newsStories, tagList } = useTags(newsTags, "news", files);
+  const { error, handleTags, hasErrored, newsStories, tagList } = useTags(newsTags, files, "tags");
 
   if (hasErrored) return <Error error={error} />;
 
