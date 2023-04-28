@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CardNoText } from "components/Card";
+import { Card } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
 import Header from "../Header";
 
@@ -26,11 +26,11 @@ export const Radio = ({ radios }: Props) => {
 
       <div className="row g-2">
         {radios.map((artist) => (
-          <CardNoText
-            columns="col-6 col-md-6 col-lg-6 col-xl-6"
+          <Card
             key={artist.frontmatter.name}
             link={`/radios/${artist.slug}`}
             post={artist}
+            columns="col-6 col-md-6 col-lg-6 col-xl-6"
           />
         ))}
       </div>

@@ -27,11 +27,11 @@ export const SearchBox = ({
         type="text"
         value={filter}
       />
-      {amount ? (
+      {amount && (
         <p className="m-0">
           {amount} {text}
         </p>
-      ) : null}
+      )}
     </div>
   );
 };

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CardWithText } from "components/Card";
+import { Card } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
 import Header from "components/Header";
 import { HoverLink } from "components/HoverLink";
@@ -30,10 +30,11 @@ export const News = ({ news }: Props) => {
 
       <div className="row g-2">
         {news.map((story) => (
-          <CardWithText
+          <Card
             key={story.frontmatter.name}
             link={`/${story.frontmatter.path}/${story.slug}`}
             post={story}
+            text
           />
         ))}
       </div>

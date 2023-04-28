@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
 import { useTags } from "hooks";
@@ -6,11 +5,12 @@ import { sortByDate } from "utils";
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
 
-import { CardNoText } from "components/Card";
+import { Card } from "components/Card";
 import styles from "styles/page.module.scss";
 
 import { AllPostProps } from "types/frontmatter";
 import { getPosts } from "utils/getPosts";
+import PageTitle from "components/PageTitle";
 
 const gigsTags = [
   { name: "edinburgh", value: false },
@@ -24,30 +24,26 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
   if (hasErrored) return <Error error={error} />;
 
   return (
-    <>
-      <Head>
-        <title>Gigs</title>
-      </Head>
-      <div className="gigsBG">
-        <h1 className={styles.pageHeader}>Plant Bass'd Gigs</h1>
+    <div className="gigsBG">
+      <PageTitle title="Gigs" />
+      <h1 className={styles.pageHeader}>Plant Bass'd Gigs</h1>
 
-        <p className={styles.pageText}>
-          Check out some of the {newsStories.length} shows we've put together in Ireland and the UK:
-        </p>
+      <p className={styles.pageText}>
+        Check out some of the {newsStories.length} shows we've put together in Ireland and the UK:
+      </p>
 
-        <FilterTags handleTags={handleTags} tagList={tagList} />
+      <FilterTags handleTags={handleTags} tagList={tagList} />
 
-        <div className="row g-3">
-          {newsStories.map((gig: AllPostProps) => (
-            <CardNoText
-              key={gig.frontmatter.name}
-              link={`/${gig.frontmatter.path}/${gig.slug}`}
-              post={gig}
-            />
-          ))}
-        </div>
+      <div className="row g-3">
+        {newsStories.map((gig: AllPostProps) => (
+          <Card
+            key={gig.frontmatter.name}
+            link={`/${gig.frontmatter.path}/${gig.slug}`}
+            post={gig}
+          />
+        ))}
       </div>
-    </>
+    </div>
   );
 }
 

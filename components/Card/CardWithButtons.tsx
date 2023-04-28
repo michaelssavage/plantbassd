@@ -12,6 +12,8 @@ interface CardProps {
   link: string; // link is to instagram
 }
 
+const buttonOutline = "text-nowrap btn btn-outline-dark btn-sm";
+
 export const CardWithButtons = (props: CardProps) => {
   const { pic, title, artist, page, insta, link } = props;
 
@@ -23,7 +25,7 @@ export const CardWithButtons = (props: CardProps) => {
           <div className={`col ${styles.button}`}>
             <Link
               href={page}
-              className="text-nowrap btn btn-outline-dark btn-sm"
+              className={buttonOutline}
               rel="noopener noreferrer"
               role="button"
               target="_blank"
@@ -34,7 +36,7 @@ export const CardWithButtons = (props: CardProps) => {
           <div className={`col ${styles.button}`}>
             <Link
               href={link}
-              className="text-nowrap btn btn-outline-dark btn-sm"
+              className={buttonOutline}
               rel="noopener noreferrer"
               role="button"
               target="_blank"
