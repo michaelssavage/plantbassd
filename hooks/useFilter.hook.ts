@@ -1,7 +1,7 @@
 import { ChangeEvent, useEffect, useState } from "react";
 import { sortAlphabetically } from "utils";
 
-export const useFilter = (posts = [], type: string) => {
+export const useFilter = (posts = [], type?: "array") => {
   const [hasErrored, setHasErrored] = useState(false);
   const [error, setError] = useState("");
   const [postCards, setPostCards] = useState(posts);
@@ -13,19 +13,21 @@ export const useFilter = (posts = [], type: string) => {
 
   useEffect(() => {
     try {
-      if (filter && type == "posts") {
-        setPostCards(
-          posts.filter((post) => post.frontmatter.name.toLowerCase().includes(filter.toLowerCase()))
-        );
-      } else if (filter && type == "array") {
-        setPostCards(
-          posts
-            .filter((post) => post.name.toLowerCase().includes(filter.toLowerCase()))
-            .sort(sortAlphabetically)
-        );
+      let filtered = [];
+      if (type) {
+        filtered = !filter
+          ? posts
+          : posts
+              .filter((post) => post.name.toLowerCase().includes(filter.toLowerCase()))
+              .sort(sortAlphabetically);
       } else {
-        setPostCards(posts);
+        filtered = !filter
+          ? posts
+          : posts.filter((post) =>
+              post.frontmatter.name.toLowerCase().includes(filter.toLowerCase())
+            );
       }
+      setPostCards(filtered);
     } catch (err) {
       setHasErrored(true);
       setError(err);

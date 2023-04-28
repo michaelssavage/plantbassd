@@ -41,7 +41,7 @@ export default function MyApp({ Component, pageProps, ...appProps }: AppProps) {
       <ErrorBoundary FallbackComponent={ErrorFallback}>
         {loading ? <Loading /> : <Component {...pageProps} />}
       </ErrorBoundary>
-      {["/links"].includes(appProps.router.pathname) ? <></> : <Footer />}
+      {!["/links"].includes(appProps.router.pathname) && <Footer />}
     </NewsletterContextProvider>
   );
 }

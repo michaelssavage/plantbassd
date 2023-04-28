@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { CardNoText } from "components/Card";
+import { Card } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
 import Header from "../Header";
 
@@ -26,11 +26,7 @@ export const FreshJuice = ({ freshjuice }: Props) => {
 
       <div className="row g-2">
         {freshjuice.map((artist) => (
-          <CardNoText
-            key={artist.frontmatter.name}
-            link={`/fresh-juice/${artist.slug}`}
-            post={artist}
-          />
+          <Card key={artist.frontmatter.name} link={`/fresh-juice/${artist.slug}`} post={artist} />
         ))}
       </div>
     </section>

@@ -1,17 +1,16 @@
-import Head from "next/head";
 import Link from "next/link";
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
-import { CardWithText } from "components/Card";
+import { Card } from "components/Card";
 import styles from "styles/page.module.scss";
-
 import { AllPostProps } from "types/frontmatter";
 import { useTags } from "hooks";
 import { HoverLink } from "components/HoverLink";
 import { getAllPosts } from "utils/getAllPosts";
+import PageTitle from "components/PageTitle";
 
 const newsTags = [
   { name: "fresh juice", value: false },
@@ -22,43 +21,39 @@ const newsTags = [
 ];
 
 export default function NewsPage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { error, handleTags, hasErrored, newsStories, tagList } = useTags(newsTags, "news", files);
+  const { error, handleTags, hasErrored, newsStories, tagList } = useTags(newsTags, files, "tags");
 
   if (hasErrored) return <Error error={error} />;
 
   return (
-    <>
-      <Head>
-        <title>News</title>
-      </Head>
-      <div className="newsBG">
-        <h1 className={styles.pageHeader}>Plant Bass'd News</h1>
+    <div className="newsBG">
+      <PageTitle title="News" />
+      <h1 className={styles.pageHeader}>Plant Bass'd News</h1>
 
-        <p className={styles.pageText}>
-          News about club guides, gigs, and all things Plant Bass'd. Keep up to date on our
-          Instagram,{" "}
-          <HoverLink url="instagram.com/plantbassd___" name="@plantbassd___" inline external />
-        </p>
+      <p className={styles.pageText}>
+        News about club guides, gigs, and all things Plant Bass'd. Keep up to date on our Instagram,{" "}
+        <HoverLink url="instagram.com/plantbassd___" name="@plantbassd___" inline external />
+      </p>
 
-        <FilterTags handleTags={handleTags} tagList={tagList} />
+      <FilterTags handleTags={handleTags} tagList={tagList} />
 
-        <div className="row g-3">
-          {newsStories.map((story: AllPostProps) => (
-            <CardWithText
-              key={story.frontmatter.name}
-              link={`/${story.frontmatter.path}/${story.slug}`}
-              post={story}
-            />
-          ))}
-        </div>
-
-        <div className={styles.viewAllBtn}>
-          <Link href="/archive" className="btn btn-dark btn-lg px-5 py-2" type="button">
-            View Archived Posts
-          </Link>
-        </div>
+      <div className="row g-3">
+        {newsStories.map((story: AllPostProps) => (
+          <Card
+            key={story.frontmatter.name}
+            link={`/${story.frontmatter.path}/${story.slug}`}
+            post={story}
+            text
+          />
+        ))}
       </div>
-    </>
+
+      <div className={styles.viewAllBtn}>
+        <Link href="/archive" className="btn btn-dark btn-lg px-5 py-2" type="button">
+          View Archived Posts
+        </Link>
+      </div>
+    </div>
   );
 }
 

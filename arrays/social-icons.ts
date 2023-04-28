@@ -1,31 +1,31 @@
 interface IconsProps {
-  icon: string;
   link: string;
+  name: string;
 }
 
 export const socialIcons: IconsProps[] = [
   {
-    icon: "facebook",
     link: "https://www.facebook.com/plantbassddjs",
+    name: "facebook",
   },
   {
-    icon: "instagram",
     link: "https://www.instagram.com/plantbassd___/",
+    name: "instagram",
   },
   {
-    icon: "email",
     link: "mailto: plantbassddjs@gmail.com",
+    name: "email",
   },
   {
-    icon: "spotify",
     link: "https://open.spotify.com/playlist/3EV4meqUK8g5IEYGqxsvNf",
+    name: "spotify",
   },
   {
-    icon: "soundcloud",
     link: "https://soundcloud.com/plantbassddjs",
+    name: "soundcloud",
   },
   {
-    icon: "bandcamp",
     link: "https://bandcamp.com/oisincampbellbap",
+    name: "bandcamp",
   },
 ];

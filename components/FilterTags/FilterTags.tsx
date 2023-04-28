@@ -1,10 +1,14 @@
 import { AiOutlineCloseCircle } from "react-icons/ai";
-import { TagProps } from "types/frontmatter";
 import styles from "./FilterTags.module.scss";
 
 interface FilterTagsProps {
   handleTags: (tag: TagProps) => void;
   tagList: TagProps[];
+}
+
+interface TagProps {
+  name: string;
+  value: boolean;
 }
 
 export const FilterTags = ({ tagList, handleTags }: FilterTagsProps) => {

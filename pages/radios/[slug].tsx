@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
 import { CardWithButtons } from "components/Card";
 import { Picture } from "components/Picture";
@@ -6,6 +5,7 @@ import styles from "styles/slug.module.scss";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { Slug } from "components/Slug";
+import PageTitle from "components/PageTitle";
 
 export default function RadioSlug({
   mdxSource,
@@ -13,33 +13,29 @@ export default function RadioSlug({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { title, date, pic, tracklist, artistPage, mixLink, path } = frontmatter;
   return (
-    <>
-      <Head>
-        <title>{title}</title>
-      </Head>
-      <div className={styles.newsSection}>
-        <div className="container">
-          <div className="row">
-            {
-              <Slug path={path} date={date} title={title} mdxSource={mdxSource}>
-                <div className={styles.imgWrapper}>
-                  <Picture alt="artist tracklist" size={600} src={tracklist} />
-                </div>
-              </Slug>
-            }
+    <div className={styles.newsSection}>
+      <PageTitle title={title} />
+      <div className="container">
+        <div className="row">
+          {
+            <Slug path={path} date={date} title={title} mdxSource={mdxSource}>
+              <div className={styles.imgWrapper}>
+                <Picture alt="artist tracklist" size={600} src={tracklist} />
+              </div>
+            </Slug>
+          }
 
-            <CardWithButtons
-              artist="Artist's Insta"
-              insta="Listen Now"
-              link={mixLink}
-              page={artistPage}
-              pic={pic}
-              title={title}
-            />
-          </div>
+          <CardWithButtons
+            artist="Artist's Insta"
+            insta="Listen Now"
+            link={mixLink}
+            page={artistPage}
+            pic={pic}
+            title={title}
+          />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

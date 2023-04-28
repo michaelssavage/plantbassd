@@ -1,22 +1,21 @@
 import { HoverLink } from "components/HoverLink";
 
 interface Props {
-  src: string; // embedded player src
-  url: string; // soundcloud url
-  name: string; // name of track
+  src: string;
+  url: string;
+  name: string;
 }
 
+/**
+ *
+ * @param src = embedded player src
+ * @param url = soundcloud url
+ * @param name = name of track
+ */
 export const SoundCloud = ({ src, url, name }: Props) => {
   return (
     <>
-      <iframe
-        width="100%"
-        height="300"
-        scrolling="no"
-        frameBorder="no"
-        allow="autoplay"
-        src={src}
-      />
+      <iframe width="100%" height="300" allow="autoplay" src={src} />
       <div>
         Stream <HoverLink url={url} name={name} inline external /> on Plant Bass'd SoundCloud
       </div>

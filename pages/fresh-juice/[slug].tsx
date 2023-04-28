@@ -1,4 +1,3 @@
-import Head from "next/head";
 import { InferGetStaticPropsType } from "next";
 import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import { CardWithButtons } from "components/Card";
@@ -6,6 +5,7 @@ import styles from "styles/slug.module.scss";
 import { Slug } from "components/Slug";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
+import PageTitle from "components/PageTitle";
 
 export default function FreshJuiceSlug({
   frontmatter,
@@ -13,31 +13,27 @@ export default function FreshJuiceSlug({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { artist = "Bandcamp", youtube, title, date, pic, bandcamp, path, postLink } = frontmatter;
   return (
-    <>
-      <Head>
-        <title>{title}</title>
-      </Head>
-      <div className={styles.newsSection}>
-        <div className="container">
-          <div className="row">
-            {Slug({ path, date, title, mdxSource })}
-            <CardWithButtons
-              artist={artist}
-              insta="Instagram"
-              link={postLink}
-              page={bandcamp}
-              pic={pic}
-              title={title}
-            />
-          </div>
-          {youtube ? (
-            <div className="row mt-5">
-              <LiteYouTubeEmbed id={youtube} title={title} />
-            </div>
-          ) : null}
+    <div className={styles.newsSection}>
+      <PageTitle title={title} />
+      <div className="container">
+        <div className="row">
+          {Slug({ path, date, title, mdxSource })}
+          <CardWithButtons
+            artist={artist}
+            insta="Instagram"
+            link={postLink}
+            page={bandcamp}
+            pic={pic}
+            title={title}
+          />
         </div>
+        {youtube && (
+          <div className="row mt-5">
+            <LiteYouTubeEmbed id={youtube} title={title} />
+          </div>
+        )}
       </div>
-    </>
+    </div>
   );
 }
 

@@ -1,9 +1,9 @@
-import Head from "next/head";
 import { FreshJuice, Gigs, News, Premiere, Radio, Takeover } from "components/Main";
 import { sortByDate } from "utils";
 import Banner from "components/Banner";
 import { AllPostProps } from "types/frontmatter";
 import { getPosts } from "utils/getPosts";
+import PageTitle from "components/PageTitle";
 
 interface HomeProps {
   allPosts: AllPostProps[];
@@ -15,9 +15,7 @@ interface HomeProps {
 export default function Home({ allPosts, takeovers, radios, freshjuice }: HomeProps) {
   return (
     <main>
-      <Head>
-        <title>Plant Bass'd</title>
-      </Head>
+      <PageTitle title="Plant Bass'd" />
 
       <Banner />
       <News news={allPosts} />

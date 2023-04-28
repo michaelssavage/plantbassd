@@ -74,8 +74,3 @@ export interface StaticProps {
     slug: string;
   };
 }
-
-export interface TagProps {
-  name: string;
-  value: boolean;
-}
