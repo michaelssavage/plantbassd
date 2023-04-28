@@ -6,13 +6,14 @@ interface TagProps {
   value: boolean;
 }
 
-type FilterTypeProps = "tags" | "city" | "name";
+type FilterTypeProps = "tags" | "city";
 
 /**
+ * Filter a list using predefined tags
  *
  * @param initTagList - array of name and value
- * @param filterType - String of either city (gigs), tags, or name (links)
  * @param files = array of incoming data
+ * @param filterType - String of either city (gigs) or tags (news) for frontmatter or leave blank for links
  */
 export const useTags = (initTagList: TagProps[], files = [], filterType?: FilterTypeProps) => {
   const [hasErrored, setHasErrored] = useState(false);
