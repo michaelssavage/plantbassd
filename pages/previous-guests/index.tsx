@@ -18,15 +18,14 @@ export default function PreviousGuestsPage() {
       <PageTitle title="Previous Guests" />
       <h1 className={styles.pageHeader}>Previous Guests (A-Z)</h1>
 
-      <div className="container">
-        <SearchBox
-          handleSearchChange={handleSearchChange}
-          filter={filter}
-          amount={postCards.length}
-          style={`input-group ${styles.filter}`}
-          text="DJs"
-        />
-      </div>
+      <SearchBox
+        handleSearchChange={handleSearchChange}
+        filter={filter}
+        amount={postCards.length}
+        style={`input-group ${styles.filter}`}
+        text="DJs"
+      />
+
       {filter ? (
         CardOverlay(postCards.sort(sortAlphabetically))
       ) : (

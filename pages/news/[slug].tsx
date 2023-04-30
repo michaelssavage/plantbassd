@@ -23,18 +23,16 @@ export default function NewsSlug({
   return (
     <div className={styles.newsSection}>
       <PageTitle title={title} />
-      <div className="container">
-        <div className="row">
-          {Slug({ path, date, title, mdxSource })}
-          <CardWithButtons
-            artist={buyText}
-            insta="Instagram"
-            link={postLink}
-            page={buyLink}
-            pic={pic}
-            title={title}
-          />
-        </div>
+      <div className="row">
+        {Slug({ path, date, title, mdxSource })}
+        <CardWithButtons
+          artist={buyText}
+          insta="Instagram"
+          link={postLink}
+          page={buyLink}
+          pic={pic}
+          title={title}
+        />
       </div>
     </div>
   );

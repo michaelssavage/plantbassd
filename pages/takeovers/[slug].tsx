@@ -14,19 +14,17 @@ export default function TakeoverSlug({
   return (
     <div className={styles.newsSection}>
       <PageTitle title={title} />
-      <div className="container">
-        <div className="row">
-          {Slug({ path, date, title, mdxSource })}
+      <div className="row">
+        {Slug({ path, date, title, mdxSource })}
 
-          <CardWithButtons
-            artist="Artist's Insta"
-            insta="Instagram"
-            link={postLink}
-            page={artistPage}
-            pic={pic}
-            title={title}
-          />
-        </div>
+        <CardWithButtons
+          artist="Artist's Insta"
+          insta="Instagram"
+          link={postLink}
+          page={artistPage}
+          pic={pic}
+          title={title}
+        />
       </div>
     </div>
   );

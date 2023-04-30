@@ -23,6 +23,12 @@ export const linkList: LinkProps[] = [
     description: "Brazilian hardcore bandito WHITE PRATA lands in for their Scottish debut",
   },
   {
+    title: "'Superviolet Romance' by Brenda",
+    link: "https://soundcloud.com/plantbassddjs/premiere-brenda-superviolet-romance",
+    name: "premieres",
+    img: "/premieres/44-brenda.jpg",
+  },
+  {
     title: "'Prism' by Silky Klub",
     link: "https://soundcloud.com/plantbassddjs/premiere-silky-klub-prism",
     name: "premieres",

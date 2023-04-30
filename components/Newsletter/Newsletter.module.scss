@@ -10,7 +10,7 @@
   position: fixed;
   bottom: 0.5rem;
   right: 0;
-  color: $white;
+  color: $pbWhite;
   background-color: $navBlue;
   z-index: 200;
   display: flex;
@@ -60,20 +60,20 @@
 }
 
 .form {
-  color: $black;
+  color: $pbBlack;
   background-color: $culturedWhite;
   padding: 1rem;
   border-radius: 1rem;
-  border: 1px solid $black;
+  border: 1px solid $pbBlack;
   margin-left: 0.5rem;
 }
 
 .formLinktree {
-  color: $black;
+  color: $pbBlack;
   padding: 1rem;
   border-radius: 1rem;
-  border: 1px solid $black;
-  border-top: 3px solid $black;
+  border: 1px solid $pbBlack;
+  border-top: 3px solid $pbBlack;
   width: 100%;
   margin: 0;
 }

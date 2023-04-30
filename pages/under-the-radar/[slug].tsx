@@ -15,26 +15,24 @@ export default function UnderTheRadarSlug(props: InferGetStaticPropsType<typeof 
   return (
     <div className={styles.outerSection}>
       <PageTitle title={`Under the Radar - ${month}`} />
-      <div className="container">
-        <div className={`col ${styles.topTenContent}`}>
-          <p>
-            {<HoverLink url="/" name="home" inline />} /{" "}
-            {<HoverLink url={`/${path}`} name={path} inline />} /
-          </p>
-          <p className={styles.postDate}>Posted on {date}</p>
-          <Picture alt="cover pic" size={1200} src={pic} />
+      <div className={`col ${styles.topTenContent}`}>
+        <p>
+          {<HoverLink url="/" name="home" inline />} /{" "}
+          {<HoverLink url={`/${path}`} name={path} inline />} /
+        </p>
+        <p className={styles.postDate}>Posted on {date}</p>
+        <Picture alt="cover pic" size={1200} src={pic} />
 
-          <h1 className={styles.postTitle} style={{ marginTop: "1rem" }}>
-            Under the Radar - {month}
-          </h1>
+        <h1 className={styles.postTitle} style={{ marginTop: "1rem" }}>
+          Under the Radar - {month}
+        </h1>
 
-          <p>{bio}</p>
+        <p>{bio}</p>
 
-          <hr />
+        <hr />
 
-          <div className={styles.postBody}>
-            <MDXRemote {...mdxSource} components={components} />
-          </div>
+        <div className="row">
+          <MDXRemote {...mdxSource} components={components} />
         </div>
       </div>
     </div>

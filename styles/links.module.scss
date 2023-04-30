@@ -35,12 +35,12 @@
 
 .buttonStyle {
   padding: 0.5rem 0 0.25rem;
-  color: $black;
+  color: $pbBlack;
 }
 
 .btnText {
   font-size: $btnText;
-  border-top: 3px solid $black;
+  border-top: 3px solid $pbBlack;
 }
 
 .btnIfImage {
@@ -63,6 +63,12 @@
   gap: 2rem;
   div {
     text-align: left;
+  }
+}
+
+@media (max-width: 330px) {
+  .imageAndText {
+    gap: 1rem;
   }
 }
 
