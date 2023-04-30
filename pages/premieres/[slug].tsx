@@ -16,24 +16,22 @@ export default function PremieresSlug({
   return (
     <div className={styles.newsSection}>
       <PageTitle title={title} />
-      <div className="container">
-        <div className="row">
-          {Slug({ path, date, title, mdxSource })}
-          <CardWithButtons
-            artist={listen}
-            insta="Instagram"
-            link={postLink}
-            page={seeMore}
-            pic={pic}
-            title={title}
-          />
-        </div>
-        {youtube && (
-          <div className="row mt-5">
-            <LiteYouTubeEmbed id={youtube} title={title} />
-          </div>
-        )}
+      <div className="row">
+        {Slug({ path, date, title, mdxSource })}
+        <CardWithButtons
+          artist={listen}
+          insta="Instagram"
+          link={postLink}
+          page={seeMore}
+          pic={pic}
+          title={title}
+        />
       </div>
+      {youtube && (
+        <div className="row mt-5">
+          <LiteYouTubeEmbed id={youtube} title={title} />
+        </div>
+      )}
     </div>
   );
 }

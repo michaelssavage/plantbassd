@@ -18,12 +18,10 @@ export default function Guides({
   return (
     <div className={styles.newsSection}>
       <PageTitle title="Reviews" />
-      <div className="container">
-        <div className={`col ${styles.topTenContent}`}>
-          <h1 className={styles.postTitle}>{title}</h1>
-          <div className={styles.postBody}>
-            <MDXRemote {...mdxSource} components={components} />
-          </div>
+      <div className={`col ${styles.topTenContent}`}>
+        <h1 className={styles.postTitle}>{title}</h1>
+        <div className={styles.postBody}>
+          <MDXRemote {...mdxSource} components={components} />
         </div>
       </div>
     </div>

@@ -10,7 +10,7 @@ interface CardProps {
 
 export const CardOverlay = (cards: CardProps[]) => {
   return (
-    <div className={`${styles.guestPics} container`}>
+    <div className={styles.guestPics}>
       <div className="row g-1">
         {cards.map((guest: CardProps) => (
           <div key={guest.name} className="col-4 col-md-4 col-lg-3 col-xl-2">

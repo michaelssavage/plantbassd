@@ -27,22 +27,20 @@ export default function GigsSlug({
   return (
     <div className={styles.newsSection}>
       <PageTitle title={title} />
-      <div className="container">
-        <div className="row">
-          {
-            <Slug path={path} date={date} title={title} mdxSource={mdxSource}>
-              {ArtistLookUp(anames, djs)}
-            </Slug>
-          }
-          <CardWithButtons
-            artist={buyText}
-            insta="Instagram"
-            link={postLink}
-            page={buyLink}
-            pic={pic}
-            title={title}
-          />
-        </div>
+      <div className="row">
+        {
+          <Slug path={path} date={date} title={title} mdxSource={mdxSource}>
+            {ArtistLookUp(anames, djs)}
+          </Slug>
+        }
+        <CardWithButtons
+          artist={buyText}
+          insta="Instagram"
+          link={postLink}
+          page={buyLink}
+          pic={pic}
+          title={title}
+        />
       </div>
     </div>
   );

@@ -6,12 +6,11 @@ interface SocialProps {
   url: string;
   icon?: string;
   style?: string;
-  container?: string;
 }
 
-export const SocialButton = ({ name, url, icon, style, container }: SocialProps) => {
+export const SocialButton = ({ name, url, icon, style }: SocialProps) => {
   return (
-    <div className={`col-auto ${container ? container : styles.socialBtns}`}>
+    <div className={`col-auto ${styles.socialBtns}`}>
       <a
         className={style}
         href={url}

@@ -15,24 +15,22 @@ export default function FreshJuiceSlug({
   return (
     <div className={styles.newsSection}>
       <PageTitle title={title} />
-      <div className="container">
-        <div className="row">
-          {Slug({ path, date, title, mdxSource })}
-          <CardWithButtons
-            artist={artist}
-            insta="Instagram"
-            link={postLink}
-            page={bandcamp}
-            pic={pic}
-            title={title}
-          />
-        </div>
-        {youtube && (
-          <div className="row mt-5">
-            <LiteYouTubeEmbed id={youtube} title={title} />
-          </div>
-        )}
+      <div className="row">
+        {Slug({ path, date, title, mdxSource })}
+        <CardWithButtons
+          artist={artist}
+          insta="Instagram"
+          link={postLink}
+          page={bandcamp}
+          pic={pic}
+          title={title}
+        />
       </div>
+      {youtube && (
+        <div className="row mt-5">
+          <LiteYouTubeEmbed id={youtube} title={title} />
+        </div>
+      )}
     </div>
   );
 }

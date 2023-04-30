@@ -24,7 +24,7 @@
 }
 
 .headerToggle {
-  color: $white;
+  color: $pbWhite;
   font-size: $navIcon;
 }
 
@@ -68,12 +68,12 @@
   color: $navGrey;
   cursor: pointer;
   &:hover {
-    color: $white;
+    color: $pbWhite;
   }
 }
 
 .activeLink {
-  color: $white;
+  color: $pbWhite;
   @extend .navLink;
   &::before {
     content: "";
@@ -81,7 +81,7 @@
     left: 0;
     width: 2px;
     height: 32px;
-    background-color: $white;
+    background-color: $pbWhite;
   }
 }
 
