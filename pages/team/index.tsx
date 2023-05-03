@@ -26,7 +26,7 @@ export default function TeamPage() {
 
       <div className="row d-flex flex-row">
         {ourTeam.map((member) => (
-          <div className="px-5 col-lg-6 col-md-6 col-sm-12" key={member.name}>
+          <div className="px-5 col-12" key={member.name}>
             <Link href={member.link}>
               <div className={`card ${styles.cardStyle}`}>
                 <Picture alt={member.name} size={1000} src={`/news/${member.img}`} />

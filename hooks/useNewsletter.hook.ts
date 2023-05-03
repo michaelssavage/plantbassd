@@ -25,7 +25,7 @@ export const useNewsletter = () => {
 
     setLoading(true);
 
-    const res = await fetch("/api/newsletter", {
+    const { status } = await fetch("/api/newsletter", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -35,10 +35,10 @@ export const useNewsletter = () => {
         action: "",
       }),
     });
-    if (res.status === 201) {
+    if (status === 201) {
       setLoading(false);
       setComplete(true);
-    } else if (res.status === 204) {
+    } else if (status === 204) {
       setLoading(false);
       setError("Email already exists");
       setComplete(false);
