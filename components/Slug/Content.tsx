@@ -3,6 +3,8 @@ import { Picture } from "components/Picture";
 
 interface ContentProps {
   title: string;
+  titleLabel?: string;
+  titleLink?: string;
   pic: string;
   link: string;
   description: string;
@@ -10,7 +12,8 @@ interface ContentProps {
   tags: string;
 }
 
-export const Content = ({ title, pic, link, description, standout, tags }: ContentProps) => {
+export const Content = (props: ContentProps) => {
+  const { title, titleLabel, titleLink, pic, link, description, standout, tags } = props;
   return (
     <div className="col-md-6 col-sm-12">
       <div className="row display-flex align-items-center">
@@ -18,7 +21,9 @@ export const Content = ({ title, pic, link, description, standout, tags }: Conte
           <Picture src={pic} alt={title} size={1200} />
         </div>
         <div className="col-12 py-2">
-          <h2>{title}</h2>
+          <h2>
+            {title} {titleLabel && <HoverLink url={titleLink} name={titleLabel} external />}
+          </h2>
           <div>
             {description}
             <br />
