@@ -353,4 +353,24 @@ export const guestList: GuestProps[] = [
     link: "ndegrandi/",
     name: "De Grandi",
   },
+  {
+    img: "33-white-prata.jpg",
+    link: "white.prata/",
+    name: "White Prata",
+  },
+  {
+    img: "33-lolly.jpg",
+    link: "flirty.lollypop33/",
+    name: "FLIRTY.LOLLYPOP33",
+  },
+  {
+    img: "33-hotwater.jpg",
+    link: "djhotwaterbottle/",
+    name: "DJ Hotwaterbottle",
+  },
+  {
+    img: "33-effua.jpg",
+    link: "3ffua/",
+    name: "EFFUA",
+  },
 ];

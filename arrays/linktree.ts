@@ -19,7 +19,7 @@ export const linkList: LinkProps[] = [
     title: "Gang of Bitches From Hell: WILD WEST (Thu, 18 May)",
     link: "https://ra.co/events/1694179",
     name: "tickets",
-    img: "/news/33-white-prata.jpg",
+    img: "/news/33-gobfh.jpg",
     description: "Brazilian hardcore bandito WHITE PRATA lands in for their Scottish debut",
   },
   {
