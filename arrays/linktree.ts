@@ -23,6 +23,12 @@ export const linkList: LinkProps[] = [
     description: "Brazilian hardcore bandito WHITE PRATA lands in for their Scottish debut",
   },
   {
+    title: "Under the Radar: April",
+    link: "https://www.plantbassd.com/under-the-radar/april-23",
+    name: "news",
+    img: "/under-the-radar/april.jpg",
+  },
+  {
     title: "'Cobweb Thread' by Asa Nisi Masa",
     link: "https://on.soundcloud.com/FbrVS",
     name: "premieres",
