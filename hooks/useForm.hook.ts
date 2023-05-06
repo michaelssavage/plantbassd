@@ -70,7 +70,7 @@ export const useForm = () => {
       ...prevState,
       [reference]: file,
       imageName: file.name.split(".")[0],
-      imageExtension: file.name.split(".")[1],
+      imageExtension: file.name.split(".").pop(),
     }));
   };
 
