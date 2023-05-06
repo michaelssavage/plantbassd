@@ -29,6 +29,12 @@ export const linkList: LinkProps[] = [
     img: "/under-the-radar/april.jpg",
   },
   {
+    title: "'Walk down a dark path' by c0sti",
+    link: "https://on.soundcloud.com/mGRY3",
+    name: "premieres",
+    img: "/premieres/46-c0sti",
+  },
+  {
     title: "'Cobweb Thread' by Asa Nisi Masa",
     link: "https://on.soundcloud.com/FbrVS",
     name: "premieres",
