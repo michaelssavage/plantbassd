@@ -8,12 +8,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "SweatBox: DOOM @ Stereo (Sat, 6th May)",
-    link: "https://ra.co/events/1685076",
+    title: "SweatBox: WORLD CUP (Wed, 10 May)",
+    link: "https://ra.co/events/1699420",
     name: "tickets",
-    img: "/news/32-doom.jpg",
+    img: "",
     description:
-      "Plant Bass'd takes the SweatBox series for an exploration through the theme of DOOM..",
+      "SweatBox goes fever pitch for the World Cup of Club..",
   },
   {
     title: "Gang of Bitches From Hell: WILD WEST (Thu, 18 May)",
