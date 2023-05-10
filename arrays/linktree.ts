@@ -11,9 +11,8 @@ export const linkList: LinkProps[] = [
     title: "SweatBox: WORLD CUP (Wed, 10 May)",
     link: "https://ra.co/events/1699420",
     name: "tickets",
-    img: "",
-    description:
-      "SweatBox goes fever pitch for the World Cup of Club..",
+    img: "/news/34-world-cup.jpg",
+    description: "SweatBox goes fever pitch for the World Cup of Club..",
   },
   {
     title: "Gang of Bitches From Hell: WILD WEST (Thu, 18 May)",
@@ -32,13 +31,13 @@ export const linkList: LinkProps[] = [
     title: "'Walk down a dark path' by c0sti",
     link: "https://on.soundcloud.com/mGRY3",
     name: "premieres",
-    img: "/premieres/46-c0sti",
+    img: "/premieres/46-c0sti.jpg",
   },
   {
     title: "'Cobweb Thread' by Asa Nisi Masa",
     link: "https://on.soundcloud.com/FbrVS",
     name: "premieres",
-    img: "/premieres/45-asanisimasa",
+    img: "/premieres/45-asa-nisi.jpg",
   },
   {
     title: "'Superviolet Romance' by Brenda",
