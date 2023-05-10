@@ -373,4 +373,29 @@ export const guestList: GuestProps[] = [
     link: "3ffua/",
     name: "EFFUA",
   },
+  {
+    img: "34-brenda.jpg",
+    link: "brend4_internacional/",
+    name: "Brenda",
+  },
+  {
+    img: "34-shaz.jpg",
+    link: "dj.shahrazadi/",
+    name: "Shahrazadi",
+  },
+  {
+    img: "34-ell.jpg",
+    link: "quarterpoundernocheese/",
+    name: "Quarterpoundernocheese",
+  },
+  {
+    img: "34-strawbby.jpg",
+    link: "strawb.bby/",
+    name: "strawb.bby",
+  },
+  {
+    img: "34-clo.jpg",
+    link: "cloallenn/",
+    name: "CLO",
+  },
 ];
