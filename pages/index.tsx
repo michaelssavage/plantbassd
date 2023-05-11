@@ -1,6 +1,6 @@
 import { FreshJuice, Gigs, News, Premiere, Radio, Takeover } from "components/Main";
 import { sortByDate } from "utils";
-import Banner from "components/Banner";
+import { Banner } from "components/Banner";
 import { AllPostProps } from "types/frontmatter";
 import { getPosts } from "utils/getPosts";
 import PageTitle from "components/PageTitle";

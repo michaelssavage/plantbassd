@@ -11,6 +11,7 @@ import { useTags } from "hooks";
 import { HoverLink } from "components/HoverLink";
 import { getAllPosts } from "utils/getAllPosts";
 import PageTitle from "components/PageTitle";
+import { plantbassdInstagram } from "utils/constants";
 
 const newsTags = [
   { name: "fresh juice", value: false },
@@ -32,7 +33,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
 
       <p className={styles.pageText}>
         News about club guides, gigs, and all things Plant Bass'd. Keep up to date on our Instagram,{" "}
-        <HoverLink url="instagram.com/plantbassd___" name="@plantbassd___" inline external />
+        <HoverLink url={plantbassdInstagram} name="@plantbassd___" inline external />
       </p>
 
       <FilterTags handleTags={handleTags} tagList={tagList} />
