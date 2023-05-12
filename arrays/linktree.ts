@@ -8,13 +8,6 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "SweatBox: WORLD CUP (Wed, 10 May)",
-    link: "https://ra.co/events/1699420",
-    name: "tickets",
-    img: "/news/34-world-cup.jpg",
-    description: "SweatBox goes fever pitch for the World Cup of Club..",
-  },
-  {
     title: "Gang of Bitches From Hell: WILD WEST (Thu, 18 May)",
     link: "https://ra.co/events/1694179",
     name: "tickets",
