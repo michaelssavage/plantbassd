@@ -24,13 +24,11 @@ export const linkList: LinkProps[] = [
     title: "'Walk down a dark path' by c0sti",
     link: "https://on.soundcloud.com/mGRY3",
     name: "premieres",
-    img: "/premieres/46-c0sti.jpg",
   },
   {
     title: "'Cobweb Thread' by Asa Nisi Masa",
     link: "https://on.soundcloud.com/FbrVS",
     name: "premieres",
-    img: "/premieres/45-asa-nisi.jpg",
   },
   {
     title: "'Superviolet Romance' by Brenda",
