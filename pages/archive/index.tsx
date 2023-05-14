@@ -28,7 +28,7 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
         style={`input-group ${styles.archiveFilter}`}
       />
 
-      <div className="row g-3">
+      <div className="row g-2">
         {postCards.map((story: AllPostProps) => (
           <Card
             key={story.frontmatter.name}
