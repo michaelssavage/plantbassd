@@ -2,7 +2,7 @@ import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
-import { useFilter } from "hooks/useFilter.hook";
+import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { Card } from "components/Card";
 import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
@@ -12,9 +12,10 @@ import { getPosts } from "utils/getPosts";
 import PageTitle from "components/PageTitle";
 
 export default function RadioPage({ radios }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { error, filter, hasErrored, postCards, handleSearchChange } = useFilter(radios);
+  const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
+    useSearchFilter(radios);
 
-  if (hasErrored) return <Error error={error} />;
+  if (searchHasErrored) return <Error error={searchError} />;
 
   return (
     <div className="radioBG">

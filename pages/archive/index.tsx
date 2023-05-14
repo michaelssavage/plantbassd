@@ -2,7 +2,7 @@ import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
-import { useFilter } from "hooks/useFilter.hook";
+import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { Card } from "components/Card";
 import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
@@ -11,9 +11,10 @@ import { getAllPosts } from "utils/getAllPosts";
 import PageTitle from "components/PageTitle";
 
 export default function ArchivePage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { error, filter, hasErrored, postCards, handleSearchChange } = useFilter(files);
+  const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
+    useSearchFilter(files);
 
-  if (hasErrored) return <Error error={error} />;
+  if (searchHasErrored) return <Error error={searchError} />;
 
   return (
     <div className="archiveBG">
