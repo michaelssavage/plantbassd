@@ -1,9 +1,9 @@
 import { ChangeEvent, useEffect, useState } from "react";
 import { sortAlphabetically } from "utils";
 
-export const useFilter = (posts = [], type?: "array") => {
-  const [hasErrored, setHasErrored] = useState(false);
-  const [error, setError] = useState("");
+export const useSearchFilter = (posts = [], type?: "array") => {
+  const [searchHasErrored, setSearchHasErrored] = useState(false);
+  const [searchError, setSearchError] = useState("");
   const [postCards, setPostCards] = useState(posts);
   const [filter, setFilter] = useState("");
 
@@ -29,10 +29,10 @@ export const useFilter = (posts = [], type?: "array") => {
       }
       setPostCards(filtered);
     } catch (err) {
-      setHasErrored(true);
-      setError(err);
+      setSearchHasErrored(true);
+      setSearchError(err);
     }
   }, [filter, posts, type]);
 
-  return { error, filter, hasErrored, postCards, handleSearchChange };
+  return { searchError, filter, searchHasErrored, postCards, handleSearchChange };
 };

@@ -25,8 +25,10 @@
 
 .icons {
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 1rem;
 }
 
@@ -44,20 +46,9 @@
 
 .socialIcon {
   display: flex;
-  height: 2rem;
-  width: 2rem;
+  height: 2.2rem;
+  width: 2.2rem;
   margin: 0.5rem;
   fill: $headerBlack;
   border-radius: 1em 0 1em 0;
-}
-
-@include breakpoint-below(xs) {
-  .socialIcon {
-    height: 1.8rem;
-    width: 1.8rem;
-  }
-
-  .iconBox {
-    flex-direction: column;
-  }
 }

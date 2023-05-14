@@ -2,7 +2,7 @@ import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
-import { useFilter } from "hooks/useFilter.hook";
+import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { Card } from "components/Card";
 import styles from "styles/page.module.scss";
 import { SocialButton } from "components/Icon";
@@ -14,9 +14,10 @@ import PageTitle from "components/PageTitle";
 export default function FreshJuicePage({
   freshjuice,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { error, filter, hasErrored, postCards, handleSearchChange } = useFilter(freshjuice);
+  const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
+    useSearchFilter(freshjuice);
 
-  if (hasErrored) return <Error error={error} />;
+  if (searchHasErrored) return <Error error={searchError} />;
 
   return (
     <div className="freshjuiceBG">

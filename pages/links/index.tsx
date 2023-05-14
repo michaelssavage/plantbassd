@@ -9,7 +9,7 @@ import Error from "components/Error";
 import { Signup } from "components/Newsletter/Signup";
 import { Picture } from "components/Picture";
 import { HoverLink } from "components/HoverLink";
-import { useTags } from "hooks";
+import { useTagsFilter } from "hooks";
 import { FilterTags } from "components/FilterTags";
 import PageTitle from "components/PageTitle";
 
@@ -44,9 +44,12 @@ const RenderLink = ({ link, img, children }: RenderLinkProps) => {
 };
 
 export default function Links() {
-  const { error, handleTags, hasErrored, newsStories, tagList } = useTags(linkTags, linkList);
+  const { tagsError, tagsHasErrored, filteredPosts, tagList, handleTags } = useTagsFilter(
+    linkTags,
+    linkList
+  );
 
-  if (hasErrored) return <Error error={error} />;
+  if (tagsHasErrored) return <Error error={tagsError} />;
 
   return (
     <div className={styles.linkPage}>
@@ -72,7 +75,7 @@ export default function Links() {
 
         <h2 className="d-flex justify-content-end">Most Recent</h2>
 
-        {newsStories.map(({ link, name, img, description, title }) => (
+        {filteredPosts.map(({ link, name, img, description, title }) => (
           <div className={`row ${styles.buttonStyle}`} key={title}>
             <div className={styles.linkTitle}>
               <Icon icon={name} styling={styles.linkIcon} />

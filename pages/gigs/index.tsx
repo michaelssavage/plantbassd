@@ -1,6 +1,6 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import { useTags } from "hooks";
+import { useTagsFilter } from "hooks";
 import { sortByDate } from "utils";
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
@@ -19,9 +19,13 @@ const gigsTags = [
 ];
 
 export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { error, handleTags, hasErrored, newsStories, tagList } = useTags(gigsTags, gigs, "city");
+  const { tagsError, tagsHasErrored, filteredPosts, tagList, handleTags } = useTagsFilter(
+    gigsTags,
+    gigs,
+    "city"
+  );
 
-  if (hasErrored) return <Error error={error} />;
+  if (tagsHasErrored) return <Error error={tagsError} />;
 
   return (
     <div className="gigsBG">
@@ -29,13 +33,13 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
       <h1 className={styles.pageHeader}>Plant Bass'd Gigs</h1>
 
       <p className={styles.pageText}>
-        Check out some of the {newsStories.length} shows we've put together in Ireland and the UK:
+        Check out some of the {filteredPosts.length} shows we've put together in Ireland and the UK:
       </p>
 
       <FilterTags handleTags={handleTags} tagList={tagList} />
 
       <div className="row g-3">
-        {newsStories.map((gig: AllPostProps) => (
+        {filteredPosts.map((gig: AllPostProps) => (
           <Card
             key={gig.frontmatter.name}
             link={`/${gig.frontmatter.path}/${gig.slug}`}

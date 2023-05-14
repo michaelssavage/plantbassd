@@ -15,11 +15,15 @@ type FilterTypeProps = "tags" | "city";
  * @param files = array of incoming data
  * @param filterType - String of either city (gigs) or tags (news) for frontmatter or leave blank for links
  */
-export const useTags = (initTagList: TagProps[], files = [], filterType?: FilterTypeProps) => {
-  const [hasErrored, setHasErrored] = useState(false);
-  const [error, setError] = useState("");
+export const useTagsFilter = (
+  initTagList: TagProps[],
+  files = [],
+  filterType?: FilterTypeProps
+) => {
+  const [tagsHasErrored, setTagsHasErrored] = useState(false);
+  const [tagsError, setTagsError] = useState("");
   const [tags, setTags] = useState([]);
-  const [newsStories, setNewsStories] = useState(files);
+  const [filteredPosts, setFilteredPosts] = useState(files);
   const [tagList, setTagList] = useState(initTagList);
 
   const addTag = (tag: TagProps) => {
@@ -62,12 +66,12 @@ export const useTags = (initTagList: TagProps[], files = [], filterType?: Filter
             ? files
             : files.filter((item: FilterProps) => tags.includes(item.frontmatter[filterType]));
       }
-      setNewsStories(filtered);
+      setFilteredPosts(filtered);
     } catch (event) {
-      setHasErrored(true);
-      setError(event);
+      setTagsHasErrored(true);
+      setTagsError(event);
     }
   }, [tags, files, filterType]);
 
-  return { error, handleTags, hasErrored, newsStories, tagList };
+  return { tagsError, tagsHasErrored, filteredPosts, tagList, handleTags };
 };

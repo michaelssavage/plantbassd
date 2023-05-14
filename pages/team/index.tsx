@@ -28,18 +28,21 @@ export default function TeamPage() {
               The team shares a common goal and passion, and they aspire to create unforgettable
               Plant Bass'd events across Ireland and the UK.
             </p>
-            <div className={styles.icons}>
-              {socialIcons.map(({ link, name }) => (
-                <Link
-                  href={link}
-                  key={link}
-                  className={styles.iconBox}
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <Icon icon={name} styling={styles.socialIcon} />
-                </Link>
-              ))}
+            <div className="row">
+              <div className={styles.icons}>
+                <p className="p-0 m-0">Get In Touch:</p>
+                {socialIcons.map(({ link, name }) => (
+                  <Link
+                    href={link}
+                    key={link}
+                    className={styles.iconBox}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <Icon icon={name} styling={styles.socialIcon} />
+                  </Link>
+                ))}
+              </div>
             </div>
           </div>
         </div>

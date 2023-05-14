@@ -7,7 +7,7 @@ import { FilterTags } from "components/FilterTags";
 import { Card } from "components/Card";
 import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
-import { useTags } from "hooks";
+import { useTagsFilter } from "hooks";
 import { HoverLink } from "components/HoverLink";
 import { getAllPosts } from "utils/getAllPosts";
 import PageTitle from "components/PageTitle";
@@ -23,9 +23,13 @@ const newsTags = [
 ];
 
 export default function NewsPage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { error, handleTags, hasErrored, newsStories, tagList } = useTags(newsTags, files, "tags");
+  const { tagsError, tagsHasErrored, filteredPosts, tagList, handleTags } = useTagsFilter(
+    newsTags,
+    files,
+    "tags"
+  );
 
-  if (hasErrored) return <Error error={error} />;
+  if (tagsHasErrored) return <Error error={tagsError} />;
 
   return (
     <div className="newsBG">
@@ -40,7 +44,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
       <FilterTags handleTags={handleTags} tagList={tagList} />
 
       <div className="row g-3">
-        {newsStories.slice(0, 24).map((story: AllPostProps) => (
+        {filteredPosts.slice(0, 24).map((story: AllPostProps) => (
           <Card
             key={story.frontmatter.name}
             link={`/${story.frontmatter.path}/${story.slug}`}

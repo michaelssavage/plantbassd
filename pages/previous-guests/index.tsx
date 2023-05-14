@@ -3,15 +3,18 @@ import { CardOverlay } from "components/Card";
 import Error from "components/Error";
 import PageTitle from "components/PageTitle";
 import { SearchBox } from "components/SearchBox";
-import { useFilter } from "hooks/useFilter.hook";
+import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import styles from "styles/previous-guests.module.scss";
 import { sortAlphabetically } from "utils";
 
 const djs = guestList.concat(headliners);
 
 export default function PreviousGuestsPage() {
-  const { error, filter, hasErrored, postCards, handleSearchChange } = useFilter(djs, "array");
-  if (hasErrored) return <Error error={error} />;
+  const { searchError, filter, searchHasErrored, postCards, handleSearchChange } = useSearchFilter(
+    djs,
+    "array"
+  );
+  if (searchHasErrored) return <Error error={searchError} />;
 
   return (
     <div className="guestsBG">
