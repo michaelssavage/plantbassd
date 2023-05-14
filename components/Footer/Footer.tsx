@@ -4,7 +4,7 @@ import { sortAlphabetically } from "utils";
 import { Signup } from "components/Newsletter/Signup";
 import styles from "./Footer.module.scss";
 
-export default function Footer() {
+export const Footer = () => {
   return (
     <footer className="footerSection">
       <div className="row mb-0 pb-0">
@@ -50,4 +50,4 @@ export default function Footer() {
       </div>
     </footer>
   );
-}
+};

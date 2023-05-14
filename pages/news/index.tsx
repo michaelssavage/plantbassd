@@ -11,6 +11,7 @@ import { useTags } from "hooks";
 import { HoverLink } from "components/HoverLink";
 import { getAllPosts } from "utils/getAllPosts";
 import PageTitle from "components/PageTitle";
+import { plantbassdInstagram } from "utils/constants";
 
 const newsTags = [
   { name: "fresh juice", value: false },
@@ -18,6 +19,7 @@ const newsTags = [
   { name: "guides", value: false },
   { name: "premieres", value: false },
   { name: "reviews", value: false },
+  { name: "festivals", value: false },
 ];
 
 export default function NewsPage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
@@ -32,13 +34,13 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
 
       <p className={styles.pageText}>
         News about club guides, gigs, and all things Plant Bass'd. Keep up to date on our Instagram,{" "}
-        <HoverLink url="instagram.com/plantbassd___" name="@plantbassd___" inline external />
+        <HoverLink url={plantbassdInstagram} name="@plantbassd___" inline external />
       </p>
 
       <FilterTags handleTags={handleTags} tagList={tagList} />
 
       <div className="row g-3">
-        {newsStories.map((story: AllPostProps) => (
+        {newsStories.slice(0, 24).map((story: AllPostProps) => (
           <Card
             key={story.frontmatter.name}
             link={`/${story.frontmatter.path}/${story.slug}`}
@@ -50,7 +52,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
 
       <div className={styles.viewAllBtn}>
         <Link href="/archive" className="btn btn-dark btn-lg px-5 py-2" type="button">
-          View Archived Posts
+          View All Posts
         </Link>
       </div>
     </div>
@@ -62,7 +64,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: {
-      files: files.sort(sortByDate).reverse().slice(0, 24),
+      files: files.sort(sortByDate).reverse(),
     },
   };
 };

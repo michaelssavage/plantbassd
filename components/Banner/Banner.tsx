@@ -1,7 +1,7 @@
 import { useRellax } from "hooks";
 import styles from "./Banner.module.scss";
 
-export default function Banner() {
+export const Banner = () => {
   useRellax();
 
   return (
@@ -19,4 +19,4 @@ export default function Banner() {
       </div>
     </section>
   );
-}
+};

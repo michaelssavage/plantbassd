@@ -63,7 +63,7 @@ p {
 }
 
 .smallText {
-  font-size: $cardDate;
+  font-size: $cardText;
 }
 
 .anchor {
@@ -209,7 +209,7 @@ p {
 }
 
 .guestTextOverlay {
-  font-size: $cardDate;
+  font-size: $cardText;
   word-break: keep-all;
   @extend .imgTextOverlay;
 }
@@ -436,5 +436,5 @@ p {
   margin: 0;
   padding: 0;
   color: $errorRed;
-  font-size: $cardDate;
+  font-size: $cardText;
 }

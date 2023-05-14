@@ -3,62 +3,58 @@ import { socialIcons } from "arrays/social-icons";
 
 import { Icon } from "components/Icon";
 import { Picture } from "components/Picture";
-import styles from "styles/page.module.scss";
+import styles from "styles/team.module.scss";
 import { ourTeam } from "arrays/our-team";
 import PageTitle from "components/PageTitle";
 
 export default function TeamPage() {
   return (
-    <div className="aboutBG">
+    <div className={styles.aboutBG}>
       <PageTitle title="Our Team" />
-      <h1 className={styles.pageHeader}>Our Team</h1>
-
-      <p>
-        Plant Bass'd was spearheaded by Oisín Campbell, Michael Savage, and Peter Toal originating
-        from Co. Monaghan, Ireland. The collective was started in early 2020 with the intention of
-        playing parties and sharing music interests but quickly evolved into highlighting artists,
-        releases, and club nights in the experimental dance music world.
-      </p>
-      <p>
-        With shared interests and ambitions, the team looks towards creating unforgettable Plant
-        Bass'd nights in Ireland and the UK.
-      </p>
-
-      <div className="row d-flex flex-row">
-        {ourTeam.map((member) => (
-          <div className="px-5 col-12" key={member.name}>
-            <Link href={member.link}>
-              <div className={`card ${styles.cardStyle}`}>
-                <Picture alt={member.name} size={1000} src={`/news/${member.img}`} />
-              </div>
-            </Link>
-            <p className="nameAnchor">
-              {member.name} - {member.role}
-            </p>
-          </div>
-        ))}
-      </div>
-
-      <h2 id="get-in-touch" className="text-center">
-        Get In Touch
-      </h2>
-      <hr />
 
       <div className="row">
-        {socialIcons.map(({ link, name }) => (
-          <Link
-            href={link}
-            key={link}
-            className={`col-6 col-sm-6 col-md-4 ${styles.iconBox}`}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
+        <div className="col-md-6 col-sm-12">
+          <div className={styles.stickyPosition}>
+            <h1 className={styles.pageHeader}>Our Team</h1>
+
+            <p>
+              In early 2020, Oisín Campbell, Michael Savage, and Peter Toal from Co. Monaghan,
+              Ireland came together to form Plant Bass'd. Initially, the collective wanted to focus
+              on sharing their love for music and throwing parties. However, it soon developed into
+              something bigger, with a mission to showcase artists, releases, and club nights in the
+              experimental dance music world.
+            </p>
+            <p>
+              The team shares a common goal and passion, and they aspire to create unforgettable
+              Plant Bass'd events across Ireland and the UK.
+            </p>
+            <div className={styles.icons}>
+              {socialIcons.map(({ link, name }) => (
+                <Link
+                  href={link}
+                  key={link}
+                  className={styles.iconBox}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <Icon icon={name} styling={styles.socialIcon} />
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6 col-sm-12">
+          {ourTeam.map(({ img, link, name }) => (
             <>
-              <Icon icon={name} styling={styles.socialIcon} />
-              {name.toUpperCase()}
+              <Link key={name} href={link}>
+                <div className={`card ${styles.cardStyle}`}>
+                  <Picture alt={name} size={1000} src={`/news/${img}`} />
+                </div>
+              </Link>
+              <p className="smalltext">{name}</p>
             </>
-          </Link>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

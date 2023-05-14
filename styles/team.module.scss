@@ -1,0 +1,63 @@
+@use "@/abstracts" as *;
+
+.pageHeader {
+  text-align: center;
+  font-size: clamp(1.4rem, 8vw, 2.8rem);
+}
+
+.layout {
+  padding: 10vh 16%;
+}
+
+.aboutBG {
+  text-align: justify;
+  background-color: $lavender;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.stickyPosition {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.iconBox {
+  text-decoration: none;
+  color: $pbBlack;
+  transition: 0.25s ease;
+  display: inline-block;
+  &:hover {
+    color: $pbBlack;
+    transform: scale(1.1);
+    filter: drop-shadow(0px 6px 6px $dropShadow);
+  }
+}
+
+.socialIcon {
+  display: flex;
+  height: 2rem;
+  width: 2rem;
+  margin: 0.5rem;
+  fill: $headerBlack;
+  border-radius: 1em 0 1em 0;
+}
+
+@include breakpoint-below(xs) {
+  .socialIcon {
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+
+  .iconBox {
+    flex-direction: column;
+  }
+}

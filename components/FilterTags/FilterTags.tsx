@@ -13,10 +13,9 @@ interface TagProps {
 
 export const FilterTags = ({ tagList, handleTags }: FilterTagsProps) => {
   return (
-    <div className={styles.container} role="group">
-      <div>Filters:</div>
-
+    <div className="row g-3 mt-2 mb-4" role="group">
       <div className={styles.btnGroup}>
+        <p className="m-0 p-0">Filters:</p>
         {tagList
           ? tagList.map((tag) => (
               <button

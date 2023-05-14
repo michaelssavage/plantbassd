@@ -9,7 +9,7 @@ import Router from "next/router";
 import { useEffect, useState } from "react";
 import Sidebar from "components/Sidebar";
 import { ErrorFallback } from "components/Error";
-import Footer from "components/Footer";
+import { Footer } from "components/Footer";
 import { Loading } from "components/Loading";
 import { NewsletterContextProvider } from "context/newsletter.context";
 

@@ -1,3 +1,5 @@
+import { plantbassdInstagram } from "utils/constants";
+
 interface IconsProps {
   link: string;
   name: string;
@@ -9,7 +11,7 @@ export const socialIcons: IconsProps[] = [
     name: "facebook",
   },
   {
-    link: "https://www.instagram.com/plantbassd___/",
+    link: plantbassdInstagram,
     name: "instagram",
   },
   {

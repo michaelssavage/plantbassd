@@ -3,6 +3,7 @@ import { Card } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
 import Header from "components/Header";
 import { HoverLink } from "components/HoverLink";
+import { plantbassdInstagram } from "utils/constants";
 
 interface Props {
   news: AllPostProps[];
@@ -23,8 +24,7 @@ export const News = ({ news }: Props) => {
       <div className="row mb-2">
         <p>
           Catch the latest about new music, upcoming gigs & events, and more. Find more on our
-          Instagram,{" "}
-          <HoverLink url="instagram.com/plantbassd___" name="@plantbassd___" inline external />
+          Instagram, <HoverLink url={plantbassdInstagram} name="@plantbassd___" inline external />
         </p>
       </div>
 
