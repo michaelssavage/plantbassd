@@ -3,7 +3,7 @@ import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
-import { Card } from "components/Card";
+import { CardCover } from "components/Card";
 import styles from "styles/page.module.scss";
 import { SocialButton } from "components/Icon";
 import { AllPostProps } from "types/frontmatter";
@@ -43,7 +43,11 @@ export default function UnderTheRadarPage({
       </div>
       <div className="row g-3">
         {postCards.map((radar: AllPostProps) => (
-          <Card key={radar.frontmatter.name} link={`/under-the-radar/${radar.slug}`} post={radar} />
+          <CardCover
+            key={radar.frontmatter.name}
+            link={`/under-the-radar/${radar.slug}`}
+            post={radar.frontmatter}
+          />
         ))}
       </div>
     </div>

@@ -64,3 +64,62 @@
 .guestPics {
   padding: 2%;
 }
+
+//////////////////////////////// Card Cover
+
+.container {
+  position: relative;
+  perspective: 50em;
+  overflow: hidden;
+  background-color: #ebdce4;
+  img {
+    opacity: 1;
+    width: 100%;
+    transform-origin: 50% 100%;
+  }
+  .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: rotateX(-90deg);
+    transform-origin: 50% -50%;
+    z-index: 50;
+    opacity: 0;
+  }
+  &:hover {
+    img {
+      transform: rotateX(90deg);
+      opacity: 0;
+    }
+    .cover {
+      transform: rotateX(0deg);
+      opacity: 1;
+      transition-delay: 0.1s;
+    }
+  }
+}
+
+.container * {
+  transition: all 0.4s ease;
+}
+
+.cardBio {
+  font-size: $cardText;
+  max-height: 1.4rem;
+  margin-bottom: 0.75rem;
+}
+
+@media (max-width: 465px) {
+  .cardBio,
+  .cardTitle {
+    font-size: $cardDate;
+  }
+}
+
+@media (max-width: 378px) {
+  .cardBio,
+  .cardTitle {
+    font-size: 0.6rem;
+  }
+}

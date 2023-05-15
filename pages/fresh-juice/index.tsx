@@ -3,7 +3,7 @@ import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
-import { Card } from "components/Card";
+import { CardCover } from "components/Card";
 import styles from "styles/page.module.scss";
 import { SocialButton } from "components/Icon";
 import { AllPostProps } from "types/frontmatter";
@@ -40,7 +40,11 @@ export default function FreshJuicePage({
       </div>
       <div className="row g-3">
         {postCards.map((juice: AllPostProps) => (
-          <Card key={juice.frontmatter.name} link={`/fresh-juice/${juice.slug}`} post={juice} />
+          <CardCover
+            key={juice.frontmatter.name}
+            link={`/fresh-juice/${juice.slug}`}
+            post={juice.frontmatter}
+          />
         ))}
       </div>
       <div className="mt-2 text-end">{postCards.length} cards.</div>
