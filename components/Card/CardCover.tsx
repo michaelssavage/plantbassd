@@ -23,6 +23,7 @@ export const CardCover = (props: Props) => {
 
           <div className={`${styles.cover} card-body`}>
             <p className={styles.cardDate}>{post.date}</p>
+            <p className={styles.textInCover}>{post.title}</p>
             <p className={styles.cardBio}>{post.bio}</p>
           </div>
         </div>

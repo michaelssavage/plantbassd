@@ -30,7 +30,7 @@ export default function GigsSlug({
       <div className="row">
         {
           <Slug path={path} date={date} title={title} mdxSource={mdxSource}>
-            {ArtistLookUp(anames, djs)}
+            <ArtistLookUp anames={anames} djs={djs} />
           </Slug>
         }
         <CardWithButtons

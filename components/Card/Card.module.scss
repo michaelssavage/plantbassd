@@ -86,6 +86,7 @@
     transform-origin: 50% -50%;
     z-index: 50;
     opacity: 0;
+    padding: 0.75rem;
   }
   &:hover {
     img {
@@ -98,6 +99,12 @@
       transition-delay: 0.1s;
     }
   }
+}
+
+.textInCover {
+  font-weight: bold;
+  font-size: $paragraph - 0.1rem;
+  margin-bottom: 0.25rem;
 }
 
 .container * {
@@ -118,8 +125,10 @@
 }
 
 @media (max-width: 378px) {
-  .cardBio,
   .cardTitle {
     font-size: 0.6rem;
+  }
+  .cardBio {
+    display: none;
   }
 }
