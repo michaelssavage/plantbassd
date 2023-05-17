@@ -5,14 +5,14 @@
   margin-left: auto;
   margin-right: auto;
   transition: 0.25s ease;
+  .cardBody {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
   &:hover {
     opacity: 0.8;
     filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
   }
-}
-.cardBody {
-  text-overflow: ellipsis;
-  overflow: hidden;
 }
 .cardDate {
   font-size: $cardDate;
