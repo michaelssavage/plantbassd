@@ -1,3 +1,4 @@
-export * from "./CardOverlay";
-export * from "./CardWithButtons";
-export * from "./Card";
+export { CardOverlay } from "./CardOverlay";
+export { CardWithButtons } from "./CardWithButtons";
+export { Card } from "./Card";
+export { CardCover } from "./CardCover";

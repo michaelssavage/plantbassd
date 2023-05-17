@@ -3,7 +3,7 @@ import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
-import { Card } from "components/Card";
+import { CardCover } from "components/Card";
 import styles from "styles/page.module.scss";
 import { SocialButton } from "components/Icon";
 import { AllPostProps } from "types/frontmatter";
@@ -42,10 +42,10 @@ export default function PremieresPage({
       </div>
       <div className="row g-3">
         {postCards.map((premiere: AllPostProps) => (
-          <Card
+          <CardCover
             key={premiere.frontmatter.name}
             link={`/premieres/${premiere.slug}`}
-            post={premiere}
+            post={premiere.frontmatter}
           />
         ))}
       </div>

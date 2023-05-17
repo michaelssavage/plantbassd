@@ -5,7 +5,7 @@ import { sortByDate } from "utils";
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
 
-import { Card } from "components/Card";
+import { CardCover } from "components/Card";
 import styles from "styles/page.module.scss";
 
 import { AllPostProps } from "types/frontmatter";
@@ -40,10 +40,10 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
 
       <div className="row g-3">
         {filteredPosts.map((gig: AllPostProps) => (
-          <Card
+          <CardCover
             key={gig.frontmatter.name}
             link={`/${gig.frontmatter.path}/${gig.slug}`}
-            post={gig}
+            post={gig.frontmatter}
           />
         ))}
       </div>

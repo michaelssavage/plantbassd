@@ -97,9 +97,12 @@
 
 @include breakpoint-below(sm) {
   .header {
-    height: 7rem;
     width: 2.2rem;
     padding: 0 0.1rem;
+  }
+
+  .headerToggle {
+    font-size: $smHeader;
   }
 
   .navContainer {
