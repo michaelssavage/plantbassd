@@ -1,22 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import { Radio } from "components/Main";
-
-const post = [
-  {
-    slug: "slug",
-    frontmatter: {
-      listen: "listen",
-      title: "title",
-      name: "name",
-      date: "date",
-      pic: "/various/pb_black.png",
-      path: "path",
-      bio: "bio",
-      postLink: "postLink",
-    },
-  },
-];
+import { post } from "./PostExample";
 
 const renderUtil = () => {
   render(<Radio radios={post} />);

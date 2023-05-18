@@ -7,7 +7,7 @@ pic: "/fresh-juice/XX.jpg"
 bandcamp: "XX"
 postLink: "https://www.instagram.com/plantbassd___"
 bio: "XX"
-path: "fresh-juice"
+path: fresh-juice
 ---
 
 ### XXX
