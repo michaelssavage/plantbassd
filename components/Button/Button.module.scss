@@ -1,0 +1,40 @@
+@use "@/abstracts" as *;
+
+.button {
+  font-size: 1rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  text-decoration: none;
+  outline: 0;
+  color: $pbBlack;
+  border: 1px solid $pbBlack;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: border 0.5s;
+  &:after {
+    content: "";
+    background-color: rgba($plantbassdGreen, 0.4);
+    border-radius: 0.375rem;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    height: 100%;
+    top: 0.5rem;
+    left: 0.5rem;
+    transition: 0.2s;
+  }
+  &:hover {
+    color: $pbBlack;
+    border: 1px solid transparent;
+  }
+  &:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+}

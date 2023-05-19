@@ -1,5 +1,5 @@
 import { TiTick } from "react-icons/ti";
-import styles from "components/Newsletter/Newsletter.module.scss";
+import styles from "components/Signup/Signup.module.scss";
 import { Loading } from "components/Loading";
 import { HoverLink } from "components/HoverLink";
 import Header from "components/Header";

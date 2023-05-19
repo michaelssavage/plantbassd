@@ -4,7 +4,7 @@ import { Loading } from "components/Loading";
 import { NewsletterContext } from "context/newsletter.context";
 import { HoverLink } from "components/HoverLink";
 import { useNewsletter } from "hooks/useNewsletter.hook";
-import styles from "./Newsletter.module.scss";
+import styles from "./Signup.module.scss";
 
 export const Signup = ({ linktree }: { linktree?: boolean }) => {
   const { setShowNewsletter } = useContext(NewsletterContext);

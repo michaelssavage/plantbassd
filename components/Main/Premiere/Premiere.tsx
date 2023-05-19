@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Button } from "components/Button";
 import styles from "./Premiere.module.scss";
 
 export const Premiere = () => {
@@ -12,9 +12,7 @@ export const Premiere = () => {
             <p className={styles.profileText}>Listen here first to organic music releases.</p>
 
             <div className="col-auto ps-0">
-              <Link href="/premieres" className="text-nowrap btn btn-outline-dark" role="button">
-                More
-              </Link>
+              <Button to="/premieres" text="Hear More" />
             </div>
           </div>
         </div>

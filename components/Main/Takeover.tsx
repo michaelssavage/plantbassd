@@ -1,6 +1,6 @@
-import Link from "next/link";
 import { Card } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
+import { Button } from "components/Button";
 import Header from "../Header";
 
 interface Props {
@@ -13,9 +13,7 @@ export const Takeover = ({ takeovers }: Props) => {
       <div className="row mb-2 flex-nowrap justify-content-end align-items-center">
         <Header first="Takeovers" />
         <div className="col-auto">
-          <Link href="/takeovers" className="text-nowrap btn btn-outline-dark" role="button">
-            More
-          </Link>
+          <Button to="/takeovers" text="More" />
         </div>
       </div>
 

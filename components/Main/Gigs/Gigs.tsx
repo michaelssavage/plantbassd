@@ -1,7 +1,7 @@
 import Image from "next/legacy/image";
-import Link from "next/link";
 import { Picture } from "components/Picture";
 import Header from "components/Header";
+import { Button } from "components/Button";
 import styles from "./Gigs.module.scss";
 
 export const Gigs = () => {
@@ -30,9 +30,7 @@ export const Gigs = () => {
               <Header first="Gigs" />
 
               <div className="col-auto ps-0">
-                <Link href="/gigs" className="text-nowrap btn btn-outline-dark" role="button">
-                  More
-                </Link>
+                <Button to="/gigs" text="More" />
               </div>
             </div>
             <p>

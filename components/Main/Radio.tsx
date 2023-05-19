@@ -1,6 +1,6 @@
-import Link from "next/link";
 import { Card } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
+import { Button } from "components/Button";
 import Header from "../Header";
 
 interface Props {
@@ -14,9 +14,7 @@ export const Radio = ({ radios }: Props) => {
         <Header first="Radios" />
 
         <div className="col-auto ps-0">
-          <Link href="/radios" className="text-nowrap btn btn-outline-dark" role="button">
-            More
-          </Link>
+          <Button to="/radios" text="More" />
         </div>
       </div>
 

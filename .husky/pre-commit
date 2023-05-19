@@ -9,11 +9,11 @@ npm run lint ||
         false; 
 )
 
-# npm run build ||
-# (
-#         echo "Build Stage Failed. Make sure the server isn't running."
-#         false; 
-# )
+npm run test ||
+(
+        echo "Test stage Failed."
+        false; 
+)
 
 # If everything passes... Now we can commit
 echo "✅✅ Commit passed"
