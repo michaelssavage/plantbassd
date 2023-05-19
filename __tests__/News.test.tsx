@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import { News } from "components/Main";
-import { post } from "./PostExample";
+import { post } from "utils/testPost";
 
 const renderUtil = () => {
   render(<News news={post} />);
@@ -15,9 +15,7 @@ describe("News component", () => {
     const headerText = getByRole("heading", { name: /latest news/i });
     expect(headerText).toBeInTheDocument();
 
-    const bannerText = getByText(
-      /Catch the latest about new music, upcoming gigs & events, and more./i
-    );
+    const bannerText = getByText(/Find more on our Instagram/i);
     expect(bannerText).toBeInTheDocument();
   });
 

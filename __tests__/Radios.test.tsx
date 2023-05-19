@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
 import { Radio } from "components/Main";
-import { post } from "./PostExample";
+import { post } from "utils/testPost";
 
 const renderUtil = () => {
   render(<Radio radios={post} />);

@@ -10,7 +10,8 @@
     "lint.fix": "next lint --fix --ext md,mdx,ts,tsx",
     "export": "next export",
     "prepare": "husky install",
-    "test": "jest --watch"
+    "test": "jest",
+    "test.watch": "jest --watch"
   },
   "dependencies": {
     "bootstrap": "^5.2.3",

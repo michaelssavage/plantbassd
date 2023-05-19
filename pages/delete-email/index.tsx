@@ -1,7 +1,7 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import { TiTick } from "react-icons/ti";
 import { Loading } from "components/Loading";
-import styles from "components/Newsletter/Newsletter.module.scss";
+import styles from "components/Signup/Signup.module.scss";
 
 export default function DeleteEmail() {
   const [loading, setLoading] = useState(false);
