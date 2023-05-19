@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "components/Newsletter/Newsletter.module.scss";
+import styles from "components/Signup/Signup.module.scss";
 import Header from "components/Header";
 import { Picture } from "components/Picture";
 import PageTitle from "components/PageTitle";

@@ -1,14 +1,10 @@
-import { useContext } from "react";
 import { TiTick } from "react-icons/ti";
 import { Loading } from "components/Loading";
-import { NewsletterContext } from "context/newsletter.context";
 import { HoverLink } from "components/HoverLink";
 import { useNewsletter } from "hooks/useNewsletter.hook";
 import styles from "./Signup.module.scss";
 
 export const Signup = ({ linktree }: { linktree?: boolean }) => {
-  const { setShowNewsletter } = useContext(NewsletterContext);
-
   const {
     name,
     email,
@@ -87,18 +83,7 @@ export const Signup = ({ linktree }: { linktree?: boolean }) => {
         </label>
       </div>
       {error && <p className="errorText">{error}</p>}
-      <div className={styles.formButtons}>
-        {handleButtonView()}
-        {!linktree && (
-          <button
-            className="btn btn-outline-dark"
-            type="button"
-            onClick={() => setShowNewsletter(false)}
-          >
-            Close
-          </button>
-        )}
-      </div>
+      <div className={styles.formButtons}>{handleButtonView()}</div>
     </form>
   );
 };
