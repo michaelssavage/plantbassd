@@ -15,6 +15,12 @@ export const linkList: LinkProps[] = [
     description: "Brazilian hardcore bandito WHITE PRATA lands in for their Scottish debut",
   },
   {
+    title: "'Y' by Overkissed",
+    link: "https://soundcloud.com/plantbassddjs/premiere-overkissed-y",
+    name: "premieres",
+    img: "/premieres/47-overkissed.jpg",
+  },
+  {
     title: "Under the Radar: April",
     link: "https://www.plantbassd.com/under-the-radar/april-23",
     name: "news",
