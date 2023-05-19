@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 import styles from "styles/slug.module.scss";
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
-import { SoundCloud } from "components/SoundCloud";
+import { BandCamp, SoundCloud } from "components/MusicPlayers";
 
 interface SlugProps {
   path: string;
@@ -13,7 +13,7 @@ interface SlugProps {
   children?: ReactNode;
 }
 
-const components = { HoverLink, Picture, SoundCloud };
+const components = { HoverLink, Picture, SoundCloud, BandCamp };
 
 export const Slug = (props: SlugProps) => {
   const { path, date, title, mdxSource, children } = props;

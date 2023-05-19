@@ -1,12 +1,12 @@
 ---
 title: "FRESH JUICE: XX"
-name: "XX"
-date: "XX, 2023"
+name: XX
+date: XX, 2023
 tags: "fresh juice"
 pic: "/fresh-juice/XX.jpg"
-bandcamp: "XX"
+bandcamp: XX
 postLink: "https://www.instagram.com/plantbassd___"
-bio: "XX"
+bio: XX
 path: fresh-juice
 ---
 
