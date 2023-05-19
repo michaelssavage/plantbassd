@@ -1,9 +1,9 @@
-import Link from "next/link";
 import { Card } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
 import Header from "components/Header";
 import { HoverLink } from "components/HoverLink";
 import { plantbassdInstagram } from "utils/constants";
+import { Button } from "components/Button";
 
 interface Props {
   news: AllPostProps[];
@@ -15,16 +15,14 @@ export const News = ({ news }: Props) => {
       <div className="row mb-2 align-items-center">
         <Header first="Latest" second="News" />
         <div className="col-auto ps-0">
-          <Link href="/news" className="text-nowrap btn btn-outline-dark" role="button">
-            More
-          </Link>
+          <Button to="/news" text="More" />
         </div>
       </div>
 
       <div className="row mb-2">
         <p>
-          Catch the latest about new music, upcoming gigs & events, and more. Find more on our
-          Instagram, <HoverLink url={plantbassdInstagram} name="@plantbassd___" inline external />
+          Find more on our Instagram,{" "}
+          <HoverLink url={plantbassdInstagram} name="@plantbassd___" inline external />
         </p>
       </div>
 

@@ -37,7 +37,8 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
       <h1 className={styles.pageHeader}>Plant Bass'd News</h1>
 
       <p className={styles.pageText}>
-        News about club guides, gigs, and all things Plant Bass'd. Keep up to date on our Instagram,{" "}
+        Catch the latest about new music, upcoming gigs & events, and all things Plant Bass'd. Keep
+        up to date on our Instagram,{" "}
         <HoverLink url={plantbassdInstagram} name="@plantbassd___" inline external />
       </p>
 

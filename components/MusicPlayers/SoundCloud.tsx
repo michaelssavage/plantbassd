@@ -17,7 +17,7 @@ export const SoundCloud = ({ src, url, name }: Props) => {
     <>
       <iframe width="100%" height="300" allow="autoplay" src={src} />
       <div>
-        Stream <HoverLink url={url} name={name} inline external /> on Plant Bass'd SoundCloud
+        Stream <HoverLink url={url} name={name} inline external /> on our SoundCloud
       </div>
     </>
   );

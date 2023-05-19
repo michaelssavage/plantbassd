@@ -1,7 +1,7 @@
 import { links } from "arrays/footer-links";
 import { HoverLink } from "components/HoverLink";
 import { sortAlphabetically } from "utils";
-import { Signup } from "components/Newsletter/Signup";
+import { Signup } from "components/Signup";
 import styles from "./Footer.module.scss";
 
 export const Footer = () => {

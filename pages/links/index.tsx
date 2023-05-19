@@ -6,7 +6,7 @@ import { Icon } from "components/Icon";
 import Header from "components/Header";
 import styles from "styles/links.module.scss";
 import Error from "components/Error";
-import { Signup } from "components/Newsletter/Signup";
+import { Signup } from "components/Signup/Signup";
 import { Picture } from "components/Picture";
 import { HoverLink } from "components/HoverLink";
 import { useTagsFilter } from "hooks";
