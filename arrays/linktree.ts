@@ -8,11 +8,10 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "Gang of Bitches From Hell: WILD WEST (Thu, 18 May)",
-    link: "https://ra.co/events/1694179",
-    name: "tickets",
-    img: "/news/33-gobfh.jpg",
-    description: "Brazilian hardcore bandito WHITE PRATA lands in for their Scottish debut",
+    title: "FRESH JUICE: 'The End Of All Physical Form' by J-SHADOW",
+    link: "https://www.plantbassd.com/fresh-juice/j-shadow-19-5-23",
+    name: "fresh juice",
+    img: "/fresh-juice/66-j-shadow.jpg",
   },
   {
     title: "'Y' by Overkissed",

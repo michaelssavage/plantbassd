@@ -1,11 +1,11 @@
 ---
-month: "XX"
+month: XX
 name: "bandcamp under the radar XX"
-date: "XX, 2023"
-tags: "reviews"
+date: XX, 2023
+tags: reviews
 pic: "XX.jpg"
-bio: "XX"
-path: "under-the-radar"
+bio: XX
+path: under-the-radar
 ---
 
 <Content

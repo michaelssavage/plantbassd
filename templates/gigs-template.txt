@@ -6,8 +6,8 @@ pic: "/news/XX.jpg"
 tickets: "XX"
 postLink: "XX"
 bio: "XX"
-path: "gigs"
-tags: "gigs"
+path: gigs
+tags: gigs
 city: "XX"
 anames: ["XX", "XX", "XX", "XX"]
 ---

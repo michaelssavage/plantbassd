@@ -1,14 +1,14 @@
 ---
 title: "XX"
-name: "XX"
-date: "XX, 2023"
-tags: "premieres"
+name: XX
+date: XX, 2023
+tags: premieres
 pic: "/premieres/XX"
-listen: "Listen"
-seeMore: "XX"
-postLink: "https://www.instagram.com/plantbassd___"
-bio: XX"
-path: "premieres"
+listen: Listen
+seeMore: XX
+postLink: https://www.instagram.com/plantbassd___
+bio: XX
+path: premieres
 ---
 
 
