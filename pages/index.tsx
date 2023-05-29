@@ -10,9 +10,10 @@ interface HomeProps {
   takeovers: AllPostProps[];
   radios: AllPostProps[];
   freshjuice: AllPostProps[];
+  gigs: AllPostProps[];
 }
 
-export default function Home({ allPosts, takeovers, radios, freshjuice }: HomeProps) {
+export default function Home({ allPosts, takeovers, radios, freshjuice, gigs }: HomeProps) {
   return (
     <main>
       <PageTitle title="Plant Bass'd" />
@@ -24,7 +25,7 @@ export default function Home({ allPosts, takeovers, radios, freshjuice }: HomePr
 
       <FreshJuice freshjuice={freshjuice} />
 
-      <Gigs />
+      <Gigs gigs={gigs} />
 
       <div className="discoveryCards">
         <Takeover takeovers={takeovers} />
@@ -66,6 +67,7 @@ export async function getStaticProps() {
       freshjuice: files["fresh-juice"],
       radios: files["radios"],
       takeovers: files["takeovers"],
+      gigs: files["gigs"],
     },
   };
 }

@@ -30,7 +30,6 @@ export default function TeamPage() {
             </p>
             <div className="row">
               <div className={styles.icons}>
-                <p className="p-0 m-0">Get In Touch:</p>
                 {socialIcons.map(({ link, name }) => (
                   <Link
                     href={link}
@@ -54,7 +53,7 @@ export default function TeamPage() {
                   <Picture alt={name} size={1000} src={`/news/${img}`} />
                 </div>
               </Link>
-              <p className="smalltext">{name}</p>
+              <p className="smallTextForTeamPics">{name}</p>
             </>
           ))}
         </div>

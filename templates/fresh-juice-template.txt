@@ -15,13 +15,13 @@ path: fresh-juice
 Buy/ Stream here: <HoverLink url="XX" inline external />
 
 <Picture src="/fresh-juice/XXX.jpg" alt="XXX album art" size={1200} />
-<i className="smallText">Words by Oisín Campbell/ Design by Michael Savage</i>
+<p className="smallText">Words by Oisín Campbell/ Design by Michael Savage</p> 
 
 <hr/>
 
 _XXX_
 
 <Picture src="/fresh-juice/XX.jpg" alt="XXX cover pic" size={1200} />
-<i className="smallText">XXX</i>
+<p className="smallText">XXX</p> 
 
 _XXX_

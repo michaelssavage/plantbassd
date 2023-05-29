@@ -12,6 +12,12 @@
   src: local("Molengo"), url("/fonts/Molengo-Regular.ttf");
 }
 
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat";
+  src: local("Montserrat"), url("/fonts/Montserrat-LightItalic.ttf");
+}
+
 * {
   box-sizing: border-box;
   font-family: "Molengo", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
@@ -55,6 +61,7 @@ h2 {
 }
 
 h3 {
+  font-family: "Montserrat";
   font-size: $heading3;
 }
 
@@ -63,6 +70,18 @@ p {
 }
 
 .smallText {
+  font-size: $cardText;
+  font-style: italic;
+  margin-bottom: 0.5em;
+}
+
+@include breakpoint-below(md) {
+  .smallText {
+    font-size: calc(0.6rem + 1vw);
+  }
+}
+
+.smallTextForTeamPics {
   font-size: $cardText;
 }
 

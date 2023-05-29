@@ -22,10 +22,6 @@
 }
 
 @include breakpoint-below(md) {
-  .postTitle {
-    font-size: calc(1.3rem + 1vw);
-  }
-
   .newsImage {
     margin: 0.5rem 0.5rem 0 0.5rem;
     text-align: center;
@@ -35,7 +31,10 @@
     padding: 0 2.5rem;
     margin: 0;
     p {
-      font-size: calc(0.6rem + 1vw);
+      font-size: calc(0.75rem + 1vw);
+    }
+    h3 {
+      font-size: calc(1rem + 1vw);
     }
   }
   .newsSection {
