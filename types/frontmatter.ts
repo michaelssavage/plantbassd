@@ -54,11 +54,14 @@ interface ITopTen extends Omit<Frontmatter, "postLink"> {
 }
 
 export interface CardProps {
+  slug?: string;
   frontmatter: {
     title: string;
     pic: string;
     date?: string;
     bio?: string;
+    path?: string;
+    name?: string;
   };
 }
 

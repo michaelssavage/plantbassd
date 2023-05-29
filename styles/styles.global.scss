@@ -189,6 +189,7 @@ p {
   position: relative;
 }
 
+// used by Celtronic post
 .imgOverlay {
   position: absolute;
   top: 0;
@@ -198,11 +199,12 @@ p {
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: 0.25s ease;
+  transition: 0.2s ease;
 }
 
 .guestOverlay {
-  background-color: $navBlue;
+  background-color: $pbWhite;
+  padding: 2rem 1rem;
   @extend .imgOverlay;
 }
 
@@ -212,10 +214,10 @@ p {
 }
 
 .imgContainer:hover .imgOverlay {
-  opacity: 0.9;
+  opacity: 1;
 }
 
-.imgTextOverlay {
+.textToDisplay {
   color: $pbWhite;
   font-size: $heading3;
   position: absolute;
@@ -227,10 +229,8 @@ p {
   text-align: center;
 }
 
-.guestTextOverlay {
-  font-size: $cardText;
-  word-break: keep-all;
-  @extend .imgTextOverlay;
+.cardTextToDisplay {
+  color: $pbBlack;
 }
 
 .navIcon {

@@ -19,11 +19,8 @@ export const GuestCard = (cards: GuestCardProps[]) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className={`card imgContainer ${styles.cardStyle}`}>
+              <div className={`card ${styles.cardStyle}`}>
                 <Picture alt={guest.name} size={300} src={`/news/${guest.img}`} />
-                <div className="guestOverlay">
-                  <div className="guestTextOverlay">{guest.name}</div>
-                </div>
               </div>
             </Link>
             <p className="nameAnchor">{guest.name}</p>

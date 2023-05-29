@@ -1,9 +1,10 @@
 import { render, screen } from "@testing-library/react";
 import { Gigs } from "components/Main";
 import "@testing-library/jest-dom";
+import { gigPost } from "utils/testPost";
 
 const renderUtil = () => {
-  render(<Gigs />);
+  render(<Gigs gigs={gigPost} />);
 };
 
 describe("Gigs component", () => {
@@ -25,10 +26,10 @@ describe("Gigs component", () => {
   it("should render two images", () => {
     renderUtil();
 
-    const mellGImg = getByRole("img", { name: /DJ Mell G gig poster/i });
-    expect(mellGImg).toBeInTheDocument();
+    const picture1 = getByRole("img", { name: /black picture 1/i });
+    expect(picture1).toBeInTheDocument();
 
-    const kesslerImg = getByRole("img", { name: /Kessler gig poster/i });
-    expect(kesslerImg).toBeInTheDocument();
+    const picture2 = getByRole("img", { name: /white picture 2/i });
+    expect(picture2).toBeInTheDocument();
   });
 });

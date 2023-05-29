@@ -6,6 +6,7 @@ tags: reviews
 pic: "XX.jpg"
 bio: XX
 path: under-the-radar
+title: "Under The Radar: XX"
 ---
 
 <Content

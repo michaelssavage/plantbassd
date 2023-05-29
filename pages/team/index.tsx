@@ -49,9 +49,7 @@ export default function TeamPage() {
           {ourTeam.map(({ img, link, name }) => (
             <>
               <Link key={name} href={link}>
-                <div className={`card ${styles.cardStyle}`}>
-                  <Picture alt={name} size={1000} src={`/news/${img}`} />
-                </div>
+                <Picture alt={name} size={1000} src={`/news/${img}`} />
               </Link>
               <p className="smallTextForTeamPics">{name}</p>
             </>
