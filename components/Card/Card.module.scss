@@ -35,6 +35,18 @@
   }
 }
 
+@include breakpoint-below(sm) {
+  .widthOverride {
+    margin: 0.5rem;
+  }
+}
+
+@include breakpoint-below(xxs) {
+  .widthOverride {
+    margin: 0.5rem 0;
+  }
+}
+
 .cardStyle {
   transition: 0.25s ease;
   .cardBody {

@@ -39,3 +39,17 @@
     left: 0px;
   }
 }
+
+@include breakpoint-below(sm) {
+  .button {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
+
+@include breakpoint-below(xs) {
+  .button {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.4rem;
+  }
+}
