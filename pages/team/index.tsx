@@ -6,6 +6,7 @@ import { Picture } from "components/Picture";
 import styles from "styles/team.module.scss";
 import { ourTeam } from "arrays/our-team";
 import PageTitle from "components/PageTitle";
+import card from "components/Card/Card.module.scss";
 
 export default function TeamPage() {
   return (
@@ -47,7 +48,7 @@ export default function TeamPage() {
         </div>
         <div className="col-md-6 col-sm-12">
           {ourTeam.map(({ img, link, name }) => (
-            <div key={name}>
+            <div key={name} className={card.cardStyle}>
               <Link href={link}>
                 <Picture alt={name} size={1000} src={`/news/${img}`} />
               </Link>

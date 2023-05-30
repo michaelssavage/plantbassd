@@ -4,6 +4,7 @@ import { Picture } from "components/Picture";
 import Header from "components/Header";
 import { Button } from "components/Button";
 import { AllPostProps } from "types/frontmatter";
+import card from "components/Card/Card.module.scss";
 import styles from "./Gigs.module.scss";
 
 interface Props {
@@ -17,12 +18,12 @@ export const Gigs = ({ gigs }: Props) => {
         <div className="col-lg-6 col-md-12 order-lg-1 order-2">
           <div className={styles.mixImages}>
             <Link href={`gigs/${gigs[1].slug}`}>
-              <div className={styles.topImage}>
+              <div className={`${styles.topImage} ${card.cardStyle}`}>
                 <Picture alt={gigs[1].frontmatter.title} size={360} src={gigs[1].frontmatter.pic} />
               </div>
             </Link>
             <Link href={`gigs/${gigs[0].slug}`}>
-              <div className={styles.bottomImage}>
+              <div className={`${styles.bottomImage} ${card.cardStyle}`}>
                 <Image
                   alt={gigs[0].frontmatter.title}
                   height={360}
