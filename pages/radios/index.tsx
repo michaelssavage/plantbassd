@@ -3,7 +3,7 @@ import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
-import { Card } from "components/Card";
+import { CardCover } from "components/Card";
 import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
@@ -41,7 +41,11 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
       </div>
       <div className="row g-3">
         {postCards.map((radio: AllPostProps) => (
-          <Card key={radio.frontmatter.name} link={`/radios/${radio.slug}`} post={radio} />
+          <CardCover
+            key={radio.frontmatter.name}
+            link={`/radios/${radio.slug}`}
+            post={radio.frontmatter}
+          />
         ))}
       </div>
       <div className="mt-2 text-end">{postCards.length} cards.</div>

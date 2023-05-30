@@ -1,4 +1,4 @@
-import { Card } from "components/Card";
+import { SimpleCard } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
 import { Button } from "components/Button";
 import Header from "../Header";
@@ -24,7 +24,7 @@ export const Radio = ({ radios }: Props) => {
 
       <div className="row g-2">
         {radios.map((artist) => (
-          <Card
+          <SimpleCard
             key={artist.frontmatter.name}
             link={`/radios/${artist.slug}`}
             post={artist}

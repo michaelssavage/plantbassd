@@ -41,7 +41,6 @@ interface ITakeover extends Frontmatter {
 }
 
 interface IRadio extends Omit<Frontmatter, "postLink"> {
-  tracklist: string;
   artistPage: string;
   mixLink: string;
 }
@@ -54,11 +53,14 @@ interface ITopTen extends Omit<Frontmatter, "postLink"> {
 }
 
 export interface CardProps {
+  slug?: string;
   frontmatter: {
     title: string;
     pic: string;
     date?: string;
     bio?: string;
+    path?: string;
+    name?: string;
   };
 }
 

@@ -1,6 +1,6 @@
-import { Card } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
 import { Button } from "components/Button";
+import { SimpleCard } from "components/Card";
 import Header from "../Header";
 
 interface Props {
@@ -24,7 +24,11 @@ export const FreshJuice = ({ freshjuice }: Props) => {
 
       <div className="row g-2">
         {freshjuice.map((artist) => (
-          <Card key={artist.frontmatter.name} link={`/fresh-juice/${artist.slug}`} post={artist} />
+          <SimpleCard
+            key={artist.frontmatter.name}
+            link={`/fresh-juice/${artist.slug}`}
+            post={artist}
+          />
         ))}
       </div>
     </section>

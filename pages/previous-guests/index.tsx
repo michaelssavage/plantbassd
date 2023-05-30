@@ -1,5 +1,5 @@
 import { guestList, headliners } from "arrays/previous-guests";
-import { CardOverlay } from "components/Card";
+import { GuestCard } from "components/Card";
 import Error from "components/Error";
 import PageTitle from "components/PageTitle";
 import { SearchBox } from "components/SearchBox";
@@ -30,12 +30,12 @@ export default function PreviousGuestsPage() {
       />
 
       {filter ? (
-        CardOverlay(postCards.sort(sortAlphabetically))
+        GuestCard(postCards.sort(sortAlphabetically))
       ) : (
         <>
-          {CardOverlay(headliners.sort(sortAlphabetically))}
+          {GuestCard(headliners.sort(sortAlphabetically))}
           <hr />
-          {CardOverlay(guestList.sort(sortAlphabetically))}
+          {GuestCard(guestList.sort(sortAlphabetically))}
         </>
       )}
     </div>

@@ -30,7 +30,6 @@ export default function TeamPage() {
             </p>
             <div className="row">
               <div className={styles.icons}>
-                <p className="p-0 m-0">Get In Touch:</p>
                 {socialIcons.map(({ link, name }) => (
                   <Link
                     href={link}
@@ -48,14 +47,12 @@ export default function TeamPage() {
         </div>
         <div className="col-md-6 col-sm-12">
           {ourTeam.map(({ img, link, name }) => (
-            <>
-              <Link key={name} href={link}>
-                <div className={`card ${styles.cardStyle}`}>
-                  <Picture alt={name} size={1000} src={`/news/${img}`} />
-                </div>
+            <div key={name}>
+              <Link href={link}>
+                <Picture alt={name} size={1000} src={`/news/${img}`} />
               </Link>
-              <p className="smalltext">{name}</p>
-            </>
+              <p className="smallTextForTeamPics">{name}</p>
+            </div>
           ))}
         </div>
       </div>

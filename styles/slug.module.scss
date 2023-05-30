@@ -5,37 +5,22 @@
   padding: 0 0.5rem;
 }
 
-.newsImage {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 2rem;
-  margin: 0 0.5rem;
-}
-
-.button {
-  padding-top: 1rem;
-  text-align: center;
-}
-
 .postContent {
   padding: 0 0 0 4rem;
+  div img {
+    margin-bottom: 1rem;
+  }
 }
 
 @include breakpoint-below(md) {
-  .postTitle {
-    font-size: calc(1.3rem + 1vw);
-  }
-
-  .newsImage {
-    margin: 0.5rem 0.5rem 0 0.5rem;
-    text-align: center;
-  }
-
   .postContent {
     padding: 0 2.5rem;
     margin: 0;
     p {
-      font-size: calc(0.6rem + 1vw);
+      font-size: calc(0.75rem + 1vw);
+    }
+    h3 {
+      font-size: calc(1rem + 1vw);
     }
   }
   .newsSection {
@@ -45,5 +30,4 @@
 
 .imgWrapper {
   padding: 0.5rem 0;
-  text-align: center;
 }

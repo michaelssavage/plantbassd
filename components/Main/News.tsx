@@ -1,9 +1,9 @@
-import { Card } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
 import Header from "components/Header";
 import { HoverLink } from "components/HoverLink";
 import { plantbassdInstagram } from "utils/constants";
 import { Button } from "components/Button";
+import { TextCard } from "components/Card";
 
 interface Props {
   news: AllPostProps[];
@@ -28,11 +28,10 @@ export const News = ({ news }: Props) => {
 
       <div className="row g-2">
         {news.map((story) => (
-          <Card
+          <TextCard
             key={story.frontmatter.name}
             link={`/${story.frontmatter.path}/${story.slug}`}
             post={story}
-            text
           />
         ))}
       </div>

@@ -1,19 +1,54 @@
 @use "@/abstracts" as *;
 
+// sticky side image
+
+.newsImage {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2rem;
+  margin: 0 0.5rem;
+}
+
+.widthOverride {
+  margin: 0.5rem 0;
+  div:first-child {
+    padding-left: 0;
+    padding-right: 0.5rem;
+  }
+  div:last-child {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  div a {
+    width: 100% !important;
+  }
+}
+
+@include breakpoint-below(md) {
+  .newsImage {
+    margin-top: 0.5rem 0.5rem 0 0.5rem;
+    text-align: center;
+  }
+
+  .widthOverride {
+    margin: 0.5rem 4rem;
+  }
+}
+
 .cardStyle {
-  cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
   transition: 0.25s ease;
   .cardBody {
     text-overflow: ellipsis;
     overflow: hidden;
   }
+
   &:hover {
-    opacity: 0.8;
+    transform: scale(1.04);
+    opacity: 0.9;
     filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
   }
 }
+
 .cardDate {
   font-size: $cardDate;
   color: rgba(0, 0, 0, 0.75);
@@ -38,27 +73,6 @@
     max-height: 8rem;
     padding: 0.5rem;
   }
-}
-
-.imgContainer {
-  position: relative;
-}
-
-.imgOverlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.25s ease;
-  background-color: $soundcloud;
-}
-
-.imgContainer:hover .imgOverlay {
-  opacity: 1;
 }
 
 .guestPics {
@@ -117,10 +131,20 @@
   margin-bottom: 0.75rem;
 }
 
+.cardReadMore {
+  font-size: $cardDate;
+  color: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  bottom: 0;
+}
+
 @media (max-width: 465px) {
   .cardBio,
   .cardTitle {
     font-size: $cardDate;
+  }
+  .cardReadMore {
+    display: none;
   }
 }
 

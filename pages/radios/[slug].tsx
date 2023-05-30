@@ -1,6 +1,5 @@
 import { InferGetStaticPropsType } from "next";
-import { CardWithButtons } from "components/Card";
-import { Picture } from "components/Picture";
+import { StickyCard } from "components/Card";
 import styles from "styles/slug.module.scss";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
@@ -11,20 +10,14 @@ export default function RadioSlug({
   mdxSource,
   frontmatter,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { title, date, pic, tracklist, artistPage, mixLink, path } = frontmatter;
+  const { title, date, pic, artistPage, mixLink, path } = frontmatter;
   return (
     <div className={styles.newsSection}>
       <PageTitle title={title} />
       <div className="row">
-        {
-          <Slug path={path} date={date} title={title} mdxSource={mdxSource}>
-            <div className={styles.imgWrapper}>
-              <Picture alt="artist tracklist" size={600} src={tracklist} />
-            </div>
-          </Slug>
-        }
+        <Slug path={path} date={date} title={title} mdxSource={mdxSource} />
 
-        <CardWithButtons
+        <StickyCard
           artist="Artist's Insta"
           insta="Listen Now"
           link={mixLink}

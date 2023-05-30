@@ -6,13 +6,16 @@ tags: reviews
 pic: "XX.jpg"
 bio: XX
 path: under-the-radar
+title: "Under The Radar: XX"
 ---
 
-<Content
+<MusicRelease
   pic="/under-the-radar/XX/XX"
   title="XX"
   link="XX"
   description="XX"
   standout="XX"
   tags="XX"
-/>
+>
+XX
+</MusicRelease>

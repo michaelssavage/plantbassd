@@ -20,9 +20,7 @@ export default function Guides({
       <PageTitle title="Reviews" />
       <div className={`col ${styles.topTenContent}`}>
         <h1 className={styles.postTitle}>{title}</h1>
-        <div className={styles.postBody}>
-          <MDXRemote {...mdxSource} components={components} />
-        </div>
+        <MDXRemote {...mdxSource} components={components} />
       </div>
     </div>
   );

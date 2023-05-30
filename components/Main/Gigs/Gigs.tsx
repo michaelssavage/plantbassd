@@ -1,26 +1,36 @@
 import Image from "next/legacy/image";
+import Link from "next/link";
 import { Picture } from "components/Picture";
 import Header from "components/Header";
 import { Button } from "components/Button";
+import { AllPostProps } from "types/frontmatter";
 import styles from "./Gigs.module.scss";
 
-export const Gigs = () => {
+interface Props {
+  gigs: AllPostProps[];
+}
+
+export const Gigs = ({ gigs }: Props) => {
   return (
     <section className="mixSection">
       <div className="row align-items-center">
         <div className="col-lg-6 col-md-12 order-lg-1 order-2">
           <div className={styles.mixImages}>
-            <div className={styles.topImage}>
-              <Picture alt="Kessler gig poster" size={360} src="/news/30-kessler.jpg" />
-            </div>
-            <div className={styles.bottomImage}>
-              <Image
-                alt="DJ Mell G gig poster"
-                height={360}
-                src="/news/24-mell-g.jpg"
-                width={360}
-              />
-            </div>
+            <Link href={`gigs/${gigs[1].slug}`}>
+              <div className={styles.topImage}>
+                <Picture alt={gigs[1].frontmatter.title} size={360} src={gigs[1].frontmatter.pic} />
+              </div>
+            </Link>
+            <Link href={`gigs/${gigs[0].slug}`}>
+              <div className={styles.bottomImage}>
+                <Image
+                  alt={gigs[0].frontmatter.title}
+                  height={360}
+                  src={gigs[0].frontmatter.pic}
+                  width={360}
+                />
+              </div>
+            </Link>
           </div>
         </div>
 
