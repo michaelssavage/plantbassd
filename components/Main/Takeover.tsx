@@ -1,4 +1,4 @@
-import { Card } from "components/Card";
+import { SimpleCard } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
 import { Button } from "components/Button";
 import Header from "../Header";
@@ -23,7 +23,7 @@ export const Takeover = ({ takeovers }: Props) => {
 
       <div className="row g-2">
         {takeovers.map((artist) => (
-          <Card
+          <SimpleCard
             key={artist.frontmatter.name}
             link={`/takeovers/${artist.slug}`}
             post={artist}

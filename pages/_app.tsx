@@ -1,6 +1,5 @@
 import "../styles/styles.global.scss"; // eslint-disable-line
 import "bootstrap/dist/css/bootstrap.min.css"; // eslint-disable-line
-import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css"; // eslint-disable-line
 import { Analytics } from "@vercel/analytics/react";
 import Head from "next/head";
 import type { AppProps } from "next/app";

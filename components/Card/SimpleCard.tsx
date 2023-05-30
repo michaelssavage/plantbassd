@@ -10,19 +10,13 @@ interface Props {
   text?: boolean;
 }
 
-export const Card = (props: Props) => {
-  const { post, link, columns = "col-6 col-sm-6 col-md-6 col-lg-3", text } = props;
+export const SimpleCard = (props: Props) => {
+  const { post, link, columns = "col-6 col-sm-6 col-md-6 col-lg-3" } = props;
   return (
     <div className={columns}>
       <Link href={link} className="anchorColor">
-        <div className={`card ${styles.cardStyle}`}>
+        <div className={`card h-100 ${styles.cardStyle}`}>
           <Picture alt={post.frontmatter.title} size={500} src={post.frontmatter.pic} />
-          {text && (
-            <div className={`${styles.cardBody} card-body`}>
-              <p className={styles.cardDate}>{post.frontmatter.date}</p>
-              <p className={styles.cardTitle}>{post.frontmatter.bio}...</p>
-            </div>
-          )}
         </div>
       </Link>
     </div>

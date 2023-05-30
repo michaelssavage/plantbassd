@@ -1,4 +1,5 @@
 export { GuestCard } from "./GuestCard";
-export { CardWithButtons } from "./CardWithButtons";
-export { Card } from "./Card";
+export { StickyCard } from "./StickyCard";
+export { TextCard } from "./TextCard";
+export { SimpleCard } from "./SimpleCard";
 export { CardCover } from "./CardCover";

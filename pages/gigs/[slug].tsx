@@ -1,5 +1,5 @@
 import { InferGetStaticPropsType } from "next";
-import { CardWithButtons } from "components/Card";
+import { StickyCard } from "components/Card";
 import styles from "styles/slug.module.scss";
 import { StaticProps } from "types/frontmatter";
 import { guestList, headliners } from "arrays/previous-guests";
@@ -33,7 +33,7 @@ export default function GigsSlug({
             <ArtistLookUp anames={anames} djs={djs} />
           </Slug>
         }
-        <CardWithButtons
+        <StickyCard
           artist={buyText}
           insta="Instagram"
           link={postLink}

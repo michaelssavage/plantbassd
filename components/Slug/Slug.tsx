@@ -32,7 +32,7 @@ export const Slug = (props: SlugProps) => {
       </p>
       <p className={styles.postDate}>Posted on {date}</p>
       <h1 className={styles.postTitle}>{title}</h1>
-      <MDXRemote {...mdxSource} components={components} />
+      <MDXRemote {...mdxSource} components={components} lazy />
       {children}
     </div>
   );

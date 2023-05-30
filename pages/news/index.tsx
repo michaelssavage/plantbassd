@@ -4,7 +4,7 @@ import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
-import { CardCover } from "components/Card";
+import { TextCard } from "components/Card";
 import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { useTagsFilter } from "hooks";
@@ -46,10 +46,11 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
 
       <div className="row g-3">
         {filteredPosts.slice(0, 24).map((story: AllPostProps) => (
-          <CardCover
+          <TextCard
             key={story.frontmatter.name}
             link={`/${story.frontmatter.path}/${story.slug}`}
-            post={story.frontmatter}
+            post={story}
+            text
           />
         ))}
       </div>

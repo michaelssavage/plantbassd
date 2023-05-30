@@ -1,4 +1,7 @@
+import dynamic from "next/dynamic";
 import { HoverLink } from "components/HoverLink";
+
+const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 
 interface Props {
   src: string;
@@ -8,14 +11,13 @@ interface Props {
 
 /**
  *
- * @param src = embedded player src
  * @param url = soundcloud url
  * @param name = name of track
  */
-export const SoundCloud = ({ src, url, name }: Props) => {
+export const SoundCloud = ({ url, name }: Props) => {
   return (
     <>
-      <iframe width="100%" height="300" allow="autoplay" src={src} />
+      <ReactPlayer url={url} width="100%" height="500px" controls />
       <div>
         Stream <HoverLink url={url} name={name} inline external /> on our SoundCloud
       </div>

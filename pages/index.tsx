@@ -65,8 +65,8 @@ export async function getStaticProps() {
     props: {
       allPosts,
       freshjuice: files["fresh-juice"],
-      radios: files["radios"],
-      takeovers: files["takeovers"],
+      radios: files["radios"].splice(0, 2),
+      takeovers: files["takeovers"].splice(0, 2),
       gigs: files["gigs"],
     },
   };

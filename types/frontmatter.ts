@@ -41,7 +41,6 @@ interface ITakeover extends Frontmatter {
 }
 
 interface IRadio extends Omit<Frontmatter, "postLink"> {
-  tracklist: string;
   artistPage: string;
   mixLink: string;
 }

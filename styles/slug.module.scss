@@ -5,28 +5,14 @@
   padding: 0 0.5rem;
 }
 
-.newsImage {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 2rem;
-  margin: 0 0.5rem;
-}
-
-.button {
-  padding-top: 1rem;
-  text-align: center;
-}
-
 .postContent {
   padding: 0 0 0 4rem;
+  div img {
+    margin-bottom: 1rem;
+  }
 }
 
 @include breakpoint-below(md) {
-  .newsImage {
-    margin: 0.5rem 0.5rem 0 0.5rem;
-    text-align: center;
-  }
-
   .postContent {
     padding: 0 2.5rem;
     margin: 0;
@@ -44,5 +30,4 @@
 
 .imgWrapper {
   padding: 0.5rem 0;
-  text-align: center;
 }

@@ -1,11 +1,13 @@
 import { InferGetStaticPropsType } from "next";
-import LiteYouTubeEmbed from "react-lite-youtube-embed";
-import { CardWithButtons } from "components/Card";
+import dynamic from "next/dynamic";
+import { StickyCard } from "components/Card";
 import styles from "styles/slug.module.scss";
 import { Slug } from "components/Slug";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import PageTitle from "components/PageTitle";
+
+const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 
 export default function PremieresSlug({
   mdxSource,
@@ -18,7 +20,7 @@ export default function PremieresSlug({
       <PageTitle title={title} />
       <div className="row">
         {Slug({ path, date, title, mdxSource })}
-        <CardWithButtons
+        <StickyCard
           artist={listen}
           insta="Instagram"
           link={postLink}
@@ -29,7 +31,7 @@ export default function PremieresSlug({
       </div>
       {youtube && (
         <div className="row mt-5">
-          <LiteYouTubeEmbed id={youtube} title={title} />
+          <ReactPlayer url={youtube} width="100%" height="500px" controls />
         </div>
       )}
     </div>

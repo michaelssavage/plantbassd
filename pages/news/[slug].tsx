@@ -1,5 +1,5 @@
 import { InferGetStaticPropsType } from "next";
-import { CardWithButtons } from "components/Card";
+import { StickyCard } from "components/Card";
 import styles from "styles/slug.module.scss";
 import { Slug } from "components/Slug";
 import { StaticProps } from "types/frontmatter";
@@ -25,7 +25,7 @@ export default function NewsSlug({
       <PageTitle title={title} />
       <div className="row">
         {Slug({ path, date, title, mdxSource })}
-        <CardWithButtons
+        <StickyCard
           artist={buyText}
           insta="Instagram"
           link={postLink}

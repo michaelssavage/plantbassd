@@ -13,6 +13,9 @@ interface MusicReleaseProps {
   standout?: string;
 }
 
+/**
+ * MusicRelease is used in the under the radar series
+ */
 export const MusicRelease = (props: MusicReleaseProps) => {
   const { title, titleLink, titleLabel, pic, link, standout, tags, children } = props;
 

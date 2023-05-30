@@ -1,9 +1,41 @@
 @use "@/abstracts" as *;
 
+// sticky side image
+
+.newsImage {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2rem;
+  margin: 0 0.5rem;
+}
+
+.widthOverride {
+  margin: 0.5rem 0;
+  div:first-child {
+    padding-left: 0;
+    padding-right: 0.5rem;
+  }
+  div:last-child {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  div a {
+    width: 100% !important;
+  }
+}
+
+@include breakpoint-below(md) {
+  .newsImage {
+    margin-top: 0.5rem 0.5rem 0 0.5rem;
+    text-align: center;
+  }
+
+  .widthOverride {
+    margin: 0.5rem 4rem;
+  }
+}
+
 .cardStyle {
-  cursor: pointer;
-  margin-left: auto;
-  margin-right: auto;
   transition: 0.25s ease;
   .cardBody {
     text-overflow: ellipsis;
@@ -11,7 +43,8 @@
   }
 
   &:hover {
-    opacity: 0.8;
+    transform: scale(1.04);
+    opacity: 0.9;
     filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
   }
 }

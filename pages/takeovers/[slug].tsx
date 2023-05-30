@@ -1,5 +1,5 @@
 import { InferGetStaticPropsType } from "next";
-import { CardWithButtons } from "components/Card";
+import { StickyCard } from "components/Card";
 import styles from "styles/slug.module.scss";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
@@ -17,7 +17,7 @@ export default function TakeoverSlug({
       <div className="row">
         {Slug({ path, date, title, mdxSource })}
 
-        <CardWithButtons
+        <StickyCard
           artist="Artist's Insta"
           insta="Instagram"
           link={postLink}

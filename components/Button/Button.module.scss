@@ -17,6 +17,7 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   transition: border 0.5s;
+  display: inline-block;
   &:after {
     content: "";
     background-color: rgba($plantbassdGreen, 0.4);
