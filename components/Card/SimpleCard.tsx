@@ -16,7 +16,12 @@ export const SimpleCard = (props: Props) => {
     <div className={columns}>
       <Link href={link} className="anchorColor">
         <div className={`card h-100 ${styles.cardStyle}`}>
-          <Picture alt={post.frontmatter.title} size={500} src={post.frontmatter.pic} />
+          <Picture
+            alt={post.frontmatter.title}
+            size={500}
+            src={post.frontmatter.pic}
+            style={{ borderRadius: "0.375rem" }}
+          />
         </div>
       </Link>
     </div>

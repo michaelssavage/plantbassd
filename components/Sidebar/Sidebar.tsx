@@ -18,7 +18,7 @@ function Listing({ link, onClick, title }: ListingProps) {
   const className = router.pathname === `${link}` ? `${styles.activeLink}` : `${styles.navLink}`;
   return (
     <Link href={link} className="anchor">
-      <div className={className} onClick={onClick}>
+      <div tabIndex={0} className={className} onClick={onClick}>
         <Icon icon={title} styling={styles.navIcon} />
         <span className={styles.navName}>{title}</span>
       </div>

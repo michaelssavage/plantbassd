@@ -47,12 +47,12 @@ export default function TeamPage() {
         </div>
         <div className="col-md-6 col-sm-12">
           {ourTeam.map(({ img, link, name }) => (
-            <>
-              <Link key={name} href={link}>
+            <div key={name}>
+              <Link href={link}>
                 <Picture alt={name} size={1000} src={`/news/${img}`} />
               </Link>
               <p className="smallTextForTeamPics">{name}</p>
-            </>
+            </div>
           ))}
         </div>
       </div>
