@@ -3,12 +3,12 @@ import { MDXRemote } from "next-mdx-remote";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import styles from "styles/top-ten.module.scss";
-import { Content, MusicRelease } from "components/Slug";
+import { MusicRelease } from "components/Slug";
 import { Picture } from "components/Picture";
 import { HoverLink } from "components/HoverLink";
 import PageTitle from "components/PageTitle";
 
-const components = { Content, MusicRelease };
+const components = { MusicRelease };
 
 export default function UnderTheRadarSlug(props: InferGetStaticPropsType<typeof getStaticProps>) {
   const { month, date, bio, pic, mdxSource, path } = props;

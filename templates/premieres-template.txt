@@ -24,4 +24,4 @@ XX
 Support <HoverLink url="XX" name="XX" inline external /> on Bandcamp 🌱
 
 <Picture src="/premieres/XX.jpg" alt="XX" size={1200} />
-<p className="smallText"><i>XXX</i></p>
+<p className="smallText">XXX</p>

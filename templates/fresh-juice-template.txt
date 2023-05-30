@@ -12,12 +12,13 @@ path: fresh-juice
 
 ### XXX
 
-Buy/ Stream here: <HoverLink url="XX" inline external />
-
-<Picture src="/fresh-juice/XXX.jpg" alt="XXX album art" size={1200} />
 <p className="smallText">Words by Oisín Campbell/ Design by Michael Savage</p> 
 
 <hr/>
+
+<BandCamp src="album=XX" />
+
+Buy/ Stream here: <HoverLink url="XX" inline external />
 
 _XXX_
 
