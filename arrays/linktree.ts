@@ -8,6 +8,16 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "'Core Work' by Sweet Philly",
+    link: "https://on.soundcloud.com/VdwKs",
+    name: "premieres",
+  },
+  {
+    title: "'Denial' by Midnight Totem",
+    link: "https://soundcloud.com/plantbassddjs/premiere-midnight-totem-denial",
+    name: "premieres",
+  },
+  {
     title: "FRESH JUICE: 'The End Of All Physical Form' by J-SHADOW",
     link: "https://www.plantbassd.com/fresh-juice/j-shadow-19-5-23",
     name: "fresh juice",
