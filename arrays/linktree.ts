@@ -11,11 +11,13 @@ export const linkList: LinkProps[] = [
     title: "'Core Work' by Sweet Philly",
     link: "https://on.soundcloud.com/VdwKs",
     name: "premieres",
+    img: "/premieres/49-trust-fall.jpg",
   },
   {
     title: "'Denial' by Midnight Totem",
     link: "https://soundcloud.com/plantbassddjs/premiere-midnight-totem-denial",
     name: "premieres",
+    img: "/premieres/48-midnight-totem.jpg",
   },
   {
     title: "FRESH JUICE: 'The End Of All Physical Form' by J-SHADOW",
@@ -84,22 +86,10 @@ export const linkList: LinkProps[] = [
     img: "/premieres/42-br.jpg",
   },
   {
-    title: "'Backroads' by Oliver Twist",
-    link: "https://soundcloud.com/plantbassddjs/premiere-oliver-twist-backroads",
-    name: "premieres",
-    img: "/premieres/41-twist.jpg",
-  },
-  {
     title: "'Algae' by Dansa",
     link: "https://soundcloud.com/plantbassddjs/premiere-dansa-algae",
     name: "premieres",
     img: "/premieres/39-dansa-main.jpg",
-  },
-  {
-    title: "'ALTO' by AKSENT & Prince Prada",
-    link: "https://www.plantbassd.com/fresh-juice/aksent-prince-prada-14-3-23",
-    name: "fresh juice",
-    img: "/fresh-juice/63-aksent.jpg",
   },
 ];
 

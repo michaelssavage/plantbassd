@@ -10,6 +10,7 @@ import { MdLocalDrink } from "react-icons/md";
 import { SiBandcamp } from "react-icons/si";
 import { TiContacts } from "react-icons/ti";
 import { useMemo } from "react";
+import { RxValueNone } from "react-icons/rx";
 
 interface SocialIconProps {
   icon: string;
@@ -37,6 +38,7 @@ const IconMap = {
   spotify: <BsSpotify />,
   takeovers: <FaSpotify />,
   tickets: <GiTicket />,
+  empty: <RxValueNone />,
 };
 
 export const Icon = ({ icon, styling = "navIcon" }: SocialIconProps) => {
