@@ -1,36 +1,48 @@
 @use "@/abstracts" as *;
 
-.content_bg {
+.backgroundColorAndHeight {
   background-color: $culturedWhite;
   height: 50vh;
-}
-.bg_img {
-  background-image: url("/various/background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  .backgroundImage {
+    background-image: url("/various/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: slidein 10s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    .frontText {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      overflow-y: hidden;
+      flex-wrap: wrap;
+      height: 50vh;
+      padding: 0 10%;
+      h1 {
+        color: $headerBlack;
+        font-size: clamp(0.5rem, 8vw, 2.5rem);
+        text-align: center;
+        padding: 0 0.5rem;
+      }
+      div p {
+        flex: 1 0;
+        margin: 0;
+        text-align: center;
+      }
+    }
+  }
 }
 
-.frontText {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  overflow-y: hidden;
-  flex-wrap: wrap;
-  height: 50vh;
-  padding: 0 10%;
-}
-
-.sectionHeader {
-  color: $headerBlack;
-  font-size: clamp(0.5rem, 8vw, 2.5rem);
-  text-align: center;
-  padding: 0 0.5rem;
-}
-
-.profileText {
-  flex: 1 0;
-  margin: 0;
-  text-align: center;
+@keyframes slidein {
+  from {
+    background-position: bottom;
+    background-size: 2000px;
+  }
+  to {
+    background-position: 0 -100px;
+    background-size: 1750px;
+  }
 }
