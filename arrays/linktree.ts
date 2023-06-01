@@ -8,6 +8,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "'Be My Lover' by DJ Ageless Wonder",
+    link: "https://soundcloud.com/plantbassddjs/premiere-dj-ageless-wonder-be-my-lover",
+    name: "premieres",
+    img: "/premieres/50-ageless.jpg",
+  },
+  {
     title: "'Core Work' by Sweet Philly",
     link: "https://on.soundcloud.com/VdwKs",
     name: "premieres",
