@@ -1,1 +1,1 @@
-export const plantbassdInstagram = "www.instagram.com/plantbassd___";
+export const plantbassdInstagram = "https://www.instagram.com/plantbassd___";
