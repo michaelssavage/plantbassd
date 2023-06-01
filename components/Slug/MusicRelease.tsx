@@ -53,18 +53,13 @@ export const MusicRelease = (props: MusicReleaseProps) => {
     <div className="col-md-6 col-sm-12">
       <div className="row display-flex align-items-center">
         <div className="col-12 py-2">
-          <Picture src={pic} alt={title} size={1200} />
-        </div>
-        <div className="col-12 py-2">
           <h3>{renderHeader()}</h3>
+          <Picture src={pic} alt={title} size={400} />
+          <div className="mt-3 mb-2">{children}</div>
+          {standout && <strong>Standout Track: {standout}</strong>}
           <div>
-            {children}
-            {standout && <strong className="mt-2">Standout Track: {standout}</strong>}
-            <div>
-              Listen here: <HoverLink url={link} name={title} external inline />
-            </div>
+            Listen here: <HoverLink url={link} name={title} external inline />
           </div>
-          <br />
           {tags}
         </div>
       </div>

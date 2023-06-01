@@ -1,4 +1,5 @@
 import { CSSProperties } from "react";
+import styles from "./HoverLink.module.scss";
 
 interface LinkProps {
   url: string;
@@ -17,7 +18,7 @@ export const HoverLink = ({
 }: LinkProps) => {
   return (
     <a
-      className="hoverLink"
+      className={styles.hoverLink}
       style={inline ? inlineCSS : undefined}
       data-replace={name ? name : url}
       href={external ? `https://${url}` : url}
