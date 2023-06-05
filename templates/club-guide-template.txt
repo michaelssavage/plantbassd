@@ -12,22 +12,10 @@ path: guides
 
 **DAY**
 
--   <p> TITLE </p>
-
-[<Picture src="/news/club-guide/XX.jpg" alt="XX" size={1200} />](XX)
-
-TEXT
-
-## DAY
-
-<div class="row"><div class="col clubGuide">
-
-[<Picture src="/news/club-guide/XX.jpg" alt="TITLE" size={1200} />](XX)
-
-</div><div class="col clubGuide">
-
-### XX
-
-XX
-
-</div></div><hr/>
+<GigGuide
+  title="XX"
+  pic="/news/club-guide/XX"
+  link="XX"
+>
+  XX
+</GigGuide>

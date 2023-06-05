@@ -7,8 +7,9 @@ import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { HoverLink } from "components/HoverLink";
 import styles from "styles/top-ten.module.scss";
 import PageTitle from "components/PageTitle";
+import { FavTrack } from "components/Slug";
 
-const components = { HoverLink, Picture };
+const components = { HoverLink, Picture, FavTrack };
 
 export default function TopTenSlug(props: InferGetStaticPropsType<typeof getStaticProps>) {
   const { title, date, cover, intro, header, insta, mdxSource } = props;

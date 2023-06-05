@@ -39,7 +39,7 @@ describe("Team page", () => {
     expect(facebook).toHaveAttribute("href", "https://www.facebook.com/plantbassddjs");
 
     const instagram = svgs[1];
-    expect(instagram).toHaveAttribute("href", "www.instagram.com/plantbassd___");
+    expect(instagram).toHaveAttribute("href", "https://www.instagram.com/plantbassd___");
 
     const email = svgs[2];
     expect(email).toHaveAttribute("href", "mailto: plantbassddjs@gmail.com");

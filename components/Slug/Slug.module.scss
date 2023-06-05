@@ -1,0 +1,18 @@
+// GigGuide
+
+.containerMargins {
+  margin-bottom: 3rem;
+}
+
+@media (max-width: 768px) {
+  .containerMargins {
+    margin-bottom: 1rem;
+  }
+  .headerSpacing {
+    margin-top: 1rem;
+  }
+}
+
+// FavTrack
+
+// MusicRelease

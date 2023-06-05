@@ -5,7 +5,10 @@
 }
 
 .topTenContent {
-  padding: 4% 12% 2% 12%;
+  padding-top: 4%;
+  padding-bottom: 2%;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
 .postTitle {
@@ -20,7 +23,8 @@
 
 @media (max-width: 768px) {
   .topTenContent {
-    padding: 12% 12% 2% 12%;
+    padding-left: 6%;
+    padding-right: 6%;
   }
 }
 
