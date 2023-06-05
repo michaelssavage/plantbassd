@@ -8,7 +8,7 @@ import { Picture } from "components/Picture";
 import { HoverLink } from "components/HoverLink";
 import PageTitle from "components/PageTitle";
 
-const components = { MusicRelease };
+const components = { HoverLink, MusicRelease };
 
 export default function UnderTheRadarSlug(props: InferGetStaticPropsType<typeof getStaticProps>) {
   const { month, date, bio, pic, mdxSource, path } = props;
@@ -16,11 +16,13 @@ export default function UnderTheRadarSlug(props: InferGetStaticPropsType<typeof 
     <div className={styles.outerSection}>
       <PageTitle title={`Under the Radar - ${month}`} />
       <div className={`col ${styles.topTenContent}`}>
-        <p>
-          {<HoverLink url="/" name="home" inline />} /{" "}
-          {<HoverLink url={`/${path}`} name={path} inline />} /
-        </p>
-        <p className={styles.postDate}>Posted on {date}</p>
+        <div className="px-3">
+          <p>
+            {<HoverLink url="/" name="home" inline />} /{" "}
+            {<HoverLink url={`/${path}`} name={path} inline />} /
+          </p>
+          <p className={styles.postDate}>Posted on {date}</p>
+        </div>
         <Picture alt="cover pic" size={1200} src={pic} />
 
         <h1 className={styles.postTitle} style={{ marginTop: "1rem" }}>

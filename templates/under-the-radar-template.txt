@@ -3,7 +3,7 @@ month: XX
 name: "bandcamp under the radar XX"
 date: XX, 2023
 tags: reviews
-pic: "XX.jpg"
+pic: "/under-the-radar/XX.jpg"
 bio: XX
 path: under-the-radar
 title: "Under The Radar: XX"
@@ -13,9 +13,10 @@ title: "Under The Radar: XX"
   pic="/under-the-radar/XX/XX"
   title="XX"
   link="XX"
-  description="XX"
+  titleLabel="XX"
+  titleLink="XX"
   standout="XX"
-  tags="XX"
+  embed="XX"
 >
 XX
 </MusicRelease>
