@@ -5,11 +5,11 @@ import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { CardCover } from "components/Card";
 import styles from "styles/page.module.scss";
-import { SocialButton } from "components/Icon";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageTitle from "components/PageTitle";
+import { HoverLink } from "components/HoverLink";
 
 export default function UnderTheRadarPage({
   radars,
@@ -24,23 +24,17 @@ export default function UnderTheRadarPage({
       <PageTitle title="Under The Radar" />
       <h1 className={styles.pageHeader}>Under The Radar</h1>
 
-      <p className={styles.pageText}>
+      <h3 className={styles.pageText}>
         End of month roundups of the releases that might have flew under your radar.
-      </p>
-      <div className="row align-items-center">
-        <SearchBox
-          handleSearchChange={handleSearchChange}
-          filter={filter}
-          style={`col-md-4 me-auto input-group ${styles.radioFilter}`}
-        />
-
-        <SocialButton
-          name="Bandcamp collection"
-          icon="bandcamp"
+        <HoverLink
           url="https://bandcamp.com/oisincampbellbap"
-          style={`${styles.bandcamp} text-nowrap btn btn-dark`}
+          inline
+          inlineCSS={{ marginBottom: "-0.4rem" }}
         />
-      </div>
+      </h3>
+
+      <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
+
       <div className="row g-3">
         {postCards.map((radar: AllPostProps) => (
           <CardCover

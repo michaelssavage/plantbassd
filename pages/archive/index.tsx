@@ -25,8 +25,6 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
         handleSearchChange={handleSearchChange}
         filter={filter}
         amount={postCards.length}
-        placeholder="search query"
-        style={`input-group ${styles.archiveFilter}`}
       />
 
       <div className="row g-2">

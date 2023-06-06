@@ -32,4 +32,8 @@ export const sidebarList: SidebarProps[] = [
     link: "/links",
     title: "Links",
   },
+  {
+    link: "/archive",
+    title: "Search",
+  },
 ];

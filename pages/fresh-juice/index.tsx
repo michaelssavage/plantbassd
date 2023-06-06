@@ -5,11 +5,12 @@ import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { CardCover } from "components/Card";
 import styles from "styles/page.module.scss";
-import { SocialButton } from "components/Icon";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageTitle from "components/PageTitle";
+import { SocialButton } from "components/Icon";
+import { plantbassdInstagram } from "utils/constants";
 
 export default function FreshJuicePage({
   freshjuice,
@@ -23,21 +24,13 @@ export default function FreshJuicePage({
     <div className="freshjuiceBG">
       <PageTitle title="Fresh Juice" />
       <h1 className={styles.pageHeader}>Fresh Juice</h1>
-      <p className={styles.pageText}>
+      <h3 className={styles.pageText}>
         Read our reviews of new music releases from around the world that we couldn't get enough of.
-      </p>
-      <div className="row align-items-center">
-        <SearchBox
-          handleSearchChange={handleSearchChange}
-          filter={filter}
-          style={`col-md-4 me-auto input-group ${styles.radioFilter}`}
-        />
-        <SocialButton
-          name="Bandcamp"
-          url="https://bandcamp.com/oisincampbellbap"
-          style={`btn btn-dark ${styles.bandcamp} `}
-        />
-      </div>
+        See more on our Bandcamp below.
+      </h3>
+      <SocialButton name="bandcamp" url="https://bandcamp.com/oisincampbellbap" />
+      <SocialButton name="instagram" url={plantbassdInstagram} />
+      <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
       <div className="row g-3">
         {postCards.map((juice: AllPostProps) => (
           <CardCover

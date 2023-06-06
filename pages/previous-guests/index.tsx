@@ -25,8 +25,7 @@ export default function PreviousGuestsPage() {
         handleSearchChange={handleSearchChange}
         filter={filter}
         amount={postCards.length}
-        style={`input-group ${styles.filter}`}
-        text="DJs"
+        text="DJ"
       />
 
       {filter ? (

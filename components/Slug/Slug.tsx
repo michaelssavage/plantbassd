@@ -4,6 +4,7 @@ import styles from "styles/slug.module.scss";
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
 import { BandCamp, SoundCloud } from "components/MusicPlayers";
+import { ImageAndDescription } from "./ImageAndDescription";
 
 interface SlugProps {
   path: string;
@@ -13,7 +14,7 @@ interface SlugProps {
   children?: ReactNode;
 }
 
-const components = { HoverLink, Picture, SoundCloud, BandCamp };
+const components = { HoverLink, Picture, SoundCloud, BandCamp, ImageAndDescription };
 
 export const Slug = (props: SlugProps) => {
   const { path, date, title, mdxSource, children } = props;
@@ -26,12 +27,12 @@ export const Slug = (props: SlugProps) => {
 				col-xl-8 
 				`}
     >
-      <p>
+      <p className="mb-1">
         {<HoverLink url="/" name="home" inline />} /{" "}
         {<HoverLink url={`/${path}`} name={path} inline />} /
       </p>
-      <p className={styles.postDate}>Posted on {date}</p>
-      <h1 className={styles.postTitle}>{title}</h1>
+      <p>Posted on {date}</p>
+      <h1>{title}</h1>
       <MDXRemote {...mdxSource} components={components} lazy />
       {children}
     </div>

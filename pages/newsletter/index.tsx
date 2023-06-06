@@ -41,7 +41,7 @@ export default function Newsletter() {
     <div className="signupBG">
       <form onSubmit={handleSubmit}>
         <Header first="Newsletter" />
-        <p>Sign up to our newsletter to keep up to date!</p>
+        <h3>Sign up to our newsletter to keep up to date!</h3>
         {complete ? (
           <div className={styles.deleteSVG}>
             <TiTick />

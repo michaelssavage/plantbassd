@@ -1,37 +1,42 @@
-import { ChangeEvent } from "react";
+import { ChangeEvent, ReactElement } from "react";
+import styles from "./SearchBox.module.scss";
 
 interface SearchBoxProps {
   handleSearchChange: (event: ChangeEvent<HTMLInputElement>) => void;
   filter: string;
   placeholder?: string;
   amount?: number;
-  style?: string;
   text?: string;
+  children?: ReactElement;
 }
 
 export const SearchBox = ({
   handleSearchChange,
   filter,
   amount,
-  placeholder = "artist name",
-  style,
-  text = "Posts",
+  text = "Post",
+  children,
 }: SearchBoxProps) => {
   return (
-    <div className={style}>
+    <div className={styles.searchPositioning}>
+      <div className={styles.labelAndAmount}>
+        <label htmlFor="search">Search for posts using keywords or names</label>
+        {amount && (
+          <p className="m-0">
+            {amount} {amount == 1 ? text : `${text}s`}
+          </p>
+        )}
+        {children && children}
+      </div>
       <input
         aria-label="Filter"
+        id="search"
         className="form-control"
         onChange={handleSearchChange}
-        placeholder={`Filter by ${placeholder}...`}
+        placeholder="Type to search..."
         type="text"
         value={filter}
       />
-      {amount && (
-        <p className="m-0">
-          {amount} {text}
-        </p>
-      )}
     </div>
   );
 };

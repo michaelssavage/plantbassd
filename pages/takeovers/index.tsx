@@ -5,11 +5,12 @@ import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { CardCover } from "components/Card";
 import styles from "styles/page.module.scss";
-import { SocialButton } from "components/Icon";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageTitle from "components/PageTitle";
+import { SocialButton } from "components/Icon";
+import { plantbassdInstagram } from "utils/constants";
 
 export default function TakeoverPage({
   takeovers,
@@ -24,24 +25,18 @@ export default function TakeoverPage({
       <PageTitle title="Takeovers" />
       <h1 className={styles.pageHeader}>Plant Bass'd Takeovers</h1>
 
-      <p className={styles.pageText}>
+      <h3 className={styles.pageText}>
         Artists, Friends, and Guests select and share their top tracks on Spotify. Check out the
         playlist below.
-      </p>
-      <div className="row align-items-center">
-        <SearchBox
-          handleSearchChange={handleSearchChange}
-          filter={filter}
-          style={`col-md-4 me-auto input-group ${styles.radioFilter}`}
-        />
+      </h3>
+      <SocialButton
+        name="spotify"
+        url="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
+      />
+      <SocialButton name="instagram" url={plantbassdInstagram} />
 
-        <SocialButton
-          name="Plant Bass'd Picks"
-          icon="spotify"
-          url="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
-          style={`${styles.spotify} text-nowrap btn btn-dark`}
-        />
-      </div>
+      <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
+
       <div className="row g-3">
         {postCards.map((takeover: AllPostProps) => (
           <CardCover

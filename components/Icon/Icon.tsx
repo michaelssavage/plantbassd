@@ -1,4 +1,4 @@
-import { AiFillHome, AiOutlineLink } from "react-icons/ai";
+import { AiFillHome, AiOutlineLink, AiOutlineSearch } from "react-icons/ai";
 import { BiRadio } from "react-icons/bi";
 import { BsFacebook, BsFillVolumeUpFill, BsInstagram, BsMailbox2, BsSpotify } from "react-icons/bs";
 import { FaSpotify } from "react-icons/fa";
@@ -33,6 +33,7 @@ const IconMap = {
   premiere: <BsFillVolumeUpFill />,
   premieres: <BsFillVolumeUpFill />,
   radio: <BiRadio />,
+  search: <AiOutlineSearch />,
   site: <AiFillHome />,
   soundcloud: <GrSoundcloud />,
   spotify: <BsSpotify />,

@@ -48,7 +48,7 @@ export default function Links() {
 
         <FilterTags handleTags={handleTags} tagList={tagList} />
 
-        <h2 className="d-flex justify-content-end">Most Recent</h2>
+        <h2 className="d-flex justify-content-end p-0 m-0">Most Recent</h2>
 
         <LinkPost posts={filteredPosts} />
 

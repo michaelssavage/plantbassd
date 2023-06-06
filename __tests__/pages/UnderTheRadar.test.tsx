@@ -36,7 +36,7 @@ describe("Under The Radar page", () => {
   it("should have a bandcamp button", async () => {
     renderUtil();
 
-    const link = getByRole("button", { name: /bandcamp collection/i });
-    expect(link).toHaveAttribute("href", "https://bandcamp.com/oisincampbellbap");
+    const link = getByRole("link", { name: "https://bandcamp.com/oisincampbellbap" });
+    expect(link).toBeInTheDocument();
   });
 });

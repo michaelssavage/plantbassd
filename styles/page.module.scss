@@ -7,45 +7,13 @@
 }
 
 .pageText {
-  text-align: center;
-  font-size: $paragraph;
-  margin-top: 1rem;
-  margin-bottom: 0.5em;
-}
-
-.searchFilter {
-  width: 50%;
-}
-
-.radioFilter {
-  margin: 0 1rem 1rem 0;
-  flex-grow: 0;
-  @extend .searchFilter;
-}
-
-.archiveFilter {
-  margin: 1rem auto;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  @extend .searchFilter;
+  margin: 1rem 0 0.5rem 0;
 }
 
 .viewAllBtn {
   text-align: center;
   margin: 0.5rem 0;
   display: grid;
-}
-
-// @include breakpoint-below(xs) {
-@media (max-width: 768px) {
-  .searchFilter {
-    width: 100%;
-  }
-  .radioFilter {
-    width: auto;
-    flex-grow: 2;
-  }
 }
 
 // @include breakpoint-below(xs) {
@@ -57,31 +25,36 @@
 
 // Button stylesheets
 
-.spotify {
-  color: $spotify;
+.genericButton {
+  border: 0;
   transition: 0.25s ease;
   &:hover {
     color: $headerBlack;
+  }
+}
+
+.spotify {
+  @extend .genericButton;
+  color: $spotify;
+  &:hover {
     background-color: $spotify;
   }
 }
 
 .soundcloud {
+  @extend .genericButton;
   color: $pbWhite;
   background-color: $soundcloud;
-  transition: 0.25s ease;
   &:hover {
-    color: $headerBlack;
     background-color: $soundcloud;
   }
 }
 
 .bandcamp {
+  @extend .genericButton;
   color: $pbWhite;
   background-color: $bandcamp;
-  transition: 0.25s ease;
   &:hover {
-    color: $headerBlack;
     background-color: $bandcamp;
   }
 }

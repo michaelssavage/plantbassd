@@ -1,0 +1,22 @@
+@use "@/abstracts" as *;
+
+.searchPositioning {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.labelAndAmount {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  p {
+    white-space: nowrap;
+  }
+  div {
+    margin-bottom: 0;
+  }
+}
