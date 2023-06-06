@@ -68,14 +68,14 @@ export const Signup = ({ linktree }: { linktree?: boolean }) => {
         <label className={styles.agreeTermsText} htmlFor="flexCheckbox">
           I agree to the{" "}
           <HoverLink
-            url="terms-and-conditions"
+            url="/terms-and-conditions"
             name="T&Cs"
             inline
             inlineCSS={{ marginBottom: "-0.3rem" }}
           />{" "}
           and{" "}
           <HoverLink
-            url="privacy-policy"
+            url="/privacy-policy"
             name="Privacy Policy"
             inline
             inlineCSS={{ marginBottom: "-0.3rem" }}

@@ -53,21 +53,6 @@
   }
 }
 
-.blueLink {
-  @extend .hoverLink;
-  color: blue;
-  text-decoration: underline blue;
-  &:hover {
-    color: blue;
-  }
-  &::before {
-    background-color: blue;
-  }
-  &::after {
-    color: blue;
-  }
-}
-
 .inlineLink {
   margin-bottom: -0.45rem;
   @extend .hoverLink;

@@ -38,7 +38,7 @@ export const Footer = () => {
         <div className={styles.siteBy}>
           <p className="small m-0">
             Site by{" "}
-            <HoverLink url="www.instagram.com/michaelsaverage/" name="Michael." inline external />
+            <HoverLink url="https://www.instagram.com/michaelsaverage" name="Michael." inline />
           </p>
         </div>
         <div className={styles.allRights}>
