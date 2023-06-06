@@ -1,5 +1,6 @@
+import Link from "next/link";
 import { Icon } from "./Icon";
-import styles from "./icon.module.scss";
+import styles from "./SocialButton.module.scss";
 
 interface SocialProps {
   name: string;
@@ -8,19 +9,10 @@ interface SocialProps {
   style?: string;
 }
 
-export const SocialButton = ({ name, url, icon, style }: SocialProps) => {
+export const SocialButton = ({ name, url }: SocialProps) => {
   return (
-    <div className={`col-auto ${styles.socialBtns}`}>
-      <a
-        className={style}
-        href={url}
-        style={{ display: "flex", alignItems: "center", gap: "0.25rem" }}
-        rel="noopener noreferrer"
-        role="button"
-        target="_blank"
-      >
-        <Icon icon={icon ? icon : name} /> {name}
-      </a>
-    </div>
+    <Link href={url} className={styles.iconBox} rel="noopener noreferrer" target="_blank">
+      <Icon icon={name} styling={styles.socialIcon} />
+    </Link>
   );
 };

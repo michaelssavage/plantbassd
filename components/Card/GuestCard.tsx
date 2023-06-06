@@ -10,23 +10,21 @@ interface GuestCardProps {
 
 export const GuestCard = (cards: GuestCardProps[]) => {
   return (
-    <div className={styles.guestPics}>
-      <div className="row g-1">
-        {cards.map((guest: GuestCardProps) => (
-          <div key={guest.name} className="col-4 col-md-4 col-lg-3 col-xl-2">
-            <Link
-              href={`https://instagram.com/${guest.link}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <div className={`card ${styles.cardStyle}`}>
-                <Picture alt={guest.name} size={300} src={`/news/${guest.img}`} />
-              </div>
-            </Link>
-            <p className="nameAnchor">{guest.name}</p>
-          </div>
-        ))}
-      </div>
+    <div className="row g-1">
+      {cards.map((guest: GuestCardProps) => (
+        <div key={guest.name} className="col-4 col-md-4 col-lg-3 col-xl-2">
+          <Link
+            href={`https://instagram.com/${guest.link}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className={`card ${styles.cardStyle}`}>
+              <Picture alt={guest.name} size={300} src={`/news/${guest.img}`} />
+            </div>
+          </Link>
+          <p className="nameAnchor">{guest.name}</p>
+        </div>
+      ))}
     </div>
   );
 };

@@ -7,9 +7,10 @@ import { CardCover } from "components/Card";
 import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
-import { SocialButton } from "components/Icon";
 import { getPosts } from "utils/getPosts";
 import PageTitle from "components/PageTitle";
+import { SocialButton } from "components/Icon";
+import { plantbassdInstagram } from "utils/constants";
 
 export default function RadioPage({ radios }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
@@ -22,23 +23,16 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
       <PageTitle title="Mixes" />
       <h1 className={styles.pageHeader}>Plant Bass'd Mixes</h1>
 
-      <p className={styles.pageText}>
-        Guest mixes from homegrown and international artists. Check them out on our SoundCloud.
-      </p>
-      <div className="row align-items-center">
-        <SearchBox
-          handleSearchChange={handleSearchChange}
-          filter={filter}
-          style={`col-md-4 me-auto input-group ${styles.radioFilter}`}
-        />
+      <h3 className={styles.pageText}>
+        Guest mixes from homegrown and international artists. Click the link below to find out more.
+      </h3>
+      <SocialButton
+        name="soundcloud"
+        url="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
+      />
+      <SocialButton name="instagram" url={plantbassdInstagram} />
 
-        <SocialButton
-          name="Plant Bass'd Radio"
-          icon="radio"
-          url="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
-          style={`${styles.soundcloud} text-nowrap btn btn-dark`}
-        />
-      </div>
+      <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
       <div className="row g-3">
         {postCards.map((radio: AllPostProps) => (
           <CardCover

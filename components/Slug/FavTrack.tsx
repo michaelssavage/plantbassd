@@ -29,7 +29,7 @@ export const FavTrack = (props: FavTrackProps) => {
         </div>
         <div className="col-md-7 col-sm-12">
           {soundcloud && <SoundCloud url={soundcloud} height="120px" />}
-          {bandcamp && <BandCamp src={bandcamp} />}
+          {bandcamp && <BandCamp src={bandcamp} top />}
           <div className="mt-3 mb-2">{children}</div>
           Listen here: <HoverLink url={link} external inline />
         </div>

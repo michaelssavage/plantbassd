@@ -8,10 +8,10 @@ import { TextCard } from "components/Card";
 import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { useTagsFilter } from "hooks";
-import { HoverLink } from "components/HoverLink";
 import { getAllPosts } from "utils/getAllPosts";
 import PageTitle from "components/PageTitle";
 import { plantbassdInstagram } from "utils/constants";
+import { SocialButton } from "components/Icon";
 
 const newsTags = [
   { name: "fresh juice", value: false },
@@ -36,11 +36,12 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
       <PageTitle title="News" />
       <h1 className={styles.pageHeader}>Plant Bass'd News</h1>
 
-      <p className={styles.pageText}>
-        Catch the latest about new music, upcoming gigs & events, and all things Plant Bass'd. Keep
-        up to date on our Instagram,{" "}
-        <HoverLink url={plantbassdInstagram} name="@plantbassd___" inline external />
-      </p>
+      <h3 className={styles.pageText}>
+        Catch the latest about new music, upcoming gigs & events, and all things Plant Bass'd and
+        keep up to date on our Instagram, @plantbassd___
+      </h3>
+      <SocialButton name="instagram" url={plantbassdInstagram} />
+      <SocialButton name="email" url="mailto: plantbassddjs@gmail.com" />
 
       <FilterTags handleTags={handleTags} tagList={tagList} />
 

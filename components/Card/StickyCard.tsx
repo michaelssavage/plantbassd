@@ -11,6 +11,9 @@ interface CardProps {
   link: string; // link is to instagram
 }
 
+/**
+ * StickyCard is used in the Slug component
+ */
 export const StickyCard = (props: CardProps) => {
   const { pic, title, artist, page, insta, link } = props;
 

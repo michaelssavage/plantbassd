@@ -7,6 +7,7 @@ interface LinkProps {
   inline?: boolean;
   external?: boolean;
   inlineCSS?: CSSProperties;
+  blue?: boolean;
 }
 
 export const HoverLink = ({
@@ -15,13 +16,23 @@ export const HoverLink = ({
   inline,
   external,
   inlineCSS = { marginBottom: "-0.4rem" },
+  blue,
 }: LinkProps) => {
+  const makeLink = (url: string) => {
+    if (external) {
+      if (!url.includes("http://")) {
+        return `https://${url}`;
+      }
+    }
+    return url;
+  };
+
   return (
     <a
-      className={styles.hoverLink}
+      className={blue ? styles.blueLink : styles.hoverLink}
       style={inline ? inlineCSS : undefined}
       data-replace={name ? name : url}
-      href={external ? `https://${url}` : url}
+      href={makeLink(url)}
       rel={external ? "noopener noreferrer" : ""}
       target={external ? "_blank" : ""}
     >

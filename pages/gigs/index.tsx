@@ -32,9 +32,9 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
       <PageTitle title="Gigs" />
       <h1 className={styles.pageHeader}>Plant Bass'd Gigs</h1>
 
-      <p className={styles.pageText}>
+      <h3 className={styles.pageText}>
         Check out some of the {filteredPosts.length} shows we've put together in Ireland and the UK:
-      </p>
+      </h3>
 
       <FilterTags handleTags={handleTags} tagList={tagList} />
 
