@@ -398,4 +398,19 @@ export const guestList: GuestProps[] = [
     link: "cloallenn/",
     name: "CLO",
   },
+  {
+    img: "35-crrdr.jpg",
+    link: "c0rred0r/",
+    name: "CRRDR",
+  },
+  {
+    img: "35-loreto.jpg",
+    link: "loretolihuenn",
+    name: "Loreto",
+  },
+  {
+    img: "35-indigo.jpg",
+    link: "indigokorres",
+    name: "Indigo",
+  },
 ];

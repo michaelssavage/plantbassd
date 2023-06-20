@@ -25,11 +25,20 @@
 
 .icons {
   display: flex;
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+@media (max-width: 378px) {
+  .icons {
+    width: 100%;
+  }
+}
+
+.iconAndText {
+  display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 1rem;
+  align-items: flex-end;
 }
 
 .iconBox {
