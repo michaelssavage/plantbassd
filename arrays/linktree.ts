@@ -13,7 +13,15 @@ export const linkList: LinkProps[] = [
       "SweatBox and Lucky Dip are honoured to bring the Colombian LatinTek blaster CRRDR to Scotland for the very first time!",
     link: "https://ra.co/events/1719245",
     name: "tickets",
-    img: "/news/35-crrdr.jpg",
+    img: "/news/35-sweatbox.jpg",
+  },
+  {
+    title: "In Depth with SPHERES",
+    link: "https://www.plantbassd.com/in-depth-with-spheres-20-6-23",
+    name: "news",
+    description:
+      "We spoke to Rob Rua from the label about the foundations, process and the challenges in bringing this new series to life.",
+    img: "/news/36-in-depth.jpg",
   },
   {
     title: "Under the Radar: May",
