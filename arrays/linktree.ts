@@ -17,7 +17,7 @@ export const linkList: LinkProps[] = [
   },
   {
     title: "In Depth with SPHERES",
-    link: "https://www.plantbassd.com/in-depth-with-spheres-20-6-23",
+    link: "https://www.plantbassd.com/news/in-depth-with-spheres-20-6-23",
     name: "news",
     description:
       "We spoke to Rob Rua from the label about the foundations, process and the challenges in bringing this new series to life.",
