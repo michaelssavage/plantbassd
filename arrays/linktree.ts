@@ -16,6 +16,13 @@ export const linkList: LinkProps[] = [
     img: "/news/35-sweatbox.jpg",
   },
   {
+    title: "On site at Body And Soul 2023",
+    link: "https://www.plantbassd.com/news/body-and-soul-23-6-23",
+    name: "news",
+    description: "Enjoyable experiences hidden in a very difficult and taxing Body and Soul 2023",
+    img: "/news/37-bas.jpg",
+  },
+  {
     title: "In Depth with SPHERES",
     link: "https://www.plantbassd.com/news/in-depth-with-spheres-20-6-23",
     name: "news",
