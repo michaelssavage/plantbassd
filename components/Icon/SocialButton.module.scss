@@ -3,6 +3,10 @@
 .iconBox {
   text-decoration: none;
   color: $pbBlack;
+  -webkit-transition: 0.25s ease;
+  -moz-transition: 0.25s ease;
+  -ms-transition: 0.25s ease;
+  -o-transition: 0.25s ease;
   transition: 0.25s ease;
   display: inline-block;
   &:hover {

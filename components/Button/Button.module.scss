@@ -16,6 +16,11 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+
+  -webkit-transition: border 0.5s;
+  -moz-transition: border 0.5s;
+  -ms-transition: border 0.5s;
+  -o-transition: border 0.5s;
   transition: border 0.5s;
   display: inline-block;
   &:after {
@@ -28,6 +33,11 @@
     height: 100%;
     top: 0.5rem;
     left: 0.5rem;
+
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
   }
   &:hover {

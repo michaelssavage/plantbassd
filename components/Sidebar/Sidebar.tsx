@@ -26,7 +26,11 @@ function Listing({ link, onClick, title }: ListingProps) {
   );
 }
 
-export default function Sidebar() {
+interface SidebarProps {
+  setIsOpen: (value: boolean) => void;
+}
+
+export default function Sidebar({ setIsOpen }: SidebarProps) {
   const { closeSidebar, navMenu, showSidebar, sidebar } = useClickOutside();
 
   return (
@@ -48,6 +52,10 @@ export default function Sidebar() {
                 title={item.title}
               />
             ))}
+            <div tabIndex={0} className={styles.navLink} onClick={() => setIsOpen(true)}>
+              <Icon icon="Search" styling={styles.navIcon} />
+              <span className={styles.navName}>Search</span>
+            </div>
           </div>
         </nav>
       </div>

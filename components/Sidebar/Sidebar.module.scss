@@ -12,6 +12,11 @@
   padding: 0 1rem;
   background-color: $navBlue;
   z-index: 5;
+
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
   border-top-right-radius: 3rem;
   border-bottom-right-radius: 3rem;
@@ -40,6 +45,10 @@
   height: 100vh;
   background-color: $navBlue;
   padding: 0.5rem;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
   z-index: 10;
 }
@@ -64,6 +73,10 @@
   background-color: $navBlue;
   position: relative;
   margin-bottom: 1.5rem;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
   color: $navGrey;
   cursor: pointer;

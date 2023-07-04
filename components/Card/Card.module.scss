@@ -48,6 +48,10 @@
 }
 
 .cardStyle {
+  -webkit-transition: 0.25s ease;
+  -moz-transition: 0.25s ease;
+  -ms-transition: 0.25s ease;
+  -o-transition: 0.25s ease;
   transition: 0.25s ease;
   .cardBody {
     text-overflow: ellipsis;
@@ -130,6 +134,10 @@
 }
 
 .container * {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 

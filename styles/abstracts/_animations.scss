@@ -50,3 +50,49 @@
 
   animation: $keyframeName $duration $fill-mode;
 }
+
+/*
+ * Fade
+ */
+
+.fadeIn-enter {
+  opacity: 0;
+}
+.fadeIn-enter-active {
+  opacity: 1;
+}
+.fadeIn-exit {
+  opacity: 1;
+}
+.fadeIn-exit-active {
+  opacity: 0;
+}
+.fadeIn-enter-active,
+.fadeIn-exit-active {
+  transition: opacity 500ms;
+}
+
+/*
+ * Appears
+ */
+
+.appears-enter {
+  opacity: 0;
+  transform: translateY(100px);
+}
+.appears-enter-active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.appears-exit {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.appears-exit-active {
+  opacity: 0;
+  transform: translateY(100px);
+}
+.appears-enter-active,
+.appears-exit-active {
+  transition: opacity 0.25s, transform 0.25s;
+}

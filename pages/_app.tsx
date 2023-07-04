@@ -6,10 +6,10 @@ import type { AppProps } from "next/app";
 import { ErrorBoundary } from "react-error-boundary";
 import Router from "next/router";
 import { useEffect, useState } from "react";
-import Sidebar from "components/Sidebar";
 import { ErrorFallback } from "components/Error";
 import { Footer } from "components/Footer";
 import { Loading } from "components/Loading";
+import Layout from "components/layout";
 
 export default function MyApp({ Component, pageProps, ...appProps }: AppProps) {
   const [loading, setLoading] = useState(false);
@@ -34,11 +34,13 @@ export default function MyApp({ Component, pageProps, ...appProps }: AppProps) {
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
-      <Sidebar />
       <Analytics />
-      <ErrorBoundary FallbackComponent={ErrorFallback}>
-        {loading ? <Loading /> : <Component {...pageProps} />}
-      </ErrorBoundary>
+
+      <Layout>
+        <ErrorBoundary FallbackComponent={ErrorFallback}>
+          {loading ? <Loading /> : <Component {...pageProps} />}
+        </ErrorBoundary>
+      </Layout>
       {!["/links"].includes(appProps.router.pathname) && <Footer />}
     </>
   );
