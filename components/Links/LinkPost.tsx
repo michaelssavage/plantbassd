@@ -35,11 +35,11 @@ export const LinkPost = ({ posts }: { posts: LinkProps[] }) => {
                   src={img}
                   alt={`pic of ${title}`}
                   size={110}
-                  style={{ borderRadius: "0.275rem" }}
+                  style={{ borderRadius: "0.275rem", objectFit: "cover" }}
                 />
               )}
               <div>
-                <div className={description && "fw-bold"}>{title}</div>
+                <div className="fw-bold">{title}</div>
                 {description && <div>{description}</div>}
               </div>
             </div>
