@@ -14,6 +14,7 @@ export const linkList: LinkProps[] = [
     link: "https://soundcloud.com/plantbassddjs/premiere-ticking-by-hngwy",
     name: "premiere",
     description: "Tripped out low end half-time from Glasgow's Hngwy on Hang Tough Records",
+    img: "/premieres/51-hngwy.jpg",
   },
   {
     title: "Under the Radar: June",
