@@ -1,7 +1,9 @@
+import { IconType } from "components/Icon/types";
+
 export interface LinkProps {
   title: string;
   link: string;
-  name: string;
+  name: IconType;
   description?: string;
   img?: string;
 }

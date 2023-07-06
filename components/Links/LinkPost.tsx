@@ -34,7 +34,7 @@ export const LinkPost = ({ posts }: { posts: LinkProps[] }) => {
                 <Picture
                   src={img}
                   alt={`pic of ${title}`}
-                  size={150}
+                  size={110}
                   style={{ borderRadius: "0.275rem" }}
                 />
               )}

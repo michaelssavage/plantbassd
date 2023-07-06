@@ -1,13 +1,7 @@
 import Link from "next/link";
 import { Icon } from "./Icon";
 import styles from "./SocialButton.module.scss";
-
-interface SocialProps {
-  name: string;
-  url: string;
-  icon?: string;
-  style?: string;
-}
+import { SocialProps } from "./types";
 
 export const SocialButton = ({ name, url }: SocialProps) => {
   return (

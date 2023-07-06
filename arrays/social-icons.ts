@@ -1,8 +1,9 @@
+import { IconType } from "components/Icon/types";
 import { plantbassdInstagram } from "utils/constants";
 
 interface IconsProps {
   link: string;
-  name: string;
+  name: IconType;
 }
 
 export const socialIcons: IconsProps[] = [
