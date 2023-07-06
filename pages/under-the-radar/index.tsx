@@ -9,7 +9,7 @@ import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageTitle from "components/PageTitle";
-import { HoverLink } from "components/HoverLink";
+import { SocialButton } from "components/Icon";
 
 export default function UnderTheRadarPage({
   radars,
@@ -26,11 +26,7 @@ export default function UnderTheRadarPage({
 
       <h3 className={styles.pageText}>
         End of month roundups of the releases that might have flew under your radar.
-        <HoverLink
-          url="https://bandcamp.com/oisincampbellbap"
-          inline
-          inlineCSS={{ marginBottom: "-0.4rem" }}
-        />
+        <SocialButton name="bandcamp" url="https://bandcamp.com/oisincampbellbap" />
       </h3>
 
       <SearchBox handleSearchChange={handleSearchChange} filter={filter} />

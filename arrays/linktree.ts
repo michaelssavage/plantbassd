@@ -1,7 +1,9 @@
+import { IconType } from "components/Icon/types";
+
 export interface LinkProps {
   title: string;
   link: string;
-  name: string;
+  name: IconType;
   description?: string;
   img?: string;
 }
@@ -12,12 +14,15 @@ export const linkList: LinkProps[] = [
     link: "https://soundcloud.com/plantbassddjs/premiere-ticking-by-hngwy",
     name: "premiere",
     description: "Tripped out low end half-time from Glasgow's Hngwy on Hang Tough Records",
+    img: "/premieres/51-hngwy.jpg",
   },
   {
     title: "Under the Radar: June",
+    img: "/under-the-radar/june.jpg",
     link: "https://www.plantbassd.com/under-the-radar/june-23",
     name: "news",
-    img: "/under-the-radar/june.jpg",
+    description:
+      "The summer heat continues to sizzle with June producing yet another month of club and festival booth fire. Here are some of our favourites going into Bandcamp Friday tomorrow.",
   },
   {
     title: "On site at Body And Soul 2023",
@@ -39,12 +44,16 @@ export const linkList: LinkProps[] = [
     link: "https://www.plantbassd.com/under-the-radar/may-23",
     name: "news",
     img: "/under-the-radar/may.jpg",
+    description:
+      "Hear the creative directions being influenced by Summer weather in this May Under The Radar with new fun & bouncy releases from the likes of Gemi, Selky, & more",
   },
   {
     title: "'Be My Lover' by DJ Ageless Wonder",
     link: "https://soundcloud.com/plantbassddjs/premiere-dj-ageless-wonder-be-my-lover",
     name: "premieres",
     img: "/premieres/50-ageless.jpg",
+    description:
+      "Amsterdam's DJ Ageless Wonder rides on high on a ghetto house pump with 'BE MY LOVER'.",
   },
   {
     title: "'Core Work' by Sweet Philly",
@@ -93,42 +102,6 @@ export const linkList: LinkProps[] = [
     link: "https://soundcloud.com/plantbassddjs/premiere-brenda-superviolet-romance",
     name: "premieres",
     img: "/premieres/44-brenda.jpg",
-  },
-  {
-    title: "'Prism' by Silky Klub",
-    link: "https://soundcloud.com/plantbassddjs/premiere-silky-klub-prism",
-    name: "premieres",
-    img: "/premieres/43-prism.jpg",
-  },
-  {
-    title: "'Where'd It Go' by HEADSGONE",
-    link: "https://www.plantbassd.com/fresh-juice/headsgone-7-4-23",
-    name: "fresh juice",
-    img: "/fresh-juice/65-where.jpg",
-  },
-  {
-    title: "'Preset Resets' by Various Artists (Tobago Tracks)",
-    link: "https://www.plantbassd.com/fresh-juice/preset-resets-6-4-23",
-    name: "fresh juice",
-    img: "/fresh-juice/64-tobago.jpg",
-  },
-  {
-    title: "Under the Radar: March",
-    link: "https://www.plantbassd.com/under-the-radar/march-23",
-    name: "news",
-    img: "/under-the-radar/march.jpg",
-  },
-  {
-    title: "'Rave Auld Times' by Breen",
-    link: "https://soundcloud.com/plantbassddjs/premiere-breen-rave-auld-times",
-    name: "premieres",
-    img: "/premieres/42-br.jpg",
-  },
-  {
-    title: "'Algae' by Dansa",
-    link: "https://soundcloud.com/plantbassddjs/premiere-dansa-algae",
-    name: "premieres",
-    img: "/premieres/39-dansa-main.jpg",
   },
 ];
 

@@ -11,13 +11,9 @@ import { SiBandcamp } from "react-icons/si";
 import { TiContacts } from "react-icons/ti";
 import { useMemo } from "react";
 import { RxValueNone } from "react-icons/rx";
+import { IconMapType, SocialIconProps } from "./types";
 
-interface SocialIconProps {
-  icon: string;
-  styling?: string;
-}
-
-const IconMap = {
+const IconMap: IconMapType = {
   bandcamp: <SiBandcamp />,
   "contact us": <TiContacts />,
   email: <BsMailbox2 />,

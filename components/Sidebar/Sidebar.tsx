@@ -2,24 +2,24 @@ import { AiOutlineClose } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import { sidebarList } from "arrays/sidebar-icons";
+import { sidebarList, SidebarProps } from "arrays/sidebar-icons";
 import { Icon } from "components/Icon";
 import { useClickOutside } from "hooks";
 import styles from "./Sidebar.module.scss";
 
 interface ListingProps {
-  link: string;
+  item: SidebarProps;
   onClick: () => void;
-  title: string;
 }
 
-function Listing({ link, onClick, title }: ListingProps) {
+function Listing({ item, onClick }: ListingProps) {
+  const { link, name, title } = item;
   const router = useRouter();
   const className = router.pathname === `${link}` ? `${styles.activeLink}` : `${styles.navLink}`;
   return (
     <Link href={link} className="anchor">
       <div tabIndex={0} className={className} onClick={onClick}>
-        <Icon icon={title} styling={styles.navIcon} />
+        <Icon icon={name} styling={styles.navIcon} />
         <span className={styles.navName}>{title}</span>
       </div>
     </Link>
@@ -41,12 +41,7 @@ export default function Sidebar() {
         <nav className={styles.navMenu}>
           <div className={styles.navList}>
             {sidebarList.map((item) => (
-              <Listing
-                key={item.title}
-                link={item.link}
-                onClick={closeSidebar}
-                title={item.title}
-              />
+              <Listing key={item.title} item={item} onClick={closeSidebar} />
             ))}
           </div>
         </nav>

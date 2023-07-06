@@ -65,16 +65,10 @@
 .imageAndText {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   div {
     text-align: left;
-  }
-}
-
-@media (max-width: 330px) {
-  .imageAndText {
-    gap: 1rem;
+    padding: 0.4rem 0.4rem 0.4rem 0;
   }
 }
 
