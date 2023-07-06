@@ -8,6 +8,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "'Ticking' by Hngwy",
+    link: "https://soundcloud.com/plantbassddjs/premiere-ticking-by-hngwy",
+    name: "premiere",
+    description: "Tripped out low end half-time from Glasgow's Hngwy on Hang Tough Records",
+  },
+  {
     title: "Under the Radar: June",
     link: "https://www.plantbassd.com/under-the-radar/june-23",
     name: "news",
