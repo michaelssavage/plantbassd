@@ -8,12 +8,10 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "SweatBox x Lucky Dip: CRRDR",
-    description:
-      "SweatBox and Lucky Dip are honoured to bring the Colombian LatinTek blaster CRRDR to Scotland for the very first time!",
-    link: "https://ra.co/events/1719245",
-    name: "tickets",
-    img: "/news/35-sweatbox.jpg",
+    title: "Under the Radar: June",
+    link: "https://www.plantbassd.com/under-the-radar/june-23",
+    name: "news",
+    img: "/under-the-radar/june.jpg",
   },
   {
     title: "On site at Body And Soul 2023",
