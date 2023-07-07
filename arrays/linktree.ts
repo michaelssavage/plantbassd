@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "In Depth with WNCL Recordings",
+    link: "https://www.plantbassd.com/news/in-depth-with-wncl-6-7-23",
+    name: "news",
+    description:
+      "WNCL Recordings continue to soar with their current 2-track 10” vinyl series pushing soundsystem weaponry",
+    img: "/news/38-wncl.jpg",
+  },
+  {
     title: "'Ticking' by Hngwy",
     link: "https://soundcloud.com/plantbassddjs/premiere-ticking-by-hngwy",
     name: "premiere",
