@@ -1,5 +1,6 @@
 import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import { ReactNode } from "react";
+import ReactPlayer from "react-player";
 import styles from "styles/slug.module.scss";
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
@@ -14,7 +15,7 @@ interface SlugProps {
   children?: ReactNode;
 }
 
-const components = { HoverLink, Picture, SoundCloud, BandCamp, ImageAndDescription };
+const components = { HoverLink, Picture, SoundCloud, ReactPlayer, BandCamp, ImageAndDescription };
 
 export const Slug = (props: SlugProps) => {
   const { path, date, title, mdxSource, children } = props;

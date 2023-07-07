@@ -12,7 +12,7 @@ const renderUtil = () => {
 };
 
 describe("Under The Radar page", () => {
-  const { getByText, getByRole } = screen;
+  const { getByText, getByRole, getByLabelText } = screen;
 
   it("renders Page text", () => {
     renderUtil();
@@ -36,7 +36,7 @@ describe("Under The Radar page", () => {
   it("should have a bandcamp button", async () => {
     renderUtil();
 
-    const link = getByRole("link", { name: "https://bandcamp.com/oisincampbellbap" });
+    const link = getByLabelText("bandcamp");
     expect(link).toBeInTheDocument();
   });
 });
