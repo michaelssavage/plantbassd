@@ -1,0 +1,102 @@
+@use "@/abstracts" as *;
+
+.pageHeader {
+  text-align: center;
+  padding-top: 15vh;
+  font-size: $lgHeader;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-grow: 0;
+  width: 60%;
+  margin: 0.5rem 0;
+}
+
+// @include breakpoint-below(xs) {
+@media (max-width: 768px) {
+  .pageHeader {
+    padding-top: 10vh;
+    font-size: $mdHeader;
+  }
+  .filter {
+    width: 100%;
+  }
+}
+
+@include breakpoint-below(xs) {
+  .pageHeader {
+    font-size: $smHeader;
+  }
+}
+
+@include breakpoint-below(xxs) {
+  .pageHeader {
+    font-size: $xsHeader;
+  }
+}
+
+.cardStyle {
+  transition: 0.25s ease;
+  text-align: center;
+  cursor: pointer;
+  img {
+    margin-bottom: -2rem;
+    border: 2px solid $plantbassdPink;
+    border-radius: 40%;
+  }
+  .artistName {
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    padding: 0rem 0.25rem;
+    border-radius: 0.25rem;
+    background-color: $pbWhite;
+    color: $plantbassdPink;
+    border: 1px solid $plantbassdPink;
+  }
+  div {
+    display: flex;
+    align-items: center;
+  }
+  &:hover {
+    transform: scale(1.04);
+    opacity: 0.9;
+    filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.25));
+  }
+}
+
+.eventTitle {
+  text-align: left;
+  margin: 0;
+}
+
+.gigArray {
+  list-style: none;
+  padding: 0.5rem 0;
+  background-color: $navGrey;
+  li {
+    padding: 0.25rem 0;
+    border-bottom: $plantbassdPink solid 1px;
+    &:last-child {
+      border: none;
+    }
+  }
+
+  .insta {
+    margin: 0;
+    text-decoration: none;
+    color: $pbBlack;
+  }
+}
+
+.gigPreview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: $pbBlack;
+}

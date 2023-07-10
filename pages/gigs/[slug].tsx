@@ -2,13 +2,10 @@ import { InferGetStaticPropsType } from "next";
 import { StickyCard } from "components/Card";
 import styles from "styles/slug.module.scss";
 import { StaticProps } from "types/frontmatter";
-import { guestList, headliners } from "arrays/previous-guests";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { Slug } from "components/Slug";
 import { ArtistLookUp } from "components/ArtistLookUp";
 import PageTitle from "components/PageTitle";
-
-const djs = guestList.concat(headliners);
 
 export default function GigsSlug({
   mdxSource,
@@ -30,7 +27,7 @@ export default function GigsSlug({
       <div className="row">
         {
           <Slug path={path} date={date} title={title} mdxSource={mdxSource}>
-            <ArtistLookUp anames={anames} djs={djs} />
+            <ArtistLookUp anames={anames} />
           </Slug>
         }
         <StickyCard
