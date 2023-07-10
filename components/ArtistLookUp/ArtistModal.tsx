@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Modal } from "components/Modal";
 import { GuestSlug, PreviousGuestType } from "components/PreviousGuest/types";
 import { Picture } from "components/Picture";
-import styles from "components/PreviousGuest/PreviousGuest.module.scss";
+import styles from "./ArtistLookUp.module.scss";
 
 interface ArtistModalProps {
   data: PreviousGuestType;
