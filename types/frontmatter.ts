@@ -13,7 +13,7 @@ interface Frontmatter {
   postLink: string;
 }
 
-interface IGigs extends Frontmatter {
+export interface IGigs extends Frontmatter {
   tags: string;
   city: string;
   anames: string[];
