@@ -43,11 +43,11 @@
   text-align: center;
   cursor: pointer;
   img {
-    margin-bottom: -2rem;
+    margin-bottom: -2rem !important;
     border: 2px solid $plantbassdPink;
     border-radius: 40%;
   }
-  .artistName {
+  p {
     margin: 0;
     position: relative;
     display: inline-block;

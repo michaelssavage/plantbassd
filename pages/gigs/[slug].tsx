@@ -6,10 +6,12 @@ import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { Slug } from "components/Slug";
 import { ArtistLookUp } from "components/ArtistLookUp";
 import PageTitle from "components/PageTitle";
+import { getPosts } from "utils/getPosts";
 
 export default function GigsSlug({
   mdxSource,
   frontmatter,
+  gigs,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { title, date, pic, tickets, seeMore, postLink, path, anames } = frontmatter;
 
@@ -20,14 +22,13 @@ export default function GigsSlug({
     buyLink = tickets;
     buyText = "RA tickets";
   }
-
   return (
     <div className={styles.newsSection}>
       <PageTitle title={title} />
       <div className="row">
         {
           <Slug path={path} date={date} title={title} mdxSource={mdxSource}>
-            <ArtistLookUp anames={anames} />
+            <ArtistLookUp anames={anames} gigs={gigs} current={tickets} />
           </Slug>
         }
         <StickyCard
@@ -53,11 +54,14 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }: StaticProps) {
   const { frontmatter, mdxSource } = await getSlugContent("gigs", slug);
+  const gigs = await getPosts("gigs");
 
   return {
     props: {
       frontmatter,
       mdxSource,
+      gigs,
+      slug,
     },
   };
 }
