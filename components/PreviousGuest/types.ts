@@ -15,7 +15,7 @@ export const defaultGuest: PreviousGuestType = {
 };
 
 export interface PreviousGuestProps {
-  guests: PreviousGuestType[];
+  artist: PreviousGuestType;
   setModalData: (val: PreviousGuestType) => void;
   setShow: (val: boolean) => void;
 }
