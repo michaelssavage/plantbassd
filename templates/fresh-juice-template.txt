@@ -18,7 +18,7 @@ path: fresh-juice
 
 <BandCamp src="album=XX" />
 
-Buy/ Stream here: <HoverLink url="XX" inline external />
+Buy/ Stream here: <HoverLink url="XX" external />
 
 _XXX_
 

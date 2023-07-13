@@ -18,8 +18,7 @@ export default function UnderTheRadarSlug(props: InferGetStaticPropsType<typeof 
       <div className={`col ${styles.topTenContent}`}>
         <div className="px-3">
           <p>
-            {<HoverLink url="/" name="home" inline />} /{" "}
-            {<HoverLink url={`/${path}`} name={path} inline />} /
+            {<HoverLink url="/" name="home" />} / {<HoverLink url={`/${path}`} name={path} />} /
           </p>
           <p className={styles.postDate}>Posted on {date}</p>
         </div>

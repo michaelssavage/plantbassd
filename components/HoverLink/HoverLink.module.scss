@@ -1,59 +1,16 @@
 @use "@/abstracts" as *;
 
 .hoverLink {
-  overflow: hidden;
-  position: relative;
-  display: inline-block;
+  text-decoration: none;
   color: $plantbassdPink;
-  text-decoration: underline $plantbassdPink;
-  font-weight: normal;
-  word-wrap: break-word;
-  word-break: break-all;
-  &:hover {
-    color: $plantbassdPink;
+  line-height: 1;
+  padding-bottom: 2px;
+  --bg-h: 2px;
+  background: linear-gradient(0deg, $plantbassdPink, $plantbassdPink) no-repeat right bottom / 0
+    var(--bg-h);
+  transition: background-size 350ms;
+  &:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
   }
-  &::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    left: 0;
-    background-color: $plantbassdPink;
-    height: 2px;
-    bottom: 0;
-    transform-origin: 100% 50%;
-    transform: scaleX(0);
-    transition: transform 0.25s cubic-bezier(0.76, 0, 0.24, 1);
-  }
-  &::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    left: 0;
-    content: attr(data-replace);
-    height: 100%;
-    top: 0;
-    transform-origin: 100% 50%;
-    transform: translate3d(200%, 0, 0);
-    transition: transform 0.25s cubic-bezier(0.76, 0, 0.24, 1);
-    color: $plantbassdPink;
-  }
-  &:hover::before {
-    transform-origin: 0% 50%;
-    transform: scaleX(1);
-  }
-  &:hover::after {
-    transform: translate3d(0, 0, 0);
-  }
-  span {
-    display: inline-block;
-    transition: transform 0.25s cubic-bezier(0.76, 0, 0.24, 1);
-  }
-  &:hover span {
-    transform: translate3d(-200%, 0, 0);
-  }
-}
-
-.inlineLink {
-  margin-bottom: -0.45rem;
-  @extend .hoverLink;
 }

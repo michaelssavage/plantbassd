@@ -21,8 +21,7 @@ export const Footer = () => {
             <p>
               {links.sort(sortAlphabetically).map((item, idx, arr) => (
                 <span key={item.name}>
-                  <HoverLink url={item.link} name={item.name} inline />
-
+                  <HoverLink url={item.link} name={item.name} />
                   {idx + 1 === arr.length ? "" : " // "}
                 </span>
               ))}
@@ -37,8 +36,7 @@ export const Footer = () => {
       <div className="row m-0 pb-2">
         <div className={styles.siteBy}>
           <p className="small m-0">
-            Site by{" "}
-            <HoverLink url="https://www.instagram.com/michaelsaverage" name="Michael." inline />
+            Site by <HoverLink url="https://www.instagram.com/michaelsaverage" name="Michael." />
           </p>
         </div>
         <div className={styles.allRights}>

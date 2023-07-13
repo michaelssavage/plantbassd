@@ -78,8 +78,8 @@ export default function Newsletter() {
                 id="flexCheckbox"
               />
               <label htmlFor="flexCheckbox">
-                I agree to the <HoverLink url="terms-and-conditions" name="T&Cs" inline /> and{" "}
-                <HoverLink url="privacy-policy" name="Privacy Policy" inline />
+                I agree to the <HoverLink url="terms-and-conditions" name="T&Cs" /> and{" "}
+                <HoverLink url="privacy-policy" name="Privacy Policy" />
               </label>
             </div>
             {error && <p className="errorText">{error}</p>}

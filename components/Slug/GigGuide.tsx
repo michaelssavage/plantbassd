@@ -30,7 +30,7 @@ export const GigGuide = (props: GigGuideProps) => {
           <div className="mt-3 mb-2">{children}</div>
           {link && (
             <>
-              Tickets here: <HoverLink url={link} external inline />
+              Tickets here: <HoverLink url={link} external />
             </>
           )}
         </div>

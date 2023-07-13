@@ -26,27 +26,14 @@ export const MusicRelease = (props: MusicReleaseProps) => {
     if (titleLabel && titleLink) {
       return (
         <>
-          {title}{" "}
-          <HoverLink
-            url={titleLink}
-            name={titleLabel}
-            inline
-            inlineCSS={{ marginBottom: "-0.5rem" }}
-            external
-          />
+          {title} <HoverLink url={titleLink} name={titleLabel} external />
         </>
       );
     } else if (!titleLabel && titleLink) {
       return (
         <>
           {`${title.split("by")[0]} by`}{" "}
-          <HoverLink
-            url={titleLink}
-            name={title.split("by")[1]}
-            inline
-            inlineCSS={{ marginBottom: "-0.5rem" }}
-            external
-          />
+          <HoverLink url={titleLink} name={title.split("by")[1]} external />
         </>
       );
     } else return title;

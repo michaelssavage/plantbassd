@@ -21,7 +21,7 @@ export const SoundCloud = ({ url, name, height = "500px" }: Props) => {
       <ReactPlayer url={url} width="100%" height={height} controls />
       {name && (
         <div>
-          Stream <HoverLink url={url} name={name} inline external /> on our SoundCloud
+          Stream <HoverLink url={url} name={name} external /> on our SoundCloud
         </div>
       )}
     </>

@@ -21,8 +21,7 @@ export const News = ({ news }: Props) => {
 
       <div className="row mb-2">
         <p>
-          Find more on our Instagram,{" "}
-          <HoverLink url={plantbassdInstagram} name="@plantbassd___" inline />
+          Find more on our Instagram, <HoverLink url={plantbassdInstagram} name="@plantbassd___" />
         </p>
       </div>
 
