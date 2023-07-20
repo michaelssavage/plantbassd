@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "FRESH JUICE: 'Better Be Careful' by Rassan (Nice & Deadly)",
+    link: "https://www.plantbassd.com/fresh-juice/rassan-20-7-23",
+    name: "fresh juice",
+    description:
+      "Brazilian label and party series Nice & Deadly return with their 21st release coming from co-founder Rassan with the rousing bass of ‘Better Be Careful’, fired home with a deadly remixing effort Stones Taro.",
+    img: "/fresh-juice/67-careful.jpg",
+  },
+  {
     title: "In Depth with WNCL Recordings",
     link: "https://www.plantbassd.com/news/in-depth-with-wncl-6-7-23",
     name: "news",
