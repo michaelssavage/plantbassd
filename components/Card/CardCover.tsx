@@ -22,9 +22,9 @@ export const CardCover = (props: Props) => {
           <Picture alt={post.title} size={500} src={post.pic} />
 
           <div className={`${styles.cover} card-body`}>
-            <p className={styles.cardDate}>{post.date}</p>
             <p className={styles.textInCover}>{post.title}</p>
             <p className={styles.cardBio}>{post.bio}</p>
+            <p className={styles.cardDate}>{post.date}</p>
           </div>
         </div>
       </Link>

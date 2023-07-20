@@ -15,7 +15,7 @@ export const TextCard = (props: Props) => {
   return (
     <div className={columns}>
       <Link href={link} className="anchorColor">
-        <div className={`card h-100 ${styles.cardStyle}`}>
+        <div className={`card border-0 h-100 ${styles.cardStyle}`}>
           <Picture
             alt={post.frontmatter.title}
             size={500}
@@ -26,8 +26,8 @@ export const TextCard = (props: Props) => {
             }}
           />
           <div className={`${styles.cardBody} card-body`}>
+            <p className={styles.cardTitle}>{post.frontmatter.bio}</p>
             <p className={styles.cardDate}>{post.frontmatter.date}</p>
-            <p className={styles.cardTitle}>{post.frontmatter.bio}...</p>
           </div>
         </div>
       </Link>

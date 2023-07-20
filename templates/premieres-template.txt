@@ -21,7 +21,7 @@ path: premieres
 
 XX
 
-Support <HoverLink url="XX" name="XX" inline external /> on Bandcamp 🌱
+Support <HoverLink url="XX" name="XX" external /> on Bandcamp 🌱
 
 <Picture src="/premieres/XX.jpg" alt="XX" size={1200} />
 <p className="smallText">XXX</p>

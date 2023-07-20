@@ -8,10 +8,10 @@ export default function PrivacyPolicy() {
       <PageTitle title="Privacy Policy" />
       <h1 className={styles.pageHeader}>Privacy Policy for Plant Bass'd</h1>
       <p>
-        At <b>Plant Bass'd</b>, accessible from{" "}
-        <HoverLink url="/" name="www.plantbassd.com" inline />, one of our main priorities is the
-        privacy of our visitors. This Privacy Policy document contains types of information that is
-        collected and recorded by <b>Plant Bass'd</b> and how we use it.
+        At <b>Plant Bass'd</b>, accessible from <HoverLink url="/" name="www.plantbassd.com" />, one
+        of our main priorities is the privacy of our visitors. This Privacy Policy document contains
+        types of information that is collected and recorded by <b>Plant Bass'd</b> and how we use
+        it.
       </p>
       <p>
         This Privacy Policy applies only to our online activities and is valid for visitors to our
@@ -23,7 +23,7 @@ export default function PrivacyPolicy() {
       <h2>Consent</h2>
       <p>
         By using our website, you hereby consent to our Privacy Policy and agree to its{" "}
-        <HoverLink url="/terms-and-conditions" name="Terms and Conditions" inline />.
+        <HoverLink url="/terms-and-conditions" name="Terms and Conditions" />.
       </p>
 
       <h2>Information we collect</h2>
@@ -164,8 +164,7 @@ export default function PrivacyPolicy() {
       <h2>Contact Us</h2>
       <p>
         If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact
-        us at{" "}
-        <HoverLink url="mailto:plantbassddjs@gmail.com" name="plantbassddjs@gmail.com" inline />.
+        us at <HoverLink url="mailto:plantbassddjs@gmail.com" name="plantbassddjs@gmail.com" />.
       </p>
     </div>
   );

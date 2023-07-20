@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
 
       <p>
         These terms and conditions outline the rules and regulations for the use of Plant Bass'd's
-        website, located at <HoverLink url="/" name="www.plantbassd.com" inline />.
+        website, located at <HoverLink url="/" name="www.plantbassd.com" />.
       </p>
 
       <p>
@@ -173,7 +173,7 @@ export default function PrivacyPolicy() {
       <h2>Your Privacy</h2>
 
       <p>
-        Please read our <HoverLink url="/privacy-policy" name="Privacy Policy" inline />.
+        Please read our <HoverLink url="/privacy-policy" name="Privacy Policy" />.
       </p>
 
       <h2>Reservation of Rights</h2>

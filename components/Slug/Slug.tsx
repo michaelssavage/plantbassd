@@ -28,8 +28,7 @@ export const Slug = (props: SlugProps) => {
 				`}
     >
       <p className="mb-1">
-        {<HoverLink url="/" name="home" inline />} /{" "}
-        {<HoverLink url={`/${path}`} name={path} inline />} /
+        {<HoverLink url="/" name="home" />} / {<HoverLink url={`/${path}`} name={path} />} /
       </p>
       <p>Posted on {date}</p>
       <h1>{title}</h1>
