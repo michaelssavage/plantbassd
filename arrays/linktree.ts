@@ -10,6 +10,11 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "INVT & Neffa-T Early Access",
+    link: "https://ra.co/promoters/103854",
+    name: "tickets",
+  },
+  {
     title: "FRESH JUICE: 'Better Be Careful' by Rassan (Nice & Deadly)",
     link: "https://www.plantbassd.com/fresh-juice/rassan-20-7-23",
     name: "fresh juice",
