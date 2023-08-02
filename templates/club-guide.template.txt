@@ -1,0 +1,21 @@
+---
+title: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending XX"
+name: "XX"
+date: "XX, 2023"
+pic: "/news/XX-edinburgh-club-guide.jpg"
+seeMore: "https://ra.co/events/uk/edinburgh?week=2022-0X-XX"
+postLink: "https://www.instagram.com/plantbassd___"
+bio: "EDINBURGH WEEKLY CLUB GUIDE - Week Ending XXX.."
+tags: guides
+path: guides
+---
+
+**DAY**
+
+<GigGuide
+  title="XX"
+  pic="/news/club-guide/XX"
+  link="XX"
+>
+  XX
+</GigGuide>
