@@ -10,6 +10,27 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "INVT & Neffa-T Early Access",
+    link: "https://ra.co/promoters/103854",
+    name: "tickets",
+  },
+  {
+    title: "EDINBURGH CLUB GUIDE: Fringe Special 2023",
+    link: "https://www.plantbassd.com/guides/edi-fringe-fest-2-8-23",
+    name: "news",
+    description:
+      "It's 5AM clubbing season in the Scottish capital yet again as Fringe festivities take over for the month of August.",
+    img: "/news/40-fringe.jpg",
+  },
+  {
+    title: "FRESH JUICE: 'Better Be Careful' by Rassan (Nice & Deadly)",
+    link: "https://www.plantbassd.com/fresh-juice/rassan-20-7-23",
+    name: "fresh juice",
+    description:
+      "Brazilian label and party series Nice & Deadly return with their 21st release coming from co-founder Rassan with the rousing bass of ‘Better Be Careful’, fired home with a deadly remixing effort Stones Taro.",
+    img: "/fresh-juice/67-careful.jpg",
+  },
+  {
     title: "In Depth with WNCL Recordings",
     link: "https://www.plantbassd.com/news/in-depth-with-wncl-6-7-23",
     name: "news",
