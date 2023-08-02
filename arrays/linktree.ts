@@ -15,6 +15,14 @@ export const linkList: LinkProps[] = [
     name: "tickets",
   },
   {
+    title: "EDINBURGH CLUB GUIDE: Fringe Special 2023",
+    link: "https://www.plantbassd.com/guides/edi-fringe-fest-2-8-23",
+    name: "news",
+    description:
+      "It's 5AM clubbing season in the Scottish capital yet again as Fringe festivities take over for the month of August.",
+    img: "/news/40-fringe.jpg",
+  },
+  {
     title: "FRESH JUICE: 'Better Be Careful' by Rassan (Nice & Deadly)",
     link: "https://www.plantbassd.com/fresh-juice/rassan-20-7-23",
     name: "fresh juice",
