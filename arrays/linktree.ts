@@ -23,6 +23,14 @@ export const linkList: LinkProps[] = [
     img: "/news/40-fringe.jpg",
   },
   {
+    title: "Under the Radar: July",
+    img: "/under-the-radar/july.jpg",
+    link: "https://www.plantbassd.com/under-the-radar/july-23",
+    name: "news",
+    description:
+      "Listen to high octane releases from Doss, Jun Kamoda, and Jersey and pick up some free downloads as well as some Bandcamp Friday recommends from yours truly",
+  },
+  {
     title: "FRESH JUICE: 'Better Be Careful' by Rassan (Nice & Deadly)",
     link: "https://www.plantbassd.com/fresh-juice/rassan-20-7-23",
     name: "fresh juice",
