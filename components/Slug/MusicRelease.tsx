@@ -2,7 +2,7 @@ import { ReactElement } from "react";
 import Link from "next/link";
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
-import { BandCamp } from "components/MusicPlayers";
+import { BandCamp, SoundCloud } from "components/MusicPlayers";
 
 interface MusicReleaseProps {
   title: string;
@@ -14,13 +14,25 @@ interface MusicReleaseProps {
   titleLabel?: string;
   standout?: string;
   embed?: string;
+  soundcloudEmbed?: string;
 }
 
 /**
  * MusicRelease is used in the under the radar series
  */
 export const MusicRelease = (props: MusicReleaseProps) => {
-  const { title, titleLink, titleLabel, pic, link, standout, tags, embed, children } = props;
+  const {
+    title,
+    titleLink,
+    titleLabel,
+    pic,
+    link,
+    standout,
+    tags,
+    embed,
+    soundcloudEmbed,
+    children,
+  } = props;
 
   const renderHeader = () => {
     if (titleLabel && titleLink) {
@@ -50,6 +62,7 @@ export const MusicRelease = (props: MusicReleaseProps) => {
         </div>
         <div className="col-md-7 col-sm-12">
           {embed && <BandCamp src={embed} />}
+          {soundcloudEmbed && <SoundCloud url={soundcloudEmbed} name={title} height="120px" />}
           <div className="mt-3 mb-2">{children}</div>
           {standout && (
             <div>
