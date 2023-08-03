@@ -23,6 +23,22 @@ export const linkList: LinkProps[] = [
     img: "/news/40-fringe.jpg",
   },
   {
+    title: "10 Irish acts you need to see AT All Together Now 2023",
+    img: "/news/41-atn.jpg",
+    link: "https://www.plantbassd.com/news/ten-at-atn-3-8-23",
+    name: "news",
+    description:
+      "ATN returns to Curraghmore Estate in Co Waterford for its fourth instalment with a packed out selection of artists, entertainers, and vendors",
+  },
+  {
+    title: "Under the Radar: July",
+    img: "/under-the-radar/july.jpg",
+    link: "https://www.plantbassd.com/under-the-radar/july-23",
+    name: "news",
+    description:
+      "Listen to high octane releases from Doss, Jun Kamoda, and Jersey and pick up some free downloads as well as some Bandcamp Friday recommends from yours truly",
+  },
+  {
     title: "FRESH JUICE: 'Better Be Careful' by Rassan (Nice & Deadly)",
     link: "https://www.plantbassd.com/fresh-juice/rassan-20-7-23",
     name: "fresh juice",
