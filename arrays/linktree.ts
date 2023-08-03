@@ -13,6 +13,8 @@ export const linkList: LinkProps[] = [
     title: "INVT & Neffa-T Early Access",
     link: "https://ra.co/promoters/103854",
     name: "tickets",
+    description:
+      "Get early access tickets to INVT playing Sneaky Pete's on Monday 11th September and Neffa-T hitting Stereo on Saturday 21st October.",
   },
   {
     title: "EDINBURGH CLUB GUIDE: Fringe Special 2023",
@@ -25,7 +27,7 @@ export const linkList: LinkProps[] = [
   {
     title: "13 Irish acts you need to see at All Together Now 2023",
     img: "/news/41-atn.jpg",
-    link: "https://www.plantbassd.com/news/all-together-now-3-8-23.mdx",
+    link: "https://www.plantbassd.com/news/all-together-now-3-8-23",
     name: "news",
     description:
       "ATN returns to Curraghmore Estate in Co Waterford for its fourth instalment with a packed out selection of artists, entertainers, and vendors",
