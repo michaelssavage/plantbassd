@@ -5,6 +5,7 @@ import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
 import { BandCamp, SoundCloud } from "components/MusicPlayers";
 import { ImageAndDescription } from "./ImageAndDescription";
+import { TextAndMedia } from "./TextAndMedia";
 
 interface SlugProps {
   path: string;
@@ -14,7 +15,7 @@ interface SlugProps {
   children?: ReactNode;
 }
 
-const components = { HoverLink, Picture, SoundCloud, BandCamp, ImageAndDescription };
+const components = { HoverLink, TextAndMedia, Picture, SoundCloud, BandCamp, ImageAndDescription };
 
 export const Slug = (props: SlugProps) => {
   const { path, date, title, mdxSource, children } = props;
