@@ -23,9 +23,9 @@ export const linkList: LinkProps[] = [
     img: "/news/40-fringe.jpg",
   },
   {
-    title: "10 Irish acts you need to see AT All Together Now 2023",
+    title: "13 Irish acts you need to see at All Together Now 2023",
     img: "/news/41-atn.jpg",
-    link: "https://www.plantbassd.com/news/ten-at-atn-3-8-23",
+    link: "https://www.plantbassd.com/news/all-together-now-3-8-23.mdx",
     name: "news",
     description:
       "ATN returns to Curraghmore Estate in Co Waterford for its fourth instalment with a packed out selection of artists, entertainers, and vendors",
