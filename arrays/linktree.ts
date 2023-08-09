@@ -17,6 +17,14 @@ export const linkList: LinkProps[] = [
       "Get early access tickets to INVT playing Sneaky Pete's on Monday 11th September and Neffa-T hitting Stereo on Saturday 21st October.",
   },
   {
+    title: "On site at All Together Now 2023",
+    link: "https://www.plantbassd.com/news/all-together-now-review-10-8-23",
+    name: "news",
+    description:
+      "All Together Now wrapped up their 4th successful year of joyous celebration with a mixed bag of heavy rain, high winds, and scorching Sun.",
+    img: "/news/42-atn.jpg",
+  },
+  {
     title: "EDINBURGH CLUB GUIDE: Fringe Special 2023",
     link: "https://www.plantbassd.com/guides/edi-fringe-fest-2-8-23",
     name: "news",
@@ -101,48 +109,6 @@ export const linkList: LinkProps[] = [
     img: "/premieres/50-ageless.jpg",
     description:
       "Amsterdam's DJ Ageless Wonder rides on high on a ghetto house pump with 'BE MY LOVER'.",
-  },
-  {
-    title: "'Core Work' by Sweet Philly",
-    link: "https://on.soundcloud.com/VdwKs",
-    name: "premieres",
-    img: "/premieres/49-trust-fall.jpg",
-  },
-  {
-    title: "'Denial' by Midnight Totem",
-    link: "https://soundcloud.com/plantbassddjs/premiere-midnight-totem-denial",
-    name: "premieres",
-    img: "/premieres/48-midnight-totem.jpg",
-  },
-  {
-    title: "FRESH JUICE: 'The End Of All Physical Form' by J-SHADOW",
-    link: "https://www.plantbassd.com/fresh-juice/j-shadow-19-5-23",
-    name: "fresh juice",
-    img: "/fresh-juice/66-j-shadow.jpg",
-  },
-  {
-    title: "'Y' by Overkissed",
-    link: "https://soundcloud.com/plantbassddjs/premiere-overkissed-y",
-    name: "premieres",
-    img: "/premieres/47-overkissed.jpg",
-  },
-  {
-    title: "Under the Radar: April",
-    link: "https://www.plantbassd.com/under-the-radar/april-23",
-    name: "news",
-    img: "/under-the-radar/april.jpg",
-  },
-  {
-    title: "'Walk down a dark path' by c0sti",
-    link: "https://on.soundcloud.com/mGRY3",
-    name: "premieres",
-    img: "/premieres/46-c0sti.jpg",
-  },
-  {
-    title: "'Cobweb Thread' by Asa Nisi Masa",
-    link: "https://on.soundcloud.com/FbrVS",
-    name: "premieres",
-    img: "/premieres/45-asa-nisi.jpg",
   },
   {
     title: "'Superviolet Romance' by Brenda",
