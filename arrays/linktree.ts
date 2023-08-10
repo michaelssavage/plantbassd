@@ -17,6 +17,14 @@ export const linkList: LinkProps[] = [
       "Get early access tickets to INVT playing Sneaky Pete's on Monday 11th September and Neffa-T hitting Stereo on Saturday 21st October.",
   },
   {
+    title: "Que Paso by CRRDR",
+    link: "https://soundcloud.com/plantbassddjs/premiere-crrdr-que-paso",
+    name: "premieres",
+    description:
+      "Bogota baddie CRRDR unleashes their next collection of sounds with the tongue in cheek ferocity of the 'SUwUMMER' EP.",
+    img: "/premieres/52-crrdr.jpg",
+  },
+  {
     title: "On site at All Together Now 2023",
     link: "https://www.plantbassd.com/news/all-together-now-review-10-8-23",
     name: "news",
@@ -67,7 +75,7 @@ export const linkList: LinkProps[] = [
   {
     title: "'Ticking' by Hngwy",
     link: "https://soundcloud.com/plantbassddjs/premiere-ticking-by-hngwy",
-    name: "premiere",
+    name: "premieres",
     description: "Tripped out low end half-time from Glasgow's Hngwy on Hang Tough Records",
     img: "/premieres/51-hngwy.jpg",
   },
