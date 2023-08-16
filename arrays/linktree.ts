@@ -17,6 +17,12 @@ export const linkList: LinkProps[] = [
       "Get early access tickets to INVT playing Sneaky Pete's on Monday 11th September and Neffa-T hitting Stereo on Saturday 21st October.",
   },
   {
+    title: "Pretty Girls Walk (SMIFF'S Seriously Drummy Rework)",
+    link: "https://on.soundcloud.com/bNTdN",
+    name: "premieres",
+    description: "A slamming hard drum rendition of Big Boss Vette's 'Pretty Girls Walk' from Edinburgh bass boss SMIFF",
+  },
+  {
     title: "Que Paso by CRRDR",
     link: "https://soundcloud.com/plantbassddjs/premiere-crrdr-que-paso",
     name: "premieres",
