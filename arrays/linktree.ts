@@ -10,17 +10,27 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "INVT & Neffa-T Early Access",
-    link: "https://ra.co/promoters/103854",
+    title: "SweatBox: INVT at Sneaky Pete's",
+    link: "https://ra.co/events/1744348",
     name: "tickets",
     description:
-      "Get early access tickets to INVT playing Sneaky Pete's on Monday 11th September and Neffa-T hitting Stereo on Saturday 21st October.",
+      "SweatBox meets Miami bass specialists INVT at the headquarters of heat itself, Sneaky Pete's 🤝",
+    img: "/news/43-invt-gig.jpg",
+  },
+  {
+    title: "Neffa-T Early Access",
+    link: "https://ra.co/events/1694133",
+    name: "tickets",
+    description: "Get early access tickets to Neffa-T hitting Stereo on Saturday 21st October.",
+    img: "/news/41-neffa.webp",
   },
   {
     title: "Pretty Girls Walk (SMIFF'S Seriously Drummy Rework)",
     link: "https://on.soundcloud.com/bNTdN",
     name: "premieres",
-    description: "A slamming hard drum rendition of Big Boss Vette's 'Pretty Girls Walk' from Edinburgh bass boss SMIFF",
+    description:
+      "A slamming hard drum rendition of Big Boss Vette's 'Pretty Girls Walk' from Edinburgh bass boss SMIFF",
+    img: "/premieres/53-smiff.jpg",
   },
   {
     title: "Que Paso by CRRDR",

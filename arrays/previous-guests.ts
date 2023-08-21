@@ -204,6 +204,7 @@ export const guestList: GuestProps[] = [
       "https://ra.co/events/1699420",
       "https://ra.co/events/1719245",
       "https://ra.co/events/1737600",
+      "https://ra.co/events/1744348",
     ],
   },
   {
@@ -289,7 +290,11 @@ export const guestList: GuestProps[] = [
     img: "14-doubt.jpg",
     link: "doubt_fld/",
     name: "Doubt",
-    gig: ["https://ra.co/events/1550775", "https://ra.co/events/1570572"],
+    gig: [
+      "https://ra.co/events/1550775",
+      "https://ra.co/events/1570572",
+      "https://ra.co/events/1744348",
+    ],
   },
   {
     img: "14-skillis.jpg",
@@ -566,5 +571,17 @@ export const guestList: GuestProps[] = [
     link: "arusaqureshi",
     name: "Arusa Qureshi",
     gig: ["https://ra.co/events/1737600"],
+  },
+  {
+    img: "43-messi.jpg",
+    link: "vio_messi",
+    name: "Vionel Messi",
+    gig: ["https://ra.co/events/1744348"],
+  },
+  {
+    img: "43-invt.jpg",
+    link: "invt305",
+    name: "INVT",
+    gig: ["https://ra.co/events/1744348"],
   },
 ];
