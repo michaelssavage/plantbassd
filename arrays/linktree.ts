@@ -22,6 +22,7 @@ export const linkList: LinkProps[] = [
     link: "https://ra.co/events/1762287",
     name: "tickets",
     description: "Soilse and SweatBox collide in Glasgow bringing together Mosca, Swimful and Plantainchipps",
+    img: "/news/44-mosca.jpg",
   },
   {
     title: "Pretty Girls Walk (SMIFF'S Seriously Drummy Rework)",
