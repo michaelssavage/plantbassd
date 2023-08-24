@@ -18,11 +18,10 @@ export const linkList: LinkProps[] = [
     img: "/news/43-invt-gig.jpg",
   },
   {
-    title: "Neffa-T Early Access",
-    link: "https://ra.co/events/1694133",
+    title: "Soilse x SweatBox @ Stereo",
+    link: "https://ra.co/events/1762287",
     name: "tickets",
-    description: "Get early access tickets to Neffa-T hitting Stereo on Saturday 21st October.",
-    img: "/news/41-neffa.webp",
+    description: "Soilse and SweatBox collide in Glasgow bringing together Mosca, Swimful and Plantainchipps",
   },
   {
     title: "Pretty Girls Walk (SMIFF'S Seriously Drummy Rework)",
