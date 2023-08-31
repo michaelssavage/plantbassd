@@ -21,14 +21,17 @@ export const linkList: LinkProps[] = [
     title: "Soilse x SweatBox @ Stereo",
     link: "https://ra.co/events/1762287",
     name: "tickets",
-    description: "Soilse and SweatBox collide in Glasgow bringing together Mosca, Swimful and Plantainchipps",
+    description:
+      "Soilse and SweatBox collide in Glasgow bringing together Mosca, Swimful and Plantainchipps",
     img: "/news/44-mosca.jpg",
   },
   {
     title: "Throwing Elbows by LO CHI",
     link: "https://soundcloud.com/plantbassddjs/premiere-lo-chi-throwing-elbows",
     name: "premieres",
-    description: "Bristol electro via Perth from LO CHI on the debut release from the Different Intel imprint.",
+    img: "/premieres/54-lo-chi.jpg",
+    description:
+      "Bristol electro via Perth from LO CHI on the debut release from the Different Intel imprint.",
   },
   {
     title: "Pretty Girls Walk (SMIFF'S Seriously Drummy Rework)",
