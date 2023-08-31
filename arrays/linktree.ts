@@ -25,6 +25,12 @@ export const linkList: LinkProps[] = [
     img: "/news/44-mosca.jpg",
   },
   {
+    title: "Throwing Elbows by LO CHI",
+    link: "https://soundcloud.com/plantbassddjs/premiere-lo-chi-throwing-elbows",
+    name: "premieres",
+    description: "Bristol electro via Perth from LO CHI on the debut release from the Different Intel imprint.",
+  },
+  {
     title: "Pretty Girls Walk (SMIFF'S Seriously Drummy Rework)",
     link: "https://on.soundcloud.com/bNTdN",
     name: "premieres",
