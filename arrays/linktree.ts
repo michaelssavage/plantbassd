@@ -18,11 +18,26 @@ export const linkList: LinkProps[] = [
     img: "/news/43-invt-gig.jpg",
   },
   {
-    title: "Neffa-T Early Access",
-    link: "https://ra.co/events/1694133",
+    title: "Soilse x SweatBox @ Stereo",
+    link: "https://ra.co/events/1762287",
     name: "tickets",
-    description: "Get early access tickets to Neffa-T hitting Stereo on Saturday 21st October.",
-    img: "/news/41-neffa.webp",
+    description:
+      "Soilse and SweatBox collide in Glasgow bringing together Mosca, Swimful and Plantainchipps",
+    img: "/news/44-mosca.jpg",
+  },
+  {
+    title: "Cosi by Dites Safran",
+    link: "https://on.soundcloud.com/BLauL",
+    name: "premieres",
+    description: "Descriptive and textured low end hard drum from French artist Dites Safran",
+  },
+  {
+    title: "Throwing Elbows by LO CHI",
+    link: "https://soundcloud.com/plantbassddjs/premiere-lo-chi-throwing-elbows",
+    name: "premieres",
+    img: "/premieres/54-lo-chi.jpg",
+    description:
+      "Bristol electro via Perth from LO CHI on the debut release from the Different Intel imprint.",
   },
   {
     title: "Pretty Girls Walk (SMIFF'S Seriously Drummy Rework)",
