@@ -26,6 +26,12 @@ export const linkList: LinkProps[] = [
     img: "/news/44-mosca.jpg",
   },
   {
+    title: "Cosi by Dites Safran",
+    link: "https://on.soundcloud.com/BLauL",
+    name: "premieres",
+    description: "Descriptive and textured low end hard drum from French artist Dites Safran",
+  },
+  {
     title: "Throwing Elbows by LO CHI",
     link: "https://soundcloud.com/plantbassddjs/premiere-lo-chi-throwing-elbows",
     name: "premieres",
