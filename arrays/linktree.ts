@@ -26,10 +26,19 @@ export const linkList: LinkProps[] = [
     img: "/news/44-mosca.jpg",
   },
   {
+    title: "Under the Radar: August",
+    link: "https://www.plantbassd.com/under-the-radar/august-23",
+    name: "premieres",
+    description:
+      "Sharing some extra hot trax from last month as the September sun inexplicably bakes down on us! Featuring speedy tools, hip-hop transmissions and much more from acts like Yazzus, Small Crab, Divoli S’vere, and more",
+    img: "/under-the-radar/august.jpg",
+  },
+  {
     title: "Cosi by Dites Safran",
     link: "https://on.soundcloud.com/BLauL",
     name: "premieres",
     description: "Descriptive and textured low end hard drum from French artist Dites Safran",
+    img: "/premieres/55-safran.jpg",
   },
   {
     title: "Throwing Elbows by LO CHI",

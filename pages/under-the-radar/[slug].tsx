@@ -29,7 +29,7 @@ export default function UnderTheRadarSlug(props: InferGetStaticPropsType<typeof 
           Under the Radar - {month}
         </h1>
 
-        <p>{bio}</p>
+        <p className={styles.bioText}>{bio}</p>
 
         <hr />
 
