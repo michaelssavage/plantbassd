@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { CldImage } from "next-cloudinary";
 
 import { CSSProperties } from "react";
 import { blurImgUrl } from "utils";
@@ -14,7 +14,7 @@ export const Picture = ({ alt, size, src, style }: PictureProps) => {
   const css: CSSProperties = { maxWidth: "100%", height: "auto", objectFit: "contain" };
   const myStyle = { ...css, ...style };
   return (
-    <Image
+    <CldImage
       alt={alt}
       blurDataURL={blurImgUrl(size)}
       height={size}
