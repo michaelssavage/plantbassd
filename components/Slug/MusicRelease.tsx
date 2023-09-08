@@ -52,15 +52,15 @@ export const MusicRelease = (props: MusicReleaseProps) => {
   };
 
   return (
-    <div className="mb-5">
+    <div className="mt-2 mb-5">
       <div className="row">
         <h3>{renderHeader()}</h3>
-        <div className="col-md-5 col-sm-12">
+        <div className="col-md-4 col-sm-12">
           <Link href={link}>
             <Picture src={pic} alt={title} size={600} />
           </Link>
         </div>
-        <div className="col-md-7 col-sm-12">
+        <div className="col-md-8 col-sm-12">
           {embed && <BandCamp src={embed} />}
           {soundcloudEmbed && <SoundCloud url={soundcloudEmbed} name={title} height="120px" />}
           <div className="mt-3 mb-2">{children}</div>
