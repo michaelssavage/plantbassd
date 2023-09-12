@@ -1,5 +1,10 @@
 import { ChangeEvent, useEffect, useState } from "react";
-import { sortAlphabetically } from "utils";
+import Fuse from "fuse.js";
+
+const fuseOptions = {
+  threshold: 0.3,
+  keys: ["name", "frontmatter.name", "frontmatter.bio"],
+};
 
 export const useSearchFilter = (posts = [], type?: "array") => {
   const [searchHasErrored, setSearchHasErrored] = useState(false);
@@ -12,22 +17,18 @@ export const useSearchFilter = (posts = [], type?: "array") => {
   };
 
   useEffect(() => {
+    const fuse = new Fuse(posts, fuseOptions);
+
     try {
-      let filtered = [];
-      if (type) {
-        filtered = !filter
-          ? posts
-          : posts
-              .filter((post) => post.name.toLowerCase().includes(filter.toLowerCase()))
-              .sort(sortAlphabetically);
+      const result = fuse.search(filter);
+      if (filter && !result.length) {
+        setPostCards([]);
+      } else if (filter && result) {
+        const matches = result.map((res) => res.item);
+        setPostCards(matches);
       } else {
-        filtered = !filter
-          ? posts
-          : posts.filter((post) =>
-              post.frontmatter.name.toLowerCase().includes(filter.toLowerCase())
-            );
+        setPostCards(posts);
       }
-      setPostCards(filtered);
     } catch (err) {
       setSearchHasErrored(true);
       setSearchError(err);
