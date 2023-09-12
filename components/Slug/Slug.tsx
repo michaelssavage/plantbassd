@@ -15,7 +15,14 @@ interface SlugProps {
   children?: ReactNode;
 }
 
-const components = { HoverLink, TextAndMedia, Picture, SoundCloud, BandCamp, ImageAndDescription };
+const components = {
+  HoverLink,
+  TextAndMedia,
+  Picture,
+  SoundCloud,
+  BandCamp,
+  ImageAndDescription,
+};
 
 export const Slug = (props: SlugProps) => {
   const { path, date, title, mdxSource, children } = props;

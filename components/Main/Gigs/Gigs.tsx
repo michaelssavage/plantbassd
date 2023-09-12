@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { CldImage } from "next-cloudinary";
 import { Picture } from "components/Picture";
 import Header from "components/Header";
 import { Button } from "components/Button";
@@ -24,12 +23,7 @@ export const Gigs = ({ gigs }: Props) => {
             </Link>
             <Link href={`gigs/${gigs[0].slug}`}>
               <div className={`${styles.bottomImage} ${card.cardStyle}`}>
-                <CldImage
-                  alt={gigs[0].frontmatter.title}
-                  height={360}
-                  src={gigs[0].frontmatter.pic}
-                  width={360}
-                />
+                <Picture alt={gigs[0].frontmatter.title} size={360} src={gigs[0].frontmatter.pic} />
               </div>
             </Link>
           </div>

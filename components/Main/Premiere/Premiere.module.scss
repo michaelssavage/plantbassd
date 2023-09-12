@@ -4,12 +4,10 @@
   background-color: $culturedWhite;
   height: 50vh;
   .backgroundImage {
-    background-image: url("/various/background.png");
-    background-size: cover;
+    background-image: url("/images/background.png");
+    background-size: cover !important;
     background-repeat: no-repeat;
     background-position: center;
-    animation: slidein 10s ease-in-out infinite;
-    animation-direction: alternate;
     .frontText {
       display: flex;
       justify-content: center;
