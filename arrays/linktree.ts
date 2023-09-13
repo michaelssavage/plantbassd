@@ -10,20 +10,18 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "SweatBox: INVT at Sneaky Pete's",
-    link: "https://ra.co/events/1744348",
-    name: "tickets",
-    description:
-      "SweatBox meets Miami bass specialists INVT at the headquarters of heat itself, Sneaky Pete's 🤝",
-    img: "/news/43-invt-gig.jpg",
-  },
-  {
     title: "Soilse x SweatBox @ Stereo",
     link: "https://ra.co/events/1762287",
     name: "tickets",
     description:
       "Soilse and SweatBox collide in Glasgow bringing together Mosca, Swimful and Plantainchipps",
     img: "/news/44-mosca.jpg",
+  },
+  {
+    title: "Burning Trees (Rudoh Remix) by Vell",
+    link: "https://on.soundcloud.com/XeQf2",
+    name: "premieres",
+    description: "Rudoh adds a magnificent breakbeat element to Vell's 'Burning Trees' on Boiled Wonderland Recs (Bangkok)",
   },
   {
     title: "Under the Radar: August",
