@@ -15,7 +15,7 @@ export const linkList: LinkProps[] = [
     name: "tickets",
     description:
       "Soilse and SweatBox collide in Glasgow bringing together Mosca, Swimful and Plantainchipps",
-    img: "/news/44-mosca.jpg",
+    img: "/news/46-sweatbox.jpg",
   },
   {
     title: "Burning Trees (Rudoh Remix) by Vell",

@@ -206,6 +206,7 @@ export const guestList: GuestProps[] = [
       "https://ra.co/events/1719245",
       "https://ra.co/events/1737600",
       "https://ra.co/events/1744348",
+      "https://ra.co/events/1762287",
     ],
   },
   {
@@ -584,5 +585,23 @@ export const guestList: GuestProps[] = [
     link: "invt305",
     name: "INVT",
     gig: ["https://ra.co/events/1744348"],
+  },
+  {
+    img: "44-mosca.jpg",
+    link: "deejaymosca",
+    name: "Mosca",
+    gig: ["https://ra.co/events/1762287"],
+  },
+  {
+    img: "44-swimful.jpg",
+    link: "swimful",
+    name: "Swimful",
+    gig: ["https://ra.co/events/1762287"],
+  },
+  {
+    img: "44-plaintainchipps.jpg",
+    link: "plantainchipps",
+    name: "Plantainchipps",
+    gig: ["https://ra.co/events/1762287"],
   },
 ];
