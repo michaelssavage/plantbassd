@@ -21,7 +21,17 @@ export const linkList: LinkProps[] = [
     title: "Burning Trees (Rudoh Remix) by Vell",
     link: "https://on.soundcloud.com/XeQf2",
     name: "premieres",
-    description: "Rudoh adds a magnificent breakbeat element to Vell's 'Burning Trees' on Boiled Wonderland Recs (Bangkok)",
+    description:
+      "Rudoh adds a magnificent breakbeat element to Vell's 'Burning Trees' on Boiled Wonderland Recs (Bangkok)",
+    img: "/premieres/56-vell.jpg",
+  },
+  {
+    title: "Fuinneamh Festival 2023 Guide",
+    img: "/news/45-fuinneamh.jpg",
+    link: "https://www.plantbassd.com/news/fuinneamh-13-9-23",
+    name: "news",
+    description:
+      "The Irish festival season prepares for its grandest of finales this weekend with the almighty Fuinneamh offering up their biggest instalment to date.",
   },
   {
     title: "Under the Radar: August",
