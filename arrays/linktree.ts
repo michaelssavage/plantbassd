@@ -10,12 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "Soilse x SweatBox @ Stereo",
-    link: "https://ra.co/events/1762287",
+    title: "Plant Bass'd presents Organica",
+    link: "https://ra.co/events/1774670",
     name: "tickets",
     description:
-      "Soilse and SweatBox collide in Glasgow bringing together Mosca, Swimful and Plantainchipps",
-    img: "/news/46-sweatbox.jpg",
+      "Plant Bass’d Organica is back for its first installment in Gaillimh after a series of shows in Dublin last year.",
+    img: "/news/46_organica.jpg",
   },
   {
     title: "Burning Trees (Rudoh Remix) by Vell",
