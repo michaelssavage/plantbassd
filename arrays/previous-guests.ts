@@ -212,10 +212,11 @@ export const guestList: GuestProps[] = [
   {
     img: "michael.jpg",
     link: "Michaelsaverage/",
-    name: "michael average",
+    name: "Michael Average",
     gig: [
       "https://ra.co/events/1523165",
       "https://www.eventbrite.ie/e/plant-bassd-presents-organica-tickets-399512531737",
+      "https://ra.co/events/1774670",
     ],
   },
   {
@@ -603,5 +604,47 @@ export const guestList: GuestProps[] = [
     link: "plantainchipps",
     name: "Plantainchipps",
     gig: ["https://ra.co/events/1762287"],
+  },
+  {
+    img: "46-airy-fairy.jpg",
+    link: "airy_fairy_ldc",
+    name: "Airy Fairy",
+    gig: ["https://ra.co/events/1774670"],
+  },
+  {
+    img: "46-lushed.jpg",
+    link: "lushed.ie",
+    name: "Lushed",
+    gig: ["https://ra.co/events/1774670"],
+  },
+  {
+    img: "46-peter-toal.jpg",
+    link: "peter_toal",
+    name: "Peter Toal",
+    gig: ["https://ra.co/events/1774670"],
+  },
+  {
+    img: "46-fatalist.jpg",
+    link: "fatalist_091",
+    name: "Fatalist",
+    gig: ["https://ra.co/events/1774670"],
+  },
+  {
+    img: "46-danu.jpg",
+    link: "danu_dj",
+    name: "D'anu",
+    gig: ["https://ra.co/events/1774670"],
+  },
+  {
+    img: "46-mejmi.jpg",
+    link: "melanie_higgins_mejmi",
+    name: "Mejmi",
+    gig: ["https://ra.co/events/1774670"],
+  },
+  {
+    img: "46-supergross.jpg",
+    link: "supergross.ie",
+    name: "Supergross",
+    gig: ["https://ra.co/events/1774670"],
   },
 ];

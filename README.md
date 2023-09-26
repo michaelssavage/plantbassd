@@ -1,7 +1,7 @@
 # Plant Bass'd
 
 <p align="center">
-<img width="50%" src="public/various/pb_pink.png" alt="plant bass'd logo.">
+<img width="50%" src="public/images/pb_white.png" alt="plant bass'd logo.">
 </p>
 
 ## About
@@ -14,7 +14,8 @@ Party Throwers and electronic music blog based in Edinburgh and Dublin. Sharing 
 - Styled with Bootstrap 5 and SCSS.
 - Markdown posts parsed by gray-matter, marked, and MDX.
 - Deployed to Vercel.
-- Card Images made in [Adobe Photoshop and Adobe Illustrator here](https://github.com/michaelssavage/plantbassd-graphics).
+- Images stored on Cloudinary CDN.
+- Cover Images made in [Adobe Photoshop and Adobe Illustrator here](https://github.com/michaelssavage/plantbassd-graphics).
 
 ## Get In Contact
 
