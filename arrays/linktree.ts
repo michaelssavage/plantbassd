@@ -14,8 +14,16 @@ export const linkList: LinkProps[] = [
     link: "https://ra.co/events/1774670",
     name: "tickets",
     description:
-      "Plant Bass’d Organica is back for its first installment in Gaillimh after a series of shows in Dublin last year.",
+      "Plant Bass'd Organica is back for its first installment in Gaillimh after a series of shows in Dublin last year.",
     img: "/news/46_organica.jpg",
+  },
+  {
+    title: "FRESH JUICE: 'Floating Mists, Warm Vistas' by Vell",
+    link: "https://www.plantbassd.com/fresh-juice/vell-26-9-23",
+    name: "fresh juice",
+    description:
+      "Boiled Wonderland Records co-founder Vell debuts on the imprint with a string of techno mutations on the ‘Floating Mists, Warm Vistas’ EP, with a rave embodied remix from Dubai’s Rudoh.",
+    img: "/fresh-juice/67-vell.jpg",
   },
   {
     title: "Burning Trees (Rudoh Remix) by Vell",
