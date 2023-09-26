@@ -26,6 +26,14 @@ export const linkList: LinkProps[] = [
     img: "/fresh-juice/67-vell.jpg",
   },
   {
+    title: "On site at Fuinneamh Festival 2023",
+    link: "https://www.plantbassd.com/news/fuinneamh-review-26-9-23",
+    name: "news",
+    description:
+      "Another festival season is in the books, and once again we were blessed to spend this year's finale at the beautifully defiant Fuinneamh.",
+    img: "/news/47-fuinneamh.jpg",
+  },
+  {
     title: "Burning Trees (Rudoh Remix) by Vell",
     link: "https://on.soundcloud.com/XeQf2",
     name: "premieres",
