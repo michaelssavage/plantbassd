@@ -16,6 +16,7 @@ const gigsTags = [
   { name: "edinburgh", value: false },
   { name: "glasgow", value: false },
   { name: "dublin", value: false },
+  { name: "galway", value: false },
 ];
 
 export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getStaticProps>) {
