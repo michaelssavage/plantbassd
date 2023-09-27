@@ -19,7 +19,7 @@ export const linkList: LinkProps[] = [
   },
   {
     title: "FRESH JUICE: 'Floating Mists, Warm Vistas' by Vell",
-    link: "https://www.plantbassd.com/fresh-juice/vell-26-9-23",
+    link: "https://www.plantbassd.com/fresh-juice/vell-27-9-23",
     name: "fresh juice",
     description:
       "Boiled Wonderland Records co-founder Vell debuts on the imprint with a string of techno mutations on the ‘Floating Mists, Warm Vistas’ EP, with a rave embodied remix from Dubai’s Rudoh.",
