@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 import { Picture } from "components/Picture";
-import { BandCamp, SoundCloud } from "components/MusicPlayers";
+import { BandCamp, SoundCloud } from "components/Players";
 import { HoverLink } from "components/HoverLink";
 
 interface FavTrackProps {

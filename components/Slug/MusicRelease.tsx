@@ -2,7 +2,7 @@ import { ReactElement } from "react";
 import Link from "next/link";
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
-import { BandCamp, SoundCloud } from "components/MusicPlayers";
+import { BandCamp, SoundCloud } from "components/Players";
 
 interface MusicReleaseProps {
   title: string;

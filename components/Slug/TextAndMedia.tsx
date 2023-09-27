@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { BandCamp, SoundCloud } from "components/MusicPlayers";
+import { BandCamp, SoundCloud } from "components/Players";
 import styles from "./Slug.module.scss";
 
 interface FavTrackProps {

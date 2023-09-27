@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 import styles from "styles/slug.module.scss";
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
-import { BandCamp, SoundCloud } from "components/MusicPlayers";
+import { BandCamp, SoundCloud, VideoPlayer, YouTube } from "components/Players";
 import { ImageAndDescription } from "./ImageAndDescription";
 import { TextAndMedia } from "./TextAndMedia";
 
@@ -20,6 +20,8 @@ const components = {
   TextAndMedia,
   Picture,
   SoundCloud,
+  VideoPlayer,
+  YouTube,
   BandCamp,
   ImageAndDescription,
 };

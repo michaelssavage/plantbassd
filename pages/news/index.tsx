@@ -37,8 +37,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
       <h1 className={styles.pageHeader}>Plant Bass'd News</h1>
 
       <h3 className={styles.pageText}>
-        Catch the latest about new music, upcoming gigs & events, and all things Plant Bass'd and
-        keep up to date on our Instagram, @plantbassd___
+        Catch the latest about new music, upcoming gigs & events, and all things Plant Bass'd.
       </h3>
       <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
       <SocialButton name="email" url="mailto: plantbassddjs@gmail.com" text="Email" />
