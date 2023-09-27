@@ -28,8 +28,8 @@ export default function FreshJuicePage({
         Read our reviews of new music releases from around the world that we couldn't get enough of.
         See more on our Bandcamp below.
       </h3>
-      <SocialButton name="bandcamp" url="https://bandcamp.com/oisincampbellbap" />
-      <SocialButton name="instagram" url={plantbassdInstagram} />
+      <SocialButton name="bandcamp" url="https://bandcamp.com/oisincampbellbap" text="Bandcamp" />
+      <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
       <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
       <div className="row g-3">
         {postCards.map((juice: AllPostProps) => (

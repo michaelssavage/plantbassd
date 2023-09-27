@@ -3,7 +3,7 @@ import { Icon } from "./Icon";
 import styles from "./SocialButton.module.scss";
 import { SocialProps } from "./types";
 
-export const SocialButton = ({ name, url }: SocialProps) => {
+export const SocialButton = ({ name, url, text }: SocialProps) => {
   return (
     <Link
       aria-label={name}
@@ -12,7 +12,10 @@ export const SocialButton = ({ name, url }: SocialProps) => {
       rel="noopener noreferrer"
       target="_blank"
     >
-      <Icon icon={name} styling={styles.socialIcon} />
+      <div className={styles.textBox}>
+        <Icon icon={name} styling={styles.socialIcon} />
+        <p>{text}</p>
+      </div>
     </Link>
   );
 };

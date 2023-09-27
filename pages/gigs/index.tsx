@@ -11,6 +11,8 @@ import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { getPosts } from "utils/getPosts";
 import PageTitle from "components/PageTitle";
+import { SocialButton } from "components/Icon";
+import { plantbassdInstagram } from "utils/constants";
 
 const gigsTags = [
   { name: "edinburgh", value: false },
@@ -37,6 +39,8 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
         Check out some of the {filteredPosts.length} shows we've put together in Ireland and the UK:
       </h3>
 
+      <SocialButton name="tickets" url="https://ra.co/promoters/103854" text="Resident Advisor" />
+      <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
       <FilterTags handleTags={handleTags} tagList={tagList} />
 
       <div className="row g-3">

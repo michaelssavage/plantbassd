@@ -47,6 +47,8 @@
 .btnText {
   font-size: $btnText;
   border-top: 3px solid $pbBlack;
+  border-bottom: 0;
+  border-right: 0;
 }
 
 .btnIfImage {

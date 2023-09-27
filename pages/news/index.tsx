@@ -40,8 +40,8 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
         Catch the latest about new music, upcoming gigs & events, and all things Plant Bass'd and
         keep up to date on our Instagram, @plantbassd___
       </h3>
-      <SocialButton name="instagram" url={plantbassdInstagram} />
-      <SocialButton name="email" url="mailto: plantbassddjs@gmail.com" />
+      <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
+      <SocialButton name="email" url="mailto: plantbassddjs@gmail.com" text="Email" />
 
       <FilterTags handleTags={handleTags} tagList={tagList} />
 

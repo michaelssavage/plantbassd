@@ -158,48 +158,13 @@ export const linkList: LinkProps[] = [
     description: "Enjoyable experiences hidden in a very difficult and taxing Body and Soul 2023",
     img: "/news/37-bas.jpg",
   },
-  {
-    title: "In Depth with SPHERES",
-    link: "https://www.plantbassd.com/news/in-depth-with-spheres-20-6-23",
-    name: "news",
-    description:
-      "We spoke to Rob Rua from the label about the foundations, process and the challenges in bringing this new series to life.",
-    img: "/news/36-in-depth.jpg",
-  },
-  {
-    title: "Under the Radar: May",
-    link: "https://www.plantbassd.com/under-the-radar/may-23",
-    name: "news",
-    img: "/under-the-radar/may.jpg",
-    description:
-      "Hear the creative directions being influenced by Summer weather in this May Under The Radar with new fun & bouncy releases from the likes of Gemi, Selky, & more",
-  },
-  {
-    title: "'Be My Lover' by DJ Ageless Wonder",
-    link: "https://soundcloud.com/plantbassddjs/premiere-dj-ageless-wonder-be-my-lover",
-    name: "premieres",
-    img: "/premieres/50-ageless.jpg",
-    description:
-      "Amsterdam's DJ Ageless Wonder rides on high on a ghetto house pump with 'BE MY LOVER'.",
-  },
-  {
-    title: "'Superviolet Romance' by Brenda",
-    link: "https://soundcloud.com/plantbassddjs/premiere-brenda-superviolet-romance",
-    name: "premieres",
-    img: "/premieres/44-brenda.jpg",
-  },
 ];
 
 export const mainLinks: LinkProps[] = [
   {
-    title: "Plant Bass'd Home",
+    title: "Home",
     link: "https://www.plantbassd.com",
     name: "site",
-  },
-  {
-    title: "Plantbass'd & Friends Top Ten Releases 2022",
-    link: "https://open.spotify.com/playlist/3EV4meqUK8g5IEYGqxsvNf",
-    name: "spotify",
   },
   {
     title: "Plant Bass'd Soundcloud",
@@ -207,7 +172,12 @@ export const mainLinks: LinkProps[] = [
     name: "soundcloud",
   },
   {
-    title: "Get In Contact",
+    title: "Resident Advisor",
+    link: "https://ra.co/promoters/103854",
+    name: "tickets",
+  },
+  {
+    title: "Our Team",
     link: "https://www.plantbassd.com/team#get-in-touch",
     name: "contact us",
   },

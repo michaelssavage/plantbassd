@@ -38,4 +38,5 @@ export interface SocialProps {
   url: string;
   icon?: string;
   style?: string;
+  text?: string;
 }
