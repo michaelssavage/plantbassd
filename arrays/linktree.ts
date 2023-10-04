@@ -18,6 +18,14 @@ export const linkList: LinkProps[] = [
     img: "/news/46_organica.jpg",
   },
   {
+    title: "Subterranean Sound 2023 Preview",
+    link: "https://www.plantbassd.com/news/subterranean-sound-4-10-23",
+    name: "news",
+    description:
+      "Subterranean Sound reboots for its second instalment this weekend at Edinburgh’s Sweetdram Distillery",
+    img: "/news/48-subterranean-sound.jpg",
+  },
+  {
     title: "FRESH JUICE: 'Floating Mists, Warm Vistas' by Vell",
     link: "https://www.plantbassd.com/fresh-juice/vell-27-9-23",
     name: "fresh juice",
