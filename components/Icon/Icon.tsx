@@ -1,5 +1,5 @@
 import { AiFillHome, AiOutlineLink, AiOutlineSearch } from "react-icons/ai";
-import { BiRadio } from "react-icons/bi";
+import { BiRadar, BiRadio } from "react-icons/bi";
 import { BsFacebook, BsFillVolumeUpFill, BsInstagram, BsMailbox2, BsSpotify } from "react-icons/bs";
 import { FaSpotify } from "react-icons/fa";
 import { GiTicket } from "react-icons/gi";
@@ -36,6 +36,7 @@ const IconMap: IconMapType = {
   takeovers: <FaSpotify />,
   tickets: <GiTicket />,
   empty: <RxValueNone />,
+  "under the radar": <BiRadar />,
 };
 
 export const Icon = ({ icon, styling = "navIcon" }: SocialIconProps) => {

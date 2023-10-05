@@ -22,7 +22,8 @@ export type IconType =
   | "spotify"
   | "takeovers"
   | "tickets"
-  | "empty";
+  | "empty"
+  | "under the radar";
 
 export interface SocialIconProps {
   icon: IconType;

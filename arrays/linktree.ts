@@ -18,6 +18,14 @@ export const linkList: LinkProps[] = [
     img: "/news/46_organica.jpg",
   },
   {
+    title: "Under the Radar: September",
+    link: "https://www.plantbassd.com/under-the-radar/september-23",
+    name: "under the radar",
+    description:
+      "Peering into tomorrow's Bandcamp Friday, we take a look at some of the standout releases from the month gone by that you may have missed out on.",
+    img: "/under-the-radar/september.jpg",
+  },
+  {
     title: "Subterranean Sound 2023 Preview",
     link: "https://www.plantbassd.com/news/subterranean-sound-4-10-23",
     name: "news",
@@ -60,7 +68,7 @@ export const linkList: LinkProps[] = [
   {
     title: "Under the Radar: August",
     link: "https://www.plantbassd.com/under-the-radar/august-23",
-    name: "premieres",
+    name: "under the radar",
     description:
       "Sharing some extra hot trax from last month as the September sun inexplicably bakes down on us! Featuring speedy tools, hip-hop transmissions and much more from acts like Yazzus, Small Crab, Divoli S’vere, and more",
     img: "/under-the-radar/august.jpg",

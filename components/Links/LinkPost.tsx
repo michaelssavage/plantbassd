@@ -26,7 +26,10 @@ export const LinkPost = ({ posts }: { posts: LinkProps[] }) => {
         <div className={`row ${styles.buttonStyle}`} key={title}>
           <div className={styles.linkTitle}>
             <Icon icon={name} styling={styles.linkIcon} />
-            <HoverLink url={name === "tickets" ? "/gigs" : `/${name}`} name={name.toUpperCase()} />
+            <HoverLink
+              url={name === "tickets" ? "/gigs" : `/${name.replaceAll(" ", "-")}`}
+              name={name.toUpperCase()}
+            />
           </div>
           <RenderLink link={link} img={img}>
             <div className={img && styles.imageAndText}>

@@ -10,6 +10,7 @@ import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageTitle from "components/PageTitle";
 import { SocialButton } from "components/Icon";
+import { plantbassdInstagram } from "utils/constants";
 
 export default function UnderTheRadarPage({
   radars,
@@ -26,8 +27,9 @@ export default function UnderTheRadarPage({
 
       <h3 className={styles.pageText}>
         End of month roundups of the releases that might have flew under your radar.
-        <SocialButton name="bandcamp" url="https://bandcamp.com/oisincampbellbap" />
       </h3>
+      <SocialButton name="bandcamp" url="https://bandcamp.com/oisincampbellbap" text="bandcamp" />
+      <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
 
       <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
 
