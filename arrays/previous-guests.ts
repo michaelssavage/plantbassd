@@ -117,7 +117,11 @@ export const guestList: GuestProps[] = [
     img: "02-feena.jpg",
     link: "feena_mmm/",
     name: "Feena",
-    gig: ["https://ra.co/events/1463880", "https://ra.co/events/1480079"],
+    gig: [
+      "https://ra.co/events/1463880",
+      "https://ra.co/events/1480079",
+      "https://ra.co/events/1694133",
+    ],
   },
   {
     img: "02-fio-fa.jpg",
@@ -327,7 +331,7 @@ export const guestList: GuestProps[] = [
     img: "16-vaj-power.jpg",
     link: "vaj.power/",
     name: "VAJ.Power",
-    gig: ["https://ra.co/events/1570572"],
+    gig: ["https://ra.co/events/1570572", "https://ra.co/events/1694133"],
   },
   {
     img: "16-dj-egg.jpg",
@@ -646,5 +650,17 @@ export const guestList: GuestProps[] = [
     link: "supergross.ie",
     name: "Supergross",
     gig: ["https://ra.co/events/1774670"],
+  },
+  {
+    img: "49-neffa.jpg",
+    link: "neffa_t",
+    name: "Neffa T",
+    gig: ["https://ra.co/events/1694133"],
+  },
+  {
+    img: "49-rapture.jpg",
+    link: "rapture_4d",
+    name: "Rapture 4D",
+    gig: ["https://ra.co/events/1694133"],
   },
 ];
