@@ -64,7 +64,7 @@ export default function TeamPage() {
           {ourTeam.map(({ img, link, name }) => (
             <div key={name} className={card.cardStyle}>
               <Link href={link}>
-                <Picture alt={name} size={1000} src={`/news/${img}`} />
+                <Picture alt={name} size={1000} src={`/gigs/${img}`} />
               </Link>
               <p className="smallTextForTeamPics">{name}</p>
             </div>
