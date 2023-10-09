@@ -15,7 +15,7 @@ export const linkList: LinkProps[] = [
     name: "tickets",
     description:
       "SweatBox welcomes one of the UK's most sought after selectors Neffa-T to the Stereo alongside Glasgow 140 hero Rapture 4D, Edinburgh bass queen Feena, and Fuse founder VAJ.Power !",
-    img: "/news/49-neffa-t.jpg",
+    img: "/gigs/49-neffa-t.jpg",
   },
   {
     title: "Under the Radar: September",
