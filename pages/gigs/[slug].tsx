@@ -20,7 +20,7 @@ export default function GigsSlug({
 
   if (tickets) {
     buyLink = tickets;
-    buyText = "RA tickets";
+    buyText = "Tickets";
   }
   return (
     <div className={styles.newsSection}>

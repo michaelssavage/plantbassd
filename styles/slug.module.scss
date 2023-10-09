@@ -12,6 +12,10 @@
   }
 }
 
+.fullWidth {
+  padding: 0 4rem;
+}
+
 @include breakpoint-below(md) {
   .postContent {
     padding: 0 2.5rem;

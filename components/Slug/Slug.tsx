@@ -13,6 +13,7 @@ interface SlugProps {
   title: string;
   mdxSource: MDXRemoteSerializeResult;
   children?: ReactNode;
+  fullWidth?: boolean;
 }
 
 const components = {
@@ -27,16 +28,13 @@ const components = {
 };
 
 export const Slug = (props: SlugProps) => {
-  const { path, date, title, mdxSource, children } = props;
+  const { path, date, title, mdxSource, children, fullWidth = false } = props;
+
+  const styling = fullWidth
+    ? styles.fullWidth
+    : `${styles.postContent} col-lg-8 col-md-12 col-xl-8 `;
   return (
-    <div
-      className={`
-				${styles.postContent}
-				col-lg-8
-				col-md-12
-				col-xl-8 
-				`}
-    >
+    <div className={styling}>
       <p className="mb-1">
         {<HoverLink url="/" name="home" />} / {<HoverLink url={`/${path}`} name={path} />} /
       </p>

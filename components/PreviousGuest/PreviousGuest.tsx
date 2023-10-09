@@ -14,7 +14,7 @@ export const PreviousGuest = ({ artist, setModalData, setShow }: PreviousGuestPr
       onClick={() => handleGuestClick(artist)}
       className={`col-6 col-md-4 col-lg-3 ${styles.cardStyle}`}
     >
-      <Picture alt={artist.name} size={300} src={`/news/${artist.img}`} />
+      <Picture alt={artist.name} size={300} src={`/gigs/${artist.img}`} />
       <p className="nameAnchor">{artist.name}</p>
     </div>
   );

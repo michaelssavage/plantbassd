@@ -96,6 +96,12 @@ export const guestList: GuestProps[] = [
     gig: ["https://ra.co/events/1484531"],
   },
   {
+    img: "01-conan.jpg",
+    link: "conan_303",
+    name: "Conan 303",
+    gig: ["https://ra.co/events/14638801"],
+  },
+  {
     img: "03-cleanup-crew.jpg",
     link: "cleanupedi/",
     name: "Cleanup Edi",
@@ -139,6 +145,7 @@ export const guestList: GuestProps[] = [
       "https://ra.co/events/1581956",
       "https://ra.co/events/1719245",
       "https://ra.co/events/1694179",
+      "https://ra.co/events/1595479",
     ],
   },
   {
@@ -367,7 +374,7 @@ export const guestList: GuestProps[] = [
     img: "20-melly.jpg",
     link: "sssmmeelllyyy/",
     name: "Melly",
-    gig: ["https://ra.co/events/1581956"],
+    gig: ["https://ra.co/events/1581956", "https://ra.co/events/1523162"],
   },
   {
     img: "20-joey.jpg",
