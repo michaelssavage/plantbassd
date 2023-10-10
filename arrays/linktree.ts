@@ -21,7 +21,9 @@ export const linkList: LinkProps[] = [
     title: "Will You by Singularnost",
     link: "https://soundcloud.com/plantbassddjs/premiere-singularnost-will-you",
     name: "premieres",
-    description: "Tight-knit UKG from the Tokyo-based Singularnost on Noizy Wilson's Nü Kvlture imprint",
+    img: "/premieres/57-singularnost.jpg",
+    description:
+      "Tight-knit UKG from the Tokyo-based Singularnost on Noizy Wilson's Nü Kvlture imprint",
   },
   {
     title: "Under the Radar: September",
@@ -149,36 +151,6 @@ export const linkList: LinkProps[] = [
     description:
       "Brazilian label and party series Nice & Deadly return with their 21st release coming from co-founder Rassan with the rousing bass of ‘Better Be Careful’, fired home with a deadly remixing effort Stones Taro.",
     img: "/fresh-juice/67-careful.jpg",
-  },
-  {
-    title: "In Depth with WNCL Recordings",
-    link: "https://www.plantbassd.com/news/in-depth-with-wncl-6-7-23",
-    name: "news",
-    description:
-      "WNCL Recordings continue to soar with their current 2-track 10” vinyl series pushing soundsystem weaponry",
-    img: "/news/38-wncl.jpg",
-  },
-  {
-    title: "'Ticking' by Hngwy",
-    link: "https://soundcloud.com/plantbassddjs/premiere-ticking-by-hngwy",
-    name: "premieres",
-    description: "Tripped out low end half-time from Glasgow's Hngwy on Hang Tough Records",
-    img: "/premieres/51-hngwy.jpg",
-  },
-  {
-    title: "Under the Radar: June",
-    img: "/under-the-radar/june.jpg",
-    link: "https://www.plantbassd.com/under-the-radar/june-23",
-    name: "news",
-    description:
-      "The summer heat continues to sizzle with June producing yet another month of club and festival booth fire. Here are some of our favourites going into Bandcamp Friday tomorrow.",
-  },
-  {
-    title: "On site at Body And Soul 2023",
-    link: "https://www.plantbassd.com/news/body-and-soul-23-6-23",
-    name: "news",
-    description: "Enjoyable experiences hidden in a very difficult and taxing Body and Soul 2023",
-    img: "/news/37-bas.jpg",
   },
 ];
 
