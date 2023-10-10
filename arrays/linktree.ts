@@ -18,6 +18,12 @@ export const linkList: LinkProps[] = [
     img: "/gigs/49-neffa-t.jpg",
   },
   {
+    title: "Will You by Singularnost",
+    link: "https://soundcloud.com/plantbassddjs/premiere-singularnost-will-you",
+    name: "premieres",
+    description: "Tight-knit UKG from the Tokyo-based Singularnost on Noizy Wilson's Nü Kvlture imprint",
+  },
+  {
     title: "Under the Radar: September",
     link: "https://www.plantbassd.com/under-the-radar/september-23",
     name: "under the radar",
