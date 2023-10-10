@@ -37,8 +37,8 @@ export default function TeamPage() {
               Across the pond, past events have been organised in Dublin and, more recently, in
               Galway where Peter and Michael both reside. The trio work together online to highlight
               underground music in the 'Under The Radar' series each month, premiere up and coming
-              artists on SoundCloud, and write about interests whether it be about festivals or
-              other collectives.
+              artists on SoundCloud, and write about interests ranging from festivals, labels, and
+              movements.
             </p>
             <div className="row pb-3">
               <h3>Social Media:</h3>
