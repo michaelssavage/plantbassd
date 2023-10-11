@@ -19,7 +19,7 @@ describe("Team page", () => {
     expect(headerText).toBeInTheDocument();
 
     const bannerText = getByText(
-      "The team shares a common goal and passion, and they aspire to create unforgettable Plant Bass'd events across Ireland and the UK."
+      "The team shares a common goal and passion, and they aspire to create unforgettable Plant Bass'd events across Ireland and the UK. Oisín has been a force to reckon with in Scotland, organising events in Glasgow and Scotland successfully with the likes of Amor Satyr, DJ Mell G, Kessler, Martyn Bootyspoon, Two Shell, TAAHLIAH and many more talented creatives. The Plant Bass'd night out has received 4 Resident Advisor Top Picks due to his hard work and diligence."
     );
     expect(bannerText).toBeInTheDocument();
   });
@@ -45,10 +45,7 @@ describe("Team page", () => {
     expect(email).toHaveAttribute("href", "mailto: plantbassddjs@gmail.com");
 
     const spotify = svgs[3];
-    expect(spotify).toHaveAttribute(
-      "href",
-      "https://open.spotify.com/playlist/3EV4meqUK8g5IEYGqxsvNf"
-    );
+    expect(spotify).toHaveAttribute("href", "https://ra.co/promoters/103854");
 
     const soundcloud = svgs[4];
     expect(soundcloud).toHaveAttribute("href", "https://soundcloud.com/plantbassddjs");

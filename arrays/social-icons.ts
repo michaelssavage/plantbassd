@@ -20,8 +20,8 @@ export const socialIcons: IconsProps[] = [
     name: "email",
   },
   {
-    link: "https://open.spotify.com/playlist/3EV4meqUK8g5IEYGqxsvNf",
-    name: "spotify",
+    link: "https://ra.co/promoters/103854",
+    name: "resident advisor",
   },
   {
     link: "https://soundcloud.com/plantbassddjs",

@@ -3,20 +3,14 @@
 .sectionHeader {
   color: $headerBlack;
   flex: 1 0;
-  font-size: clamp(0.5rem, 8vw, 2.4rem);
+  font-size: clamp(2rem, 1.3115rem + 3.9344vw, 5rem);
   margin-right: auto;
   margin-bottom: 0;
 }
 
-// @include breakpoint-below(xs) {
-@media (max-width: 442px) {
-  .sectionHeader {
-    font-size: clamp(0.4rem, 6vw, 2rem);
-  }
-}
-
 .headerWord {
-  font-family: "Messina";
+  font-family: "Dx-Slight";
+  text-transform: uppercase;
   white-space: nowrap;
   text-overflow: ellipsis;
 }

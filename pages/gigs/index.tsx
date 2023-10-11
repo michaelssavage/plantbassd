@@ -33,7 +33,7 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
   return (
     <div className="gigsBG">
       <PageTitle title="Gigs" />
-      <h1 className={styles.pageHeader}>Plant Bass'd Gigs</h1>
+      <h1 className={styles.pageHeader}>Gigs</h1>
 
       <h3 className={styles.pageText}>
         Check out some of the {filteredPosts.length} shows we've put together in Ireland and the UK:

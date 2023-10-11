@@ -7,16 +7,11 @@ const renderUtil = () => {
 };
 
 describe("Footer component", () => {
-  const { getByText, getByRole } = screen;
-
-  it("renders Footer text", () => {
+  it("should have an instagram link", () => {
     renderUtil();
-    const headerText = getByRole("heading", { name: /Plant Bass'd/i });
-    expect(headerText).toBeInTheDocument();
-
-    const footerText = getByText(
-      /Profiling the experimental dance music world & throwing parties in between./i
+    expect(screen.getByRole("link", { name: "Michael." })).toHaveAttribute(
+      "href",
+      "https://www.instagram.com/michaelsaverage"
     );
-    expect(footerText).toBeInTheDocument();
   });
 });

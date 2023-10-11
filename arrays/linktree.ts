@@ -161,14 +161,14 @@ export const mainLinks: LinkProps[] = [
     name: "site",
   },
   {
-    title: "Plant Bass'd Soundcloud",
+    title: "Soundcloud",
     link: "https://soundcloud.com/plantbassddjs",
     name: "soundcloud",
   },
   {
     title: "Resident Advisor",
     link: "https://ra.co/promoters/103854",
-    name: "tickets",
+    name: "resident advisor",
   },
   {
     title: "Our Team",

@@ -7,7 +7,6 @@ interface SearchBoxProps {
   placeholder?: string;
   amount?: number;
   text?: string;
-  showLabel?: boolean;
   children?: ReactElement;
 }
 
@@ -16,13 +15,11 @@ export const SearchBox = ({
   filter,
   amount,
   text = "Post",
-  showLabel = true,
   children,
 }: SearchBoxProps) => {
   return (
     <div className={styles.searchPositioning}>
       <div className={styles.labelAndAmount}>
-        {showLabel && <label htmlFor="search">Search for posts using keywords or names</label>}
         {amount && (
           <p className="m-0">
             {amount} {amount == 1 ? text : `${text}s`}
@@ -35,7 +32,7 @@ export const SearchBox = ({
         id="search"
         className="form-control"
         onChange={handleSearchChange}
-        placeholder="Type to search..."
+        placeholder="Type to search posts using keywords..."
         type="text"
         value={filter}
       />

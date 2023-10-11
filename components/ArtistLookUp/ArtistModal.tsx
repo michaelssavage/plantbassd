@@ -13,6 +13,8 @@ interface ArtistModalProps {
 }
 
 export const ArtistModal = ({ data, show, setShow, gigs, current }: ArtistModalProps) => {
+  const previousGigs = data.gig.filter((gig) => gig !== current);
+
   const getArtistGigs = (url: string) => {
     const gig: GuestSlug = gigs.find((gig: GuestSlug) => gig.frontmatter.tickets === url);
 
@@ -26,8 +28,6 @@ export const ArtistModal = ({ data, show, setShow, gigs, current }: ArtistModalP
       );
     }
   };
-
-  const previousGigs = data.gig.filter((gig) => gig !== current);
 
   return (
     <Modal

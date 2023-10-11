@@ -15,7 +15,9 @@ describe("News component", () => {
     const headerText = getByRole("heading", { name: /latest news/i });
     expect(headerText).toBeInTheDocument();
 
-    const bannerText = getByText(/Find more on our Instagram/i);
+    const bannerText = getByText(
+      /Profiling the experimental dance music world and throwing parties in between./i
+    );
     expect(bannerText).toBeInTheDocument();
   });
 

@@ -9,10 +9,9 @@
 .labelAndAmount {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: flex-end;
   gap: 1rem;
-  margin-bottom: 0.5rem;
   p {
     white-space: nowrap;
   }

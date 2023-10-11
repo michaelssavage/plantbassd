@@ -9,24 +9,15 @@ export const Footer = () => {
     <footer className="footerSection">
       <div className="row mb-0 pb-0">
         <div className="col-md-6 col-sm-12 col-12">
-          <h1 className={styles.sectionHeader}>Plant Bass'd</h1>
-          <div className={styles.footerParagraph}>
-            <p className={styles.bio}>
-              Profiling the experimental dance music world & throwing parties in between.
-            </p>
-          </div>
-
-          <div className="col">
-            <h3>Quick Links</h3>
-            <p>
-              {links.sort(sortAlphabetically).map((item, idx, arr) => (
-                <span key={item.name}>
-                  <HoverLink url={item.link} name={item.name} />
-                  {idx + 1 === arr.length ? "" : " // "}
-                </span>
-              ))}
-            </p>
-          </div>
+          <h1 className={styles.sectionHeader}>Quick Links</h1>
+          <p className={styles.linkSize}>
+            {links.sort(sortAlphabetically).map((item, idx, arr) => (
+              <span key={item.name}>
+                <HoverLink url={item.link} name={item.name} />
+                {idx + 1 === arr.length ? "" : " // "}
+              </span>
+            ))}
+          </p>
         </div>
 
         <div className="mb-2 col-md-6 col-sm-12 col-12">

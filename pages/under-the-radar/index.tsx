@@ -26,7 +26,7 @@ export default function UnderTheRadarPage({
       <h1 className={styles.pageHeader}>Under The Radar</h1>
 
       <h3 className={styles.pageText}>
-        End of month roundups of the releases that might have flew under your radar.
+        End of month roundups of the releases that might have flown under your radar.
       </h3>
       <SocialButton name="bandcamp" url="https://bandcamp.com/oisincampbellbap" text="bandcamp" />
       <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />

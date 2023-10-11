@@ -27,7 +27,7 @@ export default function Home({ allPosts, takeovers, radios, freshjuice, gigs }: 
 
       <Gigs gigs={gigs} />
 
-      <div className="discoveryCards">
+      <div className="gradients">
         <Takeover takeovers={takeovers} />
         <Radio radios={radios} />
       </div>

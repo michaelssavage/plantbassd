@@ -20,7 +20,7 @@ describe("Under The Radar page", () => {
     expect(headerText).toBeInTheDocument();
 
     const bannerText = getByText(
-      /End of month roundups of the releases that might have flew under your radar./i
+      /End of month roundups of the releases that might have flown under your radar./i
     );
     expect(bannerText).toBeInTheDocument();
   });

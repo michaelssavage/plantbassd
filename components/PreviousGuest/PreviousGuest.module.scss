@@ -3,7 +3,7 @@
 .pageHeader {
   text-align: center;
   padding-top: 15vh;
-  font-size: $lgHeader;
+  font-size: clamp(2rem, 1.3rem + 4vw, 5rem);
 }
 
 .filter {
@@ -19,22 +19,9 @@
 @media (max-width: 768px) {
   .pageHeader {
     padding-top: 10vh;
-    font-size: $mdHeader;
   }
   .filter {
     width: 100%;
-  }
-}
-
-@include breakpoint-below(xs) {
-  .pageHeader {
-    font-size: $smHeader;
-  }
-}
-
-@include breakpoint-below(xxs) {
-  .pageHeader {
-    font-size: $xsHeader;
   }
 }
 
@@ -44,8 +31,7 @@
   cursor: pointer;
   img {
     margin-bottom: -2rem !important;
-    border: 2px solid $plantbassdPink;
-    border-radius: 2rem;
+    border-radius: 0.675rem;
   }
   p {
     margin: 0;
@@ -54,8 +40,8 @@
     padding: 0rem 0.25rem;
     border-radius: 0.25rem;
     background-color: $pbWhite;
-    color: $plantbassdPink;
-    border: 1px solid $plantbassdPink;
+    color: $pbBlack;
+    border: 1px solid $pbBlack;
   }
   div {
     display: flex;

@@ -29,6 +29,10 @@ export const links: FooterProps[] = [
     name: "Gigs",
   },
   {
+    link: "/gallery",
+    name: "Gallery",
+  },
+  {
     link: "/takeovers",
     name: "Takeovers",
   },

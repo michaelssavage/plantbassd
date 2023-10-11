@@ -8,11 +8,11 @@
   text-decoration: none;
   outline: 0;
   color: $pbBlack;
+  background-color: $pbWhite;
   border: 1px solid $pbBlack;
   border-radius: 0.375rem;
   cursor: pointer;
   position: relative;
-  background-color: rgba(0, 0, 0, 0);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -20,19 +20,19 @@
   display: inline-block;
   &:after {
     content: "";
-    background-color: rgba($plantbassdGreen, 0.4);
+    background-color: rgba($clayRed, 0.4);
     border-radius: 0.375rem;
     width: 100%;
     z-index: 2;
     position: absolute;
     height: 100%;
-    top: 0.5rem;
-    left: 0.5rem;
+    top: 0.4rem;
+    left: 0.4rem;
     transition: 0.2s;
   }
   &:hover {
     color: $pbBlack;
-    border: 1px solid transparent;
+    border: 0;
   }
   &:hover:after {
     top: 0px;

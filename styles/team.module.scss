@@ -2,7 +2,7 @@
 
 .pageHeader {
   text-align: center;
-  font-size: clamp(1.4rem, 8vw, 2.8rem);
+  font-size: clamp(2rem, 1.3115rem + 3.9344vw, 5rem);
 }
 
 .layout {
@@ -60,4 +60,9 @@
   margin: 0.5rem;
   fill: $headerBlack;
   border-radius: 1em 0 1em 0;
+}
+
+.player {
+  font-size: 1.6rem;
+  font-family: "Dx-Slim";
 }

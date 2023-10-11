@@ -33,10 +33,10 @@ export default function GalleryPage({ gigs }: InferGetStaticPropsType<typeof get
   return (
     <div className="gigsBG">
       <PageTitle title="Gigs" />
-      <h1 className={styles.pageHeader}>Plant Bass'd Gallery</h1>
+      <h1 className={styles.pageHeader}>Gallery</h1>
 
       <h3 className={styles.pageText}>
-        Check out some pics of the shows we've put together in Ireland and the UK:
+        Check out some pics from shows we've put together in Ireland and the UK:
       </h3>
 
       <SocialButton name="tickets" url="https://ra.co/promoters/103854" text="Resident Advisor" />

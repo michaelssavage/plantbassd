@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { linkList, mainLinks } from "arrays/linktree";
+import { linkList } from "arrays/linktree";
 import { socialIcons } from "arrays/social-icons";
 import { Icon } from "components/Icon";
 import Header from "components/Header";
@@ -9,7 +9,7 @@ import { Signup } from "components/Signup/Signup";
 import { useTagsFilter } from "hooks";
 import { FilterTags } from "components/FilterTags";
 import PageTitle from "components/PageTitle";
-import { LinkPost, RenderLink } from "components/Links";
+import { Discovery, LinkPost } from "components/Links";
 
 const linkTags = [
   { name: "tickets", value: false },
@@ -52,18 +52,10 @@ export default function Links() {
 
         <LinkPost posts={filteredPosts} />
 
-        <h2 className="d-flex justify-content-end">Discovery</h2>
-        {mainLinks.map(({ link, name, img, title }) => (
-          <div className={`row ${styles.buttonStyle}`} key={title}>
-            <div className={styles.linkTitle}>
-              <Icon icon={name} styling={styles.linkIcon} />
-              <div>{name.toUpperCase()}</div>
-            </div>
-            <RenderLink link={link} img={img}>
-              {title}
-            </RenderLink>
-          </div>
-        ))}
+        <h2 className="d-flex justify-content-end p-0 m-0">Discovery</h2>
+
+        <Discovery />
+
         <div className="row my-4">
           <Signup linktree />
         </div>

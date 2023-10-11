@@ -66,7 +66,7 @@ export default function TeamPage() {
               <Link href={link}>
                 <Picture alt={name} size={1000} src={`/gigs/${img}`} />
               </Link>
-              <p className="smallTextForTeamPics">{name}</p>
+              <p className={styles.player}>{name}</p>
             </div>
           ))}
         </div>

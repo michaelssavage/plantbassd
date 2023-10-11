@@ -14,8 +14,14 @@
 
 @font-face {
   font-display: swap;
-  font-family: "Montserrat";
-  src: local("Montserrat"), url("/fonts/Montserrat-Light.ttf");
+  font-family: "Dx-Slight";
+  src: local("Dx-Slight"), url("/fonts/Dx-Slight-Black-Tall.otf");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Dx-Slim";
+  src: local("Dx-Slim"), url("/fonts/Dx-Slight-Medium-Slim-Slanted.otf");
 }
 
 * {
@@ -50,7 +56,8 @@ a {
 }
 
 h1 {
-  font-family: "Messina";
+  font-family: "Dx-Slight";
+  text-transform: uppercase;
   color: $headerBlack;
   @extend a;
 }
@@ -61,7 +68,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Montserrat";
+  font-family: "Molengo";
   font-size: $heading3;
 }
 
@@ -79,10 +86,6 @@ p {
   .smallText {
     font-size: calc(0.6rem + 1vw);
   }
-}
-
-.smallTextForTeamPics {
-  font-size: $cardText;
 }
 
 .anchor {
@@ -259,7 +262,7 @@ p {
 }
 
 .freshjuiceBG {
-  background-color: $culturedWhite;
+  background-color: $mandarinOrange;
   min-height: 100vh;
   padding-bottom: 2rem;
   @extend .layout;
@@ -285,14 +288,14 @@ p {
 }
 
 .radarBG {
-  background-color: rgba($plantbassdBlue, 0.25);
+  background-color: $limeyGreen;
   min-height: 100vh;
   padding-bottom: 2rem;
   @extend .layout;
 }
 
 .archiveBG {
-  background-color: $lavender;
+  background-color: $clayRed;
   min-height: 100vh;
   padding-bottom: 2rem;
   @extend .layout;
@@ -322,8 +325,8 @@ p {
   @extend .layout;
 }
 
-.discoveryCards {
-  background: linear-gradient(270deg, $lilac 20%, $opal 80%);
+.gradients {
+  background: conic-gradient($opal, $lilac);
   padding-bottom: 2rem;
   display: flex;
   flex-direction: row;
@@ -331,8 +334,7 @@ p {
 }
 
 @media (max-width: 992px) {
-  .discoveryCards {
-    background: linear-gradient(180deg, $lilac 20%, $opal 80%);
+  .gradients {
     flex-direction: column;
   }
   .takeoverSection {

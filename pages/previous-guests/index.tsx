@@ -34,11 +34,10 @@ export default function PreviousGuestsPage({ gigs }: { gigs: GuestSlug[] }) {
         filter={filter}
         amount={postCards.length}
         text="DJ"
-        showLabel={false}
       />
 
       {filter ? (
-        <div className="row g-1">
+        <div className="row g-4">
           {postCards.sort(sortAlphabetically).map((guest: PreviousGuestType) => (
             <PreviousGuest
               key={guest.name}
@@ -50,7 +49,7 @@ export default function PreviousGuestsPage({ gigs }: { gigs: GuestSlug[] }) {
         </div>
       ) : (
         <>
-          <div className="row g-1">
+          <div className="row g-4">
             {headliners.sort(sortAlphabetically).map((guest: PreviousGuestType) => (
               <PreviousGuest
                 key={guest.name}
@@ -61,7 +60,7 @@ export default function PreviousGuestsPage({ gigs }: { gigs: GuestSlug[] }) {
             ))}
           </div>
           <hr />
-          <div className="row g-1">
+          <div className="row g-4">
             {guestList.sort(sortAlphabetically).map((guest: PreviousGuestType) => (
               <PreviousGuest
                 key={guest.name}

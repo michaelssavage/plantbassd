@@ -318,7 +318,7 @@ export const guestList: GuestProps[] = [
   },
   {
     img: "15-lychee.jpg",
-    link: "lychee800/",
+    link: "polyp800/",
     name: "Lychee",
     gig: [
       "https://www.eventbrite.ie/e/plant-bassd-presents-organica-tickets-399512531737",

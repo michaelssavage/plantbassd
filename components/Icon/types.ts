@@ -16,6 +16,7 @@ export type IconType =
   | "premiere"
   | "premieres"
   | "radio"
+  | "resident advisor"
   | "search"
   | "site"
   | "soundcloud"

@@ -19,7 +19,7 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
   return (
     <div className="archiveBG">
       <PageTitle title="Archive" />
-      <h1 className={styles.pageHeader}>Plant Bass'd Archive</h1>
+      <h1 className={styles.pageHeader}>Archive</h1>
 
       <SearchBox
         handleSearchChange={handleSearchChange}
