@@ -36,7 +36,8 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
       <h1 className={styles.pageHeader}>Gigs</h1>
 
       <h3 className={styles.pageText}>
-        Check out some of the {filteredPosts.length} shows we've put together in Ireland and the UK:
+        After the first successful party in Edinburgh in September 2021, Plant Bass'd has put
+        together {filteredPosts.length} shows in Ireland and Scotland:
       </h3>
 
       <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />

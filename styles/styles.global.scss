@@ -108,11 +108,6 @@ p {
   text-overflow: ellipsis;
 }
 
-.globalBottomBtn {
-  margin-top: 1rem;
-  text-align: end;
-}
-
 .header {
   color: $headerBlack;
 }
@@ -132,56 +127,6 @@ p {
   .clubGuide {
     width: 100% !important;
   }
-}
-
-// ============ PREVIOUS GUEST OVERLAY ============
-
-.imgContainer {
-  position: relative;
-}
-
-// used by Celtronic post
-.imgOverlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.2s ease;
-}
-
-.guestOverlay {
-  background-color: $pbWhite;
-  padding: 2rem 1rem;
-  @extend .imgOverlay;
-}
-
-.youtubeOverlay {
-  background-color: $youtube;
-  @extend .imgOverlay;
-}
-
-.imgContainer:hover .imgOverlay {
-  opacity: 1;
-}
-
-.textToDisplay {
-  color: $pbWhite;
-  font-size: $heading3;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.cardTextToDisplay {
-  color: $pbBlack;
 }
 
 .navIcon {
@@ -245,86 +190,6 @@ p {
   @extend .layout;
 }
 
-// ------------------- PAGE COLOURS/LAYOUTS -------------------
-
-.newsBG {
-  background-color: $pbWhite;
-  min-height: 100vh;
-  padding-bottom: 2rem;
-  @extend .layout;
-}
-
-.guestsBG {
-  background-color: $rosyBrown;
-  min-height: 100vh;
-  padding-bottom: 2rem;
-  @extend .layout;
-}
-
-.freshjuiceBG {
-  background-color: $mandarinOrange;
-  min-height: 100vh;
-  padding-bottom: 2rem;
-  @extend .layout;
-}
-
-.gigsBG {
-  background-color: $pbTeal;
-  padding-bottom: 2rem;
-  @extend .layout;
-}
-
-.radioBG {
-  background-color: $opal;
-  padding-bottom: 2rem;
-  @extend .layout;
-}
-
-.takeoverBG {
-  background-color: $lilac;
-  min-height: 100vh;
-  padding-bottom: 2rem;
-  @extend .layout;
-}
-
-.radarBG {
-  background-color: $limeyGreen;
-  min-height: 100vh;
-  padding-bottom: 2rem;
-  @extend .layout;
-}
-
-.archiveBG {
-  background-color: $clayRed;
-  min-height: 100vh;
-  padding-bottom: 2rem;
-  @extend .layout;
-}
-
-.aboutBG {
-  text-align: justify;
-  background-color: $lavender;
-  min-height: 100vh;
-  padding-bottom: 2rem;
-  @extend .layout;
-}
-
-.deleteBG {
-  background-color: $culturedWhite;
-  min-height: 80vh;
-  padding-top: 20vh;
-  padding-bottom: 2rem;
-  @extend .layout;
-}
-
-.signupBG {
-  background-color: $opal;
-  min-height: 80vh;
-  padding-top: 20vh;
-  padding-bottom: 2rem;
-  @extend .layout;
-}
-
 .gradients {
   background: conic-gradient($opal, $lilac);
   padding-bottom: 2rem;
@@ -345,6 +210,79 @@ p {
     padding-left: 0;
     padding-right: 0;
   }
+}
+
+// ------------------- PAGE COLOURS/LAYOUTS -------------------
+
+.newsBG {
+  background-color: $banana;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.gigsBG {
+  background-color: $pbTeal;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.freshjuiceBG {
+  background-color: $mandarinOrange;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.radioBG {
+  background-color: $opal;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.aboutBG {
+  background-color: $lavender;
+  text-align: justify;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.archiveBG {
+  background-color: $clayRed;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.guestsBG {
+  background-color: $peachy;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.takeoverBG {
+  background-color: $lilac;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.radarBG {
+  background-color: $limeyGreen;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.deleteBG {
+  background-color: $culturedWhite;
+  min-height: 80vh;
+  padding-top: 20vh;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
+.signupBG {
+  background-color: $lavender;
+  min-height: 80vh;
+  padding-top: 20vh;
+  padding-bottom: 2rem;
+  @extend .layout;
 }
 
 .errorText {

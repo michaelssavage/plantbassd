@@ -9,6 +9,8 @@ import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getAllPosts } from "utils/getAllPosts";
 import PageTitle from "components/PageTitle";
+import { SocialButton } from "components/Icon";
+import { plantbassdInstagram } from "utils/constants";
 
 export default function ArchivePage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
@@ -20,6 +22,8 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
     <div className="archiveBG">
       <PageTitle title="Archive" />
       <h1 className={styles.pageHeader}>Archive</h1>
+      <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
+      <SocialButton name="email" url="mailto: plantbassddjs@gmail.com" text="Email" />
 
       <SearchBox
         handleSearchChange={handleSearchChange}

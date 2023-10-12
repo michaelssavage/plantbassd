@@ -27,18 +27,18 @@ export default function TeamPage() {
             </p>
             <p>
               The team shares a common goal and passion, and they aspire to create unforgettable
-              Plant Bass'd events across Ireland and the UK. Oisín has been a force to reckon with
-              in Scotland, organising events in Glasgow and Scotland successfully with the likes of
-              Amor Satyr, DJ Mell G, Kessler, Martyn Bootyspoon, Two Shell, TAAHLIAH and many more
+              Plant Bass'd events across Ireland and Scotland. Oisín has been a force to reckon with
+              in Scotland, organising big events in Edinburgh and Glasgow with the likes of Amor
+              Satyr, DJ Mell G, Kessler, Martyn Bootyspoon, Two Shell, TAAHLIAH and many more
               talented creatives. The Plant Bass'd night out has received 4 Resident Advisor Top
-              Picks due to his hard work and diligence.
+              Picks in 2023 due to his hard work and diligence. Across the pond, past events have
+              been organised in Dublin and, more recently, in Galway where Peter and Michael both
+              reside.
             </p>
             <p>
-              Across the pond, past events have been organised in Dublin and, more recently, in
-              Galway where Peter and Michael both reside. The trio work together online to highlight
-              underground music in the 'Under The Radar' series each month, premiere up and coming
-              artists on SoundCloud, and write about interests ranging from festivals, labels, and
-              movements.
+              The trio work closely together online to highlight underground music in the 'Under The
+              Radar' series each month, premiere up and coming artists on SoundCloud, and write
+              about interests ranging from festivals, forward-thinking labels, and movements.
             </p>
             <div className="row pb-3">
               <h3>Social Media:</h3>

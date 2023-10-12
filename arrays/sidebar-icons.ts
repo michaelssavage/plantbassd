@@ -38,13 +38,13 @@ export const sidebarList: SidebarProps[] = [
     title: "Contact Us",
   },
   {
-    link: "/links",
-    name: "links",
-    title: "Links",
-  },
-  {
     link: "/archive",
     name: "search",
     title: "Search",
+  },
+  {
+    link: "/links",
+    name: "links",
+    title: "Links",
   },
 ];
