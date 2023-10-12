@@ -21,7 +21,7 @@ export default function NewsSlug({
   }
 
   return (
-    <div className={styles.newsSection}>
+    <div className={styles.slugContainer}>
       <PageTitle title={title} />
       <div className="row">
         {Slug({ path, date, title, mdxSource })}

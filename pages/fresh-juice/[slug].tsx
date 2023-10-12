@@ -15,7 +15,7 @@ export default function FreshJuiceSlug({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { artist = "Bandcamp", youtube, title, date, pic, bandcamp, path, postLink } = frontmatter;
   return (
-    <div className={styles.newsSection}>
+    <div className={styles.slugContainer}>
       <PageTitle title={title} />
       <div className="row">
         {Slug({ path, date, title, mdxSource })}

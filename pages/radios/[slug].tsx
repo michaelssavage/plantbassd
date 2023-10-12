@@ -12,7 +12,7 @@ export default function RadioSlug({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { title, date, pic, artistPage, mixLink, path } = frontmatter;
   return (
-    <div className={styles.newsSection}>
+    <div className={styles.slugContainer}>
       <PageTitle title={title} />
       <div className="row">
         <Slug path={path} date={date} title={title} mdxSource={mdxSource} />

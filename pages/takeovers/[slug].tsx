@@ -12,7 +12,7 @@ export default function TakeoverSlug({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { title, date, pic, artistPage, path, postLink } = frontmatter;
   return (
-    <div className={styles.newsSection}>
+    <div className={styles.slugContainer}>
       <PageTitle title={title} />
       <div className="row">
         {Slug({ path, date, title, mdxSource })}

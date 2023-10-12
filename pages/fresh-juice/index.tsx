@@ -3,7 +3,7 @@ import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
-import { CardCover } from "components/Card";
+import { TextCard } from "components/Card";
 import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
@@ -25,19 +25,15 @@ export default function FreshJuicePage({
       <PageTitle title="Fresh Juice" />
       <h1 className={styles.pageHeader}>Fresh Juice</h1>
       <h3 className={styles.pageText}>
-        Supporting underground artists by reviewing hot new music releases from around the world.
-        See more on our Bandcamp below.
+        Supporting underground artists with reviews of hot new music from around the world. See more
+        on our Bandcamp below.
       </h3>
-      <SocialButton name="bandcamp" url="https://bandcamp.com/oisincampbellbap" text="Bandcamp" />
       <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
+      <SocialButton name="bandcamp" url="https://bandcamp.com/oisincampbellbap" text="Bandcamp" />
       <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
       <div className="row g-3">
         {postCards.map((juice: AllPostProps) => (
-          <CardCover
-            key={juice.frontmatter.name}
-            link={`/fresh-juice/${juice.slug}`}
-            post={juice.frontmatter}
-          />
+          <TextCard key={juice.frontmatter.name} link={`/fresh-juice/${juice.slug}`} post={juice} />
         ))}
       </div>
       <div className="mt-2 text-end">{postCards.length} cards.</div>

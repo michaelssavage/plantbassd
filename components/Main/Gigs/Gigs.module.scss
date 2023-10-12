@@ -5,10 +5,19 @@
   padding-bottom: 5rem;
 }
 
+.topImage {
+  img {
+    border-radius: 0.675rem;
+  }
+}
+
 .bottomImage {
   position: absolute;
   right: 0;
   bottom: 0;
+  img {
+    border-radius: 0.675rem;
+  }
 }
 
 .clubDescriptor {

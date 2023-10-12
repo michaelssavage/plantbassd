@@ -3,7 +3,7 @@ import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
-import { CardCover } from "components/Card";
+import { TextCard } from "components/Card";
 import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
@@ -29,10 +29,10 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
 
       <div className="row g-2">
         {postCards.map((story: AllPostProps) => (
-          <CardCover
+          <TextCard
             key={story.frontmatter.name}
             link={`/${story.frontmatter.path}/${story.slug}`}
-            post={story.frontmatter}
+            post={story}
           />
         ))}
       </div>

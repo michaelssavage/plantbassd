@@ -23,7 +23,7 @@ export default function GigsSlug({
     buyText = "Tickets";
   }
   return (
-    <div className={styles.newsSection}>
+    <div className={styles.slugContainer}>
       <PageTitle title={title} />
       <div className="row">
         {

@@ -3,7 +3,7 @@ import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
-import { CardCover } from "components/Card";
+import { TextCard } from "components/Card";
 import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
@@ -27,19 +27,19 @@ export default function PremieresPage({
       <h3 className={styles.pageText}>
         Listen to new track premieres from around the world on our SoundCloud.
       </h3>
+      <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
       <SocialButton
         name="soundcloud"
         url="https://soundcloud.com/plantbassddjs/sets/plant-bassd-premieres"
         text="Soundcloud"
       />
-      <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
       <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
       <div className="row g-3">
         {postCards.map((premiere: AllPostProps) => (
-          <CardCover
+          <TextCard
             key={premiere.frontmatter.name}
             link={`/premieres/${premiere.slug}`}
-            post={premiere.frontmatter}
+            post={premiere}
           />
         ))}
       </div>

@@ -32,7 +32,7 @@ export const Slug = (props: SlugProps) => {
 
   const styling = fullWidth
     ? styles.fullWidth
-    : `${styles.postContent} col-lg-8 col-md-12 col-xl-8 `;
+    : `${styles.postContent} col-lg-8 col-md-12 col-xl-8`;
   return (
     <div className={styling}>
       <p className="mb-1">

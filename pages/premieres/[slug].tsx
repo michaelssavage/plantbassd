@@ -16,7 +16,7 @@ export default function PremieresSlug({
   const { title, date, pic, seeMore, listen, postLink, path, youtube } = frontmatter;
 
   return (
-    <div className={styles.newsSection}>
+    <div className={styles.slugContainer}>
       <PageTitle title={title} />
       <div className="row">
         {Slug({ path, date, title, mdxSource })}

@@ -3,7 +3,7 @@ import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
-import { CardCover } from "components/Card";
+import { TextCard } from "components/Card";
 import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
@@ -23,26 +23,26 @@ export default function TakeoverPage({
   return (
     <div className="takeoverBG">
       <PageTitle title="Takeovers" />
-      <h1 className={styles.pageHeader}>Plant Bass'd Takeovers</h1>
+      <h1 className={styles.pageHeader}>Takeovers</h1>
 
       <h3 className={styles.pageText}>
         Artists, Friends, and Guests select and share their top tracks on Spotify. Check out the
         playlist below.
       </h3>
+      <SocialButton name="instagram" url={plantbassdInstagram} />
       <SocialButton
         name="spotify"
         url="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
       />
-      <SocialButton name="instagram" url={plantbassdInstagram} />
 
       <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
 
       <div className="row g-3">
         {postCards.map((takeover: AllPostProps) => (
-          <CardCover
+          <TextCard
             key={takeover.frontmatter.name}
             link={`/takeovers/${takeover.slug}`}
-            post={takeover.frontmatter}
+            post={takeover}
           />
         ))}
       </div>

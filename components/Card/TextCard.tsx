@@ -7,7 +7,6 @@ interface Props {
   link: string;
   post: CardProps;
   columns?: string;
-  text?: boolean;
 }
 
 export const TextCard = (props: Props) => {

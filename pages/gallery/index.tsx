@@ -5,7 +5,7 @@ import { sortByDate } from "utils";
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
 
-import { CardCover } from "components/Card";
+import { TextCard } from "components/Card";
 import styles from "styles/page.module.scss";
 
 import { AllPostProps } from "types/frontmatter";
@@ -39,16 +39,20 @@ export default function GalleryPage({ gigs }: InferGetStaticPropsType<typeof get
         Check out some pics from shows we've put together in Ireland and the UK:
       </h3>
 
-      <SocialButton name="tickets" url="https://ra.co/promoters/103854" text="Resident Advisor" />
       <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
+      <SocialButton
+        name="resident advisor"
+        url="https://ra.co/promoters/103854"
+        text="Resident Advisor"
+      />
       <FilterTags handleTags={handleTags} tagList={tagList} />
 
       <div className="row g-3">
         {filteredPosts.map((gig: AllPostProps) => (
-          <CardCover
+          <TextCard
             key={gig.frontmatter.name}
             link={`/${gig.frontmatter.path}/${gig.slug}`}
-            post={gig.frontmatter}
+            post={gig}
           />
         ))}
       </div>

@@ -3,7 +3,7 @@ import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
-import { CardCover } from "components/Card";
+import { TextCard } from "components/Card";
 import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
@@ -28,17 +28,17 @@ export default function UnderTheRadarPage({
       <h3 className={styles.pageText}>
         End of month roundups of the releases that might have flown under your radar.
       </h3>
-      <SocialButton name="bandcamp" url="https://bandcamp.com/oisincampbellbap" text="bandcamp" />
       <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
+      <SocialButton name="bandcamp" url="https://bandcamp.com/oisincampbellbap" text="bandcamp" />
 
       <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
 
       <div className="row g-3">
         {postCards.map((radar: AllPostProps) => (
-          <CardCover
+          <TextCard
             key={radar.frontmatter.name}
             link={`/under-the-radar/${radar.slug}`}
-            post={radar.frontmatter}
+            post={radar}
           />
         ))}
       </div>

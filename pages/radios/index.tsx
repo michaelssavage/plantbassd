@@ -3,7 +3,7 @@ import { GetStaticProps } from "next/types";
 import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
-import { CardCover } from "components/Card";
+import { TextCard } from "components/Card";
 import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
@@ -21,25 +21,21 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
   return (
     <div className="radioBG">
       <PageTitle title="Mixes" />
-      <h1 className={styles.pageHeader}>Plant Bass'd Mixes</h1>
+      <h1 className={styles.pageHeader}>Mixes</h1>
 
       <h3 className={styles.pageText}>
         Guest mixes from homegrown and international artists. Click the link below to find out more.
       </h3>
+      <SocialButton name="instagram" url={plantbassdInstagram} />
       <SocialButton
         name="soundcloud"
         url="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
       />
-      <SocialButton name="instagram" url={plantbassdInstagram} />
 
       <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
       <div className="row g-3">
         {postCards.map((radio: AllPostProps) => (
-          <CardCover
-            key={radio.frontmatter.name}
-            link={`/radios/${radio.slug}`}
-            post={radio.frontmatter}
-          />
+          <TextCard key={radio.frontmatter.name} link={`/radios/${radio.slug}`} post={radio} />
         ))}
       </div>
       <div className="mt-2 text-end">{postCards.length} cards.</div>

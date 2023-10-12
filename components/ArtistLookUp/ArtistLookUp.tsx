@@ -18,7 +18,7 @@ export const ArtistLookUp = ({ anames, gigs, current }: LookUpProps) => {
 
   return (
     <>
-      <div className="row mb-5">
+      <div className="row mb-5 g-4">
         {anames.map((name) => {
           const dj = djs.find((dj) => name.toLowerCase() === dj.name.toLowerCase());
 

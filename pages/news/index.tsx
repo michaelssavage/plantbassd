@@ -34,7 +34,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
   return (
     <div className="newsBG">
       <PageTitle title="News" />
-      <h1 className={styles.pageHeader}>Plant Bass'd News</h1>
+      <h1 className={styles.pageHeader}>Latest News</h1>
 
       <h3 className={styles.pageText}>
         Catch the latest about new music, upcoming gigs & events, and all things Plant Bass'd.
@@ -50,7 +50,6 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
             key={story.frontmatter.name}
             link={`/${story.frontmatter.path}/${story.slug}`}
             post={story}
-            text
           />
         ))}
       </div>

@@ -14,7 +14,7 @@ export default function NewsSlug({
   const { title, date, path, gallery, gallerySize } = frontmatter;
 
   return (
-    <div className={styles.newsSection}>
+    <div className={styles.slugContainer}>
       <PageTitle title={title} />
       <div className="row">
         {
