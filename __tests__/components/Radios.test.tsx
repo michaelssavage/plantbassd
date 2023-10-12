@@ -15,7 +15,7 @@ describe("Radio component", () => {
     const headerText = getByRole("heading", { name: /Radios/i });
     expect(headerText).toBeInTheDocument();
 
-    const bannerText = getByText(/Crisp Guest Mixes For Our Radio Series./i);
+    const bannerText = getByText(/Guest Mixes From Our Radio Series./i);
     expect(bannerText).toBeInTheDocument();
   });
 

@@ -19,7 +19,7 @@ export const Radio = ({ radios }: Props) => {
       </div>
 
       <div className="row mb-2">
-        <p>Crisp Guest Mixes For Our Radio Series.</p>
+        <p>Guest Mixes From Our Radio Series.</p>
       </div>
 
       <div className="row g-2">

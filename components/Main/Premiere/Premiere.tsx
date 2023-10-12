@@ -6,7 +6,7 @@ export const Premiere = () => {
     <section className={styles.backgroundColorAndHeight}>
       <div className={styles.backgroundImage}>
         <div className={styles.frontText}>
-          <h1>Plant Bass'd Premieres</h1>
+          <h1>Premieres</h1>
 
           <div className="row mb-2 align-items-center">
             <p className={styles.profileText}>Listen here first to organic music releases.</p>

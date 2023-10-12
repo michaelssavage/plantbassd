@@ -39,7 +39,11 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
         Check out some of the {filteredPosts.length} shows we've put together in Ireland and the UK:
       </h3>
 
-      <SocialButton name="tickets" url="https://ra.co/promoters/103854" text="Resident Advisor" />
+      <SocialButton
+        name="resident advisor"
+        url="https://ra.co/promoters/103854"
+        text="Resident Advisor"
+      />
       <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
       <FilterTags handleTags={handleTags} tagList={tagList} />
 

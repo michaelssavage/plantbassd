@@ -1,11 +1,4 @@
-.container {
-  margin: 2rem 0.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.5rem 0.5rem;
-}
+@use "@/abstracts" as *;
 
 .btnGroup {
   display: flex;
@@ -13,4 +6,12 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 0.25rem;
+}
+
+.filterTitle {
+  padding: 0;
+  margin: 0 0.75rem;
+  font-family: "Dx-Slim";
+  text-transform: uppercase;
+  font-size: 1.4rem;
 }

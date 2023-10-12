@@ -11,7 +11,7 @@ describe("Premiere component", () => {
 
   it("renders Premiere text", () => {
     renderUtil();
-    const headerText = getByRole("heading", { name: /plant bass'd premieres/i });
+    const headerText = getByRole("heading", { name: /premieres/i });
     expect(headerText).toBeInTheDocument();
 
     const bannerText = getByText(/Listen here first to organic music releases./i);

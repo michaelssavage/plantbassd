@@ -25,8 +25,8 @@ export default function FreshJuicePage({
       <PageTitle title="Fresh Juice" />
       <h1 className={styles.pageHeader}>Fresh Juice</h1>
       <h3 className={styles.pageText}>
-        Support underground artists by reading reviews of hot new music releases from around the
-        world. See more on our Bandcamp below.
+        Supporting underground artists by reviewing hot new music releases from around the world.
+        See more on our Bandcamp below.
       </h3>
       <SocialButton name="bandcamp" url="https://bandcamp.com/oisincampbellbap" text="Bandcamp" />
       <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />

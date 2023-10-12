@@ -15,7 +15,7 @@ export const FilterTags = ({ tagList, handleTags }: FilterTagsProps) => {
   return (
     <div className="row g-3 mt-2 mb-4" role="group">
       <div className={styles.btnGroup}>
-        <p className="m-0 p-0">Filters:</p>
+        <p className={styles.filterTitle}>Filters</p>
         {tagList
           ? tagList.map((tag) => (
               <button
@@ -29,6 +29,7 @@ export const FilterTags = ({ tagList, handleTags }: FilterTagsProps) => {
               </button>
             ))
           : null}
+        <p className={styles.filterTitle}>Filters</p>
       </div>
     </div>
   );
