@@ -18,6 +18,14 @@ export const linkList: LinkProps[] = [
     img: "/gigs/49-neffa-t.jpg",
   },
   {
+    title: "Ethereal Skies Announce debut V/A 'Aerga Vol.1'",
+    link: "https://www.plantbassd.com/news/ethereal-skies-20-10-23",
+    name: "news",
+    description:
+      "Ethereal Skies Announce debut V/A 'Aerga Vol. 1', featuring trax from E the Artist, Julia Louise KnifeFist, SONIA & more.",
+    img: "/news/49-ethereal.jpg",
+  },
+  {
     title: "Will You by Singularnost",
     link: "https://soundcloud.com/plantbassddjs/premiere-singularnost-will-you",
     name: "premieres",
