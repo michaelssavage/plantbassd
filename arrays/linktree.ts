@@ -10,14 +10,6 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "SweatBox: Neffa-T // Rapture 4D // Feena // VAJ.Power",
-    link: "https://ra.co/events/1694133",
-    name: "tickets",
-    description:
-      "SweatBox welcomes one of the UK's most sought after selectors Neffa-T to the Stereo alongside Glasgow 140 hero Rapture 4D, Edinburgh bass queen Feena, and Fuse founder VAJ.Power !",
-    img: "/gigs/49-neffa-t.jpg",
-  },
-  {
     title: "Ethereal Skies Announce debut V/A 'Aerga Vol.1'",
     link: "https://www.plantbassd.com/news/ethereal-skies-20-10-23",
     name: "news",
