@@ -10,12 +10,10 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "SweatBox: Neffa-T // Rapture 4D // Feena // VAJ.Power",
-    link: "https://ra.co/events/1694133",
-    name: "tickets",
-    description:
-      "SweatBox welcomes one of the UK's most sought after selectors Neffa-T to the Stereo alongside Glasgow 140 hero Rapture 4D, Edinburgh bass queen Feena, and Fuse founder VAJ.Power !",
-    img: "/gigs/49-neffa-t.jpg",
+    title: "Foamy Nites by Small Bear (Ethereal Skies)",
+    link: "https://on.soundcloud.com/mZorg",
+    name: "premieres",
+    description: "Primitive Dublin rave from Small Bear on the exciting Ethereal Skies compilation, 'Aerga Vol. 1'."
   },
   {
     title: "Ethereal Skies Announce debut V/A 'Aerga Vol.1'",
