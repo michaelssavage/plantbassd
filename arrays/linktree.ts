@@ -20,8 +20,8 @@ export const linkList: LinkProps[] = [
     title: "Foamy Nites by Small Bear (Ethereal Skies)",
     link: "https://on.soundcloud.com/mZorg",
     name: "premieres",
-    description: "Primitive Dublin rave from Small Bear on the exciting Ethereal Skies compilation, 'Aerga Vol. 1'."
-    img: "/premieres/58-small-bear.jpg", 
+    description: "Primitive Dublin rave from Small Bear on the exciting Ethereal Skies compilation, 'Aerga Vol. 1'.",
+    img: "/premieres/58-small-bear.jpg",
   },
   {
     title: "Ethereal Skies Announce debut V/A 'Aerga Vol.1'",
