@@ -10,12 +10,20 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "NARCISSUS by darkitecture",
+    link: "https://soundcloud.com/plantbassddjs/premiere-darkitecture-narcissus",
+    name: "premieres",
+    description:
+      "Alarming techno chase from darkitecture on Tripalium Corp's 'Fucked-Up Squad Vol.2'",
+    img: "/premieres/59-darkitecture.jpg",
+  },
+  {
     title: "Foamy Nites by Small Bear (Ethereal Skies)",
     link: "https://on.soundcloud.com/mZorg",
     name: "premieres",
-    img: "/premieres/58-small-bear.jpg",
     description:
       "Primitive Dublin rave from Small Bear on the exciting Ethereal Skies compilation, 'Aerga Vol. 1'.",
+    img: "/premieres/58-small-bear.jpg",
   },
   {
     title: "Ethereal Skies Announce debut V/A 'Aerga Vol.1'",
