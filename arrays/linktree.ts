@@ -14,6 +14,7 @@ export const linkList: LinkProps[] = [
     link: "https://on.soundcloud.com/6cXWx",
     name: "premieres",
     description: "Emotional club from Bogota via Aitunz & Pocket Tincho on city label traaampaaa.",
+    img: "/premieres/60-wow.jpg",
   },
   {
     title: "NARCISSUS by darkitecture",
