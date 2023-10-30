@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "WOW by Aitunz ft. Pocket Tincho",
+    link: "https://on.soundcloud.com/6cXWx",
+    name: "premieres",
+    description: "Emotional club from Bogota via Aitunz & Pocket Tincho on city label traaampaaa.",
+  },
+  {
     title: "NARCISSUS by darkitecture",
     link: "https://soundcloud.com/plantbassddjs/premiere-darkitecture-narcissus",
     name: "premieres",
