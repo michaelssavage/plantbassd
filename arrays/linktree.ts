@@ -10,6 +10,13 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Signal by Marie Wilhelmine Anders",
+    link: "https://soundcloud.com/plantbassddjs/premiere-marie-wilhelmine-anders-signal-1",
+    name: "premieres",
+    description: "Heady old-skool inspired drum & bass from Berliner Marie Wilhelmine Anders",
+    img: "/premieres/61-marie.jpg", 
+  },
+  {
     title: "WOW by Aitunz ft. Pocket Tincho",
     link: "https://on.soundcloud.com/6cXWx",
     name: "premieres",
