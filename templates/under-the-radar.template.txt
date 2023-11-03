@@ -12,9 +12,9 @@ title: "Under The Radar: XX"
 <MusicRelease
   pic="/under-the-radar/XX/XX"
   title="XX"
-  link="XX"
+  link=""
   titleLabel="XX"
-  titleLink="XX"
+  titleLink=""
   standout="XX"
   embed="XX"
 >
