@@ -10,11 +10,19 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Under the Radar: October",
+    link: "https://www.plantbassd.com/under-the-radar/october-23",
+    name: "under the radar",
+    description:
+      "Overlooked October gems that didn't get the full attention they deserved with releases from Diessa, Toby Ross, and more.",
+    img: "/under-the-radar/october.jpg",
+  },
+  {
     title: "Signal by Marie Wilhelmine Anders",
     link: "https://soundcloud.com/plantbassddjs/premiere-marie-wilhelmine-anders-signal-1",
     name: "premieres",
     description: "Heady old-skool inspired drum & bass from Berliner Marie Wilhelmine Anders",
-    img: "/premieres/61-marie.jpg", 
+    img: "/premieres/61-marie.jpg",
   },
   {
     title: "WOW by Aitunz ft. Pocket Tincho",
