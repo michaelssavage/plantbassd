@@ -670,4 +670,28 @@ export const guestList: GuestProps[] = [
     name: "Rapture 4D",
     gig: ["https://ra.co/events/1694133"],
   },
+  {
+    img: "50-shadesy.jpg",
+    link: "shadesy.dasbooty",
+    name: "Shadesy",
+    gig: ["https://ra.co/events/1799441"],
+  },
+  {
+    img: "50-dv60.jpg",
+    link: "dv60uk",
+    name: "DV60",
+    gig: ["https://ra.co/events/1799441"],
+  },
+  {
+    img: "50-bastard.jpg",
+    link: "dj_bastard",
+    name: "DJ Bastard",
+    gig: ["https://ra.co/events/1799441"],
+  },
+  {
+    img: "50-sinclair.jpg",
+    link: "larasinclair_",
+    name: "Lara Sinclair",
+    gig: ["https://ra.co/events/1799441"],
+  },
 ];

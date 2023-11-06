@@ -2,7 +2,7 @@
 title: "XX"
 name: "XX"
 date: "XX, 2023"
-pic: "/news/XX.jpg"
+pic: "/gigs/XX.jpg"
 tickets: "XX"
 postLink: "XX"
 bio: "XX"
