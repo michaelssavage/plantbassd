@@ -10,6 +10,13 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Serotona by Drumheller",
+    link: "https://soundcloud.com/plantbassddjs/premiere-drumheller-serotona",
+    name: "premieres",
+    description: "Baile meets drill on Drumheller's hot and weighty bass runner",
+    img: "/premieres/62-drumheller.jpg",
+  },
+  {
     title: "Under the Radar: October",
     link: "https://www.plantbassd.com/under-the-radar/october-23",
     name: "under the radar",
