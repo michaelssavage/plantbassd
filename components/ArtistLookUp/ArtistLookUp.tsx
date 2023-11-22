@@ -22,6 +22,8 @@ export const ArtistLookUp = ({ anames, gigs, current }: LookUpProps) => {
         {anames.map((name) => {
           const dj = djs.find((dj) => name.toLowerCase() === dj.name.toLowerCase());
 
+          if (!dj) return <></>;
+
           return (
             <PreviousGuest
               key={dj.name}

@@ -566,7 +566,7 @@ export const guestList: GuestProps[] = [
     img: "35-loreto.jpg",
     link: "loretolihuenn",
     name: "Loreto",
-    gig: ["https://ra.co/events/1719245"],
+    gig: ["https://ra.co/events/1719245", "https://ra.co/events/1769769"],
   },
   {
     img: "35-indigo.jpg",
@@ -693,5 +693,23 @@ export const guestList: GuestProps[] = [
     link: "larasinclair_",
     name: "Lara Sinclair",
     gig: ["https://ra.co/events/1799441"],
+  },
+  {
+    img: "51-claraaa.jpg",
+    link: "claraaaaaaaaaaaaaaaaaaaa_",
+    name: "Clara!",
+    gig: ["https://ra.co/events/1769769"],
+  },
+  {
+    img: "51-maicol.jpg",
+    link: "djma1col",
+    name: "DJ Maicol",
+    gig: ["https://ra.co/events/1769769"],
+  },
+  {
+    img: "51-chica.jpg",
+    link: "chicha_mw",
+    name: "Chicha",
+    gig: ["https://ra.co/events/1769769"],
   },
 ];
