@@ -10,6 +10,13 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Wanna War We I Know Why by Sevy",
+    link: "https://on.soundcloud.com/jX4z1",
+    name: "premieres",
+    description: "A hypnotic naarm inspired R&B and soul transmission from Sydney based act Sevy",
+    img: "/premieres/63-sevy.jpg",
+  },
+  {
     title: "Serotona by Drumheller",
     link: "https://soundcloud.com/plantbassddjs/premiere-drumheller-serotona",
     name: "premieres",
