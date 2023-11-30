@@ -22,7 +22,7 @@ Buy/ Stream here: <HoverLink url="XX" external />
 
 _XXX_
 
-<Picture src="/fresh-juice/XX.jpg" alt="XXX cover pic" size={1200} />
+<Picture src="/fresh-juice/XX.jpg" alt="XXX cover pic" size={1200} withSubtitle />
 <p className="smallText">XXX</p> 
 
 _XXX_

@@ -8,15 +8,17 @@ interface PictureProps {
   size: number;
   src: string;
   style?: CSSProperties;
+  withSubtitle?: boolean;
 }
 
-export const Picture = ({ alt, size, src, style }: PictureProps) => {
+export const Picture = ({ alt, size, src, style, withSubtitle }: PictureProps) => {
   const css: CSSProperties = { maxWidth: "100%", height: "auto", objectFit: "contain" };
   const myStyle = { ...css, ...style };
   return (
     <CldImage
       alt={alt}
       blurDataURL={blurImgUrl(size)}
+      className={withSubtitle ? "mb-0" : ""}
       height={size}
       placeholder="blur"
       src={src}

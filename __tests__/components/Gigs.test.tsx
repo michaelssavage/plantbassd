@@ -17,7 +17,7 @@ describe("Gigs component", () => {
     expect(headerText).toBeInTheDocument();
 
     const bannerText = getByText(
-      /Serving up the hot club sounds of ballroom, US club, electro, ghetto tech, footwork, techno & more on in Glasgow, Edinburgh, and Dublin, Plant Bass'd has gathered friends far and near for sweaty dancefloor parties./i
+      /Plant Bass'd has gathered friends far and near for sweaty dancefloor parties, serving up the hottest club sounds of ballroom, US club, electro, ghetto tech, footwork, techno & more on in Glasgow, Edinburgh, and Galway./i
     );
 
     expect(bannerText).toBeInTheDocument();

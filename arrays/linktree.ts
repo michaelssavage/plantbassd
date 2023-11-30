@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "FRESH JUICE: 'Stepping Out' by Ouanounou & Gipsyan (Monstart)",
+    link: "https://www.plantbassd.com/fresh-juice/ouanounou-gipsyan-29-11-23",
+    name: "fresh juice",
+    description:
+      "Innovative French imprint Monstart celebrate their 20th release with the otherworldly bass score, ‘Stepping Out’, coming from label head Ouanounou & Montpellier producer Gipsyan.",
+    img: "/fresh-juice/68-stepping-out.jpg",
+  },
+  {
     title: "Wanna War We I Know Why by Sevy",
     link: "https://on.soundcloud.com/jX4z1",
     name: "premieres",
