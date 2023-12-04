@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "In Depth With Sevy",
+    link: "https://www.plantbassd.com/news/in-depth-with-sevy-5-12-23",
+    name: "news",
+    description:
+      "Multi-faceted Zambian/ Malawian act Sevy drifts on to London’s Tobago Tracks with elegance on his forward-facing ‘Merry Go Creek’ EP.",
+    img: "/news/51-sevy.jpg",
+  },
+  {
     title: "FRESH JUICE: 'Stepping Out' by Ouanounou & Gipsyan (Monstart)",
     link: "https://www.plantbassd.com/fresh-juice/ouanounou-gipsyan-29-11-23",
     name: "fresh juice",
