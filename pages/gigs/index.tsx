@@ -32,7 +32,11 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
 
   return (
     <div className="gigsBG">
-      <PageMetaData title="Gigs" />
+      <PageMetaData
+        title="Gigs"
+        description={`After the first successful party in Edinburgh in September 2021, Plant Bass'd has put
+        together ${filteredPosts.length} shows in Ireland and Scotland`}
+      />
       <h1 className={styles.pageHeader}>Gigs</h1>
 
       <h3 className={styles.pageText}>

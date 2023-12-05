@@ -27,8 +27,8 @@ export const FavTrack = (props: FavTrackProps) => {
           {!youtube && <Picture src={pic} alt={title} size={600} />}
           {youtube && <SoundCloud url={youtube} />}
         </div>
-        <div className="col-md-7 col-sm-12">
-          {soundcloud && <SoundCloud url={soundcloud} height="120px" />}
+        <div className="col-md-7 col-sm-12 mt-3 mt-md-0">
+          {soundcloud && <SoundCloud url={soundcloud} height="140px" />}
           {bandcamp && <BandCamp src={bandcamp} top />}
           <div className="mt-3 mb-2">{children}</div>
           {link && (

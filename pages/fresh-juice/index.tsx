@@ -22,7 +22,11 @@ export default function FreshJuicePage({
 
   return (
     <div className="freshjuiceBG">
-      <PageMetaData title="Fresh Juice" />
+      <PageMetaData
+        title="Fresh Juice"
+        description=" Supporting underground artists with reviews of hot new music from around the world. See more
+        on our Bandcamp below."
+      />
       <h1 className={styles.pageHeader}>Fresh Juice</h1>
       <h3 className={styles.pageText}>
         Supporting underground artists with reviews of hot new music from around the world. See more

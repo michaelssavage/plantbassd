@@ -22,7 +22,10 @@ export default function TakeoverPage({
 
   return (
     <div className="takeoverBG">
-      <PageMetaData title="Takeovers" />
+      <PageMetaData
+        title="Takeovers"
+        description="Artists, Friends, and Guests select and share their top tracks on Spotify."
+      />
       <h1 className={styles.pageHeader}>Takeovers</h1>
 
       <h3 className={styles.pageText}>

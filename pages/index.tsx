@@ -1,4 +1,4 @@
-import { FreshJuice, Gigs, News, Premiere, Radio, Takeover } from "components/Main";
+import { FreshJuice, Gigs, News, Premiere, Radar, TopTen } from "components/Main";
 import { sortByDate } from "utils";
 import { Banner } from "components/Banner";
 import { AllPostProps } from "types/frontmatter";
@@ -7,13 +7,13 @@ import PageMetaData from "components/PageMetaData";
 
 interface HomeProps {
   allPosts: AllPostProps[];
-  takeovers: AllPostProps[];
-  radios: AllPostProps[];
+  topTen: AllPostProps[];
+  radar: AllPostProps[];
   freshjuice: AllPostProps[];
   gigs: AllPostProps[];
 }
 
-export default function Home({ allPosts, takeovers, radios, freshjuice, gigs }: HomeProps) {
+export default function Home({ allPosts, topTen, radar, freshjuice, gigs }: HomeProps) {
   return (
     <main>
       <PageMetaData title="Plant Bass'd" />
@@ -28,8 +28,8 @@ export default function Home({ allPosts, takeovers, radios, freshjuice, gigs }: 
       <Gigs gigs={gigs} />
 
       <div className="gradients">
-        <Takeover takeovers={takeovers} />
-        <Radio radios={radios} />
+        <TopTen topTen={topTen} />
+        <Radar radar={radar} />
       </div>
     </main>
   );
@@ -66,8 +66,8 @@ export async function getStaticProps() {
     props: {
       allPosts,
       freshjuice: files["fresh-juice"],
-      radios: files["radios"].splice(0, 2),
-      takeovers: files["takeovers"].splice(0, 2),
+      radar: files["under-the-radar"].splice(0, 2),
+      topTen: files["top-ten-releases"].splice(0, 2),
       gigs: files["gigs"],
     },
   };

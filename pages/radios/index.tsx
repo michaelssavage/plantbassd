@@ -20,7 +20,10 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
 
   return (
     <div className="radioBG">
-      <PageMetaData title="Mixes" />
+      <PageMetaData
+        title="Mixes"
+        description="Guest mixes from homegrown and international artists."
+      />
       <h1 className={styles.pageHeader}>Mixes</h1>
 
       <h3 className={styles.pageText}>

@@ -32,7 +32,10 @@ export default function GalleryPage({ gigs }: InferGetStaticPropsType<typeof get
 
   return (
     <div className="gigsBG">
-      <PageMetaData title="Gigs" />
+      <PageMetaData
+        title="Gigs"
+        description="Check out some pics from shows we've put together in Ireland and the UK"
+      />
       <h1 className={styles.pageHeader}>Gallery</h1>
 
       <h3 className={styles.pageText}>

@@ -269,6 +269,12 @@ p {
   @extend .layout;
 }
 
+.topTenBG {
+  background-color: $blueyPurple;
+  padding-bottom: 2rem;
+  @extend .layout;
+}
+
 .deleteBG {
   background-color: $culturedWhite;
   min-height: 80vh;

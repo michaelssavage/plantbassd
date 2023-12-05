@@ -33,7 +33,10 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
 
   return (
     <div className="newsBG">
-      <PageMetaData title="News" />
+      <PageMetaData
+        title="News"
+        description="Catch the latest about new music, upcoming gigs & events, and all things Plant Bass'd."
+      />
       <h1 className={styles.pageHeader}>Latest News</h1>
 
       <h3 className={styles.pageText}>

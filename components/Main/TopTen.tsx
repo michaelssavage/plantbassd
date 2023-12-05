@@ -4,29 +4,28 @@ import { Button } from "components/Button";
 import Header from "../Header";
 
 interface Props {
-  radios: AllPostProps[];
+  topTen: AllPostProps[];
 }
 
-export const Radio = ({ radios }: Props) => {
+export const TopTen = ({ topTen }: Props) => {
   return (
-    <section className="radioSection col-lg-6 col-md-12">
-      <div className="row mb-2 align-items-center">
-        <Header first="Radios" />
-
-        <div className="col-auto ps-0">
-          <Button to="/radios" text="More" />
+    <section className="takeoverSection col-lg-6 col-md-12">
+      <div className="row mb-2 flex-nowrap justify-content-end align-items-center">
+        <Header first="Top Ten" />
+        <div className="col-auto">
+          <Button to="/top-ten-releases" text="More" />
         </div>
       </div>
 
       <div className="row mb-2">
-        <p>Guest Mixes From Our Radio Series.</p>
+        <p>Artists and DJs pick their favourite top ten releases of the year.</p>
       </div>
 
       <div className="row g-2">
-        {radios.map((artist) => (
+        {topTen.map((artist) => (
           <SimpleCard
             key={artist.frontmatter.name}
-            link={`/radios/${artist.slug}`}
+            link={`/top-ten-releases/${artist.slug}`}
             post={artist}
             columns="col-6 col-md-6 col-lg-6 col-xl-6"
           />

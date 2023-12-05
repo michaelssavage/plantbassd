@@ -12,51 +12,48 @@ import PageMetaData from "components/PageMetaData";
 import { SocialButton } from "components/Icon";
 import { plantbassdInstagram } from "utils/constants";
 
-export default function PremieresPage({
-  premieres,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function TopTenPage({ topTens }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
-    useSearchFilter(premieres);
+    useSearchFilter(topTens);
 
   if (searchHasErrored) return <Error error={searchError} />;
 
   return (
-    <div className="radioBG">
+    <div className="topTenBG">
       <PageMetaData
-        title="Premieres"
-        description="Listen to new track premieres from around the world on our SoundCloud."
+        title="Top Ten Releases"
+        description="Ireland & The UK's best talent choose their favourite top ten releases of the year."
       />
-      <h1 className={styles.pageHeader}>Premieres</h1>
+      <h1 className={styles.pageHeader}>Top Ten Releases</h1>
+
       <h3 className={styles.pageText}>
-        Listen to new track premieres from around the world on our SoundCloud.
+        Ireland & The UK's best talent choose their favourite top ten releases of the year.
       </h3>
-      <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
-      <SocialButton
-        name="soundcloud"
-        url="https://soundcloud.com/plantbassddjs/sets/plant-bassd-premieres"
-        text="Soundcloud"
-      />
+      <SocialButton name="instagram" url={plantbassdInstagram} />
+      <SocialButton name="email" url="mailto: plantbassddjs@gmail.com" text="Email" />
+
       <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
+
       <div className="row g-3">
-        {postCards.map((premiere: AllPostProps) => (
+        {postCards.map((topTen: AllPostProps) => (
           <TextCard
-            key={premiere.frontmatter.name}
-            link={`/premieres/${premiere.slug}`}
-            post={premiere}
+            key={topTen.frontmatter.name}
+            link={`/top-ten-releases/${topTen.slug}`}
+            post={topTen}
           />
         ))}
       </div>
-      <div className="mt-2 text-end">{premieres.length} cards.</div>
+      <div className="mt-2 text-end">{postCards.length} cards.</div>
     </div>
   );
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const premieres = await getPosts("premieres");
+  const topTens = await getPosts("top-ten-releases");
 
   return {
     props: {
-      premieres: premieres.sort(sortByDate).reverse(),
+      topTens: topTens.sort(sortByDate).reverse(),
     },
   };
 };
