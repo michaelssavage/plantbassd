@@ -1,11 +1,11 @@
 import { HoverLink } from "components/HoverLink";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 import styles from "styles/page.module.scss";
 
 export default function PrivacyPolicy() {
   return (
     <div className="aboutBG">
-      <PageTitle title="Privacy Policy" />
+      <PageMetaData title="Privacy Policy" />
       <h1 className={styles.pageHeader}>Privacy Policy for Plant Bass'd</h1>
       <p>
         At <b>Plant Bass'd</b>, accessible from <HoverLink url="/" name="www.plantbassd.com" />, one

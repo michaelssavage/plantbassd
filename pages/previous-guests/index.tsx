@@ -2,7 +2,7 @@ import { useState } from "react";
 import { GetStaticProps } from "next";
 import { guestList, headliners } from "arrays/previous-guests";
 import Error from "components/Error";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 import { PreviousGuest } from "components/PreviousGuest";
 import { SearchBox } from "components/SearchBox";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
@@ -26,7 +26,7 @@ export default function PreviousGuestsPage({ gigs }: { gigs: GuestSlug[] }) {
 
   return (
     <div className="guestsBG">
-      <PageTitle title="Previous Guests" />
+      <PageMetaData title="Previous Guests" />
       <h1 className={styles.pageHeader}>Previous Guests (A-Z)</h1>
 
       <SearchBox

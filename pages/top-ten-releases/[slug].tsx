@@ -6,16 +6,25 @@ import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { HoverLink } from "components/HoverLink";
 import styles from "styles/top-ten.module.scss";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 import { FavTrack } from "components/Slug";
 
 const components = { HoverLink, Picture, FavTrack };
 
-export default function TopTenSlug(props: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { title, date, cover, intro, header, insta, mdxSource } = props;
+export default function TopTenSlug({
+  mdxSource,
+  frontmatter,
+  slug,
+}: InferGetStaticPropsType<typeof getStaticProps>) {
+  const { title, date, cover, intro, header, insta } = frontmatter;
   return (
     <div className={styles.outerSection}>
-      <PageTitle title={`${header} - Reviews`} />
+      <PageMetaData
+        title={`${header} - Reviews`}
+        imageUrl={cover}
+        description={intro}
+        url={`www.plantbassd.com/${slug}`}
+      />
       <div className={`col ${styles.topTenContent}`}>
         <p className={styles.postDate}>Posted on {date}</p>
         <Picture alt="artist press pic" size={1200} src={cover} />
@@ -72,12 +81,8 @@ export async function getStaticProps({ params: { slug } }: StaticProps) {
   return {
     props: {
       mdxSource,
-      title: frontmatter.title,
-      date: frontmatter.date,
-      cover: frontmatter.cover,
-      intro: frontmatter.intro,
-      header: frontmatter.header,
-      insta: frontmatter.insta,
+      frontmatter,
+      slug,
     },
   };
 }

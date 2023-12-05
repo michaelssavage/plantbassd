@@ -8,7 +8,7 @@ import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 import { SocialButton } from "components/Icon";
 import { plantbassdInstagram } from "utils/constants";
 
@@ -22,7 +22,7 @@ export default function UnderTheRadarPage({
 
   return (
     <div className="radarBG">
-      <PageTitle title="Under The Radar" />
+      <PageMetaData title="Under The Radar" />
       <h1 className={styles.pageHeader}>Under The Radar</h1>
 
       <h3 className={styles.pageText}>

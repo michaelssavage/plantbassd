@@ -7,20 +7,25 @@ import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 import { GigGuide } from "components/Slug";
 
 const components = { HoverLink, Picture, GigGuide };
 
 export default function Guides({
-  title,
-  date,
-  path,
+  frontmatter,
+  slug,
   mdxSource,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const { title, date, path, pic, bio } = frontmatter;
   return (
     <div className={styles.outerSection}>
-      <PageTitle title={title.toLowerCase()} />
+      <PageMetaData
+        title={title.toLowerCase()}
+        imageUrl={pic}
+        description={bio}
+        url={`www.plantbassd.com/${slug}`}
+      />
       <div className={`col ${styles.topTenContent}`}>
         <div className="px-3">
           <p>
@@ -53,9 +58,8 @@ export async function getStaticProps({ params: { slug } }: StaticProps) {
   return {
     props: {
       mdxSource,
-      title: frontmatter.title,
-      date: frontmatter.date,
-      path: frontmatter.path,
+      frontmatter,
+      slug,
     },
   };
 }

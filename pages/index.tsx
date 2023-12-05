@@ -3,7 +3,7 @@ import { sortByDate } from "utils";
 import { Banner } from "components/Banner";
 import { AllPostProps } from "types/frontmatter";
 import { getPosts } from "utils/getPosts";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 
 interface HomeProps {
   allPosts: AllPostProps[];
@@ -16,7 +16,7 @@ interface HomeProps {
 export default function Home({ allPosts, takeovers, radios, freshjuice, gigs }: HomeProps) {
   return (
     <main>
-      <PageTitle title="Plant Bass'd" />
+      <PageMetaData title="Plant Bass'd" />
 
       <Banner />
       <News news={allPosts} />

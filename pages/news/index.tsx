@@ -9,7 +9,7 @@ import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { useTagsFilter } from "hooks";
 import { getAllPosts } from "utils/getAllPosts";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 import { plantbassdInstagram } from "utils/constants";
 import { SocialButton } from "components/Icon";
 
@@ -33,7 +33,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
 
   return (
     <div className="newsBG">
-      <PageTitle title="News" />
+      <PageMetaData title="News" />
       <h1 className={styles.pageHeader}>Latest News</h1>
 
       <h3 className={styles.pageText}>

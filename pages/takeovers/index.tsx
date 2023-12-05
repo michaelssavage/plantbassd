@@ -8,7 +8,7 @@ import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 import { SocialButton } from "components/Icon";
 import { plantbassdInstagram } from "utils/constants";
 
@@ -22,7 +22,7 @@ export default function TakeoverPage({
 
   return (
     <div className="takeoverBG">
-      <PageTitle title="Takeovers" />
+      <PageMetaData title="Takeovers" />
       <h1 className={styles.pageHeader}>Takeovers</h1>
 
       <h3 className={styles.pageText}>

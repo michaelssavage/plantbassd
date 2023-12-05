@@ -8,7 +8,7 @@ import Error from "components/Error";
 import { Signup } from "components/Signup/Signup";
 import { useTagsFilter } from "hooks";
 import { FilterTags } from "components/FilterTags";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 import { Discovery, LinkPost } from "components/Links";
 
 const linkTags = [
@@ -28,7 +28,7 @@ export default function Links() {
 
   return (
     <div className={styles.linkPage}>
-      <PageTitle title="Links" />
+      <PageMetaData title="Links" />
       <div className={styles.pushSides}>
         <div className={`row ${styles.pbLogo}`}>
           <Header first="Plant" second="Bass'd" />

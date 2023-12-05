@@ -32,8 +32,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:description"
-            content="Profiling the experimental dance music world and
-					throwing parties in between."
+            content="Profiling the experimental dance music world and throwing parties in between."
           />
           <meta property="og:site_name" content="Plant Bass'd" />
           <meta property="og:url" content="https://plantbassd.com" />

@@ -10,7 +10,7 @@ import styles from "styles/page.module.scss";
 
 import { AllPostProps } from "types/frontmatter";
 import { getPosts } from "utils/getPosts";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 import { SocialButton } from "components/Icon";
 import { plantbassdInstagram } from "utils/constants";
 
@@ -32,7 +32,7 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
 
   return (
     <div className="gigsBG">
-      <PageTitle title="Gigs" />
+      <PageMetaData title="Gigs" />
       <h1 className={styles.pageHeader}>Gigs</h1>
 
       <h3 className={styles.pageText}>

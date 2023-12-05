@@ -5,26 +5,28 @@ import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { Slug } from "components/Slug";
 import { ArtistLookUp } from "components/ArtistLookUp";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 import { getPosts } from "utils/getPosts";
 
 export default function GigsSlug({
   mdxSource,
   frontmatter,
   gigs,
+  slug,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { title, date, pic, tickets, seeMore, postLink, path, anames } = frontmatter;
+  const { title, date, pic, tickets, seeMore, postLink, path, anames, bio } = frontmatter;
 
-  let buyLink = seeMore,
-    buyText = "See More";
+  const buyLink = tickets ? tickets : seeMore;
+  const buyText = tickets ? "Tickets" : "See More";
 
-  if (tickets) {
-    buyLink = tickets;
-    buyText = "Tickets";
-  }
   return (
     <div className={styles.slugContainer}>
-      <PageTitle title={title} />
+      <PageMetaData
+        title={title}
+        imageUrl={pic}
+        description={bio}
+        url={`www.plantbassd.com/${slug}`}
+      />
       <div className="row">
         {
           <Slug path={path} date={date} title={title} mdxSource={mdxSource}>

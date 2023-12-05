@@ -4,25 +4,26 @@ import styles from "styles/slug.module.scss";
 import { Slug } from "components/Slug";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 
 export default function NewsSlug({
   mdxSource,
   frontmatter,
+  slug,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { title, date, pic, tickets, seeMore, path, postLink } = frontmatter;
+  const { title, date, pic, tickets, seeMore, path, postLink, bio } = frontmatter;
 
-  let buyLink = seeMore,
-    buyText = "See More";
-
-  if (tickets) {
-    buyLink = tickets;
-    buyText = "RA tickets";
-  }
+  const buyLink = tickets ? tickets : seeMore;
+  const buyText = tickets ? "RA tickets" : "See More";
 
   return (
     <div className={styles.slugContainer}>
-      <PageTitle title={title} />
+      <PageMetaData
+        title={title}
+        imageUrl={pic}
+        description={bio}
+        url={`www.plantbassd.com/${slug}`}
+      />
       <div className="row">
         {Slug({ path, date, title, mdxSource })}
         <StickyCard
@@ -52,6 +53,7 @@ export async function getStaticProps({ params: { slug } }: StaticProps) {
     props: {
       mdxSource,
       frontmatter,
+      slug,
     },
   };
 }

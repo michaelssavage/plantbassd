@@ -5,18 +5,34 @@ import styles from "styles/slug.module.scss";
 import { Slug } from "components/Slug";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 
 const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 
 export default function FreshJuiceSlug({
   frontmatter,
   mdxSource,
+  slug,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { artist = "Bandcamp", youtube, title, date, pic, bandcamp, path, postLink } = frontmatter;
+  const {
+    artist = "Bandcamp",
+    youtube,
+    title,
+    date,
+    pic,
+    bandcamp,
+    path,
+    postLink,
+    bio,
+  } = frontmatter;
   return (
     <div className={styles.slugContainer}>
-      <PageTitle title={title} />
+      <PageMetaData
+        title={title}
+        imageUrl={pic}
+        description={bio}
+        url={`www.plantbassd.com/${slug}`}
+      />
       <div className="row">
         {Slug({ path, date, title, mdxSource })}
         <StickyCard
@@ -52,6 +68,7 @@ export async function getStaticProps({ params: { slug } }: StaticProps) {
     props: {
       frontmatter,
       mdxSource,
+      slug,
     },
   };
 }

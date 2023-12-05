@@ -5,13 +5,13 @@ import { Icon } from "components/Icon";
 import { Picture } from "components/Picture";
 import styles from "styles/team.module.scss";
 import { ourTeam } from "arrays/our-team";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 import card from "components/Card/Card.module.scss";
 
 export default function TeamPage() {
   return (
     <div className={styles.aboutBG}>
-      <PageTitle title="Our Team" />
+      <PageMetaData title="Our Team" />
 
       <div className="row">
         <div className="col-md-6 col-sm-12">

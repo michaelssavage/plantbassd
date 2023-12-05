@@ -6,7 +6,7 @@ import styles from "styles/top-ten.module.scss";
 import { MusicRelease } from "components/Slug";
 import { Picture } from "components/Picture";
 import { HoverLink } from "components/HoverLink";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 import { SoundCloud } from "components/Players";
 
 const components = { HoverLink, MusicRelease, SoundCloud };
@@ -15,7 +15,7 @@ export default function UnderTheRadarSlug(props: InferGetStaticPropsType<typeof 
   const { month, date, bio, pic, mdxSource, path } = props;
   return (
     <div className={styles.outerSection}>
-      <PageTitle title={`Under the Radar - ${month}`} />
+      <PageMetaData title={`Under the Radar - ${month}`} />
       <div className={`col ${styles.topTenContent}`}>
         <div className="px-3">
           <p>

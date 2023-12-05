@@ -8,7 +8,7 @@ import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 import { SocialButton } from "components/Icon";
 import { plantbassdInstagram } from "utils/constants";
 
@@ -22,7 +22,7 @@ export default function PremieresPage({
 
   return (
     <div className="radioBG">
-      <PageTitle title="Premieres" />
+      <PageMetaData title="Premieres" />
       <h1 className={styles.pageHeader}>Premieres</h1>
       <h3 className={styles.pageText}>
         Listen to new track premieres from around the world on our SoundCloud.

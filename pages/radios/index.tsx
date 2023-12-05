@@ -8,7 +8,7 @@ import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
-import PageTitle from "components/PageTitle";
+import PageMetaData from "components/PageMetaData";
 import { SocialButton } from "components/Icon";
 import { plantbassdInstagram } from "utils/constants";
 
@@ -20,7 +20,7 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
 
   return (
     <div className="radioBG">
-      <PageTitle title="Mixes" />
+      <PageMetaData title="Mixes" />
       <h1 className={styles.pageHeader}>Mixes</h1>
 
       <h3 className={styles.pageText}>
