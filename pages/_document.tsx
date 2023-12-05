@@ -32,7 +32,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:description"
-            content="Profiling the experimental dance music world and throwing parties in between."
+            content="We profile the experimental dance music world through reviews, interviews, and spotlights of rising artists in Ireland & The UK. We throw parties in between in Edinburgh, Glasgow, and Galway."
           />
           <meta property="og:site_name" content="Plant Bass'd" />
           <meta property="og:url" content="https://plantbassd.com" />
