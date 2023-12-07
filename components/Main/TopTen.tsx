@@ -13,7 +13,7 @@ export const TopTen = ({ topTen }: Props) => {
       <div className="row mb-2 flex-nowrap justify-content-end align-items-center">
         <Header first="Top Ten" />
         <div className="col-auto">
-          <Button to="/top-ten-picks" text="More" />
+          <Button to="/top-ten-releases" text="More" />
         </div>
       </div>
 
@@ -25,7 +25,7 @@ export const TopTen = ({ topTen }: Props) => {
         {topTen.map((artist) => (
           <SimpleCard
             key={artist.frontmatter.name}
-            link={`/top-ten-picks/${artist.slug}`}
+            link={`/top-ten-releases/${artist.slug}`}
             post={artist}
             columns="col-6 col-md-6 col-lg-6 col-xl-6"
           />

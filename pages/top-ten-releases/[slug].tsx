@@ -67,7 +67,7 @@ export default function TopTenSlug({
 }
 
 export async function getStaticPaths() {
-  const paths = await getSlugPath("top-ten-picks");
+  const paths = await getSlugPath("top-ten-releases");
 
   return {
     fallback: false,
@@ -76,7 +76,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { slug } }: StaticProps) {
-  const { frontmatter, mdxSource } = await getSlugContent("top-ten-picks", slug);
+  const { frontmatter, mdxSource } = await getSlugContent("top-ten-releases", slug);
 
   return {
     props: {

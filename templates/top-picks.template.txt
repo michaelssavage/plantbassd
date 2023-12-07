@@ -8,7 +8,7 @@ pic: "/top-ten-releases/XX.jpg"
 cover: "/top-ten-releases/XX.jpg"
 bio: "XX"
 intro: "XX"
-path: "top-ten-picks"
+path: "top-ten-releases"
 insta: "https://www.instagram.com/XX"
 ---
 

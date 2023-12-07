@@ -38,7 +38,7 @@ export default function TopTenPage({ topTens }: InferGetStaticPropsType<typeof g
         {postCards.map((topTen: AllPostProps) => (
           <TextCard
             key={topTen.frontmatter.name}
-            link={`/top-ten-picks/${topTen.slug}`}
+            link={`/top-ten-releases/${topTen.slug}`}
             post={topTen}
           />
         ))}
@@ -49,7 +49,7 @@ export default function TopTenPage({ topTens }: InferGetStaticPropsType<typeof g
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const topTens = await getPosts("top-ten-picks");
+  const topTens = await getPosts("top-ten-releases");
 
   return {
     props: {

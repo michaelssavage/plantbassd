@@ -49,7 +49,7 @@ export const links: FooterProps[] = [
     name: "Newsletter",
   },
   {
-    link: "/top-ten-picks",
+    link: "/top-ten-releases",
     name: "Top Tens",
   },
   {
