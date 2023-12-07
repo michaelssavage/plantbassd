@@ -34,6 +34,7 @@
     "func-style": [2, "declaration", { "allowArrowFunctions": true }],
     "quotes": ["error", "double"],
     "no-console": 1,
+    "no-unused-expressions": "off",
     "react/no-danger": "off",
     "react/react-in-jsx-scope": "off",
     "react/no-unescaped-entities": "off",

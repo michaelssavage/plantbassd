@@ -43,7 +43,7 @@ const folders = [
   "radios",
   "premieres",
   "takeovers",
-  "top-ten-releases",
+  "top-ten-picks",
   "under-the-radar",
   "gallery",
 ];
@@ -67,7 +67,7 @@ export async function getStaticProps() {
       allPosts,
       freshjuice: files["fresh-juice"],
       radar: files["under-the-radar"].splice(0, 2),
-      topTen: files["top-ten-releases"].splice(0, 2),
+      topTen: files["top-ten-picks"].splice(0, 2),
       gigs: files["gigs"],
     },
   };

@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Under the Radar: November",
+    link: "https://www.plantbassd.com/under-the-radar/november-23",
+    name: "under the radar",
+    description:
+      "Remember, remember, the hits of November! The year is fizzling out. Stock up on the best of last month before the festive craze takes over.",
+    img: "/under-the-radar/november.jpg",
+  },
+  {
     title: "In Depth With Sevy",
     link: "https://www.plantbassd.com/news/in-depth-with-sevy-5-12-23",
     name: "news",

@@ -13,19 +13,19 @@ export const TopTen = ({ topTen }: Props) => {
       <div className="row mb-2 flex-nowrap justify-content-end align-items-center">
         <Header first="Top Ten" />
         <div className="col-auto">
-          <Button to="/top-ten-releases" text="More" />
+          <Button to="/top-ten-picks" text="More" />
         </div>
       </div>
 
       <div className="row mb-2">
-        <p>Artists and DJs pick their favourite top ten releases of the year.</p>
+        <p>Artists and DJs pick their favourite top ten picks of the year.</p>
       </div>
 
       <div className="row g-2">
         {topTen.map((artist) => (
           <SimpleCard
             key={artist.frontmatter.name}
-            link={`/top-ten-releases/${artist.slug}`}
+            link={`/top-ten-picks/${artist.slug}`}
             post={artist}
             columns="col-6 col-md-6 col-lg-6 col-xl-6"
           />

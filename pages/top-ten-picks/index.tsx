@@ -21,13 +21,13 @@ export default function TopTenPage({ topTens }: InferGetStaticPropsType<typeof g
   return (
     <div className="topTenBG">
       <PageMetaData
-        title="Top Ten Releases"
-        description="Ireland & The UK's best talent choose their favourite top ten releases of the year."
+        title="Top Ten Picks"
+        description="Ireland & The UK's best talent choose their favourite top ten picks of the year."
       />
-      <h1 className={styles.pageHeader}>Top Ten Releases</h1>
+      <h1 className={styles.pageHeader}>Top Ten Picks</h1>
 
       <h3 className={styles.pageText}>
-        Ireland & The UK's best talent choose their favourite top ten releases of the year.
+        Ireland & The UK's best talent choose their favourite top ten picks of the year.
       </h3>
       <SocialButton name="instagram" url={plantbassdInstagram} />
       <SocialButton name="email" url="mailto: plantbassddjs@gmail.com" text="Email" />
@@ -38,7 +38,7 @@ export default function TopTenPage({ topTens }: InferGetStaticPropsType<typeof g
         {postCards.map((topTen: AllPostProps) => (
           <TextCard
             key={topTen.frontmatter.name}
-            link={`/top-ten-releases/${topTen.slug}`}
+            link={`/top-ten-picks/${topTen.slug}`}
             post={topTen}
           />
         ))}
@@ -49,7 +49,7 @@ export default function TopTenPage({ topTens }: InferGetStaticPropsType<typeof g
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const topTens = await getPosts("top-ten-releases");
+  const topTens = await getPosts("top-ten-picks");
 
   return {
     props: {
