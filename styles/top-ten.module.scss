@@ -15,6 +15,11 @@
   text-align: center;
 }
 
+.postDate {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
 @include breakpoint-below(md) {
   .postTitle {
     font-size: calc(1.3rem + 1.1vw);
