@@ -18,6 +18,7 @@
 .postDate {
   font-style: italic;
   font-size: 0.9rem;
+  text-align: right;
 }
 
 @include breakpoint-below(md) {

@@ -27,19 +27,19 @@ export default function TopTenSlug({
       />
       <div className={`col ${styles.topTenContent}`}>
         <p className={styles.postDate}>Posted on {date}</p>
-        <a
-          className={`${styles.instagram} text-nowrap btn btn-dark`}
-          href={insta}
-          rel="noopener noreferrer"
-          role="button"
-          target="_blank"
-        >
-          <Icon icon="instagram" /> {header}
-        </a>
         <h1 className={styles.postTitle}>{`${header} - ${title}`}</h1>
 
         <div className="text-center">
           <p>{intro}</p>
+          <a
+            className={`${styles.instagram} text-nowrap btn btn-dark mb-3 d-flex justify-content-center align-items-center gap-2`}
+            href={insta}
+            rel="noopener noreferrer"
+            role="button"
+            target="_blank"
+          >
+            <Icon icon="instagram" /> {header}
+          </a>
           <Picture alt="artist press pic" size={600} src={cover} />
         </div>
 
