@@ -27,32 +27,19 @@ export default function TopTenSlug({
       />
       <div className={`col ${styles.topTenContent}`}>
         <p className={styles.postDate}>Posted on {date}</p>
-
         <h1 className={styles.postTitle}>{`${header} - ${title}`}</h1>
 
-        <div style={{ textAlign: "center" }}>
+        <div className="text-center">
           <p>{intro}</p>
-          <div className="d-flex justify-content-center gap-2 flex-wrap my-3">
-            <a
-              className={`${styles.instagram} text-nowrap btn btn-dark`}
-              href={insta}
-              rel="noopener noreferrer"
-              role="button"
-              target="_blank"
-            >
-              <Icon icon="instagram" /> {header}
-            </a>
-
-            <a
-              className={`${styles.spotify} text-nowrap btn btn-dark`}
-              href="https://open.spotify.com/playlist/3EV4meqUK8g5IEYGqxsvNf?si=44648f12a9e04170"
-              rel="noopener noreferrer"
-              role="button"
-              target="_blank"
-            >
-              <Icon icon="spotify" /> Top Picks 2022
-            </a>
-          </div>
+          <a
+            className={`${styles.instagram} text-nowrap btn btn-dark mb-3 d-flex justify-content-center align-items-center gap-2`}
+            href={insta}
+            rel="noopener noreferrer"
+            role="button"
+            target="_blank"
+          >
+            <Icon icon="instagram" /> {header}
+          </a>
           <Picture alt="artist press pic" size={600} src={cover} />
         </div>
 
