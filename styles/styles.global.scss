@@ -73,7 +73,7 @@ h3 {
 }
 
 p {
-  font-size: $paragraph;
+  font-size: $xsHeader;
 }
 
 .smallText {
@@ -83,6 +83,10 @@ p {
 }
 
 @include breakpoint-below(md) {
+  p {
+    font-size: $paragraph;
+  }
+
   .smallText {
     font-size: calc(0.6rem + 1vw);
   }

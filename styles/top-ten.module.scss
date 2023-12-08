@@ -18,7 +18,6 @@
 .postDate {
   font-style: italic;
   font-size: 0.9rem;
-  text-align: right;
 }
 
 @include breakpoint-below(md) {
@@ -50,6 +49,7 @@
     color: $headerBlack;
     background-color: $instagram;
   }
+  padding: 0.4rem 1.2rem;
 }
 
 .bioText {

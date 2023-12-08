@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "JWY - Top 10 Picks Of The Year",
+    img: "/top-ten-releases/14-jwy.jpg",
+    link: "https://www.plantbassd.com/top-ten-releases/jwy-8-12-23",
+    name: "news",
+    description:
+      "Founder of Foxgluv, JWY, shares her top ten picks of 2023. The Dublin based DJ was key to big nights out this year for Rathaus, Ar Ais Arís, and Honeypot Club among many others.",
+  },
+  {
     title: "Under the Radar: November",
     link: "https://www.plantbassd.com/under-the-radar/november-23",
     name: "under the radar",

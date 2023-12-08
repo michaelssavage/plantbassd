@@ -16,7 +16,7 @@ export default function TopTenSlug({
   frontmatter,
   slug,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { title, date, cover, intro, header, insta } = frontmatter;
+  const { title, date, cover, intro, header, insta, path } = frontmatter;
   return (
     <div className={styles.outerSection}>
       <PageMetaData
@@ -26,20 +26,23 @@ export default function TopTenSlug({
         url={`www.plantbassd.com/${slug}`}
       />
       <div className={`col ${styles.topTenContent}`}>
-        <p className={styles.postDate}>Posted on {date}</p>
+        <p>
+          {<HoverLink url="/" name="home" />} / {<HoverLink url={`/${path}`} name={path} />} /
+        </p>
         <h1 className={styles.postTitle}>{`${header} - ${title}`}</h1>
+        <p className={styles.postDate}>Posted on {date}</p>
 
+        <p className="my-4">{intro}</p>
+        <a
+          className={`${styles.instagram} text-nowrap btn btn-dark mb-3`}
+          href={insta}
+          rel="noopener noreferrer"
+          role="button"
+          target="_blank"
+        >
+          <Icon icon="instagram" /> {header}
+        </a>
         <div className="text-center">
-          <p>{intro}</p>
-          <a
-            className={`${styles.instagram} text-nowrap btn btn-dark mb-3 d-flex justify-content-center align-items-center gap-2`}
-            href={insta}
-            rel="noopener noreferrer"
-            role="button"
-            target="_blank"
-          >
-            <Icon icon="instagram" /> {header}
-          </a>
           <Picture alt="artist press pic" size={600} src={cover} />
         </div>
 
