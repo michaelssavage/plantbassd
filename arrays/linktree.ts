@@ -10,6 +10,13 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "angel.world - Top 10 Picks Of The Year",
+    img: "/top-ten-releases/15-angel.jpg",
+    link: "https://www.plantbassd.com/top-ten-releases/angel-world-11-12-23",
+    name: "news",
+    description: "Glasgow's trance enabler angel.world dives into the sounds that made their 2023.",
+  },
+  {
     title: "JWY - Top 10 Picks Of The Year",
     img: "/top-ten-releases/14-jwy.jpg",
     link: "https://www.plantbassd.com/top-ten-releases/jwy-8-12-23",
