@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Key-In - Top 10 Picks Of The Year",
+    img: "/top-ten-releases/16-key-in.jpg",
+    link: "https://www.plantbassd.com/top-ten-releases/key-in-12-12-23",
+    name: "news",
+    description:
+      "Key-In (Cian Gilvarry) provides his favourite picks of the year highlighting his appetite for slower tempo electronic tunes that hit hard with impactful low-end goodness and textured drums.",
+  },
+  {
     title: "angel.world - Top 10 Picks Of The Year",
     img: "/top-ten-releases/15-angel.jpg",
     link: "https://www.plantbassd.com/top-ten-releases/angel-world-11-12-23",
