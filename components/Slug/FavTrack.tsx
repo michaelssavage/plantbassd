@@ -35,7 +35,7 @@ export const FavTrack = (props: FavTrackProps) => {
           <div className="mt-3 mb-2">{children}</div>
           {link && (
             <>
-              Listen here: <HoverLink url={link} external />
+              More here: <HoverLink url={link} external />
             </>
           )}
         </div>
