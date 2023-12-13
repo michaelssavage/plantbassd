@@ -15,7 +15,7 @@ export const linkList: LinkProps[] = [
     link: "https://www.plantbassd.com/top-ten-releases/doubt-13-12-23",
     name: "news",
     description:
-      "Key-In (Cian Gilvarry) provides his favourite picks of the year highlighting his appetite for slower tempo electronic tunes that hit hard with impactful low-end goodness and textured drums.",
+      "Flood co-founder Doubt takes us through his clubbing delights from 2023, encompassing his love of percussive bass, with some of the imprint's own productions, as well as some sneaky pop tones!",
   },
   {
     title: "Key-In - Top 10 Picks Of The Year",
