@@ -10,6 +10,13 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Hu-Sane - Top 10 Picks Of The Year",
+    img: "/top-ten-releases/18-hu-sane.jpg",
+    link: "https://www.plantbassd.com/top-ten-releases/hu-sane-14-12-23",
+    name: "news",
+    description: "Specialist Glasgow selector and producer Hu-Sane rattles through her favourite records from 2023.",
+  },
+  {
     title: "Doubt - Top 10 Picks Of The Year",
     img: "/top-ten-releases/17-doubt.jpg",
     link: "https://www.plantbassd.com/top-ten-releases/doubt-13-12-23",
