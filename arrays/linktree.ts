@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "plaintainchipps - Top 10 Picks Of The Year",
+    img: "/top-ten-releases/20-plantainchipps.jpg",
+    link: "https://www.plantbassd.com/top-ten-releases/plantainchipps-18-12-23",
+    name: "news",
+    description:
+      "A key player in Glasgow’s club scene, Plantainchipps takes us through their top 10 releases of the year!",
+  },
+  {
     title: "Ádhamh - Top 10 Picks Of The Year",
     img: "/top-ten-releases/19-adhamh.jpg",
     link: "https://www.plantbassd.com/top-ten-releases/adhamh-15-12-23",
