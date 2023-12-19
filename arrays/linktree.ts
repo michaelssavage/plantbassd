@@ -15,7 +15,7 @@ export const linkList: LinkProps[] = [
     link: "https://www.plantbassd.com/top-ten-releases/crrdr-19-18-23",
     name: "news",
     description:
-      "CRRDR marks his year off with his top ten picks of 2023 focusing on latincore releases.",
+      "CRRDR marks the year off with his top ten picks of 2023, focusing on the LatinCore sound.",
   },
   {
     title: "plaintainchipps - Top 10 Picks Of The Year",
