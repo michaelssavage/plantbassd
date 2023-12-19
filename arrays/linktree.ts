@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "CRRDR - Top 10 Picks Of The Year",
+    img: "/top-ten-releases/21-crrdr.jpg",
+    link: "https://www.plantbassd.com/top-ten-releases/crrdr-19-18-23",
+    name: "news",
+    description:
+      "CRRDR marks the year off with his top ten picks of 2023, focusing on the LatinCore sound.",
+  },
+  {
     title: "plaintainchipps - Top 10 Picks Of The Year",
     img: "/top-ten-releases/20-plantainchipps.jpg",
     link: "https://www.plantbassd.com/top-ten-releases/plantainchipps-18-12-23",
