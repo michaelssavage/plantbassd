@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Ten Years Lost - Top 10 Picks Of The Year",
+    img: "/top-ten-releases/22-ten-years.jpg",
+    link: "https://www.plantbassd.com/top-ten-releases/ten-years-lost-20-12-23",
+    name: "news",
+    description:
+      "International Chromie, Ten Years Lost takes us through his 10 favourite releases from the last 12 months!",
+  },
+  {
     title: "CRRDR - Top 10 Picks Of The Year",
     img: "/top-ten-releases/21-crrdr.jpg",
     link: "https://www.plantbassd.com/top-ten-releases/crrdr-19-18-23",

@@ -12,7 +12,7 @@ export default class MyDocument extends Document {
       <Html>
         <Head>
           <meta charSet="utf-8" />
-          <meta name="application-name" content="Plant Bass'd" />
+          <meta name="application-name" content="PLANT BASS'D" />
           <meta name="theme-color" content="#060b26" />
           <meta
             name="description"
@@ -28,13 +28,13 @@ export default class MyDocument extends Document {
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content="Plant Bass'd - Experimental dance music blog and party thrower"
+            content="PLANT BASS'D - Experimental dance music blog and party thrower"
           />
           <meta
             property="og:description"
             content="We profile the experimental dance music world through reviews, interviews, and spotlights of rising artists in Ireland & The UK. We throw parties in between in Edinburgh, Glasgow, and Galway."
           />
-          <meta property="og:site_name" content="Plant Bass'd" />
+          <meta property="og:site_name" content="PLANT BASS'D" />
           <meta property="og:url" content="https://plantbassd.com" />
           <meta property="og:image" content="https://plantbassd.com/icons/icon-192x192.png" />
         </Head>

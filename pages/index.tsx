@@ -16,7 +16,7 @@ interface HomeProps {
 export default function Home({ allPosts, topTen, radar, freshjuice, gigs }: HomeProps) {
   return (
     <main>
-      <PageMetaData title="Plant Bass'd" />
+      <PageMetaData title="PLANT BASS'D" />
 
       <Banner />
       <News news={allPosts} />
