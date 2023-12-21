@@ -10,6 +10,13 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Arusa Qureshi - Top 10 Picks Of The Year",
+    img: "/top-ten-releases/23-arusa.jpg",
+    link: "https://www.plantbassd.com/top-ten-releases/arusa-qureshi-21-20-23",
+    name: "news",
+    description: "Trailblazing author of the story of women in hip-hop; ‘Flip The Script’, Arusa Qureshi travels through her 10 favourite releases from 2023!",
+  },
+  {
     title: "Ten Years Lost - Top 10 Picks Of The Year",
     img: "/top-ten-releases/22-ten-years.jpg",
     link: "https://www.plantbassd.com/top-ten-releases/ten-years-lost-20-12-23",
