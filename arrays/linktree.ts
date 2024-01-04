@@ -11,7 +11,7 @@ export interface LinkProps {
 export const linkList: LinkProps[] = [
   {
     title: "Sunset Showdown by Musley",
-    img: "",
+    img: "/premieres/64-kvlture.jpg",
     link: "https://soundcloud.com/plantbassddjs/premiere-musley-sunset-showdown",
     name: "premiere",
     description: "Atmpospheric breakbeat epic from Polish artist Musley out on NÜ KVLTURE",
