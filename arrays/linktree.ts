@@ -10,6 +10,13 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "ClipSchwifter by SMIFF",
+    img: "/premieres/65-smiff.jpg",
+    link: "https://soundcloud.com/plantbassddjs/premiere-smiff-clipschwifter",
+    name: "premiere",
+    description: "Electro drum runner from Edinburgh producer SMIFF",
+  },
+  {
     title: "Sunset Showdown by Musley",
     img: "/premieres/64-kvlture.jpg",
     link: "https://soundcloud.com/plantbassddjs/premiere-musley-sunset-showdown",
