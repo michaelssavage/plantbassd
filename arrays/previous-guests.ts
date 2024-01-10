@@ -549,7 +549,7 @@ export const guestList: GuestProps[] = [
     img: "34-strawbby.jpg",
     link: "strawb.bby/",
     name: "strawb.bby",
-    gig: ["https://ra.co/events/1699420"],
+    gig: ["https://ra.co/events/1699420", "https://ra.co/events/1838710"],
   },
   {
     img: "34-clo.jpg",
@@ -717,7 +717,7 @@ export const guestList: GuestProps[] = [
     img: "52-papi.jpg",
     link: "papa_wkd",
     name: "papa wkd",
-    gig: ["https://ra.co/events/1813121"],
+    gig: ["https://ra.co/events/1813121", "https://ra.co/events/1838710"],
   },
   {
     img: "52-femtop.jpg",
@@ -730,5 +730,17 @@ export const guestList: GuestProps[] = [
     link: "ada_fuge",
     name: "NETGF",
     gig: ["https://ra.co/events/1813121"],
+  },
+  {
+    img: "53-jemima.jpg",
+    link: "jemimafasakin",
+    name: "Jemima from the Bible",
+    gig: ["https://ra.co/events/1838710"],
+  },
+  {
+    img: "53-ewsqaa.jpg",
+    link: "ewsqaa",
+    name: "EVSKA",
+    gig: ["https://ra.co/events/1838710"],
   },
 ];
