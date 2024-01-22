@@ -218,6 +218,7 @@ export const guestList: GuestProps[] = [
       "https://ra.co/events/1737600",
       "https://ra.co/events/1744348",
       "https://ra.co/events/1762287",
+      "https://ra.co/events/1828740",
     ],
   },
   {
@@ -228,6 +229,7 @@ export const guestList: GuestProps[] = [
       "https://ra.co/events/1523165",
       "https://www.eventbrite.ie/e/plant-bassd-presents-organica-tickets-399512531737",
       "https://ra.co/events/1774670",
+      "https://ra.co/events/1828740",
     ],
   },
   {
@@ -742,5 +744,29 @@ export const guestList: GuestProps[] = [
     link: "ewsqaa",
     name: "EVSKA",
     gig: ["https://ra.co/events/1838710"],
+  },
+  {
+    img: "54-mijo.jpg",
+    link: "mijosanchez_",
+    name: "Mijo Sanchez",
+    gig: ["https://ra.co/events/1828740"],
+  },
+  {
+    img: "54-lunasa.jpg",
+    link: "lunasa.wav",
+    name: "Lúnasa",
+    gig: ["https://ra.co/events/1828740"],
+  },
+  {
+    img: "54-misha.jpg",
+    link: "mishafreshin",
+    name: "Misha Freshin",
+    gig: ["https://ra.co/events/1828740"],
+  },
+  {
+    img: "54-lolz.jpg",
+    link: "laura__lolz_",
+    name: "Lolz",
+    gig: ["https://ra.co/events/1828740"],
   },
 ];
