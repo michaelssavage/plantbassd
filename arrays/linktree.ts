@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "FRESH JUICE: 'Trust In U' by Lushed",
+    link: "https://www.plantbassd.com/fresh-juice/lushed-26-1-24",
+    name: "fresh juice",
+    description:
+      "Galway-raised, Dublin-based producer Lushed (Song Du) releases his debut EP with three electrifying tracks.",
+    img: "/fresh-juice/69-trust-in-u.jpg",
+  },
+  {
     title: "ClipSchwifter by SMIFF",
     img: "/premieres/65-smiff.jpg",
     link: "https://soundcloud.com/plantbassddjs/premiere-smiff-clipschwifter",
@@ -28,7 +36,8 @@ export const linkList: LinkProps[] = [
     img: "/top-ten-releases/23-arusa.jpg",
     link: "https://www.plantbassd.com/top-ten-releases/arusa-qureshi-21-20-23",
     name: "news",
-    description: "Trailblazing author of the story of women in hip-hop; ‘Flip The Script’, Arusa Qureshi travels through her 10 favourite releases from 2023!",
+    description:
+      "Trailblazing author of the story of women in hip-hop; ‘Flip The Script’, Arusa Qureshi travels through her 10 favourite releases from 2023!",
   },
   {
     title: "Ten Years Lost - Top 10 Picks Of The Year",
