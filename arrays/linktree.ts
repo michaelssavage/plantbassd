@@ -9,6 +9,14 @@ export interface LinkProps {
 }
 
 export const linkList: LinkProps[] = [
+  
+  {
+    title: "Plant Bass'd presents Organica",
+    img: "/gigs/54-organica.jpg",
+    link: "https://ra.co/events/1828740",
+    name: "tickets",
+    description: "Plant Bass'd is back in Galway this time in The Cellar bringing Fresh & Organic goodness for you loved up steppers!! Bring your Sweet Valentine or let Cupid do their bidding <3",
+  },
   {
     title: "ClipSchwifter by SMIFF",
     img: "/premieres/65-smiff.jpg",
