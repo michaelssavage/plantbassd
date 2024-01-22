@@ -61,7 +61,16 @@ export const useNewsletter = () => {
 
   const handleNameChange = (event: ChangeEvent<HTMLInputElement>) => {
     const { value } = event.target;
-    if (value.length <= 1 || value.length > 50) {
+
+    // Check for URL
+    const urlRegex = /(http(s)?:\/\/.)|(www\.)|([a-zA-Z0-9]\.[a-zA-Z]{2,})/i;
+    const containsUrl = urlRegex.test(value);
+
+    // Check for emoji
+    const emojiRegex = /[\uD800-\uDBFF][\uDC00-\uDFFF]/g;
+    const containsEmoji = emojiRegex.test(value);
+
+    if (value.length <= 1 || value.length > 50 || containsUrl || containsEmoji) {
       setError("Enter a valid name");
     } else {
       setError("");
