@@ -19,6 +19,7 @@ export const linkList: LinkProps[] = [
   },
   {
     title: "Limbo de Ubers by Callwso",
+    img: "/premieres/66-callwso.jpg",
     link: "https://soundcloud.com/plantbassddjs/premiere-callwso-limbo-de-ubers",
     name: "premiere",
     description: "Explosive Latin drum driller from Argentinian prodcuer Callwso",
