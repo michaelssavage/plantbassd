@@ -18,6 +18,13 @@ export const linkList: LinkProps[] = [
     description: "Plant Bass'd is back in Galway this time in The Cellar bringing Fresh & Organic goodness for you loved up steppers!! Bring your Sweet Valentine or let Cupid do their bidding <3",
   },
   {
+    title: "Limbo de Ubers by Callwso",
+    img: "/premieres/66-callwso.jpg",
+    link: "https://soundcloud.com/plantbassddjs/premiere-callwso-limbo-de-ubers",
+    name: "premiere",
+    description: "Explosive Latin drum driller from Argentinian prodcuer Callwso",
+  },
+  {
     title: "ClipSchwifter by SMIFF",
     img: "/premieres/65-smiff.jpg",
     link: "https://soundcloud.com/plantbassddjs/premiere-smiff-clipschwifter",
