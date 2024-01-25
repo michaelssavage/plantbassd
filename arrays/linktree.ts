@@ -18,6 +18,13 @@ export const linkList: LinkProps[] = [
     description: "Plant Bass'd is back in Galway this time in The Cellar bringing Fresh & Organic goodness for you loved up steppers!! Bring your Sweet Valentine or let Cupid do their bidding <3",
   },
   {
+    title: "13th by Noizy Wilson",
+    img: "/premieres/67-noizy.jpg",
+    link: "https://soundcloud.com/plantbassddjs/premiere-noizy-wilson-13th-bonefm",
+    name: "premiere",
+    description: "Stimulating breakbeat techno from Noizy Wilson on New Delhi imprint Bøne.FM",
+  },
+  {
     title: "Limbo de Ubers by Callwso",
     img: "/premieres/66-callwso.jpg",
     link: "https://soundcloud.com/plantbassddjs/premiere-callwso-limbo-de-ubers",
