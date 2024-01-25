@@ -9,40 +9,40 @@ export interface LinkProps {
 }
 
 export const linkList: LinkProps[] = [
-  
   {
     title: "Plant Bass'd presents Organica",
     img: "/gigs/54-organica.jpg",
     link: "https://ra.co/events/1828740",
     name: "tickets",
-    description: "Plant Bass'd is back in Galway this time in The Cellar bringing Fresh & Organic goodness for you loved up steppers!! Bring your Sweet Valentine or let Cupid do their bidding <3",
+    description:
+      "Plant Bass'd is back in Galway this time in The Cellar bringing Fresh & Organic goodness for you loved up steppers!! Bring your Sweet Valentine or let Cupid do their bidding <3",
   },
   {
     title: "13th by Noizy Wilson",
     img: "/premieres/66-noizy.jpg",
     link: "https://soundcloud.com/plantbassddjs/premiere-noizy-wilson-13th-bonefm",
-    name: "premiere",
+    name: "premieres",
     description: "Stimulating breakbeat techno from Noizy Wilson on New Delhi imprint Bøne.FM",
   },
   {
     title: "Limbo de Ubers by Callwso",
     img: "/premieres/66-callwso.jpg",
     link: "https://soundcloud.com/plantbassddjs/premiere-callwso-limbo-de-ubers",
-    name: "premiere",
+    name: "premieres",
     description: "Explosive Latin drum driller from Argentinian prodcuer Callwso",
   },
   {
     title: "ClipSchwifter by SMIFF",
     img: "/premieres/65-smiff.jpg",
     link: "https://soundcloud.com/plantbassddjs/premiere-smiff-clipschwifter",
-    name: "premiere",
+    name: "premieres",
     description: "Electro drum runner from Edinburgh producer SMIFF",
   },
   {
     title: "Sunset Showdown by Musley",
     img: "/premieres/64-kvlture.jpg",
     link: "https://soundcloud.com/plantbassddjs/premiere-musley-sunset-showdown",
-    name: "premiere",
+    name: "premieres",
     description: "Atmpospheric breakbeat epic from Polish artist Musley out on NÜ KVLTURE",
   },
   {
@@ -50,7 +50,8 @@ export const linkList: LinkProps[] = [
     img: "/top-ten-releases/23-arusa.jpg",
     link: "https://www.plantbassd.com/top-ten-releases/arusa-qureshi-21-20-23",
     name: "news",
-    description: "Trailblazing author of the story of women in hip-hop; ‘Flip The Script’, Arusa Qureshi travels through her 10 favourite releases from 2023!",
+    description:
+      "Trailblazing author of the story of women in hip-hop; ‘Flip The Script’, Arusa Qureshi travels through her 10 favourite releases from 2023!",
   },
   {
     title: "Ten Years Lost - Top 10 Picks Of The Year",

@@ -20,16 +20,20 @@ export const LinkPost = ({ posts }: { posts: LinkProps[] }) => {
     );
   }
 
+  const alterLink = (name: string) => {
+    if (name === "tickets") return "/gigs";
+    if (name === "premiere") return "/premieres";
+
+    return `/${name.replaceAll(" ", "-")}`;
+  };
+
   return (
     <>
       {posts.map(({ description, img, link, name, title }) => (
         <div className={`row ${styles.buttonStyle}`} key={title}>
           <div className={styles.linkTitle}>
             <Icon icon={name} styling={styles.linkIcon} />
-            <HoverLink
-              url={name === "tickets" ? "/gigs" : `/${name.replaceAll(" ", "-")}`}
-              name={name.toUpperCase()}
-            />
+            <HoverLink url={alterLink(name)} name={name.toUpperCase()} />
           </div>
           <RenderLink link={link} img={img}>
             <div className={img && styles.imageAndText}>
