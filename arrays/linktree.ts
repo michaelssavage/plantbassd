@@ -21,7 +21,7 @@ export const linkList: LinkProps[] = [
     title: "13th by Noizy Wilson",
     img: "/premieres/66-noizy.jpg",
     link: "https://soundcloud.com/plantbassddjs/premiere-noizy-wilson-13th-bonefm",
-    name: "premieres",
+    name: "premiere",
     description: "Stimulating breakbeat techno from Noizy Wilson on New Delhi imprint Bøne.FM",
   },
   {
