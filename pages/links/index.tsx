@@ -38,7 +38,7 @@ export default function Links() {
           {socialIcons.map(({ link, name }) => (
             <div className={`col ${styles.iconContainer}`} key={link}>
               <Link href={link}>
-                <Icon icon={name} styling={styles.socialIcon} />
+                <Icon icon={name} styling={styles.socialIcon} size="2.5rem" />
               </Link>
             </div>
           ))}

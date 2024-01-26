@@ -51,7 +51,7 @@ export default function TeamPage() {
                     target="_blank"
                   >
                     <div className={styles.iconAndText}>
-                      <Icon icon={name} styling={styles.socialIcon} />
+                      <Icon icon={name} styling={styles.socialIcon} size="2.2rem" />
                       <p>{name}</p>
                     </div>
                   </Link>

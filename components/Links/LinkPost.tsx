@@ -32,7 +32,7 @@ export const LinkPost = ({ posts }: { posts: LinkProps[] }) => {
       {posts.map(({ description, img, link, name, title }) => (
         <div className={`row ${styles.buttonStyle}`} key={title}>
           <div className={styles.linkTitle}>
-            <Icon icon={name} styling={styles.linkIcon} />
+            <Icon icon={name} styling={styles.linkIcon} size="1.2rem" />
             <HoverLink url={alterLink(name)} name={name.toUpperCase()} />
           </div>
           <RenderLink link={link} img={img}>
