@@ -25,6 +25,14 @@ export const linkList: LinkProps[] = [
     description: "Stimulating breakbeat techno from Noizy Wilson on New Delhi imprint Bøne.FM",
   },
   {
+    title: "'Trust In U' by Lushed",
+    link: "https://www.plantbassd.com/fresh-juice/lushed-26-1-24",
+    name: "fresh juice",
+    description:
+      "Galway-raised, Dublin-based producer Lushed (Song Du) releases his debut EP with three electrifying tracks.",
+    img: "/fresh-juice/69-trust-in-u.jpg",
+  },
+  {
     title: "Limbo de Ubers by Callwso",
     img: "/premieres/66-callwso.jpg",
     link: "https://soundcloud.com/plantbassddjs/premiere-callwso-limbo-de-ubers",

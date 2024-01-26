@@ -77,6 +77,12 @@
   &:hover {
     color: $pbWhite;
   }
+
+  svg {
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+  }
 }
 
 .activeLink {
@@ -96,6 +102,12 @@
   font-size: $navName;
   margin-left: 1.5rem;
   margin-right: 0.5rem;
+}
+
+.navBarIcons {
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 @include breakpoint-below(sm) {
