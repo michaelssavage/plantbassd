@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://plantbassd.com
+Host: https://www.plantbassd.com
 
 # Sitemaps
-Sitemap: https://plantbassd.com/sitemap.xml
+Sitemap: https://www.plantbassd.com/sitemap.xml

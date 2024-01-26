@@ -14,7 +14,7 @@ export const Discovery = () => {
               <div
                 className={`${styles.cardBody} card-body d-flex justify-content-center align-items-center`}
               >
-                <Icon icon={name} styling={linkStyle.discoveryIcon} />
+                <Icon icon={name} styling={linkStyle.discoveryIcon} size="1.5rem" />
                 <p className="m-0 p-0">{title}</p>
               </div>
             </div>

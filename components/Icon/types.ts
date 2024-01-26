@@ -29,6 +29,7 @@ export type IconType =
 export interface SocialIconProps {
   icon: IconType;
   styling?: string;
+  size?: string;
 }
 
 export type IconMapType = {

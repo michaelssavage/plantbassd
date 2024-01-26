@@ -13,7 +13,7 @@ export const SocialButton = ({ name, url, text }: SocialProps) => {
       target="_blank"
     >
       <div className={styles.textBox}>
-        <Icon icon={name} styling={styles.socialIcon} />
+        <Icon icon={name} styling={styles.socialIcon} size="2.2rem" />
         <p>{text}</p>
       </div>
     </Link>

@@ -42,8 +42,8 @@ const IconMap: IconMapType = {
   "under the radar": <BiRadar />,
 };
 
-export const Icon = ({ icon, styling = "navIcon" }: SocialIconProps) => {
-  const styleMemo = useMemo(() => ({ className: styling }), [styling]);
+export const Icon = ({ icon, styling = "navIcon", size = "2rem" }: SocialIconProps) => {
+  const styleMemo = useMemo(() => ({ className: styling, size: size }), [size, styling]);
   return (
     <IconContext.Provider value={styleMemo}>{IconMap[icon.toLowerCase()]}</IconContext.Provider>
   );
