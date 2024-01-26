@@ -19,7 +19,7 @@ function Listing({ item, onClick }: ListingProps) {
   return (
     <Link href={link} className="anchor">
       <div tabIndex={0} className={className} onClick={onClick}>
-        <Icon icon={name} styling={styles.navIcon} />
+        <Icon icon={name} styling={styles.navIcons} />
         <span className={styles.navName}>{title}</span>
       </div>
     </Link>
