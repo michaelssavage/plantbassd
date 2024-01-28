@@ -99,7 +99,7 @@ export const guestList: GuestProps[] = [
     img: "01-conan.jpg",
     link: "conan_303",
     name: "Conan 303",
-    gig: ["https://ra.co/events/14638801"],
+    gig: ["https://ra.co/events/1463880"],
   },
   {
     img: "03-cleanup-crew.jpg",
