@@ -18,6 +18,12 @@ export const linkList: LinkProps[] = [
       "Plant Bass'd is back in Galway this time in The Cellar bringing Fresh & Organic goodness for you loved up steppers!! Bring your Sweet Valentine or let Cupid do their bidding <3",
   },
   {
+    title: "Mumbai Dreamhunter by Chhabb",
+    link: "https://soundcloud.com/plantbassddjs/premiere-chhabb-mumbai-dreamhunter",
+    name: "premiere",
+    description: "Club Music for Palestine via Delhi label Antariksh Records",
+  },
+  {
     title: "13th by Noizy Wilson",
     img: "/premieres/66-noizy.jpg",
     link: "https://soundcloud.com/plantbassddjs/premiere-noizy-wilson-13th-bonefm",
