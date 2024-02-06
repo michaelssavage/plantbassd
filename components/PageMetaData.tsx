@@ -1,3 +1,4 @@
+import { getCldImageUrl } from "next-cloudinary";
 import Head from "next/head";
 
 interface TitleProps {
@@ -8,6 +9,16 @@ interface TitleProps {
 }
 
 export default function PageMetaData({ title, description, imageUrl, url }: TitleProps) {
+  let cloudImage: string;
+
+  if (imageUrl) {
+    cloudImage = getCldImageUrl({
+      width: 960,
+      height: 600,
+      src: imageUrl,
+    });
+  }
+
   return (
     <Head>
       <title>{title}</title>
@@ -15,12 +26,7 @@ export default function PageMetaData({ title, description, imageUrl, url }: Titl
       {description && <meta name="description" content={description} />}
       {description && <meta name="og:description" content={description} />}
       {url && <meta property="og:url" content={`${url}`} />}
-      {imageUrl && (
-        <meta
-          name="og:image"
-          content={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/c_limit,w_600/f_auto/q_auto/v1/${imageUrl}`}
-        />
-      )}
+      {imageUrl && <meta name="og:image" content={cloudImage} />}
     </Head>
   );
 }

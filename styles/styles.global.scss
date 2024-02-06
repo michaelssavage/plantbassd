@@ -305,3 +305,20 @@ p {
   background-color: $navGrey;
   padding: 0.5rem 0;
 }
+
+blockquote {
+  font-style: italic;
+  background-color: $navGrey;
+  line-height: 1.45;
+  position: relative;
+  &:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 5rem;
+    position: absolute;
+    left: -3rem;
+    top: -1.8rem;
+    color: #7a7a7a;
+  }
+}

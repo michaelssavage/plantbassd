@@ -22,6 +22,7 @@ export const linkList: LinkProps[] = [
     link: "https://soundcloud.com/plantbassddjs/premiere-chhabb-mumbai-dreamhunter",
     name: "premiere",
     description: "Club Music for Palestine via Delhi label Antariksh Records",
+    img: "/premieres/67-chabb.jpg",
   },
   {
     title: "13th by Noizy Wilson",
