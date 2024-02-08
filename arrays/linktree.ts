@@ -15,7 +15,14 @@ export const linkList: LinkProps[] = [
     link: "https://ra.co/events/1828740",
     name: "tickets",
     description:
-      "Plant Bass'd is back in Galway this time in The Cellar bringing Fresh & Organic goodness for you loved up steppers!! Bring your Sweet Valentine or let Cupid do their bidding <3",
+      "Plant Bass'd is back in Galway this time at The Cellar bringing Fresh & Organic goodness for you loved up steppers!! Bring your Sweet Valentine or let Cupid do their bidding <3",
+  },
+  {
+    title: "Zygomatic Process Of The Frontal Bone by Miss Kotton",
+    img: "/premieres/67-chabb.jpg",
+    link: "https://soundcloud.com/plantbassddjs/premiere-miss-kotton-zygomatic-process-of-the-frontal-bone",
+    name: "premiere",
+    description: "Club Music for Palestine. Melodic Breakcore from the Delhi based Miss Kotton",
   },
   {
     title: "Mumbai Dreamhunter by Chhabb",
