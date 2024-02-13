@@ -10,12 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "Plant Bass'd presents Organica",
-    img: "/gigs/54-organica.jpg",
-    link: "https://ra.co/events/1828740",
-    name: "tickets",
+    title: "I'll Know by Mercy System",
+    img: "/premieres/68-mercy.jpg",
+    link: "https://soundcloud.com/plantbassddjs/premiere-mercy-system-ill-know",
+    name: "premiere",
     description:
-      "Plant Bass'd is back in Galway this time at The Cellar bringing Fresh & Organic goodness for you loved up steppers!! Bring your Sweet Valentine or let Cupid do their bidding <3",
+      "Dark grooves of dystopian acidic squelches immersed in thick ridged breakdowns of breaks & bass",
   },
   {
     title: "Zygomatic Process Of The Frontal Bone by Miss Kotton",
