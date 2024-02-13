@@ -48,7 +48,7 @@ describe("Team page", () => {
     expect(spotify).toHaveAttribute("href", "https://ra.co/promoters/103854");
 
     const soundcloud = svgs[4];
-    expect(soundcloud).toHaveAttribute("href", "https://soundcloud.com/plantbassddjs");
+    expect(soundcloud).toHaveAttribute("href", "https://soundcloud.com/plantbassdworld");
 
     const bandcamp = svgs[5];
     expect(bandcamp).toHaveAttribute("href", "https://bandcamp.com/oisincampbellbap");

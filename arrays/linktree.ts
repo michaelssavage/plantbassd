@@ -12,7 +12,7 @@ export const linkList: LinkProps[] = [
   {
     title: "I'll Know by Mercy System",
     img: "/premieres/68-mercy.jpg",
-    link: "https://soundcloud.com/plantbassddjs/premiere-mercy-system-ill-know",
+    link: "https://soundcloud.com/plantbassdworld/premiere-mercy-system-ill-know",
     name: "premiere",
     description:
       "Dark grooves of dystopian acidic squelches immersed in thick ridged breakdowns of breaks & bass",
@@ -20,13 +20,13 @@ export const linkList: LinkProps[] = [
   {
     title: "Zygomatic Process Of The Frontal Bone by Miss Kotton",
     img: "/premieres/67-chabb.jpg",
-    link: "https://soundcloud.com/plantbassddjs/premiere-miss-kotton-zygomatic-process-of-the-frontal-bone",
+    link: "https://soundcloud.com/plantbassdworld/premiere-miss-kotton-zygomatic-process-of-the-frontal-bone",
     name: "premiere",
     description: "Club Music for Palestine. Melodic Breakcore from the Delhi based Miss Kotton",
   },
   {
     title: "Mumbai Dreamhunter by Chhabb",
-    link: "https://soundcloud.com/plantbassddjs/premiere-chhabb-mumbai-dreamhunter",
+    link: "https://soundcloud.com/plantbassdworld/premiere-chhabb-mumbai-dreamhunter",
     name: "premiere",
     description: "Club Music for Palestine via Delhi label Antariksh Records",
     img: "/premieres/67-chabb.jpg",
@@ -34,7 +34,7 @@ export const linkList: LinkProps[] = [
   {
     title: "13th by Noizy Wilson",
     img: "/premieres/66-noizy.jpg",
-    link: "https://soundcloud.com/plantbassddjs/premiere-noizy-wilson-13th-bonefm",
+    link: "https://soundcloud.com/plantbassdworld/premiere-noizy-wilson-13th-bonefm",
     name: "premiere",
     description: "Stimulating breakbeat techno from Noizy Wilson on New Delhi imprint Bøne.FM",
   },
@@ -49,21 +49,21 @@ export const linkList: LinkProps[] = [
   {
     title: "Limbo de Ubers by Callwso",
     img: "/premieres/66-callwso.jpg",
-    link: "https://soundcloud.com/plantbassddjs/premiere-callwso-limbo-de-ubers",
+    link: "https://soundcloud.com/plantbassdworld/premiere-callwso-limbo-de-ubers",
     name: "premieres",
     description: "Explosive Latin drum driller from Argentinian prodcuer Callwso",
   },
   {
     title: "ClipSchwifter by SMIFF",
     img: "/premieres/65-smiff.jpg",
-    link: "https://soundcloud.com/plantbassddjs/premiere-smiff-clipschwifter",
+    link: "https://soundcloud.com/plantbassdworld/premiere-smiff-clipschwifter",
     name: "premieres",
     description: "Electro drum runner from Edinburgh producer SMIFF",
   },
   {
     title: "Sunset Showdown by Musley",
     img: "/premieres/64-kvlture.jpg",
-    link: "https://soundcloud.com/plantbassddjs/premiere-musley-sunset-showdown",
+    link: "https://soundcloud.com/plantbassdworld/premiere-musley-sunset-showdown",
     name: "premieres",
     description: "Atmpospheric breakbeat epic from Polish artist Musley out on NÜ KVLTURE",
   },
@@ -156,7 +156,7 @@ export const mainLinks: LinkProps[] = [
   },
   {
     title: "Soundcloud",
-    link: "https://soundcloud.com/plantbassddjs",
+    link: "https://soundcloud.com/plantbassdworld",
     name: "soundcloud",
   },
   {

@@ -24,7 +24,7 @@ export const socialIcons: IconsProps[] = [
     name: "resident advisor",
   },
   {
-    link: "https://soundcloud.com/plantbassddjs",
+    link: "https://soundcloud.com/plantbassdworld",
     name: "soundcloud",
   },
   {

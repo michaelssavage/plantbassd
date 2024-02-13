@@ -26,7 +26,7 @@ export default function GuidesPage({ guides }: InferGetStaticPropsType<typeof ge
       <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
       <SocialButton
         name="soundcloud"
-        url="https://soundcloud.com/plantbassddjs/sets/plant-bassd-premieres"
+        url="https://soundcloud.com/plantbassdworld/sets/plant-bassd-premieres"
         text="Soundcloud"
       />
       <SearchBox handleSearchChange={handleSearchChange} filter={filter} />

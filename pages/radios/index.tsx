@@ -32,7 +32,7 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
       <SocialButton name="instagram" url={plantbassdInstagram} />
       <SocialButton
         name="soundcloud"
-        url="https://soundcloud.com/plantbassddjs/sets/plant-bassd-radio"
+        url="https://soundcloud.com/plantbassdworld/sets/plant-bassd-radio"
       />
 
       <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
