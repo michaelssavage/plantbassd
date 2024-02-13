@@ -23,7 +23,7 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
       <PageMetaData title="Archive" />
       <h1 className={styles.pageHeader}>Archive</h1>
       <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
-      <SocialButton name="email" url="mailto: plantbassddjs@gmail.com" text="Email" />
+      <SocialButton name="email" url="mailto: plantbassdworld@gmail.com" text="Email" />
 
       <SearchBox
         handleSearchChange={handleSearchChange}

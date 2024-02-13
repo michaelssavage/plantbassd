@@ -24,8 +24,8 @@ describe("News component", () => {
   it("renders correct link to Instagram", () => {
     renderUtil();
 
-    const instagramLink = getByRole("link", { name: /@plantbassd___/i });
-    expect(instagramLink).toHaveAttribute("href", "https://www.instagram.com/plantbassd___");
+    const instagramLink = getByRole("link", { name: /@plantbassdworld/i });
+    expect(instagramLink).toHaveAttribute("href", "https://www.instagram.com/plantbassdworld");
   });
 
   it("renders news post", () => {

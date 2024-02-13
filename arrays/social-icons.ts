@@ -16,7 +16,7 @@ export const socialIcons: IconsProps[] = [
     name: "instagram",
   },
   {
-    link: "mailto: plantbassddjs@gmail.com",
+    link: "mailto: plantbassdworld@gmail.com",
     name: "email",
   },
   {

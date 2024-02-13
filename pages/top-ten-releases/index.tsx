@@ -30,7 +30,7 @@ export default function TopTenPage({ topTens }: InferGetStaticPropsType<typeof g
         Ireland & The UK's best talent choose their favourite top ten picks of the year.
       </h3>
       <SocialButton name="instagram" url={plantbassdInstagram} />
-      <SocialButton name="email" url="mailto: plantbassddjs@gmail.com" text="Email" />
+      <SocialButton name="email" url="mailto: plantbassdworld@gmail.com" text="Email" />
 
       <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
 

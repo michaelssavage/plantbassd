@@ -164,7 +164,7 @@ export default function PrivacyPolicy() {
       <h2>Contact Us</h2>
       <p>
         If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact
-        us at <HoverLink url="mailto:plantbassddjs@gmail.com" name="plantbassddjs@gmail.com" />.
+        us at <HoverLink url="mailto:plantbassdworld@gmail.com" name="plantbassdworld@gmail.com" />.
       </p>
     </div>
   );
