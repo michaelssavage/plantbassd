@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Cat Lady - BB LOCK HEART",
+    img: "/premieres/69-premiere.jpg",
+    link: "https://soundcloud.com/plantbassdworld/cat-lady-bb-lock-heart",
+    name: "premiere",
+    description:
+      "Cat Lady lands on BASS WATER FREAK OUT with the torpedo turbulence of the “110, New Town” EP.",
+  },
+  {
     title: "I'll Know by Mercy System",
     img: "/premieres/68-mercy.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-mercy-system-ill-know",
