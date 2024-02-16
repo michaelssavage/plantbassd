@@ -6,16 +6,23 @@
 
 ## About
 
-Party Throwers and electronic music blog based in Edinburgh and Dublin. Sharing news about new music, events, and all things plant bass'd.
+Profiling the experimental dance music world and throwing parties in between in Edinburgh, Glasgow, and Galway. Articles are made up of:
+
+- Premieres - Debuting new tracks from ahead of releases.
+- Fresh Juice - Reviewing new music releases.
+- Under The Radar - Monthly roundups of the track, EPs, and albums we have been digging.
+- News - Pieces on artists and DJs we admire.
+- Radio - Guest DJ mixes.
+- Takeovers - During lockdown, we had artists create Spotify playlists of their favourite tunes.
 
 ## Technologies
 
-- Site created using Next.js and Typescript React.
+- Site created using Next.js, a React Framework with Typescript.
 - Styled with Bootstrap 5 and SCSS.
 - Markdown posts parsed by gray-matter, marked, and MDX.
 - Deployed to Vercel.
 - Images stored on Cloudinary CDN.
-- Cover Images made in [Adobe Photoshop and Adobe Illustrator here](https://github.com/michaelssavage/plantbassd-graphics).
+- Cover Images made in Adobe Photoshop and Adobe Illustrator.
 
 ## Get In Contact
 
