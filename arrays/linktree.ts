@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Pralaya - Bounce It On The Floor",
+    img: "/premieres/70-pralaya.jpg",
+    link: "https://soundcloud.com/plantbassdworld/premiere-pralaya-bounce-it-on-the-floor",
+    name: "premiere",
+    description:
+      "Bogota's Fourtwenty Sound launches new project Sonora Destroy Records, a new window for electronic music in LATAM and Spain seeking to banish the boundaries between genres that define these areas.",
+  },
+  {
     title: "Cat Lady - BB LOCK HEART",
     img: "/premieres/69-premiere.jpg",
     link: "https://soundcloud.com/plantbassdworld/cat-lady-bb-lock-heart",
