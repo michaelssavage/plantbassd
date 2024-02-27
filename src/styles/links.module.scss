@@ -1,0 +1,145 @@
+@use "@/abstracts" as *;
+
+.linkPage {
+  min-height: 100vh;
+}
+
+.pbLogo {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcon {
+  margin: 0.5rem 0;
+  fill: $header-black;
+  transition: 0.25s ease;
+
+  &:hover {
+    transform: scale(1.04);
+    filter: drop-shadow(0 6px 6px $drop-shadow);
+  }
+}
+
+.linkIcon {
+  margin: 0 0.25rem 0 0;
+  fill: $header-black;
+}
+
+.discoveryIcon {
+  margin: 0 0.5rem 0 0;
+  fill: $pb-black;
+}
+
+.noDataIcon {
+  height: 4.8rem;
+  width: 4.8rem;
+  margin: 0.25rem;
+}
+
+.buttonStyle {
+  padding: 0.5rem 0 0.25rem;
+  color: $pb-black;
+}
+
+.btnText {
+  font-size: $btn-text;
+  border: 0;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 1px;
+    width: 80%;
+    border-top: 3px solid $pb-black;
+  }
+}
+
+.btnIfImage {
+  padding: 0 !important;
+}
+
+.linkTitle {
+  font-size: $card-text;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 0.25rem;
+}
+
+.imageAndText {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+  div {
+    text-align: left;
+    padding: 0.4rem 0.4rem 0.4rem 0;
+  }
+}
+
+.titleAndDescription {
+  max-width: 75%;
+}
+
+.pushSides {
+  padding: 2rem 25rem 4rem;
+}
+
+@media (width <= 1400px) {
+  .pushSides {
+    padding: 2rem 20rem 4rem;
+  }
+}
+
+// @include breakpoint-below(lg) {
+@media (width <= 1200px) {
+  .pushSides {
+    padding: 2rem 15rem 4rem;
+  }
+}
+
+// @include breakpoint-below(md) {
+@media (width <= 992px) {
+  .pushSides {
+    padding: 2rem 10rem 4rem;
+  }
+}
+
+// @include breakpoint-below(sm) {
+@media (width <= 768px) {
+  .pushSides {
+    padding: 2rem 5rem 4rem;
+  }
+}
+
+// @include breakpoint-below(xs) {
+@media (width <= 576px) {
+  .pushSides {
+    padding: 2rem 2rem 4rem;
+  }
+}
+
+@media (width <= 430px) {
+  .socialIcon {
+    margin: 0.5rem 1.25rem;
+    height: 2rem;
+    width: 2rem;
+  }
+}
+
+@media (width <= 352px) {
+  .socialIcon {
+    margin: 0.5rem 1rem;
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+}

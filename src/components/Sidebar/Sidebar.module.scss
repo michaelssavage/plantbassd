@@ -1,0 +1,141 @@
+@use "@/abstracts" as *;
+
+.header {
+  height: 5rem;
+  width: 10rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 1rem;
+  background-color: $pb-black;
+  z-index: 5;
+  transition: 0.5s;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  cursor: pointer;
+}
+
+.extendHeader {
+  width: 18rem;
+
+  @extend .header;
+}
+
+.headerToggle {
+  color: $pb-white;
+  font-size: $nav-icon;
+}
+
+.cancelToggle {
+  font-size: $x-toggler;
+}
+
+.navContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 6rem;
+  height: 100vh;
+  background-color: $pb-black;
+  padding: 0.5rem;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.extendNav {
+  width: 14rem;
+
+  @extend .navContainer;
+}
+
+.navMenu {
+  height: 100vh;
+  display: flex;
+  white-space: nowrap;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  overflow: hidden auto;
+  -ms-overflow-style: none; /* Edge */
+  scrollbar-width: none; /* Firefox */
+  &::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0 0.5rem 1.5rem;
+  background-color: $pb-black;
+  position: relative;
+  margin-bottom: 1.5rem;
+  transition: 0.3s;
+  color: $nav-grey;
+  cursor: pointer;
+
+  &:hover {
+    color: $pb-white;
+  }
+
+  svg {
+    font-size: 2rem;
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.activeLink {
+  color: $pb-white;
+
+  @extend .navLink;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 2px;
+    height: 2rem;
+    background-color: $pb-white;
+  }
+}
+
+.navName {
+  font-size: $nav-name;
+  margin-left: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.navBarIcons {
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+@include breakpoint-below(sm) {
+  .header {
+    width: 2.2rem;
+    padding: 0 0.1rem;
+  }
+
+  .headerToggle {
+    font-size: $sm-header;
+  }
+
+  .navContainer {
+    width: 0;
+    padding: 0;
+  }
+
+  .extendHeader {
+    width: 18rem;
+    padding: 0 1rem !important;
+  }
+
+  .extendNav {
+    width: 14rem;
+    padding: 0.5rem;
+  }
+}

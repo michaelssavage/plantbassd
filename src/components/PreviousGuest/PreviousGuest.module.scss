@@ -1,0 +1,60 @@
+@use "@/abstracts" as *;
+
+.pageHeader {
+  text-align: center;
+  padding-top: 15vh;
+  font-size: clamp(2rem, 1.3rem + 4vw, 5rem);
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-grow: 0;
+  width: 60%;
+  margin: 0.5rem 0;
+}
+
+// @include breakpoint-below(xs) {
+@media (width <= 768px) {
+  .pageHeader {
+    padding-top: 10vh;
+  }
+
+  .filter {
+    width: 100%;
+  }
+}
+
+.cardStyle {
+  transition: 0.25s ease;
+  text-align: center;
+  cursor: pointer;
+
+  img {
+    margin-bottom: -2rem !important;
+    border-radius: 0.675rem;
+  }
+
+  p {
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    padding: 0 0.25rem;
+    border-radius: 0.25rem;
+    background-color: $pb-white;
+    color: $pb-black;
+    border: 1px solid $pb-black;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+  }
+
+  &:hover {
+    transform: scale(1.04);
+    opacity: 0.9;
+    filter: drop-shadow(0 6px 6px rgb(0 0 0 / 25%));
+  }
+}

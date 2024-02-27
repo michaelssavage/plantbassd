@@ -1,0 +1,19 @@
+@use "@/abstracts" as *;
+
+.hoverLink {
+  text-decoration: none;
+  color: $plantbassd-pink;
+  line-height: 1;
+  padding-bottom: 2px;
+
+  --bg-h: 2px;
+
+  background: linear-gradient(0deg, $plantbassd-pink, $plantbassd-pink) no-repeat right bottom / 0
+    var(--bg-h);
+  transition: background-size 350ms;
+
+  &:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+  }
+}

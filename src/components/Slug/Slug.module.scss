@@ -1,0 +1,46 @@
+// GigGuide
+
+.containerMargins {
+  margin-bottom: 3rem;
+}
+
+@media (width <= 768px) {
+  .containerMargins {
+    margin-bottom: 1rem;
+  }
+
+  .headerSpacing {
+    margin-top: 1rem;
+  }
+}
+
+// FavTrack
+
+// MusicRelease
+
+// ImageAndDescription
+
+.ImageDescContainer {
+  margin-bottom: 1rem;
+
+  div div img {
+    border: 1px solid black;
+    margin-bottom: 0.25rem;
+  }
+}
+
+// TextAndMedia
+
+.childrenContainer {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.bandcampPic:hover {
+  filter: brightness(60%);
+  transition: all 0.25s ease;
+}

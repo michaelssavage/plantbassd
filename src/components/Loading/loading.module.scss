@@ -1,0 +1,76 @@
+@use "@/abstracts" as *;
+
+.loading {
+  display: flex;
+  height: 30rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.border {
+  $size: 8rem;
+  $thick: 1rem;
+
+  width: $size;
+  height: $size;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: $thick;
+  color: $nav-grey;
+  padding: 10rem $thick $thick $thick;
+  line-height: $thick;
+  user-select: none;
+
+  &::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: $size;
+    height: $size;
+    margin-top: calc($size / -2);
+    margin-left: calc($size / -2);
+    border-radius: 50%;
+    border: $thick solid $nav-grey;
+    border-top-color: $pb-black;
+    animation: spinner 0.9s ease infinite;
+  }
+}
+
+@keyframes spinner {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.button {
+  @extend .loading;
+
+  height: 2rem;
+}
+
+.btnBorder {
+  @extend .border;
+
+  $size: 2rem;
+  $thick: 1rem;
+
+  width: $size;
+  height: $size;
+
+  &::before {
+    width: $size;
+    height: $size;
+    margin-top: calc($size / -2);
+    margin-left: calc($size / -2);
+  }
+}

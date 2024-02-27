@@ -1,0 +1,67 @@
+@use "@/abstracts" as *;
+
+.pageHeader {
+  text-align: center;
+  font-size: clamp(2rem, 1.3115rem + 3.9344vw, 5rem);
+}
+
+%layout {
+  padding: 10vh 12%;
+}
+
+.aboutBG {
+  text-align: justify;
+  background-color: $lavender;
+  min-height: 100vh;
+  padding-bottom: 2rem;
+
+  @extend %layout;
+}
+
+.stickyPosition {
+  position: sticky;
+  top: 2rem;
+}
+
+.icons {
+  display: flex;
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+@media (width <= 378px) {
+  .icons {
+    width: 100%;
+  }
+}
+
+.iconAndText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.iconBox {
+  text-decoration: none;
+  color: $pb-black;
+  transition: 0.25s ease;
+  display: inline-block;
+
+  &:hover {
+    color: $pb-black;
+    transform: scale(1.1);
+    filter: drop-shadow(0 6px 6px $drop-shadow);
+  }
+}
+
+.socialIcon {
+  display: flex;
+  margin: 0.5rem;
+  fill: $header-black;
+  border-radius: 1rem 0;
+}
+
+.player {
+  font-size: 1.6rem;
+  font-family: Dx-Slim, Helvetica, sans-serif;
+}

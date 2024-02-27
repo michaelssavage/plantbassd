@@ -1,0 +1,132 @@
+@use "@/abstracts" as *;
+
+%floating {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  z-index: 200;
+}
+
+%base {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0;
+  color: $pb-white;
+  background-color: $pb-black;
+  z-index: 200;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.5rem 1rem;
+}
+
+// Sticky //////////////
+
+.sticky {
+  @include slide-in-animation($from: 100px, $direction: "horizontal");
+
+  height: 3rem;
+  width: 14em;
+  border-radius: 100px 0 10px 100px;
+
+  @extend %base;
+
+  :hover {
+    opacity: 0.8;
+    filter: drop-shadow(0 6px 6px rgb(0 0 0 / 25%));
+  }
+}
+
+.text {
+  padding-left: 0.5rem;
+  cursor: pointer;
+}
+
+// Signup //////////////
+
+.signUpText {
+  margin: 0 0 0.25rem;
+}
+
+.checkBox {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  gap: 0.5rem;
+}
+
+.agreeTermsText {
+  font-size: 0.6rem;
+  margin: 0.25rem 0;
+  padding: 0;
+}
+
+.form {
+  color: $pb-black;
+  background-color: $cultured-white;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid $pb-black;
+  margin-left: 0.5rem;
+}
+
+.formLinktree {
+  color: $pb-black;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid $pb-black;
+  border-top: 3px solid $pb-black;
+  width: 100%;
+  margin: 0;
+}
+
+.formButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+@media (width <= 180px) {
+  .formButtons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+.svg {
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+// ICON //////////////
+
+.showSticky {
+  right: 14rem;
+  transition: 0.5s;
+
+  @extend .icon;
+  @extend %floating;
+}
+
+.icon {
+  svg {
+    color: $pb-black;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  transition: 0.5s;
+
+  @extend %floating;
+}
+
+.deleteSVG {
+  svg {
+    width: 4rem;
+    height: 4rem;
+  }
+}

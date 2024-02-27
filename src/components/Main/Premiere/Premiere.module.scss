@@ -1,0 +1,48 @@
+@use "@/abstracts" as *;
+
+.backgroundColorAndHeight {
+  background-color: $cultured-white;
+  height: 50vh;
+
+  .backgroundImage {
+    background-image: url("/images/bg.jpg");
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .frontText {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      overflow-y: hidden;
+      height: 50vh;
+      padding: 0 10%;
+
+      h1 {
+        color: $header-black;
+        font-size: clamp(2rem, 1.3115rem + 3.9344vw, 5rem);
+        text-align: center;
+        padding: 0 0.5rem;
+      }
+
+      div p {
+        flex: 1 0;
+        margin: 0;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@keyframes slidein {
+  from {
+    background-position: bottom;
+    background-size: 2000px;
+  }
+
+  to {
+    background-position: 0 -100px;
+    background-size: 1750px;
+  }
+}

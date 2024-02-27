@@ -1,0 +1,67 @@
+@use "@/abstracts" as *;
+
+.pageHeader {
+  text-align: center;
+  padding-top: 10vh;
+  font-size: clamp(2rem, 0.6rem + 8vw, 8rem);
+}
+
+.pageText {
+  margin: 1rem 0.75rem 0.5rem;
+}
+
+.viewAllBtn {
+  text-align: center;
+  margin: 0.5rem 0;
+  display: grid;
+}
+
+// @include breakpoint-below(xs) {
+@media (width <= 576px) {
+  .spotify {
+    order: 1;
+  }
+}
+
+// Button stylesheets
+
+%genericButton {
+  border: 0;
+  transition: 0.25s ease;
+
+  &:hover {
+    color: $header-black;
+  }
+}
+
+.spotify {
+  @extend %genericButton;
+
+  color: $spotify;
+
+  &:hover {
+    background-color: $spotify;
+  }
+}
+
+.soundcloud {
+  @extend %genericButton;
+
+  color: $pb-white;
+  background-color: $soundcloud;
+
+  &:hover {
+    background-color: $soundcloud;
+  }
+}
+
+.bandcamp {
+  @extend %genericButton;
+
+  color: $pb-white;
+  background-color: $bandcamp;
+
+  &:hover {
+    background-color: $bandcamp;
+  }
+}

@@ -1,0 +1,57 @@
+@use "@/abstracts" as *;
+
+.mixImages {
+  position: relative;
+  padding-bottom: 5rem;
+}
+
+.topImage {
+  img {
+    border-radius: 0.675rem;
+  }
+}
+
+.bottomImage {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  img {
+    border-radius: 0.675rem;
+  }
+}
+
+.clubDescriptor {
+  padding-left: 2rem;
+}
+
+.sectionHeader {
+  color: $header-black;
+  font-size: clamp(0.5rem, 8vw, 2.5rem);
+}
+
+// @include breakpoint-below(sm) {
+@media (width <= 768px) {
+  .topImage {
+    -moz-box-flex: 0;
+    flex: 0 0 auto;
+    padding-right: 0.25rem;
+  }
+
+  .bottomImage {
+    position: static;
+    -moz-box-flex: 0;
+    flex: 0 0 auto;
+    padding-left: 0.25rem;
+  }
+
+  .mixImages {
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .clubDescriptor {
+    padding-left: 0;
+  }
+}

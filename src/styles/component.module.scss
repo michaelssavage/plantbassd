@@ -1,0 +1,16 @@
+@use "@/abstracts" as *;
+
+.sectionHeader {
+  color: $header-black;
+  flex: 1 0;
+  font-size: clamp(2rem, 1.3115rem + 3.9344vw, 5rem);
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.headerWord {
+  font-family: Dx-Slight, Helvetica, sans-serif;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

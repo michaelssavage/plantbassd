@@ -1,0 +1,42 @@
+@use "@/abstracts" as *;
+
+.header {
+  font-size: clamp(2rem, 0.6rem + 8vw, 8rem);
+  white-space: nowrap;
+}
+
+.bgWrap {
+  position: fixed;
+  height: 50vh;
+  width: 100%;
+  z-index: -2;
+  background-image: url("/images/banner.jpg");
+  background-color: $pb-white;
+}
+
+.frontText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: hidden;
+  height: 50vh;
+  padding: 0 3.8rem;
+}
+
+.textShape {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column wrap;
+}
+
+.btns {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.5rem;
+}
+
+.profileText {
+  margin: 0;
+}

@@ -1,0 +1,58 @@
+@use "@/abstracts" as *;
+
+.outerSection {
+  background-color: $cultured-white;
+}
+
+.topTenContent {
+  padding: 4% 12% 2%;
+}
+
+.postTitle {
+  text-align: center;
+}
+
+.postDate {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+@include breakpoint-below(md) {
+  .postTitle {
+    font-size: calc(1.3rem + 1.1vw);
+  }
+}
+
+@media (width <= 768px) {
+  .topTenContent {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}
+
+.spotify {
+  color: $spotify;
+  transition: 0.25s ease;
+
+  &:hover {
+    color: $header-black;
+    background-color: $spotify;
+  }
+}
+
+.instagram {
+  color: $instagram;
+  transition: 0.25s ease;
+
+  &:hover {
+    color: $header-black;
+    background-color: $instagram;
+  }
+
+  padding: 0.4rem 1.2rem;
+}
+
+.bioText {
+  font-size: $xs-header;
+  margin: 2rem 0;
+}

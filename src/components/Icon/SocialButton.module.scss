@@ -1,0 +1,32 @@
+@use "@/abstracts" as *;
+
+.iconBox {
+  text-decoration: none;
+  color: $pb-black;
+  transition: 0.25s ease;
+  display: inline-block;
+  margin: 0.25rem;
+
+  &:hover {
+    color: $pb-black;
+    transform: scale(1.1);
+    filter: drop-shadow(0 6px 6px $drop-shadow);
+  }
+}
+
+.textBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  p {
+    margin: 0;
+  }
+}
+
+.socialIcon {
+  display: flex;
+  margin: 0.5rem;
+  fill: $header-black;
+  border-radius: 1em 0;
+}

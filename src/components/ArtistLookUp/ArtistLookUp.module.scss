@@ -1,0 +1,47 @@
+@use "@/abstracts" as *;
+
+.gigPreview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: $pb-black;
+
+  &:hover {
+    transform: scale(1.01);
+    opacity: 0.95;
+    filter: drop-shadow(0 6px 6px rgb(0 0 0 / 25%));
+
+    p {
+      color: $pb-black;
+    }
+  }
+}
+
+.eventTitle {
+  text-align: left;
+  margin: 0;
+}
+
+.gigArray {
+  list-style: none;
+  padding: 0.5rem 0;
+  background-color: $nav-grey;
+  transition: 0.25s ease;
+
+  li {
+    padding: 0.25rem 0;
+    border-bottom: $plantbassd-pink solid 1px;
+
+    &:last-child {
+      border: none;
+    }
+  }
+
+  .insta {
+    margin: 0;
+    text-decoration: none;
+    color: $pb-black;
+  }
+}

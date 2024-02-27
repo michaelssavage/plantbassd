@@ -1,0 +1,90 @@
+@use "@/abstracts" as *;
+
+// sticky side image
+
+.newsImage {
+  position: sticky;
+  top: 2rem;
+  margin: 0 0.5rem;
+}
+
+.widthOverride {
+  margin: 0.5rem 0;
+
+  div:first-child {
+    padding-left: 0;
+    padding-right: 0.5rem;
+  }
+
+  div:last-child {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  div a {
+    width: 100% !important;
+  }
+}
+
+@include breakpoint-below(md) {
+  .newsImage {
+    margin-top: 0.5rem 0.5rem 0 0.5rem;
+    text-align: center;
+  }
+
+  .widthOverride {
+    margin: 0.5rem 4rem;
+  }
+}
+
+@include breakpoint-below(sm) {
+  .widthOverride {
+    margin: 0.5rem;
+  }
+}
+
+@include breakpoint-below(xxs) {
+  .widthOverride {
+    margin: 0.5rem 0;
+  }
+}
+
+.cardStyle {
+  transition: 0.15s ease;
+
+  &:hover {
+    transform: scale(1.04);
+    opacity: 0.9;
+    filter: drop-shadow(0 6px 6px rgb(0 0 0 / 25%));
+  }
+}
+
+.cardTitle {
+  font-size: $card-text;
+  margin-bottom: 0.5rem;
+}
+
+.cardDate {
+  font-size: $card-date;
+  color: rgb(0 0 0 / 75%);
+}
+
+// @include breakpoint-below(xs) {
+@include breakpoint-below(sm) {
+  .cardBody {
+    padding: 0.75rem;
+  }
+}
+
+// @include breakpoint-below(xs) {
+@media (width <= 576px) {
+  .cardBody {
+    padding: 0.5rem;
+  }
+}
+
+@media (width <= 378px) {
+  .cardTitle {
+    font-size: $card-date;
+  }
+}
