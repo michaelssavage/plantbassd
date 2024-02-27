@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Timo Torben - Where Do We Go From Here",
+    img: "/premieres/71-denholm.jpg",
+    link: "https://soundcloud.com/plantbassdworld/premiere-timo-torben-where-do-we-go-from-here",
+    name: "premiere",
+    description:
+      "Edinburgh party series & label DRIFT celebrates 5 years in operation with a very special 12 track compilation.",
+  },
+  {
     title: "Pralaya - Bounce It On The Floor",
     img: "/premieres/70-pralaya.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-pralaya-bounce-it-on-the-floor",
