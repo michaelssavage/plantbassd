@@ -1,18 +1,16 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
 import { useTagsFilter } from "hooks";
-import { sortByDate } from "utils";
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
-
 import { TextCard } from "components/Card";
 import styles from "styles/page.module.scss";
-
 import { AllPostProps } from "types/frontmatter";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { SocialButton } from "components/Icon";
 import { plantbassdInstagram } from "utils/constants";
+import { sortByMostRecentDate } from "utils";
 
 const gigsTags = [
   { name: "edinburgh", value: false },
@@ -70,7 +68,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: {
-      gigs: gigs.sort(sortByDate).reverse(),
+      gigs: gigs.sort(sortByMostRecentDate),
     },
   };
 };

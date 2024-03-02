@@ -1,6 +1,5 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -11,6 +10,7 @@ import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { SocialButton } from "components/Icon";
 import { plantbassdInstagram } from "utils/constants";
+import { sortByMostRecentDate } from "utils";
 
 export default function PremieresPage({
   premieres,
@@ -36,7 +36,11 @@ export default function PremieresPage({
         url="https://soundcloud.com/plantbassdworld/sets/plant-bassd-premieres"
         text="Soundcloud"
       />
-      <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
+      <SearchBox
+        handleSearchChange={handleSearchChange}
+        filter={filter}
+        amount={postCards.length}
+      />
       <div className="row g-3">
         {postCards.map((premiere: AllPostProps) => (
           <TextCard
@@ -56,7 +60,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: {
-      premieres: premieres.sort(sortByDate).reverse(),
+      premieres: premieres.sort(sortByMostRecentDate),
     },
   };
 };

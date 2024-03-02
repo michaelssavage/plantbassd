@@ -1,9 +1,9 @@
 import { FreshJuice, Gigs, News, Premiere, Radar, TopTen } from "components/Main";
-import { sortByDate } from "utils";
 import { Banner } from "components/Banner";
 import { AllPostProps } from "types/frontmatter";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
+import { sortByMostRecentDate } from "utils";
 
 interface HomeProps {
   allPosts: AllPostProps[];
@@ -52,14 +52,13 @@ export async function getStaticProps() {
   const files = {};
   for (const folder of folders) {
     const posts = await getPosts(folder);
-    files[folder] = posts.sort(sortByDate).reverse().slice(0, 4);
+    files[folder] = posts.sort(sortByMostRecentDate).slice(0, 4);
   }
   //Get all the values and flatten into one array.
   const allPosts = Object.keys(files)
     .map((key) => files[key])
     .flat(1)
-    .sort(sortByDate)
-    .reverse()
+    .sort(sortByMostRecentDate)
     .slice(0, 4);
 
   return {

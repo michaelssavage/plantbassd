@@ -1,6 +1,5 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -11,6 +10,7 @@ import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { SocialButton } from "components/Icon";
 import { plantbassdInstagram } from "utils/constants";
+import { sortByMostRecentDate } from "utils";
 
 export default function FreshJuicePage({
   freshjuice,
@@ -34,7 +34,11 @@ export default function FreshJuicePage({
       </h3>
       <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
       <SocialButton name="bandcamp" url="https://bandcamp.com/oisincampbellbap" text="Bandcamp" />
-      <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
+      <SearchBox
+        handleSearchChange={handleSearchChange}
+        filter={filter}
+        amount={postCards.length}
+      />
       <div className="row g-3">
         {postCards.map((juice: AllPostProps) => (
           <TextCard key={juice.frontmatter.name} link={`/fresh-juice/${juice.slug}`} post={juice} />
@@ -50,7 +54,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: {
-      freshjuice: freshjuice.sort(sortByDate).reverse(),
+      freshjuice: freshjuice.sort(sortByMostRecentDate),
     },
   };
 };

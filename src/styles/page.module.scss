@@ -7,13 +7,21 @@
 }
 
 .pageText {
-  margin: 1rem 0.75rem 0.5rem;
+  margin: 1rem 0 0.5rem;
 }
 
 .viewAllBtn {
   text-align: center;
-  margin: 0.5rem 0;
-  display: grid;
+  margin: 2rem 0 0;
+}
+
+.noPostsFound {
+  text-align: center;
+  color: $pb-black;
+  margin-top: 2rem;
+  p {
+    font-size: 1.4rem;
+  }
 }
 
 // @include breakpoint-below(xs) {

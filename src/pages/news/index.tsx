@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import { sortByDate } from "utils";
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
 import { TextCard } from "components/Card";
@@ -12,6 +11,7 @@ import { getAllPosts } from "utils/getAllPosts";
 import PageMetaData from "components/PageMetaData";
 import { plantbassdInstagram } from "utils/constants";
 import { SocialButton } from "components/Icon";
+import { sortByMostRecentDate } from "utils";
 
 const newsTags = [
   { name: "fresh juice", value: false },
@@ -48,13 +48,19 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
       <FilterTags handleTags={handleTags} tagList={tagList} />
 
       <div className="row g-3">
-        {filteredPosts.slice(0, 24).map((story: AllPostProps) => (
-          <TextCard
-            key={story.frontmatter.name}
-            link={`/${story.frontmatter.path}/${story.slug}`}
-            post={story}
-          />
-        ))}
+        {filteredPosts.length > 0 ? (
+          filteredPosts.map((story: AllPostProps) => (
+            <TextCard
+              key={story.frontmatter.name}
+              link={`/${story.frontmatter.path}/${story.slug}`}
+              post={story}
+            />
+          ))
+        ) : (
+          <div className={styles.noPostsFound}>
+            <p>No recent posts found</p>
+          </div>
+        )}
       </div>
 
       <div className={styles.viewAllBtn}>
@@ -71,7 +77,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: {
-      files: files.sort(sortByDate).reverse(),
+      files: files.sort(sortByMostRecentDate).slice(0, 12),
     },
   };
 };

@@ -1,6 +1,5 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -11,6 +10,7 @@ import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { SocialButton } from "components/Icon";
 import { plantbassdInstagram } from "utils/constants";
+import { sortByMostRecentDate } from "utils";
 
 export default function TakeoverPage({
   takeovers,
@@ -38,7 +38,11 @@ export default function TakeoverPage({
         url="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
       />
 
-      <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
+      <SearchBox
+        handleSearchChange={handleSearchChange}
+        filter={filter}
+        amount={postCards.length}
+      />
 
       <div className="row g-3">
         {postCards.map((takeover: AllPostProps) => (
@@ -59,7 +63,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: {
-      takeovers: takeovers.sort(sortByDate).reverse(),
+      takeovers: takeovers.sort(sortByMostRecentDate),
     },
   };
 };

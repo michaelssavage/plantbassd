@@ -1,6 +1,5 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -11,6 +10,7 @@ import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { SocialButton } from "components/Icon";
 import { plantbassdInstagram } from "utils/constants";
+import { sortByMostRecentDate } from "utils";
 
 export default function GuidesPage({ guides }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
@@ -29,7 +29,11 @@ export default function GuidesPage({ guides }: InferGetStaticPropsType<typeof ge
         url="https://soundcloud.com/plantbassdworld/sets/plant-bassd-premieres"
         text="Soundcloud"
       />
-      <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
+      <SearchBox
+        handleSearchChange={handleSearchChange}
+        filter={filter}
+        amount={postCards.length}
+      />
       <div className="row g-3">
         {postCards.map((guide: AllPostProps) => (
           <TextCard key={guide.frontmatter.name} link={`/guides/${guide.slug}`} post={guide} />
@@ -45,7 +49,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: {
-      guides: guides.sort(sortByDate).reverse(),
+      guides: guides.sort(sortByMostRecentDate),
     },
   };
 };

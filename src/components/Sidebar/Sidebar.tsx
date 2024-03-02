@@ -7,27 +7,9 @@ import { Icon } from "components/Icon";
 import { useClickOutside } from "hooks";
 import styles from "./Sidebar.module.scss";
 
-interface ListingProps {
-  item: SidebarProps;
-  onClick: () => void;
-}
-
-function Listing({ item, onClick }: ListingProps) {
-  const { link, name, title } = item;
-  const router = useRouter();
-  const className = router.pathname === `${link}` ? `${styles.activeLink}` : `${styles.navLink}`;
-  return (
-    <Link href={link} className="anchor">
-      <div tabIndex={0} className={className} onClick={onClick}>
-        <Icon icon={name} size="2rem" styling={styles.navBarIcons} />
-        <span className={styles.navName}>{title}</span>
-      </div>
-    </Link>
-  );
-}
-
 export default function Sidebar() {
   const { closeSidebar, navMenu, showSidebar, sidebar } = useClickOutside();
+  const router = useRouter();
 
   return (
     <div ref={navMenu}>
@@ -40,9 +22,18 @@ export default function Sidebar() {
       <div className={sidebar ? styles.extendNav : styles.navContainer}>
         <nav className={styles.navMenu}>
           <div className={styles.navList}>
-            {sidebarList.map((item) => (
-              <Listing key={item.title} item={item} onClick={closeSidebar} />
-            ))}
+            {sidebarList.map(({ link, name, title }: SidebarProps) => {
+              const className =
+                router.pathname === `${link}` ? `${styles.activeLink}` : `${styles.navLink}`;
+              return (
+                <Link key={title} href={link} className="anchor">
+                  <div tabIndex={0} className={className} onClick={closeSidebar}>
+                    <Icon icon={name} size="2rem" styling={styles.navBarIcons} />
+                    <span className={styles.navName}>{title}</span>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </nav>
       </div>

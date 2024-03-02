@@ -1,6 +1,5 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -11,6 +10,7 @@ import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { SocialButton } from "components/Icon";
 import { plantbassdInstagram } from "utils/constants";
+import { sortByMostRecentDate } from "utils";
 
 export default function RadioPage({ radios }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
@@ -35,7 +35,11 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
         url="https://soundcloud.com/plantbassdworld/sets/plant-bassd-radio"
       />
 
-      <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
+      <SearchBox
+        handleSearchChange={handleSearchChange}
+        filter={filter}
+        amount={postCards.length}
+      />
       <div className="row g-3">
         {postCards.map((radio: AllPostProps) => (
           <TextCard key={radio.frontmatter.name} link={`/radios/${radio.slug}`} post={radio} />
@@ -51,7 +55,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: {
-      radios: radios.sort(sortByDate).reverse(),
+      radios: radios.sort(sortByMostRecentDate),
     },
   };
 };

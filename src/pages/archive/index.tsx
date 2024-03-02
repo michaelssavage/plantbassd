@@ -1,6 +1,5 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -11,6 +10,7 @@ import { getAllPosts } from "utils/getAllPosts";
 import PageMetaData from "components/PageMetaData";
 import { SocialButton } from "components/Icon";
 import { plantbassdInstagram } from "utils/constants";
+import { sortByMostRecentDate } from "utils";
 
 export default function ArchivePage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
@@ -49,7 +49,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: {
-      files: files.sort(sortByDate).reverse(),
+      files: files.sort(sortByMostRecentDate),
     },
   };
 };

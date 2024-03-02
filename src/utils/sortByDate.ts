@@ -4,6 +4,7 @@ interface DateProp {
   };
   slug: string;
 }
-export const sortByDate = (a: DateProp, b: DateProp) => {
-  return new Date(a.frontmatter?.date).valueOf() - new Date(b.frontmatter?.date).valueOf();
+
+export const sortByMostRecentDate = (a: DateProp, b: DateProp) => {
+  return new Date(b.frontmatter?.date).valueOf() - new Date(a.frontmatter?.date).valueOf();
 };

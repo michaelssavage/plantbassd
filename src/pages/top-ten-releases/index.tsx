@@ -1,6 +1,5 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import { sortByDate } from "utils";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -11,6 +10,7 @@ import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { SocialButton } from "components/Icon";
 import { plantbassdInstagram } from "utils/constants";
+import { sortByMostRecentDate } from "utils";
 
 export default function TopTenPage({ topTens }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
@@ -32,7 +32,11 @@ export default function TopTenPage({ topTens }: InferGetStaticPropsType<typeof g
       <SocialButton name="instagram" url={plantbassdInstagram} />
       <SocialButton name="email" url="mailto: plantbassdworld@gmail.com" text="Email" />
 
-      <SearchBox handleSearchChange={handleSearchChange} filter={filter} />
+      <SearchBox
+        handleSearchChange={handleSearchChange}
+        filter={filter}
+        amount={postCards.length}
+      />
 
       <div className="row g-3">
         {postCards.map((topTen: AllPostProps) => (
@@ -53,7 +57,7 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: {
-      topTens: topTens.sort(sortByDate).reverse(),
+      topTens: topTens.sort(sortByMostRecentDate),
     },
   };
 };
