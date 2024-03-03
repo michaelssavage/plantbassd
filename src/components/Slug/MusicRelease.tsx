@@ -1,9 +1,7 @@
 import { ReactElement } from "react";
-import Link from "next/link";
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
 import { BandCamp, SoundCloud } from "components/Players";
-import styles from "./Slug.module.scss";
 
 interface MusicReleaseProps {
   title: string;
@@ -56,12 +54,8 @@ export const MusicRelease = (props: MusicReleaseProps) => {
     <div className="mt-2 mb-5">
       <div className="row">
         <h3>{renderHeader()}</h3>
-        <div className="col-md-4 col-sm-12">
-          <Link href={link} className={styles.bandcampPic}>
-            <Picture src={pic} alt={title} size={600} />
-          </Link>
-        </div>
-        <div className="col-md-8 col-sm-12">
+
+        <div className="col-md-9 col-sm-12">
           {embed && <BandCamp src={embed} />}
           {soundcloudEmbed && <SoundCloud url={soundcloudEmbed} name={title} height="120px" />}
           <div className="mt-3 mb-2">{children}</div>
@@ -71,6 +65,10 @@ export const MusicRelease = (props: MusicReleaseProps) => {
             </div>
           )}
           {tags}
+        </div>
+        <div className="col-md-3 col-sm-12">
+          <Picture src={pic} alt={title} size={600} />
+          <HoverLink url={link} name="Link Here" external />
         </div>
       </div>
     </div>
