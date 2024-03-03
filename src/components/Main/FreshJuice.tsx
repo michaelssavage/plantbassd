@@ -1,7 +1,7 @@
 import { AllPostProps } from "types/frontmatter";
 import { Button } from "components/Button";
 import { SimpleCard } from "components/Card";
-import Header from "../Header";
+import { Header } from "components/Header";
 
 interface Props {
   freshjuice: AllPostProps[];

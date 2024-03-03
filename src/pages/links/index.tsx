@@ -2,8 +2,7 @@ import Link from "next/link";
 
 import { linkList } from "arrays/linktree";
 import { socialIcons } from "arrays/social-icons";
-import Header from "components/Header";
-import styles from "styles/links.module.scss";
+import { Header } from "components/Header";
 import Error from "components/Error";
 import { useTagsFilter } from "hooks";
 import { FilterTags } from "components/FilterTags";
@@ -11,6 +10,7 @@ import PageMetaData from "components/PageMetaData";
 import { LinkPost } from "components/Links";
 import { Icon } from "components/Icon/Icon";
 import { Loading } from "components/Loading";
+import styles from "./links.module.scss";
 
 const linkTags = [
   { name: "tickets", value: false },

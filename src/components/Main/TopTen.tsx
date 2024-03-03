@@ -1,7 +1,7 @@
 import { SimpleCard } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
 import { Button } from "components/Button";
-import Header from "../Header";
+import { Header } from "components/Header";
 
 interface Props {
   topTen: AllPostProps[];
@@ -18,7 +18,7 @@ export const TopTen = ({ topTen }: Props) => {
       </div>
 
       <div className="row mb-2">
-        <p>Artists and DJs pick their favourite top ten picks of the year.</p>
+        <p>Artists pick their favourite top ten of the year.</p>
       </div>
 
       <div className="row g-2">

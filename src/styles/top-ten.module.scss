@@ -8,13 +8,13 @@
   padding: 4% 12% 2%;
 }
 
-.postTitle {
-  text-align: center;
-}
-
 .postDate {
   font-style: italic;
   font-size: 0.9rem;
+}
+
+.postTitle {
+  text-align: center;
 }
 
 @include breakpoint-below(md) {
@@ -30,28 +30,18 @@
   }
 }
 
-.spotify {
-  color: $spotify;
-  transition: 0.25s ease;
-
-  &:hover {
-    color: $header-black;
-    background-color: $spotify;
-  }
-}
-
 .instagram {
   color: $instagram;
   transition: 0.25s ease;
 
-  svg {
-    width: 2rem;
-    height: 2rem;
-  }
-
   &:hover {
     color: $header-black;
     background-color: $instagram;
+  }
+
+  svg {
+    width: 2rem;
+    height: 2rem;
   }
 }
 

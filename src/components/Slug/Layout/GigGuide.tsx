@@ -2,7 +2,7 @@ import { ReactElement } from "react";
 import Link from "next/link";
 import { Picture } from "components/Picture";
 import { HoverLink } from "components/HoverLink";
-import styles from "./Slug.module.scss";
+import styles from "./Layout.module.scss";
 
 interface GigGuideProps {
   title: string;

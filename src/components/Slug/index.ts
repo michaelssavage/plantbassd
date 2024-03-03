@@ -1,5 +1,6 @@
+export { TextAndMedia } from "./Layout/TextAndMedia";
 export { Slug } from "./Slug";
-export { MusicRelease } from "./MusicRelease";
-export { FavTrack } from "./FavTrack";
-export { GigGuide } from "./GigGuide";
-export { ImageAndDescription } from "./ImageAndDescription";
+export { MusicRelease } from "./Layout/MusicRelease";
+export { FavTrack } from "./Layout/FavTrack";
+export { GigGuide } from "./Layout/GigGuide";
+export { ImageAndDescription } from "./Layout/ImageAndDescription";

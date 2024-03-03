@@ -1,10 +1,10 @@
 import { InferGetStaticPropsType } from "next";
 import { StickyCard } from "components/Card";
-import styles from "styles/slug.module.scss";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { Slug } from "components/Slug";
 import PageMetaData from "components/PageMetaData";
+import { Shell } from "components/Slug/Shell";
 
 export default function TakeoverSlug({
   mdxSource,
@@ -13,7 +13,7 @@ export default function TakeoverSlug({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { title, date, pic, artistPage, path, postLink, bio } = frontmatter;
   return (
-    <div className={styles.slugContainer}>
+    <Shell>
       <PageMetaData
         title={title}
         imageUrl={pic}
@@ -32,7 +32,7 @@ export default function TakeoverSlug({
           title={title}
         />
       </div>
-    </div>
+    </Shell>
   );
 }
 

@@ -1,11 +1,11 @@
 import { InferGetStaticPropsType } from "next";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-import styles from "styles/slug.module.scss";
 import { Slug } from "components/Slug";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import PageMetaData from "components/PageMetaData";
 import { Picture } from "components/Picture";
+import { Shell } from "components/Slug/Shell";
 
 export default function NewsSlug({
   mdxSource,
@@ -15,7 +15,7 @@ export default function NewsSlug({
   const { title, date, path, gallery, gallerySize, pic, bio } = frontmatter;
 
   return (
-    <div className={styles.slugContainer}>
+    <Shell>
       <PageMetaData
         title={title}
         imageUrl={pic}
@@ -40,7 +40,7 @@ export default function NewsSlug({
           </div>
         </Slug>
       </div>
-    </div>
+    </Shell>
   );
 }
 export async function getStaticPaths() {

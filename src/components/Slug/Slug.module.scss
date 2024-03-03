@@ -1,41 +1,43 @@
-// GigGuide
+@use "@/abstracts" as *;
 
-.containerMargins {
-  margin-bottom: 3rem;
+.slugContainer {
+  margin: 10vh 0;
+  padding: 0 0.5rem;
 }
 
-@media (width <= 768px) {
-  .containerMargins {
+@include breakpoint-below(md) {
+  .slugContainer {
+    margin-bottom: 2vh;
+  }
+}
+
+.fullWidth {
+  padding: 0 4rem;
+}
+
+.postContent {
+  padding: 0 0 0 4rem;
+
+  div img {
     margin-bottom: 1rem;
   }
-
-  .headerSpacing {
-    margin-top: 1rem;
-  }
 }
 
-// FavTrack
+@include breakpoint-below(md) {
+  .postContent {
+    padding: 0 1.25rem;
+    margin: 0;
 
-// MusicRelease
+    p {
+      font-size: calc(0.75rem + 1vw);
+    }
 
-// ImageAndDescription
-
-.ImageDescContainer {
-  margin-bottom: 1rem;
-
-  div div img {
-    border: 1px solid black;
-    margin-bottom: 0.25rem;
+    h3 {
+      font-size: calc(1rem + 1vw);
+    }
   }
-}
 
-// TextAndMedia
-
-.childrenContainer {
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-
-  p {
-    margin-bottom: 0;
+  .fullWidth {
+    padding: 0 1.25rem;
   }
 }

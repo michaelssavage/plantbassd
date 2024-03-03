@@ -1,12 +1,12 @@
 import { MDXRemote, MDXRemoteSerializeResult } from "next-mdx-remote";
 import { ReactNode } from "react";
-import styles from "styles/slug.module.scss";
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
 import { BandCamp, SoundCloud, VideoPlayer, YouTube } from "components/Players";
 import { Loading } from "components/Loading";
-import { ImageAndDescription } from "./ImageAndDescription";
-import { TextAndMedia } from "./TextAndMedia";
+import styles from "./Slug.module.scss";
+import { TextAndMedia } from "./Layout/TextAndMedia";
+import { ImageAndDescription } from "./Layout/ImageAndDescription";
 
 interface SlugProps {
   path: string;
@@ -33,7 +33,7 @@ export const Slug = (props: SlugProps) => {
 
   const styling = fullWidth
     ? styles.fullWidth
-    : `${styles.postContent} col-lg-8 col-md-12 col-xl-8`;
+    : `${styles.postContent}  col-md-12 col-lg-8 col-xl-8`;
   return (
     <Loading>
       <div className={styling}>

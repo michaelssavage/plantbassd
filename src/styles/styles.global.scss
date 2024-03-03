@@ -1,15 +1,10 @@
 @use "@/abstracts" as *;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 @font-face {
   font-display: swap;
   font-family: Messina;
   src: local("Messina"), url("/fonts/Messina.ttf");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: Molengo;
-  src: local("Molengo"), url("/fonts/Molengo-Regular.ttf");
 }
 
 @font-face {
@@ -26,7 +21,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: Molengo, "Helvetica Neue", -apple-system, BlinkMacSystemFont, Ubuntu, sans-serif;
+  font-family: Inter, sans-serif;
 }
 
 html {
@@ -66,7 +61,7 @@ h2 {
 }
 
 h3 {
-  font-family: Molengo, Helvetica, sans-serif;
+  font-family: Dx-Slim, Helvetica, sans-serif;
   font-size: $heading3;
 }
 

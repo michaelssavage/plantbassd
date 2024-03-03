@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Picture } from "components/Picture";
-import Header from "components/Header";
+import { Header } from "components/Header";
 import { Button } from "components/Button";
 import { AllPostProps } from "types/frontmatter";
 import card from "components/Card/Card.module.scss";

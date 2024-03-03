@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 import { Picture } from "components/Picture";
-import styles from "./Slug.module.scss";
+import styles from "./Layout.module.scss";
 
 interface ImageAndDescriptionDescProps {
   pic: string;

@@ -1,5 +1,5 @@
 import { AllPostProps } from "types/frontmatter";
-import Header from "components/Header";
+import { Header } from "components/Header";
 import { HoverLink } from "components/HoverLink";
 import { plantbassdInstagram } from "utils/constants";
 import { Button } from "components/Button";

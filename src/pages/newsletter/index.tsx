@@ -1,7 +1,7 @@
 import styles from "components/Signup/Signup.module.scss";
 import { Spinner } from "components/Loading";
 import { HoverLink } from "components/HoverLink";
-import Header from "components/Header";
+import { Header } from "components/Header";
 import { useNewsletter } from "hooks/useNewsletter.hook";
 import { CheckIcon } from "components/Icon";
 

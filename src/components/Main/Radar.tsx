@@ -1,7 +1,7 @@
 import { SimpleCard } from "components/Card";
 import { AllPostProps } from "types/frontmatter";
 import { Button } from "components/Button";
-import Header from "../Header";
+import { Header } from "components/Header";
 
 interface Props {
   radar: AllPostProps[];

@@ -1,10 +1,10 @@
 import { InferGetStaticPropsType } from "next";
 import { StickyCard } from "components/Card";
-import styles from "styles/slug.module.scss";
 import { Slug } from "components/Slug";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import PageMetaData from "components/PageMetaData";
+import { Shell } from "components/Slug/Shell";
 
 export default function NewsSlug({
   mdxSource,
@@ -17,7 +17,7 @@ export default function NewsSlug({
   const buyText = tickets ? "RA tickets" : "See More";
 
   return (
-    <div className={styles.slugContainer}>
+    <Shell>
       <PageMetaData
         title={title}
         imageUrl={pic}
@@ -35,7 +35,7 @@ export default function NewsSlug({
           title={title}
         />
       </div>
-    </div>
+    </Shell>
   );
 }
 export async function getStaticPaths() {

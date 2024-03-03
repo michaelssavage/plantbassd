@@ -38,21 +38,18 @@
   }
 }
 
-// @include breakpoint-below(md) {
 @media (width <= 992px) {
   .pushSides {
     padding: 2rem 10% 4rem;
   }
 }
 
-// @include breakpoint-below(sm) {
 @media (width <= 768px) {
   .pushSides {
     padding: 2rem 5% 4rem;
   }
 }
 
-// @include breakpoint-below(xs) {
 @media (width <= 576px) {
   .pushSides {
     padding: 2rem 2rem 4rem;

@@ -24,20 +24,16 @@ export const FavTrack = (props: FavTrackProps) => {
     <div className="mb-5">
       <div className="row">
         <h3>{title}</h3>
-        <div className="col-md-5 col-sm-12">
-          {!youtube && <Picture src={pic} alt={title} size={600} />}
-          {youtube && <SoundCloud url={youtube} />}
-        </div>
-        <div className="col-md-7 col-sm-12 mt-3 mt-md-0">
+        <div className="col-sm-12 col-md-9 mt-3 mt-md-0">
           {soundcloud && <SoundCloud url={soundcloud} height="140px" />}
           {bandcamp && <BandCamp src={bandcamp} top />}
           {spotify && <Spotify src={spotify} />}
           <div className="mt-3 mb-2">{children}</div>
-          {link && (
-            <>
-              More here: <HoverLink url={link} external />
-            </>
-          )}
+          {link && <HoverLink url={link} name={link} external />}
+        </div>
+        <div className="col-sm-12 col-md-3">
+          {!youtube && <Picture src={pic} alt={title} size={600} />}
+          {youtube && <SoundCloud url={youtube} />}
         </div>
       </div>
     </div>

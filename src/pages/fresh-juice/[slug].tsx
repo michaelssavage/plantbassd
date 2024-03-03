@@ -1,11 +1,11 @@
 import { InferGetStaticPropsType } from "next";
 import dynamic from "next/dynamic";
 import { StickyCard } from "components/Card";
-import styles from "styles/slug.module.scss";
 import { Slug } from "components/Slug";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import PageMetaData from "components/PageMetaData";
+import { Shell } from "components/Slug/Shell";
 
 const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 
@@ -26,7 +26,7 @@ export default function FreshJuiceSlug({
     bio,
   } = frontmatter;
   return (
-    <div className={styles.slugContainer}>
+    <Shell>
       <PageMetaData
         title={title}
         imageUrl={pic}
@@ -49,7 +49,7 @@ export default function FreshJuiceSlug({
           <ReactPlayer url={youtube} width="100%" height="500px" controls />
         </div>
       )}
-    </div>
+    </Shell>
   );
 }
 

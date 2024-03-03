@@ -1,12 +1,12 @@
 import { InferGetStaticPropsType } from "next";
 import { StickyCard } from "components/Card";
-import styles from "styles/slug.module.scss";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { Slug } from "components/Slug";
 import { ArtistLookUp } from "components/ArtistLookUp";
 import PageMetaData from "components/PageMetaData";
 import { getPosts } from "utils/getPosts";
+import { Shell } from "components/Slug/Shell";
 
 export default function GigsSlug({
   mdxSource,
@@ -20,7 +20,7 @@ export default function GigsSlug({
   const buyText = tickets ? "Tickets" : "See More";
 
   return (
-    <div className={styles.slugContainer}>
+    <Shell>
       <PageMetaData
         title={title}
         imageUrl={pic}
@@ -42,7 +42,7 @@ export default function GigsSlug({
           title={title}
         />
       </div>
-    </div>
+    </Shell>
   );
 }
 export async function getStaticPaths() {
