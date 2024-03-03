@@ -102,29 +102,7 @@
   }
 }
 
-// ICON //////////////
-
-.showSticky {
-  right: 14rem;
-  transition: 0.5s;
-
-  @extend .icon;
-  @extend %floating;
-}
-
-.icon {
-  svg {
-    color: $pb-black;
-    width: 3rem;
-    height: 3rem;
-  }
-
-  transition: 0.5s;
-
-  @extend %floating;
-}
-
-.deleteSVG {
+.tickSVG {
   svg {
     width: 4rem;
     height: 4rem;

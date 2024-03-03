@@ -1,5 +1,6 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
+import { useContext } from "react";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -8,13 +9,16 @@ import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
-import { SocialButton } from "components/Icon";
-import { plantbassdInstagram } from "utils/constants";
 import { sortByMostRecentDate } from "utils";
+import { SocialGroup } from "components/Icon/SocialGroup";
+import { LoadingContext } from "context/loading.context";
+import { Loading } from "components/Loading";
 
 export default function PremieresPage({
   premieres,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const { loading } = useContext(LoadingContext);
+
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
     useSearchFilter(premieres);
 
@@ -30,26 +34,26 @@ export default function PremieresPage({
       <h3 className={styles.pageText}>
         Listen to new track premieres from around the world on our SoundCloud.
       </h3>
-      <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
-      <SocialButton
-        name="soundcloud"
-        url="https://soundcloud.com/plantbassdworld/sets/plant-bassd-premieres"
-        text="Soundcloud"
-      />
       <SearchBox
         handleSearchChange={handleSearchChange}
         filter={filter}
         amount={postCards.length}
       />
-      <div className="row g-3">
-        {postCards.map((premiere: AllPostProps) => (
-          <TextCard
-            key={premiere.frontmatter.name}
-            link={`/premieres/${premiere.slug}`}
-            post={premiere}
-          />
-        ))}
-      </div>
+      <SocialGroup icons={["instagram", "soundcloud"]} />
+
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="row g-3">
+          {postCards.map((premiere: AllPostProps) => (
+            <TextCard
+              key={premiere.frontmatter.name}
+              link={`/premieres/${premiere.slug}`}
+              post={premiere}
+            />
+          ))}
+        </div>
+      )}
       <div className="mt-2 text-end">{premieres.length} cards.</div>
     </div>
   );

@@ -1,7 +1,7 @@
 import { ReactElement, ReactNode, useCallback, useEffect, useRef, useState } from "react";
 import { createPortal } from "react-dom";
 import { CSSTransition } from "react-transition-group";
-import { SocialButton } from "components/Icon";
+import { SocialIcon } from "components/Icon";
 import styles from "./Modal.module.scss";
 
 interface ModalProps {
@@ -72,8 +72,8 @@ export const Modal = (props: ModalProps) => {
               <div className={styles.container} ref={container} role="dialog">
                 <div className={styles.header}>
                   <div className={styles.textAndIcon}>
-                    {instaLink && <SocialButton name="instagram" url={instaLink} />}
                     <h1 className={styles.title}>{title}</h1>
+                    {instaLink && <SocialIcon text="instagram" />}
                   </div>
                   <button
                     onClick={() => setIsOpen(false)}

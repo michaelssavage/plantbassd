@@ -12,12 +12,14 @@
 .iconContainer {
   display: flex;
   justify-content: center;
-}
-
-.socialIcon {
-  margin: 0.5rem 0;
-  fill: $header-black;
+  text-decoration: none;
   transition: 0.25s ease;
+
+  svg {
+    width: 2rem;
+    height: 2rem;
+    color: $pb-black;
+  }
 
   &:hover {
     transform: scale(1.04);
@@ -72,6 +74,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  gap: 0.5rem;
+  padding: 0;
   margin-bottom: 0.25rem;
 }
 

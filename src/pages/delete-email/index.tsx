@@ -1,7 +1,7 @@
 import { ChangeEvent, FormEvent, useState } from "react";
-import { TiTick } from "react-icons/ti";
 import { Loading } from "components/Loading";
 import styles from "components/Signup/Signup.module.scss";
+import { CheckIcon } from "components/Icon";
 
 export default function DeleteEmail() {
   const [loading, setLoading] = useState(false);
@@ -55,8 +55,8 @@ export default function DeleteEmail() {
       <form onSubmit={handleSubmit}>
         <h2>Remove your Email from the Plant Bass'd Newsletter</h2>
         {complete ? (
-          <div className={styles.deleteSVG}>
-            <TiTick />
+          <div className={styles.tickSVG}>
+            <CheckIcon />
           </div>
         ) : (
           <>

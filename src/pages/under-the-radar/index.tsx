@@ -1,5 +1,6 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
+import { useContext } from "react";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -8,13 +9,16 @@ import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
-import { SocialButton } from "components/Icon";
-import { plantbassdInstagram } from "utils/constants";
 import { sortByMostRecentDate } from "utils";
+import { LoadingContext } from "context/loading.context";
+import { Loading } from "components/Loading";
+import { SocialGroup } from "components/Icon/SocialGroup";
 
 export default function UnderTheRadarPage({
   radars,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const { loading } = useContext(LoadingContext);
+
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
     useSearchFilter(radars);
 
@@ -28,8 +32,6 @@ export default function UnderTheRadarPage({
       <h3 className={styles.pageText}>
         End of month roundups of the releases that might have flown under your radar.
       </h3>
-      <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
-      <SocialButton name="bandcamp" url="https://bandcamp.com/oisincampbellbap" text="bandcamp" />
 
       <SearchBox
         handleSearchChange={handleSearchChange}
@@ -37,15 +39,21 @@ export default function UnderTheRadarPage({
         amount={postCards.length}
       />
 
-      <div className="row g-3">
-        {postCards.map((radar: AllPostProps) => (
-          <TextCard
-            key={radar.frontmatter.name}
-            link={`/under-the-radar/${radar.slug}`}
-            post={radar}
-          />
-        ))}
-      </div>
+      <SocialGroup icons={["instagram", "bandcamp"]} />
+
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="row g-3">
+          {postCards.map((radar: AllPostProps) => (
+            <TextCard
+              key={radar.frontmatter.name}
+              link={`/under-the-radar/${radar.slug}`}
+              post={radar}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }

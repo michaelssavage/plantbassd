@@ -16,21 +16,18 @@
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
   cursor: pointer;
+
+  .headerToggle {
+    color: $pb-white;
+    display: flex;
+    align-items: center;
+  }
 }
 
 .extendHeader {
-  width: 18rem;
-
   @extend .header;
-}
 
-.headerToggle {
-  color: $pb-white;
-  font-size: $nav-icon;
-}
-
-.cancelToggle {
-  font-size: $x-toggler;
+  width: 18rem;
 }
 
 .navContainer {
@@ -40,38 +37,39 @@
   width: 6rem;
   height: 100vh;
   background-color: $pb-black;
-  padding: 0.5rem;
+  padding: 0.5rem 0 0.5rem 0.5rem;
   transition: 0.5s;
   z-index: 10;
+
+  .navMenu {
+    height: 100vh;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    margin: 0.5rem 0;
+    overflow: hidden auto;
+    -ms-overflow-style: none; /* Edge */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+      display: none; /* Safari and Chrome */
+    }
+  }
 }
 
 .extendNav {
-  width: 14rem;
-
   @extend .navContainer;
-}
 
-.navMenu {
-  height: 100vh;
-  display: flex;
-  white-space: nowrap;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  overflow: hidden auto;
-  -ms-overflow-style: none; /* Edge */
-  scrollbar-width: none; /* Firefox */
-  &::-webkit-scrollbar {
-    display: none; /* Safari and Chrome */
-  }
+  width: 13.5rem;
 }
 
 .navLink {
   display: flex;
   align-items: center;
+  gap: 1.75rem;
   padding: 0.5rem 0 0.5rem 1.5rem;
   background-color: $pb-black;
   position: relative;
-  margin-bottom: 1.5rem;
   transition: 0.3s;
   color: $nav-grey;
   cursor: pointer;
@@ -88,9 +86,9 @@
 }
 
 .activeLink {
-  color: $pb-white;
-
   @extend .navLink;
+
+  color: $pb-white;
 
   &::before {
     content: "";
@@ -104,14 +102,18 @@
 
 .navName {
   font-size: $nav-name;
-  margin-left: 1.5rem;
-  margin-right: 0.5rem;
+  margin: 0;
+  padding: 0;
 }
 
 .navBarIcons {
-  font-size: 2rem;
-  width: 2rem;
-  height: 2rem;
+  display: flex;
+  align-items: center;
+
+  svg {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
 }
 
 @include breakpoint-below(sm) {

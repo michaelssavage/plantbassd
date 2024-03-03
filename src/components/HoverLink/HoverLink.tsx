@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./HoverLink.module.scss";
 
 interface LinkProps {
@@ -13,16 +14,23 @@ const makeLink = (link: string) => {
   return `https://${link}`;
 };
 
-export const HoverLink = ({ url, name, external }: LinkProps) => {
+export const HoverLink = ({ url, name, external = false }: LinkProps) => {
+  if (external) {
+    return (
+      <a
+        className={styles.hoverLink}
+        data-replace={name ? name : url}
+        href={makeLink(url)}
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        {name ? name : url}
+      </a>
+    );
+  }
   return (
-    <a
-      className={styles.hoverLink}
-      data-replace={name ? name : url}
-      href={external ? makeLink(url) : url}
-      rel={external ? "noopener noreferrer" : ""}
-      target={external ? "_blank" : ""}
-    >
+    <Link className={styles.hoverLink} data-replace={name ? name : url} href={url}>
       {name ? name : url}
-    </a>
+    </Link>
   );
 };

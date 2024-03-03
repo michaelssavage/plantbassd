@@ -1,5 +1,6 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
+import { useContext } from "react";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -8,13 +9,15 @@ import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
-import { SocialButton } from "components/Icon";
-import { plantbassdInstagram } from "utils/constants";
 import { sortByMostRecentDate } from "utils";
+import { SocialGroup } from "components/Icon";
+import { LoadingContext } from "context/loading.context";
+import { Loading } from "components/Loading";
 
 export default function TakeoverPage({
   takeovers,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const { loading } = useContext(LoadingContext);
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
     useSearchFilter(takeovers);
 
@@ -32,11 +35,6 @@ export default function TakeoverPage({
         Artists, Friends, and Guests select and share their top tracks on Spotify. Check out the
         playlist below.
       </h3>
-      <SocialButton name="instagram" url={plantbassdInstagram} />
-      <SocialButton
-        name="spotify"
-        url="https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76"
-      />
 
       <SearchBox
         handleSearchChange={handleSearchChange}
@@ -44,16 +42,21 @@ export default function TakeoverPage({
         amount={postCards.length}
       />
 
-      <div className="row g-3">
-        {postCards.map((takeover: AllPostProps) => (
-          <TextCard
-            key={takeover.frontmatter.name}
-            link={`/takeovers/${takeover.slug}`}
-            post={takeover}
-          />
-        ))}
-      </div>
-      <div className="mt-2 text-end">{postCards.length} cards.</div>
+      <SocialGroup icons={["instagram", "spotify"]} />
+
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="row g-3">
+          {postCards.map((takeover: AllPostProps) => (
+            <TextCard
+              key={takeover.frontmatter.name}
+              link={`/takeovers/${takeover.slug}`}
+              post={takeover}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }

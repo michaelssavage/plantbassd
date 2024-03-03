@@ -8,9 +8,8 @@ import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
-import { SocialButton } from "components/Icon";
-import { plantbassdInstagram } from "utils/constants";
 import { sortByMostRecentDate } from "utils";
+import { SocialGroup } from "components/Icon/SocialGroup";
 
 export default function GuidesPage({ guides }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
@@ -23,17 +22,14 @@ export default function GuidesPage({ guides }: InferGetStaticPropsType<typeof ge
       <PageMetaData title="Guides" description="Read our guide to where to dance this weekend" />
       <h1 className={styles.pageHeader}>Premieres</h1>
       <h3 className={styles.pageText}>Read our guide to where to dance this weekend</h3>
-      <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
-      <SocialButton
-        name="soundcloud"
-        url="https://soundcloud.com/plantbassdworld/sets/plant-bassd-premieres"
-        text="Soundcloud"
-      />
+
       <SearchBox
         handleSearchChange={handleSearchChange}
         filter={filter}
         amount={postCards.length}
       />
+      <SocialGroup icons={["instagram", "soundcloud"]} />
+
       <div className="row g-3">
         {postCards.map((guide: AllPostProps) => (
           <TextCard key={guide.frontmatter.name} link={`/guides/${guide.slug}`} post={guide} />

@@ -1,4 +1,4 @@
-import { AiOutlineCloseCircle } from "react-icons/ai";
+import { CloseIcon } from "components/Icon";
 import styles from "./FilterTags.module.scss";
 
 interface FilterTagsProps {
@@ -19,13 +19,15 @@ export const FilterTags = ({ tagList, handleTags }: FilterTagsProps) => {
         {tagList
           ? tagList.map((tag) => (
               <button
-                className={`btn btn-outline-dark btn-sm ${tag.value ? "active" : ""}`}
+                className={`btn btn-outline-dark btn-sm ${tag.value ? "active" : ""} ${
+                  styles.tagged
+                }`}
                 key={tag.name}
                 onClick={() => handleTags(tag)}
                 type="button"
               >
                 {tag.name.charAt(0).toUpperCase() + tag.name.slice(1)}{" "}
-                {tag.value ? <AiOutlineCloseCircle /> : null}
+                {tag.value ? <CloseIcon /> : null}
               </button>
             ))
           : null}

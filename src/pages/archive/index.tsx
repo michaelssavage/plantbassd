@@ -1,5 +1,6 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
+import { useContext } from "react";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -8,11 +9,13 @@ import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getAllPosts } from "utils/getAllPosts";
 import PageMetaData from "components/PageMetaData";
-import { SocialButton } from "components/Icon";
-import { plantbassdInstagram } from "utils/constants";
 import { sortByMostRecentDate } from "utils";
+import { SocialGroup } from "components/Icon/SocialGroup";
+import { Loading } from "components/Loading";
+import { LoadingContext } from "context/loading.context";
 
 export default function ArchivePage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const { loading } = useContext(LoadingContext);
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
     useSearchFilter(files);
 
@@ -22,8 +25,6 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
     <div className="archiveBG">
       <PageMetaData title="Archive" />
       <h1 className={styles.pageHeader}>Archive</h1>
-      <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
-      <SocialButton name="email" url="mailto: plantbassdworld@gmail.com" text="Email" />
 
       <SearchBox
         handleSearchChange={handleSearchChange}
@@ -31,15 +32,21 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
         amount={postCards.length}
       />
 
-      <div className="row g-2">
-        {postCards.map((story: AllPostProps) => (
-          <TextCard
-            key={story.frontmatter.name}
-            link={`/${story.frontmatter.path}/${story.slug}`}
-            post={story}
-          />
-        ))}
-      </div>
+      <SocialGroup icons={["instagram", "email"]} />
+
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="row g-2">
+          {postCards.map((story: AllPostProps) => (
+            <TextCard
+              key={story.frontmatter.name}
+              link={`/${story.frontmatter.path}/${story.slug}`}
+              post={story}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }

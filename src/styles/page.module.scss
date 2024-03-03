@@ -19,6 +19,7 @@
   text-align: center;
   color: $pb-black;
   margin-top: 2rem;
+
   p {
     font-size: 1.4rem;
   }
@@ -33,7 +34,7 @@
 
 // Button stylesheets
 
-%genericButton {
+%generic-button {
   border: 0;
   transition: 0.25s ease;
 
@@ -43,7 +44,7 @@
 }
 
 .spotify {
-  @extend %genericButton;
+  @extend %generic-button;
 
   color: $spotify;
 
@@ -53,7 +54,7 @@
 }
 
 .soundcloud {
-  @extend %genericButton;
+  @extend %generic-button;
 
   color: $pb-white;
   background-color: $soundcloud;
@@ -64,7 +65,7 @@
 }
 
 .bandcamp {
-  @extend %genericButton;
+  @extend %generic-button;
 
   color: $pb-white;
   background-color: $bandcamp;

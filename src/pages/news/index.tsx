@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
+import { useContext } from "react";
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
 import { TextCard } from "components/Card";
@@ -9,9 +10,10 @@ import { AllPostProps } from "types/frontmatter";
 import { useTagsFilter } from "hooks";
 import { getAllPosts } from "utils/getAllPosts";
 import PageMetaData from "components/PageMetaData";
-import { plantbassdInstagram } from "utils/constants";
-import { SocialButton } from "components/Icon";
 import { sortByMostRecentDate } from "utils";
+import { Loading } from "components/Loading";
+import { LoadingContext } from "context/loading.context";
+import { SocialGroup } from "components/Icon";
 
 const newsTags = [
   { name: "fresh juice", value: false },
@@ -23,6 +25,7 @@ const newsTags = [
 ];
 
 export default function NewsPage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const { loading } = useContext(LoadingContext);
   const { tagsError, tagsHasErrored, filteredPosts, tagList, handleTags } = useTagsFilter(
     newsTags,
     files,
@@ -42,26 +45,30 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
       <h3 className={styles.pageText}>
         Catch the latest about new music, upcoming gigs & events, and all things Plant Bass'd.
       </h3>
-      <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
-      <SocialButton name="email" url="mailto: plantbassdworld@gmail.com" text="Email" />
 
       <FilterTags handleTags={handleTags} tagList={tagList} />
 
-      <div className="row g-3">
-        {filteredPosts.length > 0 ? (
-          filteredPosts.map((story: AllPostProps) => (
-            <TextCard
-              key={story.frontmatter.name}
-              link={`/${story.frontmatter.path}/${story.slug}`}
-              post={story}
-            />
-          ))
-        ) : (
-          <div className={styles.noPostsFound}>
-            <p>No recent posts found</p>
-          </div>
-        )}
-      </div>
+      <SocialGroup icons={["instagram", "email"]} />
+
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="row g-3">
+          {filteredPosts.length > 0 ? (
+            filteredPosts.map((story: AllPostProps) => (
+              <TextCard
+                key={story.frontmatter.name}
+                link={`/${story.frontmatter.path}/${story.slug}`}
+                post={story}
+              />
+            ))
+          ) : (
+            <div className={styles.noPostsFound}>
+              <p>No recent posts found</p>
+            </div>
+          )}
+        </div>
+      )}
 
       <div className={styles.viewAllBtn}>
         <Link href="/archive" className="btn btn-dark btn-lg px-5 py-2" type="button">

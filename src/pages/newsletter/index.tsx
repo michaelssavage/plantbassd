@@ -1,9 +1,9 @@
-import { TiTick } from "react-icons/ti";
 import styles from "components/Signup/Signup.module.scss";
 import { Loading } from "components/Loading";
 import { HoverLink } from "components/HoverLink";
 import Header from "components/Header";
 import { useNewsletter } from "hooks/useNewsletter.hook";
+import { CheckIcon } from "components/Icon";
 
 export default function Newsletter() {
   const {
@@ -25,7 +25,7 @@ export default function Newsletter() {
       return (
         <button className="btn btn-outline-success shake" disabled>
           <div className={styles.svg}>
-            <TiTick />
+            <CheckIcon />
           </div>
         </button>
       );
@@ -43,8 +43,8 @@ export default function Newsletter() {
         <Header first="Newsletter" />
         <h3>Sign up to our newsletter to keep up to date!</h3>
         {complete ? (
-          <div className={styles.deleteSVG}>
-            <TiTick />
+          <div className={styles.tickSVG}>
+            <CheckIcon />
           </div>
         ) : (
           <>

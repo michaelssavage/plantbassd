@@ -1,13 +1,13 @@
 import { InferGetStaticPropsType } from "next";
 import { MDXRemote } from "next-mdx-remote";
 import { Picture } from "components/Picture";
-import { Icon } from "components/Icon";
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { HoverLink } from "components/HoverLink";
 import styles from "styles/top-ten.module.scss";
 import PageMetaData from "components/PageMetaData";
 import { FavTrack } from "components/Slug";
+import { Icon } from "components/Icon/Icon";
 
 const components = { HoverLink, Picture, FavTrack };
 
@@ -40,7 +40,7 @@ export default function TopTenSlug({
           role="button"
           target="_blank"
         >
-          <Icon icon="instagram" /> {header}
+          <Icon name="instagram" /> {header}
         </a>
         <div className="text-center">
           <Picture alt="artist press pic" size={600} src={cover} />

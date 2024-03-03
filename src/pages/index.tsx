@@ -1,9 +1,12 @@
+import { useContext } from "react";
 import { FreshJuice, Gigs, News, Premiere, Radar, TopTen } from "components/Main";
 import { Banner } from "components/Banner";
 import { AllPostProps } from "types/frontmatter";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
+import { LoadingContext } from "context/loading.context";
+import { Loading } from "components/Loading";
 
 interface HomeProps {
   allPosts: AllPostProps[];
@@ -14,23 +17,32 @@ interface HomeProps {
 }
 
 export default function Home({ allPosts, topTen, radar, freshjuice, gigs }: HomeProps) {
+  const { loading } = useContext(LoadingContext);
+
   return (
     <main>
-      <PageMetaData title="PLANT BASS'D" />
+      <PageMetaData title="Plant Bass'd" />
 
       <Banner />
-      <News news={allPosts} />
 
-      <Premiere />
+      {loading ? (
+        <Loading />
+      ) : (
+        <>
+          <News news={allPosts} />
 
-      <FreshJuice freshjuice={freshjuice} />
+          <Premiere />
 
-      <Gigs gigs={gigs} />
+          <FreshJuice freshjuice={freshjuice} />
 
-      <div className="gradients">
-        <TopTen topTen={topTen} />
-        <Radar radar={radar} />
-      </div>
+          <Gigs gigs={gigs} />
+
+          <div className="gradients">
+            <TopTen topTen={topTen} />
+            <Radar radar={radar} />
+          </div>
+        </>
+      )}
     </main>
   );
 }

@@ -30,21 +30,20 @@
   transition: 0.25s ease;
   text-align: center;
   cursor: pointer;
-
-  img {
-    margin-bottom: -2rem !important;
-    border-radius: 0.675rem;
-  }
+  position: relative;
 
   p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
     margin: 0;
-    position: relative;
     display: inline-block;
-    padding: 0 0.25rem;
-    border-radius: 0.25rem;
-    background-color: $pb-white;
-    color: $pb-black;
-    border: 1px solid $pb-black;
+    color: $pb-white;
+    text-shadow: 1px 1px 3px $pb-black;
+    font-weight: bold;
+    transform: rotate(-15deg);
+    white-space: nowrap;
   }
 
   div {
@@ -56,5 +55,17 @@
     transform: scale(1.04);
     opacity: 0.9;
     filter: drop-shadow(0 6px 6px rgb(0 0 0 / 25%));
+  }
+}
+
+$rotation-range: 5;
+
+@function random-rotation() {
+  @return random() * 2 * $rotation-range - $rotation-range;
+}
+
+.cardStyle:nth-child(odd) {
+  img {
+    transform: rotate(random-rotation() + deg);
   }
 }

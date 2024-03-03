@@ -1,7 +1,5 @@
 import Link from "next/link";
 import { socialIcons } from "arrays/social-icons";
-
-import { Icon } from "components/Icon";
 import { Picture } from "components/Picture";
 import styles from "styles/team.module.scss";
 import { ourTeam } from "arrays/our-team";
@@ -14,10 +12,19 @@ export default function TeamPage() {
       <PageMetaData title="Our Team" />
 
       <div className="row">
-        <div className="col-md-6 col-sm-12">
-          <div className={styles.stickyPosition}>
+        <div className="col-12 col-sm-5">
+          {ourTeam.map(({ img, link, name }) => (
+            <div key={name} className={card.cardStyle}>
+              <Link href={link}>
+                <Picture alt={name} size={1000} src={`/gigs/${img}`} />
+              </Link>
+              <p className={styles.member}>{name}</p>
+            </div>
+          ))}
+        </div>
+        <div className="col-12 col-sm-7">
+          <div className={styles.biography}>
             <h1 className={styles.pageHeader}>Our Team</h1>
-
             <p>
               In early 2020, Oisín Campbell, Michael Savage, and Peter Toal from Co. Monaghan,
               Ireland came together to form Plant Bass'd. Initially, the collective wanted to focus
@@ -40,34 +47,22 @@ export default function TeamPage() {
               Radar' series each month, premiere up and coming artists on SoundCloud, and write
               about interests ranging from festivals, forward-thinking labels, and movements.
             </p>
-            <div className="row pb-3">
-              <h3>Social Media:</h3>
-              {socialIcons.map(({ link, name }) => (
-                <div key={link} className={styles.icons}>
-                  <Link
-                    href={link}
-                    className={styles.iconBox}
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <div className={styles.iconAndText}>
-                      <Icon icon={name} styling={styles.socialIcon} size="2.2rem" />
-                      <p>{name}</p>
-                    </div>
-                  </Link>
-                </div>
-              ))}
-            </div>
           </div>
         </div>
-        <div className="col-md-6 col-sm-12">
-          {ourTeam.map(({ img, link, name }) => (
-            <div key={name} className={card.cardStyle}>
-              <Link href={link}>
-                <Picture alt={name} size={1000} src={`/gigs/${img}`} />
-              </Link>
-              <p className={styles.player}>{name}</p>
-            </div>
+      </div>
+      <div className="row">
+        <div className={styles.socials}>
+          {socialIcons.map(({ link, name, icon }) => (
+            <Link
+              key={link}
+              href={link}
+              className={styles.iconBox}
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <span>{icon}</span>
+              <p>{name}</p>
+            </Link>
           ))}
         </div>
       </div>

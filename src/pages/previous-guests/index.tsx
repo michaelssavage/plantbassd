@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { GetStaticProps } from "next";
 import { guestList, headliners } from "arrays/previous-guests";
 import Error from "components/Error";
@@ -11,10 +11,13 @@ import { defaultGuest, GuestSlug, PreviousGuestType } from "components/PreviousG
 import { getPosts } from "utils/getPosts";
 import { sortAlphabetically } from "utils";
 import { ArtistModal } from "components/ArtistLookUp/ArtistModal";
+import { LoadingContext } from "context/loading.context";
+import { Loading } from "components/Loading";
 
 const djs = guestList.concat(headliners);
 
 export default function PreviousGuestsPage({ gigs }: { gigs: GuestSlug[] }) {
+  const { loading } = useContext(LoadingContext);
   const [show, setShow] = useState(false);
   const [modalData, setModalData] = useState<PreviousGuestType>(defaultGuest);
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } = useSearchFilter(
@@ -36,7 +39,9 @@ export default function PreviousGuestsPage({ gigs }: { gigs: GuestSlug[] }) {
         text="DJ"
       />
 
-      {filter ? (
+      {loading ? (
+        <Loading />
+      ) : filter ? (
         <div className="row g-4">
           {postCards.sort(sortAlphabetically).map((guest: PreviousGuestType) => (
             <PreviousGuest

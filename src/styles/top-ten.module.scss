@@ -44,12 +44,15 @@
   color: $instagram;
   transition: 0.25s ease;
 
+  svg {
+    width: 2rem;
+    height: 2rem;
+  }
+
   &:hover {
     color: $header-black;
     background-color: $instagram;
   }
-
-  padding: 0.4rem 1.2rem;
 }
 
 .bioText {

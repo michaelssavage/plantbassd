@@ -1,5 +1,6 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
+import { useContext } from "react";
 import { useTagsFilter } from "hooks";
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
@@ -8,9 +9,10 @@ import styles from "styles/page.module.scss";
 import { AllPostProps } from "types/frontmatter";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
-import { SocialButton } from "components/Icon";
-import { plantbassdInstagram } from "utils/constants";
 import { sortByMostRecentDate } from "utils";
+import { SocialGroup } from "components/Icon/SocialGroup";
+import { LoadingContext } from "context/loading.context";
+import { Loading } from "components/Loading";
 
 const gigsTags = [
   { name: "edinburgh", value: false },
@@ -20,6 +22,7 @@ const gigsTags = [
 ];
 
 export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const { loading } = useContext(LoadingContext);
   const { tagsError, tagsHasErrored, filteredPosts, tagList, handleTags } = useTagsFilter(
     gigsTags,
     gigs,
@@ -41,24 +44,23 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
         After the first successful party in Edinburgh in September 2021, Plant Bass'd has put
         together {filteredPosts.length} shows in Ireland and Scotland:
       </h3>
-
-      <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
-      <SocialButton
-        name="resident advisor"
-        url="https://ra.co/promoters/103854"
-        text="Resident Advisor"
-      />
       <FilterTags handleTags={handleTags} tagList={tagList} />
 
-      <div className="row g-3">
-        {filteredPosts.map((gig: AllPostProps) => (
-          <TextCard
-            key={gig.frontmatter.name}
-            link={`/${gig.frontmatter.path}/${gig.slug}`}
-            post={gig}
-          />
-        ))}
-      </div>
+      <SocialGroup icons={["instagram", "resident advisor"]} />
+
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="row g-3">
+          {filteredPosts.map((gig: AllPostProps) => (
+            <TextCard
+              key={gig.frontmatter.name}
+              link={`/${gig.frontmatter.path}/${gig.slug}`}
+              post={gig}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }

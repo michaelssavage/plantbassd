@@ -1,5 +1,6 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
+import { useContext } from "react";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -8,13 +9,15 @@ import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
-import { SocialButton } from "components/Icon";
-import { plantbassdInstagram } from "utils/constants";
 import { sortByMostRecentDate } from "utils";
+import { SocialGroup } from "components/Icon/SocialGroup";
+import { LoadingContext } from "context/loading.context";
+import { Loading } from "components/Loading";
 
 export default function FreshJuicePage({
   freshjuice,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const { loading } = useContext(LoadingContext);
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
     useSearchFilter(freshjuice);
 
@@ -32,19 +35,26 @@ export default function FreshJuicePage({
         Supporting underground artists with reviews of hot new music from around the world. See more
         on our Bandcamp below.
       </h3>
-      <SocialButton name="instagram" url={plantbassdInstagram} text="Instagram" />
-      <SocialButton name="bandcamp" url="https://bandcamp.com/oisincampbellbap" text="Bandcamp" />
       <SearchBox
         handleSearchChange={handleSearchChange}
         filter={filter}
         amount={postCards.length}
       />
-      <div className="row g-3">
-        {postCards.map((juice: AllPostProps) => (
-          <TextCard key={juice.frontmatter.name} link={`/fresh-juice/${juice.slug}`} post={juice} />
-        ))}
-      </div>
-      <div className="mt-2 text-end">{postCards.length} cards.</div>
+      <SocialGroup icons={["instagram", "bandcamp"]} />
+
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="row g-3">
+          {postCards.map((juice: AllPostProps) => (
+            <TextCard
+              key={juice.frontmatter.name}
+              link={`/fresh-juice/${juice.slug}`}
+              post={juice}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }

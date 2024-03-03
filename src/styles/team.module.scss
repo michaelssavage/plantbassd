@@ -1,67 +1,62 @@
 @use "@/abstracts" as *;
 
-.pageHeader {
-  text-align: center;
-  font-size: clamp(2rem, 1.3115rem + 3.9344vw, 5rem);
-}
-
 %layout {
-  padding: 10vh 12%;
+  padding: 10vh 8%;
 }
 
 .aboutBG {
+  @extend %layout;
+
   text-align: justify;
   background-color: $lavender;
   min-height: 100vh;
   padding-bottom: 2rem;
 
-  @extend %layout;
-}
+  .biography {
+    position: sticky;
+    top: 2rem;
 
-.stickyPosition {
-  position: sticky;
-  top: 2rem;
-}
-
-.icons {
-  display: flex;
-  flex: 0 0 auto;
-  width: 50%;
-}
-
-@media (width <= 378px) {
-  .icons {
-    width: 100%;
+    .pageHeader {
+      text-align: center;
+      font-size: clamp(2rem, 1.3115rem + 3.9344vw, 5rem);
+    }
   }
 }
 
-.iconAndText {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-}
-
-.iconBox {
-  text-decoration: none;
-  color: $pb-black;
-  transition: 0.25s ease;
-  display: inline-block;
-
-  &:hover {
-    color: $pb-black;
-    transform: scale(1.1);
-    filter: drop-shadow(0 6px 6px $drop-shadow);
-  }
-}
-
-.socialIcon {
-  display: flex;
-  margin: 0.5rem;
-  fill: $header-black;
-  border-radius: 1rem 0;
-}
-
-.player {
+.member {
   font-size: 1.6rem;
   font-family: Dx-Slim, Helvetica, sans-serif;
+}
+
+.socials {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap: 2rem;
+
+  .iconBox {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: $pb-black;
+    transition: 0.25s ease;
+    gap: 0.5rem;
+    align-items: flex-end;
+
+    svg {
+      height: 2.2rem;
+      width: 2.2rem;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    &:hover {
+      color: $pb-black;
+      transform: scale(1.1);
+      filter: drop-shadow(0 6px 6px $drop-shadow);
+    }
+  }
 }

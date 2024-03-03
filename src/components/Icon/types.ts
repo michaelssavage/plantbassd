@@ -26,20 +26,6 @@ export type IconType =
   | "empty"
   | "under the radar";
 
-export interface SocialIconProps {
-  icon: IconType;
-  styling?: string;
-  size?: string;
-}
-
 export type IconMapType = {
   [key in IconType]: ReactElement;
 };
-
-export interface SocialProps {
-  name: IconType;
-  url: string;
-  icon?: string;
-  style?: string;
-  text?: string;
-}

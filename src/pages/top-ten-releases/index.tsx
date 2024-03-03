@@ -1,5 +1,6 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
+import { useContext } from "react";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -8,11 +9,13 @@ import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
-import { SocialButton } from "components/Icon";
-import { plantbassdInstagram } from "utils/constants";
 import { sortByMostRecentDate } from "utils";
+import { SocialGroup } from "components/Icon";
+import { LoadingContext } from "context/loading.context";
+import { Loading } from "components/Loading";
 
 export default function TopTenPage({ topTens }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const { loading } = useContext(LoadingContext);
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
     useSearchFilter(topTens);
 
@@ -29,25 +32,27 @@ export default function TopTenPage({ topTens }: InferGetStaticPropsType<typeof g
       <h3 className={styles.pageText}>
         Ireland & The UK's best talent choose their favourite top ten picks of the year.
       </h3>
-      <SocialButton name="instagram" url={plantbassdInstagram} />
-      <SocialButton name="email" url="mailto: plantbassdworld@gmail.com" text="Email" />
-
       <SearchBox
         handleSearchChange={handleSearchChange}
         filter={filter}
         amount={postCards.length}
       />
 
-      <div className="row g-3">
-        {postCards.map((topTen: AllPostProps) => (
-          <TextCard
-            key={topTen.frontmatter.name}
-            link={`/top-ten-releases/${topTen.slug}`}
-            post={topTen}
-          />
-        ))}
-      </div>
-      <div className="mt-2 text-end">{postCards.length} cards.</div>
+      <SocialGroup icons={["instagram", "email"]} />
+
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="row g-3">
+          {postCards.map((topTen: AllPostProps) => (
+            <TextCard
+              key={topTen.frontmatter.name}
+              link={`/top-ten-releases/${topTen.slug}`}
+              post={topTen}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
+import { useContext } from "react";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -8,11 +9,13 @@ import { AllPostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
-import { SocialButton } from "components/Icon";
-import { plantbassdInstagram } from "utils/constants";
 import { sortByMostRecentDate } from "utils";
+import { SocialGroup } from "components/Icon";
+import { Loading } from "components/Loading";
+import { LoadingContext } from "context/loading.context";
 
 export default function RadioPage({ radios }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const { loading } = useContext(LoadingContext);
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
     useSearchFilter(radios);
 
@@ -20,32 +23,28 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
 
   return (
     <div className="radioBG">
-      <PageMetaData
-        title="Mixes"
-        description="Guest mixes from homegrown and international artists."
-      />
-      <h1 className={styles.pageHeader}>Mixes</h1>
+      <PageMetaData title="Radios" description="Guest mixes from homegrown artists." />
+      <h1 className={styles.pageHeader}>Radios</h1>
 
-      <h3 className={styles.pageText}>
-        Guest mixes from homegrown and international artists. Click the link below to find out more.
-      </h3>
-      <SocialButton name="instagram" url={plantbassdInstagram} />
-      <SocialButton
-        name="soundcloud"
-        url="https://soundcloud.com/plantbassdworld/sets/plant-bassd-radio"
-      />
+      <h3 className={styles.pageText}>Guest mixes from homegrown artists.</h3>
 
       <SearchBox
         handleSearchChange={handleSearchChange}
         filter={filter}
         amount={postCards.length}
       />
-      <div className="row g-3">
-        {postCards.map((radio: AllPostProps) => (
-          <TextCard key={radio.frontmatter.name} link={`/radios/${radio.slug}`} post={radio} />
-        ))}
-      </div>
-      <div className="mt-2 text-end">{postCards.length} cards.</div>
+
+      <SocialGroup icons={["instagram", "soundcloud"]} />
+
+      {loading ? (
+        <Loading />
+      ) : (
+        <div className="row g-3">
+          {postCards.map((radio: AllPostProps) => (
+            <TextCard key={radio.frontmatter.name} link={`/radios/${radio.slug}`} post={radio} />
+          ))}
+        </div>
+      )}
     </div>
   );
 }

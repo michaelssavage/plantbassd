@@ -1,8 +1,9 @@
 import { HoverLink } from "components/HoverLink";
-import { Icon } from "components/Icon";
 import { Picture } from "components/Picture";
 import styles from "styles/links.module.scss";
 import { LinkProps } from "arrays/linktree";
+import { EmptyIcon } from "components/Icon";
+import { Icon } from "components/Icon/Icon";
 import { RenderLink } from "./RenderLink";
 
 export const LinkPost = ({ posts }: { posts: LinkProps[] }) => {
@@ -12,7 +13,9 @@ export const LinkPost = ({ posts }: { posts: LinkProps[] }) => {
         <div className={styles.linkTitle}>No Data</div>
         <div className={`btn btn-outline-dark disabled ${styles.btnText}`}>
           <div className={styles.imageAndText}>
-            <Icon icon="empty" styling={styles.noDataIcon} />
+            <span>
+              <EmptyIcon />
+            </span>
             No Data For Selected Filters
           </div>
         </div>
@@ -27,32 +30,28 @@ export const LinkPost = ({ posts }: { posts: LinkProps[] }) => {
     return `/${name.replaceAll(" ", "-")}`;
   };
 
-  return (
-    <>
-      {posts.map(({ description, img, link, name, title }) => (
-        <div className={`row ${styles.buttonStyle}`} key={title}>
-          <div className={styles.linkTitle}>
-            <Icon icon={name} styling={styles.linkIcon} size="1.2rem" />
-            <HoverLink url={alterLink(name)} name={name.toUpperCase()} />
+  return posts.map(({ description, img, link, name, title }) => (
+    <div className={`row ${styles.buttonStyle}`} key={title}>
+      <div className={styles.linkTitle}>
+        <Icon name={name} />
+        <HoverLink url={alterLink(name)} name={name.toUpperCase()} />
+      </div>
+      <RenderLink link={link} img={img}>
+        <div className={img && styles.imageAndText}>
+          {img && (
+            <Picture
+              src={img}
+              alt={`pic of ${title}`}
+              size={110}
+              style={{ borderRadius: "0.275rem" }}
+            />
+          )}
+          <div className={styles.titleAndDescription}>
+            <div className="fw-bold">{title}</div>
+            {description && <div>{description}</div>}
           </div>
-          <RenderLink link={link} img={img}>
-            <div className={img && styles.imageAndText}>
-              {img && (
-                <Picture
-                  src={img}
-                  alt={`pic of ${title}`}
-                  size={110}
-                  style={{ borderRadius: "0.275rem" }}
-                />
-              )}
-              <div className={styles.titleAndDescription}>
-                <div className="fw-bold">{title}</div>
-                {description && <div>{description}</div>}
-              </div>
-            </div>
-          </RenderLink>
         </div>
-      ))}
-    </>
-  );
+      </RenderLink>
+    </div>
+  ));
 };

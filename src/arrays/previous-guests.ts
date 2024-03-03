@@ -34,7 +34,11 @@ export const headliners: GuestProps[] = [
     img: "10-sweeney.jpg",
     link: "rory_sweeney123/",
     name: "Rory Sweeney",
-    gig: ["https://ra.co/events/1546542", "https://ra.co/events/1523165"],
+    gig: [
+      "https://ra.co/events/1546542",
+      "https://ra.co/events/1523165",
+      "https://ra.co/events/1867088",
+    ],
   },
   {
     img: "14-satyr.jpg",
@@ -156,6 +160,7 @@ export const guestList: GuestProps[] = [
       "https://ra.co/events/1494126",
       "https://ra.co/events/1515781",
       "https://ra.co/events/1533360",
+      "https://ra.co/events/1867088",
     ],
   },
   {
@@ -219,6 +224,7 @@ export const guestList: GuestProps[] = [
       "https://ra.co/events/1744348",
       "https://ra.co/events/1762287",
       "https://ra.co/events/1828740",
+      "https://ra.co/events/1867088",
     ],
   },
   {
@@ -230,6 +236,7 @@ export const guestList: GuestProps[] = [
       "https://www.eventbrite.ie/e/plant-bassd-presents-organica-tickets-399512531737",
       "https://ra.co/events/1774670",
       "https://ra.co/events/1828740",
+      "https://ra.co/events/1867088",
     ],
   },
   {
@@ -301,7 +308,7 @@ export const guestList: GuestProps[] = [
     img: "13-julia.jpg",
     link: "julialouiseknifefist/",
     name: "Julia Louise KnifeFist",
-    gig: ["https://ra.co/events/1546542"],
+    gig: ["https://ra.co/events/1546542", "https://ra.co/events/1867088"],
   },
   {
     img: "14-doubt.jpg",
@@ -311,6 +318,7 @@ export const guestList: GuestProps[] = [
       "https://ra.co/events/1550775",
       "https://ra.co/events/1570572",
       "https://ra.co/events/1744348",
+      "https://ra.co/events/1867088",
     ],
   },
   {
@@ -322,10 +330,11 @@ export const guestList: GuestProps[] = [
   {
     img: "15-lychee.jpg",
     link: "polyp800/",
-    name: "Lychee",
+    name: "polyp",
     gig: [
       "https://www.eventbrite.ie/e/plant-bassd-presents-organica-tickets-399512531737",
       "https://www.eventbrite.com/e/plant-bassd-presents-plus-one-with-e-the-artist-lychee-tickets-384796585947",
+      "https://ra.co/events/1867088",
     ],
   },
   {
@@ -335,6 +344,7 @@ export const guestList: GuestProps[] = [
     gig: [
       "https://www.eventbrite.com/e/plant-bassd-presents-plus-one-with-e-the-artist-lychee-tickets-384796585947",
       "https://ra.co/events/1533360",
+      "https://ra.co/events/1867088",
     ],
   },
   {
@@ -521,7 +531,7 @@ export const guestList: GuestProps[] = [
     img: "33-hotwater.jpg",
     link: "djhotwaterbottle/",
     name: "DJ Hotwaterbottle",
-    gig: ["https://ra.co/events/1694179"],
+    gig: ["https://ra.co/events/1694179", "https://ra.co/events/1867088"],
   },
   {
     img: "33-effua.jpg",
@@ -551,13 +561,17 @@ export const guestList: GuestProps[] = [
     img: "34-strawbby.jpg",
     link: "strawb.bby/",
     name: "strawb.bby",
-    gig: ["https://ra.co/events/1699420", "https://ra.co/events/1838710"],
+    gig: [
+      "https://ra.co/events/1699420",
+      "https://ra.co/events/1838710",
+      "https://ra.co/events/1867088",
+    ],
   },
   {
     img: "34-clo.jpg",
     link: "cloallenn/",
     name: "CLO",
-    gig: ["https://ra.co/events/1699420"],
+    gig: ["https://ra.co/events/1699420", "https://ra.co/events/1867088"],
   },
   {
     img: "35-crrdr.jpg",
@@ -593,7 +607,7 @@ export const guestList: GuestProps[] = [
     img: "43-messi.jpg",
     link: "vio_messi",
     name: "Vionel Messi",
-    gig: ["https://ra.co/events/1744348"],
+    gig: ["https://ra.co/events/1744348", "https://ra.co/events/1867088"],
   },
   {
     img: "43-invt.jpg",
@@ -769,4 +783,70 @@ export const guestList: GuestProps[] = [
     name: "Lolz",
     gig: ["https://ra.co/events/1828740"],
   },
+  // {
+  //   img: "55-",
+  //   link: "boosterhooch",
+  //   name: "Boosterhooch",
+  //   gig: ["https://ra.co/events/1867088"],
+  // },
+  // {
+  //   img: "55-",
+  //   link: "hheir_",
+  //   name: "HhÉiR",
+  //   gig: ["https://ra.co/events/1867088"],
+  // },
+  // {
+  //   img: "55-",
+  //   link: "jack________ward",
+  //   name: "Jack Ward",
+  //   gig: ["https://ra.co/events/1867088"],
+  // },
+  // {
+  //   img: "55-",
+  //   link: "lazlo_rat",
+  //   name: "Lazlo",
+  //   gig: ["https://ra.co/events/1867088"],
+  // },
+  // {
+  //   img: "55-",
+  //   link: "silly.talbot",
+  //   name: "Sean Talbot",
+  //   gig: ["https://ra.co/events/1867088"],
+  // },
+  // {
+  //   img: "55-",
+  //   link: "siglicadia",
+  //   name: "siglicadia",
+  //   gig: ["https://ra.co/events/1867088"],
+  // },
+  // {
+  //   img: "55-",
+  //   link: "tension_fi",
+  //   name: "Tension",
+  //   gig: ["https://ra.co/events/1867088"],
+  // },
+  // {
+  //   img: "55-",
+  //   link: "fionnstormtrooper",
+  //   name: "Fionn Stormtrooper",
+  //   gig: ["https://ra.co/events/1867088"],
+  // },
+  // {
+  //   img: "55-",
+  //   link: "pixie_chanel",
+  //   name: "pixieteeth",
+  //   gig: ["https://ra.co/events/1867088"],
+  // },
+  // {
+  //   img: "55-",
+  //   link: "rhyzine",
+  //   name: "Rhyzine",
+  //   gig: ["https://ra.co/events/1867088"],
+  // },
+  // {
+  //   img: "55-",
+  //   link: "tk_lemonade_",
+  //   name: "Tadhg K",
+  //   gig: ["https://ra.co/events/1867088"],
+  // },
 ];

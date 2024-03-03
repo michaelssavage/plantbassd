@@ -1,7 +1,7 @@
-import { TiTick } from "react-icons/ti";
 import { Loading } from "components/Loading";
 import { HoverLink } from "components/HoverLink";
 import { useNewsletter } from "hooks/useNewsletter.hook";
+import { CheckIcon } from "components/Icon";
 import styles from "./Signup.module.scss";
 
 export const Signup = ({ linktree }: { linktree?: boolean }) => {
@@ -24,7 +24,7 @@ export const Signup = ({ linktree }: { linktree?: boolean }) => {
       return (
         <button className="btn btn-outline-success shake" disabled>
           <div className={styles.svg}>
-            <TiTick />
+            <CheckIcon />
           </div>
         </button>
       );

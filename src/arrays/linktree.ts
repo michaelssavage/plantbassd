@@ -184,7 +184,7 @@ export const mainLinks: LinkProps[] = [
   {
     title: "Home",
     link: "https://www.plantbassd.com",
-    name: "site",
+    name: "home",
   },
   {
     title: "Soundcloud",

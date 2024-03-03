@@ -5,28 +5,26 @@
   color: $pb-black;
   transition: 0.25s ease;
   display: inline-block;
-  margin: 0.25rem;
 
   &:hover {
     color: $pb-black;
     transform: scale(1.1);
     filter: drop-shadow(0 6px 6px $drop-shadow);
   }
-}
 
-.textBox {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  .textBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.25rem;
 
-  p {
-    margin: 0;
+    svg {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+
+    p {
+      margin: 0;
+    }
   }
-}
-
-.socialIcon {
-  display: flex;
-  margin: 0.5rem;
-  fill: $header-black;
-  border-radius: 1em 0;
 }

@@ -1,7 +1,7 @@
 import Link from "next/link";
+import { useContext } from "react";
 import { linkList } from "arrays/linktree";
 import { socialIcons } from "arrays/social-icons";
-import { Icon } from "components/Icon";
 import Header from "components/Header";
 import styles from "styles/links.module.scss";
 import Error from "components/Error";
@@ -9,7 +9,10 @@ import { Signup } from "components/Signup/Signup";
 import { useTagsFilter } from "hooks";
 import { FilterTags } from "components/FilterTags";
 import PageMetaData from "components/PageMetaData";
-import { Discovery, LinkPost } from "components/Links";
+import { LinkPost } from "components/Links";
+import { Icon } from "components/Icon/Icon";
+import { Loading } from "components/Loading";
+import { LoadingContext } from "context/loading.context";
 
 const linkTags = [
   { name: "tickets", value: false },
@@ -19,6 +22,7 @@ const linkTags = [
 ];
 
 export default function Links() {
+  const { loading } = useContext(LoadingContext);
   const { tagsError, tagsHasErrored, filteredPosts, tagList, handleTags } = useTagsFilter(
     linkTags,
     linkList
@@ -36,11 +40,9 @@ export default function Links() {
 
         <div className="row">
           {socialIcons.map(({ link, name }) => (
-            <div className={`col ${styles.iconContainer}`} key={link}>
-              <Link href={link}>
-                <Icon icon={name} styling={styles.socialIcon} size="2.5rem" />
-              </Link>
-            </div>
+            <Link key={link} href={link} className={`col ${styles.iconContainer}`}>
+              <Icon name={name} />
+            </Link>
           ))}
         </div>
 
@@ -50,15 +52,17 @@ export default function Links() {
 
         <h2 className="d-flex justify-content-end p-0 m-0">Most Recent</h2>
 
-        <LinkPost posts={filteredPosts} />
+        {loading ? (
+          <Loading />
+        ) : (
+          <>
+            <LinkPost posts={filteredPosts} />
 
-        <h2 className="d-flex justify-content-end p-0 m-0">Discovery</h2>
-
-        <Discovery />
-
-        <div className="row my-4">
-          <Signup linktree />
-        </div>
+            <div className="row my-4">
+              <Signup linktree />
+            </div>
+          </>
+        )}
       </div>
     </div>
   );

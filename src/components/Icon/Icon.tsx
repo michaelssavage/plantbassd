@@ -1,50 +1,56 @@
-import { AiFillHome, AiOutlineLink, AiOutlineSearch } from "react-icons/ai";
-import { BiRadar, BiRadio } from "react-icons/bi";
-import { BsFacebook, BsFillVolumeUpFill, BsInstagram, BsSpotify } from "react-icons/bs";
-import { FaSpotify } from "react-icons/fa";
-import { GiTicket } from "react-icons/gi";
-import { GrSoundcloud } from "react-icons/gr";
-import { IconContext } from "react-icons";
-import { ImNewspaper } from "react-icons/im";
-import { IoMdMail } from "react-icons/io";
-import { MdLocalDrink } from "react-icons/md";
-import { SiBandcamp } from "react-icons/si";
-import { TiContacts } from "react-icons/ti";
-import { useMemo } from "react";
-import { RxValueNone } from "react-icons/rx";
-import { IconMapType, SocialIconProps } from "./types";
-import { ResidentAdvisor } from "./ResidentAdvisor/ResidentAdvisor";
+import {
+  BandcampIcon,
+  BookIcon,
+  EmailIcon,
+  EmptyIcon,
+  FacebookIcon,
+  HomeIcon,
+  InstaIcon,
+  LemonIcon,
+  LinkIcon,
+  NewsIcon,
+  RadarIcon,
+  RadioIcon,
+  RaIcon,
+  SearchIcon,
+  SoundCloudIcon,
+  SpeakerIcon,
+  SpotifyIcon,
+  TicketIcon,
+} from "components/Icon";
+import { IconMapType, IconType } from "./types";
 
 const IconMap: IconMapType = {
-  bandcamp: <SiBandcamp />,
-  "contact us": <TiContacts />,
-  email: <IoMdMail />,
-  home: <AiFillHome />,
-  facebook: <BsFacebook />,
-  "fresh juice": <MdLocalDrink />,
-  gig: <GiTicket />,
-  gigs: <GiTicket />,
-  instagram: <BsInstagram />,
-  links: <AiOutlineLink />,
-  mixes: <GrSoundcloud />,
-  news: <ImNewspaper />,
-  premiere: <BsFillVolumeUpFill />,
-  premieres: <BsFillVolumeUpFill />,
-  "resident advisor": <ResidentAdvisor />,
-  radio: <BiRadio />,
-  search: <AiOutlineSearch />,
-  site: <AiFillHome />,
-  soundcloud: <GrSoundcloud />,
-  spotify: <BsSpotify />,
-  takeovers: <FaSpotify />,
-  tickets: <GiTicket />,
-  empty: <RxValueNone />,
-  "under the radar": <BiRadar />,
+  bandcamp: <BandcampIcon />,
+  "contact us": <BookIcon />,
+  email: <EmailIcon />,
+  home: <HomeIcon />,
+  facebook: <FacebookIcon />,
+  "fresh juice": <LemonIcon />,
+  gig: <TicketIcon />,
+  gigs: <TicketIcon />,
+  instagram: <InstaIcon />,
+  links: <LinkIcon />,
+  mixes: <SoundCloudIcon />,
+  news: <NewsIcon />,
+  premiere: <SpeakerIcon />,
+  premieres: <SpeakerIcon />,
+  "resident advisor": <RaIcon />,
+  radio: <RadioIcon />,
+  search: <SearchIcon />,
+  site: <HomeIcon />,
+  soundcloud: <SoundCloudIcon />,
+  spotify: <SpotifyIcon />,
+  takeovers: <SpotifyIcon />,
+  tickets: <TicketIcon />,
+  empty: <EmptyIcon />,
+  "under the radar": <RadarIcon />,
 };
 
-export const Icon = ({ icon, styling = "navIcon", size = "2rem" }: SocialIconProps) => {
-  const styleMemo = useMemo(() => ({ className: styling, size: size }), [size, styling]);
-  return (
-    <IconContext.Provider value={styleMemo}>{IconMap[icon.toLowerCase()]}</IconContext.Provider>
-  );
+export interface SocialIconProps {
+  name: IconType;
+}
+
+export const Icon = ({ name }: SocialIconProps) => {
+  return IconMap[name.toLowerCase()];
 };
