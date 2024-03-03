@@ -1,6 +1,6 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import { useContext } from "react";
+
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -10,15 +10,13 @@ import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
-import { LoadingContext } from "context/loading.context";
+
 import { Loading } from "components/Loading";
-import { SocialGroup } from "components/Icon/SocialGroup";
+import { SocialGroup } from "components/Icon";
 
 export default function UnderTheRadarPage({
   radars,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { loading } = useContext(LoadingContext);
-
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
     useSearchFilter(radars);
 
@@ -41,9 +39,7 @@ export default function UnderTheRadarPage({
 
       <SocialGroup icons={["instagram", "bandcamp"]} />
 
-      {loading ? (
-        <Loading />
-      ) : (
+      <Loading>
         <div className="row g-3">
           {postCards.map((radar: AllPostProps) => (
             <TextCard
@@ -53,7 +49,7 @@ export default function UnderTheRadarPage({
             />
           ))}
         </div>
-      )}
+      </Loading>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import { ChangeEvent, FormEvent, useState } from "react";
-import { Loading } from "components/Loading";
+import { Spinner } from "components/Loading";
 import styles from "components/Signup/Signup.module.scss";
 import { CheckIcon } from "components/Icon";
 
@@ -42,7 +42,7 @@ export default function DeleteEmail() {
   };
 
   const handleButtonView = () => {
-    if (loading) return <Loading button />;
+    if (loading) return <Spinner button />;
     return (
       <button className="btn btn-outline-dark" type="submit" disabled={error ? true : false}>
         Update

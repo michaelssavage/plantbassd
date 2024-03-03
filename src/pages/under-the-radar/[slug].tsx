@@ -8,6 +8,7 @@ import { Picture } from "components/Picture";
 import { HoverLink } from "components/HoverLink";
 import PageMetaData from "components/PageMetaData";
 import { SoundCloud } from "components/Players";
+import { Loading } from "components/Loading";
 
 const components = { HoverLink, MusicRelease, SoundCloud };
 
@@ -32,10 +33,11 @@ export default function UnderTheRadarSlug(props: InferGetStaticPropsType<typeof 
         <p className={styles.bioText}>{bio}</p>
 
         <hr />
-
-        <div className="row">
-          <MDXRemote {...mdxSource} components={components} />
-        </div>
+        <Loading>
+          <div className="row">
+            <MDXRemote {...mdxSource} components={components} />
+          </div>
+        </Loading>
       </div>
     </div>
   );

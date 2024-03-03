@@ -8,6 +8,7 @@ import styles from "styles/top-ten.module.scss";
 import PageMetaData from "components/PageMetaData";
 import { FavTrack } from "components/Slug";
 import { Icon } from "components/Icon/Icon";
+import { Loading } from "components/Loading";
 
 const components = { HoverLink, Picture, FavTrack };
 
@@ -47,10 +48,11 @@ export default function TopTenSlug({
         </div>
 
         <hr />
-
-        <div className="row">
-          <MDXRemote {...mdxSource} components={components} />
-        </div>
+        <Loading>
+          <div className="row">
+            <MDXRemote {...mdxSource} components={components} />
+          </div>
+        </Loading>
       </div>
     </div>
   );

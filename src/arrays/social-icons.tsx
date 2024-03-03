@@ -1,5 +1,12 @@
 import { ReactElement } from "react";
-import { BandcampIcon, EmailIcon, FacebookIcon, InstaIcon, SoundCloudIcon } from "components/Icon";
+import {
+  BandcampIcon,
+  EmailIcon,
+  FacebookIcon,
+  InstaIcon,
+  RaIcon,
+  SoundCloudIcon,
+} from "components/Icon";
 import { plantbassdInstagram } from "utils/constants";
 import { IconType } from "components/Icon/types";
 
@@ -24,6 +31,11 @@ export const socialIcons: IconsProps[] = [
     link: "mailto: plantbassdworld@gmail.com",
     icon: <EmailIcon />,
     name: "Email" as IconType,
+  },
+  {
+    link: "https://ra.co/promoters/103854",
+    icon: <RaIcon />,
+    name: "resident advisor",
   },
   {
     link: "https://soundcloud.com/plantbassdworld",

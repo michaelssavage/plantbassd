@@ -1,6 +1,5 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import { useContext } from "react";
 import { useTagsFilter } from "hooks";
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
@@ -10,8 +9,7 @@ import { AllPostProps } from "types/frontmatter";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
-import { SocialGroup } from "components/Icon/SocialGroup";
-import { LoadingContext } from "context/loading.context";
+import { SocialGroup } from "components/Icon";
 import { Loading } from "components/Loading";
 
 const gigsTags = [
@@ -22,7 +20,6 @@ const gigsTags = [
 ];
 
 export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { loading } = useContext(LoadingContext);
   const { tagsError, tagsHasErrored, filteredPosts, tagList, handleTags } = useTagsFilter(
     gigsTags,
     gigs,
@@ -48,9 +45,7 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
 
       <SocialGroup icons={["instagram", "resident advisor"]} />
 
-      {loading ? (
-        <Loading />
-      ) : (
+      <Loading>
         <div className="row g-3">
           {filteredPosts.map((gig: AllPostProps) => (
             <TextCard
@@ -60,7 +55,7 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
             />
           ))}
         </div>
-      )}
+      </Loading>
     </div>
   );
 }

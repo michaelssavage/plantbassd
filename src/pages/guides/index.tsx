@@ -9,7 +9,8 @@ import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
-import { SocialGroup } from "components/Icon/SocialGroup";
+import { SocialGroup } from "components/Icon";
+import { Loading } from "components/Loading";
 
 export default function GuidesPage({ guides }: InferGetStaticPropsType<typeof getStaticProps>) {
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
@@ -30,12 +31,13 @@ export default function GuidesPage({ guides }: InferGetStaticPropsType<typeof ge
       />
       <SocialGroup icons={["instagram", "soundcloud"]} />
 
-      <div className="row g-3">
-        {postCards.map((guide: AllPostProps) => (
-          <TextCard key={guide.frontmatter.name} link={`/guides/${guide.slug}`} post={guide} />
-        ))}
-      </div>
-      <div className="mt-2 text-end">{guides.length} cards.</div>
+      <Loading>
+        <div className="row g-3">
+          {postCards.map((guide: AllPostProps) => (
+            <TextCard key={guide.frontmatter.name} link={`/guides/${guide.slug}`} post={guide} />
+          ))}
+        </div>
+      </Loading>
     </div>
   );
 }

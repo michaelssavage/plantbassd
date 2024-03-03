@@ -1,6 +1,6 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import { useContext } from "react";
+
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -12,10 +12,8 @@ import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
 import { SocialGroup } from "components/Icon";
 import { Loading } from "components/Loading";
-import { LoadingContext } from "context/loading.context";
 
 export default function RadioPage({ radios }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { loading } = useContext(LoadingContext);
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
     useSearchFilter(radios);
 
@@ -36,15 +34,13 @@ export default function RadioPage({ radios }: InferGetStaticPropsType<typeof get
 
       <SocialGroup icons={["instagram", "soundcloud"]} />
 
-      {loading ? (
-        <Loading />
-      ) : (
+      <Loading>
         <div className="row g-3">
           {postCards.map((radio: AllPostProps) => (
             <TextCard key={radio.frontmatter.name} link={`/radios/${radio.slug}`} post={radio} />
           ))}
         </div>
-      )}
+      </Loading>
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import styles from "components/Signup/Signup.module.scss";
-import { Loading } from "components/Loading";
+import { Spinner } from "components/Loading";
 import { HoverLink } from "components/HoverLink";
 import Header from "components/Header";
 import { useNewsletter } from "hooks/useNewsletter.hook";
@@ -20,7 +20,7 @@ export default function Newsletter() {
   } = useNewsletter();
 
   const handleButtonView = () => {
-    if (loading) return <Loading button />;
+    if (loading) return <Spinner button />;
     if (complete) {
       return (
         <button className="btn btn-outline-success shake" disabled>

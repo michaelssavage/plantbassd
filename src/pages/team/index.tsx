@@ -5,6 +5,7 @@ import styles from "styles/team.module.scss";
 import { ourTeam } from "arrays/our-team";
 import PageMetaData from "components/PageMetaData";
 import card from "components/Card/Card.module.scss";
+import { Loading } from "components/Loading";
 
 export default function TeamPage() {
   return (
@@ -12,16 +13,18 @@ export default function TeamPage() {
       <PageMetaData title="Our Team" />
 
       <div className="row">
-        <div className="col-12 col-sm-5">
-          {ourTeam.map(({ img, link, name }) => (
-            <div key={name} className={card.cardStyle}>
-              <Link href={link}>
-                <Picture alt={name} size={1000} src={`/gigs/${img}`} />
-              </Link>
-              <p className={styles.member}>{name}</p>
-            </div>
-          ))}
-        </div>
+        <Loading>
+          <div className="col-12 col-sm-5">
+            {ourTeam.map(({ img, link, name }) => (
+              <div key={name} className={card.cardStyle}>
+                <Link href={link}>
+                  <Picture alt={name} size={1000} src={`/gigs/${img}`} />
+                </Link>
+                <p className={styles.member}>{name}</p>
+              </div>
+            ))}
+          </div>
+        </Loading>
         <div className="col-12 col-sm-7">
           <div className={styles.biography}>
             <h1 className={styles.pageHeader}>Our Team</h1>

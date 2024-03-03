@@ -1,4 +1,4 @@
-import { Loading } from "components/Loading";
+import { Spinner } from "components/Loading";
 import { HoverLink } from "components/HoverLink";
 import { useNewsletter } from "hooks/useNewsletter.hook";
 import { CheckIcon } from "components/Icon";
@@ -19,7 +19,7 @@ export const Signup = ({ linktree }: { linktree?: boolean }) => {
   } = useNewsletter();
 
   const handleButtonView = () => {
-    if (loading) return <Loading button />;
+    if (loading) return <Spinner button />;
     if (complete) {
       return (
         <button className="btn btn-outline-success shake" disabled>

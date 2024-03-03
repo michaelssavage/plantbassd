@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import { useContext } from "react";
+
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
 import { TextCard } from "components/Card";
@@ -12,7 +12,7 @@ import { getAllPosts } from "utils/getAllPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
 import { Loading } from "components/Loading";
-import { LoadingContext } from "context/loading.context";
+
 import { SocialGroup } from "components/Icon";
 
 const newsTags = [
@@ -25,7 +25,6 @@ const newsTags = [
 ];
 
 export default function NewsPage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { loading } = useContext(LoadingContext);
   const { tagsError, tagsHasErrored, filteredPosts, tagList, handleTags } = useTagsFilter(
     newsTags,
     files,
@@ -50,9 +49,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
 
       <SocialGroup icons={["instagram", "email"]} />
 
-      {loading ? (
-        <Loading />
-      ) : (
+      <Loading>
         <div className="row g-3">
           {filteredPosts.length > 0 ? (
             filteredPosts.map((story: AllPostProps) => (
@@ -68,7 +65,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
             </div>
           )}
         </div>
-      )}
+      </Loading>
 
       <div className={styles.viewAllBtn}>
         <Link href="/archive" className="btn btn-dark btn-lg px-5 py-2" type="button">

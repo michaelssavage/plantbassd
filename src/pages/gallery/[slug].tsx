@@ -23,24 +23,22 @@ export default function NewsSlug({
         url={`www.plantbassd.com/${slug}`}
       />
       <div className="row">
-        {
-          <Slug path={path} date={date} title={title} mdxSource={mdxSource} fullWidth>
-            <div style={{ margin: "2rem 0" }}>
-              <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
-                <Masonry gutter="2px">
-                  {[...Array(gallerySize).keys()].map((image) => (
-                    <Picture
-                      key={image}
-                      src={`/${gallery}/${image}.JPG`}
-                      alt={`image ${image}`}
-                      size={400}
-                    />
-                  ))}
-                </Masonry>
-              </ResponsiveMasonry>
-            </div>
-          </Slug>
-        }
+        <Slug path={path} date={date} title={title} mdxSource={mdxSource} fullWidth>
+          <div style={{ margin: "2rem 0" }}>
+            <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
+              <Masonry gutter="2px">
+                {[...Array(gallerySize).keys()].map((image) => (
+                  <Picture
+                    key={image}
+                    src={`/${gallery}/${image}.JPG`}
+                    alt={`image ${image}`}
+                    size={400}
+                  />
+                ))}
+              </Masonry>
+            </ResponsiveMasonry>
+          </div>
+        </Slug>
       </div>
     </div>
   );

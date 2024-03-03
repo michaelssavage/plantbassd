@@ -1,6 +1,6 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import { useContext } from "react";
+
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -11,11 +11,10 @@ import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
 import { SocialGroup } from "components/Icon";
-import { LoadingContext } from "context/loading.context";
+
 import { Loading } from "components/Loading";
 
 export default function TopTenPage({ topTens }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { loading } = useContext(LoadingContext);
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
     useSearchFilter(topTens);
 
@@ -40,9 +39,7 @@ export default function TopTenPage({ topTens }: InferGetStaticPropsType<typeof g
 
       <SocialGroup icons={["instagram", "email"]} />
 
-      {loading ? (
-        <Loading />
-      ) : (
+      <Loading>
         <div className="row g-3">
           {postCards.map((topTen: AllPostProps) => (
             <TextCard
@@ -52,7 +49,7 @@ export default function TopTenPage({ topTens }: InferGetStaticPropsType<typeof g
             />
           ))}
         </div>
-      )}
+      </Loading>
     </div>
   );
 }

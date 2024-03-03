@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useContext } from "react";
+
 import { linkList } from "arrays/linktree";
 import { socialIcons } from "arrays/social-icons";
 import Header from "components/Header";
@@ -12,7 +12,6 @@ import PageMetaData from "components/PageMetaData";
 import { LinkPost } from "components/Links";
 import { Icon } from "components/Icon/Icon";
 import { Loading } from "components/Loading";
-import { LoadingContext } from "context/loading.context";
 
 const linkTags = [
   { name: "tickets", value: false },
@@ -22,7 +21,6 @@ const linkTags = [
 ];
 
 export default function Links() {
-  const { loading } = useContext(LoadingContext);
   const { tagsError, tagsHasErrored, filteredPosts, tagList, handleTags } = useTagsFilter(
     linkTags,
     linkList
@@ -52,17 +50,13 @@ export default function Links() {
 
         <h2 className="d-flex justify-content-end p-0 m-0">Most Recent</h2>
 
-        {loading ? (
-          <Loading />
-        ) : (
-          <>
-            <LinkPost posts={filteredPosts} />
+        <Loading>
+          <LinkPost posts={filteredPosts} />
 
-            <div className="row my-4">
-              <Signup linktree />
-            </div>
-          </>
-        )}
+          <div className="row my-4">
+            <Signup linktree />
+          </div>
+        </Loading>
       </div>
     </div>
   );

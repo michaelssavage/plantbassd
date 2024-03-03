@@ -1,6 +1,5 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import { useContext } from "react";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -10,12 +9,10 @@ import { SearchBox } from "components/SearchBox";
 import { getAllPosts } from "utils/getAllPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
-import { SocialGroup } from "components/Icon/SocialGroup";
+import { SocialGroup } from "components/Icon";
 import { Loading } from "components/Loading";
-import { LoadingContext } from "context/loading.context";
 
 export default function ArchivePage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { loading } = useContext(LoadingContext);
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
     useSearchFilter(files);
 
@@ -34,9 +31,7 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
 
       <SocialGroup icons={["instagram", "email"]} />
 
-      {loading ? (
-        <Loading />
-      ) : (
+      <Loading>
         <div className="row g-2">
           {postCards.map((story: AllPostProps) => (
             <TextCard
@@ -46,7 +41,7 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
             />
           ))}
         </div>
-      )}
+      </Loading>
     </div>
   );
 }

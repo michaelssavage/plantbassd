@@ -1,6 +1,6 @@
 import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
-import { useContext } from "react";
+
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
@@ -10,15 +10,13 @@ import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
-import { SocialGroup } from "components/Icon/SocialGroup";
-import { LoadingContext } from "context/loading.context";
+import { SocialGroup } from "components/Icon";
+
 import { Loading } from "components/Loading";
 
 export default function PremieresPage({
   premieres,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { loading } = useContext(LoadingContext);
-
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
     useSearchFilter(premieres);
 
@@ -41,9 +39,7 @@ export default function PremieresPage({
       />
       <SocialGroup icons={["instagram", "soundcloud"]} />
 
-      {loading ? (
-        <Loading />
-      ) : (
+      <Loading>
         <div className="row g-3">
           {postCards.map((premiere: AllPostProps) => (
             <TextCard
@@ -53,7 +49,7 @@ export default function PremieresPage({
             />
           ))}
         </div>
-      )}
+      </Loading>
       <div className="mt-2 text-end">{premieres.length} cards.</div>
     </div>
   );

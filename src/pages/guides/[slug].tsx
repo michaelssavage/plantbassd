@@ -1,14 +1,13 @@
 import { MDXRemote } from "next-mdx-remote";
-
 import { InferGetStaticPropsType } from "next";
 import styles from "styles/top-ten.module.scss";
-
 import { StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
 import PageMetaData from "components/PageMetaData";
 import { GigGuide } from "components/Slug";
+import { Loading } from "components/Loading";
 
 const components = { HoverLink, Picture, GigGuide };
 
@@ -26,19 +25,21 @@ export default function Guides({
         description={bio}
         url={`www.plantbassd.com/${slug}`}
       />
-      <div className={`col ${styles.topTenContent}`}>
-        <div className="px-3">
-          <p>
-            {<HoverLink url="/" name="home" />} / {<HoverLink url={`/${path}`} name={path} />} /
-          </p>
-          <p className={styles.postDate}>Posted on {date}</p>
-        </div>
-        <h1 className={styles.postTitle}>{title}</h1>
+      <Loading>
+        <div className={`col ${styles.topTenContent}`}>
+          <div className="px-3">
+            <p>
+              {<HoverLink url="/" name="home" />} / {<HoverLink url={`/${path}`} name={path} />} /
+            </p>
+            <p className={styles.postDate}>Posted on {date}</p>
+          </div>
+          <h1 className={styles.postTitle}>{title}</h1>
 
-        <div className="row">
-          <MDXRemote {...mdxSource} components={components} />
+          <div className="row">
+            <MDXRemote {...mdxSource} components={components} />
+          </div>
         </div>
-      </div>
+      </Loading>
     </div>
   );
 }
