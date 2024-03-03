@@ -5,7 +5,6 @@ import { socialIcons } from "arrays/social-icons";
 import Header from "components/Header";
 import styles from "styles/links.module.scss";
 import Error from "components/Error";
-import { Signup } from "components/Signup/Signup";
 import { useTagsFilter } from "hooks";
 import { FilterTags } from "components/FilterTags";
 import PageMetaData from "components/PageMetaData";
@@ -48,14 +47,8 @@ export default function Links() {
 
         <FilterTags handleTags={handleTags} tagList={tagList} />
 
-        <h2 className="d-flex justify-content-end p-0 m-0">Most Recent</h2>
-
         <Loading>
           <LinkPost posts={filteredPosts} />
-
-          <div className="row my-4">
-            <Signup linktree />
-          </div>
         </Loading>
       </div>
     </div>

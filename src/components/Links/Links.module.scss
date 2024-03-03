@@ -1,0 +1,72 @@
+@use "@/abstracts" as *;
+
+.noData {
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.buttonStyle {
+  margin: 0.5rem 0;
+  color: $pb-black;
+
+  .linkTitle {
+    font-size: $card-text;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    padding: 0 0.75rem;
+  }
+}
+
+.imageAndText {
+  justify-content: space-between;
+  background-color: $lavender;
+  border-radius: 0.675rem;
+
+  span {
+    text-align: left;
+    margin: 1rem 0;
+
+    h2 {
+      padding: 0;
+      margin-bottom: 0.5rem;
+      font-size: 1.4rem;
+      font-weight: 700;
+    }
+    p {
+      font-size: 1rem;
+    }
+    a {
+      font-size: 0.9rem;
+    }
+  }
+
+  img {
+    margin: 0.5rem 0;
+  }
+}
+
+.btnText {
+  font-size: $btn-text;
+  border: 0;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1px;
+    width: 80%;
+    border-top: 3px solid $pb-black;
+  }
+}
+
+.btnIfImage {
+  padding: 0 !important;
+}

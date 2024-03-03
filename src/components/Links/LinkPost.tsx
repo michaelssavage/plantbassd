@@ -1,57 +1,47 @@
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
-import styles from "styles/links.module.scss";
 import { LinkProps } from "arrays/linktree";
 import { EmptyIcon } from "components/Icon";
 import { Icon } from "components/Icon/Icon";
-import { RenderLink } from "./RenderLink";
+import { Button } from "components/Button";
+import styles from "./Links.module.scss";
+
+const alterLink = (name: string) => {
+  if (name === "tickets") return "/gigs";
+  if (name === "premiere") return "/premieres";
+
+  return `/${name.replaceAll(" ", "-")}`;
+};
 
 export const LinkPost = ({ posts }: { posts: LinkProps[] }) => {
   if (posts.length === 0) {
     return (
-      <div className={`row ${styles.buttonStyle}`}>
-        <div className={styles.linkTitle}>No Data</div>
-        <div className={`btn btn-outline-dark disabled ${styles.btnText}`}>
-          <div className={styles.imageAndText}>
-            <span>
-              <EmptyIcon />
-            </span>
-            No Data For Selected Filters
-          </div>
-        </div>
+      <div className={styles.noData}>
+        <EmptyIcon />
+        No Data For Selected Filters
       </div>
     );
   }
 
-  const alterLink = (name: string) => {
-    if (name === "tickets") return "/gigs";
-    if (name === "premiere") return "/premieres";
-
-    return `/${name.replaceAll(" ", "-")}`;
-  };
-
   return posts.map(({ description, img, link, name, title }) => (
     <div className={`row ${styles.buttonStyle}`} key={title}>
       <div className={styles.linkTitle}>
-        <Icon name={name} />
         <HoverLink url={alterLink(name)} name={name.toUpperCase()} />
+        <Icon name={name} />
       </div>
-      <RenderLink link={link} img={img}>
-        <div className={img && styles.imageAndText}>
-          {img && (
-            <Picture
-              src={img}
-              alt={`pic of ${title}`}
-              size={110}
-              style={{ borderRadius: "0.275rem" }}
-            />
+      <div className={`row ${styles.imageAndText}`}>
+        <span className={`col-12 ${name === "tickets" ? "col-sm-7" : "col-sm-9"}`}>
+          <h2>{title}</h2>
+
+          {description && (
+            <p dangerouslySetInnerHTML={{ __html: description.replace(/\n/g, "<br>") }} />
           )}
-          <div className={styles.titleAndDescription}>
-            <div className="fw-bold">{title}</div>
-            {description && <div>{description}</div>}
-          </div>
+          <Button to={link} text="Open" wide />
+        </span>
+        <div className={`col-6 ${name === "tickets" ? "col-sm-5" : "col-sm-3"}`}>
+          {img && <Picture src={img} alt={`pic of ${title}`} size={600} />}
         </div>
-      </RenderLink>
+      </div>
     </div>
   ));
 };

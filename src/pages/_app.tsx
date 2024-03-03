@@ -10,7 +10,7 @@ import { ErrorFallback } from "components/Error";
 import { Footer } from "components/Footer";
 import { LoadingContextProvider } from "context/loading.context";
 
-export default function MyApp({ Component, pageProps, ...appProps }: AppProps) {
+export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <LoadingContextProvider>
       <Head>
@@ -22,7 +22,7 @@ export default function MyApp({ Component, pageProps, ...appProps }: AppProps) {
       <ErrorBoundary FallbackComponent={ErrorFallback}>
         <Component {...pageProps} />
       </ErrorBoundary>
-      {!["/links"].includes(appProps.router.pathname) && <Footer />}
+      <Footer />
     </LoadingContextProvider>
   );
 }

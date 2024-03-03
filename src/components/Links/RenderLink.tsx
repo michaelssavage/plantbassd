@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ReactNode } from "react";
-import styles from "styles/links.module.scss";
+import styles from "./Links.module.scss";
 
 interface RenderLinkProps {
   link: string;

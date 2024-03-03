@@ -42,7 +42,7 @@ const IconMap: IconMapType = {
   soundcloud: <SoundCloudIcon />,
   spotify: <SpotifyIcon />,
   takeovers: <SpotifyIcon />,
-  tickets: <TicketIcon />,
+  tickets: <RaIcon />,
   empty: <EmptyIcon />,
   "under the radar": <RadarIcon />,
 };
