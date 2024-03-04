@@ -5,7 +5,7 @@ import { ourTeam } from "arrays/our-team";
 import PageMetaData from "components/PageMetaData";
 import card from "components/Card/Card.module.scss";
 import { Loading } from "components/Loading";
-import styles from "./team.module.scss";
+import styles from "styles/team.module.scss";
 
 export default function TeamPage() {
   return (

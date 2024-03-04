@@ -10,7 +10,7 @@ import PageMetaData from "components/PageMetaData";
 import { LinkPost } from "components/Links";
 import { Icon } from "components/Icon/Icon";
 import { Loading } from "components/Loading";
-import styles from "./links.module.scss";
+import styles from "styles/links.module.scss";
 
 const linkTags = [
   { name: "tickets", value: false },
