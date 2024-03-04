@@ -14,6 +14,7 @@ const link = {
   bandcamp: "https://bandcamp.com/oisincampbellbap",
   email: "mailto: plantbassdworld@gmail.com",
   "resident advisor": "https://ra.co/promoters/103854",
+  spotify: "https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76",
 };
 
 export const SocialIcon = ({ text }: SocialIconI) => {
