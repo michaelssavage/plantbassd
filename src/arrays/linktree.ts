@@ -18,6 +18,14 @@ export const linkList: LinkProps[] = [
       "Glasgow - 17th March 2024\n\nHAPPY SAINT FUCKING PATTY'S DAY ME OLD FLOWERS! IT'S AROUND THAT TIME OF YEAR AGAIN WHEN WE CELEBRATE OUR GREATEST EVER WELSHMIN, OUR HOLY PATRON SAINT PATRICK.",
   },
   {
+    title: "Under The Radar - Jan / Feb",
+    img: "/under-the-radar/february-24.jpg",
+    link: "https://www.plantbassd.com/under-the-radar/february-24",
+    name: "under the radar",
+    description:
+      "It's taken us a little bit of time to get back into the swing of things with the slow paced start to the new year. Release wise it’s been non stop from talents around the world. Enjoy our round up of the best underground music from the opening two months of 2024.",
+  },
+  {
     title: "Timo Torben - Where Do We Go From Here",
     img: "/premieres/71-denholm.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-timo-torben-where-do-we-go-from-here",
