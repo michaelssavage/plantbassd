@@ -18,6 +18,14 @@ export const linkList: LinkProps[] = [
       "Glasgow - 17th March 2024\n\nHAPPY SAINT FUCKING PATTY'S DAY ME OLD FLOWERS! IT'S AROUND THAT TIME OF YEAR AGAIN WHEN WE CELEBRATE OUR GREATEST EVER WELSHMIN, OUR HOLY PATRON SAINT PATRICK.",
   },
   {
+    title: "Serotone - Breaking Boundaries",
+    img: "/premieres/72-serotone.jpg",
+    link: "https://soundcloud.com/plantbassdworld/premiere-serotone-breaking-boundaries",
+    name: "premiere",
+    description:
+      "Glasgow's Hang Tough returns with a tight knit 3 tracker from Scottish act Serotone.",
+  },
+  {
     title: "Under The Radar - Jan / Feb",
     img: "/under-the-radar/february-24.jpg",
     link: "https://www.plantbassd.com/under-the-radar/february-24",
