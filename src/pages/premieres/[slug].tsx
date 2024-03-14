@@ -1,19 +1,21 @@
-import { InferGetStaticPropsType } from "next";
 import dynamic from "next/dynamic";
 import { StickyCard } from "components/Card";
 import { Slug } from "components/Slug";
-import { StaticProps } from "types/frontmatter";
+import { SlugProp, StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import PageMetaData from "components/PageMetaData";
 import { Shell } from "components/Slug/Shell";
 
+interface PremiereProps {
+  frontmatter: {
+    listen: string;
+    seeMore: string;
+  };
+}
+
 const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 
-export default function PremieresSlug({
-  mdxSource,
-  frontmatter,
-  slug,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function PremieresSlug({ mdxSource, frontmatter, slug }: SlugProp & PremiereProps) {
   const { title, date, pic, seeMore, listen, postLink, path, youtube, bio } = frontmatter;
 
   return (
@@ -51,6 +53,7 @@ export async function getStaticPaths() {
     paths,
   };
 }
+
 export async function getStaticProps({ params: { slug } }: StaticProps) {
   const { frontmatter, mdxSource } = await getSlugContent("premieres", slug);
 

@@ -6,7 +6,7 @@ const fuseOptions = {
   keys: ["name", "frontmatter.name", "frontmatter.bio"],
 };
 
-export const useSearchFilter = (posts = [], type?: "array") => {
+export const useSearchFilter = <T>(posts = [] as T[], type?: "array") => {
   const [searchHasErrored, setSearchHasErrored] = useState(false);
   const [searchError, setSearchError] = useState("");
   const [postCards, setPostCards] = useState(posts);
@@ -31,7 +31,7 @@ export const useSearchFilter = (posts = [], type?: "array") => {
       }
     } catch (err) {
       setSearchHasErrored(true);
-      setSearchError(err);
+      setSearchError(err as string);
     }
   }, [filter, posts, type]);
 

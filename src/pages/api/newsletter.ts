@@ -2,8 +2,8 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import { GoogleSpreadsheet } from "google-spreadsheet";
 
 const SPREADSHEET_ID = process.env.SPREADSHEET_ID;
-const CLIENT_EMAIL = process.env.CLIENT_EMAIL;
-const PRIVATE_KEY = process.env.PRIVATE_KEY;
+const CLIENT_EMAIL = process.env.CLIENT_EMAIL ?? "";
+const PRIVATE_KEY = process.env.PRIVATE_KEY ?? "";
 
 const doc = new GoogleSpreadsheet(SPREADSHEET_ID);
 

@@ -29,3 +29,11 @@ export type IconType =
 export type IconMapType = {
   [key in IconType]: ReactElement;
 };
+
+export type SocialIconType =
+  | "instagram"
+  | "soundcloud"
+  | "bandcamp"
+  | "email"
+  | "resident advisor"
+  | "spotify";

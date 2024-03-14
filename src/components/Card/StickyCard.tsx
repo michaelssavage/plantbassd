@@ -22,9 +22,11 @@ export const StickyCard = (props: CardProps) => {
       <div className={styles.newsImage}>
         <Picture alt={title} size={600} src={pic} />
         <div className={`row ${styles.widthOverride}`}>
-          <div className="col-6">
-            <Button to={page} text={artist} />
-          </div>
+          {page && (
+            <div className="col-6">
+              <Button to={page} text={artist} />
+            </div>
+          )}
           <div className="col-6">
             <Button to={link} text={insta} />
           </div>

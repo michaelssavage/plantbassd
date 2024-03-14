@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { linkList } from "arrays/linktree";
+import { linkList, LinkProps } from "arrays/linktree";
 import { socialIcons } from "arrays/social-icons";
 import { Header } from "components/Header";
 import Error from "components/Error";
@@ -20,12 +20,13 @@ const linkTags = [
 ];
 
 export default function Links() {
-  const { tagsError, tagsHasErrored, filteredPosts, tagList, handleTags } = useTagsFilter(
+  const { tagsError, filteredPosts, tagList, handleTags } = useTagsFilter<LinkProps>(
     linkTags,
-    linkList
+    linkList,
+    "links"
   );
 
-  if (tagsHasErrored) return <Error error={tagsError} />;
+  if (tagsError) return <Error error={tagsError} />;
 
   return (
     <div className={styles.linkPage}>

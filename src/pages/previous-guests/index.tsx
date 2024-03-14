@@ -1,27 +1,26 @@
 import { useState } from "react";
 import { GetStaticProps } from "next";
-import { guestList, headliners } from "arrays/previous-guests";
+import { guestList, GuestProps, headliners } from "arrays/previous-guests";
 import Error from "components/Error";
 import PageMetaData from "components/PageMetaData";
 import { PreviousGuest } from "components/PreviousGuest";
 import { SearchBox } from "components/SearchBox";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import styles from "components/PreviousGuest/PreviousGuest.module.scss";
-import { defaultGuest, GuestSlug, PreviousGuestType } from "components/PreviousGuest/types";
+import { defaultGuest, PreviousGuestType } from "components/PreviousGuest/types";
 import { getPosts } from "utils/getPosts";
 import { sortAlphabetically } from "utils";
 import { ArtistModal } from "components/ArtistLookUp/ArtistModal";
 import { Loading } from "components/Loading";
+import { PostProps } from "types/frontmatter";
 
 const djs = guestList.concat(headliners);
 
-export default function PreviousGuestsPage({ gigs }: { gigs: GuestSlug[] }) {
+export default function PreviousGuestsPage({ gigs }: { gigs: PostProps[] }) {
   const [show, setShow] = useState(false);
   const [modalData, setModalData] = useState<PreviousGuestType>(defaultGuest);
-  const { searchError, filter, searchHasErrored, postCards, handleSearchChange } = useSearchFilter(
-    djs,
-    "array"
-  );
+  const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
+    useSearchFilter<GuestProps>(djs, "array");
 
   if (searchHasErrored) return <Error error={searchError} />;
 
@@ -39,7 +38,7 @@ export default function PreviousGuestsPage({ gigs }: { gigs: GuestSlug[] }) {
       <Loading>
         {filter ? (
           <div className="row g-4">
-            {postCards.sort(sortAlphabetically).map((guest: PreviousGuestType) => (
+            {postCards.sort(sortAlphabetically).map((guest) => (
               <PreviousGuest
                 key={guest.name}
                 artist={guest}

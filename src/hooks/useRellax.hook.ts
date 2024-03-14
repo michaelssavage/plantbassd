@@ -9,7 +9,6 @@ export const useRellax = () => {
       round: true,
       speed: -7.5,
       vertical: true,
-      wrapper: null,
     });
   }, []);
 };

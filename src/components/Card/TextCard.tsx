@@ -1,32 +1,32 @@
 import Link from "next/link";
-import { CardProps } from "types/frontmatter";
+import { PostProps } from "types/frontmatter";
 import { Picture } from "components/Picture";
 import styles from "./Card.module.scss";
 
 interface Props {
   link: string;
-  post: CardProps;
+  post: PostProps;
   columns?: string;
 }
 
-export const TextCard = (props: Props) => {
-  const { post, link, columns = "col-6 col-sm-6 col-md-6 col-lg-3" } = props;
+export const TextCard = ({ post, link, columns = "col-6 col-sm-6 col-md-6 col-lg-3" }: Props) => {
+  const { title, pic, bio, date } = post.frontmatter;
   return (
     <div className={columns}>
       <Link href={link} className="anchorColor">
         <div className={`card border-0 h-100 ${styles.cardStyle}`}>
           <Picture
-            alt={post.frontmatter.title}
+            alt={title}
             size={500}
-            src={post.frontmatter.pic}
+            src={pic}
             style={{
               borderTopLeftRadius: "0.375rem",
               borderTopRightRadius: "0.375rem",
             }}
           />
           <div className={`${styles.cardBody} card-body`}>
-            <p className={styles.cardTitle}>{post.frontmatter.bio}</p>
-            <p className={styles.cardDate}>{post.frontmatter.date}</p>
+            <p className={styles.cardTitle}>{bio}</p>
+            <p className={styles.cardDate}>{date}</p>
           </div>
         </div>
       </Link>

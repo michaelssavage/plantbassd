@@ -1,11 +1,11 @@
 import dynamic from "next/dynamic";
 
-const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
-
 interface Props {
   url: string;
   height?: string;
 }
+
+const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 
 /**
  *

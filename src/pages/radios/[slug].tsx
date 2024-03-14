@@ -1,16 +1,18 @@
-import { InferGetStaticPropsType } from "next";
 import { StickyCard } from "components/Card";
-import { StaticProps } from "types/frontmatter";
+import { SlugProp, StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { Slug } from "components/Slug";
 import PageMetaData from "components/PageMetaData";
 import { Shell } from "components/Slug/Shell";
 
-export default function RadioSlug({
-  mdxSource,
-  frontmatter,
-  slug,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+interface RadioProps {
+  frontmatter: {
+    mixLink: string;
+    artistPage: string;
+  };
+}
+
+export default function RadioSlug({ mdxSource, frontmatter, slug }: SlugProp & RadioProps) {
   const { title, date, pic, artistPage, mixLink, path, bio } = frontmatter;
   return (
     <Shell>

@@ -41,8 +41,8 @@
     text-decoration: none;
     color: $pb-black;
     transition: 0.25s ease;
-    gap: 0.5rem;
-    align-items: flex-end;
+    gap: 0.25rem;
+    align-items: center;
 
     svg {
       height: 2.2rem;
@@ -51,6 +51,7 @@
 
     p {
       margin: 0;
+      white-space: nowrap;
     }
 
     &:hover {

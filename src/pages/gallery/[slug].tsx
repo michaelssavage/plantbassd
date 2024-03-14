@@ -1,17 +1,12 @@
-import { InferGetStaticPropsType } from "next";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { Slug } from "components/Slug";
-import { StaticProps } from "types/frontmatter";
+import { SlugProp, StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import PageMetaData from "components/PageMetaData";
 import { Picture } from "components/Picture";
 import { Shell } from "components/Slug/Shell";
 
-export default function NewsSlug({
-  mdxSource,
-  slug,
-  frontmatter,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function GallerySlug({ mdxSource, slug, frontmatter }: SlugProp) {
   const { title, date, path, gallery, gallerySize, pic, bio } = frontmatter;
 
   return (

@@ -1,11 +1,10 @@
-import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
 
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
 import styles from "styles/page.module.scss";
-import { AllPostProps } from "types/frontmatter";
+import { PostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
@@ -14,11 +13,9 @@ import { SocialGroup } from "components/Icon";
 
 import { Loading } from "components/Loading";
 
-export default function PremieresPage({
-  premieres,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function PremieresPage({ premieres }: { premieres: PostProps[] }) {
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
-    useSearchFilter(premieres);
+    useSearchFilter<PostProps>(premieres);
 
   if (searchHasErrored) return <Error error={searchError} />;
 
@@ -41,7 +38,7 @@ export default function PremieresPage({
 
       <Loading>
         <div className="row g-3">
-          {postCards.map((premiere: AllPostProps) => (
+          {postCards.map((premiere) => (
             <TextCard
               key={premiere.frontmatter.name}
               link={`/premieres/${premiere.slug}`}

@@ -1,13 +1,9 @@
 import { SimpleCard } from "components/Card";
-import { AllPostProps } from "types/frontmatter";
+import { PostProps } from "types/frontmatter";
 import { Button } from "components/Button";
 import { Header } from "components/Header";
 
-interface Props {
-  radar: AllPostProps[];
-}
-
-export const Radar = ({ radar }: Props) => {
+export const Radar = ({ radar }: { radar: PostProps[] }) => {
   return (
     <section className="radioSection col-lg-6 col-md-12">
       <div className="row mb-2 align-items-center">

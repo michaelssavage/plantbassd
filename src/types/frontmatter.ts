@@ -1,9 +1,39 @@
-export interface AllPostProps {
+import { MDXRemoteSerializeResult } from "next-mdx-remote/dist/types";
+
+export interface SlugProp {
+  frontmatter: Frontmatter;
+  mdxSource: MDXRemoteSerializeResult<Record<string, unknown>, Record<string, unknown>>;
   slug: string;
-  frontmatter: IGigs | IFreshJuice | INews | ITakeover | IRadio | ITopTen | IPremiere;
 }
 
-interface Frontmatter {
+export interface StaticProps {
+  params: {
+    slug: string;
+  };
+}
+
+interface Optionals {
+  tags: string;
+  city: string;
+  anames: string[];
+  bandcamp: string;
+  artist: string;
+  tickets: string;
+  listen: string;
+  artistPage: string;
+  seeMore: string;
+  mixLink: string;
+  cover: string;
+  header: string;
+  insta: string;
+  youtube: string;
+  gallery: string;
+  gallerySize: number;
+  intro: string;
+  month: string;
+}
+
+export interface Frontmatter extends Partial<Optionals> {
   title: string;
   name: string;
   date: string;
@@ -13,43 +43,9 @@ interface Frontmatter {
   postLink: string;
 }
 
-export interface IGigs extends Frontmatter {
-  tags: string;
-  city: string;
-  anames: string[];
-  tickets: string;
-}
-
-interface IFreshJuice extends Frontmatter {
-  tags: string;
-  bandcamp: string;
-  artist?: string;
-}
-
-interface INews extends Frontmatter {
-  tags: string;
-  tickets?: string;
-  seeMore?: string;
-}
-
-interface IPremiere extends Frontmatter {
-  listen: string;
-}
-
-interface ITakeover extends Frontmatter {
-  artistPage: string;
-}
-
-interface IRadio extends Omit<Frontmatter, "postLink"> {
-  artistPage: string;
-  mixLink: string;
-}
-
-interface ITopTen extends Omit<Frontmatter, "postLink"> {
-  tags: string;
-  cover: string;
-  header: string;
-  insta: string;
+export interface PostProps {
+  slug: string;
+  frontmatter: Frontmatter;
 }
 
 export interface CardProps {
@@ -68,11 +64,5 @@ export interface FilterProps {
   frontmatter: {
     tags: string;
     city: string;
-  };
-}
-
-export interface StaticProps {
-  params: {
-    slug: string;
   };
 }

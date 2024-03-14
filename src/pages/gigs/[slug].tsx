@@ -1,6 +1,5 @@
-import { InferGetStaticPropsType } from "next";
 import { StickyCard } from "components/Card";
-import { StaticProps } from "types/frontmatter";
+import { PostProps, SlugProp, StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { Slug } from "components/Slug";
 import { ArtistLookUp } from "components/ArtistLookUp";
@@ -8,15 +7,18 @@ import PageMetaData from "components/PageMetaData";
 import { getPosts } from "utils/getPosts";
 import { Shell } from "components/Slug/Shell";
 
-export default function GigsSlug({
-  mdxSource,
-  frontmatter,
-  gigs,
-  slug,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+interface GigProps {
+  frontmatter: {
+    anames: string[];
+    tickets: string;
+  };
+  gigs: PostProps[];
+}
+
+export default function GigsSlug({ mdxSource, frontmatter, gigs, slug }: SlugProp & GigProps) {
   const { title, date, pic, tickets, seeMore, postLink, path, anames, bio } = frontmatter;
 
-  const buyLink = tickets ? tickets : seeMore;
+  const buyLink = tickets ? tickets : seeMore || "";
   const buyText = tickets ? "Tickets" : "See More";
 
   return (

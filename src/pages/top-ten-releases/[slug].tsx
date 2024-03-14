@@ -1,7 +1,6 @@
-import { InferGetStaticPropsType } from "next";
 import { MDXRemote } from "next-mdx-remote";
 import { Picture } from "components/Picture";
-import { StaticProps } from "types/frontmatter";
+import { SlugProp, StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { HoverLink } from "components/HoverLink";
 import styles from "styles/top-ten.module.scss";
@@ -10,13 +9,15 @@ import { FavTrack } from "components/Slug";
 import { Icon } from "components/Icon/Icon";
 import { Loading } from "components/Loading";
 
+interface TopTenProps {
+  frontmatter: {
+    cover: string;
+  };
+}
+
 const components = { HoverLink, Picture, FavTrack };
 
-export default function TopTenSlug({
-  mdxSource,
-  frontmatter,
-  slug,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function TopTenSlug({ mdxSource, frontmatter, slug }: SlugProp & TopTenProps) {
   const { title, date, cover, intro, header, insta, path } = frontmatter;
   return (
     <div className={styles.outerSection}>

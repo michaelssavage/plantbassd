@@ -1,10 +1,9 @@
-import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
 import styles from "styles/page.module.scss";
-import { AllPostProps } from "types/frontmatter";
+import { PostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
@@ -12,9 +11,9 @@ import { sortByMostRecentDate } from "utils";
 import { SocialGroup } from "components/Icon";
 import { Loading } from "components/Loading";
 
-export default function GuidesPage({ guides }: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function GuidesPage({ guides }: { guides: PostProps[] }) {
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
-    useSearchFilter(guides);
+    useSearchFilter<PostProps>(guides);
 
   if (searchHasErrored) return <Error error={searchError} />;
 
@@ -33,7 +32,7 @@ export default function GuidesPage({ guides }: InferGetStaticPropsType<typeof ge
 
       <Loading>
         <div className="row g-3">
-          {postCards.map((guide: AllPostProps) => (
+          {postCards.map((guide) => (
             <TextCard key={guide.frontmatter.name} link={`/guides/${guide.slug}`} post={guide} />
           ))}
         </div>

@@ -1,6 +1,5 @@
-import { InferGetStaticPropsType } from "next";
 import { MDXRemote } from "next-mdx-remote";
-import { StaticProps } from "types/frontmatter";
+import { SlugProp, StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import styles from "styles/top-ten.module.scss";
 import { MusicRelease } from "components/Slug";
@@ -12,11 +11,11 @@ import { Loading } from "components/Loading";
 
 const components = { HoverLink, MusicRelease, SoundCloud };
 
-export default function UnderTheRadarSlug(props: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { month, date, bio, pic, mdxSource, path } = props;
+export default function UnderTheRadarSlug({ mdxSource, frontmatter, slug }: SlugProp) {
+  const { month, date, bio, pic, path } = frontmatter;
   return (
     <div className={styles.outerSection}>
-      <PageMetaData title={`Under the Radar - ${month}`} />
+      <PageMetaData title={`Under the Radar - ${month}`} url={`www.plantbassd.com/${slug}`} />
       <div className={`col ${styles.topTenContent}`}>
         <div className="px-3">
           <p>
@@ -58,11 +57,8 @@ export async function getStaticProps({ params: { slug } }: StaticProps) {
   return {
     props: {
       mdxSource,
-      month: frontmatter.month,
-      date: frontmatter.date,
-      bio: frontmatter.bio,
-      pic: frontmatter.pic,
-      path: frontmatter.path,
+      frontmatter,
+      slug,
     },
   };
 }

@@ -1,11 +1,16 @@
-import { InferGetStaticPropsType } from "next";
 import dynamic from "next/dynamic";
 import { StickyCard } from "components/Card";
 import { Slug } from "components/Slug";
-import { StaticProps } from "types/frontmatter";
+import { SlugProp, StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import PageMetaData from "components/PageMetaData";
 import { Shell } from "components/Slug/Shell";
+
+interface FreshJuiceProps {
+  frontmatter: {
+    bandcamp: string;
+  };
+}
 
 const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 
@@ -13,7 +18,7 @@ export default function FreshJuiceSlug({
   frontmatter,
   mdxSource,
   slug,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+}: SlugProp & FreshJuiceProps) {
   const {
     artist = "Bandcamp",
     youtube,

@@ -1,20 +1,23 @@
-import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
 import styles from "styles/page.module.scss";
-import { AllPostProps } from "types/frontmatter";
+import { PostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getAllPosts } from "utils/getAllPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
 import { SocialGroup } from "components/Icon";
 import { Loading } from "components/Loading";
+import { Showbox } from "components/Button";
+import { useBatch } from "hooks/useBatch.hook";
 
-export default function ArchivePage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function ArchivePage({ files }: { files: PostProps[] }) {
+  const { filesToShow, handleLoadMore, handleLoadAll } = useBatch(files);
+
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
-    useSearchFilter(files);
+    useSearchFilter<PostProps>(filesToShow);
 
   if (searchHasErrored) return <Error error={searchError} />;
 
@@ -33,7 +36,7 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
 
       <Loading>
         <div className="row g-2">
-          {postCards.map((story: AllPostProps) => (
+          {postCards.map((story) => (
             <TextCard
               key={story.frontmatter.name}
               link={`/${story.frontmatter.path}/${story.slug}`}
@@ -41,6 +44,7 @@ export default function ArchivePage({ files }: InferGetStaticPropsType<typeof ge
             />
           ))}
         </div>
+        <Showbox handleLoadMore={handleLoadMore} handleLoadAll={handleLoadAll} />
       </Loading>
     </div>
   );

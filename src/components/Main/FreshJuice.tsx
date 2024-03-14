@@ -1,13 +1,9 @@
-import { AllPostProps } from "types/frontmatter";
+import { PostProps } from "types/frontmatter";
 import { Button } from "components/Button";
 import { SimpleCard } from "components/Card";
 import { Header } from "components/Header";
 
-interface Props {
-  freshjuice: AllPostProps[];
-}
-
-export const FreshJuice = ({ freshjuice }: Props) => {
+export const FreshJuice = ({ freshjuice }: { freshjuice: PostProps[] }) => {
   return (
     <section className="freshSection">
       <div className="row mb-2 align-items-center">

@@ -1,11 +1,9 @@
-import { InferGetStaticPropsType } from "next";
-import { GetStaticProps } from "next/types";
-
+import { GetStaticProps } from "next";
 import Error from "components/Error";
 import { useSearchFilter } from "hooks/useSearchFilter.hook";
 import { TextCard } from "components/Card";
 import styles from "styles/page.module.scss";
-import { AllPostProps } from "types/frontmatter";
+import { PostProps } from "types/frontmatter";
 import { SearchBox } from "components/SearchBox";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
@@ -14,11 +12,9 @@ import { SocialGroup } from "components/Icon";
 
 import { Loading } from "components/Loading";
 
-export default function FreshJuicePage({
-  freshjuice,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function FreshJuicePage({ freshjuice }: { freshjuice: PostProps[] }) {
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
-    useSearchFilter(freshjuice);
+    useSearchFilter<PostProps>(freshjuice);
 
   if (searchHasErrored) return <Error error={searchError} />;
 
@@ -43,7 +39,7 @@ export default function FreshJuicePage({
 
       <Loading>
         <div className="row g-3">
-          {postCards.map((juice: AllPostProps) => (
+          {postCards.map((juice) => (
             <TextCard
               key={juice.frontmatter.name}
               link={`/fresh-juice/${juice.slug}`}

@@ -1,7 +1,6 @@
 import { MDXRemote } from "next-mdx-remote";
-import { InferGetStaticPropsType } from "next";
 import styles from "styles/top-ten.module.scss";
-import { StaticProps } from "types/frontmatter";
+import { SlugProp, StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
@@ -11,11 +10,7 @@ import { Loading } from "components/Loading";
 
 const components = { HoverLink, Picture, GigGuide };
 
-export default function Guides({
-  frontmatter,
-  slug,
-  mdxSource,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function Guides({ frontmatter, slug, mdxSource }: SlugProp) {
   const { title, date, path, pic, bio } = frontmatter;
   return (
     <div className={styles.outerSection}>

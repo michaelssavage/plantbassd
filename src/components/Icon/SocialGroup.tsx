@@ -1,8 +1,8 @@
 import { SocialIcon } from "components/Icon";
-import { IconType } from "./types";
+import { SocialIconType } from "./types";
 
 interface SocialGroupI {
-  icons: IconType[];
+  icons: SocialIconType[];
 }
 
 export const SocialGroup = ({ icons }: SocialGroupI) => {

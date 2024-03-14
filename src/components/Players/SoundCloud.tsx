@@ -1,13 +1,13 @@
 import dynamic from "next/dynamic";
 import { HoverLink } from "components/HoverLink";
 
-const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
-
 interface Props {
   url: string;
   name?: string;
   height?: string;
 }
+
+const ReactPlayer = dynamic(() => import("react-player/lazy"), { ssr: false });
 
 /**
  *

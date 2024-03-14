@@ -52,5 +52,5 @@ export interface SocialIconProps {
 }
 
 export const Icon = ({ name }: SocialIconProps) => {
-  return IconMap[name.toLowerCase()];
+  return IconMap[name.toLowerCase() as IconType];
 };

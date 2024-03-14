@@ -1,14 +1,15 @@
 import Link from "next/link";
 import { Modal } from "components/Modal";
-import { GuestSlug, PreviousGuestType } from "components/PreviousGuest/types";
+import { PreviousGuestType } from "components/PreviousGuest/types";
 import { Picture } from "components/Picture";
+import { PostProps } from "types/frontmatter";
 import styles from "./ArtistLookUp.module.scss";
 
 interface ArtistModalProps {
   data: PreviousGuestType;
   show: boolean;
   setShow: (show: boolean) => void;
-  gigs: GuestSlug[];
+  gigs: PostProps[];
   current?: string;
 }
 
@@ -16,7 +17,7 @@ export const ArtistModal = ({ data, show, setShow, gigs, current }: ArtistModalP
   const previousGigs = data.gig.filter((gig) => gig !== current);
 
   const getArtistGigs = (url: string) => {
-    const gig: GuestSlug = gigs.find((gig: GuestSlug) => gig.frontmatter.tickets === url);
+    const gig = gigs.find(({ frontmatter }) => frontmatter.tickets === url);
 
     if (gig && "frontmatter" in gig && "slug" in gig) {
       const { frontmatter, slug } = gig;

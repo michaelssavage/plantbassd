@@ -1,12 +1,9 @@
-import Link from "next/link";
-import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
 
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
 import { TextCard } from "components/Card";
 import styles from "styles/page.module.scss";
-import { AllPostProps } from "types/frontmatter";
 import { useTagsFilter } from "hooks";
 import { getAllPosts } from "utils/getAllPosts";
 import PageMetaData from "components/PageMetaData";
@@ -14,6 +11,9 @@ import { sortByMostRecentDate } from "utils";
 import { Loading } from "components/Loading";
 
 import { SocialGroup } from "components/Icon";
+import { PostProps } from "types/frontmatter";
+import { Showbox } from "components/Button";
+import { useBatch } from "hooks/useBatch.hook";
 
 const newsTags = [
   { name: "fresh juice", value: false },
@@ -24,14 +24,16 @@ const newsTags = [
   { name: "festivals", value: false },
 ];
 
-export default function NewsPage({ files }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { tagsError, tagsHasErrored, filteredPosts, tagList, handleTags } = useTagsFilter(
+export default function NewsPage({ files }: { files: PostProps[] }) {
+  const { filesToShow, handleLoadMore, handleLoadAll } = useBatch(files);
+
+  const { tagsError, filteredPosts, tagList, handleTags } = useTagsFilter<PostProps>(
     newsTags,
-    files,
+    filesToShow,
     "tags"
   );
 
-  if (tagsHasErrored) return <Error error={tagsError} />;
+  if (tagsError) return <Error error={tagsError} />;
 
   return (
     <div className="newsBG">
@@ -52,7 +54,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
       <Loading>
         <div className="row g-3">
           {filteredPosts.length > 0 ? (
-            filteredPosts.map((story: AllPostProps) => (
+            filteredPosts.map((story) => (
               <TextCard
                 key={story.frontmatter.name}
                 link={`/${story.frontmatter.path}/${story.slug}`}
@@ -67,11 +69,7 @@ export default function NewsPage({ files }: InferGetStaticPropsType<typeof getSt
         </div>
       </Loading>
 
-      <div className={styles.viewAllBtn}>
-        <Link href="/archive" className="btn btn-dark btn-lg px-5 py-2" type="button">
-          View All Posts
-        </Link>
-      </div>
+      <Showbox handleLoadMore={handleLoadMore} handleLoadAll={handleLoadAll} />
     </div>
   );
 }

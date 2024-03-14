@@ -17,7 +17,7 @@ export const Modal = (props: ModalProps) => {
 
   const selector = "#modal";
   const [mounted, setMounted] = useState(false);
-  const ref = useRef(null);
+  const ref = useRef<HTMLElement | null>(null);
   const backdrop = useRef(null);
   const container = useRef(null);
   const backdropMouseDown = useRef(false);
@@ -87,7 +87,7 @@ export const Modal = (props: ModalProps) => {
             </CSSTransition>
           </div>
         </CSSTransition>,
-        ref.current
+        ref.current as HTMLElement
       )
     : null;
 };

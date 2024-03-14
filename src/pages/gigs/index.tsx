@@ -1,16 +1,15 @@
-import { InferGetStaticPropsType } from "next";
 import { GetStaticProps } from "next/types";
 import { useTagsFilter } from "hooks";
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
 import { TextCard } from "components/Card";
 import styles from "styles/page.module.scss";
-import { AllPostProps } from "types/frontmatter";
 import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
 import { SocialGroup } from "components/Icon";
 import { Loading } from "components/Loading";
+import { PostProps } from "types/frontmatter";
 
 const gigsTags = [
   { name: "edinburgh", value: false },
@@ -19,14 +18,14 @@ const gigsTags = [
   { name: "galway", value: false },
 ];
 
-export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const { tagsError, tagsHasErrored, filteredPosts, tagList, handleTags } = useTagsFilter(
+export default function GigsPage({ gigs }: { gigs: PostProps[] }) {
+  const { tagsError, filteredPosts, tagList, handleTags } = useTagsFilter<PostProps>(
     gigsTags,
     gigs,
     "city"
   );
 
-  if (tagsHasErrored) return <Error error={tagsError} />;
+  if (tagsError) return <Error error={tagsError} />;
 
   return (
     <div className="gigsBG">
@@ -47,7 +46,7 @@ export default function GigsPage({ gigs }: InferGetStaticPropsType<typeof getSta
 
       <Loading>
         <div className="row g-3">
-          {filteredPosts.map((gig: AllPostProps) => (
+          {filteredPosts.map((gig) => (
             <TextCard
               key={gig.frontmatter.name}
               link={`/${gig.frontmatter.path}/${gig.slug}`}

@@ -59,7 +59,7 @@ export default function TeamPage() {
             <Link
               key={link}
               href={link}
-              className={styles.iconBox}
+              className={`col-6 col-sm-4 col-md-3 ${styles.iconBox}`}
               rel="noopener noreferrer"
               target="_blank"
             >

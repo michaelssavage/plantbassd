@@ -2,11 +2,7 @@ import Link from "next/link";
 import { plantbassdInstagram } from "utils/constants";
 import styles from "./SocialIcon.module.scss";
 import { Icon } from "../Icon";
-import { IconType } from "../types";
-
-interface SocialIconI {
-  text: IconType;
-}
+import { SocialIconType } from "../types";
 
 const link = {
   instagram: plantbassdInstagram,
@@ -17,7 +13,7 @@ const link = {
   spotify: "https://open.spotify.com/playlist/5skAgzUfGmZLwrOPNLnGVf?si=c5affedbcbc74e76",
 };
 
-export const SocialIcon = ({ text }: SocialIconI) => {
+export const SocialIcon = ({ text }: { text: SocialIconType }) => {
   return (
     <Link
       aria-label={text}

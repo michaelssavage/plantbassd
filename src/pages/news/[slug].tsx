@@ -1,19 +1,14 @@
-import { InferGetStaticPropsType } from "next";
 import { StickyCard } from "components/Card";
 import { Slug } from "components/Slug";
-import { StaticProps } from "types/frontmatter";
+import { SlugProp, StaticProps } from "types/frontmatter";
 import { getSlugContent, getSlugPath } from "utils/getSlug";
 import PageMetaData from "components/PageMetaData";
 import { Shell } from "components/Slug/Shell";
 
-export default function NewsSlug({
-  mdxSource,
-  frontmatter,
-  slug,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function NewsSlug({ mdxSource, frontmatter, slug }: SlugProp) {
   const { title, date, pic, tickets, seeMore, path, postLink, bio } = frontmatter;
 
-  const buyLink = tickets ? tickets : seeMore;
+  const buyLink = tickets ? tickets : seeMore || "";
   const buyText = tickets ? "RA tickets" : "See More";
 
   return (

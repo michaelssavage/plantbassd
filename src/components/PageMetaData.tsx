@@ -9,7 +9,7 @@ interface TitleProps {
 }
 
 export default function PageMetaData({ title, description, imageUrl, url }: TitleProps) {
-  let cloudImage: string;
+  let cloudImage: string = "";
 
   if (imageUrl) {
     cloudImage = getCldImageUrl({

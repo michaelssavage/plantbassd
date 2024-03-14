@@ -1,12 +1,13 @@
 import { useState } from "react";
 import { guestList, headliners } from "arrays/previous-guests";
-import { defaultGuest, GuestSlug, PreviousGuestType } from "components/PreviousGuest/types";
+import { defaultGuest, PreviousGuestType } from "components/PreviousGuest/types";
 import { PreviousGuest } from "components/PreviousGuest";
+import { PostProps } from "types/frontmatter";
 import { ArtistModal } from "./ArtistModal";
 
 interface LookUpProps {
   anames: string[];
-  gigs: GuestSlug[];
+  gigs: PostProps[];
   current: string;
 }
 
@@ -22,16 +23,16 @@ export const ArtistLookUp = ({ anames, gigs, current }: LookUpProps) => {
         {anames.map((name) => {
           const dj = djs.find((dj) => name.toLowerCase() === dj.name.toLowerCase());
 
-          if (!dj) return <></>;
-
-          return (
-            <PreviousGuest
-              key={dj.name}
-              artist={dj}
-              setModalData={setModalData}
-              setShow={setShow}
-            />
-          );
+          if (dj) {
+            return (
+              <PreviousGuest
+                key={dj.name}
+                artist={dj}
+                setModalData={setModalData}
+                setShow={setShow}
+              />
+            );
+          }
         })}
       </div>
       <ArtistModal data={modalData} show={show} setShow={setShow} gigs={gigs} current={current} />

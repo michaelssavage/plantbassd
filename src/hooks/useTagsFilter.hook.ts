@@ -1,29 +1,31 @@
 import { useEffect, useState } from "react";
-import { FilterProps } from "types/frontmatter";
+import { Frontmatter } from "types/frontmatter";
 
 interface TagProps {
   name: string;
   value: boolean;
 }
 
-type FilterTypeProps = "tags" | "city";
+interface Optionals {
+  name?: string;
+  frontmatter?: Frontmatter;
+}
 
 /**
  * Filter a list using predefined tags
  *
  * @param initTagList - array of name and value
  * @param files = array of incoming data
- * @param filterType - String of either city (gigs) or tags (news) for frontmatter or leave blank for links
+ * @param filterType - String of either city (gigs), tags (news) for frontmatter or links for linkList
  */
-export const useTagsFilter = (
+export const useTagsFilter = <T extends Optionals>(
   initTagList: TagProps[],
-  files = [],
-  filterType?: FilterTypeProps
+  files: T[],
+  filterType: "city" | "tags" | "links"
 ) => {
-  const [tagsHasErrored, setTagsHasErrored] = useState(false);
   const [tagsError, setTagsError] = useState("");
-  const [tags, setTags] = useState([]);
-  const [filteredPosts, setFilteredPosts] = useState(files);
+  const [tags, setTags] = useState<string[]>([]);
+  const [filteredPosts, setFilteredPosts] = useState<T[]>([]);
   const [tagList, setTagList] = useState(initTagList);
 
   const addTag = (tag: TagProps) => {
@@ -55,23 +57,20 @@ export const useTagsFilter = (
   useEffect(() => {
     try {
       let filtered = [];
-      if (!filterType) {
-        filtered =
-          tags.length === 0
-            ? files
-            : files.filter(({ name }: { name: string }) => tags.includes(name));
+      if (tags.length === 0) {
+        filtered = files;
+      } else if (filterType === "links") {
+        filtered = files.filter(({ name }) => name && tags.includes(name));
       } else {
-        filtered =
-          tags.length === 0
-            ? files
-            : files.filter((item: FilterProps) => tags.includes(item.frontmatter[filterType]));
+        filtered = files.filter(
+          ({ frontmatter }) => frontmatter && tags.includes(frontmatter[filterType] ?? "")
+        );
       }
       setFilteredPosts(filtered);
     } catch (event) {
-      setTagsHasErrored(true);
-      setTagsError(event);
+      setTagsError(event as string);
     }
-  }, [tags, files, filterType]);
+  }, [files, filterType, tags]);
 
-  return { tagsError, tagsHasErrored, filteredPosts, tagList, handleTags };
+  return { tagsError, filteredPosts, tagList, handleTags };
 };
