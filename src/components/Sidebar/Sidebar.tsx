@@ -12,15 +12,17 @@ export default function Sidebar() {
 
   return (
     <div ref={navMenu}>
-      <header className={sidebar ? styles.extendHeader : styles.header} onClick={showSidebar}>
+      <header
+        className={`${styles.header} ${sidebar ? styles.extendHeader : ""}`}
+        onClick={showSidebar}
+      >
         <div className={styles.headerToggle}>{sidebar ? <CloseIcon /> : <MenuIcon />}</div>
       </header>
 
-      <nav className={sidebar ? styles.extendNav : styles.navContainer}>
+      <nav className={`${styles.navbar} ${sidebar ? styles.extendNavbar : ""}`}>
         <div className={styles.navMenu}>
           {sidebarList.map(({ link, icon, title }: SidebarProps) => {
-            const className =
-              router.pathname === `${link}` ? `${styles.activeLink}` : `${styles.navLink}`;
+            const className = `${styles.navLink} ${router.pathname === link ? styles.active : ""}`;
             return (
               <Link key={title} href={link} className="anchor">
                 <div tabIndex={0} className={className} onClick={closeSidebar}>

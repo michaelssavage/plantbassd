@@ -197,7 +197,7 @@ export const guestList: GuestProps[] = [
   },
   {
     img: "08-oisin.jpg",
-    link: "inspectorcampbellbap/",
+    link: "obruvver/",
     name: "oBrother",
     gig: [
       "https://ra.co/events/1463880",
@@ -225,6 +225,7 @@ export const guestList: GuestProps[] = [
       "https://ra.co/events/1762287",
       "https://ra.co/events/1828740",
       "https://ra.co/events/1867088",
+      "https://ra.co/events/1873936",
     ],
   },
   {
@@ -571,7 +572,11 @@ export const guestList: GuestProps[] = [
     img: "34-clo.jpg",
     link: "cloallenn/",
     name: "CLO",
-    gig: ["https://ra.co/events/1699420", "https://ra.co/events/1867088"],
+    gig: [
+      "https://ra.co/events/1699420",
+      "https://ra.co/events/1867088",
+      "https://ra.co/events/1873936",
+    ],
   },
   {
     img: "35-crrdr.jpg",
@@ -782,6 +787,18 @@ export const guestList: GuestProps[] = [
     link: "laura__lolz_",
     name: "Lolz",
     gig: ["https://ra.co/events/1828740"],
+  },
+  {
+    img: "56-texyo-artist.jpg",
+    link: "texyo._",
+    name: "Texyo",
+    gig: ["https://ra.co/events/1873936"],
+  },
+  {
+    img: "56-leahgte.jpg",
+    link: "leahgte",
+    name: "Leahgte",
+    gig: ["https://ra.co/events/1873936"],
   },
   // {
   //   img: "55-",

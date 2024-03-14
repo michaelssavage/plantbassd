@@ -2,7 +2,7 @@
 
 .header {
   height: 5rem;
-  width: 10rem;
+  width: 8rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -24,17 +24,11 @@
   }
 }
 
-.extendHeader {
-  @extend .header;
-
-  width: 18rem;
-}
-
-.navContainer {
+.navbar {
   position: fixed;
   top: 0;
   left: 0;
-  width: 6rem;
+  width: 5rem;
   height: 100vh;
   background-color: $pb-black;
   padding: 0.5rem 0 0.5rem 0.5rem;
@@ -57,17 +51,11 @@
   }
 }
 
-.extendNav {
-  @extend .navContainer;
-
-  width: 15rem;
-}
-
 .navLink {
   display: flex;
   align-items: center;
   gap: 1.75rem;
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 1rem;
   background-color: $pb-black;
   position: relative;
   transition: 0.3s;
@@ -84,9 +72,15 @@
   }
 }
 
-.activeLink {
-  @extend .navLink;
+.extendHeader {
+  width: 18rem;
+}
 
+.extendNavbar {
+  width: 15rem;
+}
+
+.active {
   color: $pb-white;
 
   &::before {
@@ -99,12 +93,6 @@
   }
 }
 
-.navName {
-  font-size: $nav-name;
-  margin: 0;
-  padding: 0;
-}
-
 .navBarIcons {
   display: flex;
   align-items: center;
@@ -115,17 +103,19 @@
   }
 }
 
+.navName {
+  font-size: $nav-name;
+  margin: 0;
+  padding: 0;
+}
+
 @include breakpoint-below(sm) {
   .header {
-    width: 2.2rem;
-    padding: 0 0.1rem;
+    width: 2.5rem;
+    padding: 0 0.25rem;
   }
 
-  .headerToggle {
-    font-size: $sm-header;
-  }
-
-  .navContainer {
+  .navbar {
     width: 0;
     padding: 0;
   }
@@ -135,8 +125,8 @@
     padding: 0 1rem !important;
   }
 
-  .extendNav {
-    width: 14rem;
+  .extendNavbar {
+    width: 15rem;
     padding: 0.5rem;
   }
 }

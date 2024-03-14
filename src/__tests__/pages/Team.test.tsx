@@ -32,7 +32,7 @@ describe("Team page", () => {
 
   it("should have 6 svg icons", () => {
     renderUtil();
-    const svgs = getAllByRole("link").filter((link) => link.className === "iconBox");
+    const svgs = getAllByRole("link").filter((link) => link.className.includes("iconBox"));
     expect(svgs.length).toBe(6);
 
     const facebook = svgs[0];

@@ -11,10 +11,14 @@ import { sortByMostRecentDate } from "utils";
 import { SocialGroup } from "components/Icon";
 
 import { Loading } from "components/Loading";
+import { Showbox } from "components/Button";
+import { useBatch } from "hooks/useBatch.hook";
 
 export default function FreshJuicePage({ freshjuice }: { freshjuice: PostProps[] }) {
+  const { filesToShow, handleLoadMore, handleLoadAll } = useBatch(freshjuice);
+
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
-    useSearchFilter<PostProps>(freshjuice);
+    useSearchFilter<PostProps>(filesToShow);
 
   if (searchHasErrored) return <Error error={searchError} />;
 
@@ -48,6 +52,8 @@ export default function FreshJuicePage({ freshjuice }: { freshjuice: PostProps[]
           ))}
         </div>
       </Loading>
+
+      <Showbox handleLoadMore={handleLoadMore} handleLoadAll={handleLoadAll} />
     </div>
   );
 }

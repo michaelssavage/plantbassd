@@ -12,10 +12,14 @@ import { sortByMostRecentDate } from "utils";
 import { SocialGroup } from "components/Icon";
 
 import { Loading } from "components/Loading";
+import { useBatch } from "hooks/useBatch.hook";
+import { Showbox } from "components/Button";
 
 export default function PremieresPage({ premieres }: { premieres: PostProps[] }) {
+  const { filesToShow, handleLoadMore, handleLoadAll } = useBatch(premieres);
+
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
-    useSearchFilter<PostProps>(premieres);
+    useSearchFilter<PostProps>(filesToShow);
 
   if (searchHasErrored) return <Error error={searchError} />;
 
@@ -47,7 +51,8 @@ export default function PremieresPage({ premieres }: { premieres: PostProps[] })
           ))}
         </div>
       </Loading>
-      <div className="mt-2 text-end">{premieres.length} cards.</div>
+
+      <Showbox handleLoadMore={handleLoadMore} handleLoadAll={handleLoadAll} />
     </div>
   );
 }

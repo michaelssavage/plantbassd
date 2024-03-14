@@ -14,7 +14,7 @@ import { Showbox } from "components/Button";
 import { useBatch } from "hooks/useBatch.hook";
 
 export default function ArchivePage({ files }: { files: PostProps[] }) {
-  const { filesToShow, handleLoadMore, handleLoadAll } = useBatch(files);
+  const { filesToShow, handleLoadMore, handleLoadAll } = useBatch(files, 3);
 
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
     useSearchFilter<PostProps>(filesToShow);

@@ -7,7 +7,7 @@ interface TeamProps {
 export const ourTeam: TeamProps[] = [
   {
     img: "08-oisin.jpg",
-    link: "https://www.instagram.com/inspectorcampbellbap/",
+    link: "https://www.instagram.com/obruvver/",
     name: "Oisin Campbell",
   },
   {

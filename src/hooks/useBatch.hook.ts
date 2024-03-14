@@ -1,8 +1,8 @@
 import { useMemo, useState } from "react";
 import { PostProps } from "types/frontmatter";
 
-export const useBatch = (files: PostProps[]) => {
-  const [amount, setAmount] = useState(1);
+export const useBatch = (files: PostProps[], batch = 1) => {
+  const [amount, setAmount] = useState(batch);
 
   const filesToShow = useMemo(() => {
     return files.slice(0, amount * 20);
