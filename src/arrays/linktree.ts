@@ -18,6 +18,14 @@ export const linkList: LinkProps[] = [
       "Glasgow - 17th March 2024\n\nHAPPY SAINT FUCKING PATTY'S DAY ME OLD FLOWERS! IT'S AROUND THAT TIME OF YEAR AGAIN WHEN WE CELEBRATE OUR GREATEST EVER WELSHMIN, OUR HOLY PATRON SAINT PATRICK.",
   },
   {
+    title: "ETM - I Believe",
+    img: "/premieres/73-believe.jpg",
+    link: "https://soundcloud.com/plantbassdworld/premiere-etm-i-believe",
+    name: "premiere",
+    description:
+      "Gorgeous, angelic, bliss. Catalan sensation ETM sends us into emotional overdrive with this bygone breakbeat epic.",
+  },
+  {
     title: "Serotone - Breaking Boundaries",
     img: "/premieres/72-serotone.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-serotone-breaking-boundaries",

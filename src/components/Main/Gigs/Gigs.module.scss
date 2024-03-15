@@ -30,7 +30,6 @@
   font-size: clamp(0.5rem, 8vw, 2.5rem);
 }
 
-// @include breakpoint-below(sm) {
 @media (width <= 768px) {
   .topImage {
     -moz-box-flex: 0;

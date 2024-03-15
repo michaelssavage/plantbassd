@@ -5,7 +5,7 @@
   padding: 0 0.5rem;
 }
 
-@include breakpoint-below(md) {
+@media (width <= 992px) {
   .slugContainer {
     margin-bottom: 2vh;
   }
@@ -23,7 +23,7 @@
   }
 }
 
-@include breakpoint-below(md) {
+@media (width <= 992px) {
   .postContent {
     padding: 0 1.25rem;
     margin: 0;

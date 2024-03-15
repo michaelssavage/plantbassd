@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
 import { LinkProps } from "arrays/linktree";
@@ -39,7 +40,11 @@ export const LinkPost = ({ posts }: { posts: LinkProps[] }) => {
           <Button to={link} text="Open" wide />
         </span>
         <div className={`col-6 ${name === "tickets" ? "col-sm-5" : "col-sm-3"}`}>
-          {img && <Picture src={img} alt={`pic of ${title}`} size={600} />}
+          {img && (
+            <Link href={link}>
+              <Picture src={img} alt={`pic of ${title}`} size={600} />
+            </Link>
+          )}
         </div>
       </div>
     </div>

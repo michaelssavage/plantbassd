@@ -17,6 +17,7 @@
   touch-action: manipulation;
   transition: border 0.5s;
   display: inline-block;
+  font-weight: 500;
 
   &::after {
     content: "";
@@ -33,7 +34,7 @@
 
   &:hover {
     color: $pb-black;
-    border: 1px solid transparent;
+    border: 1px solid rgba($clay-red, 0.4);
   }
 
   &:hover::after {
@@ -42,14 +43,14 @@
   }
 }
 
-@include breakpoint-below(sm) {
+@media (width <= 768px) {
   .button {
     font-size: 0.8rem;
     padding: 0.3rem 0.6rem;
   }
 }
 
-@include breakpoint-below(xs) {
+@media (width <= 576px) {
   .button {
     font-size: 0.7rem;
     padding: 0.3rem 0.4rem;

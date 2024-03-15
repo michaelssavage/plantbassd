@@ -15,13 +15,13 @@
   margin-top: 0.2rem;
 }
 
-@include breakpoint-below(md) {
+@media (width <= 992px) {
   .footerParagraph {
     margin-right: 5%;
   }
 }
 
-@include breakpoint-below(sm) {
+@media (width <= 768px) {
   .footerParagraph {
     margin-right: 0;
   }

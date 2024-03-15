@@ -17,7 +17,7 @@
   text-align: center;
 }
 
-@include breakpoint-below(md) {
+@media (width <= 992px) {
   .postTitle {
     font-size: calc(1.3rem + 1.1vw);
   }

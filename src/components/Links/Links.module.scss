@@ -49,26 +49,7 @@
   }
 
   img {
+    border-radius: 0.675rem;
     margin: 0.5rem 0;
   }
-}
-
-.btnText {
-  font-size: $btn-text;
-  border: 0;
-  position: relative;
-
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 1px;
-    width: 80%;
-    border-top: 3px solid $pb-black;
-  }
-}
-
-.btnIfImage {
-  padding: 0 !important;
 }
