@@ -13,13 +13,13 @@ export const linkList: LinkProps[] = [
     title: "20 Sevens - Honest",
     img: "/premieres/74-sevens.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-20-sevens-honest",
-    name: "premiere",
+    name: "premieres",
   },
   {
     title: "ETM - I Believe",
     img: "/premieres/73-believe.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-etm-i-believe",
-    name: "premiere",
+    name: "premieres",
     description:
       "Gorgeous, angelic, bliss. Catalan sensation ETM sends us into emotional overdrive with this bygone breakbeat epic.",
   },
@@ -27,7 +27,7 @@ export const linkList: LinkProps[] = [
     title: "Serotone - Breaking Boundaries",
     img: "/premieres/72-serotone.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-serotone-breaking-boundaries",
-    name: "premiere",
+    name: "premieres",
     description:
       "Glasgow's Hang Tough returns with a tight knit 3 tracker from Scottish act Serotone.",
   },
@@ -43,7 +43,7 @@ export const linkList: LinkProps[] = [
     title: "Timo Torben - Where Do We Go From Here",
     img: "/premieres/71-denholm.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-timo-torben-where-do-we-go-from-here",
-    name: "premiere",
+    name: "premieres",
     description:
       "Edinburgh party series & label DRIFT celebrates 5 years in operation with a very special 12 track compilation.",
   },
@@ -51,7 +51,7 @@ export const linkList: LinkProps[] = [
     title: "Pralaya - Bounce It On The Floor",
     img: "/premieres/70-pralaya.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-pralaya-bounce-it-on-the-floor",
-    name: "premiere",
+    name: "premieres",
     description:
       "Bogota's Fourtwenty Sound launches new project Sonora Destroy Records, a new window for electronic music in LATAM and Spain seeking to banish the boundaries between genres that define these areas.",
   },
@@ -59,7 +59,7 @@ export const linkList: LinkProps[] = [
     title: "Cat Lady - BB LOCK HEART",
     img: "/premieres/69-premiere.jpg",
     link: "https://soundcloud.com/plantbassdworld/cat-lady-bb-lock-heart",
-    name: "premiere",
+    name: "premieres",
     description:
       "Cat Lady lands on BASS WATER FREAK OUT with the torpedo turbulence of the “110, New Town” EP.",
   },
@@ -67,7 +67,7 @@ export const linkList: LinkProps[] = [
     title: "I'll Know by Mercy System",
     img: "/premieres/68-mercy.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-mercy-system-ill-know",
-    name: "premiere",
+    name: "premieres",
     description:
       "Dark grooves of dystopian acidic squelches immersed in thick ridged breakdowns of breaks & bass",
   },
@@ -75,13 +75,13 @@ export const linkList: LinkProps[] = [
     title: "Zygomatic Process Of The Frontal Bone by Miss Kotton",
     img: "/premieres/67-chabb.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-miss-kotton-zygomatic-process-of-the-frontal-bone",
-    name: "premiere",
+    name: "premieres",
     description: "Club Music for Palestine. Melodic Breakcore from the Delhi based Miss Kotton",
   },
   {
     title: "Mumbai Dreamhunter by Chhabb",
     link: "https://soundcloud.com/plantbassdworld/premiere-chhabb-mumbai-dreamhunter",
-    name: "premiere",
+    name: "premieres",
     description: "Club Music for Palestine via Delhi label Antariksh Records",
     img: "/premieres/67-chabb.jpg",
   },
@@ -89,7 +89,7 @@ export const linkList: LinkProps[] = [
     title: "13th by Noizy Wilson",
     img: "/premieres/66-noizy.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-noizy-wilson-13th-bonefm",
-    name: "premiere",
+    name: "premieres",
     description: "Stimulating breakbeat techno from Noizy Wilson on New Delhi imprint Bøne.FM",
   },
   {
