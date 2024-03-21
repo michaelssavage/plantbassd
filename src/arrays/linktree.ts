@@ -10,12 +10,10 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "C€LTIC ERECTIONS",
-    img: "/gigs/55-celtic.jpg",
-    link: "https://ra.co/events/1867088",
-    name: "tickets",
-    description:
-      "Glasgow - 17th March 2024\n\nHAPPY SAINT FUCKING PATTY'S DAY ME OLD FLOWERS! IT'S AROUND THAT TIME OF YEAR AGAIN WHEN WE CELEBRATE OUR GREATEST EVER WELSHMIN, OUR HOLY PATRON SAINT PATRICK.",
+    title: "20 Sevens - Honest",
+    img: "/premieres/74-sevens.jpg",
+    link: "https://soundcloud.com/plantbassdworld/premiere-20-sevens-honest",
+    name: "premiere",
   },
   {
     title: "ETM - I Believe",
