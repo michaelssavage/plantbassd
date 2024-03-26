@@ -10,10 +10,20 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Provost - Static",
+    img: "/premieres/75-provost.jpg",
+    link: "https://soundcloud.com/plantbassdworld/premiere-provost-static",
+    name: "premieres",
+    description:
+      "Tantalising and aggressive throughout, Provost marks his debut EP out in style with 3 tracks of blistering UK tinged techno fitted with Palidrone's growing hallmarks of dense percussion, ridging kicks, alluring vocal chops and bass rumblings.",
+  },
+  {
     title: "20 Sevens - Honest",
     img: "/premieres/74-sevens.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-20-sevens-honest",
     name: "premieres",
+    description:
+      "Florida act '20 Sevens' breathes new life on London's Tobago Tracks with a soundscape of life on 'Here I am here I am here I am, so glad you are so glad you are so glad you are'.",
   },
   {
     title: "ETM - I Believe",
