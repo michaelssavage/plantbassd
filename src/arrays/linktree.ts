@@ -10,10 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "NirBorna - Monsoon",
+    title: "NirBorna - Monsoon (Vief Records)",
+    img: "/premieres/76-nirborna.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-nirborna-monsoon-vief-records",
     name: "premieres",
-    description: "Music for Palestine on London imprint Vief",
+    description:
+      "Vief's next fundraiser compilation is raising money for Palestine Solidarity Campaign to aid their work in building public support for an end to the atrocities currently taking place in Gaza.",
   },
   {
     title: "Provost - Static",
