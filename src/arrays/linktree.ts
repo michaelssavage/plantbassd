@@ -10,6 +10,13 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Under The Radar - March",
+    img: "/under-the-radar/march-24.jpg",
+    link: "https://www.plantbassd.com/under-the-radar/march-24",
+    name: "under the radar",
+    description: "Celebrating Spring energy from new friends and new faces.",
+  },
+  {
     title: "NirBorna - Monsoon (Vief Records)",
     img: "/premieres/76-nirborna.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-nirborna-monsoon-vief-records",
