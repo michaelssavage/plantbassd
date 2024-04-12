@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "FRESH JUICE: Ar Ais Arís",
+    img: "/fresh-juice/70-aaa.jpg",
+    link: "https://www.plantbassd.com/fresh-juice/ar-ais-aris-12-4-24",
+    name: "fresh juice",
+    description:
+      "Is there another party that has cracked Irish grooves like Ar Ais Arís (AAA) since its inception back in 2022?",
+  },
+  {
     title: "Under The Radar - March",
     img: "/under-the-radar/march-24.jpg",
     link: "https://www.plantbassd.com/under-the-radar/march-24",
