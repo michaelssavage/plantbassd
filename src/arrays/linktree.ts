@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Macalla Festival debuts Saturday 20th of July 2024",
+    img: "/news/52-macalla-festival.jpg",
+    link: "https://www.plantbassd.com/news/macalla-festival-19-4-24",
+    name: "news",
+    description:
+      "Macalla Festival will be held in Keadeen Mountain Farms, and is sure to be an exciting combination of Gaeilge and SoundSystem Culture.",
+  },
+  {
     title: "FRESH JUICE: Ar Ais Arís",
     img: "/fresh-juice/70-aaa.jpg",
     link: "https://www.plantbassd.com/fresh-juice/ar-ais-aris-12-4-24",
