@@ -15,7 +15,7 @@ export const linkList: LinkProps[] = [
     link: "https://www.plantbassd.com/news/macalla-festival-19-4-24",
     name: "news",
     description:
-      "Macalla Festival debuts on Saturday 20th of July 2024, and is sure to be an exciting combination of Gaeilge and SoundSystem Culture.",
+      "Macalla Festival will be held in Keadeen Mountain Farms, and is sure to be an exciting combination of Gaeilge and SoundSystem Culture.",
   },
   {
     title: "FRESH JUICE: Ar Ais Arís",
