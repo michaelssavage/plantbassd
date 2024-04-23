@@ -1,5 +1,6 @@
 import { GetStaticProps } from "next/types";
 
+import Link from "next/link";
 import Error from "components/Error";
 import { FilterTags } from "components/FilterTags";
 import { TextCard } from "components/Card";
@@ -12,8 +13,6 @@ import { Loading } from "components/Loading";
 
 import { SocialGroup } from "components/Icon";
 import { PostProps } from "types/frontmatter";
-import { Showbox } from "components/Button";
-import { useBatch } from "hooks/useBatch.hook";
 
 const newsTags = [
   { name: "fresh juice", value: false },
@@ -25,11 +24,9 @@ const newsTags = [
 ];
 
 export default function NewsPage({ files }: { files: PostProps[] }) {
-  const { filesToShow, handleLoadMore, handleLoadAll } = useBatch(files);
-
   const { tagsError, filteredPosts, tagList, handleTags } = useTagsFilter<PostProps>(
     newsTags,
-    filesToShow,
+    files,
     "tags"
   );
 
@@ -69,7 +66,11 @@ export default function NewsPage({ files }: { files: PostProps[] }) {
         </div>
       </Loading>
 
-      <Showbox handleLoadMore={handleLoadMore} handleLoadAll={handleLoadAll} />
+      <Link href="/archive" className={styles.showbox}>
+        <button className="btn btn-dark" role="button">
+          View All
+        </button>
+      </Link>
     </div>
   );
 }

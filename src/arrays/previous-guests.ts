@@ -226,6 +226,7 @@ export const guestList: GuestProps[] = [
       "https://ra.co/events/1828740",
       "https://ra.co/events/1867088",
       "https://ra.co/events/1873936",
+      "https://ra.co/events/1883348",
     ],
   },
   {
@@ -866,4 +867,40 @@ export const guestList: GuestProps[] = [
   //   name: "Tadhg K",
   //   gig: ["https://ra.co/events/1867088"],
   // },
+  {
+    img: "57-subsism.jpg",
+    link: "subsism_",
+    name: "Subsism",
+    gig: ["https://ra.co/events/1883348"],
+  },
+  {
+    img: "57-dtshanks.jpg",
+    link: "dtshanks",
+    name: "dtshanks",
+    gig: ["https://ra.co/events/1883348"],
+  },
+  {
+    img: "57-pastresdroleee.jpg",
+    link: "pastresdroleee",
+    name: "pastresdrole",
+    gig: ["https://ra.co/events/1883348"],
+  },
+  {
+    img: "57-maelitaa.jpg",
+    link: "maelitaa",
+    name: "Maelita",
+    gig: ["https://ra.co/events/1883348"],
+  },
+  {
+    img: "57-r333cluse.jpg",
+    link: "r333cluse",
+    name: "r333cluse",
+    gig: ["https://ra.co/events/1883348"],
+  },
+  {
+    img: "57-deathwtf.jpg",
+    link: "deathwtf",
+    name: "ALK E P",
+    gig: ["https://ra.co/events/1883348"],
+  },
 ];
