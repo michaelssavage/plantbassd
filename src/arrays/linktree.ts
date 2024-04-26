@@ -10,6 +10,22 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "The JLB - Lick the World (Tobago Tracks)",
+    img: "/premieres/78-jlb.jpg",
+    link: "https://soundcloud.com/plantbassdworld/premiere-the-jlb-lick-the-world",
+    name: "premieres",
+    description:
+      "A bouncy two step shuffler brimmed with dialled up samples, orchestral clashes and warped synth work.",
+  },
+  {
+    title: "Capiuz - Fiori Notturni (Over My Body)",
+    img: "/premieres/77-capiuz.jpg",
+    link: "https://soundcloud.com/plantbassdworld/premiere-capiuz-fiori-notturni",
+    name: "premieres",
+    description:
+      "A swooning drum track forging metallic percussion with ridging kicks, crafting a rigid balance between groove and pow.",
+  },
+  {
     title: "Macalla Festival debuts Saturday 20th of July 2024",
     img: "/news/52-macalla-festival.jpg",
     link: "https://www.plantbassd.com/news/macalla-festival-19-4-24",
