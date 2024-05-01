@@ -11,6 +11,7 @@ export interface LinkProps {
 export const linkList: LinkProps[] = [
   {
     title: "Wrong Dome - No Slangs",
+    img: "/premieres/79-wrong-dome.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-wrong-dome-no-slangs",
     name: "premieres",
     description: "Slovakia's Wrong Dome shares a snippet into forthcoming album 'KULOARE AKTUAL' with some half-time magic on 'No Slangs'.",
