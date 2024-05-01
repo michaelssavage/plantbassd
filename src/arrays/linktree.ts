@@ -12,7 +12,7 @@ export const linkList: LinkProps[] = [
   {
     title: "Plant Bass'd x Macalla Festival Launch Party",
     img: "/gigs/58-macalla.jpg",
-    link: "https://soundcloud.com/plantbassdworld/premiere-wrong-dome-no-slangs",
+    link: "https://ra.co/events/1917465",
     name: "tickets",
     description:
       "Plant Bass'd are teaming up with Macalla for a special Galway launch party ahead of the festival's debut entry this July 20th at Keadeen Mountain Farm in Co. Wicklow.",
