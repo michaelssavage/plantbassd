@@ -15,7 +15,7 @@ export const linkList: LinkProps[] = [
     link: "https://www.plantbassd.com/under-the-radar/april-24",
     name: "under the radar",
     description:
-      "Sounds of April coming from a global showcase of diverse styles and cultural richness with the likes of Girl Tool, Lukrø, Dj Babatr, and System 108.",
+      "As we transition back into sunnier times, we take a quick look back at this best from April as spring begins to fizzle out! Tuck into a diverse range of sounds from global acts like Girl Tool, Lukrø, Dj Babatr, System 108 & more.",
   },
   {
     title: "Plant Bass'd x Macalla Festival Launch Party",
