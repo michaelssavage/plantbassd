@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Under The Radar - April",
+    img: "/under-the-radar/april-24.jpg",
+    link: "https://www.plantbassd.com/under-the-radar/april-24",
+    name: "under the radar",
+    description:
+      "Sounds of April coming from a global showcase of diverse styles and cultural richness with the likes of Girl Tool, Lukrø, Dj Babatr, and System 108.",
+  },
+  {
     title: "Plant Bass'd x Macalla Festival Launch Party",
     img: "/gigs/58-macalla.jpg",
     link: "https://ra.co/events/1917465",

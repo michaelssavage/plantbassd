@@ -93,6 +93,8 @@ def process_text_document(file_path, month):
 
 def main():
     file_path = input("file location: ")
+    if not file_path:
+        file_path = "utr.txt"
     month = input("month: ")
     music_releases = process_text_document(file_path, month)
 
