@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "gullydoctor - Prince Heavy Shocker",
+    img: "/premieres/80-gully.jpg",
+    link: "https://soundcloud.com/plantbassdworld/premiere-gully-doctor-prince-heavy-shockers",
+    name: "premieres",
+    description:
+      "gullydoctor's 'Prince Heavy Shocker' is a speedy groover with rich textures, guitar solos, and fun sample usage",
+  },
+  {
     title: "Under The Radar - April",
     img: "/under-the-radar/april-24.jpg",
     link: "https://www.plantbassd.com/under-the-radar/april-24",
