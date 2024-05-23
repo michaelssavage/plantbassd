@@ -19,7 +19,7 @@ describe("Team page", () => {
     expect(headerText).toBeInTheDocument();
 
     const bannerText = getByText(
-      "The trio work closely together online to highlight underground music in the 'Under The Radar' series each month, premiere up and coming artists on SoundCloud, and write about interests ranging from festivals, forward-thinking labels, and movements."
+      "Online, the trio work closely together to highlight underground music in the 'Under The Radar' series each month, premiere up-and-coming artists on SoundCloud, and write about interests ranging from festivals and forward-thinking labels to topical movements. With this, they establish a safe, welcoming space where everyone can celebrate and express themselves freely."
     );
     expect(bannerText).toBeInTheDocument();
   });

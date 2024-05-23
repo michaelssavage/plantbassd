@@ -30,25 +30,28 @@ export default function TeamPage() {
             <h1 className={styles.pageHeader}>Our Team</h1>
             <p>
               In early 2020, Oisín Campbell, Michael Savage, and Peter Toal from Co. Monaghan,
-              Ireland came together to form Plant Bass'd. Initially, the collective wanted to focus
-              on sharing their love for music and throwing parties. However, it soon developed into
+              Ireland came together to form Plant Bass'd. Initially, the collective focused on
+              sharing their love for music and throwing parties, however, it soon developed into
               something bigger, with a mission to showcase artists, releases, and club nights in the
               experimental dance music world.
             </p>
             <p>
-              The team shares a common goal and passion, and they aspire to create unforgettable
-              Plant Bass'd events across Ireland and Scotland. Oisín has been a force to reckon with
-              in Scotland, organising big events in Edinburgh and Glasgow with the likes of Amor
-              Satyr, DJ Mell G, Kessler, Martyn Bootyspoon, Two Shell, TAAHLIAH and many more
-              talented creatives. The Plant Bass'd night out has received 4 Resident Advisor Top
-              Picks in 2023 due to his hard work and diligence. Across the pond, past events have
-              been organised in Dublin and, more recently, in Galway where Peter and Michael both
-              reside.
+              The team aspire to create unforgettable Plant Bass'd events across Ireland and
+              Scotland. Oisín has been a force to be reckoned with in Scotland, developing a unique
+              identity for Plant Bass'd in Edinburgh and Glasgow with the events orchestrated. With
+              the likes of Amor Satyr, DJ Mell G, Kessler, Martyn Bootyspoon, Two Shell, TAAHLIAH
+              and many more talented creatives pushing the boundaries of unconventional club music.
+              Plant Bass'd gigs received six Resident Advisor Top Picks in 2023 due to their hard
+              work and diligence. Across the pond in Ireland, events have been steadily gaining
+              momentum in Dublin and Galway where local artists are given a platform to express
+              themselves.
             </p>
             <p>
-              The trio work closely together online to highlight underground music in the 'Under The
-              Radar' series each month, premiere up and coming artists on SoundCloud, and write
-              about interests ranging from festivals, forward-thinking labels, and movements.
+              Online, the trio work closely together to highlight underground music in the 'Under
+              The Radar' series each month, premiere up-and-coming artists on SoundCloud, and write
+              about interests ranging from festivals and forward-thinking labels to topical
+              movements. With this, they establish a safe, welcoming space where everyone can
+              celebrate and express themselves freely.
             </p>
           </div>
         </div>
