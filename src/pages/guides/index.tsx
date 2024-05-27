@@ -9,7 +9,6 @@ import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
 import { SocialGroup } from "components/Icon";
-import { Loading } from "components/Loading";
 
 export default function GuidesPage({ guides }: { guides: PostProps[] }) {
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
@@ -30,13 +29,11 @@ export default function GuidesPage({ guides }: { guides: PostProps[] }) {
       />
       <SocialGroup icons={["instagram", "soundcloud"]} />
 
-      <Loading>
-        <div className="row g-3">
-          {postCards.map((guide) => (
-            <TextCard key={guide.frontmatter.name} link={`/guides/${guide.slug}`} post={guide} />
-          ))}
-        </div>
-      </Loading>
+      <div className="row g-3">
+        {postCards.map((guide) => (
+          <TextCard key={guide.frontmatter.name} link={`/guides/${guide.slug}`} post={guide} />
+        ))}
+      </div>
     </div>
   );
 }

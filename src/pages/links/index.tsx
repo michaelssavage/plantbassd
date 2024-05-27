@@ -9,7 +9,6 @@ import { FilterTags } from "components/FilterTags";
 import PageMetaData from "components/PageMetaData";
 import { LinkPost } from "components/Links";
 import { Icon } from "components/Icon/Icon";
-import { Loading } from "components/Loading";
 import styles from "styles/links.module.scss";
 
 const linkTags = [
@@ -48,9 +47,7 @@ export default function Links() {
 
         <FilterTags handleTags={handleTags} tagList={tagList} />
 
-        <Loading>
-          <LinkPost posts={filteredPosts} />
-        </Loading>
+        <LinkPost posts={filteredPosts} />
       </div>
     </div>
   );

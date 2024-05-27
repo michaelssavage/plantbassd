@@ -10,7 +10,6 @@ import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
 import { SocialGroup } from "components/Icon";
 
-import { Loading } from "components/Loading";
 import { Showbox } from "components/Button";
 import { useBatch } from "hooks/useBatch.hook";
 
@@ -41,17 +40,11 @@ export default function FreshJuicePage({ freshjuice }: { freshjuice: PostProps[]
       />
       <SocialGroup icons={["instagram", "bandcamp"]} />
 
-      <Loading>
-        <div className="row g-3">
-          {postCards.map((juice) => (
-            <TextCard
-              key={juice.frontmatter.name}
-              link={`/fresh-juice/${juice.slug}`}
-              post={juice}
-            />
-          ))}
-        </div>
-      </Loading>
+      <div className="row g-3">
+        {postCards.map((juice) => (
+          <TextCard key={juice.frontmatter.name} link={`/fresh-juice/${juice.slug}`} post={juice} />
+        ))}
+      </div>
 
       <Showbox handleLoadMore={handleLoadMore} handleLoadAll={handleLoadAll} />
     </div>

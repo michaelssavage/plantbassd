@@ -9,7 +9,6 @@ import { useTagsFilter } from "hooks";
 import { getAllPosts } from "utils/getAllPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
-import { Loading } from "components/Loading";
 
 import { SocialGroup } from "components/Icon";
 import { PostProps } from "types/frontmatter";
@@ -48,23 +47,21 @@ export default function NewsPage({ files }: { files: PostProps[] }) {
 
       <SocialGroup icons={["instagram", "email"]} />
 
-      <Loading>
-        <div className="row g-3">
-          {filteredPosts.length > 0 ? (
-            filteredPosts.map((story) => (
-              <TextCard
-                key={story.frontmatter.name}
-                link={`/${story.frontmatter.path}/${story.slug}`}
-                post={story}
-              />
-            ))
-          ) : (
-            <div className={styles.noPostsFound}>
-              <p>No recent posts found</p>
-            </div>
-          )}
-        </div>
-      </Loading>
+      <div className="row g-3">
+        {filteredPosts.length > 0 ? (
+          filteredPosts.map((story) => (
+            <TextCard
+              key={story.frontmatter.name}
+              link={`/${story.frontmatter.path}/${story.slug}`}
+              post={story}
+            />
+          ))
+        ) : (
+          <div className={styles.noPostsFound}>
+            <p>No recent posts found</p>
+          </div>
+        )}
+      </div>
 
       <Link href="/archive" className={styles.showbox}>
         <button className="btn btn-dark" role="button">

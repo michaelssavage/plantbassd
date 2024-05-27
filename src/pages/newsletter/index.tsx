@@ -1,5 +1,5 @@
 import styles from "components/Signup/Signup.module.scss";
-import { Spinner } from "components/Loading";
+import { Spinner } from "components/Spinner";
 import { HoverLink } from "components/HoverLink";
 import { Header } from "components/Header";
 import { useNewsletter } from "hooks/useNewsletter.hook";

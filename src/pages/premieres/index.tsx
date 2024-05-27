@@ -11,7 +11,6 @@ import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
 import { SocialGroup } from "components/Icon";
 
-import { Loading } from "components/Loading";
 import { useBatch } from "hooks/useBatch.hook";
 import { Showbox } from "components/Button";
 
@@ -40,17 +39,15 @@ export default function PremieresPage({ premieres }: { premieres: PostProps[] })
       />
       <SocialGroup icons={["instagram", "soundcloud"]} />
 
-      <Loading>
-        <div className="row g-3">
-          {postCards.map((premiere) => (
-            <TextCard
-              key={premiere.frontmatter.name}
-              link={`/premieres/${premiere.slug}`}
-              post={premiere}
-            />
-          ))}
-        </div>
-      </Loading>
+      <div className="row g-3">
+        {postCards.map((premiere) => (
+          <TextCard
+            key={premiere.frontmatter.name}
+            link={`/premieres/${premiere.slug}`}
+            post={premiere}
+          />
+        ))}
+      </div>
 
       <Showbox handleLoadMore={handleLoadMore} handleLoadAll={handleLoadAll} />
     </div>

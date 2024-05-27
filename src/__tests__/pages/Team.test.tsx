@@ -19,7 +19,7 @@ describe("Team page", () => {
     expect(headerText).toBeInTheDocument();
 
     const bannerText = getByText(
-      "Online, the trio work closely together to highlight underground music in the 'Under The Radar' series each month, premiere up-and-coming artists on SoundCloud, and write about interests ranging from festivals and forward-thinking labels to topical movements. With this, they establish a safe, welcoming space where everyone can celebrate and express themselves freely."
+      "Online, the team work closely together to highlight underground music in the 'Under The Radar' series each month, premiere up-and-coming artists on SoundCloud, and write about interests ranging from festivals and forward-thinking labels to topical movements. With this, they establish a safe, welcoming space where everyone can celebrate and express themselves freely."
     );
     expect(bannerText).toBeInTheDocument();
   });
@@ -27,7 +27,7 @@ describe("Team page", () => {
   it("should have 3 photos of the team", () => {
     renderUtil();
     const images = getAllByRole("img").filter((img) => img.tagName.toLowerCase() !== "svg");
-    expect(images.length).toBe(3);
+    expect(images.length).toBe(2);
   });
 
   it("should have 6 svg icons", () => {

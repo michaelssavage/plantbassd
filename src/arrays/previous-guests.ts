@@ -228,6 +228,7 @@ export const guestList: GuestProps[] = [
       "https://ra.co/events/1873936",
       "https://ra.co/events/1883348",
       "https://ra.co/events/1917465",
+      "https://ra.co/events/1918104",
     ],
   },
   {
