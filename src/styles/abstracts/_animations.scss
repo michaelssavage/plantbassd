@@ -1,21 +1,24 @@
 @use "sass:string";
 
 .shakeInfi {
-  animation: shake-infi 4.5s ease infinite;
+  animation: shake-infi 5s ease infinite;
+  &:hover {
+    animation: 0;
+  }
 }
 
 @keyframes shake-infi {
   0%,
-  3.57143%,
-  7.14286%,
-  10.7143%,
+  3.5%,
+  8%,
+  12%,
   100% {
     transform: translate(0, 0);
   }
-  1.78571%,
-  5.35714%,
-  8.92857% {
-    transform: translate(5px, 0);
+  1.8%,
+  5%,
+  8% {
+    transform: translate(0, 5px);
   }
 }
 
