@@ -5,8 +5,6 @@ import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
 
-import { Loading } from "components/Loading";
-
 interface HomeProps {
   allPosts: PostProps[];
   topTen: PostProps[];
@@ -22,20 +20,18 @@ export default function Home({ allPosts, topTen, radar, freshjuice, gigs }: Home
 
       <Banner />
 
-      <Loading>
-        <News news={allPosts} />
+      <News news={allPosts} />
 
-        <Premiere />
+      <Premiere />
 
-        <FreshJuice freshjuice={freshjuice} />
+      <FreshJuice freshjuice={freshjuice} />
 
-        <Gigs gigs={gigs} />
+      <Gigs gigs={gigs} />
 
-        <div className="gradients">
-          <TopTen topTen={topTen} />
-          <Radar radar={radar} />
-        </div>
-      </Loading>
+      <div className="gradients">
+        <TopTen topTen={topTen} />
+        <Radar radar={radar} />
+      </div>
     </main>
   );
 }

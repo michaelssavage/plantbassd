@@ -1,4 +1,4 @@
-import { Spinner } from "components/Loading";
+import { Spinner } from "components/Spinner";
 import { HoverLink } from "components/HoverLink";
 import { useNewsletter } from "hooks/useNewsletter.hook";
 import { CheckIcon } from "components/Icon";

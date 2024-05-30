@@ -1,5 +1,5 @@
 import { ChangeEvent, FormEvent, useState } from "react";
-import { Spinner } from "components/Loading";
+import { Spinner } from "components/Spinner";
 import styles from "components/Signup/Signup.module.scss";
 import { CheckIcon } from "components/Icon";
 

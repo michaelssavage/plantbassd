@@ -6,7 +6,6 @@ import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
 import PageMetaData from "components/PageMetaData";
 import { GigGuide } from "components/Slug";
-import { Loading } from "components/Loading";
 
 const components = { HoverLink, Picture, GigGuide };
 
@@ -20,21 +19,19 @@ export default function Guides({ frontmatter, slug, mdxSource }: SlugProp) {
         description={bio}
         url={`www.plantbassd.com/${slug}`}
       />
-      <Loading>
-        <div className={`col ${styles.topTenContent}`}>
-          <div className="px-3">
-            <p>
-              {<HoverLink url="/" name="home" />} / {<HoverLink url={`/${path}`} name={path} />} /
-            </p>
-            <p className={styles.postDate}>Posted on {date}</p>
-          </div>
-          <h1 className={styles.postTitle}>{title}</h1>
-
-          <div className="row">
-            <MDXRemote {...mdxSource} components={components} />
-          </div>
+      <div className={`col ${styles.topTenContent}`}>
+        <div className="px-3">
+          <p>
+            {<HoverLink url="/" name="home" />} / {<HoverLink url={`/${path}`} name={path} />} /
+          </p>
+          <p className={styles.postDate}>Posted on {date}</p>
         </div>
-      </Loading>
+        <h1 className={styles.postTitle}>{title}</h1>
+
+        <div className="row">
+          <MDXRemote {...mdxSource} components={components} />
+        </div>
+      </div>
     </div>
   );
 }

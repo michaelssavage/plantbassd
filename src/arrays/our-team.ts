@@ -15,9 +15,4 @@ export const ourTeam: TeamProps[] = [
     link: "https://www.instagram.com/michaelsaverage/",
     name: "Michael Savage",
   },
-  {
-    img: "peter.jpg",
-    link: "https://www.instagram.com/peter_toal/",
-    name: "Peter Toal",
-  },
 ];

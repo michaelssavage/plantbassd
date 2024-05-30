@@ -11,8 +11,6 @@ import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
 import { SocialGroup } from "components/Icon";
 
-import { Loading } from "components/Loading";
-
 const gigsTags = [
   { name: "edinburgh", value: false },
   { name: "glasgow", value: false },
@@ -45,17 +43,15 @@ export default function GalleryPage({ gigs }: { gigs: PostProps[] }) {
 
       <SocialGroup icons={["instagram", "resident advisor"]} />
 
-      <Loading>
-        <div className="row g-3">
-          {filteredPosts.map((gig) => (
-            <TextCard
-              key={gig.frontmatter.name}
-              link={`/${gig.frontmatter.path}/${gig.slug}`}
-              post={gig}
-            />
-          ))}
-        </div>
-      </Loading>
+      <div className="row g-3">
+        {filteredPosts.map((gig) => (
+          <TextCard
+            key={gig.frontmatter.name}
+            link={`/${gig.frontmatter.path}/${gig.slug}`}
+            post={gig}
+          />
+        ))}
+      </div>
     </div>
   );
 }

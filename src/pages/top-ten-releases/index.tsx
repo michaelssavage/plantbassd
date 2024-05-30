@@ -11,8 +11,6 @@ import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
 import { SocialGroup } from "components/Icon";
 
-import { Loading } from "components/Loading";
-
 export default function TopTenPage({ topTens }: { topTens: PostProps[] }) {
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
     useSearchFilter<PostProps>(topTens);
@@ -38,17 +36,15 @@ export default function TopTenPage({ topTens }: { topTens: PostProps[] }) {
 
       <SocialGroup icons={["instagram", "email"]} />
 
-      <Loading>
-        <div className="row g-3">
-          {postCards.map((topTen) => (
-            <TextCard
-              key={topTen.frontmatter.name}
-              link={`/top-ten-releases/${topTen.slug}`}
-              post={topTen}
-            />
-          ))}
-        </div>
-      </Loading>
+      <div className="row g-3">
+        {postCards.map((topTen) => (
+          <TextCard
+            key={topTen.frontmatter.name}
+            link={`/top-ten-releases/${topTen.slug}`}
+            post={topTen}
+          />
+        ))}
+      </div>
     </div>
   );
 }

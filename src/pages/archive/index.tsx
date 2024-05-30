@@ -9,7 +9,6 @@ import { getAllPosts } from "utils/getAllPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
 import { SocialGroup } from "components/Icon";
-import { Loading } from "components/Loading";
 import { Showbox } from "components/Button";
 import { useBatch } from "hooks/useBatch.hook";
 
@@ -34,18 +33,16 @@ export default function ArchivePage({ files }: { files: PostProps[] }) {
 
       <SocialGroup icons={["instagram", "email"]} />
 
-      <Loading>
-        <div className="row g-2">
-          {postCards.map((story) => (
-            <TextCard
-              key={story.frontmatter.name}
-              link={`/${story.frontmatter.path}/${story.slug}`}
-              post={story}
-            />
-          ))}
-        </div>
-        <Showbox handleLoadMore={handleLoadMore} handleLoadAll={handleLoadAll} />
-      </Loading>
+      <div className="row g-2">
+        {postCards.map((story) => (
+          <TextCard
+            key={story.frontmatter.name}
+            link={`/${story.frontmatter.path}/${story.slug}`}
+            post={story}
+          />
+        ))}
+      </div>
+      <Showbox handleLoadMore={handleLoadMore} handleLoadAll={handleLoadAll} />
     </div>
   );
 }

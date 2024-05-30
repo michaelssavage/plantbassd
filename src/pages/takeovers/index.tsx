@@ -11,8 +11,6 @@ import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
 import { SocialGroup } from "components/Icon";
 
-import { Loading } from "components/Loading";
-
 export default function TakeoverPage({ takeovers }: { takeovers: PostProps[] }) {
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
     useSearchFilter<PostProps>(takeovers);
@@ -40,17 +38,15 @@ export default function TakeoverPage({ takeovers }: { takeovers: PostProps[] }) 
 
       <SocialGroup icons={["instagram", "spotify"]} />
 
-      <Loading>
-        <div className="row g-3">
-          {postCards.map((takeover) => (
-            <TextCard
-              key={takeover.frontmatter.name}
-              link={`/takeovers/${takeover.slug}`}
-              post={takeover}
-            />
-          ))}
-        </div>
-      </Loading>
+      <div className="row g-3">
+        {postCards.map((takeover) => (
+          <TextCard
+            key={takeover.frontmatter.name}
+            link={`/takeovers/${takeover.slug}`}
+            post={takeover}
+          />
+        ))}
+      </div>
     </div>
   );
 }

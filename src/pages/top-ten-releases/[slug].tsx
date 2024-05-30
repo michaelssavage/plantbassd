@@ -7,7 +7,6 @@ import styles from "styles/top-ten.module.scss";
 import PageMetaData from "components/PageMetaData";
 import { FavTrack } from "components/Slug";
 import { Icon } from "components/Icon/Icon";
-import { Loading } from "components/Loading";
 
 interface TopTenProps {
   frontmatter: {
@@ -49,11 +48,9 @@ export default function TopTenSlug({ mdxSource, frontmatter, slug }: SlugProp & 
         </div>
 
         <hr />
-        <Loading>
-          <div className="row">
-            <MDXRemote {...mdxSource} components={components} />
-          </div>
-        </Loading>
+        <div className="row">
+          <MDXRemote {...mdxSource} components={components} />
+        </div>
       </div>
     </div>
   );

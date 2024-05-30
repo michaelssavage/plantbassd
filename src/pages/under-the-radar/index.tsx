@@ -10,7 +10,6 @@ import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
 
-import { Loading } from "components/Loading";
 import { SocialGroup } from "components/Icon";
 
 export default function UnderTheRadarPage({ radars }: { radars: PostProps[] }) {
@@ -36,17 +35,15 @@ export default function UnderTheRadarPage({ radars }: { radars: PostProps[] }) {
 
       <SocialGroup icons={["instagram", "bandcamp"]} />
 
-      <Loading>
-        <div className="row g-3">
-          {postCards.map((radar) => (
-            <TextCard
-              key={radar.frontmatter.name}
-              link={`/under-the-radar/${radar.slug}`}
-              post={radar}
-            />
-          ))}
-        </div>
-      </Loading>
+      <div className="row g-3">
+        {postCards.map((radar) => (
+          <TextCard
+            key={radar.frontmatter.name}
+            link={`/under-the-radar/${radar.slug}`}
+            post={radar}
+          />
+        ))}
+      </div>
     </div>
   );
 }

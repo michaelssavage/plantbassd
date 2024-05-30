@@ -11,7 +11,6 @@ import { defaultGuest, PreviousGuestType } from "components/PreviousGuest/types"
 import { getPosts } from "utils/getPosts";
 import { sortAlphabetically } from "utils";
 import { ArtistModal } from "components/ArtistLookUp/ArtistModal";
-import { Loading } from "components/Loading";
 import { PostProps } from "types/frontmatter";
 
 const djs = guestList.concat(headliners);
@@ -35,10 +34,21 @@ export default function PreviousGuestsPage({ gigs }: { gigs: PostProps[] }) {
         amount={postCards.length}
         text="DJ"
       />
-      <Loading>
-        {filter ? (
+      {filter ? (
+        <div className="row g-4">
+          {postCards.sort(sortAlphabetically).map((guest) => (
+            <PreviousGuest
+              key={guest.name}
+              artist={guest}
+              setModalData={setModalData}
+              setShow={setShow}
+            />
+          ))}
+        </div>
+      ) : (
+        <>
           <div className="row g-4">
-            {postCards.sort(sortAlphabetically).map((guest) => (
+            {headliners.sort(sortAlphabetically).map((guest: PreviousGuestType) => (
               <PreviousGuest
                 key={guest.name}
                 artist={guest}
@@ -47,32 +57,19 @@ export default function PreviousGuestsPage({ gigs }: { gigs: PostProps[] }) {
               />
             ))}
           </div>
-        ) : (
-          <>
-            <div className="row g-4">
-              {headliners.sort(sortAlphabetically).map((guest: PreviousGuestType) => (
-                <PreviousGuest
-                  key={guest.name}
-                  artist={guest}
-                  setModalData={setModalData}
-                  setShow={setShow}
-                />
-              ))}
-            </div>
-            <hr />
-            <div className="row g-4">
-              {guestList.sort(sortAlphabetically).map((guest: PreviousGuestType) => (
-                <PreviousGuest
-                  key={guest.name}
-                  artist={guest}
-                  setModalData={setModalData}
-                  setShow={setShow}
-                />
-              ))}
-            </div>
-          </>
-        )}
-      </Loading>
+          <hr />
+          <div className="row g-4">
+            {guestList.sort(sortAlphabetically).map((guest: PreviousGuestType) => (
+              <PreviousGuest
+                key={guest.name}
+                artist={guest}
+                setModalData={setModalData}
+                setShow={setShow}
+              />
+            ))}
+          </div>
+        </>
+      )}
       <ArtistModal data={modalData} show={show} setShow={setShow} gigs={gigs} />
     </div>
   );

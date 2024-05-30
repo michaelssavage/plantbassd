@@ -8,7 +8,6 @@ import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
 import { SocialGroup } from "components/Icon";
-import { Loading } from "components/Loading";
 import { PostProps } from "types/frontmatter";
 
 const gigsTags = [
@@ -44,17 +43,15 @@ export default function GigsPage({ gigs }: { gigs: PostProps[] }) {
 
       <SocialGroup icons={["instagram", "resident advisor"]} />
 
-      <Loading>
-        <div className="row g-3">
-          {filteredPosts.map((gig) => (
-            <TextCard
-              key={gig.frontmatter.name}
-              link={`/${gig.frontmatter.path}/${gig.slug}`}
-              post={gig}
-            />
-          ))}
-        </div>
-      </Loading>
+      <div className="row g-3">
+        {filteredPosts.map((gig) => (
+          <TextCard
+            key={gig.frontmatter.name}
+            link={`/${gig.frontmatter.path}/${gig.slug}`}
+            post={gig}
+          />
+        ))}
+      </div>
     </div>
   );
 }

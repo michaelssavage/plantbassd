@@ -10,7 +10,6 @@ import { getPosts } from "utils/getPosts";
 import PageMetaData from "components/PageMetaData";
 import { sortByMostRecentDate } from "utils";
 import { SocialGroup } from "components/Icon";
-import { Loading } from "components/Loading";
 
 export default function RadioPage({ radios }: { radios: PostProps[] }) {
   const { searchError, filter, searchHasErrored, postCards, handleSearchChange } =
@@ -33,13 +32,11 @@ export default function RadioPage({ radios }: { radios: PostProps[] }) {
 
       <SocialGroup icons={["instagram", "soundcloud"]} />
 
-      <Loading>
-        <div className="row g-3">
-          {postCards.map((radio) => (
-            <TextCard key={radio.frontmatter.name} link={`/radios/${radio.slug}`} post={radio} />
-          ))}
-        </div>
-      </Loading>
+      <div className="row g-3">
+        {postCards.map((radio) => (
+          <TextCard key={radio.frontmatter.name} link={`/radios/${radio.slug}`} post={radio} />
+        ))}
+      </div>
     </div>
   );
 }

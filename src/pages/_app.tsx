@@ -8,11 +8,14 @@ import { ErrorBoundary } from "react-error-boundary";
 import Sidebar from "components/Sidebar";
 import { ErrorFallback } from "components/Error";
 import { Footer } from "components/Footer";
-import { LoadingContextProvider } from "context/loading.context";
+import { useLoading } from "hooks/useLoading.hook";
+import { Spinner } from "components/Spinner";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
+  const { loading } = useLoading();
+
   return (
-    <LoadingContextProvider>
+    <>
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
@@ -20,9 +23,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <Analytics />
       <SpeedInsights />
       <ErrorBoundary FallbackComponent={ErrorFallback}>
-        <Component {...pageProps} />
+        {loading ? <Spinner /> : <Component {...pageProps} />}
       </ErrorBoundary>
       <Footer />
-    </LoadingContextProvider>
+    </>
   );
 }
