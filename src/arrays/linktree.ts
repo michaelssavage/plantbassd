@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Henry Greenleaf - Get the Hell Out ",
+    img: "/premieres/81-henry.jpg",
+    link: "https://soundcloud.com/plantbassdworld/premiere-henry-greenleaf-get",
+    name: "premieres",
+    description:
+      "Australian label Different Intel continue on their recent run of form with the imprints first vinyl release arriving via Henry Greenleaf’s ‘Keepsake’ EP.",
+  },
+  {
     title: "gullydoctor - Prince Heavy Shocker",
     img: "/premieres/80-gully.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-gully-doctor-prince-heavy-shockers",
