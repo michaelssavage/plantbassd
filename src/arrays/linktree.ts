@@ -20,7 +20,7 @@ export const linkList: LinkProps[] = [
   {
     title: "gullydoctor - Prince Heavy Shocker",
     img: "/premieres/80-gully.jpg",
-    link: "https://soundcloud.com/plantbassdworld/premiere-gully-doctor-prince-heavy-shockers",
+    link: "https://soundcloud.com/plantbassdworld/premiere-gully-doctor-prince-heavy-shocker",
     name: "premieres",
     description:
       "gullydoctor's 'Prince Heavy Shocker' is a speedy groover with rich textures, guitar solos, and fun sample usage",
