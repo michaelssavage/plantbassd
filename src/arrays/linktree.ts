@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Burnt Offerings - Departure",
+    link: "https://soundcloud.com/plantbassdworld/premiere-burnt-offerings-departure",
+    name: "premieres",
+    description: "Emotional breakcore from Cuban duo Burnt Offerings out on Taiwan's OMB",
+  },
+  {
     title: "Henry Greenleaf - Get the Hell Out ",
     img: "/premieres/81-henry.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-henry-greenleaf-get",
