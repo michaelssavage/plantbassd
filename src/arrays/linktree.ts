@@ -11,6 +11,7 @@ export interface LinkProps {
 export const linkList: LinkProps[] = [
   {
     title: "Burnt Offerings - Departure",
+    img: "/premieres/82-burnt.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-burnt-offerings-departure",
     name: "premieres",
     description: "Emotional breakcore from Cuban duo Burnt Offerings out on Taiwan's OMB",
