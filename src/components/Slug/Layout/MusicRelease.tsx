@@ -2,6 +2,7 @@ import { ReactElement } from "react";
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
 import { BandCamp, SoundCloud } from "components/Players";
+import { Juno } from "components/Players/Juno";
 
 interface MusicReleaseProps {
   title: string;
@@ -14,6 +15,7 @@ interface MusicReleaseProps {
   standout?: string;
   embed?: string;
   soundcloudEmbed?: string;
+  junoEmbed?: string;
 }
 
 /**
@@ -30,6 +32,7 @@ export const MusicRelease = (props: MusicReleaseProps) => {
     tags,
     embed,
     soundcloudEmbed,
+    junoEmbed,
     children,
   } = props;
 
@@ -58,6 +61,7 @@ export const MusicRelease = (props: MusicReleaseProps) => {
         <div className="col-sm-12 col-md-9">
           {embed && <BandCamp src={embed} />}
           {soundcloudEmbed && <SoundCloud url={soundcloudEmbed} name={title} height="120px" />}
+          {junoEmbed && <Juno src={junoEmbed} />}
           <div className="mt-3 mb-2">{children}</div>
           {standout && (
             <div>
