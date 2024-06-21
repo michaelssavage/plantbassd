@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Ozwald - Aoife's Neck",
+    link: "https://soundcloud.com/plantbassdworld/premiere-ozwald-aoifes-neck-city-imp-records",
+    name: "premieres",
+    description: "Iconic jersey club sampling iconic Dublin culture on CITY IMP from Ozwald!",
+  },
+  {
     title: "Burnt Offerings - Departure",
     img: "/premieres/82-burnt.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-burnt-offerings-departure",
