@@ -10,7 +10,16 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Under The Radar - May",
+    img: "/under-the-radar/may-24.jpg",
+    link: "https://www.plantbassd.com/under-the-radar/may-24",
+    name: "under the radar",
+    description:
+      "Late but Great! All the best hits from May featuring post punk from Glasgow, deconstructed glitch in Istanbul, and Southern US inspired hip-hop out of Dublin (& much more).",
+  },
+  {
     title: "Ozwald - Aoife's Neck",
+    img: "/premieres/83-ozwald.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-ozwald-aoifes-neck-city-imp-records",
     name: "premieres",
     description: "Iconic jersey club sampling iconic Dublin culture on CITY IMP from Ozwald!",
