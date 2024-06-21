@@ -10,6 +10,13 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "LS - Missille Eliott (Tripalium Corp)",
+    img: "/premieres/84-ls.jpg",
+    link: "https://soundcloud.com/plantbassdworld/premiere-ls-missille-eliott-tripalium-corp",
+    name: "premieres",
+    description: "Ethos Records founder LS who reinvigorates Missy Elliot's classic 'Get Ur Freak On', with a glitching low end blitzer filled with shadowing breaks and electrified pads.",
+  },
+  {
     title: "Under The Radar - May",
     img: "/under-the-radar/may-24.jpg",
     link: "https://www.plantbassd.com/under-the-radar/may-24",
