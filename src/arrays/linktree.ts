@@ -9,6 +9,13 @@ export interface LinkProps {
 }
 
 export const linkList: LinkProps[] = [
+{
+    title: "Capon - Ancient Energy (Ethos Records)",
+    img: "/premieres/85-capon.jpg",
+    link: "https://on.soundcloud.com/eCqyn",
+    name: "premieres",
+    description: "Our featured premiere comes from Capon, with the menacing 'Ancient Energy' which surges off a pacing breaks foundation.",
+  },
   {
     title: "LS - Missille Eliott (Tripalium Corp)",
     img: "/premieres/84-ls.jpg",
