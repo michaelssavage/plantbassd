@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
 {
+    title: "Plus One - Zero Chance",
+    link: "https://soundcloud.com/plantbassdworld/5-zero-chance-wav",
+    name: "premieres",
+    description: "Dubby dancehall from Plus One on Galways budding Ar Ais Aris",
+  },
+  {
     title: "Capon - Ancient Energy (Ethos Records)",
     img: "/premieres/85-capon.jpg",
     link: "https://on.soundcloud.com/eCqyn",
