@@ -9,8 +9,9 @@ export interface LinkProps {
 }
 
 export const linkList: LinkProps[] = [
-{
+  {
     title: "Plus One - Zero Chance",
+    img: "/premieres/86-plus-one.jpg",
     link: "https://soundcloud.com/plantbassdworld/5-zero-chance-wav",
     name: "premieres",
     description: "Dubby dancehall from Plus One on Galways budding Ar Ais Aris",
@@ -20,14 +21,16 @@ export const linkList: LinkProps[] = [
     img: "/premieres/85-capon.jpg",
     link: "https://on.soundcloud.com/eCqyn",
     name: "premieres",
-    description: "Our featured premiere comes from Capon, with the menacing 'Ancient Energy' which surges off a pacing breaks foundation.",
+    description:
+      "Our featured premiere comes from Capon, with the menacing 'Ancient Energy' which surges off a pacing breaks foundation.",
   },
   {
     title: "LS - Missille Eliott (Tripalium Corp)",
     img: "/premieres/84-ls.jpg",
     link: "https://soundcloud.com/plantbassdworld/premiere-ls-missille-eliott-tripalium-corp",
     name: "premieres",
-    description: "Ethos Records founder LS who reinvigorates Missy Elliot's classic 'Get Ur Freak On', with a glitching low end blitzer filled with shadowing breaks and electrified pads.",
+    description:
+      "Ethos Records founder LS who reinvigorates Missy Elliot's classic 'Get Ur Freak On', with a glitching low end blitzer filled with shadowing breaks and electrified pads.",
   },
   {
     title: "Under The Radar - May",
