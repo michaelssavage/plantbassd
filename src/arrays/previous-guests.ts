@@ -503,10 +503,10 @@ export const guestList: GuestProps[] = [
     gig: ["https://ra.co/events/1685076"],
   },
   {
-    img: "32-mm.jpg",
+    img: "60-mm.jpg",
     link: "max_filesize/",
     name: "MM",
-    gig: ["https://ra.co/events/1685076"],
+    gig: ["https://ra.co/events/1685076", "https://ra.co/events/1929826"],
   },
   {
     img: "32-akumu.jpg",
@@ -911,5 +911,23 @@ export const guestList: GuestProps[] = [
     link: "kelsey__selky",
     name: "Kelsey",
     gig: ["https://ra.co/events/1917465"],
+  },
+  {
+    img: "60-zuli.jpg",
+    link: "zulimusic",
+    name: "Zuli",
+    gig: ["https://ra.co/events/1929826"],
+  },
+  {
+    img: "60-dija.jpg",
+    link: "_diiiija",
+    name: "Dija",
+    gig: ["https://ra.co/events/1929826"],
+  },
+  {
+    img: "60-slyn.jpg",
+    link: "_slyn___",
+    name: "slyn",
+    gig: ["https://ra.co/events/1929826"],
   },
 ];
