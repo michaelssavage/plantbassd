@@ -10,7 +10,13 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "Plus One - Zero Chance",
+    title: "Juanito - Futuraku (Trampa)",
+    link: "https://soundcloud.com/plantbassdworld/premiere-juanito-futuraku-trampa",
+    name: "premieres",
+    description: "Stripped back reggaeton from Colombian producer Juanito out on Trampa",
+  },
+  {
+    title: "Plus One - Zero Chance (AAA)",
     img: "/premieres/86-plus-one.jpg",
     link: "https://soundcloud.com/plantbassdworld/5-zero-chance-wav",
     name: "premieres",
