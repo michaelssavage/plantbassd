@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 import { HoverLink } from "components/HoverLink";
 import { Picture } from "components/Picture";
-import { BandCamp, SoundCloud } from "components/Players";
+import { BandCamp, SoundCloud, Spotify } from "components/Players";
 import { Juno } from "components/Players/Juno";
 
 interface MusicReleaseProps {
@@ -16,6 +16,7 @@ interface MusicReleaseProps {
   embed?: string;
   soundcloudEmbed?: string;
   junoEmbed?: string;
+  spotifyEmbed?: string;
 }
 
 /**
@@ -33,6 +34,7 @@ export const MusicRelease = (props: MusicReleaseProps) => {
     embed,
     soundcloudEmbed,
     junoEmbed,
+    spotifyEmbed,
     children,
   } = props;
 
@@ -58,10 +60,11 @@ export const MusicRelease = (props: MusicReleaseProps) => {
       <div className="row">
         <h3>{renderHeader()}</h3>
 
-        <div className="col-sm-12 col-md-9">
+        <div className="col-sm-12 col-md-10">
           {embed && <BandCamp src={embed} />}
           {soundcloudEmbed && <SoundCloud url={soundcloudEmbed} name={title} height="120px" />}
           {junoEmbed && <Juno src={junoEmbed} />}
+          {spotifyEmbed && <Spotify src={spotifyEmbed} />}
           <div className="mt-3 mb-2">{children}</div>
           {standout && (
             <div>
@@ -70,7 +73,7 @@ export const MusicRelease = (props: MusicReleaseProps) => {
           )}
           {tags}
         </div>
-        <div className="col-sm-12 col-md-3">
+        <div className="col-sm-12 col-md-2">
           <Picture src={pic} alt={title} size={600} />
           <HoverLink url={link} name="Link Here" external />
         </div>
