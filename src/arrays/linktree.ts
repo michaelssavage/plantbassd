@@ -10,6 +10,14 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Under The Radar - June",
+    img: "/under-the-radar/june-24.png",
+    link: "https://www.plantbassd.com/under-the-radar/june-24",
+    name: "under the radar",
+    description:
+      "June tunes! The best hits from last month featuring Dåser, Blue Hawaii, HUNTRESS & more.",
+  },
+  {
     title: "Juanito - Futuraku (Trampa)",
     link: "https://soundcloud.com/plantbassdworld/premiere-juanito-futuraku-trampa",
     name: "premieres",
