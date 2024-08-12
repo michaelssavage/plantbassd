@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Product Toss - Nomenclature (Vief)",
+    link: "https://soundcloud.com/plantbassdworld/premiere-product-toss-nomenclature",
+    name: "premieres",
+    description: "London imprint Vief return with another compilation raising funds for Palestine with the ‘Madhoun’ V/A",
+  },
+  {
     title: "Under The Radar - June",
     img: "/under-the-radar/june-24.png",
     link: "https://www.plantbassd.com/under-the-radar/june-24",
