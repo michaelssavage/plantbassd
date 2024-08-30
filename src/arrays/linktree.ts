@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Asa Nisi Masa - Drunk With All My Friends",
+    link: "https://soundcloud.com/plantbassdworld/premiere-asa-nisi-masa-drnk-with-all-my-friends",
+    name: "premieres",
+    description: "Grungey-angelic gothic electronic from Dublin's Asa Nisi Masa.",
+  },
+  {
     title: "Product Toss - Nomenclature (Vief)",
     link: "https://soundcloud.com/plantbassdworld/premiere-product-toss-nomenclature",
     name: "premieres",
