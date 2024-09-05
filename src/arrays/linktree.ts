@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Audic Veil - Sneerer (Freilichman Remix)",
+    link: "https://soundcloud.com/plantbassdworld/premiere-aulic-veil-sneerer-freilichman-remix",
+    name: "premieres",
+    description: "Glitch electro from Audic Veil on Manchester's Failed Units.",
+  },
+  {
     title: "Asa Nisi Masa - Drunk With All My Friends",
     link: "https://soundcloud.com/plantbassdworld/premiere-asa-nisi-masa-drnk-with-all-my-friends",
     name: "premieres",
