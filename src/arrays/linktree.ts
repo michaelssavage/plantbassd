@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "The JLB - My Sound",
+    link: "https://soundcloud.com/plantbassdworld/premiere-the-jlb-my-sound",
+    name: "premieres",
+    description: "JLB returns to Tobago Tracks providing a steppy haven of busty UKG.",
+  },
+  {
     title: "Aulic Veil - Sneerer (Freilichman Remix)",
     link: "https://soundcloud.com/plantbassdworld/premiere-aulic-veil-sneerer-freilichman-remix",
     name: "premieres",
