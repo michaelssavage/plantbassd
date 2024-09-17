@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Rumina - Aman",
+    link: "https://soundcloud.com/plantbassdworld/premiere-rumina-aman-over-my-body",
+    name: "premieres",
+    description: "Wizzy UK tinged dancehall from Swedish producer Rumina on Taiwanese imprint Over My Body.",
+  },
+  {
     title: "The JLB - My Sound",
     link: "https://soundcloud.com/plantbassdworld/premiere-the-jlb-my-sound",
     name: "premieres",
