@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "DrumPhill & An Avrin - Ronnie",
+    link: "https://soundcloud.com/plantbassdworld/premiere-drumphil-an-avrin-ronnie-brick-sweat-records",
+    name: "premieres",
+    description: "Glitched out bass madness from DrumPhill & An Avrin on Brick Sweat Records.",
+  },
+  {
     title: "Rumina - Aman",
     link: "https://soundcloud.com/plantbassdworld/premiere-rumina-aman-over-my-body",
     name: "premieres",
