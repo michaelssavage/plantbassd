@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "sepbtt - Y Ahora Qué?",
+    link: "https://soundcloud.com/plantbassdworld/premiere-sepbtt-y-ahora-que-minuit-rapide",
+    name: "premieres",
+    description: "Bouncy Hard tek from Colombian producer sepbtt on Marseille's Minuit Rapide.",
+  },
+  {
     title: "DrumPhill & An Avrin - Ronnie",
     link: "https://soundcloud.com/plantbassdworld/premiere-drumphil-an-avrin-ronnie-brick-sweat-records",
     name: "premieres",
