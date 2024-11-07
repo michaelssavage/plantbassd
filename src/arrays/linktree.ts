@@ -10,6 +10,18 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "SweatBox x LUCKYME presents Bianca Oblivion & oBrother",
+    link: "https://ra.co/events/2033473",
+    name: "tickets",
+    description: "Closing out SweatBox for 2024, Los Angeles globe trotter Bianca Oblivion joins us at the Sneaky House in collaboration with the Edinburgh legendary LuckyMe."
+  },
+  {
+    title: "SMT3X - Tormenta",
+    link: "https://soundcloud.com/plantbassdworld/premiere-smt3x-tormenta-over-my-body",
+    name: "premieres",
+    description: "Alluring vocal-heavy reggaeton from French duo SMT3X on Taiwanese label Over My Body.",
+  },
+  {
     title: "sepbtt - Y Ahora Qué?",
     link: "https://soundcloud.com/plantbassdworld/premiere-sepbtt-y-ahora-que-minuit-rapide",
     name: "premieres",
