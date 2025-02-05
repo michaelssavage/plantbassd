@@ -10,10 +10,10 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "SweatBox x LUCKYME presents Bianca Oblivion & oBrother",
-    link: "https://ra.co/events/2033473",
-    name: "tickets",
-    description: "Closing out SweatBox for 2024, Los Angeles globe trotter Bianca Oblivion joins us at the Sneaky House in collaboration with the Edinburgh legendary LuckyMe."
+    title: "XXXX In Stereo - Takuya",
+    link: "https://soundcloud.com/plantbassdworld/xxxx-in-stereo-takuya-inhabit-records",
+    name: "premieres",
+    description: "XXXX In Stereo drops his latest EP with Misha Freshin's inHabit Records.",
   },
   {
     title: "SMT3X - Tormenta",
