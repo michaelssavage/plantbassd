@@ -10,6 +10,18 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Celtic Erections Tickets",
+    link: "https://ra.co/promoters/103854",
+    name: "tickets",
+    description: "Our St. Patrick's Party extends to a 3 day programme this year across Glasgow and Edinburgh from March 15th-17th",
+  },
+  {
+    title: "Boyfrens - The Layby (Jack Ward Remix)",
+    link: "https://soundcloud.com/plantbassdworld/boyfrens-the-layby-jack-ward",
+    name: "premieres",
+    description: "Dreamy pop house as Limerick's Jack Ward reworks Dubliner Boyfrens original club groove",
+  },
+  {
     title: "XXXX In Stereo - Takuya",
     link: "https://soundcloud.com/plantbassdworld/xxxx-in-stereo-takuya-inhabit-records",
     name: "premieres",
