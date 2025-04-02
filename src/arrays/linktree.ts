@@ -10,10 +10,10 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
-    title: "Celtic Erections Tickets",
-    link: "https://ra.co/promoters/103854",
-    name: "tickets",
-    description: "Our St. Patrick's Party extends to a 3 day programme this year across Glasgow and Edinburgh from March 15th-17th",
+    title: "adge - psycho-ceramic",
+    link: "https://soundcloud.com/plantbassdworld/premiere-adge-psycho-ceramic-ethereal-skies",
+    name: "premieres",
+    description: "Dublin's Ethereal Skies returns with its next V/A, Aerga Vol. 2, featuring this tekky hard drum opener from adge.",
   },
   {
     title: "Boyfrens - The Layby (Jack Ward Remix)",
