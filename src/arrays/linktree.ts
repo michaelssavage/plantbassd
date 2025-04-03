@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Microcosm - Yoyo",
+    link: "https://soundcloud.com/plantbassdworld/premiere-microcosm-yoyo-inhabit-recordings",
+    name: "premieres",
+    description: "Dark jungle from Donegal's Microcosm out via inHabit Recordings (Dublin)",
+  },
+  {
     title: "adge - psycho-ceramic",
     link: "https://soundcloud.com/plantbassdworld/premiere-adge-psycho-ceramic-ethereal-skies",
     name: "premieres",
