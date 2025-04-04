@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "DESPOTE/FROST (Galtier Remix) - SMT3X feat. Slickback",
+    link: "https://soundcloud.com/plantbassdworld/smt3x-feat-slikback-despotefrost-galtier-remix",
+    name: "premieres",
+    description: "Hybrid drums from Galtier on SMT3X x Slickback's 'DESPOTE/FROST'.",
+  },
+  {
     title: "Microcosm - Yoyo",
     link: "https://soundcloud.com/plantbassdworld/premiere-microcosm-yoyo-inhabit-recordings",
     name: "premieres",
