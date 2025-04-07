@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Fictional Character - Ika Sile",
+    link: "https://soundcloud.com/plantbassdworld/premiere-ika-sile-fictional-character-brick-sweat-records",
+    name: "premieres",
+    description: "electro fused breaks from Ika Sile on Brick Sweat Records",
+  },
+  {
     title: "DESPOTE/FROST (Galtier Remix) - SMT3X feat. Slickback",
     link: "https://soundcloud.com/plantbassdworld/smt3x-feat-slikback-despotefrost-galtier-remix",
     name: "premieres",
