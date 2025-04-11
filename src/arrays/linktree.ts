@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Ascendancy - Max Dahlhaus",
+    link: "https://soundcloud.com/plantbassdworld/premiere-max-dahlhaus-ascendancy-over-my-body",
+    name: "premieres",
+    description: "Big beat driven hard drum grooves from Max Dahlhaus on Taiwan's Over My Body",
+  },
+  {
     title: "Fictional Character - Ika Sile",
     link: "https://soundcloud.com/plantbassdworld/premiere-ika-sile-fictional-character-brick-sweat-records",
     name: "premieres",
