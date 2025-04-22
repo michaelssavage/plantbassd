@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "What It's All About - Clare Durant & Hartta",
+    link: "https://soundcloud.com/plantbassdworld/premiere-clare-durant-hartta-what-its-all-about-dead-trax",
+    name: "premieres",
+    description: "Soulwaxian tech house from Clare Durant & Hartta on Dead Trax",
+  },
+  {
     title: "Ascendancy - Max Dahlhaus",
     link: "https://soundcloud.com/plantbassdworld/premiere-max-dahlhaus-ascendancy-over-my-body",
     name: "premieres",
