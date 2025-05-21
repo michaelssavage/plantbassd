@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Reggaeton Dream - Lúnasa",
+    link: "https://soundcloud.com/plantbassdworld/premiere-lunasa-reggaeton-dream-reasons-to-dance",
+    name: "premieres",
+    description: "Lúnasa unleashes a body fevered ode to reggaeton on this steadied mover",
+  },
+  {
     title: "What It's All About - Clare Durant & Hartta",
     link: "https://soundcloud.com/plantbassdworld/premiere-clare-durant-hartta-what-its-all-about-dead-trax",
     name: "premieres",
