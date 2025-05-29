@@ -10,6 +10,18 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "AIR CRASH INVESTIGATIONS - Morgan Bitters",
+    link: "https://soundcloud.com/plantbassdworld/premiere-morgan-bitters-air-crash-investigations-trampa",
+    name: "premieres",
+    description: "Boisterous Hard Bounce from Melbourne’s Morgan Bitters on Colombian label TRAMPA.",
+  },
+  {
+    title: "Frenzy - Kue",
+    link: "https://soundcloud.com/plantbassdworld/premiere-kue-frenzy-minuit-rapide",
+    name: "premieres",
+    description: "Hypnotic tribal bass from Sao Paolo's Kue on Minuit Rapide.",
+  },
+  {
     title: "Reggaeton Dream - Lúnasa",
     link: "https://soundcloud.com/plantbassdworld/premiere-lunasa-reggaeton-dream-reasons-to-dance",
     name: "premieres",
