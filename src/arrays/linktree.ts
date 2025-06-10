@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "BOTULISM (Mulholland Remix) - Budalagi",
+    link: "https://soundcloud.com/plantbassdworld/premiere-budalagi-botulism-mulholland-remix",
+    name: "premieres",
+    description: "High octane gqom as Mulholland remixes Budalagi on Vief Records.",
+  },
+  {
     title: "AIR CRASH INVESTIGATIONS - Morgan Bitters",
     link: "https://soundcloud.com/plantbassdworld/premiere-morgan-bitters-air-crash-investigations-trampa",
     name: "premieres",
