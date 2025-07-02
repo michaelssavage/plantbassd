@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Sui - WRACK",
+    link: "https://soundcloud.com/plantbassdworld/premiere-wrack-sui-over-my-body",
+    name: "premieres",
+    description: "Brassy reggaeton club from Japan's WRACK on OverMyBody.",
+  },
+  {
     title: "BOTULISM (Mulholland Remix) - Budalagi",
     link: "https://soundcloud.com/plantbassdworld/premiere-budalagi-botulism-mulholland-remix",
     name: "premieres",
