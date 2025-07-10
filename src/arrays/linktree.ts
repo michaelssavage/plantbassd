@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Ovid - North From Here",
+    link: "https://soundcloud.com/plantbassdworld/premiere-ovid-north-from-here-flood",
+    name: "premieres",
+    description: "Funky filtered hard drum from D.C.'s Ovid out on Cork label Flood.",
+  },
+  {
     title: "Sui - WRACK",
     link: "https://soundcloud.com/plantbassdworld/premiere-wrack-sui-over-my-body",
     name: "premieres",
