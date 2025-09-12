@@ -10,10 +10,16 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "RIOS - Get Nasty Get Freaky",
+    link: "https://soundcloud.com/plantbassdworld/premiere-rios-extasis-03-get-nasty-get-freaky",
+    name: "premieres",
+    description: "A sonic journey to the heart of Latincore from RIOS",
+  },
+  {
     title: "Ovid - North From Here",
     link: "https://soundcloud.com/plantbassdworld/premiere-ovid-north-from-here-flood",
     name: "premieres",
-    description: "Funky filtered hard drum from D.C.'s Ovid out on Cork label Flood.",
+    description: "Funk filtered hard drum from D.C.'s Ovid out on Cork label Flood.",
   },
   {
     title: "Sui - WRACK",
@@ -335,3 +341,4 @@ export const mainLinks: LinkProps[] = [
     name: "contact us",
   },
 ];
+
