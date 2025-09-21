@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "SMT3X - FUCKMONCOEUR",
+    link: "https://soundcloud.com/plantbassdworld/premiere-smt3x-fuckmoncoeur-tripalium-corp",
+    name: "premieres",
+    description: "Hardcore bass from Parisian duo SMT3X",
+  },
+  {
     title: "RIOS - Get Nasty Get Freaky",
     link: "https://soundcloud.com/plantbassdworld/premiere-rios-extasis-03-get-nasty-get-freaky",
     name: "premieres",
@@ -341,4 +347,5 @@ export const mainLinks: LinkProps[] = [
     name: "contact us",
   },
 ];
+
 
