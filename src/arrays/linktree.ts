@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "祐曦Yau Hei - FREQUCY",
+    link: "https://soundcloud.com/plantbassdworld/premiere-yau-hei-frequcy-over-my-body",
+    name: "premieres",
+    description: "Atmospheric drum fuelled trance from Bristol based 祐曦Yau Hei",
+  },
+  {
     title: "SMT3X - FUCKMONCOEUR",
     link: "https://soundcloud.com/plantbassdworld/premiere-smt3x-fuckmoncoeur-tripalium-corp",
     name: "premieres",
@@ -347,5 +353,6 @@ export const mainLinks: LinkProps[] = [
     name: "contact us",
   },
 ];
+
 
 
