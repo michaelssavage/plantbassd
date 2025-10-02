@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Digital Diogenes - Abajo El Fascismo",
+    link: "https://soundcloud.com/plantbassdworld/premiere-digital-diogenes-abajo-el-fascismo-flumo-recordings",
+    name: "premieres",
+    description: "Jackin' Chicago house from Seville's Digital Diogenes on Flumo Recs",
+  },
+  {
     title: "祐曦Yau Hei - FREQUCY",
     link: "https://soundcloud.com/plantbassdworld/premiere-yau-hei-frequcy-over-my-body",
     name: "premieres",
@@ -353,6 +359,7 @@ export const mainLinks: LinkProps[] = [
     name: "contact us",
   },
 ];
+
 
 
 
