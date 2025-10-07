@@ -10,6 +10,12 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "Pitch037 - Headrush",
+    link: "https://soundcloud.com/plantbassdworld/premiere-pitch037-headrush-inhabit-recordings",
+    name: "premieres",
+    description: "A gritty minimal bass roller from Pitch037 on Dublin's inHabit Recordings",
+  },
+  {
     title: "Digital Diogenes - Abajo El Fascismo",
     link: "https://soundcloud.com/plantbassdworld/premiere-digital-diogenes-abajo-el-fascismo-flumo-recordings",
     name: "premieres",
@@ -359,6 +365,7 @@ export const mainLinks: LinkProps[] = [
     name: "contact us",
   },
 ];
+
 
 
 
