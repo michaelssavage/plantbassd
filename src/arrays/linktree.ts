@@ -10,6 +10,18 @@ export interface LinkProps {
 
 export const linkList: LinkProps[] = [
   {
+    title: "SweatBox x Redstone Press with Kode9, Toumba + support at the Flying Duck",
+    link: "https://ra.co/events/2277901",
+    name: "tickets",
+    description: "SweatBox returns this December 6th for a very special show in collab with Redstone Press",
+  },
+  {
+    title: "haana lee - mantilija",
+    link: "https://soundcloud.com/plantbassdworld/premiere-haana-lee-mantilija",
+    name: "premieres",
+    description: "Textured ambient from haana lee's debut album",
+  },
+  {
     title: "Pitch037 - Headrush",
     link: "https://soundcloud.com/plantbassdworld/premiere-pitch037-headrush-inhabit-recordings",
     name: "premieres",
@@ -365,6 +377,7 @@ export const mainLinks: LinkProps[] = [
     name: "contact us",
   },
 ];
+
 
 
 
