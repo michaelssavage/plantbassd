@@ -16,6 +16,12 @@ export const linkList: LinkProps[] = [
     description: "SweatBox returns this December 6th for a very special show in collab with Redstone Press",
   },
   {
+    title: "Kaval - Quack",
+    link: "https://soundcloud.com/plantbassdworld/premiere-kaval-quack-minuit-rapide",
+    name: "premieres",
+    description: "Funky drum shuffler from Kaval on Minuit Rapide's Palestine Fundraiser V/A."
+  },
+  {
     title: "haana lee - mantilija",
     link: "https://soundcloud.com/plantbassdworld/premiere-haana-lee-mantilija",
     name: "premieres",
@@ -377,6 +383,7 @@ export const mainLinks: LinkProps[] = [
     name: "contact us",
   },
 ];
+
 
 
 
