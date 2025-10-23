@@ -16,6 +16,12 @@ export const linkList: LinkProps[] = [
     description: "SweatBox returns this December 6th for a very special show in collab with Redstone Press",
   },
   {
+    title: "Fareed - Late Chiefs",
+    link: "https://soundcloud.com/plantbassdworld/premiere-fareed-late-chiefs-maze",
+    name: "premieres",
+    description: "Arabic Hard Drum from Fareed on Parisian label MAZE.",
+  },
+  {
     title: "Kaval - Quack",
     link: "https://soundcloud.com/plantbassdworld/premiere-kaval-quack-minuit-rapide",
     name: "premieres",
@@ -383,6 +389,7 @@ export const mainLinks: LinkProps[] = [
     name: "contact us",
   },
 ];
+
 
 
 
