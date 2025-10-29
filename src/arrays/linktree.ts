@@ -16,6 +16,12 @@ export const linkList: LinkProps[] = [
     description: "SweatBox returns this December 6th for a very special show in collab with Redstone Press",
   },
   {
+    title: "Pixl - Sacred Visions",
+    link: "https://soundcloud.com/plantbassdworld/premiere-pixl-sacred-visions-inhabit-recordings",
+    name: "premieres",
+    description: "Surgent jungle from Leeds producer Pixl on inHabit's 7th birthday compilation",
+  },
+  {
     title: "Donija - x001SVE (iffi Remix)",
     link: "https://soundcloud.com/plantbassdworld/premiere-donija-x001sve-iffi-remix-peace-tomorrow",
     name: "premieres",
@@ -395,6 +401,7 @@ export const mainLinks: LinkProps[] = [
     name: "contact us",
   },
 ];
+
 
 
 
