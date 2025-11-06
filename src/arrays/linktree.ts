@@ -16,6 +16,12 @@ export const linkList: LinkProps[] = [
     description: "SweatBox returns this December 6th for a very special show in collab with Redstone Press",
   },
   {
+    title: "Waveform Kru NYC - Come With Me",
+    link: "https://soundcloud.com/plantbassdworld/premiere-waveform-kru-nyc-come-with-me-inhabit-recordings",
+    name: "premieres",
+    description: "inHabit Recordings continue their 7th birthday celebrations with another single from their forthcoming V/A",
+  },
+  {
     title: "Pixl - Sacred Visions",
     link: "https://soundcloud.com/plantbassdworld/premiere-pixl-sacred-visions-inhabit-recordings",
     name: "premieres",
@@ -401,6 +407,7 @@ export const mainLinks: LinkProps[] = [
     name: "contact us",
   },
 ];
+
 
 
 
