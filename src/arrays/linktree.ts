@@ -16,6 +16,12 @@ export const linkList: LinkProps[] = [
     description: "SweatBox returns this December 6th for a very special show in collab with Redstone Press",
   },
   {
+    title: "Lo Chi - Dead Man's Swithc",
+    link: "https://soundcloud.com/plantbassdworld/premiere-lo-chi-dead-mans-switch-dead-trax",
+    name: "premieres",
+    description: "Techy drum from Lo Chi on Dead Trax",
+  },
+  {
     title: "Waveform Kru NYC - Come With Me",
     link: "https://soundcloud.com/plantbassdworld/premiere-waveform-kru-nyc-come-with-me-inhabit-recordings",
     name: "premieres",
@@ -407,6 +413,7 @@ export const mainLinks: LinkProps[] = [
     name: "contact us",
   },
 ];
+
 
 
 
