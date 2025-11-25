@@ -16,7 +16,13 @@ export const linkList: LinkProps[] = [
     description: "SweatBox returns this December 6th for a very special show in collab with Redstone Press",
   },
   {
-    title: "Lo Chi - Dead Man's Swithc",
+    title: "k:i:o:s:k - Sky Shell",
+    link: "https://soundcloud.com/plantbassdworld/premiere-kiosk-sky-shell-vief-records",
+    name: "premieres",
+    description: "Vief Records put forward their annual V/A, this year in aid of Palestine Solidarity Campaign",
+  },
+  {
+    title: "Lo Chi - Dead Man's Switch",
     link: "https://soundcloud.com/plantbassdworld/premiere-lo-chi-dead-mans-switch-dead-trax",
     name: "premieres",
     description: "Techy drum from Lo Chi on Dead Trax",
@@ -413,6 +419,7 @@ export const mainLinks: LinkProps[] = [
     name: "contact us",
   },
 ];
+
 
 
 
